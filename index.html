@@ -175,27 +175,45 @@ const AT={
   L:["Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿","Croácia 🇭🇷","Gana 🇬🇭","Panamá 🇵🇦"]
 };
 
-// ── FAVORITOS — CORRIGIDO ─────────────────────────────────────────────────────
-function tkey(s){return s.replace(/[^\p{L}\p{N}]/gu,"").toLowerCase();}
+// ── FAVORITOS ─────────────────────────────────────────────────────────────────
+// tkey: extrai só letras/números para comparação — resolve emojis complexos
+function tkey(s){
+  return (s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"")
+    .replace(/[^a-zA-Z0-9]/g,"").toLowerCase();
+}
 const DEFAULT_FAVS=["Brasil 🇧🇷","Croácia 🇭🇷"];
 let FAVS=[...DEFAULT_FAVS];
-try{
-  const raw=JSON.parse(localStorage.getItem("copa_favs")||"null");
-  if(Array.isArray(raw)&&raw.length>0){
-    // Deduplica ao carregar — corrige localStorage corrompido
-    const seen=new Set();
-    FAVS=raw.filter(f=>{const k=tkey(f);if(seen.has(k))return false;seen.add(k);return true;});
-    localStorage.setItem("copa_favs",JSON.stringify(FAVS));
-  }
-}catch(e){FAVS=[...DEFAULT_FAVS];}
 
-function isFav(name){return FAVS.some(f=>tkey(f)===tkey(name));}
-function toggleFav(name){
-  const idx=FAVS.findIndex(f=>tkey(f)===tkey(name));
-  if(idx>=0)FAVS.splice(idx,1);else if(!FAVS.some(f=>tkey(f)===tkey(name)))FAVS.push(name);
-  try{localStorage.setItem("copa_favs",JSON.stringify(FAVS));}catch(e){}
-  render();
+function loadFavs(){
+  try{
+    const raw=JSON.parse(localStorage.getItem("copa_favs")||"null");
+    if(!Array.isArray(raw)){FAVS=[...DEFAULT_FAVS];return;}
+    // Deduplica hard — remove qualquer duplicado por tkey
+    const seen=new Set();
+    FAVS=raw.filter(f=>{
+      if(!f||typeof f!=="string")return false;
+      const k=tkey(f);
+      if(!k||seen.has(k))return false;
+      seen.add(k);return true;
+    });
+    if(FAVS.length===0)FAVS=[...DEFAULT_FAVS];
+  }catch(e){FAVS=[...DEFAULT_FAVS];}
+  saveFavs();
 }
+function saveFavs(){try{localStorage.setItem("copa_favs",JSON.stringify(FAVS));}catch(e){}}
+function clearFavs(){FAVS=[];saveFavs();render();}
+function isFav(name){const k=tkey(name);return FAVS.some(f=>tkey(f)===k);}
+function toggleFav(name){
+  const k=tkey(name);
+  const idx=FAVS.findIndex(f=>tkey(f)===k);
+  if(idx>=0)FAVS.splice(idx,1);
+  else FAVS.push(name);
+  // Garante sem duplicados
+  const seen=new Set();
+  FAVS=FAVS.filter(f=>{const fk=tkey(f);if(seen.has(fk))return false;seen.add(fk);return true;});
+  saveFavs();render();
+}
+loadFavs();
 
 // ── DADOS ──────────────────────────────────────────────────────────────────────
 let RES=[
@@ -424,9 +442,11 @@ function bFavs(){
   });
   const chips=FAVS.map(f=>`<div class="chip" onclick="toggleFav('${f}')">${f} <span class="x">✕</span></div>`).join("");
   const tbtns=Object.values(AT).flat().map(t=>`<button class="tbtn${isFav(t)?" on":""}" onclick="toggleFav('${t}')">${t}</button>`).join("");
+  const clearBtn=FAVS.length>0?`<button onclick="clearFavs()" style="margin-top:8px;background:#1a0505;border:1px solid #4a1515;color:#f87171;padding:5px 14px;border-radius:4px;cursor:pointer;font-size:10px;font-family:Georgia,serif;letter-spacing:1px">🗑 LIMPAR TUDO</button>`:"";
   let h=alerts;
   h+=`<div class="favsec"><div class="favtitle">⭐ SELEÇÕES FAVORITAS</div>
     <div class="favchips">${chips||'<span style="color:#333;font-size:11px">Nenhuma selecionada</span>'}</div>
+    ${clearBtn}
     <div class="tgridlbl">ADICIONAR / REMOVER</div>
     <div class="tgrid">${tbtns}</div></div>`;
   if(favLive.length){h+=lbl("🔴 AO VIVO");favLive.forEach(r=>{h+=card(r,true);});}
