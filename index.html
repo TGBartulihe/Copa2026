@@ -229,21 +229,25 @@ let RES=[
   {g:"E",home:"C. do Marfim 🇨🇮",away:"Equador 🇪🇨",sh:1,sa:0,date:"14/06",brTime:"20h",done:true,note:"Elefantes vencem no susto · Filadélfia"},
   {g:"F",home:"Holanda 🇳🇱",away:"Japão 🇯🇵",sh:2,sa:2,date:"14/06",brTime:"17h",done:true,note:"Japão empata no 2T · Dallas"},
   {g:"F",home:"Suécia 🇸🇪",away:"Tunísia 🇹🇳",sh:5,sa:1,date:"14/06",brTime:"23h",done:true,note:"Isak decisivo · Monterrey"},
-  {g:"G",home:"Bélgica 🇧🇪",away:"Egito 🇪🇬",sh:1,sa:1,date:"15/06",brTime:"16h",done:false,live:true,clock:"71",venue:"Seattle",
+  {g:"G",home:"Bélgica 🇧🇪",away:"Egito 🇪🇬",sh:1,sa:1,date:"15/06",brTime:"16h",done:true,live:false,venue:"Seattle",
+   note:"Ashour 19' · Hany OG 66' (Lukaku entrou 22s antes) · Empate",
    events:[
     {min:"19",icon:"⚽",txt:"Emam Ashour",sub:"Egito 🇪🇬 · 0–1"},
     {min:"66",icon:"⚽",txt:"Mohamed Hany (OG)",sub:"Bélgica 🇧🇪 · empata 1–1"},
+    {min:"66",icon:"🔄",txt:"Romelu Lukaku entra",sub:"Bélgica 🇧🇪 · 22 segundos antes do OG"},
+    {min:"33",icon:"🟨",txt:"Ahmed Fatouh",sub:"Egito 🇪🇬"},
     {min:"14",icon:"🟨",txt:"Timothy Castagne",sub:"Bélgica 🇧🇪"},
     {min:"12",icon:"🟨",txt:"Marwan Attia",sub:"Egito 🇪🇬"},
-    {min:"33",icon:"🟨",txt:"Ahmed Fatouh",sub:"Egito 🇪🇬"},
   ]},
-  {g:"G",home:"Irã 🇮🇷",away:"Nova Zelândia 🇳🇿",sh:null,sa:null,date:"15/06",brTime:"22h",done:false,venue:"Los Angeles"},
-  {g:"H",home:"Espanha 🇪🇸",away:"Cabo Verde 🇨🇻",sh:0,sa:0,date:"15/06",brTime:"13h",done:true,note:"⚡ SURPRESA! Cabo Verde segura Espanha · Atlanta"},
-  {g:"H",home:"Arábia Saudita 🇸🇦",away:"Uruguai 🇺🇾",sh:null,sa:null,date:"15/06",brTime:"19h",done:false,venue:"Nova York"},
-  {g:"I",home:"França 🇫🇷",away:"Senegal 🇸🇳",sh:null,sa:null,date:"16/06",brTime:"16h",done:false,venue:"Los Angeles"},
-  {g:"I",home:"Iraque 🇮🇶",away:"Noruega 🇳🇴",sh:null,sa:null,date:"16/06",brTime:"19h",done:false,venue:"Boston"},
-  {g:"J",home:"Argentina 🇦🇷",away:"Argélia 🇩🇿",sh:null,sa:null,date:"16/06",brTime:"22h",done:false,venue:"Miami"},
-  {g:"J",home:"Áustria 🇦🇹",away:"Jordânia 🇯🇴",sh:null,sa:null,date:"17/06",brTime:"01h",done:false,venue:"Kansas City"},
+  {g:"G",home:"Irã 🇮🇷",away:"Nova Zelândia 🇳🇿",sh:2,sa:2,date:"15/06",brTime:"22h",done:true,live:false,venue:"Los Angeles",
+   note:"Empate dramático · Taremi decisivo"},
+  {g:"H",home:"Espanha 🇪🇸",away:"Cabo Verde 🇨🇻",sh:0,sa:0,date:"15/06",brTime:"13h",done:true,live:false,note:"⚡ SURPRESA! Cabo Verde segura Espanha · Atlanta"},
+  {g:"H",home:"Arábia Saudita 🇸🇦",away:"Uruguai 🇺🇾",sh:1,sa:1,date:"15/06",brTime:"19h",done:true,live:false,venue:"Miami",
+   note:"Al-Amri abre · Bentancur empata · Miami"},
+  {g:"I",home:"França 🇫🇷",away:"Senegal 🇸🇳",sh:null,sa:null,date:"16/06",brTime:"16h",done:false,live:false,venue:"Los Angeles"},
+  {g:"I",home:"Iraque 🇮🇶",away:"Noruega 🇳🇴",sh:null,sa:null,date:"16/06",brTime:"19h",done:false,live:false,venue:"Boston"},
+  {g:"J",home:"Argentina 🇦🇷",away:"Argélia 🇩🇿",sh:null,sa:null,date:"16/06",brTime:"22h",done:false,live:false,venue:"Miami"},
+  {g:"J",home:"Áustria 🇦🇹",away:"Jordânia 🇯🇴",sh:null,sa:null,date:"17/06",brTime:"01h",done:false,live:false,venue:"Kansas City"},
   {g:"K",home:"Portugal 🇵🇹",away:"RD Congo 🇨🇩",sh:null,sa:null,date:"17/06",brTime:"14h",done:false,venue:"Boston"},
   {g:"K",home:"Uzbequistão 🇺🇿",away:"Colômbia 🇨🇴",sh:null,sa:null,date:"17/06",brTime:"21h",done:false,venue:"Seattle"},
   {g:"L",home:"Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",away:"Croácia 🇭🇷",sh:null,sa:null,date:"17/06",brTime:"17h",done:false,venue:"Nova York"},
@@ -332,22 +336,56 @@ async function fetchESPN(){
   return evs.length;
 }
 
+// Palavras que indicam eventos irrelevantes — filtrar fora
+const SKIP_WORDS=["delay","drink","half begins","kick off","kick-off","end of","period begins","weather","var check concluded","attendance","whistle"];
+function isRelevantEvent(p){
+  const txt=(p.text||p.shortText||"").toLowerCase();
+  if(SKIP_WORDS.some(w=>txt.includes(w)))return false;
+  const typ=(p.type?.text||p.type?.id||"").toLowerCase();
+  // Só incluir se tiver icon relevante OU texto com nome de jogador
+  const hasIcon=typ.includes("goal")||typ.includes("card")||typ.includes("sub")||typ.includes("yellow")||typ.includes("red");
+  const hasClock=p.clock?.displayValue&&parseInt(p.clock.displayValue)>0;
+  return hasIcon||(hasClock&&txt.length>3&&!SKIP_WORDS.some(w=>txt.includes(w)));
+}
+
+function getIcon(p){
+  const typ=(p.type?.text||p.type?.id||"").toLowerCase();
+  const txt=(p.text||"").toLowerCase();
+  if(typ.includes("goal")||txt.includes("goal")) return typ.includes("own")||txt.includes("(og)")?"⚽ OG":"⚽";
+  if(typ.includes("yellow red")||typ.includes("second yellow"))return"🟥";
+  if(typ.includes("yellow"))return"🟨";
+  if(typ.includes("red"))return"🟥";
+  if(typ.includes("sub"))return"🔄";
+  if(typ.includes("penalty")||txt.includes("penalty"))return"⚽🎯";
+  return null; // null = skip
+}
+
 async function fetchEventDetails(evId,hName,aName){
   try{
     const r=await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=${evId}`,{cache:"no-cache"});
     if(!r.ok)return;
     const data=await r.json();
-    const plays=data.plays||data.keyEvents||[];
+    // ESPN pode devolver em plays ou keyEvents
+    const plays=[...(data.keyEvents||[]),(data.plays||[])].flat();
     if(!plays.length)return;
-    const events=plays.slice(-15).reverse().map(p=>{
-      const typ=(p.type?.text||"").toLowerCase();
-      const icon=typ.includes("goal")?"⚽":typ.includes("yellow red")?"🟥":typ.includes("yellow")?"🟨":typ.includes("red")?"🟥":typ.includes("sub")?"🔄":"•";
-      return{min:p.clock?.displayValue||"",icon,txt:p.text||p.shortText||"",sub:p.team?.displayName||""};
-    }).filter(e=>e.icon!=="•"||e.txt);
-    // Apply to matching game
+    const events=plays
+      .filter(isRelevantEvent)
+      .map(p=>{
+        const icon=getIcon(p);
+        if(!icon)return null;
+        const min=p.clock?.displayValue||p.period?.clock||"";
+        const txt=p.text||p.participants?.[0]?.athlete?.displayName||p.shortText||"";
+        const sub=p.team?.displayName||"";
+        return{min,icon,txt,sub};
+      })
+      .filter(Boolean)
+      .reverse(); // mais recente primeiro
+    if(!events.length)return;
     RES.forEach(r=>{
-      if(r.live&&(tkey(r.home).includes(tkey(hName).slice(0,4))||tkey(r.away).includes(tkey(aName).slice(0,4)))){
-        if(events.length)r.events=events;
+      if(!r.live)return;
+      const hk=tkey(hName).slice(0,5),ak=tkey(aName).slice(0,5);
+      if(tkey(r.home).includes(hk)||tkey(r.away).includes(ak)){
+        r.events=events;
       }
     });
     render();
@@ -373,6 +411,7 @@ async function fetchSDB(){
 function setSrc(cls,txt){const el=document.getElementById("srcbar");el.className=`src-bar ${cls}`;el.textContent=txt;}
 
 async function fetchData(){
+  autoExpireLiveGames(); // primeiro garante que jogos antigos não ficam presos
   setSrc("loading","⟳ Conectando...");
   try{const c=await fetchESPN();setSrc("espn",`✅ ESPN ao vivo · ${c} jogos`);adaptRefresh();updateTS();render();return;}catch(e){}
   try{const c=await fetchSDB();setSrc("sdb",`🔵 TheSportsDB backup · ${c} atualizados`);updateTS();render();return;}catch(e){}
@@ -385,6 +424,21 @@ function adaptRefresh(){
   const hasLive=RES.some(r=>r.live);
   const iv=hasFavLive?15000:hasLive?30000:60000;
   refreshIv=setInterval(fetchData,iv);
+}
+
+// Salvaguarda: jogos de dias anteriores nunca ficam presos como "live"
+function autoExpireLiveGames(){
+  const today=new Date();
+  const todayStr=`${String(today.getDate()).padStart(2,"0")}/${String(today.getMonth()+1).padStart(2,"0")}`;
+  RES.forEach(r=>{
+    if(!r.live)return;
+    // Se a data do jogo não é hoje, encerra automaticamente
+    if(r.date && r.date!==todayStr){
+      r.live=false;
+      // Se não tem placar, marca como encerrado com placar desconhecido
+      if(!r.done){ r.done=true; r.note=(r.note||"")+" · resultado atualizar"; }
+    }
+  });
 }
 
 // ── CLASSIFICAÇÃO ──────────────────────────────────────────────────────────────
@@ -572,9 +626,9 @@ function glbl(g,mt){return `<div class="glbl${mt?" mt":""}" style="color:${GC[g]
 function ft(r){if(!r.brTime)return{time:"",date:r.date||""};return localTime(r.brTime,r.date);}
 
 function buildEvBox(r){
-  const evs=r.events||[];
-  if(!evs.length)return `<div class="evbox"><div class="evnone">⟳ Aguardando eventos da ESPN...</div></div>`;
-  const rows=evs.slice(0,8).map(e=>`<div class="evrow">
+  const evs=(r.events||[]).filter(e=>e.icon&&e.icon!=="•");
+  if(!evs.length)return `<div class="evbox"><div class="evnone">Sem golos ou cartões até ao momento</div></div>`;
+  const rows=evs.slice(0,10).map(e=>`<div class="evrow">
     <div class="evmin">${e.min?e.min+"'":""}</div>
     <div class="evico">${e.icon}</div>
     <div><div class="evtxt">${e.txt}</div>${e.sub?`<div class="evsub">${e.sub}</div>`:""}</div>
