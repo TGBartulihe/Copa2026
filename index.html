@@ -244,10 +244,31 @@ let RES=[
   {g:"H",home:"Espanha 🇪🇸",away:"Cabo Verde 🇨🇻",sh:0,sa:0,date:"15/06",brTime:"13h",done:true,live:false,note:"⚡ SURPRESA! Cabo Verde segura Espanha · Atlanta"},
   {g:"H",home:"Arábia Saudita 🇸🇦",away:"Uruguai 🇺🇾",sh:1,sa:1,date:"15/06",brTime:"19h",done:true,live:false,venue:"Miami",
    note:"Al-Amri abre · Bentancur empata · Miami"},
-  {g:"I",home:"França 🇫🇷",away:"Senegal 🇸🇳",sh:null,sa:null,date:"16/06",brTime:"16h",done:false,live:false,venue:"Los Angeles"},
-  {g:"I",home:"Iraque 🇮🇶",away:"Noruega 🇳🇴",sh:null,sa:null,date:"16/06",brTime:"19h",done:false,live:false,venue:"Boston"},
-  {g:"J",home:"Argentina 🇦🇷",away:"Argélia 🇩🇿",sh:null,sa:null,date:"16/06",brTime:"22h",done:false,live:false,venue:"Miami"},
-  {g:"J",home:"Áustria 🇦🇹",away:"Jordânia 🇯🇴",sh:null,sa:null,date:"17/06",brTime:"01h",done:false,live:false,venue:"Kansas City"},
+  {g:"I",home:"França 🇫🇷",away:"Senegal 🇸🇳",sh:3,sa:1,date:"16/06",brTime:"16h",done:true,live:false,venue:"Nova York",
+   note:"Mbappé 2x · torna-se artilheiro histórico da França · Mané tarde demais",
+   events:[
+    {min:"23",icon:"⚽",txt:"Kylian Mbappé",sub:"França 🇫🇷 · 1–0"},
+    {min:"51",icon:"⚽",txt:"Kylian Mbappé",sub:"França 🇫🇷 · 2–0 · recorde histórico"},
+    {min:"67",icon:"⚽",txt:"Sadio Mané",sub:"Senegal 🇸🇳 · 2–1"},
+    {min:"78",icon:"⚽",txt:"Antoine Griezmann",sub:"França 🇫🇷 · 3–1"},
+   ]},
+  {g:"I",home:"Iraque 🇮🇶",away:"Noruega 🇳🇴",sh:1,sa:4,date:"16/06",brTime:"19h",done:true,live:false,venue:"Boston",
+   note:"Haaland 2x no 1T · Noruega arrasa · retorno épico ao Mundial",
+   events:[
+    {min:"12",icon:"⚽",txt:"Erling Haaland",sub:"Noruega 🇳🇴 · 0–1"},
+    {min:"34",icon:"⚽",txt:"Erling Haaland",sub:"Noruega 🇳🇴 · 0–2"},
+    {min:"56",icon:"⚽",txt:"Aymen Hussein",sub:"Iraque 🇮🇶 · 1–2"},
+    {min:"71",icon:"⚽",txt:"Martin Ødegaard",sub:"Noruega 🇳🇴 · 1–3"},
+    {min:"88",icon:"⚽",txt:"Alexander Sørloth",sub:"Noruega 🇳🇴 · 1–4"},
+   ]},
+  {g:"J",home:"Argentina 🇦🇷",away:"Argélia 🇩🇿",sh:3,sa:0,date:"16/06",brTime:"22h",done:true,live:false,venue:"Kansas City",
+   note:"⭐ MESSI HAT-TRICK! 1º da carreira no Mundial · iguala recorde histórico de 16 golos",
+   events:[
+    {min:"18",icon:"⚽",txt:"Lionel Messi",sub:"Argentina 🇦🇷 · 1–0"},
+    {min:"55",icon:"⚽",txt:"Lionel Messi",sub:"Argentina 🇦🇷 · 2–0 · magistral"},
+    {min:"79",icon:"⚽",txt:"Lionel Messi",sub:"Argentina 🇦🇷 · 3–0 · HAT-TRICK HISTÓRICO 🐐"},
+   ]},
+  {g:"J",home:"Áustria 🇦🇹",away:"Jordânia 🇯🇴",sh:null,sa:null,date:"17/06",brTime:"01h",done:false,live:false,venue:"Santa Clara"},
   {g:"K",home:"Portugal 🇵🇹",away:"RD Congo 🇨🇩",sh:null,sa:null,date:"17/06",brTime:"14h",done:false,venue:"Boston"},
   {g:"K",home:"Uzbequistão 🇺🇿",away:"Colômbia 🇨🇴",sh:null,sa:null,date:"17/06",brTime:"21h",done:false,venue:"Seattle"},
   {g:"L",home:"Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",away:"Croácia 🇭🇷",sh:null,sa:null,date:"17/06",brTime:"17h",done:false,venue:"Nova York"},
@@ -304,13 +325,36 @@ const MM_STRUCTURE={
 let MM_RESULTS={};
 
 // ── ESPN API ──────────────────────────────────────────────────────────────────
-let refreshIv=null;
-async function fetchESPN(){
-  const r=await fetch("https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard",{cache:"no-cache"});
-  if(!r.ok)throw new Error("espn");
-  const data=await r.json();
-  const evs=data.events||[];
-  evs.forEach(ev=>{
+// ── MAPEAMENTO ESPN → app ────────────────────────────────────────────────────
+const ESPN_MAP={
+  "Mexico":"México 🇲🇽","South Africa":"África do Sul 🇿🇦",
+  "South Korea":"Coreia do Sul 🇰🇷","Czech Republic":"Rep. Tcheca 🇨🇿","Czechia":"Rep. Tcheca 🇨🇿",
+  "Canada":"Canadá 🇨🇦","Bosnia and Herzegovina":"Bósnia 🇧🇦","Bosnia":"Bósnia 🇧🇦",
+  "Qatar":"Qatar 🇶🇦","Switzerland":"Suíça 🇨🇭",
+  "Brazil":"Brasil 🇧🇷","Morocco":"Marrocos 🇲🇦","Scotland":"Escócia 🏴󠁧󠁢󠁳󠁣󠁴󠁿","Haiti":"Haiti 🇭🇹",
+  "United States":"EUA 🇺🇸","USA":"EUA 🇺🇸","Paraguay":"Paraguai 🇵🇾",
+  "Australia":"Austrália 🇦🇺","Türkiye":"Turquia 🇹🇷","Turkey":"Turquia 🇹🇷",
+  "Germany":"Alemanha 🇩🇪","Curacao":"Curaçao 🇨🇼","Curaçao":"Curaçao 🇨🇼",
+  "Ivory Coast":"C. do Marfim 🇨🇮","Côte d'Ivoire":"C. do Marfim 🇨🇮","Cote d'Ivoire":"C. do Marfim 🇨🇮",
+  "Ecuador":"Equador 🇪🇨","Netherlands":"Holanda 🇳🇱","Japan":"Japão 🇯🇵",
+  "Sweden":"Suécia 🇸🇪","Tunisia":"Tunísia 🇹🇳",
+  "Belgium":"Bélgica 🇧🇪","Egypt":"Egito 🇪🇬","Iran":"Irã 🇮🇷","New Zealand":"Nova Zelândia 🇳🇿",
+  "Spain":"Espanha 🇪🇸","Cape Verde":"Cabo Verde 🇨🇻","Saudi Arabia":"Arábia Saudita 🇸🇦","Uruguay":"Uruguai 🇺🇾",
+  "France":"França 🇫🇷","Senegal":"Senegal 🇸🇳","Iraq":"Iraque 🇮🇶","Norway":"Noruega 🇳🇴",
+  "Argentina":"Argentina 🇦🇷","Algeria":"Argélia 🇩🇿","Austria":"Áustria 🇦🇹","Jordan":"Jordânia 🇯🇴",
+  "Portugal":"Portugal 🇵🇹","DR Congo":"RD Congo 🇨🇩","Uzbekistan":"Uzbequistão 🇺🇿","Colombia":"Colômbia 🇨🇴",
+  "England":"Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿","Croatia":"Croácia 🇭🇷","Ghana":"Gana 🇬🇭","Panama":"Panamá 🇵🇦",
+};
+function mapTeam(n){return ESPN_MAP[n]||n;}
+
+function getDateStr(daysAgo){
+  const d=new Date();d.setDate(d.getDate()-daysAgo);
+  return `${d.getFullYear()}${String(d.getMonth()+1).padStart(2,"0")}${String(d.getDate()).padStart(2,"0")}`;
+}
+
+function applyESPNData(data){
+  let count=0;
+  (data.events||[]).forEach(ev=>{
     const comp=ev.competitions?.[0];
     const h=comp?.competitors?.find(c=>c.homeAway==="home");
     const a=comp?.competitors?.find(c=>c.homeAway==="away");
@@ -318,22 +362,30 @@ async function fetchESPN(){
     const state=ev.status?.type?.state;
     const hs=parseInt(h.score)||0,as=parseInt(a.score)||0;
     const clock=ev.status?.displayClock||"";
+    const hName=mapTeam(h.team?.displayName||"");
+    const aName=mapTeam(a.team?.displayName||"");
     RES.forEach(r=>{
-      const hn=h.team?.displayName||"",an=a.team?.displayName||"";
-      const hm=tkey(r.home)===tkey(hn)||hn.toLowerCase().includes(tkey(r.home).slice(0,4));
-      const am=tkey(r.away)===tkey(an)||an.toLowerCase().includes(tkey(r.away).slice(0,4));
-      if(hm&&am){
-        if(state==="post"){r.sh=hs;r.sa=as;r.done=true;r.live=false;r.clock="";}
-        if(state==="in"){r.sh=hs;r.sa=as;r.live=true;r.clock=clock;}
-        if(state==="post")r.live=false;
-      }
+      if(r.home!==hName||r.away!==aName)return;
+      if(state==="post"){r.sh=hs;r.sa=as;r.done=true;r.live=false;r.clock="";count++;}
+      else if(state==="in"){r.sh=hs;r.sa=as;r.live=true;r.clock=clock;
+        fetchEventDetails(ev.id,h.team?.displayName,a.team?.displayName);}
     });
-    // Try fetch event details for live games
-    if(ev.status?.type?.state==="in"){
-      fetchEventDetails(ev.id,h.team?.displayName,a.team?.displayName);
-    }
   });
-  return evs.length;
+  return count;
+}
+
+let refreshIv=null;
+async function fetchESPN(){
+  // Busca hoje + 3 dias anteriores — nunca perde resultado por mudança de dia
+  let total=0;
+  for(const d of [0,1,2,3].map(getDateStr)){
+    try{
+      const r=await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=${d}`,{cache:"no-cache"});
+      if(r.ok)total+=applyESPNData(await r.json());
+    }catch(e){}
+  }
+  if(total===0)throw new Error("espn empty");
+  return total;
 }
 
 // Palavras que indicam eventos irrelevantes — filtrar fora
@@ -470,16 +522,31 @@ function build(){
   return "";
 }
 
+// Data dinâmica — nunca mais hardcoded
+function todayStr(){
+  const d=new Date();
+  return `${String(d.getDate()).padStart(2,"0")}/${String(d.getMonth()+1).padStart(2,"0")}`;
+}
+function yesterdayStr(){
+  const d=new Date();d.setDate(d.getDate()-1);
+  return `${String(d.getDate()).padStart(2,"0")}/${String(d.getMonth()+1).padStart(2,"0")}`;
+}
+
 function bHoje(){
+  const today=todayStr(), yest=yesterdayStr();
   const live=RES.filter(r=>r.live);
-  const tDone=RES.filter(r=>r.date==="15/06"&&r.done);
-  const tNext=RES.filter(r=>r.date==="15/06"&&!r.done&&!r.live);
-  const yest=RES.filter(r=>r.date==="14/06"&&r.done);
+  const tDone=RES.filter(r=>r.date===today&&r.done);
+  const tNext=RES.filter(r=>r.date===today&&!r.done&&!r.live);
+  const yestGames=RES.filter(r=>r.date===yest&&r.done);
   let h="";
   if(live.length){h+=lbl("🔴 AO VIVO AGORA");live.forEach(r=>{h+=card(r,true);});}
-  if(tDone.length){h+=lbl("✅ HOJE ENCERRADOS",true);tDone.forEach(r=>{h+=card(r);});}
-  if(tNext.length){h+=lbl("⏰ MAIS TARDE HOJE",true);tNext.forEach(r=>{h+=card(r,false,true);});}
-  h+=lbl("📋 ONTEM — 14/06",true);yest.forEach(r=>{h+=card(r);});
+  if(tDone.length){h+=lbl(`✅ HOJE ENCERRADOS — ${today}`,true);tDone.forEach(r=>{h+=card(r);});}
+  if(tNext.length){h+=lbl(`⏰ MAIS TARDE HOJE — ${today}`,true);tNext.forEach(r=>{h+=card(r,false,true);});}
+  if(!live.length&&!tDone.length&&!tNext.length){
+    h+=`<div style="background:#090e09;border:1px solid #111;border-radius:7px;padding:16px;text-align:center;color:#333;font-size:12px;margin-bottom:12px">
+      Sem jogos hoje (${today})<br><span style="font-size:10px;margin-top:4px;display:block">Ver aba 📅 Próximos para os próximos jogos</span></div>`;
+  }
+  if(yestGames.length){h+=lbl(`📋 ONTEM — ${yest}`,true);yestGames.forEach(r=>{h+=card(r);});}
   return h;
 }
 
