@@ -4,11 +4,15 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1"/>
 <meta name="theme-color" content="#082008"/>
+<meta name="author" content="Thiago Bartulihe"/>
+<meta name="description" content="Resultados, grupos e jogos da Copa do Mundo FIFA 2026 — por Thiago Bartulihe"/>
 <meta name="mobile-web-app-capable" content="yes"/>
 <meta name="apple-mobile-web-app-capable" content="yes"/>
 <meta name="apple-mobile-web-app-title" content="Copa 2026"/>
 <title>⚽ Copa 2026 Tracker</title>
-<link rel="manifest" href="manifest.json"/>
+<link rel="manifest" href="./manifest.json"/>
+<link rel="apple-touch-icon" href="./icon-192.png"/>
+<link rel="icon" type="image/png" href="./icon-192.png"/>
 <style>
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 body{background:#040804;color:#ddd;font-family:Georgia,serif;min-height:100vh}
@@ -143,6 +147,9 @@ td.pos{color:#4ade80;font-weight:bold}td.neg{color:#f87171;font-weight:bold}td.z
     <button class="tab"       onclick="setTab('prox',this)">📅 Próximos</button>
   </div>
   <div class="body"><div id="content"></div></div>
+  <div style="text-align:center;padding:18px 12px 8px;font-size:9px;color:#222;letter-spacing:1px">
+    ⚽ Copa 2026 Tracker · Criado por <span style="color:#3a5a3a">Thiago Bartulihe</span>
+  </div>
 </div>
 <script>
 // ── TIMEZONE ──────────────────────────────────────────────────────────────────
@@ -753,7 +760,7 @@ function doRefresh(){document.getElementById("ts").textContent="Atualizando...";
 
 // ── INIT ──────────────────────────────────────────────────────────────────────
 render();fetchData();adaptRefresh();
-if("serviceWorker"in navigator)navigator.serviceWorker.register("sw.js").catch(()=>{});
+if("serviceWorker"in navigator)navigator.serviceWorker.register("./sw.js",{scope:"./"}).catch(()=>{});
 </script>
 </body>
 </html>
