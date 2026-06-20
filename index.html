@@ -1202,7 +1202,13 @@ function bracketBox(homeLabel,awayLabel,sh,sa,status,meta,favHome,favAway){
 function connector(text){ return `<div class="bconnector"><span>${text||"VENCEDOR AVANÇA"}</span></div>`; }
 
 function bOficial(){
+  const groupStageDone=RES.filter(r=>r.done).length>=72;
   let h=groupStageProgress();
+  if(!groupStageDone && (KO_MATCHES||[]).some(m=>!m.done&&!m.live)){
+    h+=`<div style="background:#1a1200;border:1px solid #4a3a00;border-radius:7px;padding:10px 14px;margin-bottom:14px;font-size:10px;color:#d4a017;line-height:1.5">
+      ⚠️ <b>A fase de grupos ainda não terminou.</b> Os confrontos futuros aqui em baixo vêm da própria ESPN, mas são tão provisórios quanto a nossa Simulação — podem mudar conforme os grupos se definem. Só fica confirmado quando o jogo entrar em "Ao Vivo" ou "Encerrado".
+    </div>`;
+  }
   const rounds=[
     {key:"avos",    label:"AVOS DE FINAL — 27 A 30/06",      expected:16},
     {key:"oitavas", label:"OITAVAS DE FINAL — 3 A 6/07",      expected:8},
@@ -1224,6 +1230,7 @@ function bOficial(){
         let status, meta;
         if(m.done){ status="done"; meta=`✅ ENCERRADO · ${date}`; }
         else if(m.live){ status="live"; meta=`🔴 AO VIVO · ${m.clock||""}'`; }
+        else if(!groupStageDone){ status="scheduled"; meta=`⚠️ PROVISÓRIO (ESPN) · pode mudar`; }
         else { status="scheduled"; meta=`⏰ ${date} · ${time}${m.venue?" · "+m.venue:""}`; }
         h+=bracketBox(m.home,m.away,m.sh,m.sa,status,meta,favH,favA);
         if(i%2===1 && i<real.length-1) h+=connector();
