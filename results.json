@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T22:01:01.922Z",
+  "generatedAt": "2026-06-20T22:01:22.494Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -12100,9 +12100,9 @@
       "iso": "2026-06-20T20:00Z",
       "sh": 2,
       "sa": 1,
-      "done": false,
-      "live": true,
-      "clock": "90'+7'",
+      "done": true,
+      "live": false,
+      "clock": "",
       "events": [
         {
           "min": "90'+8'",
