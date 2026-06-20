@@ -411,7 +411,8 @@ function dedupeRES(){
   RES.forEach(r=>{
     const k1=tkey(r.home), k2=tkey(r.away);
     const dupIdx=meta.findIndex(s=>{
-      if(s.g!==r.g) return false;
+      // só rejeita por grupo diferente se AMBOS já tiverem grupo resolvido
+      if(s.g!=="?" && r.g!=="?" && s.g!==r.g) return false;
       const direct=(s.k1===k1&&s.k2===k2)||(s.k1===k2&&s.k2===k1);
       const overlapA=(s.k1.includes(k1)||k1.includes(s.k1))&&(s.k2.includes(k2)||k2.includes(s.k2));
       const overlapB=(s.k1.includes(k2)||k2.includes(s.k1))&&(s.k2.includes(k1)||k1.includes(s.k2));
@@ -423,6 +424,7 @@ function dedupeRES(){
     } else {
       // Mantém a versão mais completa — a que já tem placar/resultado ganha
       const existing=kept[dupIdx];
+      if(existing.g==="?" && r.g!=="?") existing.g=r.g; // aproveita o grupo resolvido
       if((r.done&&!existing.done)||(r.sh!==null&&existing.sh===null)){
         Object.assign(existing,r);
       }
