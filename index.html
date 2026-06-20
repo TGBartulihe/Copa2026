@@ -174,6 +174,7 @@ td.pos{color:#4ade80;font-weight:bold}td.neg{color:#f87171;font-weight:bold}td.z
 .bbox-team.winner{font-weight:bold;color:#fff}
 .bbox-team.loser{color:#c0d0c0}
 .bbox-check{color:#3dbb3d;font-size:11px;flex-shrink:0}
+.tcode{background:#0a120a;color:#b8860b;font-size:9px;font-weight:bold;letter-spacing:1px;padding:2px 5px;border-radius:4px;flex-shrink:0}
 .bbox-mid{display:flex;align-items:center;padding:0 8px;flex-shrink:0;background:#0a120a;border-radius:6px;margin:8px 4px}
 .bbox-score{font-size:16px;font-weight:bold;color:#f0c040;letter-spacing:1px;min-width:42px;text-align:center}
 .bbox-score.live{color:#ff6644}
@@ -200,7 +201,7 @@ td.pos{color:#4ade80;font-weight:bold}td.neg{color:#f87171;font-weight:bold}td.z
     <div class="header-sub">COPA DO MUNDO FIFA 2026</div>
     <div class="header-main">
       <div class="header-logo-wrap"><img id="logoImg" alt="" class="header-logo" onerror="this.parentElement.style.display='none'"/></div>
-      <div class="header-title">⚽WORLD CUP TRACKER⚽</div>
+      <div class="header-title">⚽WORLD CUP TRACKER - BY TICOBARTU⚽</div>
     </div>
     <div class="header-meta">
       <span id="li"></span>
@@ -912,19 +913,38 @@ function buildSimR32(){
   "ABCDEFGHIJKL".split("").forEach(g=>{ thirdByGroup[g]=calcS(g)[2]; });
   const allThirdsRanked=Object.entries(thirdByGroup).map(([g,t])=>({g,...t}))
     .sort((a,b)=>b.pts-a.pts||b.dif-a.dif||b.gf-a.gf);
+  const usedThirdGroups=new Set(); // evita o mesmo terceiro entrar em duas vagas
 
   function resolve(label){
     if(label.startsWith("1º")) return calcS(label.slice(3,4))[0]?.t||label;
     if(label.startsWith("2º")) return calcS(label.slice(3,4))[1]?.t||label;
     if(label.startsWith("3º")){
       const groups=label.slice(3).split("/");
-      const best=allThirdsRanked.find(t=>groups.includes(t.g));
-      return best?best.t:label;
+      const best=allThirdsRanked.find(t=>groups.includes(t.g)&&!usedThirdGroups.has(t.g));
+      if(best){ usedThirdGroups.add(best.g); return best.t; }
+      return label; // nenhum terceiro elegível disponível ainda
     }
     return label;
   }
   return MM_STRUCTURE.avos.map((m,i)=>({ id:"avos-"+i, home:resolve(m.t1), away:resolve(m.t2) }));
 }
+
+// Códigos de 3 letras — visual mais compacto na Simulação, como em apps de bracket
+const TEAM_CODE={
+  "México 🇲🇽":"MEX","Coreia do Sul 🇰🇷":"KOR","Rep. Tcheca 🇨🇿":"CZE","África do Sul 🇿🇦":"RSA",
+  "Canadá 🇨🇦":"CAN","Bósnia 🇧🇦":"BIH","Qatar 🇶🇦":"QAT","Suíça 🇨🇭":"SUI",
+  "Brasil 🇧🇷":"BRA","Marrocos 🇲🇦":"MAR","Escócia 🏴󠁧󠁢󠁳󠁣󠁴󠁿":"SCO","Haiti 🇭🇹":"HAI",
+  "EUA 🇺🇸":"USA","Austrália 🇦🇺":"AUS","Turquia 🇹🇷":"TUR","Paraguai 🇵🇾":"PAR",
+  "Alemanha 🇩🇪":"GER","C. do Marfim 🇨🇮":"CIV","Equador 🇪🇨":"ECU","Curaçao 🇨🇼":"CUW",
+  "Suécia 🇸🇪":"SWE","Holanda 🇳🇱":"NED","Japão 🇯🇵":"JPN","Tunísia 🇹🇳":"TUN",
+  "Bélgica 🇧🇪":"BEL","Irã 🇮🇷":"IRN","Egito 🇪🇬":"EGY","Nova Zelândia 🇳🇿":"NZL",
+  "Espanha 🇪🇸":"ESP","Cabo Verde 🇨🇻":"CPV","Arábia Saudita 🇸🇦":"KSA","Uruguai 🇺🇾":"URU",
+  "França 🇫🇷":"FRA","Noruega 🇳🇴":"NOR","Senegal 🇸🇳":"SEN","Iraque 🇮🇶":"IRQ",
+  "Argentina 🇦🇷":"ARG","Áustria 🇦🇹":"AUT","Argélia 🇩🇿":"ALG","Jordânia 🇯🇴":"JOR",
+  "Portugal 🇵🇹":"POR","Colômbia 🇨🇴":"COL","RD Congo 🇨🇩":"COD","Uzbequistão 🇺🇿":"UZB",
+  "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿":"ENG","Croácia 🇭🇷":"CRO","Gana 🇬🇭":"GHA","Panamá 🇵🇦":"PAN",
+};
+function teamCode(name){ return TEAM_CODE[name]||(name||"").replace(/[^A-Za-zÀ-ú]/g,"").slice(0,3).toUpperCase(); }
 
 function simBox(matchKey,home,away){
   const homeReady=home&&!home.startsWith("⏳");
@@ -936,15 +956,17 @@ function simBox(matchKey,home,away){
   const headCls=pick?"head-done":clickable?"":"";
   const hCl=clickable?` onclick="pickWinner('${matchKey}','${(home||"").replace(/'/g,"\\'")}')" style="cursor:pointer"`:"";
   const aCl=clickable?` onclick="pickWinner('${matchKey}','${(away||"").replace(/'/g,"\\'")}')" style="cursor:pointer"`:"";
+  const hCode=homeReady?`<span class="tcode">${teamCode(home)}</span>`:"";
+  const aCode=awayReady?`<span class="tcode">${teamCode(away)}</span>`:"";
   return `<div class="bbox ${pick?"bbox-done":!clickable?"bbox-tbd":"bbox-live"}">
     <div class="bbox-head ${headCls}"><span>${headTxt}</span></div>
     <div class="bbox-body">
       <div class="bbox-team ${pick===home?"winner":pick?"loser":""}"${hCl}>
-        <span class="nm">${home||"⏳ A definir"}${favH?" ⭐":""}</span>
+        ${hCode}<span class="nm">${home||"⏳ A definir"}${favH?" ⭐":""}</span>
       </div>
       <div class="bbox-mid"><div class="bbox-score" style="font-size:11px">${pick?"✔":"vs"}</div></div>
       <div class="bbox-team bbox-right ${pick===away?"winner":pick?"loser":""}"${aCl}>
-        <span class="nm">${away||"⏳ A definir"}${favA?" ⭐":""}</span>
+        ${aCode}<span class="nm">${away||"⏳ A definir"}${favA?" ⭐":""}</span>
       </div>
     </div>
   </div>`;
