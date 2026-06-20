@@ -1,0 +1,55 @@
+name: Test ESPN Full Summary
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Buscar boxscore e rosters completos
+        run: |
+          mkdir -p espn-debug
+
+          node -e "
+          const fs=require('fs');
+
+          async function main(){
+            const eventId='760448';
+            const url='https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event='+eventId;
+
+            const data=await fetch(url).then(r=>r.json());
+
+            fs.writeFileSync('espn-debug/full-summary.json', JSON.stringify(data,null,2));
+            fs.writeFileSync('espn-debug/boxscore.json', JSON.stringify(data.boxscore,null,2));
+            fs.writeFileSync('espn-debug/rosters.json', JSON.stringify(data.rosters,null,2));
+            fs.writeFileSync('espn-debug/roster-home.json', JSON.stringify(data.rosters?.[0]||null,null,2));
+            fs.writeFileSync('espn-debug/roster-away.json', JSON.stringify(data.rosters?.[1]||null,null,2));
+            fs.writeFileSync('espn-debug/home-formation-field.json', JSON.stringify({
+              homeAway:data.rosters?.[0]?.homeAway,
+              team:data.rosters?.[0]?.team,
+              formation:data.rosters?.[0]?.formation,
+              formationPlaceSamples:(data.rosters?.[0]?.roster||[]).map(p=>({
+                name:p.athlete?.displayName,
+                starter:p.starter,
+                position:p.position,
+                formationPlace:p.formationPlace
+              }))
+            },null,2));
+
+            console.log('Arquivos gerados em espn-debug/');
+            console.log('boxscore:', !!data.boxscore);
+            console.log('rosters:', Array.isArray(data.rosters), data.rosters?.length);
+            console.log('home formation:', data.rosters?.[0]?.formation);
+            console.log('away formation:', data.rosters?.[1]?.formation);
+          }
+
+          main().catch(e=>{console.error(e);process.exit(1);});
+          "
+
+      - name: Upload debug artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: espn-debug
+          path: espn-debug/
