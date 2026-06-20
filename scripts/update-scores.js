@@ -38,23 +38,29 @@ function teamFlag(name){
 // ── FILTRO DE EVENTOS RELEVANTES ──────────────────────────────────────────────
 // Filtra só ruído puramente administrativo — tudo o resto fica, conforme
 // pedido: cobertura completa de eventos até ao fim da partida.
-const SKIP_WORDS = ["delay","drink","weather","attendance","var check concluded"];
+// Confirmado por teste real — a ESPN não regista cantos/faltas/remates nos
+// "key events" para este tipo de jogo. O que tem: kickoff, intervalo,
+// paralisações (lesão, pausa para bebida), gols, substituições. Mostra tudo.
+const SKIP_WORDS = ["weather","attendance","var check concluded"];
 function isRelevantEvent(p){
   const txt = (p.text || p.shortText || "").toLowerCase();
   if (SKIP_WORDS.some(w => txt.includes(w))) return false;
-  // Praticamente tudo o resto passa — getIcon nunca devolve null agora,
-  // por isso isto só filtra o que é mesmo ruído, não eventos de jogo.
-  return txt.length > 2;
+  return true; // deixa passar tudo, incluindo marcadores sem texto (kickoff/intervalo)
 }
 function getIcon(p){
   const typ = (p.type?.text || p.type?.id || "").toLowerCase();
   const txt = (p.text || "").toLowerCase();
-  if (typ.includes("goal") || txt.includes("goal")) return (typ.includes("own") || txt.includes("(og)")) ? "⚽ OG" : "⚽";
+  if (typ.includes("goal")) return (typ.includes("own") || txt.includes("(og)")) ? "⚽ OG" : "⚽";
   if (typ.includes("yellow red") || typ.includes("second yellow")) return "🟥";
   if (typ.includes("yellow")) return "🟨";
   if (typ.includes("red")) return "🟥";
   if (typ.includes("sub")) return "🔄";
   if (typ.includes("penalty")) return "⚽🎯";
+  if (typ.includes("start delay")) return txt.includes("injury") ? "🩹" : "⏸️";
+  if (typ.includes("end delay")) return "▶️";
+  if (typ.includes("halftime")) return "⏱️";
+  if (typ.includes("start 2nd half")) return "▶️";
+  if (typ.includes("kickoff")) return "🏁";
   if (typ.includes("corner")) return "🚩";
   if (typ.includes("offside")) return "🚫";
   if (typ.includes("foul")) return "⚠️";
@@ -84,7 +90,11 @@ function describeEventPT(icon, playerName, assistName){
   if (icon === "🚫")     return `Fora de jogo — ${p}`;
   if (icon === "⚠️")     return `Falta de ${p}`;
   if (icon === "📺")     return `Revisão do VAR`;
-  if (icon === "🩹")     return `Lesão — ${p}`;
+  if (icon === "🩹")     return playerName ? `Paralisação por lesão — ${p}` : "Paralisação por lesão";
+  if (icon === "⏸️")     return "Jogo paralisado";
+  if (icon === "▶️")     return "Jogo reiniciado";
+  if (icon === "⏱️")     return "Intervalo";
+  if (icon === "🏁")     return "Início de jogo";
   if (icon === "🥅")     return `Pontapé livre — ${p}`;
   if (icon === "🧤")     return `Defesa do goleiro`;
   if (icon === "🛡️")     return `Finalização bloqueada`;
