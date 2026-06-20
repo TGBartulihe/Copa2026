@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T21:30:22.682Z",
+  "generatedAt": "2026-06-20T21:31:24.464Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -9522,7 +9522,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "68'",
+      "clock": "69'",
       "events": [
         {
           "min": "60'",
@@ -9833,23 +9833,23 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "2",
+          "foulsCommitted": "3",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "8",
           "saves": "1",
-          "possessionPct": "61",
+          "possessionPct": "61.1",
           "totalShots": "11",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "427",
-          "totalPasses": "477",
+          "accuratePasses": "428",
+          "totalPasses": "478",
           "passPct": "0.9",
           "accurateCrosses": "4",
-          "totalCrosses": "14",
+          "totalCrosses": "15",
           "crossPct": "0.3",
           "totalLongBalls": "24",
           "accurateLongBalls": "13",
@@ -9869,7 +9869,7 @@
           "offsides": "1",
           "wonCorners": "2",
           "saves": "2",
-          "possessionPct": "39",
+          "possessionPct": "38.9",
           "totalShots": "8",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
@@ -9886,7 +9886,7 @@
           "longballPct": "0.5",
           "blockedShots": "4",
           "effectiveTackles": "11",
-          "totalTackles": "20",
+          "totalTackles": "19",
           "tacklePct": "0.6",
           "interceptions": "11",
           "effectiveClearance": "18",
