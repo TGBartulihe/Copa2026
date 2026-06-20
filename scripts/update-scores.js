@@ -29,122 +29,6 @@ const ESPN_MAP = {
 };
 function mapTeam(n){ return ESPN_MAP[n] || n; }
 
-// ── API-FOOTBALL — só para escalações, com orçamento muito apertado ──────────
-// Plano grátis = 100 chamadas/dia no TOTAL. O robô corre ~96x/dia (a cada 15min),
-// por isso isto só pode gastar chamadas quando há jogo mesmo a decorrer, e cada
-// escalação só é buscada UMA VEZ por jogo (fica em cache, nunca repete).
-const API_FOOTBALL_KEY = process.env.API_FOOTBALL_KEY || "";
-const AF_BASE = "https://v3.football.api-sports.io";
-const MAX_AF_CALLS_PER_RUN = 4; // limite de segurança por execução
-const LINEUPS_CACHE_FILE = "lineups-cache.json";
-let afCallsUsed = 0;
-let lineupsCache = {};
-
-function loadLineupsCache(){
-  try{ lineupsCache = JSON.parse(fs.readFileSync(LINEUPS_CACHE_FILE, "utf8")); }
-  catch(e){ lineupsCache = {}; }
-}
-function saveLineupsCache(){
-  try{ fs.writeFileSync(LINEUPS_CACHE_FILE, JSON.stringify(lineupsCache, null, 2)); }catch(e){}
-}
-async function afFetch(path){
-  if (!API_FOOTBALL_KEY || afCallsUsed >= MAX_AF_CALLS_PER_RUN) return null;
-  afCallsUsed++;
-  try{
-    const res = await fetch(`${AF_BASE}${path}`, { headers: { "x-apisports-key": API_FOOTBALL_KEY } });
-    if (!res.ok) return null;
-    return await res.json();
-  }catch(e){ return null; }
-}
-
-let WC_LEAGUE_ID = null;
-async function resolveWorldCupLeagueId(){
-  if (WC_LEAGUE_ID) return WC_LEAGUE_ID;
-  if (lineupsCache._leagueId){ WC_LEAGUE_ID = lineupsCache._leagueId; return WC_LEAGUE_ID; }
-  const data = await afFetch(`/leagues?name=World%20Cup&season=2026`);
-  if (!data?.response?.length) return null;
-  const wc = data.response.find(l => /world cup/i.test(l.league?.name||"") && !/u-?20|u-?17|women|qualif/i.test(l.league?.name||""));
-  if (!wc) return null;
-  WC_LEAGUE_ID = wc.league.id;
-  lineupsCache._leagueId = WC_LEAGUE_ID;
-  return WC_LEAGUE_ID;
-}
-function parseAFLineup(side){
-  if (!side) return null;
-  const starters = (side.startXI||[]).map(p => ({ name: p.player?.name||"?", pos: p.player?.pos||"" }));
-  if (!starters.length) return null;
-  return {
-    formation: side.formation || null,
-    starters,
-    subs: (side.substitutes||[]).map(p => ({ name: p.player?.name||"?", pos: p.player?.pos||"" })),
-  };
-}
-// Aliases extra — nomes que a API-Football pode usar diferente da ESPN
-const AF_EXTRA_ALIASES = { "IR Iran":"Irã 🇮🇷", "Korea Republic":"Coreia do Sul 🇰🇷", "Korea South":"Coreia do Sul 🇰🇷" };
-function mapAF(n){ return AF_EXTRA_ALIASES[n] || mapTeam(n); }
-
-// Busca escalações só dos jogos AO VIVO de hoje — nunca dos já encerrados/futuros,
-// e nunca repete um jogo já guardado em cache.
-const LINEUP_RETRY_COOLDOWN_MIN = 10; // não retenta o mesmo jogo/falha antes disto
-
-async function fetchLineupsForLive(liveMatches){
-  if (!API_FOOTBALL_KEY || !liveMatches.length) return {};
-  loadLineupsCache();
-  const todayAF = new Date().toISOString().slice(0,10);
-  const results = {};
-  const now = Date.now();
-  const cooledDown = (key) => {
-    const last = lineupsCache[key];
-    return !last || (now - new Date(last).getTime()) / 60000 >= LINEUP_RETRY_COOLDOWN_MIN;
-  };
-
-  // o que já está em cache (sucesso) não gasta chamada nenhuma; o que
-  // falhou há pouco também não tenta de novo ainda — evita martelar a
-  // API quando a escalação genuinamente não está disponível
-  const pending = liveMatches.filter(m => {
-    const ck = `${m.home}|${m.away}|${todayAF}`;
-    if (lineupsCache[ck]){ results[`${m.home}|${m.away}`] = lineupsCache[ck]; return false; }
-    return cooledDown(`fail:${ck}`);
-  });
-  if (!pending.length) return results;
-
-  // Se a descoberta da liga falhou recentemente, não insiste nisso também
-  if (!cooledDown("fail:_leagueId")) return results;
-
-  const leagueId = await resolveWorldCupLeagueId();
-  if (!leagueId){
-    lineupsCache["fail:_leagueId"] = new Date().toISOString();
-    saveLineupsCache();
-    return results;
-  }
-
-  const fxData = await afFetch(`/fixtures?league=${leagueId}&season=2026&date=${todayAF}`);
-  if (!fxData?.response?.length){
-    pending.forEach(m => { lineupsCache[`fail:${m.home}|${m.away}|${todayAF}`] = new Date().toISOString(); });
-    saveLineupsCache();
-    return results;
-  }
-
-  for (const m of pending){
-    if (afCallsUsed >= MAX_AF_CALLS_PER_RUN) break;
-    const ck = `${m.home}|${m.away}|${todayAF}`;
-    const fx = fxData.response.find(f =>
-      (mapAF(f.teams?.home?.name||"")===m.home && mapAF(f.teams?.away?.name||"")===m.away) ||
-      (mapAF(f.teams?.away?.name||"")===m.home && mapAF(f.teams?.home?.name||"")===m.away)
-    );
-    if (!fx){ lineupsCache[`fail:${ck}`] = new Date().toISOString(); continue; }
-    const luData = await afFetch(`/fixtures/lineups?fixture=${fx.fixture.id}`);
-    if (!luData?.response?.length){ lineupsCache[`fail:${ck}`] = new Date().toISOString(); continue; }
-    const parsed = { home: parseAFLineup(luData.response[0]), away: parseAFLineup(luData.response[1]) };
-    if (!parsed.home && !parsed.away){ lineupsCache[`fail:${ck}`] = new Date().toISOString(); continue; }
-    results[`${m.home}|${m.away}`] = parsed;
-    lineupsCache[ck] = parsed;
-    delete lineupsCache[`fail:${ck}`];
-  }
-  saveLineupsCache();
-  return results;
-}
-
 // ── FILTRO DE EVENTOS RELEVANTES ──────────────────────────────────────────────
 const SKIP_WORDS = ["delay","drink","half begins","kick off","kick-off","end of","period begins","weather","var check concluded","attendance","whistle"];
 function isRelevantEvent(p){
@@ -239,13 +123,66 @@ async function translateToPT(text){
   }catch(e){ return null; }
 }
 
-async function fetchEvents(eventId){
+// Agrupa por linha no campo, usando a posição real da ESPN — mais fiável do
+// que tentar adivinhar a formação a partir de um número de jogadores
+function positionRow(abbr){
+  const a = (abbr||"").toUpperCase();
+  if (a === "G" || a === "GK") return 0; // goleiro
+  if (a === "D" || a.startsWith("CD") || a==="LB" || a==="RB" || a.startsWith("WB") || a.includes("CB")) return 1; // defesa
+  if (a === "M" || a.startsWith("DM") || a.startsWith("CM") || a.startsWith("LM") || a.startsWith("RM")) return 2; // meio-campo
+  if (a.startsWith("AM")) return 2.5; // meio-ofensivo
+  return 3; // ataque (F, FW, etc) — também o padrão se não reconhecer
+}
+
+function parseESPNRosterSide(side){
+  if (!side?.roster?.length) return null;
+  const toPlayer = p => ({
+    name: p.athlete?.displayName || p.athlete?.shortName || "?",
+    pos: p.position?.abbreviation || "",
+    row: positionRow(p.position?.abbreviation),
+  });
+  const starters = side.roster.filter(p => p.starter).map(toPlayer).sort((a,b)=>a.row-b.row);
+  const subs = side.roster.filter(p => !p.starter).map(toPlayer);
+  if (!starters.length) return null;
+  return { starters, subs, formation: side.formation || null };
+}
+
+function extractESPNLineups(data){
+  const rosters = data.rosters;
+  if (!Array.isArray(rosters) || rosters.length < 2) return null;
+  const home = parseESPNRosterSide(rosters.find(r => r.homeAway === "home"));
+  const away = parseESPNRosterSide(rosters.find(r => r.homeAway === "away"));
+  if (!home && !away) return null;
+  return { home, away };
+}
+
+// Estatísticas de equipa — confirmado em data.boxscore.teams[].statistics,
+// mesmo pedido que já fazemos, sem custo extra. Reduz cada lado a um
+// dicionário simples {nomeDaEstatística: valorParaMostrar}.
+function extractBoxscoreStats(data){
+  const teams = data.boxscore?.teams;
+  if (!Array.isArray(teams) || teams.length < 2) return null;
+  function parseSide(t){
+    if (!Array.isArray(t?.statistics)) return null;
+    const stats = {};
+    t.statistics.forEach(s => { stats[s.name] = s.displayValue; });
+    return stats;
+  }
+  const home = parseSide(teams.find(t => t.homeAway === "home"));
+  const away = parseSide(teams.find(t => t.homeAway === "away"));
+  if (!home && !away) return null;
+  return { home, away };
+}
+
+async function fetchMatchDetails(eventId){
   try{
     const res = await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=${eventId}`);
-    if (!res.ok) return [];
+    if (!res.ok) return { events: [], lineups: null, stats: null };
     const data = await res.json();
     const plays = [...(data.keyEvents||[]), ...(data.plays||[])];
     const relevant = plays.filter(isRelevantEvent);
+    const lineups = extractESPNLineups(data); // mesmo pedido, sem custo extra
+    const stats = extractBoxscoreStats(data); // idem
 
     const results = [];
     for (const p of relevant){
@@ -276,8 +213,8 @@ async function fetchEvents(eventId){
 
       results.push({ min: p.clock?.displayValue || "", icon, txt, sub: teamName });
     }
-    return results.reverse();
-  }catch(e){ return []; }
+    return { events: results.reverse(), lineups, stats };
+  }catch(e){ return { events: [], lineups: null, stats: null }; }
 }
 
 // ── PRINCIPAL ─────────────────────────────────────────────────────────────────
@@ -572,8 +509,13 @@ async function main(){
       const { date, brTime } = toBR(ev.date);
 
       let events = [];
+      let espnLineups = null;
+      let espnStats = null;
       if (state === "in" || state === "post"){
-        events = await fetchEvents(ev.id);
+        const details = await fetchMatchDetails(ev.id);
+        events = details.events;
+        espnLineups = details.lineups;
+        espnStats = details.stats;
       }
 
       const entry = {
@@ -586,6 +528,8 @@ async function main(){
         clock: state === "in" ? clock : "",
         events
       };
+      if (espnLineups) entry.lineups = espnLineups;
+      if (espnStats) entry.stats = espnStats;
 
       const round = classify(ev);
       if (round){
@@ -627,17 +571,10 @@ async function main(){
     };
   }
 
-  // Escalações — só para jogos de grupo AO VIVO agora (mata-mata fica para depois)
-  const liveNow = out.matches.filter(m => m.live).map(m => ({home:m.home, away:m.away}));
-  if (liveNow.length){
-    console.log(`Tentando escalações para ${liveNow.length} jogo(s) ao vivo...`);
-    const lineupsByPair = await fetchLineupsForLive(liveNow);
-    out.matches.forEach(m => {
-      const l = lineupsByPair[`${m.home}|${m.away}`];
-      if (l) m.lineups = l;
-    });
-    if (Object.keys(lineupsByPair).length) console.log(`✅ Escalações obtidas: ${Object.keys(lineupsByPair).length} (${afCallsUsed} chamada(s) à API-Football usada(s))`);
-  }
+  // Escalações e estatísticas — tudo da ESPN, de graça, no mesmo pedido
+  // que já fazemos para os eventos. Sem orçamento a gerir, sem reserva.
+  const espnCount = out.matches.filter(m => m.live && m.lineups).length;
+  if (espnCount) console.log(`✅ Escalações/estatísticas obtidas pela ESPN: ${espnCount} jogo(s)`);
 
   fs.writeFileSync("results.json", JSON.stringify(out, null, 2));
   console.log(`✅ results.json escrito com ${out.matches.length} jogos de grupo e ${knockout.length} de mata-mata. (${doFull ? "completa" : "rápida"})`);

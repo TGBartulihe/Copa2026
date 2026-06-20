@@ -26,7 +26,6 @@ jobs:
 
       - name: Buscar resultados na ESPN, escalações na API-Football, enviar notificações
         env:
-          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
           VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
           VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
           CLOUDFLARE_ADMIN_TOKEN: ${{ secrets.CLOUDFLARE_ADMIN_TOKEN }}
@@ -38,10 +37,10 @@ jobs:
           git config user.email "actions@github.com"
 
           git add results.json
-          git add lineups-cache.json 2>/dev/null || true
           git add notified-cache.json 2>/dev/null || true
           git add subscriptions.json 2>/dev/null || true
           git add full-refresh-state.json 2>/dev/null || true
+          git add translate-cache.json 2>/dev/null || true
 
           if git diff --staged --quiet; then
             echo "Sem mudanças nos resultados."

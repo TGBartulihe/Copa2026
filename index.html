@@ -106,6 +106,15 @@ body{background:#040804;color:#ddd;font-family:Georgia,serif;min-height:100vh}
 .pitch-dot{width:10px;height:10px;border-radius:50%;background:#fff;border:1.5px solid #166534}
 .pitch-name{font-size:7.5px;color:#cde;white-space:nowrap;max-width:54px;overflow:hidden;text-overflow:ellipsis}
 .pitch-empty{font-size:10px;color:#5a6a58;text-align:center;padding:10px 0;font-style:italic}
+/* ESTATÍSTICAS DO JOGO */
+.stats-box{margin-top:10px;border-top:1px solid #0f180f;padding-top:10px}
+.stat-row{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:8px;padding:5px 0;font-size:11px}
+.stat-val{font-weight:bold;color:#f2ecd8}
+.stat-left{text-align:right}
+.stat-right{text-align:left}
+.stat-label{font-size:9px;color:#7a8a78;text-align:center;letter-spacing:.5px;white-space:nowrap}
+.poss-bar{height:5px;background:#1a2a1c;border-radius:3px;overflow:hidden;margin:2px 0 8px}
+.poss-bar-fill{height:100%;background:#3dbb3d}
 /* TEASER no cartão pequeno, aponta para a tab Minuto a Minuto */
 .cteaser{font-size:10px;color:#3dbb3d;text-align:center;margin-top:6px;padding-top:6px;border-top:1px solid #131e14;cursor:pointer;letter-spacing:.5px}
 .cteaser:active{opacity:.6}
@@ -597,6 +606,7 @@ function mergeResultsJSON(json){
       });
       if(m.events&&m.events.length) existing.events=m.events;
       if(m.lineups) existing.lineups = reversed ? {home:m.lineups.away, away:m.lineups.home} : m.lineups;
+      if(m.stats) existing.stats = reversed ? {home:m.stats.away, away:m.stats.home} : m.stats;
       if(!existing.note && keepNote) existing.note=keepNote;
       updated++;
     } else {
@@ -604,7 +614,7 @@ function mergeResultsJSON(json){
       RES.push({
         g:g, home:m.home, away:m.away, date:m.date, brTime:m.brTime, venue:m.venue,
         sh:m.sh, sa:m.sa, done:m.done, live:m.live, clock:m.clock||"", events:m.events||[],
-        lineups:m.lineups||undefined
+        lineups:m.lineups||undefined, stats:m.stats||undefined
       });
       updated++;
     }
@@ -763,6 +773,19 @@ function getIcon(p){
   return null; // null = skip
 }
 
+// Frase em português montada a partir das peças estruturadas — nunca usa
+// a prosa em inglês da própria ESPN
+function describeEventPT(icon,playerName){
+  const p=playerName||"jogador";
+  if(icon==="⚽")return`Gol de ${p}`;
+  if(icon==="⚽ OG")return`Gol contra de ${p}`;
+  if(icon==="⚽🎯")return`Pênalti convertido por ${p}`;
+  if(icon==="🟨")return`Cartão amarelo para ${p}`;
+  if(icon==="🟥")return`Cartão vermelho para ${p}`;
+  if(icon==="🔄")return`Substituição — entra ${p}`;
+  return p;
+}
+
 async function fetchEventDetails(evId,hName,aName){
   try{
     const r=await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=${evId}`,{cache:"no-cache"});
@@ -776,18 +799,19 @@ async function fetchEventDetails(evId,hName,aName){
         const icon=getIcon(p);
         if(!icon)return null;
         const min=p.clock?.displayValue||p.period?.clock||"";
-        const txt=p.text||p.participants?.[0]?.athlete?.displayName||p.shortText||"";
+        const txt=describeEventPT(icon,p.participants?.[0]?.athlete?.displayName);
         const sub=p.team?.displayName||"";
         return{min,icon,txt,sub};
       })
       .filter(Boolean)
       .reverse():null; // mais recente primeiro
 
-    // Tentativa de escalação — caminho ainda não confirmado para futebol,
-    // testa várias hipóteses plausíveis com base no padrão geral da ESPN
+    // Escalação confirmada via teste real — vem em data.rosters
     const lineups=extractLineups(data);
+    // Estatísticas do jogo — confirmado via teste real em data.boxscore
+    const stats=extractBoxscoreStats(data);
 
-    if(!events?.length && !lineups) return;
+    if(!events?.length && !lineups && !stats) return;
 
     RES.forEach(r=>{
       if(!r.live)return;
@@ -795,34 +819,53 @@ async function fetchEventDetails(evId,hName,aName){
       if(tkey(r.home).includes(hk)||tkey(r.away).includes(ak)){
         if(events?.length) r.events=events;
         if(lineups) r.lineups=lineups;
+        if(stats) r.stats=stats;
       }
     });
     render();
   }catch(e){}
 }
 
-// Tenta vários caminhos plausíveis onde a ESPN poderia pôr escalação/formação.
-// Se nada bater, devolve null — a UI mostra "não disponível" sem fingir dados.
+// Agrupa por linha no campo, usando a posição real da ESPN
+function positionRow(abbr){
+  const a=(abbr||"").toUpperCase();
+  if(a==="G"||a==="GK") return 0;
+  if(a==="D"||a.startsWith("CD")||a==="LB"||a==="RB"||a.startsWith("WB")||a.includes("CB")) return 1;
+  if(a==="M"||a.startsWith("DM")||a.startsWith("CM")||a.startsWith("LM")||a.startsWith("RM")) return 2;
+  if(a.startsWith("AM")) return 2.5;
+  return 3;
+}
+function extractBoxscoreStats(data){
+  const teams=data.boxscore?.teams;
+  if(!Array.isArray(teams)||teams.length<2) return null;
+  function parseSide(t){
+    if(!Array.isArray(t?.statistics)) return null;
+    const stats={};
+    t.statistics.forEach(s=>{ stats[s.name]=s.displayValue; });
+    return stats;
+  }
+  const home=parseSide(teams.find(t=>t.homeAway==="home"));
+  const away=parseSide(teams.find(t=>t.homeAway==="away"));
+  if(!home&&!away) return null;
+  return{home,away};
+}
 function extractLineups(data){
-  const src=data.rosters||data.boxscore?.players||data.gamepackageJSON?.rosters;
+  const src=data.rosters;
   if(!Array.isArray(src)||src.length<2) return null;
   function parseSide(side){
-    if(!side) return null;
-    const formation=side.formation||side.team?.formation||null;
-    const list=side.roster||side.athletes||side.statistics||[];
-    if(!Array.isArray(list)||!list.length) return null;
-    const starters=list.filter(p=>p.starter===true||p.didStart===true).map(p=>({
-      name:p.athlete?.displayName||p.athlete?.shortName||p.displayName||"?",
-      pos:p.position?.abbreviation||p.position?.name||"",
-    }));
-    const subs=list.filter(p=>p.starter===false||p.didStart===false).map(p=>({
-      name:p.athlete?.displayName||p.athlete?.shortName||p.displayName||"?",
-      pos:p.position?.abbreviation||p.position?.name||"",
-    }));
+    if(!side?.roster?.length) return null;
+    const toPlayer=p=>({
+      name:p.athlete?.displayName||p.athlete?.shortName||"?",
+      pos:p.position?.abbreviation||"",
+      row:positionRow(p.position?.abbreviation),
+    });
+    const starters=side.roster.filter(p=>p.starter).map(toPlayer).sort((a,b)=>a.row-b.row);
+    const subs=side.roster.filter(p=>!p.starter).map(toPlayer);
     if(!starters.length) return null;
-    return{formation,starters,subs};
+    return{starters,subs,formation:side.formation||null};
   }
-  const home=parseSide(src[0]), away=parseSide(src[1]);
+  const home=parseSide(src.find(r=>r.homeAway==="home"));
+  const away=parseSide(src.find(r=>r.homeAway==="away"));
   if(!home&&!away) return null;
   return{home,away};
 }
@@ -1533,6 +1576,7 @@ function bMinuto(){
       </div>
       ${buildEvBox(r)}
       ${buildLineupBox(r)}
+      ${buildStatsBox(r)}
     </div>`;
   });
   return h;
@@ -1551,27 +1595,60 @@ function pitchHalf(side,label,accent){
       <div class="pitch-empty">Escalação não disponível</div>
     </div>`;
   }
-  const bands=(side.formation||"").split("-").map(n=>parseInt(n)).filter(n=>n>0);
-  const rows=[];
-  let idx=0;
-  // goleiro
-  rows.push([side.starters[idx++]]);
-  bands.forEach(n=>{
-    const row=[];
-    for(let i=0;i<n&&idx<side.starters.length;i++) row.push(side.starters[idx++]);
-    if(row.length) rows.push(row);
+  // Agrupa pela linha já calculada (0=goleiro, 1=defesa, 2=meio, 2.5=meio-ofensivo, 3=ataque)
+  const grouped={};
+  side.starters.forEach(p=>{
+    const r=p.row??3;
+    if(!grouped[r]) grouped[r]=[];
+    grouped[r].push(p);
   });
-  // sobra (sem formação reconhecida) — mostra todos numa lista simples
-  if(bands.length===0){
-    rows.length=0;
-    rows.push(side.starters);
-  }
+  const rows=Object.keys(grouped).sort((a,b)=>a-b).map(r=>grouped[r]);
   const rowsHtml=rows.map(row=>`<div class="pitch-row">${row.map(p=>
     `<div class="pitch-player"><div class="pitch-dot"></div><div class="pitch-name">${(p.name||"?").split(" ").pop()}</div></div>`
   ).join("")}</div>`).join("");
   return `<div class="pitch-half">
     <div class="pitch-label" style="color:${accent}">${label}${side.formation?` · ${side.formation}`:""}</div>
     <div class="pitch-rows">${rowsHtml}</div>
+  </div>`;
+}
+
+// Estatísticas do jogo — confirmado em data.boxscore, vem de graça no mesmo
+// pedido que já fazemos. A ESPN mistura formatos (possessionPct já vem em
+// % tipo "61.1", mas outros campos "Pct" vêm como fração tipo "0.9") — por
+// isso só uso os campos sem essa ambiguidade, para nunca mostrar errado.
+function buildStatsBox(r){
+  const s=r.stats;
+  if(!s||(!s.home&&!s.away)) return "";
+  const h=s.home||{}, a=s.away||{};
+  function statRow(label,key){
+    const hv=h[key], av=a[key];
+    if(hv===undefined&&av===undefined) return "";
+    return `<div class="stat-row">
+      <div class="stat-val stat-left">${hv??"-"}</div>
+      <div class="stat-label">${label}</div>
+      <div class="stat-val stat-right">${av??"-"}</div>
+    </div>`;
+  }
+  let possBar="";
+  if(h.possessionPct!==undefined&&a.possessionPct!==undefined){
+    const hp=parseFloat(h.possessionPct)||50;
+    possBar=`<div class="stat-row">
+      <div class="stat-val stat-left">${h.possessionPct}%</div>
+      <div class="stat-label">Posse de Bola</div>
+      <div class="stat-val stat-right">${a.possessionPct}%</div>
+    </div>
+    <div class="poss-bar"><div class="poss-bar-fill" style="width:${hp}%"></div></div>`;
+  }
+  return `<div class="stats-box">
+    <div class="evtitle">ESTATÍSTICAS DO JOGO</div>
+    ${possBar}
+    ${statRow("Remates","totalShots")}
+    ${statRow("Remates à Baliza","shotsOnTarget")}
+    ${statRow("Cantos","wonCorners")}
+    ${statRow("Faltas","foulsCommitted")}
+    ${statRow("Cartões Amarelos","yellowCards")}
+    ${statRow("Cartões Vermelhos","redCards")}
+    ${statRow("Passes Certos","accuratePasses")}
   </div>`;
 }
 
