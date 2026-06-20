@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T09:41:07.843Z",
+  "generatedAt": "2026-06-20T11:55:20.885Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -777,7 +777,7 @@
     },
     {
       "home": "Portugal 🇵🇹",
-      "away": "Congo DR",
+      "away": "RD Congo 🇨🇩",
       "date": "17/06",
       "brTime": "14h",
       "venue": "NRG Stadium",
@@ -2289,7 +2289,7 @@
     },
     {
       "home": "Colômbia 🇨🇴",
-      "away": "Congo DR",
+      "away": "RD Congo 🇨🇩",
       "date": "23/06",
       "brTime": "23h",
       "venue": "Estadio Akron",
@@ -2605,7 +2605,7 @@
       "round": "avos"
     },
     {
-      "home": "Congo DR",
+      "home": "RD Congo 🇨🇩",
       "away": "Uzbequistão 🇺🇿",
       "date": "27/06",
       "brTime": "20h",
