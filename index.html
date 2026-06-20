@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8"/>
@@ -334,6 +334,8 @@ loadFavs();
 // Chave pública VAPID — não é segredo, é normal/seguro estar aqui no código.
 // Só a chave PRIVADA (no robô) é que tem de ficar escondida.
 const VAPID_PUBLIC_KEY="BEFpY8GhKjLQAfNy4sKdmSzcDcHs2ZHWF2gQYQRVMGyQW6vJNJEJxIu8mYpd1Y6jwjZYWnS-P-iXFYoia5K1vew";
+
+const COPA2026_API_URL = "https://copa2026-api.tbartulihe.workers.dev";
 let PUSH_SUB_JSON=null;
 let PUSH_STATUS="idle"; // idle | granted-no-sub | subscribed | unsupported | denied
 
@@ -346,6 +348,26 @@ function urlBase64ToUint8Array(base64String){
   return out;
 }
 
+
+async function registerPushSubscription(sub){
+  const favoriteTeams = ["Brasil ðŸ‡§ðŸ‡·", "CroÃ¡cia ðŸ‡­ðŸ‡·", "Portugal ðŸ‡µðŸ‡¹"];
+
+  const res = await fetch(`${COPA2026_API_URL}/subscribe`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({
+      favoriteTeams,
+      subscription: sub.toJSON()
+    })
+  });
+
+  if(!res.ok){
+    const txt = await res.text().catch(() => "");
+    throw new Error(`Falha ao registrar subscription: ${res.status} ${txt}`);
+  }
+
+  return await res.json();
+}
 async function checkPushStatus(){
   if(!("serviceWorker" in navigator)||!("PushManager" in window)){
     PUSH_STATUS="unsupported"; return;
@@ -364,13 +386,23 @@ async function enablePush(){
   try{
     const perm=await Notification.requestPermission();
     if(perm!=="granted"){ PUSH_STATUS="denied"; render(); return; }
+
     const reg=await navigator.serviceWorker.ready;
-    const sub=await reg.pushManager.subscribe({
-      userVisibleOnly:true,
-      applicationServerKey:urlBase64ToUint8Array(VAPID_PUBLIC_KEY),
-    });
+
+    let sub=await reg.pushManager.getSubscription();
+
+    if(!sub){
+      sub=await reg.pushManager.subscribe({
+        userVisibleOnly:true,
+        applicationServerKey:urlBase64ToUint8Array(VAPID_PUBLIC_KEY),
+      });
+    }
+
+    await registerPushSubscription(sub);
+
     PUSH_SUB_JSON=JSON.stringify(sub.toJSON(),null,2);
     PUSH_STATUS="subscribed";
+    alert("Notificações ativadas com sucesso!");
   }catch(e){
     alert("Erro ao ativar notificações: "+e.message);
   }
@@ -1606,3 +1638,5 @@ if("serviceWorker"in navigator)navigator.serviceWorker.register("./sw.js",{scope
 </script>
 </body>
 </html>
+
+
