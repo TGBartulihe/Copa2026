@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T18:15:42.898Z",
+  "generatedAt": "2026-06-20T18:16:28.013Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -2084,12 +2084,18 @@
       "brTime": "14h",
       "venue": "NRG Stadium",
       "iso": "2026-06-20T17:00Z",
-      "sh": 3,
+      "sh": 4,
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "54'",
+      "clock": "55'",
       "events": [
+        {
+          "min": "54'",
+          "icon": "⚽",
+          "txt": "Cody Gakpo (Holanda) finalização com o pé direito do lado esquerdo da área após um contra-ataque.",
+          "sub": "Netherlands"
+        },
         {
           "min": "53'",
           "icon": "🟨",
