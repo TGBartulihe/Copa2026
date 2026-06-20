@@ -58,8 +58,9 @@ body{background:#040804;color:#ddd;font-family:Georgia,serif;min-height:100vh}
 .cscore.favalive{color:#f0c040;font-size:clamp(15px,4vw,20px)}
 .cscore.vs{color:#2a2a2a;font-size:13px}
 .cfoot{font-size:9px;margin-top:4px;display:flex;justify-content:space-between;align-items:center}
-.star{background:none;border:none;cursor:pointer;font-size:15px;padding:2px 4px;position:absolute;top:7px;right:6px;opacity:.3;transition:opacity .15s}
-.star.on{opacity:1}
+.ministar{display:inline-block;cursor:pointer;font-size:11px;opacity:.25;transition:opacity .15s;padding:0 2px}
+.ministar.on{opacity:1}
+.ministar:active{transform:scale(1.3)}
 /* LIVE EVENTS */
 .evbox{margin-top:8px;border-top:1px solid #0f180f;padding-top:8px}
 .evtitle{font-size:9px;color:#1a5e1a;letter-spacing:2px;margin-bottom:6px;font-weight:bold}
@@ -729,8 +730,10 @@ function calcProjection(){
 }
 
 function bMM(){
+  // 12 grupos × 4 seleções → 6 jogos por grupo (todos contra todos) = 72 no total
+  const TOTAL_GROUP_GAMES=72;
   const done=RES.filter(r=>r.done).length;
-  const total=RES.length;
+  const total=TOTAL_GROUP_GAMES;
   const pct=Math.round((done/total)*100);
 
   let h=`<div style="display:flex;gap:6px;margin-bottom:14px">
@@ -854,25 +857,37 @@ function bOficial(){
   return h;
 }
 
+function tomorrowStr(){
+  const d=new Date();d.setDate(d.getDate()+1);
+  return `${String(d.getDate()).padStart(2,"0")}/${String(d.getMonth()+1).padStart(2,"0")}`;
+}
+// Converte "DD/MM" num número ordenável (assume mesmo ano, sem virada de ano)
+function dateSortKey(ddmm){
+  if(!ddmm)return 9999;
+  const [d,m]=ddmm.split("/").map(Number);
+  return m*100+d;
+}
+
 function bProx(){
-  const tNext=RES.filter(r=>r.date==="15/06"&&!r.done&&!r.live);
-  const r16=RES.filter(r=>r.date==="16/06"&&!r.done);
-  const r17=RES.filter(r=>r.date==="17/06"&&!r.done);
-  let h="";
-  if(tNext.length){h+=lbl("HOJE AINDA — 15/06");tNext.forEach(r=>{h+=uc(r);});}
-  h+=lbl("AMANHÃ — 16/06",true);r16.forEach(r=>{h+=uc(r);});
-  h+=lbl("17 DE JUNHO",true);r17.forEach(r=>{h+=uc(r);});
-  h+=lbl("2ª RODADA — DESTAQUES",true);
-  [{g:"C",home:"Brasil 🇧🇷",away:"Haiti 🇭🇹",date:"19/06",brTime:"22h",venue:"Filadélfia"},
-   {g:"C",home:"Marrocos 🇲🇦",away:"Escócia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",date:"19/06",brTime:"19h",venue:"Vancouver"},
-   {g:"H",home:"Espanha 🇪🇸",away:"Uruguai 🇺🇾",date:"20/06",brTime:"19h",venue:"Dallas"},
-   {g:"J",home:"Argentina 🇦🇷",away:"Áustria 🇦🇹",date:"21/06",brTime:"22h",venue:"Houston"},
-   {g:"E",home:"Alemanha 🇩🇪",away:"C. do Marfim 🇨🇮",date:"21/06",brTime:"19h",venue:"Toronto"},
-   {g:"I",home:"França 🇫🇷",away:"Senegal 🇸🇳",date:"16/06",brTime:"16h",venue:"Los Angeles"},
-   {g:"F",home:"Holanda 🇳🇱",away:"Suécia 🇸🇪",date:"20/06",brTime:"22h",venue:"Los Angeles"},
-   {g:"K",home:"Portugal 🇵🇹",away:"Colômbia 🇨🇴",date:"22/06",brTime:"22h",venue:"Boston"},
-   {g:"L",home:"Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",away:"Croácia 🇭🇷",date:"17/06",brTime:"17h",venue:"Nova York"},
-  ].forEach(r=>{h+=uc(r,isFav(r.home)||isFav(r.away));});
+  const today=todayStr(), tom=tomorrowStr();
+  const upcoming=RES.filter(r=>!r.done&&!r.live).sort((a,b)=>dateSortKey(a.date)-dateSortKey(b.date));
+
+  if(!upcoming.length){
+    return `<div class="no-g">Sem jogos futuros cadastrados ainda.<br><span style="font-size:10px;color:#222">O robô adiciona automaticamente conforme a ESPN confirma novos jogos — tenta o Refresh.</span></div>`;
+  }
+
+  let h="", lastDate=null, first=true;
+  upcoming.forEach(r=>{
+    if(r.date!==lastDate){
+      lastDate=r.date;
+      let label=r.date||"DATA A CONFIRMAR";
+      if(r.date===today)label=`HOJE — ${r.date}`;
+      else if(r.date===tom)label=`AMANHÃ — ${r.date}`;
+      h+=lbl(label,!first);
+      first=false;
+    }
+    h+=uc(r);
+  });
   return h;
 }
 
@@ -926,14 +941,13 @@ function card(r,live,upcoming){
   else score=`<div class="cscore vs">· vs ·</div>`;
   let foot="";
   if(r.done)foot=`<div class="cfoot"><span style="color:${col};font-size:9px">GRP ${r.g} · ${date}</span>${r.note?`<span style="color:#3dbb3d;font-style:italic;font-size:9px;max-width:58%;text-align:right">${r.note}</span>`:""}</div>`;
-  const starName=isFav(r.home)?r.home:r.away;
+  const hOn=isFav(r.home), aOn=isFav(r.away);
   return `<div class="card${live&&fv?" cfavlive":live?" clive":fv&&r.done?" cfav":""}" style="${r.done&&!live?"border-left-color:"+col:""}">
-    <button class="star${isFav(r.home)||isFav(r.away)?" on":""}" onclick="toggleFav('${starName}')">⭐</button>
     ${badge}
     <div class="crow">
-      <div class="cteam ${wh?"win":r.done?"lose":""}">${r.home}</div>
+      <div class="cteam ${wh?"win":r.done?"lose":""}">${r.home} <span class="ministar${hOn?" on":""}" onclick="toggleFav('${r.home}')">⭐</span></div>
       ${score}
-      <div class="cteam r ${wa?"win":r.done?"lose":""}">${r.away}</div>
+      <div class="cteam r ${wa?"win":r.done?"lose":""}"><span class="ministar${aOn?" on":""}" onclick="toggleFav('${r.away}')">⭐</span> ${r.away}</div>
     </div>
     ${foot}${live?buildEvBox(r):""}
   </div>`;
