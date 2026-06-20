@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T18:08:25.502Z",
+  "generatedAt": "2026-06-20T18:09:24.979Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -2088,8 +2088,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "47'",
+      "clock": "48'",
       "events": [
+        {
+          "min": "47'",
+          "icon": "⚽",
+          "txt": "Cody Gakpo (Holanda) finalização com o pé esquerdo de muito perto.",
+          "sub": "Netherlands"
+        },
         {
           "min": "45'",
           "icon": "🔄",
