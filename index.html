@@ -350,7 +350,7 @@ function urlBase64ToUint8Array(base64String){
 
 
 async function registerPushSubscription(sub){
-  const favoriteTeams = ["Brasil ðŸ‡§ðŸ‡·", "CroÃ¡cia ðŸ‡­ðŸ‡·", "Portugal ðŸ‡µðŸ‡¹"];
+  const favoriteTeams = FAVS.map(teamCode);
 
   const res = await fetch(`${COPA2026_API_URL}/subscribe`, {
     method: "POST",
