@@ -265,12 +265,24 @@ async function fetchMatchDetails(eventId){
         original = original.replace(/^goal!?\s*[^.]*\.\s*/i, "");
       }
 
+      // Substituição: "Substitution, Germany. Player A replaces Player B." —
+      // tira o nome da seleção (arriscado prever como sai traduzido) e
+      // reconstrói a frase nós mesmos com a bandeira no lugar certo.
+      const isSubIcon = icon === "🔄";
+      if (isSubIcon){
+        original = original.replace(/^substitution,?\s*[^.]*\.\s*/i, "");
+      }
+
       // Tenta a tradução real (preserva contexto: tipo de remate, assistência...).
       // Se falhar (sem chave, API em baixo, sem internet), cai no template
       // simples — nunca mostra a frase em inglês.
       let txt = await translateToPT(original);
-      if (!txt) txt = describeEventPT(icon, playerName, assistName);
-      else txt = fixFootballTermsPT(txt);
+      if (txt){
+        txt = fixFootballTermsPT(txt);
+        if (isSubIcon) txt = `Substituição, ${teamName}. ${txt}`;
+      } else {
+        txt = describeEventPT(icon, playerName, assistName); // já tem a frase própria, sem bandeira
+      }
 
       results.push({ min: p.clock?.displayValue || "", icon, txt, sub: teamName });
     }
