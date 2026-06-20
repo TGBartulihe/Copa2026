@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T21:51:22.715Z",
+  "generatedAt": "2026-06-20T21:52:23.835Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -9532,7 +9532,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "88'",
+      "clock": "89'",
       "events": [
         {
           "min": "85'",
@@ -9893,14 +9893,14 @@
           "offsides": "0",
           "wonCorners": "8",
           "saves": "1",
-          "possessionPct": "58.7",
+          "possessionPct": "58.9",
           "totalShots": "13",
           "shotsOnTarget": "4",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "502",
-          "totalPasses": "565",
+          "accuratePasses": "507",
+          "totalPasses": "570",
           "passPct": "0.9",
           "accurateCrosses": "5",
           "totalCrosses": "18",
@@ -9923,7 +9923,7 @@
           "offsides": "1",
           "wonCorners": "3",
           "saves": "3",
-          "possessionPct": "41.3",
+          "possessionPct": "41.1",
           "totalShots": "9",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
