@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T21:24:25.072Z",
+  "generatedAt": "2026-06-20T21:25:22.033Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -7321,7 +7321,7 @@
         {
           "min": "43'",
           "icon": "⚽",
-          "txt": "Alex Freeman (EUA) de cabeça de muito perto no canto inferior direito após bola parada. Gol concedido após revisão do VAR.",
+          "txt": "Alex Freeman (EUA) de cabeça de muito perto no Escanteio inferior direito após bola parada. Gol concedido após revisão do VAR.",
           "sub": "United States"
         },
         {
@@ -8232,7 +8232,7 @@
         {
           "min": "23'",
           "icon": "⚽",
-          "txt": "Matheus Cunha (Brasil) finalização com o pé esquerdo do meio da área no canto inferior esquerdo após um contra-ataque.",
+          "txt": "Matheus Cunha (Brasil) finalização com o pé esquerdo do meio da área no Escanteio inferior esquerdo após um contra-ataque.",
           "sub": "Brazil"
         },
         {
@@ -8688,7 +8688,7 @@
         {
           "min": "2'",
           "icon": "⚽",
-          "txt": "Matías Galarza (Paraguai) finalização com o pé esquerdo de fora da área no canto inferior direito. Assistência de Júlio Enciso.",
+          "txt": "Matías Galarza (Paraguai) finalização com o pé esquerdo de fora da área no Escanteio inferior direito. Assistência de Júlio Enciso.",
           "sub": "Paraguay"
         }
       ],
@@ -9065,7 +9065,7 @@
         {
           "min": "89'",
           "icon": "⚽",
-          "txt": "Crysencio Summerville (Holanda) finalização com o pé direito de fora da área no canto inferior esquerdo. Assistência de Memphis Depay.",
+          "txt": "Crysencio Summerville (Holanda) finalização com o pé direito de fora da área no Escanteio inferior esquerdo. Assistência de Memphis Depay.",
           "sub": "Netherlands"
         },
         {
@@ -9107,7 +9107,7 @@
         {
           "min": "59'",
           "icon": "⚽",
-          "txt": "Anthony Elanga (Suécia) finalização com o pé esquerdo do meio da área no canto inferior esquerdo. Assistência de Alexander Isak com um passe em profundidade após um contra-ataque.",
+          "txt": "Anthony Elanga (Suécia) finalização com o pé esquerdo do meio da área no Escanteio inferior esquerdo. Assistência de Alexander Isak com um passe em profundidade após um contra-ataque.",
           "sub": "Sweden"
         },
         {
@@ -9131,7 +9131,7 @@
         {
           "min": "54'",
           "icon": "⚽",
-          "txt": "Cody Gakpo (Holanda) finalização com o pé direito do lado esquerdo da área no canto inferior esquerdo. Assistência de Crysencio Summerville depois de um contra-ataque.",
+          "txt": "Cody Gakpo (Holanda) finalização com o pé direito do lado esquerdo da área no Escanteio inferior esquerdo. Assistência de Crysencio Summerville depois de um contra-ataque.",
           "sub": "Netherlands"
         },
         {
@@ -9161,7 +9161,7 @@
         {
           "min": "17'",
           "icon": "⚽",
-          "txt": "Brian Brobbey (Holanda) finalização com o pé direito de muito perto no canto inferior esquerdo. Assistência de Denzel Dumfries com um cruzamento.",
+          "txt": "Brian Brobbey (Holanda) finalização com o pé direito de muito perto no Escanteio inferior esquerdo. Assistência de Denzel Dumfries com um cruzamento.",
           "sub": "Netherlands"
         },
         {
@@ -9522,7 +9522,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "61'",
+      "clock": "62'",
       "events": [
         {
           "min": "60'",
@@ -9551,7 +9551,7 @@
         {
           "min": "30'",
           "icon": "⚽",
-          "txt": "Franck Kessie (Costa do Marfim) finalização com o pé direito do meio da área no canto inferior esquerdo.",
+          "txt": "Franck Kessie (Costa do Marfim) finalização com o pé direito do meio da área no Escanteio inferior esquerdo.",
           "sub": "Ivory Coast"
         }
       ],
@@ -9839,21 +9839,21 @@
           "offsides": "0",
           "wonCorners": "6",
           "saves": "1",
-          "possessionPct": "61.2",
+          "possessionPct": "60.3",
           "totalShots": "10",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "402",
-          "totalPasses": "450",
+          "totalPasses": "451",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "12",
           "crossPct": "0.3",
-          "totalLongBalls": "23",
+          "totalLongBalls": "24",
           "accurateLongBalls": "13",
-          "longballPct": "0.6",
+          "longballPct": "0.5",
           "blockedShots": "4",
           "effectiveTackles": "11",
           "totalTackles": "16",
@@ -9869,19 +9869,19 @@
           "offsides": "1",
           "wonCorners": "2",
           "saves": "2",
-          "possessionPct": "38.8",
+          "possessionPct": "39.7",
           "totalShots": "8",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "251",
-          "totalPasses": "287",
+          "accuratePasses": "261",
+          "totalPasses": "298",
           "passPct": "0.9",
           "accurateCrosses": "4",
           "totalCrosses": "7",
           "crossPct": "0.6",
-          "totalLongBalls": "38",
+          "totalLongBalls": "39",
           "accurateLongBalls": "20",
           "longballPct": "0.5",
           "blockedShots": "4",
