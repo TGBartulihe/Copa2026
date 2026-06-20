@@ -327,6 +327,18 @@ function toggleFav(name){
   const seen=new Set();
   FAVS=FAVS.filter(f=>{const fk=tkey(f);if(seen.has(fk))return false;seen.add(fk);return true;});
   saveFavs();render();
+  if(PUSH_STATUS==="subscribed") resyncPushFavorites(); // mantém o Cloudflare atualizado, sem pedir nada
+}
+
+// Reenvia a subscrição já existente com as favoriteTeams atuais — silencioso,
+// nunca pede permissão de novo (já está concedida), só atualiza o registo
+async function resyncPushFavorites(){
+  try{
+    const reg=await navigator.serviceWorker.ready;
+    const sub=await reg.pushManager.getSubscription();
+    if(!sub) return;
+    await registerPushSubscription(sub);
+  }catch(e){}
 }
 loadFavs();
 
@@ -409,38 +421,53 @@ async function enablePush(){
   render();
 }
 
-function copySubJSON(){
-  if(!PUSH_SUB_JSON)return;
-  navigator.clipboard.writeText(PUSH_SUB_JSON).then(()=>{
-    alert("Notificações já são registradas automaticamente. Não precisa copiar JSON.");
-  }).catch(()=>{
-    alert("Não consegui copiar automaticamente — seleciona o texto manualmente.");
-  });
-}
-
 function buildPushSection(){
   let body="";
   if(PUSH_STATUS==="unsupported"){
     body=`<div style="font-size:10px;color:#7a8a78">O teu browser não suporta notificações push.</div>`;
   } else if(PUSH_STATUS==="denied"){
-    body=`<div style="font-size:10px;color:#f87171">Permissão de notificações negada — ativa manualmente nas definições do site.</div>`;
+    body=`<div style="font-size:10px;color:#f87171;margin-bottom:8px;line-height:1.5">Notificações bloqueadas. Toca no cadeado/ícone ao lado do endereço → Notificações → Permitir, depois tenta de novo:</div>
+      <button onclick="enablePush()" style="width:100%;padding:8px;border-radius:5px;border:1px solid #4a1515;background:#1a0505;color:#f87171;cursor:pointer;font-family:Georgia,serif;font-size:10px">Tentar novamente</button>`;
   } else if(PUSH_STATUS==="subscribed"){
-    body=`<div style="font-size:10px;color:#3dbb3d;margin-bottom:8px">✅ Notificações ativas neste dispositivo.</div>
-      <div style="font-size:9px;color:#7a8a78;margin-bottom:8px">Se ainda não colaste isto no repositório, copia outra vez:</div>
-      <button onclick="copySubJSON()" style="width:100%;padding:7px;border-radius:5px;border:1px solid #2a3a00;background:#0c0900;color:#f0c040;cursor:pointer;font-family:Georgia,serif;font-size:10px">📋 Copiar Subscrição</button>`;
+    body=`<div style="font-size:10px;color:#3dbb3d">✅ Notificações ativas — atualizam-se sozinhas sempre que mudas os favoritos.</div>`;
   } else {
     body=`<div style="font-size:10px;color:#8a9a88;margin-bottom:10px;line-height:1.5">Recebe um aviso quando um jogo das tuas seleções favoritas estiver a começar, sair um gol, ou terminar — mesmo com a app fechada.</div>
       <button onclick="enablePush()" style="width:100%;padding:9px;border-radius:6px;border:1px solid #2a3a00;background:#1a1500;color:#f0c040;font-family:Georgia,serif;font-size:11px;font-weight:bold;cursor:pointer">🔔 Ativar Notificações</button>`;
   }
-  let extra="";
-  if(PUSH_SUB_JSON && PUSH_STATUS==="subscribed"){
-    extra=`<div style="margin-top:10px;font-size:9px;color:#d4a017;background:#1a1200;border:1px solid #4a3a00;border-radius:6px;padding:8px;line-height:1.5">
-      ⚠️ Só funciona depois de colares a subscrição em <b>subscriptions.json</b> (dentro do array <code>[ ]</code>) e fazeres commit — sem isso o robô não sabe para onde enviar.
-    </div>`;
-  }
-  return `<div class="favsec" style="margin-top:12px"><div class="favtitle">🔔 NOTIFICAÇÕES PUSH</div>${body}${extra}</div>`;
+  return `<div class="favsec" style="margin-top:12px"><div class="favtitle">🔔 NOTIFICAÇÕES PUSH</div>${body}</div>`;
 }
-checkPushStatus().then(()=>render());
+let SHOW_NOTIF_PREPROMPT=false;
+function buildNotifPrePrompt(){
+  return `<div style="background:linear-gradient(135deg,#1a1500,#2a1e00);border:1px solid #f0c040;border-radius:10px;padding:14px;margin-bottom:14px">
+    <div style="font-size:13px;font-weight:bold;color:#f0c040;margin-bottom:4px">🔔 Queres receber avisos?</div>
+    <div style="font-size:11px;color:#cde;margin-bottom:10px;line-height:1.5">Avisamos quando um jogo das tuas seleções favoritas estiver a começar, sair um gol, ou terminar — mesmo com a app fechada.</div>
+    <div style="display:flex;gap:8px">
+      <button onclick="acceptNotifPrePrompt()" style="flex:1;padding:8px;border-radius:6px;border:1px solid #f0c040;background:#f0c040;color:#1a1500;font-family:Georgia,serif;font-size:11px;font-weight:bold;cursor:pointer">Sim, ativar</button>
+      <button onclick="dismissNotifPrePrompt()" style="flex:1;padding:8px;border-radius:6px;border:1px solid #4a3a00;background:transparent;color:#8a9a88;font-family:Georgia,serif;font-size:11px;cursor:pointer">Agora não</button>
+    </div>
+  </div>`;
+}
+function acceptNotifPrePrompt(){
+  localStorage.setItem("notif_preprompt_seen","1");
+  SHOW_NOTIF_PREPROMPT=false;
+  enablePush();
+}
+function dismissNotifPrePrompt(){
+  localStorage.setItem("notif_preprompt_seen","1");
+  SHOW_NOTIF_PREPROMPT=false;
+  render();
+}
+
+checkPushStatus().then(()=>{
+  // Só pergunta UMA VEZ na vida deste browser, e só se ainda não houver
+  // decisão tomada (nunca insiste depois de já saber a resposta) — pedir
+  // a permissão real do sistema sem aviso prévio tem alto risco de bloqueio
+  // permanente se a pessoa recusar sem entender o porquê.
+  if(!localStorage.getItem("notif_preprompt_seen") && PUSH_STATUS==="idle"){
+    SHOW_NOTIF_PREPROMPT=true;
+  }
+  render();
+});
 
 // ── DADOS ──────────────────────────────────────────────────────────────────────
 // FALLBACK_RES: usado apenas no primeiro instante, antes do results.json carregar,
@@ -914,7 +941,7 @@ function calcS(g){
 
 // ── RENDER ────────────────────────────────────────────────────────────────────
 let TAB="minuto",GRP="C";
-function render(){document.getElementById("content").innerHTML=build();}
+function render(){document.getElementById("content").innerHTML=(SHOW_NOTIF_PREPROMPT?buildNotifPrePrompt():"")+build();}
 function build(){
   if(TAB==="hoje")  return bHoje();
   if(TAB==="minuto")return bMinuto();
