@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T21:37:24.531Z",
+  "generatedAt": "2026-06-20T21:38:24.318Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -9522,8 +9522,26 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "74'",
+      "clock": "75'",
       "events": [
+        {
+          "min": "75'",
+          "icon": "🔄",
+          "txt": "Substituição de Simon Adingra (Costa do Marfim) aos 75'",
+          "sub": "Ivory Coast"
+        },
+        {
+          "min": "75'",
+          "icon": "🔄",
+          "txt": "Substituição de Seko Fofana (Costa do Marfim) aos 75'",
+          "sub": "Ivory Coast"
+        },
+        {
+          "min": "75'",
+          "icon": "🔄",
+          "txt": "Substituição, Costa do Marfim. Evann Guessand substitui Ange-Yoan Bonny.",
+          "sub": "Ivory Coast"
+        },
         {
           "min": "68'",
           "icon": "⚽",
