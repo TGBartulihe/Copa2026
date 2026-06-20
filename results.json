@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T23:56:23.808Z",
+  "generatedAt": "2026-06-20T23:57:22.897Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -12172,15 +12172,15 @@
         },
         {
           "min": "80'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a uma lesão de Wilfried Singo (Costa do Marfim).",
-          "sub": "🇨🇮"
-        },
-        {
-          "min": "80'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇩🇪"
+        },
+        {
+          "min": "80'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Wilfried Singo (Costa do Marfim).",
+          "sub": "🇨🇮"
         },
         {
           "min": "75'",
@@ -12637,28 +12637,28 @@
           "offsides": "0",
           "wonCorners": "8",
           "saves": "1",
-          "possessionPct": "59.4",
+          "possessionPct": "59.5",
           "totalShots": "16",
           "shotsOnTarget": "7",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "554",
-          "totalPasses": "622",
+          "accuratePasses": "555",
+          "totalPasses": "624",
           "passPct": "0.9",
           "accurateCrosses": "5",
           "totalCrosses": "21",
           "crossPct": "0.2",
-          "totalLongBalls": "30",
-          "accurateLongBalls": "17",
+          "totalLongBalls": "32",
+          "accurateLongBalls": "19",
           "longballPct": "0.6",
           "blockedShots": "4",
           "effectiveTackles": "17",
           "totalTackles": "26",
           "tacklePct": "0.7",
           "interceptions": "7",
-          "effectiveClearance": "16",
-          "totalClearance": "16"
+          "effectiveClearance": "14",
+          "totalClearance": "14"
         },
         "away": {
           "foulsCommitted": "7",
@@ -12667,7 +12667,7 @@
           "offsides": "1",
           "wonCorners": "3",
           "saves": "5",
-          "possessionPct": "40.6",
+          "possessionPct": "40.5",
           "totalShots": "9",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
