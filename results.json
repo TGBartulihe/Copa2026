@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T17:06:21.643Z",
+  "generatedAt": "2026-06-20T17:07:25.337Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -2088,12 +2088,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "6'",
+      "clock": "7'",
       "events": [
         {
           "min": "5'",
           "icon": "⚽",
-          "txt": "Goal! Netherlands 1, Sweden 0. Brian Brobbey (Netherlands) right footed shot from very close range.",
+          "txt": "Goal! Netherlands 1, Sweden 0. Brian Brobbey (Netherlands) right footed shot from very close range to the centre of the goal. Assisted by Cody Gakpo with a cross.",
           "sub": "Netherlands"
         }
       ]
