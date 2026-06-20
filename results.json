@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T18:20:25.915Z",
+  "generatedAt": "2026-06-20T18:21:30.968Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -2085,15 +2085,27 @@
       "venue": "NRG Stadium",
       "iso": "2026-06-20T17:00Z",
       "sh": 4,
-      "sa": 0,
+      "sa": 1,
       "done": false,
       "live": true,
-      "clock": "59'",
+      "clock": "60'",
       "events": [
         {
           "min": "59'",
+          "icon": "🔄",
+          "txt": "Substituição, Holanda. Entra Guus Til para o lugar de Tijjani Reijnders.",
+          "sub": "Netherlands"
+        },
+        {
+          "min": "59'",
+          "icon": "🔄",
+          "txt": "Substituição, Holanda. Entra Teun Koopmeiners substituindo Frenkie de Jong.",
+          "sub": "Netherlands"
+        },
+        {
+          "min": "59'",
           "icon": "⚽",
-          "txt": "Anthony Elanga (Suécia) Gol aos 59'",
+          "txt": "Anthony Elanga (Suécia) finalização com o pé esquerdo do meio da área no canto inferior esquerdo. Assistência de Alexander Isak com um passe em profundidade após um contra-ataque.",
           "sub": "Sweden"
         },
         {
