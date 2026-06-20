@@ -141,6 +141,7 @@ td.pos{color:#4ade80;font-weight:bold}td.neg{color:#f87171;font-weight:bold}td.z
 .uc.fav{background:#221c0e;border-color:#2a2000;border-left-color:#f0c040}
 .uch{font-size:12px;font-weight:bold}
 .uca{font-size:11px;color:#7a8a78;margin-top:1px}
+.uc-fav-team{color:#f0c040!important;font-weight:bold}
 .uct{font-size:12px;color:#f0c040;font-weight:bold;text-align:right}
 .ucm{font-size:9px;margin-top:2px;text-align:right}
 /* BRACKET */
@@ -172,7 +173,7 @@ td.pos{color:#4ade80;font-weight:bold}td.neg{color:#f87171;font-weight:bold}td.z
 .bbox-team.bbox-right{flex-direction:row-reverse;text-align:right;justify-content:flex-start}
 .bbox-team .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .bbox-team.winner{font-weight:bold;color:#fff}
-.bbox-team.loser{color:#c0d0c0}
+.bbox-team.loser{color:#fff}
 .bbox-check{color:#3dbb3d;font-size:11px;flex-shrink:0}
 .tcode{background:#0a120a;color:#b8860b;font-size:9px;font-weight:bold;letter-spacing:1px;padding:2px 5px;border-radius:4px;flex-shrink:0}
 .bbox-mid{display:flex;align-items:center;padding:0 8px;flex-shrink:0;background:#0a120a;border-radius:6px;margin:8px 4px}
@@ -201,7 +202,7 @@ td.pos{color:#4ade80;font-weight:bold}td.neg{color:#f87171;font-weight:bold}td.z
     <div class="header-sub">COPA DO MUNDO FIFA 2026</div>
     <div class="header-main">
       <div class="header-logo-wrap"><img id="logoImg" alt="" class="header-logo" onerror="this.parentElement.style.display='none'"/></div>
-      <div class="header-title">⚽WORLD CUP TRACKER - BY TICOBARTU⚽</div>
+      <div class="header-title">⚽WORLD CUP TRACKER⚽</div>
     </div>
     <div class="header-meta">
       <span id="li"></span>
@@ -972,8 +973,42 @@ function simBox(matchKey,home,away){
   </div>`;
 }
 
+// Limpa escolhas "órfãs" — se a classificação mudou e o time escolhido já não
+// está numa das duas vagas daquele jogo, a escolha (e tudo o que dependia dela)
+// é invalidada automaticamente. Corre sempre antes de desenhar a Simulação.
+function validateSimPicks(){
+  const rounds=["avos","oitavas","quartas","semis","final"];
+  let current=buildSimR32();
+  let changed=false;
+  rounds.forEach(key=>{
+    const winners=[];
+    current.forEach((m,i)=>{
+      const mk=key+"-"+i;
+      const pick=SIM_PICKS[mk];
+      if(pick && pick!==m.home && pick!==m.away){
+        delete SIM_PICKS[mk];
+        changed=true;
+      }
+      winners.push(SIM_PICKS[mk]||null);
+    });
+    const next=[];
+    for(let i=0;i<winners.length;i+=2){
+      next.push({home:winners[i]||"⏳ A definir",away:winners[i+1]||"⏳ A definir"});
+    }
+    current=next;
+  });
+  if(changed) saveSimPicks();
+  return changed;
+}
+
 function bSimulacao(){
+  const invalidated=validateSimPicks();
   let h=groupStageProgress();
+  if(invalidated){
+    h+=`<div style="background:#1a1200;border:1px solid #4a3a00;border-radius:7px;padding:10px 14px;margin-bottom:12px;font-size:10px;color:#d4a017">
+      ⚠️ A classificação mudou desde a tua última escolha — alguma seleção já não está na mesma vaga. Limpei as escolhas afetadas, refaz a partir daí.
+    </div>`;
+  }
   h+=`<div style="background:#0a0f00;border:1px solid #2a3a00;border-radius:8px;padding:10px 14px;margin-bottom:12px;font-size:10px;color:#9ab;line-height:1.5">
     🎮 <b style="color:#b8c43d">A TUA simulação.</b> Os 32 nomes dos avos vêm da projeção atual — líderes, vices e o melhor terceiro disponível em cada vaga. Toca no vencedor de cada jogo para avançar a árvore até escolheres o campeão.
   </div>`;
@@ -1288,11 +1323,17 @@ function card(r,live,upcoming){
 }
 
 function uc(r,fav){
-  const col=GC[r.g]||"#222",f=fav||isFav(r.home)||isFav(r.away);
+  const col=GC[r.g]||"#222";
+  const favH=isFav(r.home), favA=isFav(r.away);
+  const f=fav||favH||favA;
+  const grpLabel=r.g&&r.g!=="?"?`GRP ${r.g}`:"";
   const {time,date}=ft(r);
   return `<div class="uc${f?" fav":""}" style="border-left-color:${f?"#f0c040":col}">
-    <div><div class="uch">${r.home}</div><div class="uca">vs ${r.away}</div></div>
-    <div><div class="uct">${date} · ${time}</div><div class="ucm" style="color:${f?"#b8860b":col}">GRP ${r.g}${r.venue?" · "+r.venue:""}</div></div>
+    <div>
+      <div class="uch${favH?" uc-fav-team":""}">${r.home}${favH?" ⭐":""}</div>
+      <div class="uca${favA?" uc-fav-team":""}">vs ${r.away}${favA?" ⭐":""}</div>
+    </div>
+    <div><div class="uct">${date} · ${time}</div><div class="ucm" style="color:${f?"#b8860b":col}">${grpLabel}${r.venue?(grpLabel?" · ":"")+r.venue:""}</div></div>
   </div>`;
 }
 
