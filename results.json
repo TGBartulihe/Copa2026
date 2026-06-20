@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T17:05:24.271Z",
+  "generatedAt": "2026-06-20T17:06:21.643Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -2084,12 +2084,19 @@
       "brTime": "14h",
       "venue": "NRG Stadium",
       "iso": "2026-06-20T17:00Z",
-      "sh": 0,
+      "sh": 1,
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "5'",
-      "events": []
+      "clock": "6'",
+      "events": [
+        {
+          "min": "5'",
+          "icon": "⚽",
+          "txt": "Goal! Netherlands 1, Sweden 0. Brian Brobbey (Netherlands) right footed shot from very close range.",
+          "sub": "Netherlands"
+        }
+      ]
     },
     {
       "home": "Alemanha 🇩🇪",
