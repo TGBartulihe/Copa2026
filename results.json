@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T18:48:28.557Z",
+  "generatedAt": "2026-06-20T18:49:29.799Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -2088,7 +2088,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "87'",
+      "clock": "88'",
       "events": [
         {
           "min": "80'",
@@ -2117,7 +2117,7 @@
         {
           "min": "59'",
           "icon": "🔄",
-          "txt": "Substituição, Holanda. Entra Guus Til para o lugar de Tijjani Reijnders.",
+          "txt": "Substituição, Holanda. Entra Guus Til substituindo Tijjani Reijnders.",
           "sub": "Netherlands"
         },
         {
