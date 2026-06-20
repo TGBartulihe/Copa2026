@@ -33,8 +33,7 @@ body{background:#040804;color:#ddd;font-family:Georgia,serif;min-height:100vh}
 }
 .header-main{display:flex;align-items:center;justify-content:center;gap:12px}
 .header-logo{
-  height:54px;width:auto;max-width:90px;flex-shrink:0;
-  mix-blend-mode:multiply;
+  height:64px;width:auto;max-width:100px;flex-shrink:0;
 }
 .header-main .header-title{text-align:left}
 #app{max-width:640px;margin:0 auto;padding-bottom:24px}
@@ -165,11 +164,11 @@ td.pos{color:#4ade80;font-weight:bold}td.neg{color:#f87171;font-weight:bold}td.z
 .bbox-head.head-live{color:#ff5544}
 .bbox-head.head-done{color:#3dbb3d}
 .bbox-body{display:flex;align-items:stretch}
-.bbox-team{flex:1;display:flex;align-items:center;gap:5px;padding:11px 8px;font-size:12.5px;min-width:0;line-height:1.25}
+.bbox-team{flex:1;display:flex;align-items:center;gap:5px;padding:11px 8px;font-size:12.5px;min-width:0;line-height:1.25;color:#fff}
 .bbox-team.bbox-right{flex-direction:row-reverse;text-align:right;justify-content:flex-start}
 .bbox-team .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
-.bbox-team.winner{font-weight:bold;color:#f2ecd8}
-.bbox-team.loser{color:#7a8a7a}
+.bbox-team.winner{font-weight:bold;color:#fff}
+.bbox-team.loser{color:#c0d0c0}
 .bbox-check{color:#3dbb3d;font-size:11px;flex-shrink:0}
 .bbox-mid{display:flex;align-items:center;padding:0 8px;flex-shrink:0;background:#0a120a;border-radius:6px;margin:8px 4px}
 .bbox-score{font-size:16px;font-weight:bold;color:#f0c040;letter-spacing:1px;min-width:42px;text-align:center}
@@ -866,33 +865,39 @@ function groupStageProgress(){
   </div>`;
 }
 
+// Caixa de confronto da projeção — 1º vs 2º do MESMO grupo (ambos qualificam,
+// por isso nenhum dos dois fica esmaecido como "perdedor")
+function projectionBox(g){
+  const rows=calcS(g), hasG=rows.some(r=>r.j>0);
+  const first=rows[0], second=rows[1];
+  const col=GC[g]||"#3dbb3d";
+  const favH=isFav(first.t), favA=isFav(second.t);
+  const meta=hasG?`🏆 GRUPO ${g} · 1º E 2º CLASSIFICAM-SE`:`GRUPO ${g} · ainda sem jogos`;
+  return `<div class="bbox bbox-done">
+    <div class="bbox-head head-done" style="color:${col}"><span>${meta}</span></div>
+    <div class="bbox-body">
+      <div class="bbox-team winner"><span class="nm">${first.t}${favH?" ⭐":""}</span></div>
+      <div class="bbox-mid"><div class="bbox-score" style="font-size:13px">${first.pts}–${second.pts}</div></div>
+      <div class="bbox-team bbox-right winner"><span class="nm">${second.t}${favA?" ⭐":""}</span></div>
+    </div>
+  </div>`;
+}
+
 function bProjecao(){
-  const {leaders,runners,bestThirds,outThirds}=calcProjection();
+  const {bestThirds,outThirds}=calcProjection();
   let h=groupStageProgress();
   h+=`<div style="background:#0a0f00;border:1px solid #2a3a00;border-radius:8px;padding:10px 14px;margin-bottom:14px;font-size:10px;color:#9ab;line-height:1.5">
     🔮 <b style="color:#b8c43d">Projeção baseada nos resultados de agora.</b> Mostra quem se classificaria se a fase de grupos parasse neste momento — muda conforme os jogos acontecem.<br><br>
     ⚠️ Os <b>confrontos exatos</b> do mata-mata com terceiros colocados só saem da FIFA após o fim da fase de grupos — existem 495 combinações possíveis. Aqui mostro só <b>quem se classifica</b>, não quem joga contra quem.
   </div>`;
 
-  h+=lbl("🥇 LÍDERES DOS GRUPOS (1º lugar)");
-  leaders.forEach(t=>{
-    const fav=isFav(t.t);
-    h+=`<div class="uc" style="border-left-color:${GC[t.g]}${fav?";background:#221c0e":""}">
-      <div><div class="uch">${t.t}${fav?" ⭐":""}</div><div class="uca">Grupo ${t.g} · ${t.pts} pts · ${t.j} jogos</div></div>
-      <div style="text-align:right"><div class="uct" style="color:${GC[t.g]}">${t.dif>0?"+":""}${t.dif}</div><div class="ucm">saldo</div></div>
-    </div>`;
+  h+=lbl("🏆 CLASSIFICADOS DIRETOS — 1º E 2º DE CADA GRUPO");
+  "ABCDEFGHIJKL".split("").forEach((g,i)=>{
+    h+=projectionBox(g);
+    if(i%2===1 && i<11) h+=connector("PRÓXIMO PAR DE GRUPOS");
   });
 
-  h+=lbl("🥈 VICE-LÍDERES (2º lugar)",true);
-  runners.forEach(t=>{
-    const fav=isFav(t.t);
-    h+=`<div class="uc" style="border-left-color:${GC[t.g]}${fav?";background:#221c0e":""}">
-      <div><div class="uch">${t.t}${fav?" ⭐":""}</div><div class="uca">Grupo ${t.g} · ${t.pts} pts · ${t.j} jogos</div></div>
-      <div style="text-align:right"><div class="uct" style="color:${GC[t.g]}">${t.dif>0?"+":""}${t.dif}</div><div class="ucm">saldo</div></div>
-    </div>`;
-  });
-
-  h+=lbl("🥉 MELHORES TERCEIROS — top 8 entram",true);
+  h+=lbl("🥉 MELHORES TERCEIROS — TOP 8 ENTRAM",true);
   bestThirds.forEach((t,i)=>{
     const fav=isFav(t.t);
     h+=`<div class="uc fav" style="border-left-color:#3dbb3d${fav?";background:#221c0e":""}">
