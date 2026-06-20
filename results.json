@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T18:53:29.829Z",
+  "generatedAt": "2026-06-20T18:54:29.617Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -2088,8 +2088,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "90'+2'",
+      "clock": "90'+3'",
       "events": [
+        {
+          "min": "90'+3'",
+          "icon": "🔄",
+          "txt": "Substituição, Suécia. Entra Elliot Stroud para o lugar de Gabriel Gudmundsson.",
+          "sub": "Sweden"
+        },
         {
           "min": "90'",
           "icon": "🔄",
