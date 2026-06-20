@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T21:21:22.019Z",
+  "generatedAt": "2026-06-20T21:22:23.966Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -9522,7 +9522,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "58'",
+      "clock": "59'",
       "events": [
         {
           "min": "45'",
@@ -9819,22 +9819,22 @@
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
-          "wonCorners": "4",
+          "wonCorners": "5",
           "saves": "1",
-          "possessionPct": "59.4",
+          "possessionPct": "60.8",
           "totalShots": "9",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "366",
-          "totalPasses": "412",
+          "accuratePasses": "390",
+          "totalPasses": "437",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "11",
           "crossPct": "0.3",
-          "totalLongBalls": "21",
-          "accurateLongBalls": "12",
+          "totalLongBalls": "22",
+          "accurateLongBalls": "13",
           "longballPct": "0.6",
           "blockedShots": "4",
           "effectiveTackles": "11",
@@ -9845,13 +9845,13 @@
           "totalClearance": "10"
         },
         "away": {
-          "foulsCommitted": "4",
+          "foulsCommitted": "5",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "2",
           "saves": "2",
-          "possessionPct": "40.6",
+          "possessionPct": "39.2",
           "totalShots": "8",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
@@ -9867,12 +9867,12 @@
           "accurateLongBalls": "20",
           "longballPct": "0.5",
           "blockedShots": "4",
-          "effectiveTackles": "9",
-          "totalTackles": "17",
-          "tacklePct": "0.5",
+          "effectiveTackles": "10",
+          "totalTackles": "18",
+          "tacklePct": "0.6",
           "interceptions": "11",
-          "effectiveClearance": "15",
-          "totalClearance": "15"
+          "effectiveClearance": "16",
+          "totalClearance": "16"
         }
       }
     },
