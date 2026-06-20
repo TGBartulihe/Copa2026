@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T18:17:26.882Z",
+  "generatedAt": "2026-06-20T18:18:28.570Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -2088,14 +2088,8 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "56'",
+      "clock": "57'",
       "events": [
-        {
-          "min": "56'",
-          "icon": "🔄",
-          "txt": "Substituição, Suécia. Anthony Elanga entra em campo e entra Alexander Bernhardsson.",
-          "sub": "Sweden"
-        },
         {
           "min": "56'",
           "icon": "🔄",
@@ -2106,6 +2100,12 @@
           "min": "56'",
           "icon": "🔄",
           "txt": "Substituição, Suécia. Entra Besfort Zeneli substituindo Jesper Karlström.",
+          "sub": "Sweden"
+        },
+        {
+          "min": "55'",
+          "icon": "🔄",
+          "txt": "Substituição, Suécia. Anthony Elanga entra em campo e entra Alexander Bernhardsson.",
           "sub": "Sweden"
         },
         {
