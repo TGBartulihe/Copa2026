@@ -546,45 +546,42 @@ async function fetchData(){
   autoExpireLiveGames();
   setSrc("loading","⟳ Conectando...");
 
-  // 1ª prioridade: results.json — atualizado automaticamente pelo robô (rede de segurança)
-  let botOk=false;
+  // Tenta o robô (results.json) E o fetch direto à ESPN, SEMPRE os dois —
+  // nunca mais "se o robô responder, para de procurar". Isto é a correção
+  // do bug em que, mesmo com o robô parado/mal configurado, o site ficava
+  // travado nos dados antigos porque nunca tentava mais nada.
+  const sources=[];
+
   try{
     const c=await fetchResultsJSON();
-    botOk=true;
-    const when=LAST_BOT_UPDATE?LAST_BOT_UPDATE.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"}):"";
-    setSrc("espn",`🤖 Robô GitHub · ${c} jogos · gerado ${when}`);
+    sources.push(`🤖 robô·${c}`);
   }catch(e){}
 
-  // Boost ao vivo: se há jogo a decorrer, tenta um fetch direto e rápido
-  // por cima dos dados do robô, para placar mais fresco entre ciclos.
-  const hasLiveNow=RES.some(r=>r.live);
-  if(hasLiveNow){
-    const boosted=await fetchLiveBoost();
-    if(boosted){
-      const when=new Date().toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"});
-      setSrc("espn",`🔴 Boost ao vivo · atualizado ${when}`);
-    }
+  try{
+    const c=await fetchESPN();
+    sources.push(`📡 ESPN·${c}`);
+  }catch(e){}
+
+  if(sources.length){
+    const when=new Date().toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"});
+    DATA_SOURCE="live";
+    setSrc("espn",`✅ ${sources.join(" + ")} · ${when}`);
+    adaptRefresh();updateTS();render();return;
   }
 
-  if(botOk){adaptRefresh();updateTS();render();return;}
-
-  // 2ª prioridade: fetch direto à ESPN pelo browser (pode falhar por CORS)
-  try{const c=await fetchESPN();DATA_SOURCE="espn-direct";setSrc("espn",`✅ ESPN direto · ${c} jogos`);adaptRefresh();updateTS();render();return;}catch(e){}
-
-  // 3ª prioridade: TheSportsDB
+  // Último recurso antes dos dados locais: TheSportsDB
   try{const c=await fetchSDB();DATA_SOURCE="sdb";setSrc("sdb",`🔵 TheSportsDB backup · ${c} atualizados`);updateTS();render();return;}catch(e){}
 
-  // Último recurso: dados locais embutidos
+  // Nenhuma fonte respondeu — dados locais embutidos
   DATA_SOURCE="fallback";
-  setSrc("local","⚠️ Dados locais · robô e ESPN indisponíveis");updateTS();render();
+  setSrc("local","⚠️ Dados locais · todas as fontes indisponíveis");updateTS();render();
 }
 
 function adaptRefresh(){
   if(refreshIv)clearInterval(refreshIv);
   const hasFavLive=RES.some(r=>r.live&&(isFav(r.home)||isFav(r.away)));
   const hasLive=RES.some(r=>r.live);
-  // Com jogo ao vivo, o intervalo curto agora serve o "boost", não o results.json
-  const iv=hasFavLive?15000:hasLive?20000:90000;
+  const iv=hasFavLive?15000:hasLive?25000:90000;
   refreshIv=setInterval(fetchData,iv);
 }
 
