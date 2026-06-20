@@ -1,0 +1,26 @@
+warning: in the working copy of 'scripts/update-scores.js', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/scripts/update-scores.js b/scripts/update-scores.js[m
+[1mindex f889ae5..9e7be29 100644[m
+[1m--- a/scripts/update-scores.js[m
+[1m+++ b/scripts/update-scores.js[m
+[36m@@ -1,4 +1,4 @@[m
+[31m-// Copa 2026 Tracker — atualização automática de resultados[m
+[32m+[m[32m﻿// Copa 2026 Tracker — atualização automática de resultados[m
+ // Roda via GitHub Actions a cada ~15 minutos. Autor: Thiago Bartulihe[m
+ //[m
+ // Busca a scoreboard da ESPN para uma janela de dias (passado + futuro próximo),[m
+[36m@@ -250,7 +250,7 @@[m [masync function sendPushToAll(subs, payload){[m
+   const stillValid = [];[m
+   for (const sub of subs){[m
+     try{[m
+[31m-      await webpush.sendNotification(sub, body);[m
+[32m+[m[32m      await webpush.sendNotification(sub.subscription || sub, body);[m
+       stillValid.push(sub);[m
+       console.log(`📨 Notificação enviada: ${payload.title}`);[m
+     }catch(e){[m
+[36m@@ -416,3 +416,5 @@[m [masync function main(){[m
+ }[m
+ [m
+ main().catch(e => { console.error("Erro fatal:", e); process.exit(1); });[m
+[41m+[m
+[41m+[m
