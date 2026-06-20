@@ -1,4 +1,4 @@
-// Copa 2026 Tracker — atualização automática de resultados
+﻿// Copa 2026 Tracker — atualização automática de resultados
 // Roda via GitHub Actions a cada ~15 minutos. Autor: Thiago Bartulihe
 //
 // Busca a scoreboard da ESPN para uma janela de dias (passado + futuro próximo),
@@ -250,7 +250,7 @@ async function sendPushToAll(subs, payload){
   const stillValid = [];
   for (const sub of subs){
     try{
-      await webpush.sendNotification(sub, body);
+      await webpush.sendNotification(sub.subscription || sub, body);
       stillValid.push(sub);
       console.log(`📨 Notificação enviada: ${payload.title}`);
     }catch(e){
@@ -416,3 +416,4 @@ async function main(){
 }
 
 main().catch(e => { console.error("Erro fatal:", e); process.exit(1); });
+
