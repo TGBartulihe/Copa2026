@@ -412,7 +412,7 @@ async function enablePush(){
 function copySubJSON(){
   if(!PUSH_SUB_JSON)return;
   navigator.clipboard.writeText(PUSH_SUB_JSON).then(()=>{
-    alert("Copiado! Cola dentro do array em subscriptions.json no teu repositório.");
+    alert("Notificações já são registradas automaticamente. Não precisa copiar JSON.");
   }).catch(()=>{
     alert("Não consegui copiar automaticamente — seleciona o texto manualmente.");
   });
@@ -1638,5 +1638,6 @@ if("serviceWorker"in navigator)navigator.serviceWorker.register("./sw.js",{scope
 </script>
 </body>
 </html>
+
 
 
