@@ -1,10 +1,10 @@
-name: Testar Push Copa 2026
+name: Test Push
 
 on:
   workflow_dispatch: {}
 
 jobs:
-  test-push:
+  push:
     runs-on: ubuntu-latest
 
     steps:
@@ -14,11 +14,45 @@ jobs:
         with:
           node-version: 20
 
-      - run: npm install web-push
+      - run: npm install --no-audit --no-fund
 
-      - name: Enviar push de teste
+      - name: Enviar Push de Teste
         env:
           VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
           VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
-          VAPID_SUBJECT: ${{ secrets.VAPID_SUBJECT }}
-        run: node scripts/test-push.js
+          CLOUDFLARE_ADMIN_TOKEN: ${{ secrets.CLOUDFLARE_ADMIN_TOKEN }}
+        run: |
+          node -e "
+          const webpush=require('web-push');
+          webpush.setVapidDetails(
+            'mailto:tbartulihe@gmail.com',
+            process.env.VAPID_PUBLIC_KEY,
+            process.env.VAPID_PRIVATE_KEY
+          );
+
+          async function main(){
+            const r=await fetch(
+              'https://copa2026-api.tbartulihe.workers.dev/subscriptions',
+              {
+                headers:{
+                  'X-Admin-Token':process.env.CLOUDFLARE_ADMIN_TOKEN
+                }
+              }
+            );
+
+            const data=await r.json();
+
+            for(const sub of data.subscriptions){
+              await webpush.sendNotification(
+                sub.subscription || sub,
+                JSON.stringify({
+                  title:'🧪 Teste Copa 2026',
+                  body:'Se recebeste isto, está tudo operacional.',
+                  tag:'manual-test'
+                })
+              );
+            }
+          }
+
+          main();
+          "
