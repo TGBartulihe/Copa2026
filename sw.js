@@ -1,7 +1,7 @@
-// Copa 2026 Tracker — Service Worker
+﻿// Copa 2026 Tracker — Service Worker
 // Autor: Thiago Bartulihe
 // v5: adiciona suporte a notificações push (funciona com a app fechada).
-const CACHE = "copa2026-v5";
+const CACHE = "copa2026-v6";
 const SHELL_ASSETS = ["./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", e => {
@@ -72,7 +72,7 @@ self.addEventListener("push", e => {
     icon: "./icon-192.png",
     badge: "./icon-192.png",
     tag: data.tag || "copa2026",
-    data: { url: "./" },
+    data: { url: data.url || "./" },
   };
   e.waitUntil(self.registration.showNotification(title, options));
 });
@@ -86,3 +86,4 @@ self.addEventListener("notificationclick", e => {
     })
   );
 });
+
