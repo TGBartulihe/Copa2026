@@ -43,6 +43,9 @@ jobs:
             console.log('rosters:', Array.isArray(data.rosters), data.rosters?.length);
             console.log('home formation:', data.rosters?.[0]?.formation);
             console.log('away formation:', data.rosters?.[1]?.formation);
+
+            console.log('--- BOXSCORE COMPLETO ---');
+            console.log(JSON.stringify(data.boxscore, null, 2));
           }
 
           main().catch(e=>{console.error(e);process.exit(1);});
