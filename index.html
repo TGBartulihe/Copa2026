@@ -94,6 +94,18 @@ body{background:#040804;color:#ddd;font-family:Georgia,serif;min-height:100vh}
 .evtxt{font-size:11px;color:#bbb;line-height:1.4}
 .evsub{font-size:9px;color:#7a8a78;margin-top:1px}
 .evnone{font-size:10px;color:#5a6a58;font-style:italic;text-align:center;padding:8px 0}
+/* ESCALAÇÃO / CAMPO */
+.lineup-box{margin-top:10px;border-top:1px solid #0f180f;padding-top:10px}
+.lineup-theme{text-align:center;font-size:22px;letter-spacing:10px}
+.pitch-wrap{display:flex;flex-direction:column;gap:8px;margin-top:6px}
+.pitch-half{background:linear-gradient(180deg,#0d2a10,#0a210c);border:1px solid #1a3a1c;border-radius:8px;padding:10px 6px}
+.pitch-label{font-size:9px;letter-spacing:1.5px;font-weight:bold;text-align:center;margin-bottom:8px}
+.pitch-rows{display:flex;flex-direction:column;gap:10px}
+.pitch-row{display:flex;justify-content:space-around;align-items:center}
+.pitch-player{display:flex;flex-direction:column;align-items:center;gap:2px;min-width:0}
+.pitch-dot{width:10px;height:10px;border-radius:50%;background:#fff;border:1.5px solid #166534}
+.pitch-name{font-size:7.5px;color:#cde;white-space:nowrap;max-width:54px;overflow:hidden;text-overflow:ellipsis}
+.pitch-empty{font-size:10px;color:#5a6a58;text-align:center;padding:10px 0;font-style:italic}
 /* TEASER no cartão pequeno, aponta para a tab Minuto a Minuto */
 .cteaser{font-size:10px;color:#3dbb3d;text-align:center;margin-top:6px;padding-top:6px;border-top:1px solid #131e14;cursor:pointer;letter-spacing:.5px}
 .cteaser:active{opacity:.6}
@@ -521,6 +533,62 @@ function applyESPNData(data){
 }
 
 let refreshIv=null;
+
+// ── MODO DEMONSTRAÇÃO — simula um jogo ao vivo com dados fictícios ──────────
+let DEMO_MODE=false;
+let DEMO_TICK=null;
+const DEMO_TIMELINE=[
+  {min:5,  icon:"🟨", txt:"Joško Gvardiol",      sub:"Croácia 🇭🇷",            sh:0,sa:0},
+  {min:18, icon:"⚽", txt:"Vinícius Júnior",      sub:"Brasil 🇧🇷 · 1–0",      sh:1,sa:0},
+  {min:34, icon:"🟨", txt:"Luka Modrić",          sub:"Croácia 🇭🇷",            sh:1,sa:0},
+  {min:56, icon:"⚽", txt:"Andrej Kramarić",      sub:"Croácia 🇭🇷 · empata 1–1",sh:1,sa:1},
+  {min:63, icon:"🔄", txt:"Endrick entra",        sub:"Brasil 🇧🇷",             sh:1,sa:1},
+  {min:71, icon:"⚽", txt:"Endrick",               sub:"Brasil 🇧🇷 · 2–1",      sh:2,sa:1},
+];
+function startDemo(){
+  DEMO_MODE=true;
+  const demoMatch={
+    g:"C",home:"Brasil 🇧🇷",away:"Croácia 🇭🇷",
+    sh:0,sa:0,date:todayStr(),live:true,clock:"1",done:false,
+    venue:"Estádio Demonstração",events:[],_demoIdx:0,
+    lineups:{
+      home:{formation:"4-3-3",starters:[
+        {name:"Alisson",pos:"GK"},{name:"Danilo",pos:"DF"},{name:"Marquinhos",pos:"DF"},
+        {name:"Gabriel Magalhães",pos:"DF"},{name:"Wendell",pos:"DF"},
+        {name:"Casemiro",pos:"MF"},{name:"Bruno Guimarães",pos:"MF"},{name:"Lucas Paquetá",pos:"MF"},
+        {name:"Raphinha",pos:"FW"},{name:"Vinícius Júnior",pos:"FW"},{name:"Endrick",pos:"FW"},
+      ]},
+      away:{formation:"4-2-3-1",starters:[
+        {name:"Livaković",pos:"GK"},{name:"Stanišić",pos:"DF"},{name:"Gvardiol",pos:"DF"},
+        {name:"Sutalo",pos:"DF"},{name:"Erlić",pos:"DF"},
+        {name:"Modrić",pos:"MF"},{name:"Brozović",pos:"MF"},
+        {name:"Kovačić",pos:"MF"},{name:"Majer",pos:"MF"},{name:"Pašalić",pos:"MF"},
+        {name:"Kramarić",pos:"FW"},
+      ]},
+    }
+  };
+  RES.unshift(demoMatch);
+  if(DEMO_TICK)clearInterval(DEMO_TICK);
+  DEMO_TICK=setInterval(()=>{
+    const m=RES.find(r=>r._demoIdx!==undefined);
+    if(!m){clearInterval(DEMO_TICK);return;}
+    if(m._demoIdx>=DEMO_TIMELINE.length){
+      m.clock="90+3";render();clearInterval(DEMO_TICK);return;
+    }
+    const ev=DEMO_TIMELINE[m._demoIdx];
+    m.clock=String(ev.min);m.sh=ev.sh;m.sa=ev.sa;
+    m.events=DEMO_TIMELINE.slice(0,m._demoIdx+1).map(e=>({min:String(e.min),icon:e.icon,txt:e.txt,sub:e.sub})).reverse();
+    m._demoIdx++;
+    render();
+  },4000);
+  render();
+}
+function stopDemo(){
+  DEMO_MODE=false;
+  if(DEMO_TICK)clearInterval(DEMO_TICK);
+  RES=RES.filter(r=>r._demoIdx===undefined);
+  render();
+}
 async function fetchESPN(){
   // Busca hoje + 3 dias anteriores — nunca perde resultado por mudança de dia
   let total=0;
@@ -577,8 +645,7 @@ async function fetchEventDetails(evId,hName,aName){
     const data=await r.json();
     // ESPN pode devolver em plays ou keyEvents
     const plays=[...(data.keyEvents||[]),(data.plays||[])].flat();
-    if(!plays.length)return;
-    const events=plays
+    const events=plays.length?plays
       .filter(isRelevantEvent)
       .map(p=>{
         const icon=getIcon(p);
@@ -589,17 +656,50 @@ async function fetchEventDetails(evId,hName,aName){
         return{min,icon,txt,sub};
       })
       .filter(Boolean)
-      .reverse(); // mais recente primeiro
-    if(!events.length)return;
+      .reverse():null; // mais recente primeiro
+
+    // Tentativa de escalação — caminho ainda não confirmado para futebol,
+    // testa várias hipóteses plausíveis com base no padrão geral da ESPN
+    const lineups=extractLineups(data);
+
+    if(!events?.length && !lineups) return;
+
     RES.forEach(r=>{
       if(!r.live)return;
       const hk=tkey(hName).slice(0,5),ak=tkey(aName).slice(0,5);
       if(tkey(r.home).includes(hk)||tkey(r.away).includes(ak)){
-        r.events=events;
+        if(events?.length) r.events=events;
+        if(lineups) r.lineups=lineups;
       }
     });
     render();
   }catch(e){}
+}
+
+// Tenta vários caminhos plausíveis onde a ESPN poderia pôr escalação/formação.
+// Se nada bater, devolve null — a UI mostra "não disponível" sem fingir dados.
+function extractLineups(data){
+  const src=data.rosters||data.boxscore?.players||data.gamepackageJSON?.rosters;
+  if(!Array.isArray(src)||src.length<2) return null;
+  function parseSide(side){
+    if(!side) return null;
+    const formation=side.formation||side.team?.formation||null;
+    const list=side.roster||side.athletes||side.statistics||[];
+    if(!Array.isArray(list)||!list.length) return null;
+    const starters=list.filter(p=>p.starter===true||p.didStart===true).map(p=>({
+      name:p.athlete?.displayName||p.athlete?.shortName||p.displayName||"?",
+      pos:p.position?.abbreviation||p.position?.name||"",
+    }));
+    const subs=list.filter(p=>p.starter===false||p.didStart===false).map(p=>({
+      name:p.athlete?.displayName||p.athlete?.shortName||p.displayName||"?",
+      pos:p.position?.abbreviation||p.position?.name||"",
+    }));
+    if(!starters.length) return null;
+    return{formation,starters,subs};
+  }
+  const home=parseSide(src[0]), away=parseSide(src[1]);
+  if(!home&&!away) return null;
+  return{home,away};
 }
 
 async function fetchSDB(){
@@ -741,10 +841,11 @@ function yesterdayStr(){
 
 function bHoje(){
   const today=todayStr(), yest=yesterdayStr();
-  const live=RES.filter(r=>r.live);
-  const tDone=RES.filter(r=>r.date===today&&r.done);
-  const tNext=RES.filter(r=>r.date===today&&!r.done&&!r.live);
-  const yestGames=RES.filter(r=>r.date===yest&&r.done);
+  const real=RES.filter(r=>r._demoIdx===undefined); // a demonstração não entra aqui
+  const live=real.filter(r=>r.live);
+  const tDone=real.filter(r=>r.date===today&&r.done);
+  const tNext=real.filter(r=>r.date===today&&!r.done&&!r.live);
+  const yestGames=real.filter(r=>r.date===yest&&r.done);
   let h="";
   if(live.length){h+=lbl("🔴 AO VIVO AGORA");live.forEach(r=>{h+=card(r,true);});}
   if(tDone.length){h+=lbl(`✅ HOJE ENCERRADOS — ${today}`,true);tDone.forEach(r=>{h+=card(r);});}
@@ -840,7 +941,7 @@ function bGrupos(){
   }).join("");
   let h=`<div class="gbtns">${btns}</div>`;
   h+=buildTable(GRP);h+=glbl(GRP,true);
-  RES.filter(r=>r.g===GRP).forEach(r=>{h+=card(r,r.live,!r.done&&!r.live);});
+  RES.filter(r=>r.g===GRP&&r._demoIdx===undefined).forEach(r=>{h+=card(r,r.live,!r.done&&!r.live);});
   return h;
 }
 
@@ -1260,9 +1361,18 @@ function bMinuto(){
   const live=RES.filter(r=>r.live);
   if(!live.length){
     return `<div class="no-g">📻 Nenhum jogo ao vivo neste momento.<br>
-      <span style="font-size:10px;color:#5e7a5c">Quando houver jogo a decorrer, os eventos minuto a minuto aparecem aqui automaticamente — gols, cartões e substituições.</span></div>`;
+      <span style="font-size:10px;color:#5e7a5c">Quando houver jogo a decorrer, os eventos minuto a minuto aparecem aqui automaticamente — gols, cartões e substituições.</span>
+      <button onclick="startDemo()" style="display:block;margin:14px auto 0;padding:8px 18px;border-radius:6px;border:1px solid #2a3a00;background:#1a1500;color:#f0c040;font-family:Georgia,serif;font-size:11px;font-weight:bold;cursor:pointer">🎬 Ver demonstração (dados fictícios)</button>
+    </div>`;
   }
-  let h=lbl(`🔴 ${live.length} JOGO${live.length>1?"S":""} AO VIVO AGORA`);
+  let h="";
+  if(DEMO_MODE){
+    h+=`<div style="background:#1a1500;border:1px solid #4a3a00;border-radius:7px;padding:8px 14px;margin-bottom:10px;font-size:10px;color:#f0c040;display:flex;justify-content:space-between;align-items:center">
+      <span>🎬 MODO DEMONSTRAÇÃO — dados fictícios, não é um jogo real</span>
+      <button onclick="stopDemo()" style="background:none;border:1px solid #f0c040;color:#f0c040;padding:3px 10px;border-radius:4px;cursor:pointer;font-size:10px;font-family:Georgia,serif">Sair</button>
+    </div>`;
+  }
+  h+=lbl(`🔴 ${live.length} JOGO${live.length>1?"S":""} AO VIVO AGORA`);
   live.forEach(r=>{
     const fv=isFav(r.home)||isFav(r.away);
     const col=GC[r.g]||"#3dbb3d";
@@ -1276,9 +1386,64 @@ function bMinuto(){
         <div class="minuto-meta"><span class="live-dot"></span> ${r.clock?r.clock+"'":"AO VIVO"} · GRUPO ${r.g}${fv?" · ⭐ FAVORITO":""}</div>
       </div>
       ${buildEvBox(r)}
+      ${buildLineupBox(r)}
     </div>`;
   });
   return h;
+}
+
+// Bandeira em destaque + mini-campo com a formação, se a ESPN devolver
+function teamFlag(name){
+  const m=(name||"").match(/\p{Regional_Indicator}{2}/u);
+  return m?m[0]:"🏳️";
+}
+
+function pitchHalf(side,label,accent){
+  if(!side||!side.starters?.length){
+    return `<div class="pitch-half">
+      <div class="pitch-label" style="color:${accent}">${label}</div>
+      <div class="pitch-empty">Escalação não disponível</div>
+    </div>`;
+  }
+  const bands=(side.formation||"").split("-").map(n=>parseInt(n)).filter(n=>n>0);
+  const rows=[];
+  let idx=0;
+  // goleiro
+  rows.push([side.starters[idx++]]);
+  bands.forEach(n=>{
+    const row=[];
+    for(let i=0;i<n&&idx<side.starters.length;i++) row.push(side.starters[idx++]);
+    if(row.length) rows.push(row);
+  });
+  // sobra (sem formação reconhecida) — mostra todos numa lista simples
+  if(bands.length===0){
+    rows.length=0;
+    rows.push(side.starters);
+  }
+  const rowsHtml=rows.map(row=>`<div class="pitch-row">${row.map(p=>
+    `<div class="pitch-player"><div class="pitch-dot"></div><div class="pitch-name">${(p.name||"?").split(" ").pop()}</div></div>`
+  ).join("")}</div>`).join("");
+  return `<div class="pitch-half">
+    <div class="pitch-label" style="color:${accent}">${label}${side.formation?` · ${side.formation}`:""}</div>
+    <div class="pitch-rows">${rowsHtml}</div>
+  </div>`;
+}
+
+function buildLineupBox(r){
+  const l=r.lineups;
+  const homeFlag=teamFlag(r.home), awayFlag=teamFlag(r.away);
+  let body;
+  if(!l){
+    body=`<div class="pitch-empty" style="padding:18px 0">⚽ Escalação não disponível para este jogo<br>
+      <span style="font-size:9px;color:#5e7a5c">A ESPN não devolveu dados de formação — pode não estar disponível para esta competição.</span></div>`;
+  } else {
+    body=`<div class="pitch-wrap">${pitchHalf(l.home,r.home,"#3dbb3d")}${pitchHalf(l.away,r.away,"#f0c040")}</div>`;
+  }
+  return `<div class="lineup-box">
+    <div class="lineup-theme">${homeFlag} <span style="color:#444">vs</span> ${awayFlag}</div>
+    <div class="evtitle" style="margin-top:6px">ESCALAÇÃO</div>
+    ${body}
+  </div>`;
 }
 
 function buildEvBox(r){
