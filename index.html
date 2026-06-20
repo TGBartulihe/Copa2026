@@ -182,6 +182,16 @@ const AT={
   L:["Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿","Croácia 🇭🇷","Gana 🇬🇭","Panamá 🇵🇦"]
 };
 
+// Lookup time → grupo, usado para classificar entradas vindas do results.json
+const TEAM_GROUP={};
+Object.entries(AT).forEach(([g,teams])=>teams.forEach(t=>{TEAM_GROUP[t.replace(/[^\p{L}\p{N}]/gu,"").toLowerCase()]=g;}));
+function groupOf(teamName){
+  const k=(teamName||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-zA-Z0-9]/g,"").toLowerCase();
+  return TEAM_GROUP[k]||"?";
+}
+// Estrela dinâmica — grupo "favorito" é o que contém ao menos uma seleção marcada
+function groupHasFav(g){ return (AT[g]||[]).some(t=>isFav(t)); }
+
 // ── FAVORITOS ─────────────────────────────────────────────────────────────────
 // tkey: extrai só letras/números para comparação — resolve emojis complexos
 function tkey(s){
@@ -223,7 +233,9 @@ function toggleFav(name){
 loadFavs();
 
 // ── DADOS ──────────────────────────────────────────────────────────────────────
-let RES=[
+// FALLBACK_RES: usado apenas no primeiro instante, antes do results.json carregar,
+// ou se o ficheiro automático falhar por completo. Contém notas escritas à mão.
+const FALLBACK_RES=[
   {g:"A",home:"México 🇲🇽",away:"África do Sul 🇿🇦",sh:2,sa:0,date:"11/06",brTime:"16h",done:true,note:"Gol duplo mexicano · Azteca"},
   {g:"A",home:"Coreia do Sul 🇰🇷",away:"Rep. Tcheca 🇨🇿",sh:2,sa:1,date:"11/06",brTime:"23h",done:true,note:"Coreia vira no 2T · Guadalajara"},
   {g:"B",home:"Canadá 🇨🇦",away:"Bósnia 🇧🇦",sh:1,sa:1,date:"12/06",brTime:"16h",done:true,note:"Empate justo · Toronto"},
@@ -281,6 +293,42 @@ let RES=[
   {g:"L",home:"Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",away:"Croácia 🇭🇷",sh:null,sa:null,date:"17/06",brTime:"17h",done:false,venue:"Nova York"},
   {g:"L",home:"Gana 🇬🇭",away:"Panamá 🇵🇦",sh:null,sa:null,date:"17/06",brTime:"20h",done:false,venue:"Filadélfia"}
 ];
+
+// RES é o array realmente usado pela interface — começa como cópia do fallback,
+// e é substituído/mesclado pelos dados de results.json quando disponíveis.
+let RES=FALLBACK_RES.map(r=>({...r}));
+let DATA_SOURCE="fallback"; // "actions" | "espn-direct" | "sdb" | "fallback"
+let LAST_BOT_UPDATE=null;
+let KO_MATCHES=[]; // jogos reais do mata-mata, vindos do robô (round, home, away, sh, sa, done, live, clock, events, iso, venue)
+
+function mergeResultsJSON(json){
+  if(Array.isArray(json.knockout)) KO_MATCHES=json.knockout;
+  const incoming=json.matches||[];
+  let updated=0;
+  incoming.forEach(m=>{
+    const g=groupOf(m.home);
+    let existing=RES.find(r=>tkey(r.home)===tkey(m.home)&&tkey(r.away)===tkey(m.away));
+    if(existing){
+      // Preserva nota escrita à mão se a automática não tiver uma melhor
+      const keepNote=existing.note;
+      Object.assign(existing,{
+        date:m.date||existing.date, brTime:m.brTime||existing.brTime,
+        venue:m.venue||existing.venue,
+        sh:m.sh, sa:m.sa, done:m.done, live:m.live, clock:m.clock||"",
+      });
+      if(m.events&&m.events.length) existing.events=m.events;
+      if(!existing.note && keepNote) existing.note=keepNote;
+      updated++;
+    } else if(g!=="?"){
+      RES.push({
+        g, home:m.home, away:m.away, date:m.date, brTime:m.brTime, venue:m.venue,
+        sh:m.sh, sa:m.sa, done:m.done, live:m.live, clock:m.clock||"", events:m.events||[]
+      });
+      updated++;
+    }
+  });
+  return updated;
+}
 
 // ── MATA-MATA BRACKET ─────────────────────────────────────────────────────────
 // Estrutura oficial FIFA 2026 — 32 equipas, pré-definida
@@ -395,6 +443,18 @@ async function fetchESPN(){
   return total;
 }
 
+// "Boost" — busca rápida e leve, só hoje, usada como complemento entre
+// os ciclos do robô (que corre a cada ~5 min) enquanto há jogo ao vivo.
+// Não é a fonte principal: se falhar (CORS, etc.) o robô continua a cobrir.
+async function fetchLiveBoost(){
+  try{
+    const r=await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=${getDateStr(0)}`,{cache:"no-cache"});
+    if(!r.ok)return false;
+    applyESPNData(await r.json());
+    return true;
+  }catch(e){return false;}
+}
+
 // Palavras que indicam eventos irrelevantes — filtrar fora
 const SKIP_WORDS=["delay","drink","half begins","kick off","kick-off","end of","period begins","weather","var check concluded","attendance","whistle"];
 function isRelevantEvent(p){
@@ -469,19 +529,61 @@ async function fetchSDB(){
 
 function setSrc(cls,txt){const el=document.getElementById("srcbar");el.className=`src-bar ${cls}`;el.textContent=txt;}
 
+// Busca results.json — gerado pelo robô do GitHub Actions a cada ~15 min.
+// Same-origin, sem CORS, sem depender do browser falar com a ESPN.
+async function fetchResultsJSON(){
+  const r=await fetch(`./results.json?t=${Date.now()}`,{cache:"no-store"});
+  if(!r.ok) throw new Error("results.json "+r.status);
+  const json=await r.json();
+  const count=mergeResultsJSON(json);
+  LAST_BOT_UPDATE=json.generatedAt?new Date(json.generatedAt):null;
+  DATA_SOURCE="actions";
+  return count;
+}
+
 async function fetchData(){
-  autoExpireLiveGames(); // primeiro garante que jogos antigos não ficam presos
+  autoExpireLiveGames();
   setSrc("loading","⟳ Conectando...");
-  try{const c=await fetchESPN();setSrc("espn",`✅ ESPN ao vivo · ${c} jogos`);adaptRefresh();updateTS();render();return;}catch(e){}
-  try{const c=await fetchSDB();setSrc("sdb",`🔵 TheSportsDB backup · ${c} atualizados`);updateTS();render();return;}catch(e){}
-  setSrc("local","⚠️ Dados locais · fontes indisponíveis");updateTS();render();
+
+  // 1ª prioridade: results.json — atualizado automaticamente pelo robô (rede de segurança)
+  let botOk=false;
+  try{
+    const c=await fetchResultsJSON();
+    botOk=true;
+    const when=LAST_BOT_UPDATE?LAST_BOT_UPDATE.toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"}):"";
+    setSrc("espn",`🤖 Robô GitHub · ${c} jogos · gerado ${when}`);
+  }catch(e){}
+
+  // Boost ao vivo: se há jogo a decorrer, tenta um fetch direto e rápido
+  // por cima dos dados do robô, para placar mais fresco entre ciclos.
+  const hasLiveNow=RES.some(r=>r.live);
+  if(hasLiveNow){
+    const boosted=await fetchLiveBoost();
+    if(boosted){
+      const when=new Date().toLocaleTimeString("pt-BR",{hour:"2-digit",minute:"2-digit"});
+      setSrc("espn",`🔴 Boost ao vivo · atualizado ${when}`);
+    }
+  }
+
+  if(botOk){adaptRefresh();updateTS();render();return;}
+
+  // 2ª prioridade: fetch direto à ESPN pelo browser (pode falhar por CORS)
+  try{const c=await fetchESPN();DATA_SOURCE="espn-direct";setSrc("espn",`✅ ESPN direto · ${c} jogos`);adaptRefresh();updateTS();render();return;}catch(e){}
+
+  // 3ª prioridade: TheSportsDB
+  try{const c=await fetchSDB();DATA_SOURCE="sdb";setSrc("sdb",`🔵 TheSportsDB backup · ${c} atualizados`);updateTS();render();return;}catch(e){}
+
+  // Último recurso: dados locais embutidos
+  DATA_SOURCE="fallback";
+  setSrc("local","⚠️ Dados locais · robô e ESPN indisponíveis");updateTS();render();
 }
 
 function adaptRefresh(){
   if(refreshIv)clearInterval(refreshIv);
   const hasFavLive=RES.some(r=>r.live&&(isFav(r.home)||isFav(r.away)));
   const hasLive=RES.some(r=>r.live);
-  const iv=hasFavLive?15000:hasLive?30000:60000;
+  // Com jogo ao vivo, o intervalo curto agora serve o "boost", não o results.json
+  const iv=hasFavLive?15000:hasLive?20000:90000;
   refreshIv=setInterval(fetchData,iv);
 }
 
@@ -598,7 +700,7 @@ function bResult(){
 function bGrupos(){
   const btns="ABCDEFGHIJKL".split("").map(g=>{
     const on=g===GRP,col=GC[g]||"#333";
-    return `<button class="gbtn${on?" on":""}" style="${on?`background:${col};border-color:${col};color:#fff`:""}" onclick="setGrp('${g}')">${g}${g==="C"?"⭐":""}</button>`;
+    return `<button class="gbtn${on?" on":""}" style="${on?`background:${col};border-color:${col};color:#fff`:""}" onclick="setGrp('${g}')">${g}${groupHasFav(g)?"⭐":""}</button>`;
   }).join("");
   let h=`<div class="gbtns">${btns}</div>`;
   h+=buildTable(GRP);h+=glbl(GRP,true);
@@ -606,11 +708,37 @@ function bGrupos(){
   return h;
 }
 
+let MM_VIEW="oficial"; // "oficial" | "projecao"
+function setMMView(v){MM_VIEW=v;render();}
+
+function calcProjection(){
+  // Para cada grupo: 1º, 2º, 3º (com dados atuais, mesmo que incompletos)
+  const groups="ABCDEFGHIJKL".split("");
+  const leaders=[], runners=[], thirds=[];
+  groups.forEach(g=>{
+    const rows=calcS(g);
+    leaders.push({g,...rows[0]});
+    runners.push({g,...rows[1]});
+    thirds.push({g,...rows[2]});
+  });
+  // Ranking dos 12 terceiros — mesmo critério: pts, dif, gf
+  thirds.sort((a,b)=>b.pts-a.pts||b.dif-a.dif||b.gf-a.gf);
+  const bestThirds=thirds.slice(0,8);
+  const outThirds=thirds.slice(8);
+  return {leaders,runners,bestThirds,outThirds};
+}
+
 function bMM(){
   const done=RES.filter(r=>r.done).length;
   const total=RES.length;
   const pct=Math.round((done/total)*100);
-  let h=`<div style="background:#090e09;border:1px solid #1a2a1a;border-radius:8px;padding:12px;margin-bottom:16px">
+
+  let h=`<div style="display:flex;gap:6px;margin-bottom:14px">
+    <button onclick="setMMView('oficial')" style="flex:1;padding:8px;border-radius:5px;border:1px solid ${MM_VIEW==="oficial"?"#b8860b":"#1a1a1a"};background:${MM_VIEW==="oficial"?"#1a1500":"#0c100c"};color:${MM_VIEW==="oficial"?"#f0c040":"#555"};font-family:Georgia,serif;font-size:11px;font-weight:bold;cursor:pointer">📋 Estrutura Oficial</button>
+    <button onclick="setMMView('projecao')" style="flex:1;padding:8px;border-radius:5px;border:1px solid ${MM_VIEW==="projecao"?"#166534":"#1a1a1a"};background:${MM_VIEW==="projecao"?"#0a1f0a":"#0c100c"};color:${MM_VIEW==="projecao"?"#3dbb3d":"#555"};font-family:Georgia,serif;font-size:11px;font-weight:bold;cursor:pointer">🔮 Projeção Atual</button>
+  </div>`;
+
+  h+=`<div style="background:#090e09;border:1px solid #1a2a1a;border-radius:8px;padding:12px;margin-bottom:16px">
     <div style="font-size:9px;color:#1a5e1a;letter-spacing:2px;margin-bottom:6px">FASE DE GRUPOS</div>
     <div style="background:#111;border-radius:4px;height:6px;overflow:hidden;margin-bottom:6px">
       <div style="background:#166534;height:100%;width:${pct}%;transition:width .5s"></div></div>
@@ -618,40 +746,109 @@ function bMM(){
     <div style="font-size:10px;color:#333;margin-top:4px">Avos de final: a partir de 27/06</div>
   </div>`;
 
+  if(MM_VIEW==="projecao") return h+bProjecao();
+  return h+bOficial();
+}
+
+function bProjecao(){
+  const {leaders,runners,bestThirds,outThirds}=calcProjection();
+  let h=`<div style="background:#0a0f00;border:1px solid #2a3a00;border-radius:8px;padding:10px 14px;margin-bottom:14px;font-size:10px;color:#9ab;line-height:1.5">
+    🔮 <b style="color:#b8c43d">Projeção baseada nos resultados de agora.</b> Mostra quem se classificaria se a fase de grupos parasse neste momento — muda conforme os jogos acontecem.<br><br>
+    ⚠️ Os <b>confrontos exatos</b> do mata-mata com terceiros colocados só saem da FIFA após o fim da fase de grupos — existem 495 combinações possíveis. Aqui mostro só <b>quem se classifica</b>, não quem joga contra quem.
+  </div>`;
+
+  h+=lbl("🥇 LÍDERES DOS GRUPOS (1º lugar)");
+  leaders.forEach(t=>{
+    const fav=isFav(t.t);
+    h+=`<div class="uc" style="border-left-color:${GC[t.g]}${fav?";background:#090800":""}">
+      <div><div class="uch">${t.t}${fav?" ⭐":""}</div><div class="uca">Grupo ${t.g} · ${t.pts} pts · ${t.j} jogos</div></div>
+      <div style="text-align:right"><div class="uct" style="color:${GC[t.g]}">${t.dif>0?"+":""}${t.dif}</div><div class="ucm">saldo</div></div>
+    </div>`;
+  });
+
+  h+=lbl("🥈 VICE-LÍDERES (2º lugar)",true);
+  runners.forEach(t=>{
+    const fav=isFav(t.t);
+    h+=`<div class="uc" style="border-left-color:${GC[t.g]}${fav?";background:#090800":""}">
+      <div><div class="uch">${t.t}${fav?" ⭐":""}</div><div class="uca">Grupo ${t.g} · ${t.pts} pts · ${t.j} jogos</div></div>
+      <div style="text-align:right"><div class="uct" style="color:${GC[t.g]}">${t.dif>0?"+":""}${t.dif}</div><div class="ucm">saldo</div></div>
+    </div>`;
+  });
+
+  h+=lbl("🥉 MELHORES TERCEIROS — top 8 entram",true);
+  bestThirds.forEach((t,i)=>{
+    const fav=isFav(t.t);
+    h+=`<div class="uc fav" style="border-left-color:#3dbb3d${fav?";background:#090800":""}">
+      <div><div class="uch">${i+1}º · ${t.t}${fav?" ⭐":""}</div><div class="uca">Grupo ${t.g} · ${t.pts} pts · ${t.j} jogos</div></div>
+      <div style="text-align:right"><div class="uct" style="color:#3dbb3d">${t.dif>0?"+":""}${t.dif}</div><div class="ucm">✔ classificado</div></div>
+    </div>`;
+  });
+
+  if(outThirds.length){
+    h+=lbl("❌ TERCEIROS FORA — por enquanto",true);
+    outThirds.forEach((t,i)=>{
+      const fav=isFav(t.t);
+      h+=`<div class="uc" style="border-left-color:#3a1a1a;opacity:.6${fav?";background:#090800":""}">
+        <div><div class="uch">${i+9}º · ${t.t}${fav?" ⭐":""}</div><div class="uca">Grupo ${t.g} · ${t.pts} pts · ${t.j} jogos</div></div>
+        <div style="text-align:right"><div class="uct" style="color:#664">${t.dif>0?"+":""}${t.dif}</div><div class="ucm">eliminado</div></div>
+      </div>`;
+    });
+  }
+  return h;
+}
+
+function bOficial(){
+  let h="";
   const rounds=[
-    {key:"avos",label:"AVOS DE FINAL — 27 A 30/06"},
-    {key:"oitavas",label:"OITAVAS DE FINAL — 3 A 6/07"},
-    {key:"quartas",label:"QUARTAS DE FINAL — 9 A 10/07"},
-    {key:"semis",label:"SEMIFINAIS — 14 A 15/07"},
-    {key:"final",label:"👑 GRANDE FINAL — 19/07"},
+    {key:"avos",    label:"AVOS DE FINAL — 27 A 30/06",      expected:16},
+    {key:"oitavas", label:"OITAVAS DE FINAL — 3 A 6/07",      expected:8},
+    {key:"quartas", label:"QUARTAS DE FINAL — 9 A 10/07",     expected:4},
+    {key:"semis",   label:"SEMIFINAIS — 14 A 15/07",          expected:2},
+    {key:"final",   label:"👑 GRANDE FINAL — 19/07",          expected:1},
   ];
 
-  rounds.forEach(({key,label})=>{
+  rounds.forEach(({key,label,expected})=>{
     h+=`<div class="bround"><div class="brnd-title">${label}</div>`;
-    MM_STRUCTURE[key].forEach(m=>{
-      const res=MM_RESULTS[m.id];
-      const isDone=res&&res.done;
-      const isLive=res&&res.live;
-      const {time,date}=localTime(m.brTime,m.date);
-      const t1=res?.t1||m.t1, t2=res?.t2||m.t2;
-      const isTBD=m.t1.startsWith("V")||m.t1.startsWith("1")||m.t1.startsWith("2")||m.t1.startsWith("3");
-      if(isDone){
-        h+=`<div class="bmatch done">
-          <div class="bteams"><div class="bt1">${t1}</div><div class="bt2">${t2}</div></div>
-          <div><div class="bscore">${res.sh}–${res.sa}</div><div class="binfo" style="color:#166534">ENCERRADO · ${date}</div></div>
-        </div>`;
-      } else if(isLive){
-        h+=`<div class="bmatch live-b">
-          <div class="bteams"><div class="bt1">${t1}</div><div class="bt2">${t2}</div></div>
-          <div><div class="bscore live-sc">${res.sh}–${res.sa}</div><div class="binfo" style="color:#ff4444">🔴 ${res.clock}'</div></div>
-        </div>`;
-      } else {
-        h+=`<div class="bmatch${isTBD?" tbd":""}">
-          <div class="bteams"><div class="bt1${isTBD?"":""}">${t1}</div><div class="bt2">${t2}</div></div>
-          <div><div class="bscore tbd-s">${isTBD?"·–·":date}</div><div class="binfo">${isTBD?time:time} ${m.venue?`· ${m.venue}`:""}</div></div>
-        </div>`;
+    const real=(KO_MATCHES||[]).filter(m=>m.round===key)
+      .sort((a,b)=>new Date(a.iso||0)-new Date(b.iso||0));
+
+    if(real.length){
+      // Jogos reais já confirmados pela ESPN — mostra com nomes e placares de verdade
+      real.forEach(m=>{
+        const {time,date}=m.brTime?localTime(m.brTime,m.date):{time:"",date:m.date||""};
+        const fav=isFav(m.home)||isFav(m.away);
+        if(m.done){
+          h+=`<div class="bmatch done">
+            <div class="bteams"><div class="bt1">${m.home}${fav?" ⭐":""}</div><div class="bt2">${m.away}</div></div>
+            <div><div class="bscore">${m.sh}–${m.sa}</div><div class="binfo" style="color:#166534">ENCERRADO · ${date}</div></div>
+          </div>`;
+        } else if(m.live){
+          h+=`<div class="bmatch live-b">
+            <div class="bteams"><div class="bt1">${m.home}${fav?" ⭐":""}</div><div class="bt2">${m.away}</div></div>
+            <div><div class="bscore live-sc">${m.sh??0}–${m.sa??0}</div><div class="binfo" style="color:#ff4444">🔴 ${m.clock||""}'</div></div>
+          </div>`;
+        } else {
+          h+=`<div class="bmatch">
+            <div class="bteams"><div class="bt1">${m.home}${fav?" ⭐":""}</div><div class="bt2">${m.away}</div></div>
+            <div><div class="bscore tbd-s">${date}</div><div class="binfo">${time}${m.venue?" · "+m.venue:""}</div></div>
+          </div>`;
+        }
+      });
+      const remaining=Math.max(0,expected-real.length);
+      if(remaining>0){
+        h+=`<div style="font-size:10px;color:#333;text-align:center;padding:6px">+ ${remaining} confronto${remaining>1?"s":""} ainda a definir nesta fase</div>`;
       }
-    });
+    } else {
+      // Ainda sem jogos reais nesta fase — mostra estrutura estática como referência
+      MM_STRUCTURE[key].forEach(m=>{
+        const {time,date}=localTime(m.brTime,m.date);
+        const isTBD=m.t1.startsWith("V")||/^[123]º/.test(m.t1);
+        h+=`<div class="bmatch${isTBD?" tbd":""}">
+          <div class="bteams"><div class="bt1">${m.t1}</div><div class="bt2">${m.t2}</div></div>
+          <div><div class="bscore tbd-s">${isTBD?"·–·":date}</div><div class="binfo">${time} ${m.venue?`· ${m.venue}`:""}</div></div>
+        </div>`;
+      });
+    }
     h+="</div>";
   });
   return h;
@@ -681,7 +878,7 @@ function bProx(){
 
 function buildTable(g){
   const rows=calcS(g),hasG=rows.some(r=>r.j>0),col=GC[g]||"#1a5e1a";
-  let h=`<div class="twrap" style="--gc:${col}"><div class="thead2">GRUPO ${g}${g==="C"?" ⭐":""}</div>
+  let h=`<div class="twrap" style="--gc:${col}"><div class="thead2">GRUPO ${g}${groupHasFav(g)?" ⭐":""}</div>
     <table><thead><tr><th></th><th class="tl">SELEÇÃO</th><th>PTS</th><th>J</th><th>GF</th><th>GC</th><th>SD</th></tr></thead><tbody>`;
   rows.forEach((r,i)=>{
     const q=i<2&&hasG,fv=isFav(r.t);
@@ -696,7 +893,11 @@ function buildTable(g){
 
 // ── HTML HELPERS ──────────────────────────────────────────────────────────────
 function lbl(t,mt){return `<div class="lbl${mt?" mt":""}">${t}</div>`;}
-function glbl(g,mt){return `<div class="glbl${mt?" mt":""}" style="color:${GC[g]||"#444"}">▸ GRUPO ${g}${g==="C"?" ⭐ BRASIL":""}</div>`;}
+function glbl(g,mt){
+  const fav=groupHasFav(g);
+  const favTeams=fav?(AT[g]||[]).filter(t=>isFav(t)).join(", "):"";
+  return `<div class="glbl${mt?" mt":""}" style="color:${GC[g]||"#444"}">▸ GRUPO ${g}${fav?" ⭐ "+favTeams:""}</div>`;
+}
 function ft(r){if(!r.brTime)return{time:"",date:r.date||""};return localTime(r.brTime,r.date);}
 
 function buildEvBox(r){
