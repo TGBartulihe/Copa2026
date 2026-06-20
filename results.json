@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T18:52:25.489Z",
+  "generatedAt": "2026-06-20T18:53:29.829Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -2088,12 +2088,12 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "90'+1'",
+      "clock": "90'+2'",
       "events": [
         {
           "min": "90'",
           "icon": "🔄",
-          "txt": "Substituição de Noa Lang (Holanda) aos 90'",
+          "txt": "Substituição, Holanda. Noa Lang substitui Cody Gakpo.",
           "sub": "Netherlands"
         },
         {
@@ -2129,7 +2129,7 @@
         {
           "min": "59'",
           "icon": "🔄",
-          "txt": "Substituição, Holanda. Entra Guus Til substituindo Tijjani Reijnders.",
+          "txt": "Substituição, Holanda. Entra Guus Til para o lugar de Tijjani Reijnders.",
           "sub": "Netherlands"
         },
         {
