@@ -28,6 +28,12 @@ const ESPN_MAP = {
   "England":"Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿","Croatia":"Croácia 🇭🇷","Ghana":"Gana 🇬🇭","Panama":"Panamá 🇵🇦",
 };
 function mapTeam(n){ return ESPN_MAP[n] || n; }
+// Extrai só a bandeira do nome canónico (ex: "Alemanha 🇩🇪" → "🇩🇪") —
+// mais compacto que mostrar o nome completo da seleção no evento
+function teamFlag(name){
+  const m=(name||"").match(/\p{Regional_Indicator}{2}/u);
+  return m?m[0]:"🏳️";
+}
 
 // ── FILTRO DE EVENTOS RELEVANTES ──────────────────────────────────────────────
 // Filtra só ruído puramente administrativo — tudo o resto fica, conforme
@@ -153,6 +159,20 @@ function positionRow(abbr){
   return 3; // ataque (F, FW, etc) — também o padrão se não reconhecer
 }
 
+// Se a cor principal da seleção for muito clara (ex: branco), o bonequinho
+// fica invisível no campo — usa a cor alternativa nesse caso
+function colorLuminance(hex){
+  if (!hex || hex.length < 6) return 999;
+  const r = parseInt(hex.slice(0,2),16), g = parseInt(hex.slice(2,4),16), b = parseInt(hex.slice(4,6),16);
+  if (isNaN(r)||isNaN(g)||isNaN(b)) return 999;
+  return 0.299*r + 0.587*g + 0.114*b;
+}
+function pickVisibleColor(color, alternateColor){
+  if (color && colorLuminance(color) < 200) return "#"+color;
+  if (alternateColor) return "#"+alternateColor;
+  return color ? "#"+color : null;
+}
+
 function parseESPNRosterSide(side){
   if (!side?.roster?.length) return null;
   const toPlayer = p => ({
@@ -163,7 +183,8 @@ function parseESPNRosterSide(side){
   const starters = side.roster.filter(p => p.starter).map(toPlayer).sort((a,b)=>a.row-b.row);
   const subs = side.roster.filter(p => !p.starter).map(toPlayer);
   if (!starters.length) return null;
-  return { starters, subs, formation: side.formation || null };
+  const dotColor = pickVisibleColor(side.team?.color, side.team?.alternateColor);
+  return { starters, subs, formation: side.formation || null, dotColor };
 }
 
 function extractESPNLineups(data){
@@ -223,7 +244,7 @@ async function fetchMatchDetails(eventId){
       if (!icon) continue;
       const playerName = p.participants?.[0]?.athlete?.displayName;
       const assistName = p.participants?.[1]?.athlete?.displayName; // se a ESPN tiver isto separado
-      const teamName = p.team?.displayName || "";
+      const teamName = teamFlag(mapTeam(p.team?.displayName || ""));
       let original = p.text || p.shortText || "";
 
       // A ESPN começa o texto de gol com "Goal! Time A N, Time B M. " — isto é

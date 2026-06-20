@@ -817,7 +817,7 @@ async function fetchEventDetails(evId,hName,aName){
         if(!icon)return null;
         const min=p.clock?.displayValue||p.period?.clock||"";
         const txt=describeEventPT(icon,p.participants?.[0]?.athlete?.displayName);
-        const sub=p.team?.displayName||"";
+        const sub=teamFlag(mapTeam(p.team?.displayName||""));
         return{min,icon,txt,sub};
       })
       .filter(Boolean)
@@ -866,6 +866,17 @@ function extractBoxscoreStats(data){
   if(!home&&!away) return null;
   return{home,away};
 }
+function colorLuminance(hex){
+  if(!hex||hex.length<6) return 999;
+  const r=parseInt(hex.slice(0,2),16), g=parseInt(hex.slice(2,4),16), b=parseInt(hex.slice(4,6),16);
+  if(isNaN(r)||isNaN(g)||isNaN(b)) return 999;
+  return 0.299*r+0.587*g+0.114*b;
+}
+function pickVisibleColor(color,alternateColor){
+  if(color&&colorLuminance(color)<200) return "#"+color;
+  if(alternateColor) return "#"+alternateColor;
+  return color?"#"+color:null;
+}
 function extractLineups(data){
   const src=data.rosters;
   if(!Array.isArray(src)||src.length<2) return null;
@@ -879,7 +890,8 @@ function extractLineups(data){
     const starters=side.roster.filter(p=>p.starter).map(toPlayer).sort((a,b)=>a.row-b.row);
     const subs=side.roster.filter(p=>!p.starter).map(toPlayer);
     if(!starters.length) return null;
-    return{starters,subs,formation:side.formation||null};
+    const dotColor=pickVisibleColor(side.team?.color,side.team?.alternateColor);
+    return{starters,subs,formation:side.formation||null,dotColor};
   }
   const home=parseSide(src.find(r=>r.homeAway==="home"));
   const away=parseSide(src.find(r=>r.homeAway==="away"));
@@ -1620,8 +1632,9 @@ function pitchHalf(side,label,accent){
     grouped[r].push(p);
   });
   const rows=Object.keys(grouped).sort((a,b)=>a-b).map(r=>grouped[r]);
+  const dotStyle=side.dotColor?` style="background:${side.dotColor}"`:"";
   const rowsHtml=rows.map(row=>`<div class="pitch-row">${row.map(p=>
-    `<div class="pitch-player"><div class="pitch-dot"></div><div class="pitch-name">${(p.name||"?").split(" ").pop()}</div></div>`
+    `<div class="pitch-player"><div class="pitch-dot"${dotStyle}></div><div class="pitch-name">${(p.name||"?").split(" ").pop()}</div></div>`
   ).join("")}</div>`).join("");
   return `<div class="pitch-half">
     <div class="pitch-label" style="color:${accent}">${label}${side.formation?` · ${side.formation}`:""}</div>
@@ -1661,7 +1674,7 @@ function buildStatsBox(r){
     ${possBar}
     ${statRow("Finalizações","totalShots")}
     ${statRow("Chutes a Gol","shotsOnTarget")}
-    ${statRow("Cantos","wonCorners")}
+    ${statRow("Escanteios","wonCorners")}
     ${statRow("Faltas","foulsCommitted")}
     ${statRow("Cartões Amarelos","yellowCards")}
     ${statRow("Cartões Vermelhos","redCards")}

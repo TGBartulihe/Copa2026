@@ -1,0 +1,27 @@
+name: Test ESPN Event Types
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Listar todos os tipos de evento reais
+        run: |
+          node -e "
+          async function main(){
+            const eventId='760448';
+            const url='https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event='+eventId;
+            const data=await fetch(url).then(r=>r.json());
+            const events=[...(data.keyEvents||[]), ...(data.plays||[])];
+
+            console.log('Total de eventos:', events.length);
+            console.log('--- TODOS OS type.text/type.id ÚNICOS ---');
+            const types=new Set();
+            events.forEach(e=>types.add((e.type?.text||e.type?.id||'(sem tipo)')+' | texto: '+(e.text||e.shortText||'').slice(0,60)));
+            console.log(JSON.stringify([...types], null, 2));
+          }
+          main().catch(e=>{console.error(e);process.exit(1);});
+          "
