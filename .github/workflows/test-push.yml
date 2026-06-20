@@ -21,38 +21,4 @@ jobs:
           VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
           VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
           CLOUDFLARE_ADMIN_TOKEN: ${{ secrets.CLOUDFLARE_ADMIN_TOKEN }}
-        run: |
-          node -e "
-          const webpush=require('web-push');
-          webpush.setVapidDetails(
-            'mailto:tbartulihe@gmail.com',
-            process.env.VAPID_PUBLIC_KEY,
-            process.env.VAPID_PRIVATE_KEY
-          );
-
-          async function main(){
-            const r=await fetch(
-              'https://copa2026-api.tbartulihe.workers.dev/subscriptions',
-              {
-                headers:{
-                  'X-Admin-Token':process.env.CLOUDFLARE_ADMIN_TOKEN
-                }
-              }
-            );
-
-            const data=await r.json();
-
-            for(const sub of data.subscriptions){
-              await webpush.sendNotification(
-                sub.subscription || sub,
-                JSON.stringify({
-                  title:'🧪 Teste Copa 2026',
-                  body:'Se recebeste isto, está tudo operacional.',
-                  tag:'manual-test'
-                })
-              );
-            }
-          }
-
-          main();
-          "
+        run: node scripts/send-test-push.js

@@ -1,4 +1,3 @@
-const fs = require("fs");
 const webpush = require("web-push");
 
 const VAPID_PUBLIC = process.env.VAPID_PUBLIC_KEY;
@@ -20,26 +19,52 @@ async function main() {
     }
   );
 
+  if (!response.ok) {
+    console.error(`❌ Falha ao buscar subscriptions: ${response.status} ${await response.text().catch(() => "")}`);
+    process.exit(1);
+  }
+
   const data = await response.json();
+  const subs = data.subscriptions || [];
 
-  console.log(`Subscriptions encontradas: ${data.subscriptions.length}`);
+  console.log(`Subscriptions encontradas: ${subs.length}`);
+  console.log("---");
 
-  for (const sub of data.subscriptions) {
+  let ok = 0, fail = 0;
+
+  for (const [i, sub] of subs.entries()) {
+    const target = sub.subscription || sub;
+    const endpointShort = (target.endpoint || "?").slice(-24);
+    const favs = (sub.favoriteTeams || []).join(",") || "(sem favoriteTeams)";
+    const created = sub.createdAt || "(sem data)";
+
+    console.log(`#${i + 1} — criada: ${created} — favoritas: ${favs} — endpoint: ...${endpointShort}`);
+
     try {
       await webpush.sendNotification(
-        sub.subscription || sub,
+        target,
         JSON.stringify({
           title: "🧪 Teste Copa 2026",
           body: "Se recebeste isto, o sistema está operacional.",
           tag: "manual-test"
         })
       );
-
-      console.log("✅ Enviado");
+      console.log(`   ✅ Enviado com sucesso`);
+      ok++;
     } catch (e) {
-      console.error("❌ Erro:", e.message);
+      console.error(`   ❌ Falhou — status ${e.statusCode || "?"} — ${e.message}`);
+      if (e.statusCode === 404 || e.statusCode === 410) {
+        console.error(`   ⚠️ Esta subscrição está MORTA (endpoint inválido) — a pessoa precisa de reativar notificações na app.`);
+      }
+      fail++;
     }
   }
+
+  console.log("---");
+  console.log(`Resumo: ${ok} enviado(s) com sucesso, ${fail} falhou(aram).`);
 }
 
-main();
+main().catch(e => {
+  console.error("❌ ERRO FATAL:", e.message);
+  process.exit(1);
+});
