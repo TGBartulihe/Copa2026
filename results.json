@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T18:41:26.420Z",
+  "generatedAt": "2026-06-20T18:42:27.021Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -2088,8 +2088,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "80'",
+      "clock": "81'",
       "events": [
+        {
+          "min": "80'",
+          "icon": "🟨",
+          "txt": "Lucas Bergvall (Suécia) Cartão Amarelo aos 80'",
+          "sub": "Sweden"
+        },
         {
           "min": "79'",
           "icon": "🔄",
