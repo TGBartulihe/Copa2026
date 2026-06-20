@@ -32,8 +32,12 @@ body{background:#040804;color:#ddd;font-family:Georgia,serif;min-height:100vh}
   z-index:-1;pointer-events:none;
 }
 .header-main{display:flex;align-items:center;justify-content:center;gap:12px}
+.header-logo-wrap{
+  background:#f4f1ea;border-radius:10px;padding:4px 7px;
+  display:flex;align-items:center;flex-shrink:0;
+}
 .header-logo{
-  height:64px;width:auto;max-width:100px;flex-shrink:0;
+  height:50px;width:auto;max-width:80px;display:block;
 }
 .header-main .header-title{text-align:left}
 #app{max-width:640px;margin:0 auto;padding-bottom:24px}
@@ -195,7 +199,7 @@ td.pos{color:#4ade80;font-weight:bold}td.neg{color:#f87171;font-weight:bold}td.z
   <div class="header">
     <div class="header-sub">COPA DO MUNDO FIFA 2026</div>
     <div class="header-main">
-      <img id="logoImg" alt="" class="header-logo" onerror="this.style.display='none'"/>
+      <div class="header-logo-wrap"><img id="logoImg" alt="" class="header-logo" onerror="this.parentElement.style.display='none'"/></div>
       <div class="header-title">⚽WORLD CUP TRACKER - BY TICOBARTU⚽</div>
     </div>
     <div class="header-meta">
@@ -389,7 +393,8 @@ function mergeResultsJSON(json){
   const incoming=json.matches||[];
   let updated=0;
   incoming.forEach(m=>{
-    const g=groupOf(m.home);
+    let g=groupOf(m.home);
+    if(g==="?") g=groupOf(m.away); // segunda tentativa — o adversário pode resolver
     let existing=RES.find(r=>tkey(r.home)===tkey(m.home)&&tkey(r.away)===tkey(m.away));
     if(existing){
       // Preserva nota escrita à mão se a automática não tiver uma melhor
@@ -402,9 +407,10 @@ function mergeResultsJSON(json){
       if(m.events&&m.events.length) existing.events=m.events;
       if(!existing.note && keepNote) existing.note=keepNote;
       updated++;
-    } else if(g!=="?"){
+    } else {
+      // Nunca descarta — mesmo sem grupo resolvido, fica visível por data
       RES.push({
-        g, home:m.home, away:m.away, date:m.date, brTime:m.brTime, venue:m.venue,
+        g:g, home:m.home, away:m.away, date:m.date, brTime:m.brTime, venue:m.venue,
         sh:m.sh, sa:m.sa, done:m.done, live:m.live, clock:m.clock||"", events:m.events||[]
       });
       updated++;
@@ -716,7 +722,7 @@ function build(){
   if(TAB==="result")return bResult();
   if(TAB==="grupos")return bGrupos();
   if(TAB==="mm")    return bOficial();
-  if(TAB==="sim")   return bProjecao();
+  if(TAB==="sim")   return bSimulacao();
   if(TAB==="prox")  return bProx();
   return "";
 }
@@ -809,6 +815,11 @@ function bResult(){
       const gs=done.filter(r=>r.g===g);if(!gs.length)return;
       h+=glbl(g);gs.forEach(r=>{h+=card(r);});
     });
+    const uncat=done.filter(r=>r.g==="?");
+    if(uncat.length){
+      h+=`<div class="glbl" style="color:#8a9a88;margin-top:10px">▸ NÃO CATEGORIZADO</div>`;
+      uncat.forEach(r=>{h+=card(r);});
+    }
   } else {
     const sorted=[...done].sort((a,b)=>dateSortKey(a.date)-dateSortKey(b.date));
     let lastDate=null,first=true;
@@ -881,6 +892,109 @@ function projectionBox(g){
       <div class="bbox-team bbox-right winner"><span class="nm">${second.t}${favA?" ⭐":""}</span></div>
     </div>
   </div>`;
+}
+
+// ── SIMULAÇÃO INTERATIVA — escolhes o vencedor de cada jogo até o campeão ────
+let SIM_PICKS={};
+function loadSimPicks(){
+  try{ const raw=JSON.parse(localStorage.getItem("copa_sim")||"{}"); SIM_PICKS=(raw&&typeof raw==="object")?raw:{}; }
+  catch(e){ SIM_PICKS={}; }
+}
+function saveSimPicks(){ try{ localStorage.setItem("copa_sim",JSON.stringify(SIM_PICKS)); }catch(e){} }
+function resetSim(){ SIM_PICKS={}; saveSimPicks(); render(); }
+function pickWinner(matchKey,team){ SIM_PICKS[matchKey]=team; saveSimPicks(); render(); }
+loadSimPicks();
+
+// Resolve os 32 nomes dos avos usando a projeção atual (líderes, vices,
+// melhor terceiro disponível entre os grupos elegíveis de cada vaga)
+function buildSimR32(){
+  const thirdByGroup={};
+  "ABCDEFGHIJKL".split("").forEach(g=>{ thirdByGroup[g]=calcS(g)[2]; });
+  const allThirdsRanked=Object.entries(thirdByGroup).map(([g,t])=>({g,...t}))
+    .sort((a,b)=>b.pts-a.pts||b.dif-a.dif||b.gf-a.gf);
+
+  function resolve(label){
+    if(label.startsWith("1º")) return calcS(label.slice(3,4))[0]?.t||label;
+    if(label.startsWith("2º")) return calcS(label.slice(3,4))[1]?.t||label;
+    if(label.startsWith("3º")){
+      const groups=label.slice(3).split("/");
+      const best=allThirdsRanked.find(t=>groups.includes(t.g));
+      return best?best.t:label;
+    }
+    return label;
+  }
+  return MM_STRUCTURE.avos.map((m,i)=>({ id:"avos-"+i, home:resolve(m.t1), away:resolve(m.t2) }));
+}
+
+function simBox(matchKey,home,away){
+  const homeReady=home&&!home.startsWith("⏳");
+  const awayReady=away&&!away.startsWith("⏳");
+  const clickable=homeReady&&awayReady;
+  const pick=SIM_PICKS[matchKey];
+  const favH=homeReady&&isFav(home), favA=awayReady&&isFav(away);
+  const headTxt=pick?"✔ ESCOLHIDO":clickable?"👉 TOCA NO VENCEDOR":"⏳ AGUARDA JOGO ANTERIOR";
+  const headCls=pick?"head-done":clickable?"":"";
+  const hCl=clickable?` onclick="pickWinner('${matchKey}','${(home||"").replace(/'/g,"\\'")}')" style="cursor:pointer"`:"";
+  const aCl=clickable?` onclick="pickWinner('${matchKey}','${(away||"").replace(/'/g,"\\'")}')" style="cursor:pointer"`:"";
+  return `<div class="bbox ${pick?"bbox-done":!clickable?"bbox-tbd":"bbox-live"}">
+    <div class="bbox-head ${headCls}"><span>${headTxt}</span></div>
+    <div class="bbox-body">
+      <div class="bbox-team ${pick===home?"winner":pick?"loser":""}"${hCl}>
+        <span class="nm">${home||"⏳ A definir"}${favH?" ⭐":""}</span>
+      </div>
+      <div class="bbox-mid"><div class="bbox-score" style="font-size:11px">${pick?"✔":"vs"}</div></div>
+      <div class="bbox-team bbox-right ${pick===away?"winner":pick?"loser":""}"${aCl}>
+        <span class="nm">${away||"⏳ A definir"}${favA?" ⭐":""}</span>
+      </div>
+    </div>
+  </div>`;
+}
+
+function bSimulacao(){
+  let h=groupStageProgress();
+  h+=`<div style="background:#0a0f00;border:1px solid #2a3a00;border-radius:8px;padding:10px 14px;margin-bottom:12px;font-size:10px;color:#9ab;line-height:1.5">
+    🎮 <b style="color:#b8c43d">A TUA simulação.</b> Os 32 nomes dos avos vêm da projeção atual — líderes, vices e o melhor terceiro disponível em cada vaga. Toca no vencedor de cada jogo para avançar a árvore até escolheres o campeão.
+  </div>`;
+  h+=`<button onclick="resetSim()" style="width:100%;padding:8px;margin-bottom:14px;border-radius:6px;border:1px solid #4a1515;background:#1a0505;color:#f87171;font-family:Georgia,serif;font-size:11px;font-weight:bold;cursor:pointer">🔄 Reiniciar a Minha Simulação</button>`;
+
+  const rounds=[
+    {key:"avos",    label:"AVOS DE FINAL",  count:16},
+    {key:"oitavas", label:"OITAVAS DE FINAL",count:8},
+    {key:"quartas", label:"QUARTAS DE FINAL",count:4},
+    {key:"semis",   label:"SEMIFINAIS",      count:2},
+    {key:"final",   label:"👑 FINAL",        count:1},
+  ];
+
+  let current=buildSimR32();
+  rounds.forEach(({key,label,count},ri)=>{
+    h+=`<div class="bround"><div class="brnd-title">${label}</div>`;
+    const winners=[];
+    current.forEach((m,i)=>{
+      const matchKey=key+"-"+i;
+      h+=simBox(matchKey,m.home,m.away);
+      winners.push(SIM_PICKS[matchKey]||null);
+    });
+    h+="</div>";
+
+    if(ri<rounds.length-1){
+      h+=`<div class="bfunnel"><div class="bfunnel-tri"></div><div class="bfunnel-label">${count} → ${rounds[ri+1].count}</div></div>`;
+      const next=[];
+      for(let i=0;i<winners.length;i+=2){
+        next.push({home:winners[i]||"⏳ A definir",away:winners[i+1]||"⏳ A definir"});
+      }
+      current=next;
+    } else {
+      const champion=SIM_PICKS["final-0"];
+      if(champion){
+        h+=`<div style="background:linear-gradient(135deg,#1a1500,#2a1e00);border:2px solid #f0c040;border-radius:12px;padding:26px 16px;text-align:center;margin-top:12px">
+          <div style="font-size:42px">🏆</div>
+          <div style="font-size:10px;color:#b8860b;letter-spacing:3px;margin:8px 0 4px">CAMPEÃO DA TUA SIMULAÇÃO</div>
+          <div style="font-size:22px;font-weight:bold;color:#fff">${champion}</div>
+        </div>`;
+      }
+    }
+  });
+  return h;
 }
 
 function bProjecao(){
@@ -1038,6 +1152,11 @@ function bProx(){
       const gs=upcoming.filter(r=>r.g===g);if(!gs.length)return;
       h+=glbl(g);gs.forEach(r=>{h+=uc(r);});
     });
+    const uncat=upcoming.filter(r=>r.g==="?");
+    if(uncat.length){
+      h+=`<div class="glbl" style="color:#8a9a88;margin-top:10px">▸ NÃO CATEGORIZADO</div>`;
+      uncat.forEach(r=>{h+=uc(r);});
+    }
   } else {
     let lastDate=null, first=true;
     upcoming.forEach(r=>{
