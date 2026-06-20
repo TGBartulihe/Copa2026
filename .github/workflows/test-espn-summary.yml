@@ -1,55 +1,11 @@
-name: Test ESPN Summary
+const data = await fetch(url).then(r=>r.json());
 
-on:
-  workflow_dispatch: {}
+console.log("HAS ROSTERS:", !!data.rosters);
 
-jobs:
-  test:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Test ESPN
-        run: |
-          node -e "
-          async function main(){
-            const date='20260620';
-            const boardUrl='https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates='+date;
-
-            const board=await fetch(boardUrl).then(r=>r.json());
-
-            const events=board.events||[];
-
-            console.log('EVENTS FOUND:',events.length);
-
-            for(const ev of events){
-              console.log(ev.id, ev.name, ev.shortName, ev.date);
-            }
-
-            const target=events.find(ev =>
-              (ev.name||'').toLowerCase().includes('germany') ||
-              (ev.shortName||'').toLowerCase().includes('ger')
-            );
-
-            if(!target){
-              throw new Error('Germany event not found');
-            }
-
-            console.log('TARGET:',target.id,target.name);
-
-            const url='https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event='+target.id;
-
-            const data=await fetch(url).then(r=>r.json());
-
-            console.log('TOP LEVEL KEYS:',Object.keys(data));
-
-            const txt=JSON.stringify(data,null,2);
-
-            for(const word of ['lineup','lineups','formation','starter','starters','athlete','roster','competitors','boxscore']){
-              console.log(word, txt.toLowerCase().includes(word));
-            }
-
-            console.log(txt.substring(0,50000));
-          }
-
-          main().catch(e=>{console.error(e);process.exit(1);});
-          "
+console.log(
+  JSON.stringify(
+    data.rosters,
+    null,
+    2
+  ).substring(0,50000)
+);
