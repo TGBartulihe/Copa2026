@@ -228,7 +228,7 @@ async function translateToPT(text){
   if (translateCache[text]) return translateCache[text];
   try{
     const params = new URLSearchParams({
-      client: "gtx", sl: "en", tl: "pt", dt: "t", q: text,
+      client: "gtx", sl: "en", tl: "pt-BR", dt: "t", q: text,
     });
     const res = await fetch(`https://translate.googleapis.com/translate_a/single?${params}`);
     if (!res.ok) return null;
@@ -254,13 +254,25 @@ async function fetchEvents(eventId){
       const playerName = p.participants?.[0]?.athlete?.displayName;
       const assistName = p.participants?.[1]?.athlete?.displayName; // se a ESPN tiver isto separado
       const teamName = p.team?.displayName || "";
-      const original = p.text || p.shortText || "";
+      let original = p.text || p.shortText || "";
+
+      // A ESPN começa o texto de gol com "Goal! Time A N, Time B M. " — isto é
+      // redundante (já mostramos o placar à parte) E ambíguo para traduzir
+      // ("goal" pode sair como "meta" em vez de "gol"). Tira essa parte antes.
+      const isGoalIcon = icon === "⚽" || icon === "⚽ OG" || icon === "⚽🎯";
+      if (isGoalIcon){
+        original = original.replace(/^goal!?\s*[^.]*\.\s*/i, "");
+      }
 
       // Tenta a tradução real (preserva contexto: tipo de remate, assistência...).
       // Se falhar (sem chave, API em baixo, sem internet), cai no template
       // simples — nunca mostra a frase em inglês.
       let txt = await translateToPT(original);
       if (!txt) txt = describeEventPT(icon, playerName, assistName);
+
+      // Rede de segurança — se ainda assim "meta" escapar para um evento de
+      // gol, corrige para o termo certo do desporto
+      if (isGoalIcon && txt) txt = txt.replace(/\bmeta\b/gi, "Gol");
 
       results.push({ min: p.clock?.displayValue || "", icon, txt, sub: teamName });
     }
@@ -473,7 +485,7 @@ async function checkAndNotify(allMatches){
     if (m.live && Array.isArray(m.events)){
       for (const ev of m.events){
         if (!ev.icon || !ev.icon.startsWith("⚽")) continue;
-        const goalKey = `${ev.min}|${ev.txt}`;
+        const goalKey = `${ev.min}|${ev.sub}`; // minuto+equipa — estável, não muda se a tradução melhorar
         if (entry.goals.includes(goalKey)) continue;
         const dead = await sendPushToSubs(targetSubs, {
           title: "⚽ GOOOL!",
