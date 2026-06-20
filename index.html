@@ -16,6 +16,25 @@
 <style>
 *{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
 body{background:#040804;color:#ddd;font-family:Georgia,serif;min-height:100vh}
+
+/* ── FUNDO — usa background.jpg se existir; senão fica só a cor escura ────── */
+.bg-layer{
+  position:fixed;top:0;left:0;right:0;bottom:0;
+  background-image:url('./background.jpg');
+  background-size:cover;background-position:center;background-repeat:no-repeat;
+  z-index:-2;pointer-events:none;
+}
+/* Camada escura por cima da foto — garante que o texto nunca se perde,
+   seja qual for a imagem que colocares */
+.bg-overlay{
+  position:fixed;top:0;left:0;right:0;bottom:0;
+  background:linear-gradient(180deg,rgba(4,8,4,.55) 0%,rgba(4,8,4,.82) 45%,rgba(4,8,4,.95) 100%);
+  z-index:-1;pointer-events:none;
+}
+.header-logo{
+  display:block;max-height:46px;max-width:120px;margin:0 auto 6px;
+  filter:drop-shadow(0 2px 6px rgba(0,0,0,.5));
+}
 #app{max-width:640px;margin:0 auto;padding-bottom:24px}
 .header{background:linear-gradient(135deg,#082008,#0f3a0f,#082008);padding:14px 16px 10px;text-align:center;border-bottom:2px solid #1a5e1a;position:sticky;top:0;z-index:100}
 .header-sub{font-size:9px;letter-spacing:5px;color:#3dbb3d;margin-bottom:3px}
@@ -108,7 +127,7 @@ td.pos{color:#4ade80;font-weight:bold}td.neg{color:#f87171;font-weight:bold}td.z
 .ucm{font-size:9px;margin-top:2px;text-align:right}
 /* BRACKET */
 .bracket{padding:4px 0}
-.bround{margin-bottom:20px}
+.bround{margin-bottom:22px}
 .brnd-title{font-size:9px;color:#b8860b;letter-spacing:3px;font-weight:bold;margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid #1a1500}
 .bmatch{background:#090e09;border:1px solid #141a14;border-radius:6px;padding:9px 12px;margin-bottom:5px;display:flex;justify-content:space-between;align-items:center}
 .bmatch.done{border-left:3px solid #166534}
@@ -121,14 +140,42 @@ td.pos{color:#4ade80;font-weight:bold}td.neg{color:#f87171;font-weight:bold}td.z
 .bscore.tbd-s{color:#222;font-size:12px}
 .bscore.live-sc{color:#ff6644}
 .binfo{font-size:9px;color:#333;margin-top:2px}
+
+/* ── CHAVE VISUAL — caixa de confronto, time de cada lado ──────────────────── */
+.bbox{border-radius:10px;overflow:hidden;margin-bottom:6px;background:linear-gradient(160deg,#0a0f0a,#060a06);border:1px solid #131d13}
+.bbox.bbox-live{border-color:#3dbb3d}
+.bbox.bbox-done{border-color:#1a3320}
+.bbox.bbox-tbd{opacity:.55}
+.bbox-head{padding:4px 10px;font-size:8px;letter-spacing:1.5px;color:#557;background:#050905;border-bottom:1px solid #0e140e;display:flex;justify-content:space-between}
+.bbox-head.head-live{color:#ff5544}
+.bbox-head.head-done{color:#3dbb3d}
+.bbox-body{display:flex;align-items:stretch}
+.bbox-team{flex:1;display:flex;align-items:center;gap:5px;padding:11px 8px;font-size:12.5px;min-width:0;line-height:1.25}
+.bbox-team.bbox-right{flex-direction:row-reverse;text-align:right;justify-content:flex-start}
+.bbox-team .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.bbox-team.winner{font-weight:bold;color:#f2ecd8}
+.bbox-team.loser{color:#4a5a4a}
+.bbox-check{color:#3dbb3d;font-size:11px;flex-shrink:0}
+.bbox-mid{display:flex;align-items:center;padding:0 7px;flex-shrink:0;border-left:1px solid #101a10;border-right:1px solid #101a10}
+.bbox-score{font-size:16px;font-weight:bold;color:#f0c040;letter-spacing:1px;min-width:42px;text-align:center}
+.bbox-score.live{color:#ff6644}
+.bbox-score.tbd{color:#2a3a2a;font-size:11px;letter-spacing:0}
+.bconnector{display:flex;justify-content:center;position:relative;height:16px;margin:-2px 0 4px}
+.bconnector::before{content:"";position:absolute;top:0;bottom:0;left:50%;width:1px;background:#162616}
+.bconnector span{position:relative;background:#040804;color:#2a4022;font-size:7px;letter-spacing:1.5px;padding:0 8px;align-self:center}
+.bremain{font-size:10px;color:#2a3a2a;text-align:center;padding:8px 0 2px}
+
 ::-webkit-scrollbar{width:4px;height:4px}
 ::-webkit-scrollbar-track{background:#040804}
 ::-webkit-scrollbar-thumb{background:#1a2a1a;border-radius:2px}
 </style>
 </head>
 <body>
+<div class="bg-layer"></div>
+<div class="bg-overlay"></div>
 <div id="app">
   <div class="header">
+    <img src="./logo.png" alt="" class="header-logo" onerror="this.style.display='none'"/>
     <div class="header-sub">COPA DO MUNDO FIFA 2026</div>
     <div class="header-title">⚽ WORLD CUP TRACKER</div>
     <div class="header-meta">
@@ -797,6 +844,30 @@ function bProjecao(){
   return h;
 }
 
+// ── CAIXA DE CONFRONTO — time de cada lado, vencedor em destaque ─────────────
+function bracketBox(homeLabel,awayLabel,sh,sa,status,meta,favHome,favAway){
+  const isDone=status==="done", isLive=status==="live";
+  const wh=isDone&&sh>sa, wa=isDone&&sa>sh;
+  const scoreCls=isLive?"live":!isDone?"tbd":"";
+  const scoreTxt=isDone?`${sh}–${sa}`:isLive?`${sh??0}–${sa??0}`:"vs";
+  const headCls=isLive?"head-live":isDone?"head-done":"";
+  return `<div class="bbox ${isLive?"bbox-live":isDone?"bbox-done":"bbox-tbd"}">
+    ${meta?`<div class="bbox-head ${headCls}"><span>${meta}</span></div>`:""}
+    <div class="bbox-body">
+      <div class="bbox-team ${isDone?(wh?"winner":"loser"):""}">
+        <span class="nm">${homeLabel}${favHome?" ⭐":""}</span>
+        ${wh?'<span class="bbox-check">✔</span>':""}
+      </div>
+      <div class="bbox-mid"><div class="bbox-score ${scoreCls}">${scoreTxt}</div></div>
+      <div class="bbox-team bbox-right ${isDone?(wa?"winner":"loser"):""}">
+        ${wa?'<span class="bbox-check">✔</span>':""}
+        <span class="nm">${awayLabel}${favAway?" ⭐":""}</span>
+      </div>
+    </div>
+  </div>`;
+}
+function connector(text){ return `<div class="bconnector"><span>${text||"VENCEDOR AVANÇA"}</span></div>`; }
+
 function bOficial(){
   let h="";
   const rounds=[
@@ -814,39 +885,28 @@ function bOficial(){
 
     if(real.length){
       // Jogos reais já confirmados pela ESPN — mostra com nomes e placares de verdade
-      real.forEach(m=>{
+      real.forEach((m,i)=>{
         const {time,date}=m.brTime?localTime(m.brTime,m.date):{time:"",date:m.date||""};
-        const fav=isFav(m.home)||isFav(m.away);
-        if(m.done){
-          h+=`<div class="bmatch done">
-            <div class="bteams"><div class="bt1">${m.home}${fav?" ⭐":""}</div><div class="bt2">${m.away}</div></div>
-            <div><div class="bscore">${m.sh}–${m.sa}</div><div class="binfo" style="color:#166534">ENCERRADO · ${date}</div></div>
-          </div>`;
-        } else if(m.live){
-          h+=`<div class="bmatch live-b">
-            <div class="bteams"><div class="bt1">${m.home}${fav?" ⭐":""}</div><div class="bt2">${m.away}</div></div>
-            <div><div class="bscore live-sc">${m.sh??0}–${m.sa??0}</div><div class="binfo" style="color:#ff4444">🔴 ${m.clock||""}'</div></div>
-          </div>`;
-        } else {
-          h+=`<div class="bmatch">
-            <div class="bteams"><div class="bt1">${m.home}${fav?" ⭐":""}</div><div class="bt2">${m.away}</div></div>
-            <div><div class="bscore tbd-s">${date}</div><div class="binfo">${time}${m.venue?" · "+m.venue:""}</div></div>
-          </div>`;
-        }
+        const favH=isFav(m.home), favA=isFav(m.away);
+        let status, meta;
+        if(m.done){ status="done"; meta=`✅ ENCERRADO · ${date}`; }
+        else if(m.live){ status="live"; meta=`🔴 AO VIVO · ${m.clock||""}'`; }
+        else { status="scheduled"; meta=`⏰ ${date} · ${time}${m.venue?" · "+m.venue:""}`; }
+        h+=bracketBox(m.home,m.away,m.sh,m.sa,status,meta,favH,favA);
+        if(i%2===1 && i<real.length-1) h+=connector();
       });
       const remaining=Math.max(0,expected-real.length);
       if(remaining>0){
-        h+=`<div style="font-size:10px;color:#333;text-align:center;padding:6px">+ ${remaining} confronto${remaining>1?"s":""} ainda a definir nesta fase</div>`;
+        h+=`<div class="bremain">+ ${remaining} confronto${remaining>1?"s":""} ainda a definir nesta fase</div>`;
       }
     } else {
       // Ainda sem jogos reais nesta fase — mostra estrutura estática como referência
-      MM_STRUCTURE[key].forEach(m=>{
+      MM_STRUCTURE[key].forEach((m,i)=>{
         const {time,date}=localTime(m.brTime,m.date);
         const isTBD=m.t1.startsWith("V")||/^[123]º/.test(m.t1);
-        h+=`<div class="bmatch${isTBD?" tbd":""}">
-          <div class="bteams"><div class="bt1">${m.t1}</div><div class="bt2">${m.t2}</div></div>
-          <div><div class="bscore tbd-s">${isTBD?"·–·":date}</div><div class="binfo">${time} ${m.venue?`· ${m.venue}`:""}</div></div>
-        </div>`;
+        const meta=isTBD?`${label.split(" — ")[0]} · a definir`:`⏰ ${date} · ${time}${m.venue?" · "+m.venue:""}`;
+        h+=bracketBox(m.t1,m.t2,null,null,"scheduled",meta,false,false);
+        if(i%2===1 && i<MM_STRUCTURE[key].length-1) h+=connector();
       });
     }
     h+="</div>";
