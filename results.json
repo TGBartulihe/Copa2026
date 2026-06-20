@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T17:00:21.919Z",
+  "generatedAt": "2026-06-20T17:01:25.434Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -2084,11 +2084,11 @@
       "brTime": "14h",
       "venue": "NRG Stadium",
       "iso": "2026-06-20T17:00Z",
-      "sh": null,
-      "sa": null,
+      "sh": 0,
+      "sa": 0,
       "done": false,
-      "live": false,
-      "clock": "",
+      "live": true,
+      "clock": "1'",
       "events": []
     },
     {
