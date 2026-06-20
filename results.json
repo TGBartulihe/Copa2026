@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T18:35:25.224Z",
+  "generatedAt": "2026-06-20T18:36:25.782Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -2088,8 +2088,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "73'",
+      "clock": "74'",
       "events": [
+        {
+          "min": "75'",
+          "icon": "🟨",
+          "txt": "Yasin Ayari (Suécia) Cartão Amarelo aos 75'",
+          "sub": "Sweden"
+        },
         {
           "min": "72'",
           "icon": "🔄",
