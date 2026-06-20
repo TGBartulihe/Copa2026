@@ -536,61 +536,6 @@ function applyESPNData(data){
 
 let refreshIv=null;
 
-// ── MODO DEMONSTRAÇÃO — simula um jogo ao vivo com dados fictícios ──────────
-let DEMO_MODE=false;
-let DEMO_TICK=null;
-const DEMO_TIMELINE=[
-  {min:5,  icon:"🟨", txt:"Joško Gvardiol",      sub:"Croácia 🇭🇷",            sh:0,sa:0},
-  {min:18, icon:"⚽", txt:"Vinícius Júnior",      sub:"Brasil 🇧🇷 · 1–0",      sh:1,sa:0},
-  {min:34, icon:"🟨", txt:"Luka Modrić",          sub:"Croácia 🇭🇷",            sh:1,sa:0},
-  {min:56, icon:"⚽", txt:"Andrej Kramarić",      sub:"Croácia 🇭🇷 · empata 1–1",sh:1,sa:1},
-  {min:63, icon:"🔄", txt:"Endrick entra",        sub:"Brasil 🇧🇷",             sh:1,sa:1},
-  {min:71, icon:"⚽", txt:"Endrick",               sub:"Brasil 🇧🇷 · 2–1",      sh:2,sa:1},
-];
-function startDemo(){
-  DEMO_MODE=true;
-  const demoMatch={
-    g:"C",home:"Brasil 🇧🇷",away:"Croácia 🇭🇷",
-    sh:0,sa:0,date:todayStr(),live:true,clock:"1",done:false,
-    venue:"Estádio Demonstração",events:[],_demoIdx:0,
-    lineups:{
-      home:{formation:"4-3-3",starters:[
-        {name:"Alisson",pos:"GK"},{name:"Danilo",pos:"DF"},{name:"Marquinhos",pos:"DF"},
-        {name:"Gabriel Magalhães",pos:"DF"},{name:"Wendell",pos:"DF"},
-        {name:"Casemiro",pos:"MF"},{name:"Bruno Guimarães",pos:"MF"},{name:"Lucas Paquetá",pos:"MF"},
-        {name:"Raphinha",pos:"FW"},{name:"Vinícius Júnior",pos:"FW"},{name:"Endrick",pos:"FW"},
-      ]},
-      away:{formation:"4-2-3-1",starters:[
-        {name:"Livaković",pos:"GK"},{name:"Stanišić",pos:"DF"},{name:"Gvardiol",pos:"DF"},
-        {name:"Sutalo",pos:"DF"},{name:"Erlić",pos:"DF"},
-        {name:"Modrić",pos:"MF"},{name:"Brozović",pos:"MF"},
-        {name:"Kovačić",pos:"MF"},{name:"Majer",pos:"MF"},{name:"Pašalić",pos:"MF"},
-        {name:"Kramarić",pos:"FW"},
-      ]},
-    }
-  };
-  RES.unshift(demoMatch);
-  if(DEMO_TICK)clearInterval(DEMO_TICK);
-  DEMO_TICK=setInterval(()=>{
-    const m=RES.find(r=>r._demoIdx!==undefined);
-    if(!m){clearInterval(DEMO_TICK);return;}
-    if(m._demoIdx>=DEMO_TIMELINE.length){
-      m.clock="90+3";render();clearInterval(DEMO_TICK);return;
-    }
-    const ev=DEMO_TIMELINE[m._demoIdx];
-    m.clock=String(ev.min);m.sh=ev.sh;m.sa=ev.sa;
-    m.events=DEMO_TIMELINE.slice(0,m._demoIdx+1).map(e=>({min:String(e.min),icon:e.icon,txt:e.txt,sub:e.sub})).reverse();
-    m._demoIdx++;
-    render();
-  },4000);
-  render();
-}
-function stopDemo(){
-  DEMO_MODE=false;
-  if(DEMO_TICK)clearInterval(DEMO_TICK);
-  RES=RES.filter(r=>r._demoIdx===undefined);
-  render();
-}
 async function fetchESPN(){
   // Busca hoje + 3 dias anteriores — nunca perde resultado por mudança de dia
   let total=0;
@@ -1364,17 +1309,9 @@ function bMinuto(){
   if(!live.length){
     return `<div class="no-g">📻 Nenhum jogo ao vivo neste momento.<br>
       <span style="font-size:10px;color:#5e7a5c">Quando houver jogo a decorrer, os eventos minuto a minuto aparecem aqui automaticamente — gols, cartões e substituições.</span>
-      <button onclick="startDemo()" style="display:block;margin:14px auto 0;padding:8px 18px;border-radius:6px;border:1px solid #2a3a00;background:#1a1500;color:#f0c040;font-family:Georgia,serif;font-size:11px;font-weight:bold;cursor:pointer">🎬 Ver demonstração (dados fictícios)</button>
     </div>`;
   }
-  let h="";
-  if(DEMO_MODE){
-    h+=`<div style="background:#1a1500;border:1px solid #4a3a00;border-radius:7px;padding:8px 14px;margin-bottom:10px;font-size:10px;color:#f0c040;display:flex;justify-content:space-between;align-items:center">
-      <span>🎬 MODO DEMONSTRAÇÃO — dados fictícios, não é um jogo real</span>
-      <button onclick="stopDemo()" style="background:none;border:1px solid #f0c040;color:#f0c040;padding:3px 10px;border-radius:4px;cursor:pointer;font-size:10px;font-family:Georgia,serif">Sair</button>
-    </div>`;
-  }
-  h+=lbl(`🔴 ${live.length} JOGO${live.length>1?"S":""} AO VIVO AGORA`);
+  let h=lbl(`🔴 ${live.length} JOGO${live.length>1?"S":""} AO VIVO AGORA`);
   live.forEach(r=>{
     const fv=isFav(r.home)||isFav(r.away);
     const col=GC[r.g]||"#3dbb3d";
