@@ -30,7 +30,9 @@ jobs:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
           VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
           VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
-        run: node scripts/update-scores.js
+        env:
+  CLOUDFLARE_ADMIN_TOKEN: ${{ secrets.CLOUDFLARE_ADMIN_TOKEN }}
+run: node scripts/update-scores.js
 
       - name: Commit se houver mudanças
         run: |
@@ -46,4 +48,5 @@ jobs:
             git commit -m "Atualiza resultados $(date -u +%Y-%m-%dT%H:%M:%SZ)"
             git push
           fi
+
 
