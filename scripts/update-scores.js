@@ -30,14 +30,15 @@ const ESPN_MAP = {
 function mapTeam(n){ return ESPN_MAP[n] || n; }
 
 // ── FILTRO DE EVENTOS RELEVANTES ──────────────────────────────────────────────
-const SKIP_WORDS = ["delay","drink","half begins","kick off","kick-off","end of","period begins","weather","var check concluded","attendance","whistle"];
+// Filtra só ruído puramente administrativo — tudo o resto fica, conforme
+// pedido: cobertura completa de eventos até ao fim da partida.
+const SKIP_WORDS = ["delay","drink","weather","attendance","var check concluded"];
 function isRelevantEvent(p){
   const txt = (p.text || p.shortText || "").toLowerCase();
   if (SKIP_WORDS.some(w => txt.includes(w))) return false;
-  const typ = (p.type?.text || p.type?.id || "").toLowerCase();
-  const hasIcon = typ.includes("goal") || typ.includes("card") || typ.includes("sub") || typ.includes("yellow") || typ.includes("red");
-  const hasClock = p.clock?.displayValue && parseInt(p.clock.displayValue) > 0;
-  return hasIcon || (hasClock && txt.length > 3);
+  // Praticamente tudo o resto passa — getIcon nunca devolve null agora,
+  // por isso isto só filtra o que é mesmo ruído, não eventos de jogo.
+  return txt.length > 2;
 }
 function getIcon(p){
   const typ = (p.type?.text || p.type?.id || "").toLowerCase();
@@ -47,8 +48,17 @@ function getIcon(p){
   if (typ.includes("yellow")) return "🟨";
   if (typ.includes("red")) return "🟥";
   if (typ.includes("sub")) return "🔄";
-  if (typ.includes("penalty") || txt.includes("penalty")) return "⚽🎯";
-  return null;
+  if (typ.includes("penalty")) return "⚽🎯";
+  if (typ.includes("corner")) return "🚩";
+  if (typ.includes("offside")) return "🚫";
+  if (typ.includes("foul")) return "⚠️";
+  if (typ.includes("var")) return "📺";
+  if (typ.includes("injury")) return "🩹";
+  if (typ.includes("free kick")) return "🥅";
+  if (typ.includes("save")||txt.includes("saved")) return "🧤";
+  if (typ.includes("block")||txt.includes("blocked")) return "🛡️";
+  if (typ.includes("shot")||txt.includes("shot")||txt.includes("attempt")) return "🎯";
+  return "•"; // qualquer evento não categorizado ainda aparece, com marcador genérico
 }
 
 // Constrói a frase em português a partir das peças estruturadas (tipo de
@@ -64,6 +74,15 @@ function describeEventPT(icon, playerName, assistName){
   if (icon === "🟨")     return `Cartão amarelo para ${p}`;
   if (icon === "🟥")     return `Cartão vermelho para ${p}`;
   if (icon === "🔄")     return `Substituição — entra ${p}`;
+  if (icon === "🚩")     return `Escanteio`;
+  if (icon === "🚫")     return `Fora de jogo — ${p}`;
+  if (icon === "⚠️")     return `Falta de ${p}`;
+  if (icon === "📺")     return `Revisão do VAR`;
+  if (icon === "🩹")     return `Lesão — ${p}`;
+  if (icon === "🥅")     return `Pontapé livre — ${p}`;
+  if (icon === "🧤")     return `Defesa do guarda-redes`;
+  if (icon === "🛡️")     return `Remate bloqueado`;
+  if (icon === "🎯")     return `Remate de ${p}`;
   return p;
 }
 
