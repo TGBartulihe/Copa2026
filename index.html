@@ -28,7 +28,7 @@ body{background:#040804;color:#ddd;font-family:Georgia,serif;min-height:100vh}
    seja qual for a imagem que colocares */
 .bg-overlay{
   position:fixed;top:0;left:0;right:0;bottom:0;
-  background:linear-gradient(180deg,rgba(44, 45, 44, 0.486) 0%,rgba(44, 45, 44, 0.486) 45%,rgba(44, 45, 44, 0.486) 100%);
+  background:linear-gradient(180deg,rgba(4,8,4,.65) 0%,rgba(4,8,4,.85) 45%,rgba(4,8,4,.95) 100%);
   z-index:-1;pointer-events:none;
 }
 .header-logo{
@@ -72,7 +72,7 @@ body{background:#040804;color:#ddd;font-family:Georgia,serif;min-height:100vh}
 .cbadge.soon{color:#666}
 .crow{display:flex;justify-content:space-between;align-items:center}
 .cteam{flex:1;font-size:clamp(11px,2.8vw,13px)}
-.cteam.win{color:#ddd;font-weight:bold}.cteam.lose{color:#555}.cteam.r{text-align:right}
+.cteam.win{color:#ddd;font-weight:bold}.cteam.lose{color:#888}.cteam.r{text-align:right}
 .cscore{font-weight:bold;padding:3px 10px;background:#050905;border-radius:5px;letter-spacing:2px;margin:0 8px;min-width:54px;text-align:center}
 .cscore.done{color:#f0c040;font-size:clamp(15px,4vw,20px)}
 .cscore.alive{color:#ff6644;font-size:clamp(15px,4vw,20px)}
@@ -156,7 +156,7 @@ td.pos{color:#4ade80;font-weight:bold}td.neg{color:#f87171;font-weight:bold}td.z
 .bbox-team.bbox-right{flex-direction:row-reverse;text-align:right;justify-content:flex-start}
 .bbox-team .nm{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .bbox-team.winner{font-weight:bold;color:#f2ecd8}
-.bbox-team.loser{color:#4a5a4a}
+.bbox-team.loser{color:#7a8a7a}
 .bbox-check{color:#3dbb3d;font-size:11px;flex-shrink:0}
 .bbox-mid{display:flex;align-items:center;padding:0 7px;flex-shrink:0;border-left:1px solid #101a10;border-right:1px solid #101a10}
 .bbox-score{font-size:16px;font-weight:bold;color:#f0c040;letter-spacing:1px;min-width:42px;text-align:center}
@@ -179,7 +179,7 @@ td.pos{color:#4ade80;font-weight:bold}td.neg{color:#f87171;font-weight:bold}td.z
   <div class="header">
     <div class="header-sub">COPA DO MUNDO FIFA 2026</div>
     <div class="header-title-row">
-      <img src="./logo.png" alt="" class="header-logo" onerror="this.style.display='none'"/>
+      <img id="logoImg" alt="" class="header-logo" onerror="this.style.display='none'"/>
       <div class="header-title">⚽WORLD CUP TRACKER - BY TICOBARTU⚽</div>
     </div>
     <div class="header-meta">
@@ -204,6 +204,16 @@ td.pos{color:#4ade80;font-weight:bold}td.neg{color:#f87171;font-weight:bold}td.z
   </div>
 </div>
 <script>
+// ── ASSETS PERSONALIZÁVEIS (logo/fundo) — sempre buscados frescos ────────────
+// Cache-buster garante que o browser nunca reutiliza uma versão antiga ou
+// um 404 de antes de teres feito upload destes ficheiros.
+(function(){
+  const v = Date.now();
+  document.getElementById("logoImg").src = `./logo.png?v=${v}`;
+  const bgLayer = document.querySelector(".bg-layer");
+  if (bgLayer) bgLayer.style.backgroundImage = `url('./background.jpg?v=${v}')`;
+})();
+
 // ── TIMEZONE ──────────────────────────────────────────────────────────────────
 const userTZ=Intl.DateTimeFormat().resolvedOptions().timeZone;
 const TZ_NAMES={"America/Sao_Paulo":"Brasil · Brasília","America/Manaus":"Brasil · Manaus","Europe/Lisbon":"Portugal · Lisboa","Europe/London":"UK · Londres","America/New_York":"EUA · Leste","America/Los_Angeles":"EUA · Pacífico","America/Argentina/Buenos_Aires":"Argentina","Europe/Madrid":"Espanha"};

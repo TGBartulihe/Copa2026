@@ -1,8 +1,10 @@
 // Copa 2026 Tracker — Service Worker
 // Autor: Thiago Bartulihe
-// v3: index.html e manifest.json agora são "network-first" — nunca mais ficam
-// presos em cache antigo. Apenas ícones usam cache-first (raramente mudam).
-const CACHE = "copa2026-v3";
+// v4: corrige bug em que respostas com falha (ex: 404 antes de subires o
+// logo.png) ficavam presas em cache para sempre. Agora só guarda em cache
+// respostas bem-sucedidas (res.ok), e logo.png/background.jpg são
+// "network-first" como o index.html — nunca mais ficam desatualizados.
+const CACHE = "copa2026-v4";
 const SHELL_ASSETS = ["./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", e => {
@@ -25,30 +27,37 @@ self.addEventListener("activate", e => {
 self.addEventListener("fetch", e => {
   const url = e.request.url;
 
-  // Dados — nunca cachear, sempre rede (resultados precisam estar sempre frescos)
+  // Dados — nunca cachear, sempre rede
   if (url.includes("espn.com") || url.includes("thesportsdb.com") || url.includes("results.json")) {
     e.respondWith(fetch(e.request).catch(() => new Response("{}", {headers:{"Content-Type":"application/json"}})));
     return;
   }
 
-  // Página principal e manifesto — network-first: tenta sempre buscar versão nova,
-  // só usa cache se estiver offline. Isto resolve o problema de "código antigo presente".
-  if (e.request.mode === "navigate" || url.endsWith("index.html") || url.endsWith("manifest.json") || url.endsWith("/")) {
+  // index.html, manifest, e os teus assets personalizáveis (logo/fundo) —
+  // sempre tenta a rede primeiro. Nunca ficam presos numa versão antiga
+  // ou num 404 cacheado de antes de existirem.
+  const isCustomAsset = url.endsWith("logo.png") || url.endsWith("background.jpg");
+  if (e.request.mode === "navigate" || url.endsWith("index.html") || url.endsWith("manifest.json") || url.endsWith("/") || isCustomAsset) {
     e.respondWith(
       fetch(e.request).then(res => {
-        const clone = res.clone();
-        caches.open(CACHE).then(c => c.put(e.request, clone));
+        if (res.ok) {
+          const clone = res.clone();
+          caches.open(CACHE).then(c => c.put(e.request, clone));
+        }
         return res;
       }).catch(() => caches.match(e.request))
     );
     return;
   }
 
-  // Ícones e demais assets estáticos — cache first (raramente mudam)
+  // Ícones fixos da app — cache first (raramente mudam), mas só guarda
+  // se a resposta foi mesmo bem-sucedida
   e.respondWith(
     caches.match(e.request).then(r => r || fetch(e.request).then(res => {
-      const clone = res.clone();
-      caches.open(CACHE).then(c => c.put(e.request, clone));
+      if (res.ok) {
+        const clone = res.clone();
+        caches.open(CACHE).then(c => c.put(e.request, clone));
+      }
       return res;
     }).catch(() => r))
   );
