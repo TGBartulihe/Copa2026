@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T21:13:25.077Z",
+  "generatedAt": "2026-06-20T21:15:47.099Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -79,8 +79,352 @@
           "icon": "🟨",
           "txt": "Sidny Cabral (Cabo Verde) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "Cape Verde"
+        },
+        {
+          "min": "",
+          "icon": "•",
+          "txt": "Começa o primeiro tempo.",
+          "sub": ""
         }
-      ]
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Unai Simón",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Aymeric Laporte",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Pau Cubarsí",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Marc Cucurella",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Marcos Llorente",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Rodri ",
+              "pos": "CM",
+              "row": 2
+            },
+            {
+              "name": "Pedri ",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Fabián Ruiz",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Mikel Oyarzabal",
+              "pos": "F",
+              "row": 3
+            },
+            {
+              "name": "Gavi ",
+              "pos": "LF",
+              "row": 3
+            },
+            {
+              "name": "Ferran Torres",
+              "pos": "RF",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "David Raya",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Víctor Muñoz",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Lamine Yamal",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Yéremy Pino",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Martín Zubimendi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Dani Olmo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nico Williams",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mikel Merino",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Pedro Porro",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Borja Iglesias",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Joan García",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Álex Baena",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Alejandro Grimaldo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Marc Pubill",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Eric García",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-3-3"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Vozinha",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Diney Borges",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Pico Lopes",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Sidny Lopes Cabral",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Steven Moreira",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Kevin Pina",
+              "pos": "DM",
+              "row": 2
+            },
+            {
+              "name": "Jamiro Monteiro",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Laros Duarte",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Jovane Cabral",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Ryan Mendes",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Dailon Livramento",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Stopira",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Márcio Rosa",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Hélio Varela",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Wagner Pina",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Gilson Benchimol",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Garry Rodrigues",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Telmo Arcanjo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Willy Semedo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Logan Costa",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Yannick Semedo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nuno da Costa",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "João Paulo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "CJ dos Santos",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kelvin Pires",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Deroy Duarte",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-1-4-1"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "10",
+          "yellowCards": "1",
+          "redCards": "0",
+          "offsides": "2",
+          "wonCorners": "11",
+          "saves": "1",
+          "possessionPct": "74.3",
+          "totalShots": "27",
+          "shotsOnTarget": "7",
+          "shotPct": "0.3",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "734",
+          "totalPasses": "800",
+          "passPct": "0.9",
+          "accurateCrosses": "6",
+          "totalCrosses": "36",
+          "crossPct": "0.2",
+          "totalLongBalls": "30",
+          "accurateLongBalls": "24",
+          "longballPct": "0.8",
+          "blockedShots": "8",
+          "effectiveTackles": "12",
+          "totalTackles": "13",
+          "tacklePct": "0.9",
+          "interceptions": "6",
+          "effectiveClearance": "7",
+          "totalClearance": "7"
+        },
+        "away": {
+          "foulsCommitted": "1",
+          "yellowCards": "1",
+          "redCards": "0",
+          "offsides": "3",
+          "wonCorners": "1",
+          "saves": "7",
+          "possessionPct": "25.7",
+          "totalShots": "6",
+          "shotsOnTarget": "1",
+          "shotPct": "0.2",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "205",
+          "totalPasses": "278",
+          "passPct": "0.7",
+          "accurateCrosses": "1",
+          "totalCrosses": "4",
+          "crossPct": "0.3",
+          "totalLongBalls": "56",
+          "accurateLongBalls": "19",
+          "longballPct": "0.3",
+          "blockedShots": "2",
+          "effectiveTackles": "11",
+          "totalTackles": "18",
+          "tacklePct": "0.6",
+          "interceptions": "15",
+          "effectiveClearance": "46",
+          "totalClearance": "46"
+        }
+      }
     },
     {
       "home": "Bélgica 🇧🇪",
@@ -95,6 +439,12 @@
       "live": false,
       "clock": "",
       "events": [
+        {
+          "min": "90'+6'",
+          "icon": "•",
+          "txt": "Fim do segundo tempo, Bélgica 1, Egypt 1.",
+          "sub": ""
+        },
         {
           "min": "88'",
           "icon": "🔄",
@@ -168,6 +518,12 @@
           "sub": "Belgium"
         },
         {
+          "min": "45'+5'",
+          "icon": "•",
+          "txt": "Fim do primeiro tempo, Bélgica 0, Egito 1.",
+          "sub": ""
+        },
+        {
           "min": "34'",
           "icon": "🟨",
           "txt": "Ahmed Fatouh (Egito) recebe cartão amarelo por uma entrada perigosa.",
@@ -191,7 +547,340 @@
           "txt": "Marwan Attia (Egito) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "Egypt"
         }
-      ]
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Thibaut Courtois",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Brandon Mechele",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Nathan Ngoy",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Timothy Castagne",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Thomas Meunier",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Youri Tielemans",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Amadou Onana",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Kevin De Bruyne",
+              "pos": "AM",
+              "row": 2.5
+            },
+            {
+              "name": "Jérémy Doku",
+              "pos": "AM-L",
+              "row": 2.5
+            },
+            {
+              "name": "Leandro Trossard",
+              "pos": "AM-R",
+              "row": 2.5
+            },
+            {
+              "name": "Charles De Ketelaere",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Mike Penders",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nicolas Raskin",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Senne Lammens",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Romelu Lukaku",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Joaquin Seys",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Diego Moreira",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Arthur Theate",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Matias Fernandez-Pardo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Alexis Saelemaekers",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Dodi Lukébakio",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Hans Vanaken",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Axel Witsel",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Maxim De Cuyper",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Koni De Winter",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-2-3-1"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Mostafa Shoubir",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Hamdy Fathy",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Yasser Ibrahim",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Ahmed Fatouh",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Mohamed Hany",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Mohanad Lashin",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Marawan Attia",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Mohamed Salah",
+              "pos": "AM",
+              "row": 2.5
+            },
+            {
+              "name": "Emam Ashour",
+              "pos": "AM-L",
+              "row": 2.5
+            },
+            {
+              "name": "Mostafa Zico",
+              "pos": "AM-R",
+              "row": 2.5
+            },
+            {
+              "name": "Omar Marmoush",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Ramy Rabia",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Hamza Abdelkarim",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mohamed Abdelmoneim",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Zizo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Tarek Alaa",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Hossam Abdelmaguid",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ibrahim Adel",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Haissem Hassan",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nabil Donga",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mahdy Soliman",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Karim Hafez",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mohamed El Shenawy",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mohamed Alaa",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Trézéguet",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mahmoud Saber",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-2-3-1"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "15",
+          "yellowCards": "2",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "2",
+          "saves": "2",
+          "possessionPct": "53.6",
+          "totalShots": "15",
+          "shotsOnTarget": "3",
+          "shotPct": "0.2",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "391",
+          "totalPasses": "455",
+          "passPct": "0.9",
+          "accurateCrosses": "6",
+          "totalCrosses": "16",
+          "crossPct": "0.4",
+          "totalLongBalls": "30",
+          "accurateLongBalls": "18",
+          "longballPct": "0.6",
+          "blockedShots": "5",
+          "effectiveTackles": "11",
+          "totalTackles": "17",
+          "tacklePct": "0.6",
+          "interceptions": "10",
+          "effectiveClearance": "25",
+          "totalClearance": "25"
+        },
+        "away": {
+          "foulsCommitted": "15",
+          "yellowCards": "2",
+          "redCards": "0",
+          "offsides": "1",
+          "wonCorners": "7",
+          "saves": "3",
+          "possessionPct": "46.4",
+          "totalShots": "14",
+          "shotsOnTarget": "3",
+          "shotPct": "0.2",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "323",
+          "totalPasses": "398",
+          "passPct": "0.8",
+          "accurateCrosses": "2",
+          "totalCrosses": "13",
+          "crossPct": "0.2",
+          "totalLongBalls": "53",
+          "accurateLongBalls": "20",
+          "longballPct": "0.4",
+          "blockedShots": "7",
+          "effectiveTackles": "17",
+          "totalTackles": "28",
+          "tacklePct": "0.6",
+          "interceptions": "16",
+          "effectiveClearance": "17",
+          "totalClearance": "17"
+        }
+      }
     },
     {
       "home": "Arábia Saudita 🇸🇦",
@@ -262,6 +951,12 @@
         },
         {
           "min": "45'",
+          "icon": "•",
+          "txt": "Início do segundo tempo Arábia Saudita 1, Uruguai 0.",
+          "sub": ""
+        },
+        {
+          "min": "45'",
           "icon": "🔄",
           "txt": "Substituição, Uruguai. Agustín Canobbio substitui Darwin Núñez.",
           "sub": "Uruguay"
@@ -284,7 +979,335 @@
           "txt": "Abdulelah Al Amri (Arábia Saudita) remate com o pé direito em frente à baliza ao centro da baliza após escanteio.",
           "sub": "Saudi Arabia"
         }
-      ]
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Mohammed Al-Owais",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Hassan Al-Tambakti",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Abdulelah Al-Amri",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Moteb Al-Harbi",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Saud Abdulhamid",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Abdullah Al-Khaibari",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Mohamed Kanno",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Salem Al-Dawsari",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Mohammed Abu Al-Shamat",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Musab Al-Juwayr",
+              "pos": "CF-L",
+              "row": 3
+            },
+            {
+              "name": "Feras Al-Brikan",
+              "pos": "CF-R",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Jehad Thakri",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nawaf Al-Aqidi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Aiman Yahya",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Khalid Al-Ghannam",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ziyad Al-Johani",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ali Lajami",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Abdullah Al-Hamdan",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nasser Al-Dawsari",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ali Majrashi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ahmed Al-Kassar",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ala Al-Hajji",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nawaf Boushal",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Sultan Mandash",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Hassan Kadish",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Saleh Al-Shehri",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-4-2"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Fernando Muslera",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Mathías Olivera",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Sebastián Cáceres",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Matías Viña",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Guillermo Varela",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Rodrigo Bentancur",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Manuel Ugarte",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Federico Viñas",
+              "pos": "AM",
+              "row": 2.5
+            },
+            {
+              "name": "Maxi Araújo",
+              "pos": "AM-L",
+              "row": 2.5
+            },
+            {
+              "name": "Federico Valverde",
+              "pos": "AM-R",
+              "row": 2.5
+            },
+            {
+              "name": "Darwin Núñez",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Nicolás de la Cruz",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Emiliano Martínez",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Joaquín Piquerez",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Rodrigo Aguirre",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Juan Manuel Sanabria",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Agustín Cano",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Santiago Mele",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Sergio Rochet",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Facundo Pellistri",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Rodrigo Zalazar",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Brian Rodríguez",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Santiago Bueno",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "José María Giménez",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-2-3-1"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "11",
+          "yellowCards": "1",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "4",
+          "saves": "9",
+          "possessionPct": "33.2",
+          "totalShots": "7",
+          "shotsOnTarget": "3",
+          "shotPct": "0.4",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "236",
+          "totalPasses": "322",
+          "passPct": "0.7",
+          "accurateCrosses": "3",
+          "totalCrosses": "6",
+          "crossPct": "0.5",
+          "totalLongBalls": "41",
+          "accurateLongBalls": "10",
+          "longballPct": "0.2",
+          "blockedShots": "1",
+          "effectiveTackles": "8",
+          "totalTackles": "11",
+          "tacklePct": "0.7",
+          "interceptions": "9",
+          "effectiveClearance": "43",
+          "totalClearance": "43"
+        },
+        "away": {
+          "foulsCommitted": "6",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "6",
+          "wonCorners": "14",
+          "saves": "2",
+          "possessionPct": "66.8",
+          "totalShots": "27",
+          "shotsOnTarget": "10",
+          "shotPct": "0.4",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "540",
+          "totalPasses": "612",
+          "passPct": "0.9",
+          "accurateCrosses": "16",
+          "totalCrosses": "47",
+          "crossPct": "0.3",
+          "totalLongBalls": "41",
+          "accurateLongBalls": "24",
+          "longballPct": "0.6",
+          "blockedShots": "7",
+          "effectiveTackles": "2",
+          "totalTackles": "3",
+          "tacklePct": "0.7",
+          "interceptions": "10",
+          "effectiveClearance": "17",
+          "totalClearance": "17"
+        }
+      }
     },
     {
       "home": "Irã 🇮🇷",
@@ -372,6 +1395,12 @@
           "sub": "Iran"
         },
         {
+          "min": "45'+7'",
+          "icon": "•",
+          "txt": "Fim do primeiro tempo, IR Iran 1, Nova Zelândia 1.",
+          "sub": ""
+        },
+        {
           "min": "32'",
           "icon": "⚽",
           "txt": "Ramin Rezaeian (IR Irã) finalização com o pé direito do meio da área no canto inferior esquerdo.",
@@ -382,8 +1411,347 @@
           "icon": "⚽",
           "txt": "Elijah Just (Nova Zelândia) finalização com o pé direito do meio da área acertando no centro do gol. Assistência de Chris Wood.",
           "sub": "New Zealand"
+        },
+        {
+          "min": "",
+          "icon": "•",
+          "txt": "Começa o primeiro tempo.",
+          "sub": ""
         }
-      ]
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Alireza Beiranvand",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Ali Nemati",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Shoja Khalilzadeh",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Milad Mohammadi",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Ramin Rezaeian",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Saeid Ezatolahi",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Saman Ghoddos",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Arya Yousefi",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Mohammad Mohebbi",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Mehdi Taremi",
+              "pos": "CF-L",
+              "row": 3
+            },
+            {
+              "name": "Shahriyar Moghanloo",
+              "pos": "CF-R",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Mehdi Ghayedi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ali Alipour",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Hossein Hosseini",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Roozbeh Cheshmi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Alireza Jahanbakhsh",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Amirmohammad Razzaghinia",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Saleh Hardani",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ehsan Hajsafi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Payam Niazmand",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Dennis Dargahi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Amirhossein Hosseinzadeh",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mehdi Torabi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Hossein Kanani",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Danial Iri",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mohammad Ghorbani",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-4-2"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Max Crocombe",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Michael Boxall",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Finn Surman",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Liberato Cacace",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Tim Payne",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Marko Stamenic",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Joe Bell",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Sarpreet Singh",
+              "pos": "AM",
+              "row": 2.5
+            },
+            {
+              "name": "Elijah Just",
+              "pos": "AM-L",
+              "row": 2.5
+            },
+            {
+              "name": "Callum McCowatt",
+              "pos": "AM-R",
+              "row": 2.5
+            },
+            {
+              "name": "Chris Wood",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Alex Paulsen",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ben Old",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jesse Randall",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Callan Elliot",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Francis de Vries",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ben Waine",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Michael Woud",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Tyler Bindon",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kosta Barbarouses",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Tommy Smith",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Lachlan Bayliss",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nando Pijnaker",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ryan Thomas",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Alex Rufer",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-2-3-1"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "10",
+          "yellowCards": "1",
+          "redCards": "0",
+          "offsides": "2",
+          "wonCorners": "4",
+          "saves": "6",
+          "possessionPct": "48.5",
+          "totalShots": "17",
+          "shotsOnTarget": "4",
+          "shotPct": "0.2",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "314",
+          "totalPasses": "409",
+          "passPct": "0.8",
+          "accurateCrosses": "6",
+          "totalCrosses": "19",
+          "crossPct": "0.3",
+          "totalLongBalls": "61",
+          "accurateLongBalls": "27",
+          "longballPct": "0.4",
+          "blockedShots": "5",
+          "effectiveTackles": "10",
+          "totalTackles": "17",
+          "tacklePct": "0.6",
+          "interceptions": "11",
+          "effectiveClearance": "27",
+          "totalClearance": "27"
+        },
+        "away": {
+          "foulsCommitted": "8",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "1",
+          "saves": "2",
+          "possessionPct": "51.5",
+          "totalShots": "14",
+          "shotsOnTarget": "8",
+          "shotPct": "0.6",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "376",
+          "totalPasses": "446",
+          "passPct": "0.8",
+          "accurateCrosses": "1",
+          "totalCrosses": "12",
+          "crossPct": "0.1",
+          "totalLongBalls": "40",
+          "accurateLongBalls": "21",
+          "longballPct": "0.5",
+          "blockedShots": "2",
+          "effectiveTackles": "10",
+          "totalTackles": "13",
+          "tacklePct": "0.8",
+          "interceptions": "15",
+          "effectiveClearance": "26",
+          "totalClearance": "26"
+        }
+      }
     },
     {
       "home": "França 🇫🇷",
@@ -398,6 +1766,12 @@
       "live": false,
       "clock": "",
       "events": [
+        {
+          "min": "90'+10'",
+          "icon": "•",
+          "txt": "Fim do segundo tempo, França 3, Senegal 1.",
+          "sub": ""
+        },
         {
           "min": "90'+6'",
           "icon": "⚽",
@@ -463,8 +1837,358 @@
           "icon": "⚽",
           "txt": "Kylian Mbappé (França) remate com o pé direito no coração da área ao centro da baliza. Assistência de Michael Olise com um passe em profundidade.",
           "sub": "France"
+        },
+        {
+          "min": "45'",
+          "icon": "•",
+          "txt": "Começo do segundo tempo França 0, Senegal 0.",
+          "sub": ""
+        },
+        {
+          "min": "",
+          "icon": "•",
+          "txt": "Começa o primeiro tempo.",
+          "sub": ""
         }
-      ]
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Mike Maignan",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "William Saliba",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Dayot Upamecano",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Theo Hernández",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Jules Koundé",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Adrien Rabiot",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Aurélien Tchouaméni",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Ousmane Dembélé",
+              "pos": "AM",
+              "row": 2.5
+            },
+            {
+              "name": "Désiré Doué",
+              "pos": "AM-L",
+              "row": 2.5
+            },
+            {
+              "name": "Michael Olise",
+              "pos": "AM-R",
+              "row": 2.5
+            },
+            {
+              "name": "Kylian Mbappé",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "N'Golo Kanté",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Brice Samba",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Lucas Digne",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Warren Zaïre-Emery",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jean-Philippe Mateta",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Robin Risser",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Manu Koné",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Lucas Hernández",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Maghnes Akliouche",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Rayan Cherki",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Maxence Lacroix",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Bradley Barcola",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ibrahima Konaté",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Marcus Thuram",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Malo Gusto",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-2-3-1"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Édouard Mendy",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Moussa Niakhaté",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Kalidou Koulibaly",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "El Hadji Malick Diouf",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Krépin Diatta",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Pape Gueye",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Idrissa Gueye",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Lamine Camara",
+              "pos": "AM",
+              "row": 2.5
+            },
+            {
+              "name": "Sadio Mané",
+              "pos": "AM-L",
+              "row": 2.5
+            },
+            {
+              "name": "Ismaïla Sarr",
+              "pos": "AM-R",
+              "row": 2.5
+            },
+            {
+              "name": "Nicolas Jackson",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Cherif Ndiaye",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mamadou Sarr",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Habib Diarra",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ismail Jakobs",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Pathé Ciss",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Antoine Mendy",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Yehvann Diouf",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Bara Sapoko Ndiaye",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Bamba Dieng",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Abdoulaye Seck",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ibrahim Mbaye",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Pape Matar Sarr",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mory Diaw",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Assane Diao",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Iliman Ndiaye",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-2-3-1"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "5",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "1",
+          "wonCorners": "6",
+          "saves": "2",
+          "possessionPct": "53.4",
+          "totalShots": "11",
+          "shotsOnTarget": "8",
+          "shotPct": "0.7",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "505",
+          "totalPasses": "575",
+          "passPct": "0.9",
+          "accurateCrosses": "0",
+          "totalCrosses": "9",
+          "crossPct": "0.0",
+          "totalLongBalls": "44",
+          "accurateLongBalls": "20",
+          "longballPct": "0.5",
+          "blockedShots": "2",
+          "effectiveTackles": "14",
+          "totalTackles": "19",
+          "tacklePct": "0.7",
+          "interceptions": "7",
+          "effectiveClearance": "14",
+          "totalClearance": "14"
+        },
+        "away": {
+          "foulsCommitted": "9",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "3",
+          "wonCorners": "4",
+          "saves": "5",
+          "possessionPct": "46.6",
+          "totalShots": "6",
+          "shotsOnTarget": "2",
+          "shotPct": "0.3",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "430",
+          "totalPasses": "502",
+          "passPct": "0.9",
+          "accurateCrosses": "1",
+          "totalCrosses": "9",
+          "crossPct": "0.1",
+          "totalLongBalls": "49",
+          "accurateLongBalls": "25",
+          "longballPct": "0.5",
+          "blockedShots": "1",
+          "effectiveTackles": "10",
+          "totalTackles": "14",
+          "tacklePct": "0.7",
+          "interceptions": "8",
+          "effectiveClearance": "17",
+          "totalClearance": "17"
+        }
+      }
     },
     {
       "home": "Iraque 🇮🇶",
@@ -479,6 +2203,12 @@
       "live": false,
       "clock": "",
       "events": [
+        {
+          "min": "90'+8'",
+          "icon": "•",
+          "txt": "Fim do segundo tempo, Iraque 1, Noruega 4.",
+          "sub": ""
+        },
         {
           "min": "90'+6'",
           "icon": "⚽ OG",
@@ -558,6 +2288,18 @@
           "sub": "Iraq"
         },
         {
+          "min": "45'",
+          "icon": "•",
+          "txt": "Começo do segundo tempo Iraque 1, Noruega 2.",
+          "sub": ""
+        },
+        {
+          "min": "45'+7'",
+          "icon": "•",
+          "txt": "Fim do primeiro tempo, Iraque 1, Noruega 2.",
+          "sub": ""
+        },
+        {
           "min": "43'",
           "icon": "⚽",
           "txt": "Erling Haaland (Noruega) remate com o pé direito em frente à baliza ao centro da baliza.",
@@ -574,8 +2316,352 @@
           "icon": "⚽",
           "txt": "Erling Haaland (Noruega) remate com o pé esquerdo em frente à baliza ao ângulo superior direito. Assistência de David Møller Wolfe com um cruzamento.",
           "sub": "Norway"
+        },
+        {
+          "min": "",
+          "icon": "•",
+          "txt": "Começa o primeiro tempo.",
+          "sub": ""
         }
-      ]
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Jalal Hassan",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Akam Hashim",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Zaid Tahseen",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Merchas Doski",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Hussein Ali",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Amir Al-Ammari",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Zaid Ismael",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Ali Jasim",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Ibrahim Bayesh",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Ali Al-Hamadi",
+              "pos": "CF-L",
+              "row": 3
+            },
+            {
+              "name": "Aymen Hussein",
+              "pos": "CF-R",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Frans Putros",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mustafa Saadoon",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Munaf Younus",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ahmed Basil",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Rebin Sulaka",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ahmed Qasim",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Youssef Amyn",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ali Yousif",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kevin Yakob",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ahmed Maknazi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Fahad Talib",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Marko Farji",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Aimar Sher",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mohanad Ali",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Zidane Iqbal",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-4-2"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Ørjan Nyland",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Torbjørn Heggem",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Kristoffer Ajer",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "David Møller Wolfe",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Julian Ryerson",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Fredrik Aursnes",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Sander Berge",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Antonio Nusa",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Martin Ødegaard",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Erling Haaland",
+              "pos": "CF-L",
+              "row": 3
+            },
+            {
+              "name": "Alexander Sørloth",
+              "pos": "CF-R",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Morten Thorsby",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Sondre Langas",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Oscar Bobb",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Henrik Falchener",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kristian Thorstvedt",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Leo Østigard",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Andreas Schjelderup",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Patrick Berg",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Thelo Aasgaard",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Egil Selvik",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jørgen Strand Larsen",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Sander Tangvik",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jens Petter Hauge",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Marcus Holmgren Pedersen",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Fredrik André Bjørkan",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-4-2"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "12",
+          "yellowCards": "1",
+          "redCards": "0",
+          "offsides": "1",
+          "wonCorners": "2",
+          "saves": "2",
+          "possessionPct": "38.7",
+          "totalShots": "11",
+          "shotsOnTarget": "1",
+          "shotPct": "0.1",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "271",
+          "totalPasses": "334",
+          "passPct": "0.8",
+          "accurateCrosses": "6",
+          "totalCrosses": "13",
+          "crossPct": "0.5",
+          "totalLongBalls": "54",
+          "accurateLongBalls": "22",
+          "longballPct": "0.4",
+          "blockedShots": "2",
+          "effectiveTackles": "13",
+          "totalTackles": "19",
+          "tacklePct": "0.7",
+          "interceptions": "5",
+          "effectiveClearance": "20",
+          "totalClearance": "20"
+        },
+        "away": {
+          "foulsCommitted": "13",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "5",
+          "saves": "0",
+          "possessionPct": "61.3",
+          "totalShots": "12",
+          "shotsOnTarget": "5",
+          "shotPct": "0.4",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "477",
+          "totalPasses": "537",
+          "passPct": "0.9",
+          "accurateCrosses": "7",
+          "totalCrosses": "17",
+          "crossPct": "0.4",
+          "totalLongBalls": "42",
+          "accurateLongBalls": "18",
+          "longballPct": "0.4",
+          "blockedShots": "3",
+          "effectiveTackles": "10",
+          "totalTackles": "15",
+          "tacklePct": "0.7",
+          "interceptions": "2",
+          "effectiveClearance": "22",
+          "totalClearance": "22"
+        }
+      }
     },
     {
       "home": "Argentina 🇦🇷",
@@ -658,6 +2744,12 @@
         },
         {
           "min": "45'",
+          "icon": "•",
+          "txt": "Início do segundo tempo Argentina 1, Argélia 0.",
+          "sub": ""
+        },
+        {
+          "min": "45'",
           "icon": "🔄",
           "txt": "Substituição, Argentina. Nahuel Molina entra em campo Gonzalo Montiel.",
           "sub": "Argentina"
@@ -667,8 +2759,352 @@
           "icon": "⚽",
           "txt": "Lionel Messi (Argentina) finalização com o pé esquerdo de fora da área no ângulo superior direito. Assistência de Rodrigo De Paul.",
           "sub": "Argentina"
+        },
+        {
+          "min": "",
+          "icon": "•",
+          "txt": "Começa o primeiro tempo.",
+          "sub": ""
         }
-      ]
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Emiliano Martínez",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Lisandro Martínez",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Cristian Romero",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Facundo Medina",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Gonzalo Montiel",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Enzo Fernández",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Alexis Mac Allister",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Thiago Almada",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Rodrigo De Paul",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Lautaro Martínez",
+              "pos": "CF-L",
+              "row": 3
+            },
+            {
+              "name": "Lionel Messi",
+              "pos": "CF-R",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Nicolás Tagliafico",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Giovani Lo Celso",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Juan Musso",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Giuliano Simeone",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Leandro Paredes",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Valentín Barco",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Julián Álvarez",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nico González",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nahuel Molina",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nico Paz",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "José Manuel López",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Marcos Senesi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Gerónimo Rulli",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nicolás Otamendi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Exequiel Palacios",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-4-2"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Luca Zidane",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Ramy Bensebaini",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Aïssa Mandi",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Rayan Aït-Nouri",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Rafik Belghali",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Nabil Bentaleb",
+              "pos": "CM",
+              "row": 2
+            },
+            {
+              "name": "Ibrahim Maza",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Hicham Boudaoui",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Amine Gouiri",
+              "pos": "F",
+              "row": 3
+            },
+            {
+              "name": "Farès Chaïbi",
+              "pos": "LF",
+              "row": 3
+            },
+            {
+              "name": "Anis Hadj Moussa",
+              "pos": "RF",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Riyad Mahrez",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nadhir Benbouali",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jaouen Hadjam",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Zineddine Belaïd",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Melvin Mastil",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Farès Ghedjemis",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mohamed Amine Tougai",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Houssem Aouar",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Yassine Titraoui",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Adil Boulbina",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Samir Chergui",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Achraf Abada",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mohamed Amoura",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Oussama Benbot",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ramiz Zerrouki",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-3-3"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "13",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "3",
+          "wonCorners": "2",
+          "saves": "0",
+          "possessionPct": "47.8",
+          "totalShots": "10",
+          "shotsOnTarget": "6",
+          "shotPct": "0.6",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "504",
+          "totalPasses": "561",
+          "passPct": "0.9",
+          "accurateCrosses": "1",
+          "totalCrosses": "6",
+          "crossPct": "0.2",
+          "totalLongBalls": "32",
+          "accurateLongBalls": "17",
+          "longballPct": "0.5",
+          "blockedShots": "1",
+          "effectiveTackles": "19",
+          "totalTackles": "27",
+          "tacklePct": "0.7",
+          "interceptions": "10",
+          "effectiveClearance": "17",
+          "totalClearance": "17"
+        },
+        "away": {
+          "foulsCommitted": "8",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "1",
+          "wonCorners": "2",
+          "saves": "3",
+          "possessionPct": "52.2",
+          "totalShots": "7",
+          "shotsOnTarget": "1",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "563",
+          "totalPasses": "609",
+          "passPct": "0.9",
+          "accurateCrosses": "1",
+          "totalCrosses": "9",
+          "crossPct": "0.1",
+          "totalLongBalls": "25",
+          "accurateLongBalls": "15",
+          "longballPct": "0.6",
+          "blockedShots": "3",
+          "effectiveTackles": "10",
+          "totalTackles": "17",
+          "tacklePct": "0.6",
+          "interceptions": "8",
+          "effectiveClearance": "12",
+          "totalClearance": "12"
+        }
+      }
     },
     {
       "home": "Áustria 🇦🇹",
@@ -683,6 +3119,12 @@
       "live": false,
       "clock": "",
       "events": [
+        {
+          "min": "90'+14'",
+          "icon": "•",
+          "txt": "Fim do segundo tempo, Áustria 3, Jordânia 1.",
+          "sub": ""
+        },
         {
           "min": "90'+12'",
           "icon": "⚽",
@@ -773,7 +3215,345 @@
           "txt": "Romano Schmid (Áustria) finalização com o pé direito de fora da área no ângulo superior direito. Assistência de Xaver Schlager.",
           "sub": "Austria"
         }
-      ]
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Alexander Schlager",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "David Alaba",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Philipp Lienhart",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Phillipp Mwene",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Stefan Posch",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Xaver Schlager",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Nicolas Seiwald",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Konrad Laimer",
+              "pos": "AM",
+              "row": 2.5
+            },
+            {
+              "name": "Marcel Sabitzer",
+              "pos": "AM-L",
+              "row": 2.5
+            },
+            {
+              "name": "Romano Schmid",
+              "pos": "AM-R",
+              "row": 2.5
+            },
+            {
+              "name": "Sasa Kalajdzic",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Patrick Pentz",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Florian Wiegele",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Alexander Prass",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Carney Chukwuemeka",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Paul Wanner",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Dejan Ljubicic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Florian Grillitsch",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Marco Friedl",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Michael Gregoritsch",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Marko Arnautovic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Michael Svoboda",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "David Affengruber",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Alessandro Schöpf",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Patrick Wimmer",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kevin Danso",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-2-3-1"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Yazeed Abulaila",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Yazan Al-Arab",
+              "pos": "CD",
+              "row": 1
+            },
+            {
+              "name": "Mohammad Abualnadi",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Abdallah Nasib",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Noor Al-Rawabdeh",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Nizar Al-Rashdan",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Mohannad Abu Taha",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Ehsan Haddad",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Mousa Al-Tamari",
+              "pos": "F",
+              "row": 3
+            },
+            {
+              "name": "Ali Olwan",
+              "pos": "CF-L",
+              "row": 3
+            },
+            {
+              "name": "Odeh Fakhoury",
+              "pos": "CF-R",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Saleem Obaid",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mahmoud Al-Mardi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Abdallah Al-Fakhouri",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nour Bani Ateyah",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mohammad Abu Hasheesh",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ibrahim Sadeh",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Saed Al-Rosan",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Amer Jamous",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mohammad Abughoush",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mohammad Al-Daoud",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Husam Abu Dahab",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Rajaei Ayed",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Anas Badawi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mohammed Abu Zraiq",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ali Azaizeh",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "3-4-2-1"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "12",
+          "yellowCards": "1",
+          "redCards": "0",
+          "offsides": "3",
+          "wonCorners": "4",
+          "saves": "3",
+          "possessionPct": "63.2",
+          "totalShots": "11",
+          "shotsOnTarget": "4",
+          "shotPct": "0.4",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "1",
+          "accuratePasses": "487",
+          "totalPasses": "580",
+          "passPct": "0.8",
+          "accurateCrosses": "3",
+          "totalCrosses": "17",
+          "crossPct": "0.2",
+          "totalLongBalls": "47",
+          "accurateLongBalls": "18",
+          "longballPct": "0.4",
+          "blockedShots": "1",
+          "effectiveTackles": "7",
+          "totalTackles": "17",
+          "tacklePct": "0.4",
+          "interceptions": "15",
+          "effectiveClearance": "24",
+          "totalClearance": "24"
+        },
+        "away": {
+          "foulsCommitted": "7",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "1",
+          "wonCorners": "3",
+          "saves": "1",
+          "possessionPct": "36.8",
+          "totalShots": "11",
+          "shotsOnTarget": "4",
+          "shotPct": "0.4",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "241",
+          "totalPasses": "332",
+          "passPct": "0.7",
+          "accurateCrosses": "3",
+          "totalCrosses": "15",
+          "crossPct": "0.2",
+          "totalLongBalls": "52",
+          "accurateLongBalls": "23",
+          "longballPct": "0.4",
+          "blockedShots": "2",
+          "effectiveTackles": "6",
+          "totalTackles": "15",
+          "tacklePct": "0.4",
+          "interceptions": "12",
+          "effectiveClearance": "39",
+          "totalClearance": "39"
+        }
+      }
     },
     {
       "home": "Portugal 🇵🇹",
@@ -788,6 +3568,12 @@
       "live": false,
       "clock": "",
       "events": [
+        {
+          "min": "90'+5'",
+          "icon": "•",
+          "txt": "Fim do segundo tempo, Portugal 1, Congo RD 1.",
+          "sub": ""
+        },
         {
           "min": "90'+2'",
           "icon": "🟨",
@@ -850,9 +3636,21 @@
         },
         {
           "min": "45'",
+          "icon": "•",
+          "txt": "Começo do segundo tempo Portugal 1, Congo RD 1.",
+          "sub": ""
+        },
+        {
+          "min": "45'",
           "icon": "🔄",
           "txt": "Substituição, Portugal. Francisco Conceição substitui Bernardo Silva.",
           "sub": "Portugal"
+        },
+        {
+          "min": "45'+6'",
+          "icon": "•",
+          "txt": "Fim do primeiro tempo, Portugal 1, Congo RD 1.",
+          "sub": ""
         },
         {
           "min": "45'+5'",
@@ -878,7 +3676,345 @@
           "txt": "João Neves (Portugal) de cabeça do meio da área no canto inferior direito. Assistência de Pedro Neto com um cruzamento.",
           "sub": "Portugal"
         }
-      ]
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Diogo Costa",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Renato Veiga",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Tomás Araújo",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Nuno Mendes",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "João Cancelo",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Vitinha ",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "João Neves",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Bruno Fernandes",
+              "pos": "AM",
+              "row": 2.5
+            },
+            {
+              "name": "Pedro Neto",
+              "pos": "AM-L",
+              "row": 2.5
+            },
+            {
+              "name": "Bernardo Silva",
+              "pos": "AM-R",
+              "row": 2.5
+            },
+            {
+              "name": "Cristiano Ronaldo",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Gonçalo Inácio",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Samú Costa",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Rúben Dias",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "João Félix",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "José Sá",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Matheus Nunes",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Francisco Trincão",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Rúben Neves",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Francisco Conceição",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nélson Semedo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Gonçalo Ramos",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Rui Silva",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Rafael Leão",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Diogo Dalot",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Gonçalo Guedes",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-2-3-1"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Lionel Mpasi",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Axel Tuanzebe",
+              "pos": "CD",
+              "row": 1
+            },
+            {
+              "name": "Steve Kapuadi",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Chancel Mbemba",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Arthur Masuaku",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Aaron Wan-Bissaka",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Samuel Moutoussamy",
+              "pos": "CM",
+              "row": 2
+            },
+            {
+              "name": "Edo Kayembe",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Ngal'ayel Mukau",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Cédric Bakambu",
+              "pos": "CF-L",
+              "row": 3
+            },
+            {
+              "name": "Yoane Wissa",
+              "pos": "CF-R",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Joris Kayembe",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Théo Bongonda",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Brian Cipenga",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Gédéon Kalulu",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Timothy Fayulu",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Simon Banza",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Noah Sadiki",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Matthieu Epolo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Aaron Tshibola",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nathanaël Mbuku",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Dylan Batubinsika",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Fiston Mayele",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Gaël Kakuta",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Charles Pickel",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Meschack Elia",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "5-3-2"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "9",
+          "yellowCards": "3",
+          "redCards": "0",
+          "offsides": "3",
+          "wonCorners": "5",
+          "saves": "1",
+          "possessionPct": "75.4",
+          "totalShots": "7",
+          "shotsOnTarget": "1",
+          "shotPct": "0.1",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "724",
+          "totalPasses": "783",
+          "passPct": "0.9",
+          "accurateCrosses": "6",
+          "totalCrosses": "23",
+          "crossPct": "0.3",
+          "totalLongBalls": "64",
+          "accurateLongBalls": "41",
+          "longballPct": "0.6",
+          "blockedShots": "2",
+          "effectiveTackles": "6",
+          "totalTackles": "12",
+          "tacklePct": "0.5",
+          "interceptions": "3",
+          "effectiveClearance": "10",
+          "totalClearance": "10"
+        },
+        "away": {
+          "foulsCommitted": "10",
+          "yellowCards": "1",
+          "redCards": "0",
+          "offsides": "2",
+          "wonCorners": "4",
+          "saves": "0",
+          "possessionPct": "24.6",
+          "totalShots": "8",
+          "shotsOnTarget": "2",
+          "shotPct": "0.3",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "195",
+          "totalPasses": "249",
+          "passPct": "0.8",
+          "accurateCrosses": "1",
+          "totalCrosses": "10",
+          "crossPct": "0.1",
+          "totalLongBalls": "40",
+          "accurateLongBalls": "11",
+          "longballPct": "0.3",
+          "blockedShots": "3",
+          "effectiveTackles": "9",
+          "totalTackles": "17",
+          "tacklePct": "0.5",
+          "interceptions": "5",
+          "effectiveClearance": "27",
+          "totalClearance": "27"
+        }
+      }
     },
     {
       "home": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
@@ -893,6 +4029,12 @@
       "live": false,
       "clock": "",
       "events": [
+        {
+          "min": "90'+7'",
+          "icon": "•",
+          "txt": "Fim do segundo tempo, Inglaterra 4, Croácia 2.",
+          "sub": ""
+        },
         {
           "min": "87'",
           "icon": "🔄",
@@ -966,6 +4108,12 @@
           "sub": "England"
         },
         {
+          "min": "45'",
+          "icon": "•",
+          "txt": "Começo do segundo tempo Inglaterra 2, Croácia 2.",
+          "sub": ""
+        },
+        {
           "min": "45'+5'",
           "icon": "⚽",
           "txt": "Petar Musa (Croácia) remate com o pé direito no coração da área ao centro da baliza. Assistência de Ivan Perisic com um passe de cabeça.",
@@ -988,8 +4136,347 @@
           "icon": "⚽",
           "txt": "Harry Kane (Inglaterra) converte o pênalti com um finalização com o pé direito no canto inferior direito.",
           "sub": "England"
+        },
+        {
+          "min": "",
+          "icon": "•",
+          "txt": "Começa o primeiro tempo.",
+          "sub": ""
         }
-      ]
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Jordan Pickford",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "John Stones",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Ezri Konsa",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Nico O'Reilly",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Reece James",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Declan Rice",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Elliot Anderson",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Jude Bellingham",
+              "pos": "AM",
+              "row": 2.5
+            },
+            {
+              "name": "Anthony Gordon",
+              "pos": "AM-L",
+              "row": 2.5
+            },
+            {
+              "name": "Noni Madueke",
+              "pos": "AM-R",
+              "row": 2.5
+            },
+            {
+              "name": "Harry Kane",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Morgan Rogers",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jordan Henderson",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Eberechi Eze",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ivan Toney",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ollie Watkins",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kobbie Mainoo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jarell Quansah",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Djed Spence",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Dan Burn",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "James Trafford",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Marc Guéhi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Dean Henderson",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Marcus Rashford",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Bukayo Saka",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-2-3-1"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Dominik Livakovic",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Luka Vuskovic",
+              "pos": "CD",
+              "row": 1
+            },
+            {
+              "name": "Josko Gvardiol",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Josip Sutalo",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Mario Pasalic",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Luka Modric",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Ivan Perisic",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Josip Stanisic",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Petar Musa",
+              "pos": "F",
+              "row": 3
+            },
+            {
+              "name": "Martin Baturina",
+              "pos": "CF-L",
+              "row": 3
+            },
+            {
+              "name": "Petar Sucic",
+              "pos": "CF-R",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Nikola Vlasic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Duje Caleta-Car",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Luka Sucic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ante Budimir",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mateo Kovacic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Toni Fruk",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Igor Matanovic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Andrej Kramaric",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Dominik Kotarski",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nikola Moro",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Martin Erlic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Marin Pongracic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kristijan Jakic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Marco Pasalic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ivor Pandur",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "3-4-2-1"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "10",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "8",
+          "saves": "3",
+          "possessionPct": "51.7",
+          "totalShots": "22",
+          "shotsOnTarget": "11",
+          "shotPct": "0.5",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "1",
+          "accuratePasses": "406",
+          "totalPasses": "474",
+          "passPct": "0.9",
+          "accurateCrosses": "6",
+          "totalCrosses": "13",
+          "crossPct": "0.5",
+          "totalLongBalls": "41",
+          "accurateLongBalls": "15",
+          "longballPct": "0.4",
+          "blockedShots": "5",
+          "effectiveTackles": "7",
+          "totalTackles": "9",
+          "tacklePct": "0.8",
+          "interceptions": "7",
+          "effectiveClearance": "16",
+          "totalClearance": "16"
+        },
+        "away": {
+          "foulsCommitted": "12",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "1",
+          "wonCorners": "2",
+          "saves": "7",
+          "possessionPct": "48.3",
+          "totalShots": "10",
+          "shotsOnTarget": "5",
+          "shotPct": "0.5",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "381",
+          "totalPasses": "443",
+          "passPct": "0.9",
+          "accurateCrosses": "2",
+          "totalCrosses": "13",
+          "crossPct": "0.2",
+          "totalLongBalls": "42",
+          "accurateLongBalls": "18",
+          "longballPct": "0.4",
+          "blockedShots": "2",
+          "effectiveTackles": "8",
+          "totalTackles": "11",
+          "tacklePct": "0.7",
+          "interceptions": "9",
+          "effectiveClearance": "17",
+          "totalClearance": "17"
+        }
+      }
     },
     {
       "home": "Gana 🇬🇭",
@@ -1081,8 +4568,347 @@
           "icon": "🟨",
           "txt": "Caleb Yirenkyi (Gana) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "Ghana"
+        },
+        {
+          "min": "",
+          "icon": "•",
+          "txt": "Começa o primeiro tempo.",
+          "sub": ""
         }
-      ]
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Lawrence Ati Zigi",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Jerome Opoku",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Jonas Adjetey",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Gideon Mensah",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Marvin Senaya",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Elisha Owusu",
+              "pos": "CM",
+              "row": 2
+            },
+            {
+              "name": "Kamaldeen Sulemana",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Caleb Yirenkyi",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Jordan Ayew",
+              "pos": "F",
+              "row": 3
+            },
+            {
+              "name": "Antoine Semenyo",
+              "pos": "LF",
+              "row": 3
+            },
+            {
+              "name": "Ernest Nuamah",
+              "pos": "RF",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Alidu Seidu",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Joseph Anang",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kojo Peprah Oppong",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Baba Rahman",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Prince Adu",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Benjamin Asare",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Christopher Bonsu Baah",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Brandon Thomas-Asante",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Iñaki Williams",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Fatawu Issahaku",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kwasi Sibo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Abdul Mumin",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Derrick Luckassen",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Augustine Boakye",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-3-3"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Orlando Mosquera",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "José Córdoba",
+              "pos": "CD",
+              "row": 1
+            },
+            {
+              "name": "Andrés Andrade",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Jiovany Ramos",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Édgar Yoel Bárcenas",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Carlos Harvey",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "César Blackman",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Amir Murillo",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Cecilio Waterman",
+              "pos": "F",
+              "row": 3
+            },
+            {
+              "name": "José Luis Rodríguez",
+              "pos": "CF-L",
+              "row": 3
+            },
+            {
+              "name": "Cristian Martínez",
+              "pos": "CF-R",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Éric Davis",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Azarias Londoño",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ismael Díaz",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Roderick Miller",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Alberto Quintero",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "José Fajardo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Adalberto Carrasquilla",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "César Yanis",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jorge Gutiérrez",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Aníbal Godoy",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "César Samudio",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Fidel Escobar",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Edgardo Fariña",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Tomás Rodríguez",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Luis Mejía",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "3-4-3"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "9",
+          "yellowCards": "1",
+          "redCards": "0",
+          "offsides": "4",
+          "wonCorners": "2",
+          "saves": "4",
+          "possessionPct": "38",
+          "totalShots": "7",
+          "shotsOnTarget": "2",
+          "shotPct": "0.3",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "292",
+          "totalPasses": "352",
+          "passPct": "0.8",
+          "accurateCrosses": "4",
+          "totalCrosses": "16",
+          "crossPct": "0.3",
+          "totalLongBalls": "52",
+          "accurateLongBalls": "30",
+          "longballPct": "0.6",
+          "blockedShots": "1",
+          "effectiveTackles": "9",
+          "totalTackles": "16",
+          "tacklePct": "0.6",
+          "interceptions": "8",
+          "effectiveClearance": "28",
+          "totalClearance": "28"
+        },
+        "away": {
+          "foulsCommitted": "11",
+          "yellowCards": "2",
+          "redCards": "0",
+          "offsides": "1",
+          "wonCorners": "2",
+          "saves": "2",
+          "possessionPct": "62",
+          "totalShots": "11",
+          "shotsOnTarget": "4",
+          "shotPct": "0.4",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "503",
+          "totalPasses": "583",
+          "passPct": "0.9",
+          "accurateCrosses": "4",
+          "totalCrosses": "21",
+          "crossPct": "0.2",
+          "totalLongBalls": "70",
+          "accurateLongBalls": "34",
+          "longballPct": "0.5",
+          "blockedShots": "2",
+          "effectiveTackles": "11",
+          "totalTackles": "29",
+          "tacklePct": "0.4",
+          "interceptions": "5",
+          "effectiveClearance": "17",
+          "totalClearance": "17"
+        }
+      }
     },
     {
       "home": "Uzbequistão 🇺🇿",
@@ -1192,8 +5018,352 @@
           "icon": "🟨",
           "txt": "Johan Mojica (Colômbia) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "Colombia"
+        },
+        {
+          "min": "",
+          "icon": "•",
+          "txt": "Começa o primeiro tempo.",
+          "sub": ""
         }
-      ]
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Utkir Yusupov",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Abdulla Abdullaev",
+              "pos": "CD",
+              "row": 1
+            },
+            {
+              "name": "Rustam Ashurmatov",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Abdukodir Khusanov",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Otabek Shukurov",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Akmal Mozgovoy",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Sherzod Nasrullaev",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Behruzjon Karimov",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Eldor Shomurodov",
+              "pos": "F",
+              "row": 3
+            },
+            {
+              "name": "Oston Urunov",
+              "pos": "CF-L",
+              "row": 3
+            },
+            {
+              "name": "Abbosbek Fayzullaev",
+              "pos": "CF-R",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Avazbek Ulmasaliyev",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Botirali Ergashev",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Farrukh Sayfiev",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Azizbek Amonov",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jakhongir Urozov",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Khojiakbar Alijonov",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Umar Eshmurodov",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Azizjon Ganiev",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Dostonbek Khamdamov",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Odiljon Xamrobekov",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Igor Sergeev",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jamshid Iskanderov",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Sherzod Esanov",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ruslanbek Jiyanov",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Abduvohid Nematov",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "3-4-2-1"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Camilo Vargas",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Jhon Lucumí",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Davinson Sánchez",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Johan Mojica",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Daniel Muñoz",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Jefferson Lerma",
+              "pos": "CM",
+              "row": 2
+            },
+            {
+              "name": "Jhon Arias",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Gustavo Puerta",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Luis Suárez",
+              "pos": "F",
+              "row": 3
+            },
+            {
+              "name": "Luis Díaz",
+              "pos": "LF",
+              "row": 3
+            },
+            {
+              "name": "James Rodríguez",
+              "pos": "RF",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "David Ospina",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Yerry Mina",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Juan Fernando Quintero",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jhon Córdoba",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Willer Ditta",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Álvaro Montero",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Santiago Arias",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jáminton Campaz",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Deiver Machado",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kevin Castaño",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Juan Portilla",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jorge Carrascal",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Andrés Gómez",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Richard Ríos",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Cucho Hernández",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-3-3"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "14",
+          "yellowCards": "1",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "3",
+          "saves": "1",
+          "possessionPct": "38.6",
+          "totalShots": "8",
+          "shotsOnTarget": "2",
+          "shotPct": "0.3",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "243",
+          "totalPasses": "319",
+          "passPct": "0.8",
+          "accurateCrosses": "3",
+          "totalCrosses": "13",
+          "crossPct": "0.2",
+          "totalLongBalls": "53",
+          "accurateLongBalls": "17",
+          "longballPct": "0.3",
+          "blockedShots": "2",
+          "effectiveTackles": "7",
+          "totalTackles": "10",
+          "tacklePct": "0.7",
+          "interceptions": "7",
+          "effectiveClearance": "24",
+          "totalClearance": "24"
+        },
+        "away": {
+          "foulsCommitted": "11",
+          "yellowCards": "1",
+          "redCards": "0",
+          "offsides": "3",
+          "wonCorners": "4",
+          "saves": "1",
+          "possessionPct": "61.4",
+          "totalShots": "15",
+          "shotsOnTarget": "4",
+          "shotPct": "0.3",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "444",
+          "totalPasses": "519",
+          "passPct": "0.9",
+          "accurateCrosses": "6",
+          "totalCrosses": "16",
+          "crossPct": "0.4",
+          "totalLongBalls": "48",
+          "accurateLongBalls": "17",
+          "longballPct": "0.4",
+          "blockedShots": "4",
+          "effectiveTackles": "3",
+          "totalTackles": "10",
+          "tacklePct": "0.3",
+          "interceptions": "6",
+          "effectiveClearance": "20",
+          "totalClearance": "20"
+        }
+      }
     },
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -1208,6 +5378,12 @@
       "live": false,
       "clock": "",
       "events": [
+        {
+          "min": "90'+8'",
+          "icon": "•",
+          "txt": "Fim do segundo tempo, Chéquia 1, África do Sul 1.",
+          "sub": ""
+        },
         {
           "min": "84'",
           "icon": "🔄",
@@ -1264,9 +5440,21 @@
         },
         {
           "min": "45'",
+          "icon": "•",
+          "txt": "Início do segundo tempo Tchéquia 1, África do Sul 0.",
+          "sub": ""
+        },
+        {
+          "min": "45'",
           "icon": "🔄",
           "txt": "Substituição, África do Sul. Relebohile Mofokeng entra em campo e entra Jayden Adams.",
           "sub": "South Africa"
+        },
+        {
+          "min": "45'+5'",
+          "icon": "•",
+          "txt": "Fim do primeiro tempo, Chéquia 1, África do Sul 0.",
+          "sub": ""
         },
         {
           "min": "40'",
@@ -1285,8 +5473,337 @@
           "icon": "⚽",
           "txt": "Michal Sadílek (Tcheca) remate com o pé esquerdo no coração da área ao centro da baliza. Assistência de Alexandr Sojka.",
           "sub": "Czechia"
+        },
+        {
+          "min": "",
+          "icon": "•",
+          "txt": "Começa o primeiro tempo.",
+          "sub": ""
         }
-      ]
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Matej Kovár",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Robin Hranác",
+              "pos": "CD",
+              "row": 1
+            },
+            {
+              "name": "Ladislav Krejcí",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Tomás Holes",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Michal Sadílek",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Vladimír Darida",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Alexandr Sojka",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Vladimír Coufal",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Lukás Cerv",
+              "pos": "AM",
+              "row": 2.5
+            },
+            {
+              "name": "Adam Hlozek",
+              "pos": "CF-L",
+              "row": 3
+            },
+            {
+              "name": "Patrik Schick",
+              "pos": "CF-R",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Jaroslav Zelený",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mojmír Chytil",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Stepán Chaloupek",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Denis Visinský",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jan Kuchta",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Lukás Provod",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Tomás Chorý",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Tomás Soucek",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "David Doudera",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Lukás Hornícek",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jindrich Stanek",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Hugo Sochurek",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "David Zima",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Pavel Sulc",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "3-5-2"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Ronwen Williams",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Mbekezeli Mbokazi",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Ime Okon",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Aubrey Modiba",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Khuliso Mudau",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Teboho Mokoena",
+              "pos": "CM",
+              "row": 2
+            },
+            {
+              "name": "Jayden Adams",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Thalente Mbatha",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Iqraam Rayners",
+              "pos": "F",
+              "row": 3
+            },
+            {
+              "name": "Oswin Appollis",
+              "pos": "LF",
+              "row": 3
+            },
+            {
+              "name": "Thapelo Maseko",
+              "pos": "RF",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Sipho Chaine",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nkosinathi Sibisi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Samukele Kabini",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ricardo Goss",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Thabang Matuludi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Tshepang Moremi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Olwethu Makhanya",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kamogelo Sebelebele",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Evidence Makgopa",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Khulumani Ndamane",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Lyle Foster",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Relebohile Mofokeng",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Bradley Cross",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-3-3"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "12",
+          "yellowCards": "1",
+          "redCards": "0",
+          "offsides": "2",
+          "wonCorners": "5",
+          "saves": "3",
+          "possessionPct": "38.3",
+          "totalShots": "14",
+          "shotsOnTarget": "3",
+          "shotPct": "0.2",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "272",
+          "totalPasses": "341",
+          "passPct": "0.8",
+          "accurateCrosses": "7",
+          "totalCrosses": "16",
+          "crossPct": "0.4",
+          "totalLongBalls": "45",
+          "accurateLongBalls": "22",
+          "longballPct": "0.5",
+          "blockedShots": "3",
+          "effectiveTackles": "4",
+          "totalTackles": "12",
+          "tacklePct": "0.3",
+          "interceptions": "9",
+          "effectiveClearance": "22",
+          "totalClearance": "22"
+        },
+        "away": {
+          "foulsCommitted": "10",
+          "yellowCards": "2",
+          "redCards": "0",
+          "offsides": "3",
+          "wonCorners": "5",
+          "saves": "2",
+          "possessionPct": "61.7",
+          "totalShots": "17",
+          "shotsOnTarget": "4",
+          "shotPct": "0.2",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "1",
+          "accuratePasses": "508",
+          "totalPasses": "563",
+          "passPct": "0.9",
+          "accurateCrosses": "4",
+          "totalCrosses": "17",
+          "crossPct": "0.2",
+          "totalLongBalls": "58",
+          "accurateLongBalls": "30",
+          "longballPct": "0.5",
+          "blockedShots": "8",
+          "effectiveTackles": "11",
+          "totalTackles": "20",
+          "tacklePct": "0.6",
+          "interceptions": "9",
+          "effectiveClearance": "24",
+          "totalClearance": "24"
+        }
+      }
     },
     {
       "home": "Suíça 🇨🇭",
@@ -1301,6 +5818,12 @@
       "live": false,
       "clock": "",
       "events": [
+        {
+          "min": "90'+8'",
+          "icon": "•",
+          "txt": "Fim do segundo tempo, Suíça 4, Bósnia e Herzegovina 1.",
+          "sub": ""
+        },
         {
           "min": "90'+7'",
           "icon": "⚽",
@@ -1414,8 +5937,347 @@
           "icon": "🟨",
           "txt": "Amar Dedic (Bósnia e Herzegovina) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "Bosnia-Herzegovina"
+        },
+        {
+          "min": "45'+3'",
+          "icon": "•",
+          "txt": "Fim do primeiro tempo, Suíça 0, Bósnia e Herzegovina 0.",
+          "sub": ""
         }
-      ]
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Gregor Kobel",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Manuel Akanji",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Nico Elvedi",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Ricardo Rodríguez",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Silvan Widmer",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Dan Ndoye",
+              "pos": "M",
+              "row": 2
+            },
+            {
+              "name": "Granit Xhaka",
+              "pos": "CM",
+              "row": 2
+            },
+            {
+              "name": "Remo Freuler",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Michel Aebischer",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Fabian Rieder",
+              "pos": "AM",
+              "row": 2.5
+            },
+            {
+              "name": "Breel Embolo",
+              "pos": "CF-R",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Yvon Mvogo",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Christian Fassnacht",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Djibril Sow",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Luca Jaquez",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Aurèle Amenda",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Eray Cömert",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Marvin Keller",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Noah Okafor",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Denis Zakaria",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Zeki Amdouni",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Cedric Itten",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Rubén Vargas",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Johan Manzambi",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Ardon Jashari",
+              "pos": "",
+              "row": 3
+            }
+          ],
+          "formation": "4-3-1-2"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Nikola Vasilj",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Tarik Muharemovic",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Nikola Katic",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Sead Kolasinac",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Amar Dedic",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Ivan Sunjic",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Benjamin Tahirovic",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Kerim Alajbegovic",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Amar Memic",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Edin Dzeko",
+              "pos": "CF-L",
+              "row": 3
+            },
+            {
+              "name": "Ermedin Demirovic",
+              "pos": "CF-R",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Ermin Mahmic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Martin Zlomislic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nihad Mujakic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Dzenis Burnic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Dennis Hadzikadunic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Arjan Malic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ivan Basic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Amir Hadziahmetovic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Samed Bazdar",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jovo Lukic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Stjepan Radeljic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Haris Tabakovic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mladen Jurkas",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Esmir Bajraktarevic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Armin Gigovic",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-4-2"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "7",
+          "yellowCards": "1",
+          "redCards": "0",
+          "offsides": "3",
+          "wonCorners": "7",
+          "saves": "2",
+          "possessionPct": "62.3",
+          "totalShots": "13",
+          "shotsOnTarget": "7",
+          "shotPct": "0.5",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "1",
+          "accuratePasses": "516",
+          "totalPasses": "586",
+          "passPct": "0.9",
+          "accurateCrosses": "1",
+          "totalCrosses": "23",
+          "crossPct": "0.0",
+          "totalLongBalls": "50",
+          "accurateLongBalls": "25",
+          "longballPct": "0.5",
+          "blockedShots": "3",
+          "effectiveTackles": "13",
+          "totalTackles": "19",
+          "tacklePct": "0.7",
+          "interceptions": "5",
+          "effectiveClearance": "17",
+          "totalClearance": "17"
+        },
+        "away": {
+          "foulsCommitted": "18",
+          "yellowCards": "2",
+          "redCards": "1",
+          "offsides": "1",
+          "wonCorners": "3",
+          "saves": "3",
+          "possessionPct": "37.7",
+          "totalShots": "5",
+          "shotsOnTarget": "3",
+          "shotPct": "0.6",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "287",
+          "totalPasses": "354",
+          "passPct": "0.8",
+          "accurateCrosses": "1",
+          "totalCrosses": "12",
+          "crossPct": "0.0",
+          "totalLongBalls": "48",
+          "accurateLongBalls": "13",
+          "longballPct": "0.3",
+          "blockedShots": "1",
+          "effectiveTackles": "3",
+          "totalTackles": "13",
+          "tacklePct": "0.2",
+          "interceptions": "11",
+          "effectiveClearance": "36",
+          "totalClearance": "36"
+        }
+      }
     },
     {
       "home": "Canadá 🇨🇦",
@@ -1498,6 +6360,12 @@
         },
         {
           "min": "45'",
+          "icon": "•",
+          "txt": "Começo do segundo tempo Canadá 3, Catar 0.",
+          "sub": ""
+        },
+        {
+          "min": "45'",
           "icon": "🔄",
           "txt": "Substituição, Canadá. Moïse Bombito substitui Derek Cornelius.",
           "sub": "Canada"
@@ -1549,8 +6417,347 @@
           "icon": "🟨",
           "txt": "Derek Cornelius (Canadá) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "Canada"
+        },
+        {
+          "min": "",
+          "icon": "•",
+          "txt": "Começa o primeiro tempo.",
+          "sub": ""
         }
-      ]
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Maxime Crépeau",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Derek Cornelius",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Luc de Fougerolles",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Richie Laryea",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Alistair Johnston",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Stephen Eustáquio",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Ismaël Koné",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Ali Ahmed",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Tajon Buchanan",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Cyle Larin",
+              "pos": "CF-L",
+              "row": 3
+            },
+            {
+              "name": "Jonathan David",
+              "pos": "CF-R",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Jonathan Osorio",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Tani Oluwaseyi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jayden Nelson",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Dayne St. Clair",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Promise David",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mathieu Choinière",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Joel Waterman",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Niko Sigur",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Moïse Bombito",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Liam Millar",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Alphonso Davies",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Owen Goodman",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jacob Shaffelburg",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nathan Saliba",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-4-2"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Mahmoud Abunada",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Boualem Khoukhi",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Pedro Miguel",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Homam Ahmed",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Ayoub Al-Oui",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Assim Madibo",
+              "pos": "CM",
+              "row": 2
+            },
+            {
+              "name": "Issa Laye",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Jassem Gaber",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Yusuf Abdurisag",
+              "pos": "F",
+              "row": 3
+            },
+            {
+              "name": "Akram Afif",
+              "pos": "LF",
+              "row": 3
+            },
+            {
+              "name": "Edmílson Junior",
+              "pos": "RF",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Hassan Al-Haydos",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Tahsin Jamshid",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mohamed Manai",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Almoez Ali",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mohammed Muntari",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Lucas Mendes",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Meshaal Barsham",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Sultan Al-Brake",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Al-Hashmi Al-Hussain",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ahmed Fathy",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ahmed Al-Ganehi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Salah Zakaria",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ahmed Alaaeldin",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Karim Boudiaf",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Abdulaziz Hatem",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-3-3"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "9",
+          "yellowCards": "1",
+          "redCards": "0",
+          "offsides": "1",
+          "wonCorners": "19",
+          "saves": "0",
+          "possessionPct": "79",
+          "totalShots": "32",
+          "shotsOnTarget": "10",
+          "shotPct": "0.3",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "515",
+          "totalPasses": "567",
+          "passPct": "0.9",
+          "accurateCrosses": "13",
+          "totalCrosses": "55",
+          "crossPct": "0.2",
+          "totalLongBalls": "16",
+          "accurateLongBalls": "10",
+          "longballPct": "0.6",
+          "blockedShots": "14",
+          "effectiveTackles": "5",
+          "totalTackles": "9",
+          "tacklePct": "0.6",
+          "interceptions": "6",
+          "effectiveClearance": "3",
+          "totalClearance": "3"
+        },
+        "away": {
+          "foulsCommitted": "10",
+          "yellowCards": "1",
+          "redCards": "2",
+          "offsides": "1",
+          "wonCorners": "1",
+          "saves": "4",
+          "possessionPct": "21",
+          "totalShots": "2",
+          "shotsOnTarget": "0",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "104",
+          "totalPasses": "162",
+          "passPct": "0.6",
+          "accurateCrosses": "1",
+          "totalCrosses": "3",
+          "crossPct": "0.3",
+          "totalLongBalls": "54",
+          "accurateLongBalls": "17",
+          "longballPct": "0.3",
+          "blockedShots": "1",
+          "effectiveTackles": "10",
+          "totalTackles": "16",
+          "tacklePct": "0.6",
+          "interceptions": "10",
+          "effectiveClearance": "61",
+          "totalClearance": "61"
+        }
+      }
     },
     {
       "home": "México 🇲🇽",
@@ -1565,6 +6772,12 @@
       "live": false,
       "clock": "",
       "events": [
+        {
+          "min": "90'+7'",
+          "icon": "•",
+          "txt": "Fim do segundo tempo, México 1, Coreia do Sul 0.",
+          "sub": ""
+        },
         {
           "min": "84'",
           "icon": "🔄",
@@ -1638,12 +6851,357 @@
           "sub": "Mexico"
         },
         {
+          "min": "45'+5'",
+          "icon": "•",
+          "txt": "Fim do primeiro tempo, México 0, Coreia do Sul 0.",
+          "sub": ""
+        },
+        {
           "min": "4'",
           "icon": "🟨",
           "txt": "Lee Kang-In (Coreia do Sul) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "South Korea"
+        },
+        {
+          "min": "",
+          "icon": "•",
+          "txt": "Começa o primeiro tempo.",
+          "sub": ""
         }
-      ]
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Raúl Rangel",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Johan Vásquez",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Edson Álvarez",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Jesús Gallardo",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Jorge Sánchez",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Érik Lira",
+              "pos": "CM",
+              "row": 2
+            },
+            {
+              "name": "Luis Romo",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Brian Gutiérrez",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Raúl Jiménez",
+              "pos": "F",
+              "row": 3
+            },
+            {
+              "name": "Julián Quiñones",
+              "pos": "LF",
+              "row": 3
+            },
+            {
+              "name": "Roberto Alvarado",
+              "pos": "RF",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Mateo Chávez",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Obed Vargas",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Álvaro Fidalgo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Gilberto Mora",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Santiago Gimenez",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Carlos Acevedo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Israel Reyes",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "César Huerta",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Orbelín Pineda",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Guillermo Martínez",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Luis Chávez",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Armando González",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Guillermo Ochoa",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Alexis Vega",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-3-3"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Kim Seung-Gyu",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Kim Min-Jae",
+              "pos": "CD",
+              "row": 1
+            },
+            {
+              "name": "Lee Gi-Hyuk",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Lee Han-Beom",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Paik Seung-Ho",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Hwang In-Beom",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Seol Young-Woo",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Kim Moon-Hwan",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Son Heung-Min",
+              "pos": "F",
+              "row": 3
+            },
+            {
+              "name": "Lee Jae-Sung",
+              "pos": "CF-L",
+              "row": 3
+            },
+            {
+              "name": "Lee Kang-In",
+              "pos": "CF-R",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Jo Hyeon-Woo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Cho Wi-Je",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jens Castrop",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Oh Hyeon-Gyu",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Lee Tae-Seok",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kim Tae-Hyeon",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Eom Ji-Sung",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Hwang Hee-Chan",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Cho Gue-Sung",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Bae Jun-Ho",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Lee Dong-Gyeong",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Song Bum-Keun",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Yang Hyun-Jun",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Park Jin-Seop",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kim Jin-Gyu",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "3-4-2-1"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "9",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "3",
+          "wonCorners": "1",
+          "saves": "2",
+          "possessionPct": "42.4",
+          "totalShots": "8",
+          "shotsOnTarget": "4",
+          "shotPct": "0.5",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "349",
+          "totalPasses": "427",
+          "passPct": "0.8",
+          "accurateCrosses": "4",
+          "totalCrosses": "6",
+          "crossPct": "0.7",
+          "totalLongBalls": "56",
+          "accurateLongBalls": "16",
+          "longballPct": "0.3",
+          "blockedShots": "1",
+          "effectiveTackles": "7",
+          "totalTackles": "14",
+          "tacklePct": "0.5",
+          "interceptions": "6",
+          "effectiveClearance": "20",
+          "totalClearance": "20"
+        },
+        "away": {
+          "foulsCommitted": "7",
+          "yellowCards": "2",
+          "redCards": "0",
+          "offsides": "6",
+          "wonCorners": "2",
+          "saves": "3",
+          "possessionPct": "57.6",
+          "totalShots": "9",
+          "shotsOnTarget": "2",
+          "shotPct": "0.2",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "488",
+          "totalPasses": "578",
+          "passPct": "0.8",
+          "accurateCrosses": "5",
+          "totalCrosses": "9",
+          "crossPct": "0.6",
+          "totalLongBalls": "64",
+          "accurateLongBalls": "23",
+          "longballPct": "0.4",
+          "blockedShots": "3",
+          "effectiveTackles": "10",
+          "totalTackles": "17",
+          "tacklePct": "0.6",
+          "interceptions": "5",
+          "effectiveClearance": "12",
+          "totalClearance": "12"
+        }
+      }
     },
     {
       "home": "EUA 🇺🇸",
@@ -1732,6 +7290,12 @@
         },
         {
           "min": "45'",
+          "icon": "•",
+          "txt": "Início do segundo tempo EUA 2, Austrália 0.",
+          "sub": ""
+        },
+        {
+          "min": "45'",
           "icon": "🔄",
           "txt": "Substituição, Austrália. Nestory Irankunda substitui Mohamed Touré.",
           "sub": "Australia"
@@ -1747,6 +7311,12 @@
           "icon": "🔄",
           "txt": "Substituição, Austrália. Jason Geria substitui Cameron Burgess.",
           "sub": "Australia"
+        },
+        {
+          "min": "45'+8'",
+          "icon": "•",
+          "txt": "Fim do primeiro tempo, EUA 2, Austrália 0.",
+          "sub": ""
         },
         {
           "min": "43'",
@@ -1771,6 +7341,12 @@
           "icon": "⚽ OG",
           "txt": "Gol contra de Cameron Burgess, Austrália. EUA 1, Austrália 0.",
           "sub": "United States"
+        },
+        {
+          "min": "",
+          "icon": "•",
+          "txt": "Começa o primeiro tempo.",
+          "sub": ""
         }
       ],
       "lineups": {
@@ -2191,6 +7767,12 @@
           "icon": "⚽",
           "txt": "Ismael Saibari (Marrocos) finalização com o pé direito do lado direito da área acertando no centro do gol. Assistência de Brahim Díaz com um passe em profundidade.",
           "sub": "Morocco"
+        },
+        {
+          "min": "",
+          "icon": "•",
+          "txt": "Começa o primeiro tempo.",
+          "sub": ""
         }
       ],
       "lineups": {
@@ -2546,6 +8128,12 @@
       "clock": "",
       "events": [
         {
+          "min": "90'+6'",
+          "icon": "•",
+          "txt": "Fim do segundo tempo, Brasil 3, Haiti 0.",
+          "sub": ""
+        },
+        {
           "min": "81'",
           "icon": "🔄",
           "txt": "Substituição, Haiti. Derrick Etienne entra em campo e entra Jean-Ricner Bellegarde.",
@@ -2598,6 +8186,12 @@
           "icon": "🔄",
           "txt": "Substituição, Haiti. Entra Louicius Deedson substituindo Josué Casimir.",
           "sub": "Haiti"
+        },
+        {
+          "min": "45'",
+          "icon": "•",
+          "txt": "Começo do segundo tempo Brasil 3, Haiti 0.",
+          "sub": ""
         },
         {
           "min": "45'",
@@ -2996,6 +8590,12 @@
       "clock": "",
       "events": [
         {
+          "min": "90'+9'",
+          "icon": "•",
+          "txt": "Fim do segundo tempo, Türkiye 0, Paraguai 1.",
+          "sub": ""
+        },
+        {
           "min": "90'+2'",
           "icon": "🔄",
           "txt": "Substituição, Paraguai. José Canale entra no lugar de Matías Galarza devido a uma lesão.",
@@ -3051,6 +8651,12 @@
         },
         {
           "min": "45'",
+          "icon": "•",
+          "txt": "Início do segundo tempo Türkiye 0, Paraguai 1.",
+          "sub": ""
+        },
+        {
+          "min": "45'",
           "icon": "🔄",
           "txt": "Substituição, Turkiye. Entra Baris Alper Yilmaz para o lugar de Kerem Aktürkoglu.",
           "sub": "Türkiye"
@@ -3060,6 +8666,12 @@
           "icon": "🔄",
           "txt": "Substituição, Paraguai. Entra Damián Bobadilla para o lugar de Isidro Pitta.",
           "sub": "Paraguay"
+        },
+        {
+          "min": "45'+11'",
+          "icon": "•",
+          "txt": "Fim do primeiro tempo, Türkiye 0, Paraguai 1.",
+          "sub": ""
         },
         {
           "min": "45'+3'",
@@ -3433,6 +9045,12 @@
       "clock": "",
       "events": [
         {
+          "min": "90'+6'",
+          "icon": "•",
+          "txt": "Fim do segundo tempo, Holanda 5, Suécia 1.",
+          "sub": ""
+        },
+        {
           "min": "90'+3'",
           "icon": "🔄",
           "txt": "Substituição, Suécia. Entra Elliot Stroud para o lugar de Gabriel Gudmundsson.",
@@ -3530,6 +9148,12 @@
         },
         {
           "min": "45'",
+          "icon": "•",
+          "txt": "Início do segundo tempo Holanda 2, Suécia 0.",
+          "sub": ""
+        },
+        {
+          "min": "45'",
           "icon": "🔄",
           "txt": "Substituição, Holanda. Entra Crysencio Summerville substituindo Donyell Malen.",
           "sub": "Netherlands"
@@ -3545,6 +9169,12 @@
           "icon": "⚽",
           "txt": "Brian Brobbey (Holanda) remate com o pé direito em frente à baliza ao centro da baliza. Assistência de Cody Gakpo com um cruzamento.",
           "sub": "Netherlands"
+        },
+        {
+          "min": "",
+          "icon": "•",
+          "txt": "Começa o primeiro tempo.",
+          "sub": ""
         }
       ],
       "lineups": {
@@ -3892,7 +9522,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "51'",
+      "clock": "53'",
       "events": [
         {
           "min": "45'",
@@ -4191,24 +9821,24 @@
           "offsides": "0",
           "wonCorners": "4",
           "saves": "1",
-          "possessionPct": "59.7",
+          "possessionPct": "60.4",
           "totalShots": "8",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "304",
-          "totalPasses": "342",
+          "accuratePasses": "325",
+          "totalPasses": "366",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "9",
           "crossPct": "0.2",
-          "totalLongBalls": "20",
-          "accurateLongBalls": "11",
+          "totalLongBalls": "22",
+          "accurateLongBalls": "13",
           "longballPct": "0.6",
           "blockedShots": "4",
-          "effectiveTackles": "9",
-          "totalTackles": "13",
+          "effectiveTackles": "10",
+          "totalTackles": "14",
           "tacklePct": "0.7",
           "interceptions": "3",
           "effectiveClearance": "10",
@@ -4221,28 +9851,28 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "40.3",
-          "totalShots": "5",
+          "possessionPct": "39.6",
+          "totalShots": "7",
           "shotsOnTarget": "2",
-          "shotPct": "0.4",
+          "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "203",
-          "totalPasses": "233",
+          "accuratePasses": "212",
+          "totalPasses": "243",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "5",
           "crossPct": "0.4",
-          "totalLongBalls": "31",
-          "accurateLongBalls": "17",
+          "totalLongBalls": "33",
+          "accurateLongBalls": "18",
           "longballPct": "0.5",
-          "blockedShots": "3",
+          "blockedShots": "4",
           "effectiveTackles": "9",
           "totalTackles": "17",
           "tacklePct": "0.5",
-          "interceptions": "8",
-          "effectiveClearance": "14",
-          "totalClearance": "14"
+          "interceptions": "9",
+          "effectiveClearance": "13",
+          "totalClearance": "13"
         }
       }
     },
