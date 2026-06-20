@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T18:13:26.502Z",
+  "generatedAt": "2026-06-20T18:14:25.850Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -2088,8 +2088,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "52'",
+      "clock": "53'",
       "events": [
+        {
+          "min": "53'",
+          "icon": "🟨",
+          "txt": "Gabriel Gudmundsson (Suécia) Cartão Amarelo aos 53'",
+          "sub": "Sweden"
+        },
         {
           "min": "47'",
           "icon": "⚽",
