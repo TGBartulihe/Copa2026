@@ -88,7 +88,9 @@ body{background:#040804;color:#ddd;font-family:Georgia,serif;min-height:100vh}
 /* LIVE EVENTS */
 .evbox{margin-top:8px;border-top:1px solid #0f180f;padding-top:8px}
 .evtitle{font-size:9px;color:#1a5e1a;letter-spacing:2px;margin-bottom:6px;font-weight:bold}
-.evrow{display:flex;align-items:flex-start;gap:6px;margin-bottom:5px}
+.evrow{display:flex;align-items:flex-start;gap:6px;margin-bottom:5px;padding:4px 6px;border-radius:5px}
+.evrow-goal{background:#1a1500;border:1px solid #4a3a00}
+.evrow-goal .evtxt{color:#f0c040;font-weight:bold}
 .evmin{color:#f0c040;font-weight:bold;min-width:26px;font-size:10px;padding-top:1px}
 .evico{min-width:16px;font-size:12px}
 .evtxt{font-size:11px;color:#bbb;line-height:1.4}
@@ -1687,11 +1689,13 @@ function buildLineupBox(r){
 function buildEvBox(r){
   const evs=(r.events||[]).filter(e=>e.icon);
   if(!evs.length)return `<div class="evbox"><div class="evnone">Sem eventos registados até ao momento</div></div>`;
-  const rows=evs.map(e=>`<div class="evrow">
+  const rows=evs.map(e=>{
+    const isGoal=e.icon==="⚽"||e.icon==="⚽ OG"||e.icon==="⚽🎯";
+    return `<div class="evrow${isGoal?" evrow-goal":""}">
     <div class="evmin">${e.min?e.min+"'":""}</div>
     <div class="evico">${e.icon}</div>
     <div><div class="evtxt">${e.txt}</div>${e.sub?`<div class="evsub">${e.sub}</div>`:""}</div>
-  </div>`).join("");
+  </div>`;}).join("");
   return `<div class="evbox"><div class="evtitle">EVENTOS AO VIVO</div>${rows}</div>`;
 }
 

@@ -193,6 +193,20 @@ function extractBoxscoreStats(data){
   return { home, away };
 }
 
+// O tradutor não conhece jargão de futebol — traduz à letra termos que têm
+// nome próprio no desporto ("corner"→"canto" em vez de "escanteio", etc).
+// Corrige isto depois da tradução, sem precisar de saber à frente quais
+// frases vão ter este problema.
+function fixFootballTermsPT(text){
+  if (!text) return text;
+  return text
+    .replace(/\bmeta\b/gi, "Gol")
+    .replace(/\bcantos?\b/gi, m => m.toLowerCase()==="canto" ? "Escanteio" : "Escanteios")
+    .replace(/\bfora de lugar\b/gi, "Impedimento")
+    .replace(/\bsalv(ar|a|ou)\b/gi, "Defesa")
+    .replace(/\b(pontapé|chute) livre\b/gi, "Falta");
+}
+
 async function fetchMatchDetails(eventId){
   try{
     const res = await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=${eventId}`);
@@ -225,10 +239,7 @@ async function fetchMatchDetails(eventId){
       // simples — nunca mostra a frase em inglês.
       let txt = await translateToPT(original);
       if (!txt) txt = describeEventPT(icon, playerName, assistName);
-
-      // Rede de segurança — se ainda assim "meta" escapar para um evento de
-      // gol, corrige para o termo certo do desporto
-      if (isGoalIcon && txt) txt = txt.replace(/\bmeta\b/gi, "Gol");
+      else txt = fixFootballTermsPT(txt);
 
       results.push({ min: p.clock?.displayValue || "", icon, txt, sub: teamName });
     }
