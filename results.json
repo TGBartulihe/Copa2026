@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T18:32:28.839Z",
+  "generatedAt": "2026-06-20T18:33:27.189Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -2088,12 +2088,18 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "71'",
+      "clock": "72'",
       "events": [
+        {
+          "min": "72'",
+          "icon": "🔄",
+          "txt": "Substituição de Memphis Depay (Holanda) aos 72'",
+          "sub": "Netherlands"
+        },
         {
           "min": "59'",
           "icon": "🔄",
-          "txt": "Substituição, Holanda. Entra Guus Til para o lugar de Tijjani Reijnders.",
+          "txt": "Substituição, Holanda. Entra Guus Til substituindo Tijjani Reijnders.",
           "sub": "Netherlands"
         },
         {
