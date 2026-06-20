@@ -360,19 +360,30 @@ async function checkAndNotify(allMatches){
     const targetSubs = subs.filter(s => matchesSubscription(m, s));
     if (!targetSubs.length) continue;
 
-    // 1) Aviso de jogo perto de começar — janela larga porque o robô não
-    // corre ao minuto exato (a cada ~15 min), por isso não há garantia de
-    // ser exatamente "10 min antes", só "está mesmo a chegar a hora".
-    if (!m.done && !m.live && m.iso && !entry.preNotified){
+    // 1) Avisos de jogo perto de começar — agora que o robô corre a cada
+    // minuto, conseguimos dois avisos com precisão real (10 e 5 min antes),
+    // em vez da janela larga única de antes.
+    if (!m.done && !m.live && m.iso){
       const minsUntil = (new Date(m.iso).getTime() - now) / 60000;
-      if (minsUntil > 0 && minsUntil <= 20){
+
+      if (!entry.notified10 && minsUntil > 7 && minsUntil <= 10){
         const dead = await sendPushToSubs(targetSubs, {
           title: "🍿 Prepara a pipoca!",
-          body: `${m.home} x ${m.away} começa em breve`,
-          tag: matchKey,
+          body: `${m.home} x ${m.away} começa em 10 minutos`,
+          tag: matchKey + "-10min",
         });
         dead.forEach(e => deadEndpointsAll.add(e));
-        entry.preNotified = true; sentAny = true;
+        entry.notified10 = true; sentAny = true;
+      }
+
+      if (!entry.notified5 && minsUntil > 2 && minsUntil <= 5){
+        const dead = await sendPushToSubs(targetSubs, {
+          title: "⏰ Já vai começar!",
+          body: `${m.home} x ${m.away} começa em 5 minutos`,
+          tag: matchKey + "-5min",
+        });
+        dead.forEach(e => deadEndpointsAll.add(e));
+        entry.notified5 = true; sentAny = true;
       }
     }
 
