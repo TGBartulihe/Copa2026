@@ -31,11 +31,12 @@ body{background:#040804;color:#ddd;font-family:Georgia,serif;min-height:100vh}
   background:linear-gradient(180deg,rgba(20,30,20,.22) 0%,rgba(16,26,16,.32) 50%,rgba(12,20,12,.45) 100%);
   z-index:-1;pointer-events:none;
 }
+.header-main{display:flex;align-items:center;justify-content:center;gap:12px}
 .header-logo{
-  position:absolute;left:14px;top:12px;
-  height:38px;width:auto;max-width:70px;
-  filter:drop-shadow(0 2px 6px rgba(0,0,0,.5));
+  height:54px;width:auto;max-width:90px;flex-shrink:0;
+  mix-blend-mode:multiply;
 }
+.header-main .header-title{text-align:left}
 #app{max-width:640px;margin:0 auto;padding-bottom:24px}
 .header{background:linear-gradient(135deg,#082008,#0f3a0f,#082008);padding:14px 16px 10px;text-align:center;border-bottom:2px solid #1a5e1a;position:sticky;top:0;z-index:100}
 .header-sub{font-size:9px;letter-spacing:5px;color:#3dbb3d;margin-bottom:3px}
@@ -122,8 +123,8 @@ body{background:#040804;color:#ddd;font-family:Georgia,serif;min-height:100vh}
 .gbtn{padding:5px 10px;border-radius:4px;cursor:pointer;font-weight:bold;font-family:Georgia,serif;font-size:12px;border:1px solid #1a1a1a;background:#0c100c;color:#7a8a78}
 .gbtn.on{color:#fff}
 .twrap{border-radius:8px;overflow:hidden;margin-bottom:10px;border:1px solid #111;border-top:3px solid var(--gc)}
-.thead2{padding:8px 12px;background:#162515;font-size:9px;letter-spacing:3px;font-weight:bold;border-bottom:1px solid #0e0e0e;color:var(--gc)}
-table{width:100%;border-collapse:collapse;background:#1a2c1c}
+.thead2{padding:8px 12px;background:#050905;font-size:9px;letter-spacing:3px;font-weight:bold;border-bottom:1px solid #0e0e0e;color:var(--gc)}
+table{width:100%;border-collapse:collapse;background:#070c07}
 th{padding:6px 5px;font-size:8px;color:#1e3a1e;letter-spacing:1px;border-bottom:1px solid #0c0c0c;font-family:Georgia,serif;font-weight:normal;text-align:center}
 th.tl{text-align:left}
 tbody tr{border-bottom:1px solid #0b0b0b}
@@ -170,7 +171,7 @@ td.pos{color:#4ade80;font-weight:bold}td.neg{color:#f87171;font-weight:bold}td.z
 .bbox-team.winner{font-weight:bold;color:#f2ecd8}
 .bbox-team.loser{color:#7a8a7a}
 .bbox-check{color:#3dbb3d;font-size:11px;flex-shrink:0}
-.bbox-mid{display:flex;align-items:center;padding:0 7px;flex-shrink:0;border-left:1px solid #101a10;border-right:1px solid #101a10}
+.bbox-mid{display:flex;align-items:center;padding:0 8px;flex-shrink:0;background:#0a120a;border-radius:6px;margin:8px 4px}
 .bbox-score{font-size:16px;font-weight:bold;color:#f0c040;letter-spacing:1px;min-width:42px;text-align:center}
 .bbox-score.live{color:#ff6644}
 .bbox-score.tbd{color:#5e7a5c;font-size:11px;letter-spacing:0}
@@ -193,9 +194,11 @@ td.pos{color:#4ade80;font-weight:bold}td.neg{color:#f87171;font-weight:bold}td.z
 <div class="bg-overlay"></div>
 <div id="app">
   <div class="header">
-    <img id="logoImg" alt="" class="header-logo" onerror="this.style.display='none'"/>
     <div class="header-sub">COPA DO MUNDO FIFA 2026</div>
-    <div class="header-title">⚽WORLD CUP TRACKER - BY TICOBARTU⚽</div>
+    <div class="header-main">
+      <img id="logoImg" alt="" class="header-logo" onerror="this.style.display='none'"/>
+      <div class="header-title">⚽WORLD CUP TRACKER - BY TICOBARTU⚽</div>
+    </div>
     <div class="header-meta">
       <span id="li"></span>
       <span id="ts">Carregando...</span>
@@ -478,7 +481,7 @@ const ESPN_MAP={
   "Spain":"Espanha 🇪🇸","Cape Verde":"Cabo Verde 🇨🇻","Saudi Arabia":"Arábia Saudita 🇸🇦","Uruguay":"Uruguai 🇺🇾",
   "France":"França 🇫🇷","Senegal":"Senegal 🇸🇳","Iraq":"Iraque 🇮🇶","Norway":"Noruega 🇳🇴",
   "Argentina":"Argentina 🇦🇷","Algeria":"Argélia 🇩🇿","Austria":"Áustria 🇦🇹","Jordan":"Jordânia 🇯🇴",
-  "Portugal":"Portugal 🇵🇹","DR Congo":"RD Congo 🇨🇩","Uzbekistan":"Uzbequistão 🇺🇿","Colombia":"Colômbia 🇨🇴",
+  "Portugal":"Portugal 🇵🇹","DR Congo":"RD Congo 🇨🇩","Congo DR":"RD Congo 🇨🇩","DRC":"RD Congo 🇨🇩","Democratic Republic of the Congo":"RD Congo 🇨🇩","Congo":"RD Congo 🇨🇩","Uzbekistan":"Uzbequistão 🇺🇿","Colombia":"Colômbia 🇨🇴",
   "England":"Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿","Croatia":"Croácia 🇭🇷","Ghana":"Gana 🇬🇭","Panama":"Panamá 🇵🇦",
 };
 function mapTeam(n){return ESPN_MAP[n]||n;}
@@ -775,13 +778,46 @@ function bFavs(){
   return h;
 }
 
+// ── FILTROS — usado tanto em Resultados como em Próximos ─────────────────────
+function filterBar(modes,favOnly,favToggleFn){
+  const btns=modes.map(m=>`<button onclick="${m.onclick}" style="flex:1;padding:7px 4px;border-radius:5px;border:1px solid ${m.active?"#b8860b":"#1a1a1a"};background:${m.active?"#1a1500":"#0c100c"};color:${m.active?"#f0c040":"#7a8a78"};font-family:Georgia,serif;font-size:10px;font-weight:bold;cursor:pointer">${m.label}</button>`).join("");
+  return `<div style="display:flex;gap:6px;margin-bottom:12px">${btns}
+    <button onclick="${favToggleFn}" style="padding:7px 14px;border-radius:5px;border:1px solid ${favOnly?"#f0c040":"#1a1a1a"};background:${favOnly?"#1a1200":"#0c100c"};color:${favOnly?"#f0c040":"#7a8a78"};font-family:Georgia,serif;font-size:11px;font-weight:bold;cursor:pointer">⭐</button>
+  </div>`;
+}
+
+let RESULT_MODE="grupo", RESULT_FAV_ONLY=false;
+function setResultMode(m){RESULT_MODE=m;render();}
+function toggleResultFav(){RESULT_FAV_ONLY=!RESULT_FAV_ONLY;render();}
+
 function bResult(){
-  const done=RES.filter(r=>r.done);
-  let h=lbl(`${done.length} JOGOS ENCERRADOS`);
-  "ABCDEFGHIJKL".split("").forEach(g=>{
-    const gs=RES.filter(r=>r.g===g&&r.done);if(!gs.length)return;
-    h+=glbl(g);gs.forEach(r=>{h+=card(r);});
-  });
+  let done=RES.filter(r=>r.done);
+  if(RESULT_FAV_ONLY) done=done.filter(r=>isFav(r.home)||isFav(r.away));
+
+  let h=filterBar([
+    {label:"🏟 Por Grupo",active:RESULT_MODE==="grupo",onclick:"setResultMode('grupo')"},
+    {label:"📅 Por Dia",active:RESULT_MODE==="dia",onclick:"setResultMode('dia')"},
+  ],RESULT_FAV_ONLY,"toggleResultFav()");
+
+  h+=lbl(`${done.length} JOGO${done.length!==1?"S":""} ENCERRADO${done.length!==1?"S":""}${RESULT_FAV_ONLY?" · SÓ FAVORITOS":""}`);
+
+  if(!done.length){
+    return h+`<div class="no-g">${RESULT_FAV_ONLY?"Nenhum resultado das tuas seleções favoritas ainda.":"Nenhum resultado ainda."}</div>`;
+  }
+
+  if(RESULT_MODE==="grupo"){
+    "ABCDEFGHIJKL".split("").forEach(g=>{
+      const gs=done.filter(r=>r.g===g);if(!gs.length)return;
+      h+=glbl(g);gs.forEach(r=>{h+=card(r);});
+    });
+  } else {
+    const sorted=[...done].sort((a,b)=>dateSortKey(a.date)-dateSortKey(b.date));
+    let lastDate=null,first=true;
+    sorted.forEach(r=>{
+      if(r.date!==lastDate){lastDate=r.date;h+=lbl(r.date,!first);first=false;}
+      h+=card(r);
+    });
+  }
   return h;
 }
 
@@ -964,13 +1000,26 @@ function dateSortKey(ddmm){
   return m*100+d;
 }
 
+let PROX_MODE="dia", PROX_FAV_ONLY=false;
+function setProxMode(m){PROX_MODE=m;render();}
+function toggleProxFav(){PROX_FAV_ONLY=!PROX_FAV_ONLY;render();}
+
 function bProx(){
-  const today=todayStr(), tom=tomorrowStr(), todayKey=dateSortKey(today);
-  const all=RES.filter(r=>!r.done&&!r.live);
+  const today=todayStr(), tom=tomorrowStr();
+  let all=RES.filter(r=>!r.done&&!r.live);
+  if(PROX_FAV_ONLY) all=all.filter(r=>isFav(r.home)||isFav(r.away));
+
+  let h=filterBar([
+    {label:"📅 Por Dia",active:PROX_MODE==="dia",onclick:"setProxMode('dia')"},
+    {label:"🏟 Por Grupo",active:PROX_MODE==="grupo",onclick:"setProxMode('grupo')"},
+  ],PROX_FAV_ONLY,"toggleProxFav()");
+
   const pending=all.filter(r=>r.pending);
   const upcoming=all.filter(r=>!r.pending).sort((a,b)=>dateSortKey(a.date)-dateSortKey(b.date));
 
-  let h="";
+  if(!upcoming.length && !pending.length){
+    return h+`<div class="no-g">${PROX_FAV_ONLY?"Nenhum jogo futuro das tuas seleções favoritas cadastrado ainda.":"Sem jogos futuros cadastrados ainda."}<br><span style="font-size:10px;color:#5a6a58">O robô adiciona automaticamente conforme a ESPN confirma novos jogos — tenta o Refresh.</span></div>`;
+  }
 
   if(pending.length){
     h+=`<div style="background:#1a1200;border:1px solid #4a3a00;border-radius:7px;padding:10px 14px;margin-bottom:14px;font-size:10px;color:#d4a017">
@@ -979,22 +1028,25 @@ function bProx(){
     pending.forEach(r=>{h+=uc(r);});
   }
 
-  if(!upcoming.length && !pending.length){
-    return h+`<div class="no-g">Sem jogos futuros cadastrados ainda.<br><span style="font-size:10px;color:#5a6a58">O robô adiciona automaticamente conforme a ESPN confirma novos jogos — tenta o Refresh.</span></div>`;
+  if(PROX_MODE==="grupo"){
+    "ABCDEFGHIJKL".split("").forEach(g=>{
+      const gs=upcoming.filter(r=>r.g===g);if(!gs.length)return;
+      h+=glbl(g);gs.forEach(r=>{h+=uc(r);});
+    });
+  } else {
+    let lastDate=null, first=true;
+    upcoming.forEach(r=>{
+      if(r.date!==lastDate){
+        lastDate=r.date;
+        let label=r.date||"DATA A CONFIRMAR";
+        if(r.date===today)label=`HOJE — ${r.date}`;
+        else if(r.date===tom)label=`AMANHÃ — ${r.date}`;
+        h+=lbl(label,!first||pending.length>0);
+        first=false;
+      }
+      h+=uc(r);
+    });
   }
-
-  let lastDate=null, first=true;
-  upcoming.forEach(r=>{
-    if(r.date!==lastDate){
-      lastDate=r.date;
-      let label=r.date||"DATA A CONFIRMAR";
-      if(r.date===today)label=`HOJE — ${r.date}`;
-      else if(r.date===tom)label=`AMANHÃ — ${r.date}`;
-      h+=lbl(label,!first||pending.length>0);
-      first=false;
-    }
-    h+=uc(r);
-  });
   return h;
 }
 

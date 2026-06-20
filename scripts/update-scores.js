@@ -24,7 +24,7 @@ const ESPN_MAP = {
   "Spain":"Espanha 🇪🇸","Cape Verde":"Cabo Verde 🇨🇻","Saudi Arabia":"Arábia Saudita 🇸🇦","Uruguay":"Uruguai 🇺🇾",
   "France":"França 🇫🇷","Senegal":"Senegal 🇸🇳","Iraq":"Iraque 🇮🇶","Norway":"Noruega 🇳🇴",
   "Argentina":"Argentina 🇦🇷","Algeria":"Argélia 🇩🇿","Austria":"Áustria 🇦🇹","Jordan":"Jordânia 🇯🇴",
-  "Portugal":"Portugal 🇵🇹","DR Congo":"RD Congo 🇨🇩","Uzbekistan":"Uzbequistão 🇺🇿","Colombia":"Colômbia 🇨🇴",
+  "Portugal":"Portugal 🇵🇹","DR Congo":"RD Congo 🇨🇩","Congo DR":"RD Congo 🇨🇩","DRC":"RD Congo 🇨🇩","Democratic Republic of the Congo":"RD Congo 🇨🇩","Congo":"RD Congo 🇨🇩","Uzbekistan":"Uzbequistão 🇺🇿","Colombia":"Colômbia 🇨🇴",
   "England":"Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿","Croatia":"Croácia 🇭🇷","Ghana":"Gana 🇬🇭","Panama":"Panamá 🇵🇦",
 };
 function mapTeam(n){ return ESPN_MAP[n] || n; }
