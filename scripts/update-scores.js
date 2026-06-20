@@ -218,6 +218,126 @@ function roundFromDate(isoDate){
 }
 function classify(ev){ return roundFromText(ev) || roundFromDate(ev.date); }
 
+// ── NOTIFICAÇÕES PUSH — avisa sobre jogos das seleções favoritas ────────────
+// Funciona mesmo com a app fechada no telemóvel, via Web Push padrão.
+// Sem custo, sem servidor próprio — só precisa das chaves VAPID nos secrets.
+let webpush = null;
+try { webpush = require("web-push"); }
+catch(e) { console.warn("web-push não instalado — notificações desativadas nesta execução."); }
+
+const VAPID_PUBLIC = process.env.VAPID_PUBLIC_KEY || "";
+const VAPID_PRIVATE = process.env.VAPID_PRIVATE_KEY || "";
+const SUBS_FILE = "subscriptions.json";
+const NOTIFIED_CACHE_FILE = "notified-cache.json";
+
+// Edita esta lista manualmente se mudares as seleções favoritas no app
+const FAVORITE_TEAMS = ["Brasil 🇧🇷", "Croácia 🇭🇷"];
+
+if (webpush && VAPID_PUBLIC && VAPID_PRIVATE){
+  webpush.setVapidDetails("mailto:copa2026tracker@example.com", VAPID_PUBLIC, VAPID_PRIVATE);
+}
+
+function loadJSON(file, fallback){
+  try{ return JSON.parse(fs.readFileSync(file, "utf8")); }catch(e){ return fallback; }
+}
+function saveJSON(file, data){
+  try{ fs.writeFileSync(file, JSON.stringify(data, null, 2)); }catch(e){}
+}
+
+async function sendPushToAll(subs, payload){
+  if (!webpush) return subs;
+  const body = JSON.stringify(payload);
+  const stillValid = [];
+  for (const sub of subs){
+    try{
+      await webpush.sendNotification(sub, body);
+      stillValid.push(sub);
+      console.log(`📨 Notificação enviada: ${payload.title}`);
+    }catch(e){
+      // 404/410 = subscrição morta (utilizador desinstalou) — remove da lista
+      if (e.statusCode === 404 || e.statusCode === 410){
+        console.log("Subscrição expirada, a remover.");
+      } else {
+        stillValid.push(sub); // erro temporário — mantém para tentar depois
+        console.warn("Falha a enviar push:", e.message);
+      }
+    }
+  }
+  return stillValid;
+}
+
+function isFavoriteMatch(m){
+  return FAVORITE_TEAMS.includes(m.home) || FAVORITE_TEAMS.includes(m.away);
+}
+
+async function checkAndNotify(allMatches){
+  if (!webpush || !VAPID_PUBLIC || !VAPID_PRIVATE){
+    console.log("Notificações desligadas (sem chaves VAPID configuradas).");
+    return;
+  }
+  let subs = loadJSON(SUBS_FILE, []);
+  if (!Array.isArray(subs) || !subs.length){
+    console.log("Nenhuma subscrição registada ainda — sem notificações a enviar.");
+    return;
+  }
+
+  const cache = loadJSON(NOTIFIED_CACHE_FILE, {});
+  const now = Date.now();
+  let sentAny = false;
+
+  for (const m of allMatches){
+    if (!isFavoriteMatch(m)) continue;
+    const matchKey = `${m.home}|${m.away}|${m.date}`;
+    if (!cache[matchKey]) cache[matchKey] = { goals: [] };
+    const entry = cache[matchKey];
+    if (!Array.isArray(entry.goals)) entry.goals = [];
+
+    // 1) Aviso de jogo perto de começar — janela larga porque o robô não
+    // corre ao minuto exato (a cada ~15 min), por isso não há garantia de
+    // ser exatamente "10 min antes", só "está mesmo a chegar a hora".
+    if (!m.done && !m.live && m.iso && !entry.preNotified){
+      const minsUntil = (new Date(m.iso).getTime() - now) / 60000;
+      if (minsUntil > 0 && minsUntil <= 20){
+        subs = await sendPushToAll(subs, {
+          title: "🍿 Prepara a pipoca!",
+          body: `${m.home} x ${m.away} começa em breve`,
+          tag: matchKey,
+        });
+        entry.preNotified = true; sentAny = true;
+      }
+    }
+
+    // 2) Gols novos do jogo ao vivo
+    if (m.live && Array.isArray(m.events)){
+      for (const ev of m.events){
+        if (!ev.icon || !ev.icon.startsWith("⚽")) continue;
+        const goalKey = `${ev.min}|${ev.txt}`;
+        if (entry.goals.includes(goalKey)) continue;
+        subs = await sendPushToAll(subs, {
+          title: "⚽ GOOOL!",
+          body: `${ev.txt} (${ev.min}') — ${m.home} ${m.sh}–${m.sa} ${m.away}`,
+          tag: matchKey + "-goal",
+        });
+        entry.goals.push(goalKey); sentAny = true;
+      }
+    }
+
+    // 3) Resultado final
+    if (m.done && !entry.finalNotified){
+      subs = await sendPushToAll(subs, {
+        title: "🏁 Jogo terminado",
+        body: `${m.home} ${m.sh}–${m.sa} ${m.away}`,
+        tag: matchKey + "-final",
+      });
+      entry.finalNotified = true; sentAny = true;
+    }
+  }
+
+  saveJSON(NOTIFIED_CACHE_FILE, cache);
+  saveJSON(SUBS_FILE, subs); // grava sem as subscrições mortas, se alguma caiu
+  if (sentAny) console.log("✅ Ciclo de notificações concluído.");
+}
+
 async function main(){
   console.log("Buscando janela de jogos (-5 a +12 dias)...");
   const offsets = [];
@@ -291,6 +411,8 @@ async function main(){
 
   fs.writeFileSync("results.json", JSON.stringify(out, null, 2));
   console.log(`✅ results.json escrito com ${out.matches.length} jogos de grupo e ${knockout.length} de mata-mata.`);
+
+  await checkAndNotify(out.matches);
 }
 
 main().catch(e => { console.error("Erro fatal:", e); process.exit(1); });

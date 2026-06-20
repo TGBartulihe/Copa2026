@@ -1,0 +1,9 @@
+{
+  "name": "copa2026-bot",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Robô de atualização de resultados e notificações da Copa 2026 Tracker",
+  "dependencies": {
+    "web-push": "^3.6.7"
+  }
+}

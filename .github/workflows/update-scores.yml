@@ -22,9 +22,14 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Buscar resultados na ESPN e escalações na API-Football
+      - name: Instalar dependências
+        run: npm install --no-audit --no-fund
+
+      - name: Buscar resultados na ESPN, escalações na API-Football, enviar notificações
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
         run: node scripts/update-scores.js
 
       - name: Commit se houver mudanças
@@ -33,6 +38,8 @@ jobs:
           git config user.email "actions@github.com"
           git add results.json
           git add lineups-cache.json 2>/dev/null || true
+          git add notified-cache.json 2>/dev/null || true
+          git add subscriptions.json 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "Sem mudanças nos resultados."
           else

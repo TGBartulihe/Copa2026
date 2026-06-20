@@ -330,6 +330,86 @@ function toggleFav(name){
 }
 loadFavs();
 
+// ── NOTIFICAÇÕES PUSH ────────────────────────────────────────────────────────
+// Chave pública VAPID — não é segredo, é normal/seguro estar aqui no código.
+// Só a chave PRIVADA (no robô) é que tem de ficar escondida.
+const VAPID_PUBLIC_KEY="BEFpY8GhKjLQAfNy4sKdmSzcDcHs2ZHWF2gQYQRVMGyQW6vJNJEJxIu8mYpd1Y6jwjZYWnS-P-iXFYoia5K1vew";
+let PUSH_SUB_JSON=null;
+let PUSH_STATUS="idle"; // idle | granted-no-sub | subscribed | unsupported | denied
+
+function urlBase64ToUint8Array(base64String){
+  const padding="=".repeat((4-base64String.length%4)%4);
+  const base64=(base64String+padding).replace(/-/g,"+").replace(/_/g,"/");
+  const rawData=atob(base64);
+  const out=new Uint8Array(rawData.length);
+  for(let i=0;i<rawData.length;++i) out[i]=rawData.charCodeAt(i);
+  return out;
+}
+
+async function checkPushStatus(){
+  if(!("serviceWorker" in navigator)||!("PushManager" in window)){
+    PUSH_STATUS="unsupported"; return;
+  }
+  try{
+    const reg=await navigator.serviceWorker.ready;
+    const sub=await reg.pushManager.getSubscription();
+    if(sub){ PUSH_SUB_JSON=JSON.stringify(sub.toJSON(),null,2); PUSH_STATUS="subscribed"; }
+  }catch(e){}
+}
+
+async function enablePush(){
+  if(!("serviceWorker" in navigator)||!("PushManager" in window)){
+    PUSH_STATUS="unsupported"; render(); return;
+  }
+  try{
+    const perm=await Notification.requestPermission();
+    if(perm!=="granted"){ PUSH_STATUS="denied"; render(); return; }
+    const reg=await navigator.serviceWorker.ready;
+    const sub=await reg.pushManager.subscribe({
+      userVisibleOnly:true,
+      applicationServerKey:urlBase64ToUint8Array(VAPID_PUBLIC_KEY),
+    });
+    PUSH_SUB_JSON=JSON.stringify(sub.toJSON(),null,2);
+    PUSH_STATUS="subscribed";
+  }catch(e){
+    alert("Erro ao ativar notificações: "+e.message);
+  }
+  render();
+}
+
+function copySubJSON(){
+  if(!PUSH_SUB_JSON)return;
+  navigator.clipboard.writeText(PUSH_SUB_JSON).then(()=>{
+    alert("Copiado! Cola dentro do array em subscriptions.json no teu repositório.");
+  }).catch(()=>{
+    alert("Não consegui copiar automaticamente — seleciona o texto manualmente.");
+  });
+}
+
+function buildPushSection(){
+  let body="";
+  if(PUSH_STATUS==="unsupported"){
+    body=`<div style="font-size:10px;color:#7a8a78">O teu browser não suporta notificações push.</div>`;
+  } else if(PUSH_STATUS==="denied"){
+    body=`<div style="font-size:10px;color:#f87171">Permissão de notificações negada — ativa manualmente nas definições do site.</div>`;
+  } else if(PUSH_STATUS==="subscribed"){
+    body=`<div style="font-size:10px;color:#3dbb3d;margin-bottom:8px">✅ Notificações ativas neste dispositivo.</div>
+      <div style="font-size:9px;color:#7a8a78;margin-bottom:8px">Se ainda não colaste isto no repositório, copia outra vez:</div>
+      <button onclick="copySubJSON()" style="width:100%;padding:7px;border-radius:5px;border:1px solid #2a3a00;background:#0c0900;color:#f0c040;cursor:pointer;font-family:Georgia,serif;font-size:10px">📋 Copiar Subscrição</button>`;
+  } else {
+    body=`<div style="font-size:10px;color:#8a9a88;margin-bottom:10px;line-height:1.5">Recebe um aviso quando um jogo das tuas seleções favoritas estiver a começar, sair um gol, ou terminar — mesmo com a app fechada.</div>
+      <button onclick="enablePush()" style="width:100%;padding:9px;border-radius:6px;border:1px solid #2a3a00;background:#1a1500;color:#f0c040;font-family:Georgia,serif;font-size:11px;font-weight:bold;cursor:pointer">🔔 Ativar Notificações</button>`;
+  }
+  let extra="";
+  if(PUSH_SUB_JSON && PUSH_STATUS==="subscribed"){
+    extra=`<div style="margin-top:10px;font-size:9px;color:#d4a017;background:#1a1200;border:1px solid #4a3a00;border-radius:6px;padding:8px;line-height:1.5">
+      ⚠️ Só funciona depois de colares a subscrição em <b>subscriptions.json</b> (dentro do array <code>[ ]</code>) e fazeres commit — sem isso o robô não sabe para onde enviar.
+    </div>`;
+  }
+  return `<div class="favsec" style="margin-top:12px"><div class="favtitle">🔔 NOTIFICAÇÕES PUSH</div>${body}${extra}</div>`;
+}
+checkPushStatus().then(()=>render());
+
 // ── DADOS ──────────────────────────────────────────────────────────────────────
 // FALLBACK_RES: usado apenas no primeiro instante, antes do results.json carregar,
 // ou se o ficheiro automático falhar por completo. Contém notas escritas à mão.
@@ -864,6 +944,7 @@ function bFavs(){
     ${clearBtn}
     <div class="tgridlbl">ADICIONAR / REMOVER</div>
     <div class="tgrid">${tbtns}</div></div>`;
+  h+=buildPushSection();
   if(favLive.length){h+=lbl("🔴 AO VIVO");favLive.forEach(r=>{h+=card(r,true);});}
   const favNext=favGames.filter(r=>!r.done&&!r.live);
   if(favNext.length){h+=lbl("📅 PRÓXIMOS",true);favNext.forEach(r=>{h+=uc(r,true);});}
@@ -1204,11 +1285,6 @@ function connector(text){ return `<div class="bconnector"><span>${text||"VENCEDO
 function bOficial(){
   const groupStageDone=RES.filter(r=>r.done).length>=72;
   let h=groupStageProgress();
-  if(!groupStageDone && (KO_MATCHES||[]).some(m=>!m.done&&!m.live)){
-    h+=`<div style="background:#1a1200;border:1px solid #4a3a00;border-radius:7px;padding:10px 14px;margin-bottom:14px;font-size:10px;color:#d4a017;line-height:1.5">
-      ⚠️ <b>A fase de grupos ainda não terminou.</b> Os confrontos futuros aqui em baixo vêm da própria ESPN, mas são tão provisórios quanto a nossa Simulação — podem mudar conforme os grupos se definem. Só fica confirmado quando o jogo entrar em "Ao Vivo" ou "Encerrado".
-    </div>`;
-  }
   const rounds=[
     {key:"avos",    label:"AVOS DE FINAL — 27 A 30/06",      expected:16},
     {key:"oitavas", label:"OITAVAS DE FINAL — 3 A 6/07",      expected:8},
@@ -1219,35 +1295,61 @@ function bOficial(){
 
   rounds.forEach(({key,label,expected},roundIdx)=>{
     h+=`<div class="bround"><div class="brnd-title">${label}</div>`;
-    const real=(KO_MATCHES||[]).filter(m=>m.round===key)
-      .sort((a,b)=>new Date(a.iso||0)-new Date(b.iso||0));
 
-    if(real.length){
-      // Jogos reais já confirmados pela ESPN — mostra com nomes e placares de verdade
-      real.forEach((m,i)=>{
-        const {time,date}=m.brTime?localTime(m.brTime,m.date):{time:"",date:m.date||""};
-        const favH=isFav(m.home), favA=isFav(m.away);
-        let status, meta;
-        if(m.done){ status="done"; meta=`✅ ENCERRADO · ${date}`; }
-        else if(m.live){ status="live"; meta=`🔴 AO VIVO · ${m.clock||""}'`; }
-        else if(!groupStageDone){ status="scheduled"; meta=`⚠️ PROVISÓRIO (ESPN) · pode mudar`; }
-        else { status="scheduled"; meta=`⏰ ${date} · ${time}${m.venue?" · "+m.venue:""}`; }
-        h+=bracketBox(m.home,m.away,m.sh,m.sa,status,meta,favH,favA);
-        if(i%2===1 && i<real.length-1) h+=connector();
-      });
-      const remaining=Math.max(0,expected-real.length);
-      if(remaining>0){
-        h+=`<div class="bremain">+ ${remaining} confronto${remaining>1?"s":""} ainda a definir nesta fase</div>`;
-      }
-    } else {
-      // Ainda sem jogos reais nesta fase — mostra estrutura estática como referência
-      MM_STRUCTURE[key].forEach((m,i)=>{
+    if(key==="avos" && !groupStageDone){
+      // Avos dependem só da classificação dos grupos — por isso recalculamos
+      // sempre ao vivo a partir do RES atual, em vez de confiar num palpite
+      // estático da ESPN que só atualiza quando o robô voltar a correr.
+      const computed=buildSimR32();
+      computed.forEach((slot,i)=>{
+        const m=MM_STRUCTURE.avos[i];
         const {time,date}=localTime(m.brTime,m.date);
-        const isTBD=m.t1.startsWith("V")||/^[123]º/.test(m.t1);
-        const meta=isTBD?`${label.split(" — ")[0]} · a definir`:`⏰ ${date} · ${time}${m.venue?" · "+m.venue:""}`;
-        h+=bracketBox(m.t1,m.t2,null,null,"scheduled",meta,false,false);
-        if(i%2===1 && i<MM_STRUCTURE[key].length-1) h+=connector();
+        // Se este confronto já estiver mesmo a decorrer/encerrado na ESPN
+        // (pelos nomes batidos), usa esses dados reais por cima do cálculo
+        const liveMatch=(KO_MATCHES||[]).find(k=>k.round==="avos"&&
+          ((tkey(k.home)===tkey(slot.home)&&tkey(k.away)===tkey(slot.away))||
+           (tkey(k.home)===tkey(slot.away)&&tkey(k.away)===tkey(slot.home))));
+        const favH=isFav(slot.home), favA=isFav(slot.away);
+        if(liveMatch&&(liveMatch.done||liveMatch.live)){
+          const status=liveMatch.done?"done":"live";
+          const meta=liveMatch.done?`✅ ENCERRADO · ${date}`:`🔴 AO VIVO · ${liveMatch.clock||""}'`;
+          h+=bracketBox(liveMatch.home,liveMatch.away,liveMatch.sh,liveMatch.sa,status,meta,favH,favA);
+        } else {
+          const meta=`🔄 ${date} · ${time}${m.venue?" · "+m.venue:""} · classificação atual`;
+          h+=bracketBox(slot.home,slot.away,null,null,"scheduled",meta,favH,favA);
+        }
+        if(i%2===1 && i<computed.length-1) h+=connector();
       });
+    } else {
+      const real=(KO_MATCHES||[]).filter(m=>m.round===key)
+        .sort((a,b)=>new Date(a.iso||0)-new Date(b.iso||0));
+
+      if(real.length){
+        // Jogos reais já confirmados pela ESPN — mostra com nomes e placares de verdade
+        real.forEach((m,i)=>{
+          const {time,date}=m.brTime?localTime(m.brTime,m.date):{time:"",date:m.date||""};
+          const favH=isFav(m.home), favA=isFav(m.away);
+          let status, meta;
+          if(m.done){ status="done"; meta=`✅ ENCERRADO · ${date}`; }
+          else if(m.live){ status="live"; meta=`🔴 AO VIVO · ${m.clock||""}'`; }
+          else { status="scheduled"; meta=`⏰ ${date} · ${time}${m.venue?" · "+m.venue:""}`; }
+          h+=bracketBox(m.home,m.away,m.sh,m.sa,status,meta,favH,favA);
+          if(i%2===1 && i<real.length-1) h+=connector();
+        });
+        const remaining=Math.max(0,expected-real.length);
+        if(remaining>0){
+          h+=`<div class="bremain">+ ${remaining} confronto${remaining>1?"s":""} ainda a definir nesta fase</div>`;
+        }
+      } else {
+        // Ainda sem jogos reais nesta fase — mostra estrutura estática como referência
+        MM_STRUCTURE[key].forEach((m,i)=>{
+          const {time,date}=localTime(m.brTime,m.date);
+          const isTBD=m.t1.startsWith("V")||/^[123]º/.test(m.t1);
+          const meta=isTBD?`${label.split(" — ")[0]} · a definir`:`⏰ ${date} · ${time}${m.venue?" · "+m.venue:""}`;
+          h+=bracketBox(m.t1,m.t2,null,null,"scheduled",meta,false,false);
+          if(i%2===1 && i<MM_STRUCTURE[key].length-1) h+=connector();
+        });
+      }
     }
     h+="</div>";
     if(roundIdx<rounds.length-1){

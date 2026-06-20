@@ -1,10 +1,7 @@
 // Copa 2026 Tracker — Service Worker
 // Autor: Thiago Bartulihe
-// v4: corrige bug em que respostas com falha (ex: 404 antes de subires o
-// logo.png) ficavam presas em cache para sempre. Agora só guarda em cache
-// respostas bem-sucedidas (res.ok), e logo.png/background.jpg são
-// "network-first" como o index.html — nunca mais ficam desatualizados.
-const CACHE = "copa2026-v4";
+// v5: adiciona suporte a notificações push (funciona com a app fechada).
+const CACHE = "copa2026-v5";
 const SHELL_ASSETS = ["./icon-192.png", "./icon-512.png"];
 
 self.addEventListener("install", e => {
@@ -60,5 +57,32 @@ self.addEventListener("fetch", e => {
       }
       return res;
     }).catch(() => r))
+  );
+});
+
+// ── NOTIFICAÇÕES PUSH ────────────────────────────────────────────────────────
+// Recebido mesmo com a app completamente fechada — é o próprio sistema
+// operativo que entrega isto ao Service Worker.
+self.addEventListener("push", e => {
+  let data = {};
+  try { data = e.data.json(); } catch(err) { data = { title: "Copa 2026", body: e.data ? e.data.text() : "" }; }
+  const title = data.title || "Copa 2026";
+  const options = {
+    body: data.body || "",
+    icon: "./icon-192.png",
+    badge: "./icon-192.png",
+    tag: data.tag || "copa2026",
+    data: { url: "./" },
+  };
+  e.waitUntil(self.registration.showNotification(title, options));
+});
+
+self.addEventListener("notificationclick", e => {
+  e.notification.close();
+  e.waitUntil(
+    self.clients.matchAll({ type: "window", includeUncontrolled: true }).then(list => {
+      for (const c of list) { if ("focus" in c) return c.focus(); }
+      if (self.clients.openWindow) return self.clients.openWindow("./");
+    })
   );
 });
