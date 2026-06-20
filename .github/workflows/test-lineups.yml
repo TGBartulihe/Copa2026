@@ -8,64 +8,35 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
         with:
           node-version: 20
 
-      - run: npm install --no-audit --no-fund
-
-      - name: Testar lineups API-Football
+      - name: Diagnosticar API-Football
         env:
           API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: |
           node -e "
+          async function get(url){
+            const r=await fetch(url,{headers:{'x-apisports-key':process.env.API_FOOTBALL_KEY}});
+            const data=await r.json();
+            console.log('\\nURL:',url);
+            console.log('status:',r.status);
+            console.log('errors:',JSON.stringify(data.errors));
+            console.log('results:',data.results);
+            console.log(JSON.stringify((data.response||[]).slice(0,20).map(x=>({
+              league:x.league,
+              country:x.country,
+              seasons:x.seasons?.map(s=>s.year).slice(-5)
+            })),null,2));
+          }
+
           async function main(){
-            const key=process.env.API_FOOTBALL_KEY;
-            const headers={'x-apisports-key':key};
-
-            console.log('1) Buscar liga World Cup 2026');
-            let r=await fetch('https://v3.football.api-sports.io/leagues?name=World%20Cup&season=2026',{headers});
-            let data=await r.json();
-            console.log(JSON.stringify(data.response?.map(x=>({id:x.league.id,name:x.league.name,country:x.country.name,season:x.seasons?.[0]?.year})),null,2));
-
-            const league=data.response?.find(x=>/world cup/i.test(x.league.name) && !/women|u-?20|u-?17|qualif/i.test(x.league.name));
-            if(!league) throw new Error('Liga World Cup não encontrada');
-
-            const leagueId=league.league.id;
-            console.log('League ID:',leagueId);
-
-            console.log('2) Buscar fixtures de 2026-06-20');
-            r=await fetch('https://v3.football.api-sports.io/fixtures?league='+leagueId+'&season=2026&date=2026-06-20',{headers});
-            data=await r.json();
-
-            const fixtures=data.response||[];
-            console.log('Fixtures encontrados:',fixtures.length);
-            for(const f of fixtures){
-              console.log(f.fixture.id, f.teams.home.name, 'x', f.teams.away.name, f.fixture.status.short);
-            }
-
-            const target=fixtures.find(f=>{
-              const h=f.teams.home.name.toLowerCase();
-              const a=f.teams.away.name.toLowerCase();
-              return (h.includes('germany') && (a.includes('ivory') || a.includes('côte') || a.includes('cote')))
-                  || (a.includes('germany') && (h.includes('ivory') || h.includes('côte') || h.includes('cote')));
-            });
-
-            if(!target){
-              console.log('❌ Fixture Alemanha x Costa do Marfim não encontrado na API-Football.');
-              return;
-            }
-
-            console.log('✅ Fixture alvo:',target.fixture.id,target.teams.home.name,'x',target.teams.away.name);
-
-            console.log('3) Buscar lineups');
-            r=await fetch('https://v3.football.api-sports.io/fixtures/lineups?fixture='+target.fixture.id,{headers});
-            data=await r.json();
-
-            console.log('Lineups response count:',data.response?.length||0);
-            console.log(JSON.stringify(data.response,null,2));
+            await get('https://v3.football.api-sports.io/leagues?search=World');
+            await get('https://v3.football.api-sports.io/leagues?search=FIFA');
+            await get('https://v3.football.api-sports.io/leagues?country=World');
+            await get('https://v3.football.api-sports.io/leagues?season=2026');
+            await get('https://v3.football.api-sports.io/fixtures?date=2026-06-20');
           }
 
           main().catch(e=>{console.error(e);process.exit(1);});
