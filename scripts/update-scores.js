@@ -412,10 +412,36 @@ async function checkAndNotify(allMatches){
   if (sentAny) console.log("✅ Ciclo de notificações concluído.");
 }
 
+// ── EXECUÇÃO RÁPIDA vs COMPLETA ──────────────────────────────────────────────
+// Agora que o Cloudflare dispara o robô a cada minuto, buscar a janela
+// completa (-5 a +12 dias = 18 chamadas) em TODAS as execuções seria ~25 mil
+// pedidos/dia à ESPN — arriscado para uma API não documentada. Por isso:
+// a cada minuto só verifica ontem/hoje/amanhã (o que importa para deteção
+// rápida de golo); a janela completa só corre a cada ~14 minutos.
+const FULL_REFRESH_STATE_FILE = "full-refresh-state.json";
+const FULL_REFRESH_INTERVAL_MIN = 14;
+
+function shouldDoFullRefresh(){
+  const state = loadJSON(FULL_REFRESH_STATE_FILE, null);
+  if (!state || !state.lastFullRefresh) return true;
+  const elapsedMin = (Date.now() - new Date(state.lastFullRefresh).getTime()) / 60000;
+  return elapsedMin >= FULL_REFRESH_INTERVAL_MIN;
+}
+function markFullRefreshDone(){
+  saveJSON(FULL_REFRESH_STATE_FILE, { lastFullRefresh: new Date().toISOString() });
+}
+
 async function main(){
-  console.log("Buscando janela de jogos (-5 a +12 dias)...");
-  const offsets = [];
-  for (let o = -5; o <= 12; o++) offsets.push(o);
+  const doFull = shouldDoFullRefresh();
+  let offsets;
+  if (doFull){
+    console.log("Execução COMPLETA: buscando janela de jogos (-5 a +12 dias)...");
+    offsets = [];
+    for (let o = -5; o <= 12; o++) offsets.push(o);
+  } else {
+    console.log("Execução RÁPIDA: só ontem/hoje/amanhã (deteção em tempo real).");
+    offsets = [-1, 0, 1];
+  }
 
   const boards = await Promise.all(
     offsets.map(o => fetchScoreboard(dateStr(o)).catch(e => { console.warn(String(e)); return { events: [] }; }))
@@ -465,11 +491,35 @@ async function main(){
     }
   }
 
-  const out = {
-    generatedAt: new Date().toISOString(),
-    matches: Object.values(matches),
-    knockout
-  };
+  let out;
+  if (doFull){
+    // Execução completa — o resultado cobre toda a janela, não precisa de fundir
+    out = {
+      generatedAt: new Date().toISOString(),
+      matches: Object.values(matches),
+      knockout
+    };
+  } else {
+    // Execução rápida — só ontem/hoje/amanhã foram buscados agora. Funde com
+    // o que já existia em results.json, para não perder jogos de outras
+    // datas que só a execução completa cobre.
+    const existing = loadJSON("results.json", { matches: [], knockout: [] });
+    const mergedMatches = {};
+    (existing.matches || []).forEach(m => { mergedMatches[`${m.home}|${m.away}`] = m; });
+    Object.entries(matches).forEach(([key, m]) => { mergedMatches[key] = m; });
+
+    let mergedKnockout = existing.knockout || [];
+    knockout.forEach(k => {
+      const idx = mergedKnockout.findIndex(e => e.round === k.round && e.home === k.home && e.away === k.away);
+      if (idx >= 0) mergedKnockout[idx] = k; else mergedKnockout.push(k);
+    });
+
+    out = {
+      generatedAt: new Date().toISOString(),
+      matches: Object.values(mergedMatches),
+      knockout: mergedKnockout
+    };
+  }
 
   // Escalações — só para jogos de grupo AO VIVO agora (mata-mata fica para depois)
   const liveNow = out.matches.filter(m => m.live).map(m => ({home:m.home, away:m.away}));
@@ -484,9 +534,12 @@ async function main(){
   }
 
   fs.writeFileSync("results.json", JSON.stringify(out, null, 2));
-  console.log(`✅ results.json escrito com ${out.matches.length} jogos de grupo e ${knockout.length} de mata-mata.`);
+  console.log(`✅ results.json escrito com ${out.matches.length} jogos de grupo e ${knockout.length} de mata-mata. (${doFull ? "completa" : "rápida"})`);
 
   await checkAndNotify(out.matches);
+  if (doFull) markFullRefreshDone();
 }
 
 main().catch(e => { console.error("Erro fatal:", e); process.exit(1); });
+
+
