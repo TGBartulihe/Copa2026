@@ -15,7 +15,7 @@ async function main() {
       sub.subscription || sub,
       JSON.stringify({
         title: "🍿 Teste Copa 2026",
-        body: "Se chegou no bolso, está funcionando.",
+        body: "P! Se apitou no bolso, está funcionando. :D",
         url: "./"
       })
     );
