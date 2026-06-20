@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T21:49:24.161Z",
+  "generatedAt": "2026-06-20T21:50:26.824Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -7220,133 +7220,133 @@
           "min": "90'+6'",
           "icon": "🔄",
           "txt": "Substituição, EUA. Giovanni Reyna entra em campo para substituir Weston McKennie.",
-          "sub": "United States"
+          "sub": "🇺🇸"
         },
         {
           "min": "90'+6'",
           "icon": "🔄",
           "txt": "Substituição, EUA. Haji Wright substitui Folarin Balogun.",
-          "sub": "United States"
+          "sub": "🇺🇸"
         },
         {
           "min": "90'+3'",
           "icon": "🟨",
           "txt": "Chris Richards (EUA) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "United States"
+          "sub": "🇺🇸"
         },
         {
           "min": "89'",
           "icon": "🟨",
           "txt": "Jacob Italiano (Austrália) recebe cartão amarelo.",
-          "sub": "Australia"
+          "sub": "🇦🇺"
         },
         {
           "min": "89'",
           "icon": "🟨",
           "txt": "Folarin Balogun (EUA) recebe cartão amarelo.",
-          "sub": "United States"
+          "sub": "🇺🇸"
         },
         {
           "min": "88'",
           "icon": "🟨",
           "txt": "Harry Souttar (Austrália) recebe cartão amarelo.",
-          "sub": "Australia"
+          "sub": "🇦🇺"
         },
         {
           "min": "80'",
           "icon": "🔄",
           "txt": "Substituição, EUA. Entra Auston Trusty para o lugar de Antonee Robinson.",
-          "sub": "United States"
+          "sub": "🇺🇸"
         },
         {
           "min": "80'",
           "icon": "🔄",
           "txt": "Substituição, EUA. Entra Joe Scally para o lugar de Sergiño Dest.",
-          "sub": "United States"
+          "sub": "🇺🇸"
         },
         {
           "min": "78'",
           "icon": "🔄",
           "txt": "Substituição, Austrália. Entra Jackson Irvine substituindo Paul Okon-Engstler.",
-          "sub": "Australia"
+          "sub": "🇦🇺"
         },
         {
           "min": "74'",
           "icon": "🔄",
           "txt": "Substituição, EUA. Entra Sebastian Berhalter para o lugar de Ricardo Pepi.",
-          "sub": "United States"
+          "sub": "🇺🇸"
         },
         {
           "min": "61'",
           "icon": "🔄",
           "txt": "Substituição, Austrália. Cristian Volpato entra em campo com Mathew Leckie devido a uma lesão.",
-          "sub": "Australia"
+          "sub": "🇦🇺"
         },
         {
           "min": "56'",
           "icon": "🟨",
           "txt": "Antonee Robinson (EUA) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "United States"
+          "sub": "🇺🇸"
         },
         {
           "min": "45'",
           "icon": "•",
           "txt": "Início do segundo tempo EUA 2, Austrália 0.",
-          "sub": ""
+          "sub": "🏳️"
         },
         {
           "min": "45'",
           "icon": "🔄",
           "txt": "Substituição, Austrália. Nestory Irankunda substitui Mohamed Touré.",
-          "sub": "Australia"
+          "sub": "🇦🇺"
         },
         {
           "min": "45'",
           "icon": "🔄",
           "txt": "Substituição, Austrália. Entra Connor Metcalfe para o lugar de Nishan Velupillay.",
-          "sub": "Australia"
+          "sub": "🇦🇺"
         },
         {
           "min": "45'",
           "icon": "🔄",
           "txt": "Substituição, Austrália. Jason Geria substitui Cameron Burgess.",
-          "sub": "Australia"
+          "sub": "🇦🇺"
         },
         {
           "min": "45'+8'",
           "icon": "•",
           "txt": "Fim do primeiro tempo, EUA 2, Austrália 0.",
-          "sub": ""
+          "sub": "🏳️"
         },
         {
           "min": "43'",
           "icon": "⚽",
           "txt": "Alex Freeman (EUA) de cabeça de muito perto no Escanteio inferior direito após bola parada. Gol concedido após revisão do VAR.",
-          "sub": "United States"
+          "sub": "🇺🇸"
         },
         {
           "min": "32'",
           "icon": "🟨",
           "txt": "Alessandro Circati (Austrália) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Australia"
+          "sub": "🇦🇺"
         },
         {
           "min": "16'",
           "icon": "🟨",
           "txt": "Jordan Bos (Austrália) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Australia"
+          "sub": "🇦🇺"
         },
         {
           "min": "11'",
           "icon": "⚽ OG",
           "txt": "Gol contra de Cameron Burgess, Austrália. EUA 1, Austrália 0.",
-          "sub": "United States"
+          "sub": "🇺🇸"
         },
         {
           "min": "",
           "icon": "•",
           "txt": "Começa o primeiro tempo.",
-          "sub": ""
+          "sub": "🏳️"
         }
       ],
       "lineups": {
@@ -7480,7 +7480,8 @@
               "row": 3
             }
           ],
-          "formation": "3-5-2"
+          "formation": "3-5-2",
+          "dotColor": "#d42339"
         },
         "away": {
           "starters": [
@@ -7617,7 +7618,8 @@
               "row": 3
             }
           ],
-          "formation": "5-4-1"
+          "formation": "5-4-1",
+          "dotColor": "#FFCD00"
         }
       },
       "stats": {
@@ -7700,79 +7702,79 @@
           "min": "90'",
           "icon": "🔄",
           "txt": "Substituição, Marrocos. Entra Samir El Mourabet substituindo Azzedine Ounahi.",
-          "sub": "Morocco"
+          "sub": "🇲🇦"
         },
         {
           "min": "89'",
           "icon": "🔄",
           "txt": "Substituição, Escócia. Ross Stewart substitui John McGinn.",
-          "sub": "Scotland"
+          "sub": "🏳️"
         },
         {
           "min": "89'",
           "icon": "🔄",
           "txt": "Substituição, Escócia. Anthony Ralston substitui Nathan Patterson.",
-          "sub": "Scotland"
+          "sub": "🏳️"
         },
         {
           "min": "84'",
           "icon": "🔄",
           "txt": "Substituição, Marrocos. Ayoube Amaimouni-Echghouyab substituiu Brahim Díaz.",
-          "sub": "Morocco"
+          "sub": "🇲🇦"
         },
         {
           "min": "84'",
           "icon": "🔄",
           "txt": "Substituição, Marrocos. Entra Chemsdine Talbi substituindo Bilal El Khannouss.",
-          "sub": "Morocco"
+          "sub": "🇲🇦"
         },
         {
           "min": "84'",
           "icon": "🔄",
           "txt": "Substituição, Marrocos. Entra Soufiane Rahimi para o lugar de Ismael Saibari.",
-          "sub": "Morocco"
+          "sub": "🇲🇦"
         },
         {
           "min": "71'",
           "icon": "🔄",
           "txt": "Substituição, Escócia. Kenny McLean substitui Ryan Christie.",
-          "sub": "Scotland"
+          "sub": "🏳️"
         },
         {
           "min": "71'",
           "icon": "🔄",
           "txt": "Substituição, Escócia. Lyndon Dykes substitui Ché Adams.",
-          "sub": "Scotland"
+          "sub": "🏳️"
         },
         {
           "min": "65'",
           "icon": "🟨",
           "txt": "Andy Robertson (Escócia) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Scotland"
+          "sub": "🏳️"
         },
         {
           "min": "60'",
           "icon": "🔄",
           "txt": "Substituição, Escócia. Ben Gannon-Doak entra no lugar de Kieran Tierney devido a uma lesão.",
-          "sub": "Scotland"
+          "sub": "🏳️"
         },
         {
           "min": "23'",
           "icon": "🟨",
           "txt": "Issa Diop (Marrocos) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Morocco"
+          "sub": "🇲🇦"
         },
         {
           "min": "2'",
           "icon": "⚽",
           "txt": "Ismael Saibari (Marrocos) finalização com o pé direito do lado direito da área acertando no centro do gol. Assistência de Brahim Díaz com um passe em profundidade.",
-          "sub": "Morocco"
+          "sub": "🇲🇦"
         },
         {
           "min": "",
           "icon": "•",
           "txt": "Começa o primeiro tempo.",
-          "sub": ""
+          "sub": "🏳️"
         }
       ],
       "lineups": {
@@ -7911,7 +7913,8 @@
               "row": 3
             }
           ],
-          "formation": "4-4-1-1"
+          "formation": "4-4-1-1",
+          "dotColor": "#1a2d69"
         },
         "away": {
           "starters": [
@@ -8048,7 +8051,8 @@
               "row": 3
             }
           ],
-          "formation": "4-2-3-1"
+          "formation": "4-2-3-1",
+          "dotColor": "#df2027"
         }
       },
       "stats": {
@@ -8131,115 +8135,115 @@
           "min": "90'+6'",
           "icon": "•",
           "txt": "Fim do segundo tempo, Brasil 3, Haiti 0.",
-          "sub": ""
+          "sub": "🏳️"
         },
         {
           "min": "81'",
           "icon": "🔄",
           "txt": "Substituição, Haiti. Derrick Etienne entra em campo e entra Jean-Ricner Bellegarde.",
-          "sub": "Haiti"
+          "sub": "🇭🇹"
         },
         {
           "min": "81'",
           "icon": "🔄",
           "txt": "Substituição, Brasil. Éderson Silva entra em campo com Bruno Guimarães.",
-          "sub": "Brazil"
+          "sub": "🇧🇷"
         },
         {
           "min": "81'",
           "icon": "🔄",
           "txt": "Substituição, Brasil. Entra Danilo Santos para o lugar de Vinícius Júnior.",
-          "sub": "Brazil"
+          "sub": "🇧🇷"
         },
         {
           "min": "72'",
           "icon": "🟨",
           "txt": "Danley Jean Jacques (Haiti) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Haiti"
+          "sub": "🇭🇹"
         },
         {
           "min": "71'",
           "icon": "🔄",
           "txt": "Substituição, Haiti. Lenny Joseph substitui Ruben Providence.",
-          "sub": "Haiti"
+          "sub": "🇭🇹"
         },
         {
           "min": "65'",
           "icon": "🟨",
           "txt": "Douglas Santos (Brasil) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Brazil"
+          "sub": "🇧🇷"
         },
         {
           "min": "64'",
           "icon": "🔄",
           "txt": "Substituição, Brasil. Endrick entra no lugar de Matheus Cunha.",
-          "sub": "Brazil"
+          "sub": "🇧🇷"
         },
         {
           "min": "64'",
           "icon": "🔄",
           "txt": "Substituição, Brasil. Entra Gabriel Martinelli para o lugar de Lucas Paquetá.",
-          "sub": "Brazil"
+          "sub": "🇧🇷"
         },
         {
           "min": "62'",
           "icon": "🔄",
           "txt": "Substituição, Haiti. Entra Louicius Deedson substituindo Josué Casimir.",
-          "sub": "Haiti"
+          "sub": "🇭🇹"
         },
         {
           "min": "45'",
           "icon": "•",
           "txt": "Começo do segundo tempo Brasil 3, Haiti 0.",
-          "sub": ""
+          "sub": "🏳️"
         },
         {
           "min": "45'",
           "icon": "🔄",
           "txt": "Substituição, Haiti. Entra Wilson Isidor substituindo Frantzdy Pierrot.",
-          "sub": "Haiti"
+          "sub": "🇭🇹"
         },
         {
           "min": "45'",
           "icon": "🔄",
           "txt": "Substituição, Haiti. Dominique Simon substitui Carlens Arcus.",
-          "sub": "Haiti"
+          "sub": "🇭🇹"
         },
         {
           "min": "45'+4'",
           "icon": "🟨",
           "txt": "Frantzdy Pierrot (Haiti) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Haiti"
+          "sub": "🇭🇹"
         },
         {
           "min": "45'+3'",
           "icon": "⚽",
           "txt": "Vinícius Júnior (Brasil) finalização com o pé direito do lado esquerdo da área para o centro do gol. Assistência de Lucas Paquetá com um passe em profundidade.",
-          "sub": "Brazil"
+          "sub": "🇧🇷"
         },
         {
           "min": "40'",
           "icon": "🔄",
           "txt": "Substituição, Brasil. Rayan substitui Raphinha por lesão.",
-          "sub": "Brazil"
+          "sub": "🇧🇷"
         },
         {
           "min": "36'",
           "icon": "⚽",
           "txt": "Matheus Cunha (Brasil) finalização com o pé esquerdo do lado esquerdo da área ao ângulo superior esquerdo. Assistência de Vinícius Júnior com um passe em profundidade após um contra-ataque.",
-          "sub": "Brazil"
+          "sub": "🇧🇷"
         },
         {
           "min": "23'",
           "icon": "⚽",
           "txt": "Matheus Cunha (Brasil) finalização com o pé esquerdo do meio da área no Escanteio inferior esquerdo após um contra-ataque.",
-          "sub": "Brazil"
+          "sub": "🇧🇷"
         },
         {
           "min": "4'",
           "icon": "🟨",
           "txt": "Carlens Arcus (Haiti) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Haiti"
+          "sub": "🇭🇹"
         }
       ],
       "lineups": {
@@ -8373,7 +8377,8 @@
               "row": 3
             }
           ],
-          "formation": "4-3-3"
+          "formation": "4-3-3",
+          "dotColor": "#193375"
         },
         "away": {
           "starters": [
@@ -8510,7 +8515,8 @@
               "row": 3
             }
           ],
-          "formation": "5-4-1"
+          "formation": "5-4-1",
+          "dotColor": "#0033a0"
         }
       },
       "stats": {
@@ -8593,103 +8599,103 @@
           "min": "90'+9'",
           "icon": "•",
           "txt": "Fim do segundo tempo, Türkiye 0, Paraguai 1.",
-          "sub": ""
+          "sub": "🏳️"
         },
         {
           "min": "90'+2'",
           "icon": "🔄",
           "txt": "Substituição, Paraguai. José Canale entra no lugar de Matías Galarza devido a uma lesão.",
-          "sub": "Paraguay"
+          "sub": "🇵🇾"
         },
         {
           "min": "90'+2'",
           "icon": "🔄",
           "txt": "Substituição, Paraguai. Gabriel Ávalos entra no lugar de Julio Enciso devido a uma lesão.",
-          "sub": "Paraguay"
+          "sub": "🇵🇾"
         },
         {
           "min": "86'",
           "icon": "🔄",
           "txt": "Substituição, Turkiye. Entra Orkun Kökçü para o lugar de Abdülkerim Bardakci.",
-          "sub": "Türkiye"
+          "sub": "🇹🇷"
         },
         {
           "min": "81'",
           "icon": "🔄",
           "txt": "Substituição, Paraguai. Alexandro Maidana substitui Juan José Cáceres.",
-          "sub": "Paraguay"
+          "sub": "🇵🇾"
         },
         {
           "min": "71'",
           "icon": "🟨",
           "txt": "Eren Elmali (Türkiye) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Türkiye"
+          "sub": "🇹🇷"
         },
         {
           "min": "70'",
           "icon": "🔄",
           "txt": "Substituição, Turkiye. Entra Eren Elmali substituindo Ferdi Kadioglu.",
-          "sub": "Türkiye"
+          "sub": "🇹🇷"
         },
         {
           "min": "67'",
           "icon": "🔄",
           "txt": "Substituição, Paraguai. Gustavo Velázquez substituiu Diego Gómez devido a uma lesão.",
-          "sub": "Paraguay"
+          "sub": "🇵🇾"
         },
         {
           "min": "60'",
           "icon": "🔄",
           "txt": "Substituição, Turkiye. Deniz Gül entra em campo com Yunus Akgün.",
-          "sub": "Türkiye"
+          "sub": "🇹🇷"
         },
         {
           "min": "60'",
           "icon": "🔄",
           "txt": "Substituição, Turkiye. Can Uzun substitui Ismail Yüksek.",
-          "sub": "Türkiye"
+          "sub": "🇹🇷"
         },
         {
           "min": "45'",
           "icon": "•",
           "txt": "Início do segundo tempo Türkiye 0, Paraguai 1.",
-          "sub": ""
+          "sub": "🏳️"
         },
         {
           "min": "45'",
           "icon": "🔄",
           "txt": "Substituição, Turkiye. Entra Baris Alper Yilmaz para o lugar de Kerem Aktürkoglu.",
-          "sub": "Türkiye"
+          "sub": "🇹🇷"
         },
         {
           "min": "45'",
           "icon": "🔄",
           "txt": "Substituição, Paraguai. Entra Damián Bobadilla para o lugar de Isidro Pitta.",
-          "sub": "Paraguay"
+          "sub": "🇵🇾"
         },
         {
           "min": "45'+11'",
           "icon": "•",
           "txt": "Fim do primeiro tempo, Türkiye 0, Paraguai 1.",
-          "sub": ""
+          "sub": "🏳️"
         },
         {
           "min": "45'+3'",
           "icon": "🟥",
           "txt": "Miguel Almirón (Paraguai) recebe cartão vermelho.",
-          "sub": "Paraguay"
+          "sub": "🇵🇾"
         },
         {
           "min": "4'",
           "icon": "🟨",
           "txt": "Matías Galarza (Paraguai) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Paraguay"
+          "sub": "🇵🇾"
         },
         {
           "min": "2'",
           "icon": "⚽",
           "txt": "Matías Galarza (Paraguai) finalização com o pé esquerdo de fora da área no Escanteio inferior direito. Assistência de Júlio Enciso.",
-          "sub": "Paraguay"
+          "sub": "🇵🇾"
         }
       ],
       "lineups": {
@@ -8828,7 +8834,8 @@
               "row": 3
             }
           ],
-          "formation": "4-2-3-1"
+          "formation": "4-2-3-1",
+          "dotColor": "#ef3340"
         },
         "away": {
           "starters": [
@@ -8965,7 +8972,8 @@
               "row": 3
             }
           ],
-          "formation": "4-4-2"
+          "formation": "4-4-2",
+          "dotColor": "#ea2300"
         }
       },
       "stats": {
@@ -9048,133 +9056,133 @@
           "min": "90'+6'",
           "icon": "•",
           "txt": "Fim do segundo tempo, Holanda 5, Suécia 1.",
-          "sub": ""
+          "sub": "🏳️"
         },
         {
           "min": "90'+3'",
           "icon": "🔄",
           "txt": "Substituição, Suécia. Entra Elliot Stroud para o lugar de Gabriel Gudmundsson.",
-          "sub": "Sweden"
+          "sub": "🇸🇪"
         },
         {
           "min": "90'",
           "icon": "🔄",
           "txt": "Substituição, Holanda. Noa Lang substitui Cody Gakpo.",
-          "sub": "Netherlands"
+          "sub": "🇳🇱"
         },
         {
           "min": "89'",
           "icon": "⚽",
           "txt": "Crysencio Summerville (Holanda) finalização com o pé direito de fora da área no Escanteio inferior esquerdo. Assistência de Memphis Depay.",
-          "sub": "Netherlands"
+          "sub": "🇳🇱"
         },
         {
           "min": "80'",
           "icon": "🟨",
           "txt": "Lucas Bergvall (Suécia) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Sweden"
+          "sub": "🇸🇪"
         },
         {
           "min": "79'",
           "icon": "🔄",
           "txt": "Substituição, Suécia. Taha Ali entra em campo com Yasin Ayari.",
-          "sub": "Sweden"
+          "sub": "🇸🇪"
         },
         {
           "min": "75'",
           "icon": "🟨",
           "txt": "Yasin Ayari (Suécia) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Sweden"
+          "sub": "🇸🇪"
         },
         {
           "min": "72'",
           "icon": "🔄",
           "txt": "Substituição, Holanda. Entra Memphis Depay para o lugar de Brian Brobbey.",
-          "sub": "Netherlands"
+          "sub": "🇳🇱"
         },
         {
           "min": "59'",
           "icon": "🔄",
           "txt": "Substituição, Holanda. Entra Guus Til substituindo Tijjani Reijnders.",
-          "sub": "Netherlands"
+          "sub": "🇳🇱"
         },
         {
           "min": "59'",
           "icon": "🔄",
           "txt": "Substituição, Holanda. Entra Teun Koopmeiners substituindo Frenkie de Jong.",
-          "sub": "Netherlands"
+          "sub": "🇳🇱"
         },
         {
           "min": "59'",
           "icon": "⚽",
           "txt": "Anthony Elanga (Suécia) finalização com o pé esquerdo do meio da área no Escanteio inferior esquerdo. Assistência de Alexander Isak com um passe em profundidade após um contra-ataque.",
-          "sub": "Sweden"
+          "sub": "🇸🇪"
         },
         {
           "min": "56'",
           "icon": "🔄",
           "txt": "Substituição, Suécia. Entra Lucas Bergvall para o lugar de Benjamin Nygren.",
-          "sub": "Sweden"
+          "sub": "🇸🇪"
         },
         {
           "min": "56'",
           "icon": "🔄",
           "txt": "Substituição, Suécia. Entra Besfort Zeneli substituindo Jesper Karlström.",
-          "sub": "Sweden"
+          "sub": "🇸🇪"
         },
         {
           "min": "55'",
           "icon": "🔄",
           "txt": "Substituição, Suécia. Anthony Elanga entra em campo e entra Alexander Bernhardsson.",
-          "sub": "Sweden"
+          "sub": "🇸🇪"
         },
         {
           "min": "54'",
           "icon": "⚽",
           "txt": "Cody Gakpo (Holanda) finalização com o pé direito do lado esquerdo da área no Escanteio inferior esquerdo. Assistência de Crysencio Summerville depois de um contra-ataque.",
-          "sub": "Netherlands"
+          "sub": "🇳🇱"
         },
         {
           "min": "53'",
           "icon": "🟨",
           "txt": "Gabriel Gudmundsson (Suécia) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Sweden"
+          "sub": "🇸🇪"
         },
         {
           "min": "47'",
           "icon": "⚽",
           "txt": "Cody Gakpo (Holanda) remate com o pé esquerdo em frente à baliza ao centro da baliza. Assistência de Denzel Dumfries com um cruzamento.",
-          "sub": "Netherlands"
+          "sub": "🇳🇱"
         },
         {
           "min": "45'",
           "icon": "•",
           "txt": "Início do segundo tempo Holanda 2, Suécia 0.",
-          "sub": ""
+          "sub": "🏳️"
         },
         {
           "min": "45'",
           "icon": "🔄",
           "txt": "Substituição, Holanda. Entra Crysencio Summerville substituindo Donyell Malen.",
-          "sub": "Netherlands"
+          "sub": "🇳🇱"
         },
         {
           "min": "17'",
           "icon": "⚽",
           "txt": "Brian Brobbey (Holanda) finalização com o pé direito de muito perto no Escanteio inferior esquerdo. Assistência de Denzel Dumfries com um cruzamento.",
-          "sub": "Netherlands"
+          "sub": "🇳🇱"
         },
         {
           "min": "5'",
           "icon": "⚽",
           "txt": "Brian Brobbey (Holanda) remate com o pé direito em frente à baliza ao centro da baliza. Assistência de Cody Gakpo com um cruzamento.",
-          "sub": "Netherlands"
+          "sub": "🇳🇱"
         },
         {
           "min": "",
           "icon": "•",
           "txt": "Começa o primeiro tempo.",
-          "sub": ""
+          "sub": "🏳️"
         }
       ],
       "lineups": {
@@ -9308,7 +9316,8 @@
               "row": 3
             }
           ],
-          "formation": "4-3-3"
+          "formation": "4-3-3",
+          "dotColor": "#fb5d00"
         },
         "away": {
           "starters": [
@@ -9445,7 +9454,8 @@
               "row": 3
             }
           ],
-          "formation": "3-1-4-2"
+          "formation": "3-1-4-2",
+          "dotColor": "#fecb00"
         }
       },
       "stats": {
@@ -9522,79 +9532,79 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "86'",
+      "clock": "87'",
       "events": [
         {
           "min": "85'",
           "icon": "🔄",
           "txt": "Substituição, Alemanha. Entra Leon Goretzka para o lugar de Kai Havertz.",
-          "sub": "Germany"
+          "sub": "🇩🇪"
         },
         {
           "min": "85'",
           "icon": "🔄",
           "txt": "Substituição, Costa do Marfim. Entra Nicolas Pépé para o lugar de Yan Diomande.",
-          "sub": "Ivory Coast"
+          "sub": "🇨🇮"
         },
         {
           "min": "82'",
           "icon": "🔄",
           "txt": "Substituição, Costa do Marfim. Guéla Doué entra em campo com Wilfried Singo devido a uma lesão.",
-          "sub": "Ivory Coast"
+          "sub": "🇨🇮"
         },
         {
           "min": "75'",
           "icon": "🔄",
           "txt": "Substituição, Costa do Marfim. Entra Simon Adingra para o lugar de Amad Diallo.",
-          "sub": "Ivory Coast"
+          "sub": "🇨🇮"
         },
         {
           "min": "75'",
           "icon": "🔄",
           "txt": "Substituição, Costa do Marfim. Entra Seko Fofana substituindo Ibrahim Sangaré.",
-          "sub": "Ivory Coast"
+          "sub": "🇨🇮"
         },
         {
           "min": "75'",
           "icon": "🔄",
           "txt": "Substituição, Costa do Marfim. Evann Guessand substitui Ange-Yoan Bonny.",
-          "sub": "Ivory Coast"
+          "sub": "🇨🇮"
         },
         {
           "min": "68'",
           "icon": "⚽",
           "txt": "Deniz Undav (Alemanha) finalização com o pé esquerdo de muito perto acertando no centro do gol. Assistência de Nadiem Amiri com um cruzamento.",
-          "sub": "Germany"
+          "sub": "🇩🇪"
         },
         {
           "min": "60'",
           "icon": "🔄",
           "txt": "Substituição, Alemanha. Nadiem Amiri entra em campo Aleksandar Pavlovic.",
-          "sub": "Germany"
+          "sub": "🇩🇪"
         },
         {
           "min": "60'",
           "icon": "🔄",
           "txt": "Substituição, Alemanha. Deniz Undav entra em campo e entra Jamal Musiala.",
-          "sub": "Germany"
+          "sub": "🇩🇪"
         },
         {
           "min": "60'",
           "icon": "🔄",
           "txt": "Substituição, Alemanha. Entra Jamie Leweling para o lugar de Leroy Sané.",
-          "sub": "Germany"
+          "sub": "🇩🇪"
         },
         {
           "min": "45'",
           "icon": "🔄",
           "txt": "Substituição, Alemanha. Antonio Rüdiger entra em campo com Nico Schlotterbeck devido a uma lesão.",
-          "sub": "Germany"
+          "sub": "🇩🇪"
         },
         {
           "min": "30'",
           "icon": "⚽",
           "txt": "Franck Kessie (Costa do Marfim) finalização com o pé direito do meio da área no Escanteio inferior esquerdo.",
-          "sub": "Ivory Coast"
+          "sub": "🇨🇮"
         }
       ],
       "lineups": {
@@ -9733,7 +9743,8 @@
               "row": 3
             }
           ],
-          "formation": "4-2-3-1"
+          "formation": "4-2-3-1",
+          "dotColor": "#00CED1"
         },
         "away": {
           "starters": [
@@ -9870,7 +9881,8 @@
               "row": 3
             }
           ],
-          "formation": "4-1-4-1"
+          "formation": "4-1-4-1",
+          "dotColor": "#FF8200"
         }
       },
       "stats": {
@@ -9881,14 +9893,14 @@
           "offsides": "0",
           "wonCorners": "8",
           "saves": "1",
-          "possessionPct": "58.6",
+          "possessionPct": "58.1",
           "totalShots": "13",
           "shotsOnTarget": "4",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "487",
-          "totalPasses": "549",
+          "accuratePasses": "489",
+          "totalPasses": "551",
           "passPct": "0.9",
           "accurateCrosses": "5",
           "totalCrosses": "17",
@@ -9897,34 +9909,34 @@
           "accurateLongBalls": "16",
           "longballPct": "0.6",
           "blockedShots": "4",
-          "effectiveTackles": "15",
-          "totalTackles": "22",
+          "effectiveTackles": "16",
+          "totalTackles": "23",
           "tacklePct": "0.7",
           "interceptions": "6",
           "effectiveClearance": "15",
           "totalClearance": "15"
         },
         "away": {
-          "foulsCommitted": "5",
+          "foulsCommitted": "6",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "3",
-          "saves": "2",
-          "possessionPct": "41.4",
+          "saves": "3",
+          "possessionPct": "41.9",
           "totalShots": "9",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "340",
-          "totalPasses": "392",
+          "accuratePasses": "348",
+          "totalPasses": "401",
           "passPct": "0.9",
           "accurateCrosses": "5",
           "totalCrosses": "9",
           "crossPct": "0.6",
-          "totalLongBalls": "48",
-          "accurateLongBalls": "24",
+          "totalLongBalls": "49",
+          "accurateLongBalls": "25",
           "longballPct": "0.5",
           "blockedShots": "5",
           "effectiveTackles": "11",
