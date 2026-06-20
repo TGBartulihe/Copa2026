@@ -1,0 +1,25 @@
+name: Test ESPN Rosters
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Inspect ESPN Rosters
+        run: |
+          node -e "
+          async function main(){
+            const eventId='760448';
+            const url='https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event='+eventId;
+            const data=await fetch(url).then(r=>r.json());
+
+            console.log('HAS ROSTERS:', !!data.rosters);
+            console.log('ROSTERS TYPE:', Array.isArray(data.rosters) ? 'array' : typeof data.rosters);
+            console.log(JSON.stringify(data.rosters,null,2).substring(0,60000));
+          }
+
+          main().catch(e=>{console.error(e);process.exit(1);});
+          "
