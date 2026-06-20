@@ -171,9 +171,10 @@ function getIcon(p){
 // evento + jogador + equipa) — não traduz a prosa em inglês da ESPN, que
 // não é fiável traduzir automaticamente; em vez disso, monta a frase do
 // zero, sempre correta em português.
-function describeEventPT(icon, playerName){
+function describeEventPT(icon, playerName, assistName){
   const p = playerName || "jogador";
-  if (icon === "⚽")     return `Gol de ${p}`;
+  const a = assistName ? ` (assistência de ${assistName})` : "";
+  if (icon === "⚽")     return `Gol de ${p}${a}`;
   if (icon === "⚽ OG")  return `Gol contra de ${p}`;
   if (icon === "⚽🎯")   return `Pênalti convertido por ${p}`;
   if (icon === "🟨")     return `Cartão amarelo para ${p}`;
@@ -205,33 +206,36 @@ async function fetchScoreboard(ds){
 }
 
 // ── TRADUÇÃO — preserva o contexto real da ESPN em vez de simplificar ───────
-// Usa DeepL (free tier, 500k caracteres/mês) para traduzir a frase verdadeira
-// da ESPN. Cada frase só é traduzida UMA VEZ (fica em cache) — jogos ao vivo
-// reconsultam o mesmo evento a cada minuto, sem isto gastaria orçamento à toa.
-const DEEPL_API_KEY = process.env.DEEPL_API_KEY || "";
+// Usa o endpoint não-oficial do Google Translate (o mesmo que muitas
+// ferramentas open-source usam) — sem registo, sem chave, sem cartão.
+// Risco aceite: não é uma API suportada oficialmente, pode mudar sem aviso.
+// Cada frase só é traduzida UMA VEZ (fica em cache).
 const TRANSLATE_CACHE_FILE = "translate-cache.json";
 let translateCache = {};
 function loadTranslateCache(){ translateCache = loadJSON(TRANSLATE_CACHE_FILE, {}); }
 function saveTranslateCache(){ saveJSON(TRANSLATE_CACHE_FILE, translateCache); }
 
+// A resposta vem como array aninhado: [[["traduzido","original",...], ...], ...]
+// Pode vir em vários segmentos se o texto for longo — junta todos.
+function parseGoogleTranslateResponse(data){
+  if (!Array.isArray(data) || !Array.isArray(data[0])) return null;
+  const joined = data[0].map(seg => seg?.[0] || "").join("");
+  return joined || null;
+}
+
 async function translateToPT(text){
   if (!text) return null;
   if (translateCache[text]) return translateCache[text];
-  if (!DEEPL_API_KEY) return null;
   try{
-    const res = await fetch("https://api-free.deepl.com/v2/translate", {
-      method: "POST",
-      headers: {
-        "Authorization": `DeepL-Auth-Key ${DEEPL_API_KEY}`,
-        "Content-Type": "application/x-www-form-urlencoded",
-      },
-      body: new URLSearchParams({ text, target_lang: "PT-PT", source_lang: "EN" }),
+    const params = new URLSearchParams({
+      client: "gtx", sl: "en", tl: "pt", dt: "t", q: text,
     });
+    const res = await fetch(`https://translate.googleapis.com/translate_a/single?${params}`);
     if (!res.ok) return null;
     const data = await res.json();
-    const translated = data.translations?.[0]?.text;
+    const translated = parseGoogleTranslateResponse(data);
     if (translated) translateCache[text] = translated;
-    return translated || null;
+    return translated;
   }catch(e){ return null; }
 }
 
@@ -248,6 +252,7 @@ async function fetchEvents(eventId){
       const icon = getIcon(p);
       if (!icon) continue;
       const playerName = p.participants?.[0]?.athlete?.displayName;
+      const assistName = p.participants?.[1]?.athlete?.displayName; // se a ESPN tiver isto separado
       const teamName = p.team?.displayName || "";
       const original = p.text || p.shortText || "";
 
@@ -255,7 +260,7 @@ async function fetchEvents(eventId){
       // Se falhar (sem chave, API em baixo, sem internet), cai no template
       // simples — nunca mostra a frase em inglês.
       let txt = await translateToPT(original);
-      if (!txt) txt = describeEventPT(icon, playerName);
+      if (!txt) txt = describeEventPT(icon, playerName, assistName);
 
       results.push({ min: p.clock?.displayValue || "", icon, txt, sub: teamName });
     }
