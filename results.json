@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T19:29:24.836Z",
+  "generatedAt": "2026-06-20T19:30:37.722Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -332,7 +332,7 @@
         {
           "min": "68'",
           "icon": "🔄",
-          "txt": "Substituição, Nova Zelândia. Entra Ben Old substituindo Liberato Cacace.",
+          "txt": "Substituição, Nova Zelândia. Entra Ben Old para o lugar de Liberato Cacace.",
           "sub": "New Zealand"
         },
         {
@@ -425,7 +425,7 @@
         {
           "min": "83'",
           "icon": "🔄",
-          "txt": "Substituição, Senegal. Bamba Dieng substitui Nicolas Jackson.",
+          "txt": "Substituição, Senegal. Entra Bamba Dieng para o lugar de Nicolas Jackson.",
           "sub": "Senegal"
         },
         {
@@ -455,7 +455,7 @@
         {
           "min": "75'",
           "icon": "🔄",
-          "txt": "Substituição, Senegal. Ibrahim Mbaye substitui Ismaila Sarr.",
+          "txt": "Substituição, Senegal. Ibrahim Mbaye entra em campo para substituir Ismaïla Sarr.",
           "sub": "Senegal"
         },
         {
@@ -659,7 +659,7 @@
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, Argentina. Nahuel Molina entra em campo Gonzalo Montiel.",
+          "txt": "Substituição, Argentina. Entra Nahuel Molina para o lugar de Gonzalo Montiel.",
           "sub": "Argentina"
         },
         {
@@ -845,13 +845,13 @@
         {
           "min": "57'",
           "icon": "🔄",
-          "txt": "Substituição, RD Congo. Entra Noah Sadiki para o lugar de Ngal’ayel Mukau.",
+          "txt": "Substituição, RD Congo. Entra Noah Sadiki para o lugar de Ngal'ayel Mukau.",
           "sub": "Congo DR"
         },
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, Portugal. Francisco Conceição substitui Bernardo Silva.",
+          "txt": "Substituição, Portugal. Francisco Conceição entra no lugar de Bernardo Silva.",
           "sub": "Portugal"
         },
         {
@@ -875,7 +875,7 @@
         {
           "min": "6'",
           "icon": "⚽",
-          "txt": "João Neves (Portugal) de cabeça do meio da área no canto inferior direito. Assistência de Pedro Neto com um cruzamento.",
+          "txt": "João Neves (Portugal) de cabeça no coração da área ao lado inferior direito. Assistência de Pedro Neto com um cruzamento.",
           "sub": "Portugal"
         }
       ]
@@ -1037,7 +1037,7 @@
         {
           "min": "74'",
           "icon": "🔄",
-          "txt": "Substituição, Panamá. Entra Ismael Díaz para o lugar de José Luis Rodríguez.",
+          "txt": "Substituição, Panamá. Ismael Díaz substitui José Luis Rodríguez.",
           "sub": "Panama"
         },
         {
@@ -1118,7 +1118,7 @@
         {
           "min": "90'+3'",
           "icon": "🔄",
-          "txt": "Substituição, Colômbia. Andrés Gómez entra no lugar de Luis Díaz.",
+          "txt": "Substituição, Colômbia. Andrés Gómez substitui Luis Díaz.",
           "sub": "Colombia"
         },
         {
@@ -1310,7 +1310,7 @@
         {
           "min": "90'+3'",
           "icon": "⚽",
-          "txt": "Ermin Mahmic (Bósnia e Herzegovina) finalização com o pé direito no coração da área acertando no centro do gol após escanteio.",
+          "txt": "Ermin Mahmic (Bósnia e Herzegovina) finalização com o pé direito do meio da área acertando no centro do gol após escanteio.",
           "sub": "Bosnia-Herzegovina"
         },
         {
@@ -1580,7 +1580,7 @@
         {
           "min": "80'",
           "icon": "🔄",
-          "txt": "Substituição, México. Entra Israel Reyes substituindo Roberto Alvarado.",
+          "txt": "Substituição, México. Entra Israel Reyes para o lugar de Roberto Alvarado.",
           "sub": "Mexico"
         },
         {
@@ -2135,7 +2135,7 @@
         {
           "min": "59'",
           "icon": "🔄",
-          "txt": "Substituição, Holanda. Entra Guus Til substituindo Tijjani Reijnders.",
+          "txt": "Substituição, Holanda. Entra Guus Til para o lugar de Tijjani Reijnders.",
           "sub": "Netherlands"
         },
         {
