@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T21:34:24.211Z",
+  "generatedAt": "2026-06-20T21:35:22.109Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -9522,7 +9522,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "71'",
+      "clock": "72'",
       "events": [
         {
           "min": "68'",
@@ -9845,28 +9845,28 @@
           "offsides": "0",
           "wonCorners": "8",
           "saves": "1",
-          "possessionPct": "61.9",
+          "possessionPct": "62.1",
           "totalShots": "12",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "459",
-          "totalPasses": "511",
+          "accuratePasses": "462",
+          "totalPasses": "515",
           "passPct": "0.9",
           "accurateCrosses": "5",
           "totalCrosses": "16",
           "crossPct": "0.3",
-          "totalLongBalls": "25",
-          "accurateLongBalls": "14",
+          "totalLongBalls": "26",
+          "accurateLongBalls": "15",
           "longballPct": "0.6",
           "blockedShots": "4",
           "effectiveTackles": "12",
           "totalTackles": "17",
           "tacklePct": "0.7",
           "interceptions": "4",
-          "effectiveClearance": "10",
-          "totalClearance": "10"
+          "effectiveClearance": "11",
+          "totalClearance": "11"
         },
         "away": {
           "foulsCommitted": "5",
@@ -9875,7 +9875,7 @@
           "offsides": "1",
           "wonCorners": "2",
           "saves": "2",
-          "possessionPct": "38.1",
+          "possessionPct": "37.9",
           "totalShots": "8",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
@@ -9895,8 +9895,8 @@
           "totalTackles": "19",
           "tacklePct": "0.6",
           "interceptions": "11",
-          "effectiveClearance": "20",
-          "totalClearance": "20"
+          "effectiveClearance": "22",
+          "totalClearance": "22"
         }
       }
     },
