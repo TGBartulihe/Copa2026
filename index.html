@@ -795,9 +795,9 @@ function describeEventPT(icon,playerName){
   if(icon==="📺")return`Revisão do VAR`;
   if(icon==="🩹")return`Lesão — ${p}`;
   if(icon==="🥅")return`Pontapé livre — ${p}`;
-  if(icon==="🧤")return`Defesa do guarda-redes`;
-  if(icon==="🛡️")return`Remate bloqueado`;
-  if(icon==="🎯")return`Remate de ${p}`;
+  if(icon==="🧤")return`Defesa do goleiro`;
+  if(icon==="🛡️")return`Finalização bloqueada`;
+  if(icon==="🎯")return`Finalização de ${p}`;
   return p;
 }
 
@@ -1657,8 +1657,8 @@ function buildStatsBox(r){
   return `<div class="stats-box">
     <div class="evtitle">ESTATÍSTICAS DO JOGO</div>
     ${possBar}
-    ${statRow("Remates","totalShots")}
-    ${statRow("Remates à Baliza","shotsOnTarget")}
+    ${statRow("Finalizações","totalShots")}
+    ${statRow("Chutes a Gol","shotsOnTarget")}
     ${statRow("Cantos","wonCorners")}
     ${statRow("Faltas","foulsCommitted")}
     ${statRow("Cartões Amarelos","yellowCards")}

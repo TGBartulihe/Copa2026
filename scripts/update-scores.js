@@ -80,9 +80,9 @@ function describeEventPT(icon, playerName, assistName){
   if (icon === "📺")     return `Revisão do VAR`;
   if (icon === "🩹")     return `Lesão — ${p}`;
   if (icon === "🥅")     return `Pontapé livre — ${p}`;
-  if (icon === "🧤")     return `Defesa do guarda-redes`;
-  if (icon === "🛡️")     return `Remate bloqueado`;
-  if (icon === "🎯")     return `Remate de ${p}`;
+  if (icon === "🧤")     return `Defesa do goleiro`;
+  if (icon === "🛡️")     return `Finalização bloqueada`;
+  if (icon === "🎯")     return `Finalização de ${p}`;
   return p;
 }
 
