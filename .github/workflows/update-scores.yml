@@ -1,53 +1,50 @@
 name: Atualizar Resultados Copa 2026
 
 on:
-schedule:
-# A cada 5 minutos
-- cron: '*/5 * * * *'
-workflow_dispatch: {}
+  schedule:
+    - cron: '*/5 * * * *'
+  workflow_dispatch: {}
 
 permissions:
-contents: write
+  contents: write
 
 jobs:
-update:
-runs-on: ubuntu-latest
+  update:
+    runs-on: ubuntu-latest
 
-```
-steps:
-  - name: Checkout
-    uses: actions/checkout@v4
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
 
-  - name: Setup Node
-    uses: actions/setup-node@v4
-    with:
-      node-version: '20'
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
 
-  - name: Instalar dependências
-    run: npm install --no-audit --no-fund
+      - name: Instalar dependências
+        run: npm install --no-audit --no-fund
 
-  - name: Buscar resultados na ESPN, escalações na API-Football, enviar notificações
-    env:
-      API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
-      VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
-      VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
-      CLOUDFLARE_ADMIN_TOKEN: ${{ secrets.CLOUDFLARE_ADMIN_TOKEN }}
-    run: node scripts/update-scores.js
+      - name: Buscar resultados na ESPN, escalações na API-Football, enviar notificações
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
+          VAPID_PUBLIC_KEY: ${{ secrets.VAPID_PUBLIC_KEY }}
+          VAPID_PRIVATE_KEY: ${{ secrets.VAPID_PRIVATE_KEY }}
+          CLOUDFLARE_ADMIN_TOKEN: ${{ secrets.CLOUDFLARE_ADMIN_TOKEN }}
+        run: node scripts/update-scores.js
 
-  - name: Commit se houver mudanças
-    run: |
-      git config user.name "Copa2026 Bot"
-      git config user.email "actions@github.com"
+      - name: Commit se houver mudanças
+        run: |
+          git config user.name "Copa2026 Bot"
+          git config user.email "actions@github.com"
 
-      git add results.json
-      git add lineups-cache.json 2>/dev/null || true
-      git add notified-cache.json 2>/dev/null || true
-      git add subscriptions.json 2>/dev/null || true
+          git add results.json
+          git add lineups-cache.json 2>/dev/null || true
+          git add notified-cache.json 2>/dev/null || true
+          git add subscriptions.json 2>/dev/null || true
 
-      if git diff --staged --quiet; then
-        echo "Sem mudanças nos resultados."
-      else
-        git commit -m "Atualiza resultados $(date -u +%Y-%m-%dT%H:%M:%SZ)"
-        git push
-      fi
-```
+          if git diff --staged --quiet; then
+            echo "Sem mudanças nos resultados."
+          else
+            git commit -m "Atualiza resultados $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git push
+          fi
