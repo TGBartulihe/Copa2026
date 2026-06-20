@@ -229,6 +229,8 @@ const VAPID_PUBLIC = process.env.VAPID_PUBLIC_KEY || "";
 const VAPID_PRIVATE = process.env.VAPID_PRIVATE_KEY || "";
 const SUBS_FILE = "subscriptions.json";
 const NOTIFIED_CACHE_FILE = "notified-cache.json";
+const CLOUDFLARE_API_URL = "https://copa2026-api.tbartulihe.workers.dev";
+const CLOUDFLARE_ADMIN_TOKEN = process.env.CLOUDFLARE_ADMIN_TOKEN || "";
 
 // Edita esta lista manualmente se mudares as seleções favoritas no app
 const FAVORITE_TEAMS = ["Brasil 🇧🇷", "Croácia 🇭🇷"];
@@ -242,6 +244,37 @@ function loadJSON(file, fallback){
 }
 function saveJSON(file, data){
   try{ fs.writeFileSync(file, JSON.stringify(data, null, 2)); }catch(e){}
+}
+
+async function loadSubscriptions(){
+  if (!CLOUDFLARE_ADMIN_TOKEN) {
+    console.log("CLOUDFLARE_ADMIN_TOKEN não configurado — usando subscriptions.json como fallback.");
+    return loadJSON(SUBS_FILE, []);
+  }
+
+  try {
+    const res = await fetch(`${CLOUDFLARE_API_URL}/subscriptions`, {
+      headers: { "X-Admin-Token": CLOUDFLARE_ADMIN_TOKEN }
+    });
+
+    if (!res.ok) {
+      console.warn(`Falha ao buscar subscriptions no Cloudflare: ${res.status}`);
+      return loadJSON(SUBS_FILE, []);
+    }
+
+    const data = await res.json();
+
+    if (!data.ok || !Array.isArray(data.subscriptions)) {
+      console.warn("Resposta inválida do Cloudflare — usando subscriptions.json como fallback.");
+      return loadJSON(SUBS_FILE, []);
+    }
+
+    console.log(`Subscriptions carregadas do Cloudflare: ${data.subscriptions.length}`);
+    return data.subscriptions;
+  } catch (e) {
+    console.warn("Erro ao buscar subscriptions no Cloudflare:", e.message);
+    return loadJSON(SUBS_FILE, []);
+  }
 }
 
 async function sendPushToAll(subs, payload){
@@ -275,7 +308,7 @@ async function checkAndNotify(allMatches){
     console.log("Notificações desligadas (sem chaves VAPID configuradas).");
     return;
   }
-  let subs = loadJSON(SUBS_FILE, []);
+  let subs = await loadSubscriptions();
   if (!Array.isArray(subs) || !subs.length){
     console.log("Nenhuma subscrição registada ainda — sem notificações a enviar.");
     return;
@@ -334,7 +367,7 @@ async function checkAndNotify(allMatches){
   }
 
   saveJSON(NOTIFIED_CACHE_FILE, cache);
-  saveJSON(SUBS_FILE, subs); // grava sem as subscrições mortas, se alguma caiu
+  // Cloudflare KV é a fonte principal de subscriptions. Não sobrescrevemos subscriptions.json aqui.
   if (sentAny) console.log("✅ Ciclo de notificações concluído.");
 }
 
@@ -416,4 +449,5 @@ async function main(){
 }
 
 main().catch(e => { console.error("Erro fatal:", e); process.exit(1); });
+
 
