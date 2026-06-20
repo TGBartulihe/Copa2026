@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T21:22:23.966Z",
+  "generatedAt": "2026-06-20T21:23:26.202Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -9522,8 +9522,26 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "59'",
+      "clock": "60'",
       "events": [
+        {
+          "min": "60'",
+          "icon": "🔄",
+          "txt": "Nadiem Amiri (Alemanha) Substituição aos 60'",
+          "sub": "Germany"
+        },
+        {
+          "min": "60'",
+          "icon": "🔄",
+          "txt": "Substituição, Alemanha. Deniz Undav entra em campo e entra Jamal Musiala.",
+          "sub": "Germany"
+        },
+        {
+          "min": "60'",
+          "icon": "🔄",
+          "txt": "Substituição, Alemanha. Entra Jamie Leweling para o lugar de Leroy Sané.",
+          "sub": "Germany"
+        },
         {
           "min": "45'",
           "icon": "🔄",
@@ -9819,7 +9837,7 @@
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
-          "wonCorners": "5",
+          "wonCorners": "6",
           "saves": "1",
           "possessionPct": "60.8",
           "totalShots": "9",
@@ -9827,11 +9845,11 @@
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "390",
-          "totalPasses": "437",
+          "accuratePasses": "391",
+          "totalPasses": "438",
           "passPct": "0.9",
           "accurateCrosses": "3",
-          "totalCrosses": "11",
+          "totalCrosses": "12",
           "crossPct": "0.3",
           "totalLongBalls": "22",
           "accurateLongBalls": "13",
@@ -9867,8 +9885,8 @@
           "accurateLongBalls": "20",
           "longballPct": "0.5",
           "blockedShots": "4",
-          "effectiveTackles": "10",
-          "totalTackles": "18",
+          "effectiveTackles": "11",
+          "totalTackles": "19",
           "tacklePct": "0.6",
           "interceptions": "11",
           "effectiveClearance": "16",
