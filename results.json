@@ -1,0 +1,31 @@
+{
+  "generatedAt": "2026-06-19T00:00:00.000Z",
+  "note": "Seed inicial — será sobrescrito automaticamente pelo GitHub Actions",
+  "matches": [
+    {"home":"México 🇲🇽","away":"África do Sul 🇿🇦","date":"11/06","brTime":"16h","venue":"Cidade do México","sh":2,"sa":0,"done":true,"live":false,"clock":"","events":[]},
+    {"home":"Coreia do Sul 🇰🇷","away":"Rep. Tcheca 🇨🇿","date":"11/06","brTime":"23h","venue":"Guadalajara","sh":2,"sa":1,"done":true,"live":false,"clock":"","events":[]},
+    {"home":"Canadá 🇨🇦","away":"Bósnia 🇧🇦","date":"12/06","brTime":"16h","venue":"Toronto","sh":1,"sa":1,"done":true,"live":false,"clock":"","events":[]},
+    {"home":"Qatar 🇶🇦","away":"Suíça 🇨🇭","date":"13/06","brTime":"16h","venue":"San Francisco","sh":1,"sa":1,"done":true,"live":false,"clock":"","events":[]},
+    {"home":"Brasil 🇧🇷","away":"Marrocos 🇲🇦","date":"13/06","brTime":"19h","venue":"Nova York","sh":1,"sa":1,"done":true,"live":false,"clock":"","events":[]},
+    {"home":"Haiti 🇭🇹","away":"Escócia 🏴󠁧󠁢󠁳󠁣󠁴󠁿","date":"13/06","brTime":"22h","venue":"Boston","sh":0,"sa":1,"done":true,"live":false,"clock":"","events":[]},
+    {"home":"EUA 🇺🇸","away":"Paraguai 🇵🇾","date":"12/06","brTime":"22h","venue":"Los Angeles","sh":4,"sa":1,"done":true,"live":false,"clock":"","events":[]},
+    {"home":"Austrália 🇦🇺","away":"Turquia 🇹🇷","date":"14/06","brTime":"01h","venue":"Vancouver","sh":2,"sa":0,"done":true,"live":false,"clock":"","events":[]},
+    {"home":"Alemanha 🇩🇪","away":"Curaçao 🇨🇼","date":"14/06","brTime":"14h","venue":"Houston","sh":7,"sa":1,"done":true,"live":false,"clock":"","events":[]},
+    {"home":"C. do Marfim 🇨🇮","away":"Equador 🇪🇨","date":"14/06","brTime":"20h","venue":"Filadélfia","sh":1,"sa":0,"done":true,"live":false,"clock":"","events":[]},
+    {"home":"Holanda 🇳🇱","away":"Japão 🇯🇵","date":"14/06","brTime":"17h","venue":"Dallas","sh":2,"sa":2,"done":true,"live":false,"clock":"","events":[]},
+    {"home":"Suécia 🇸🇪","away":"Tunísia 🇹🇳","date":"14/06","brTime":"23h","venue":"Monterrey","sh":5,"sa":1,"done":true,"live":false,"clock":"","events":[]},
+    {"home":"Bélgica 🇧🇪","away":"Egito 🇪🇬","date":"15/06","brTime":"16h","venue":"Seattle","sh":1,"sa":1,"done":true,"live":false,"clock":"","events":[]},
+    {"home":"Irã 🇮🇷","away":"Nova Zelândia 🇳🇿","date":"15/06","brTime":"22h","venue":"Los Angeles","sh":2,"sa":2,"done":true,"live":false,"clock":"","events":[]},
+    {"home":"Espanha 🇪🇸","away":"Cabo Verde 🇨🇻","date":"15/06","brTime":"13h","venue":"Atlanta","sh":0,"sa":0,"done":true,"live":false,"clock":"","events":[]},
+    {"home":"Arábia Saudita 🇸🇦","away":"Uruguai 🇺🇾","date":"15/06","brTime":"19h","venue":"Miami","sh":1,"sa":1,"done":true,"live":false,"clock":"","events":[]},
+    {"home":"França 🇫🇷","away":"Senegal 🇸🇳","date":"16/06","brTime":"16h","venue":"Nova York","sh":3,"sa":1,"done":true,"live":false,"clock":"","events":[]},
+    {"home":"Iraque 🇮🇶","away":"Noruega 🇳🇴","date":"16/06","brTime":"19h","venue":"Boston","sh":1,"sa":4,"done":true,"live":false,"clock":"","events":[]},
+    {"home":"Argentina 🇦🇷","away":"Argélia 🇩🇿","date":"16/06","brTime":"22h","venue":"Kansas City","sh":3,"sa":0,"done":true,"live":false,"clock":"","events":[]},
+    {"home":"Áustria 🇦🇹","away":"Jordânia 🇯🇴","date":"17/06","brTime":"01h","venue":"Santa Clara","sh":null,"sa":null,"done":false,"live":false,"clock":"","events":[]},
+    {"home":"Portugal 🇵🇹","away":"RD Congo 🇨🇩","date":"17/06","brTime":"14h","venue":"Boston","sh":null,"sa":null,"done":false,"live":false,"clock":"","events":[]},
+    {"home":"Uzbequistão 🇺🇿","away":"Colômbia 🇨🇴","date":"17/06","brTime":"21h","venue":"Seattle","sh":null,"sa":null,"done":false,"live":false,"clock":"","events":[]},
+    {"home":"Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿","away":"Croácia 🇭🇷","date":"17/06","brTime":"17h","venue":"Nova York","sh":null,"sa":null,"done":false,"live":false,"clock":"","events":[]},
+    {"home":"Gana 🇬🇭","away":"Panamá 🇵🇦","date":"17/06","brTime":"20h","venue":"Filadélfia","sh":null,"sa":null,"done":false,"live":false,"clock":"","events":[]}
+  ],
+  "knockout": []
+}
