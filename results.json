@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T18:39:28.622Z",
+  "generatedAt": "2026-06-20T18:40:28.500Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -2088,8 +2088,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "77'",
+      "clock": "79'",
       "events": [
+        {
+          "min": "79'",
+          "icon": "🔄",
+          "txt": "Substituição, Suécia. Taha Ali entra em campo com Yasin Ayari.",
+          "sub": "Sweden"
+        },
         {
           "min": "75'",
           "icon": "🟨",
@@ -2105,7 +2111,7 @@
         {
           "min": "59'",
           "icon": "🔄",
-          "txt": "Substituição, Holanda. Entra Guus Til substituindo Tijjani Reijnders.",
+          "txt": "Substituição, Holanda. Entra Guus Til para o lugar de Tijjani Reijnders.",
           "sub": "Netherlands"
         },
         {
