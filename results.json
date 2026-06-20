@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T21:59:22.905Z",
+  "generatedAt": "2026-06-20T22:01:01.922Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -15,76 +15,190 @@
       "clock": "",
       "events": [
         {
+          "min": "90'+6'",
+          "icon": "•",
+          "txt": "jogador",
+          "sub": "🏳️"
+        },
+        {
           "min": "90'+3'",
           "icon": "🟨",
           "txt": "Pedri (Espanha) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Spain"
+          "sub": "🇪🇸"
         },
         {
           "min": "87'",
           "icon": "🔄",
-          "txt": "Substituição, Espanha. Nico Williams entra no lugar de Rodri.",
-          "sub": "Spain"
+          "txt": "Substituição, 🇪🇸. Nico Williams entra no lugar de Rodri.",
+          "sub": "🇪🇸"
+        },
+        {
+          "min": "81'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇪🇸"
+        },
+        {
+          "min": "81'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇪🇸"
         },
         {
           "min": "81'",
           "icon": "🔄",
-          "txt": "Substituição, Espanha. Entra Dani Olmo para o lugar de Ferran Torres.",
-          "sub": "Spain"
+          "txt": "Substituição, 🇪🇸. Entra Dani Olmo para o lugar de Ferran Torres.",
+          "sub": "🇪🇸"
         },
         {
           "min": "79'",
           "icon": "🔄",
-          "txt": "Substituição, Cabo Verde. Entra Telmo Arcanjo para o lugar de Jamiro Monteiro.",
-          "sub": "Cape Verde"
+          "txt": "Substituição, 🇨🇻. Entra Telmo Arcanjo para o lugar de Jamiro Monteiro.",
+          "sub": "🇨🇻"
         },
         {
           "min": "76'",
           "icon": "🔄",
-          "txt": "Substituição, Cabo Verde. João Paulo substitui Sidny Cabral.",
-          "sub": "Cape Verde"
+          "txt": "Substituição, 🇨🇻. João Paulo substitui Sidny Cabral.",
+          "sub": "🇨🇻"
         },
         {
           "min": "71'",
           "icon": "🔄",
-          "txt": "Substituição, Espanha. Lamine Yamal substitui Gavi.",
-          "sub": "Spain"
+          "txt": "Substituição, 🇪🇸. Lamine Yamal substitui Gavi.",
+          "sub": "🇪🇸"
         },
         {
           "min": "71'",
           "icon": "🔄",
-          "txt": "Substituição, Espanha. Mikel Merino entra em campo para substituir Fabián Ruiz.",
-          "sub": "Spain"
+          "txt": "Substituição, 🇪🇸. Mikel Merino entra em campo para substituir Fabián Ruiz.",
+          "sub": "🇪🇸"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇻"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇪🇸"
+        },
+        {
+          "min": "68'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇨🇻"
+        },
+        {
+          "min": "68'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇪🇸"
+        },
+        {
+          "min": "65'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇻"
+        },
+        {
+          "min": "65'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇪🇸"
+        },
+        {
+          "min": "65'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇨🇻"
+        },
+        {
+          "min": "65'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Aymeric Laporte (Espanha).",
+          "sub": "🇪🇸"
         },
         {
           "min": "61'",
           "icon": "🔄",
-          "txt": "Substituição, Cabo Verde. Nuno da Costa substitui Dailon Livramento.",
-          "sub": "Cape Verde"
+          "txt": "Substituição, 🇨🇻. Nuno da Costa substitui Dailon Livramento.",
+          "sub": "🇨🇻"
         },
         {
           "min": "61'",
           "icon": "🔄",
-          "txt": "Substituição, Cabo Verde. Deroy Duarte entra em campo e entra Laros Duarte.",
-          "sub": "Cape Verde"
+          "txt": "Substituição, 🇨🇻. Deroy Duarte entra em campo e entra Laros Duarte.",
+          "sub": "🇨🇻"
         },
         {
           "min": "61'",
           "icon": "🔄",
-          "txt": "Substituição, Cabo Verde. Willy Semedo entra no lugar de Jovane Cabral devido a uma lesão.",
-          "sub": "Cape Verde"
+          "txt": "Substituição, 🇨🇻. Willy Semedo entra no lugar de Jovane Cabral devido a uma lesão.",
+          "sub": "🇨🇻"
+        },
+        {
+          "min": "45'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🏳️"
+        },
+        {
+          "min": "45'+5'",
+          "icon": "⏱️",
+          "txt": "Intervalo",
+          "sub": "🏳️"
+        },
+        {
+          "min": "26'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇻"
+        },
+        {
+          "min": "26'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇪🇸"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇨🇻"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇪🇸"
         },
         {
           "min": "16'",
           "icon": "🟨",
           "txt": "Sidny Cabral (Cabo Verde) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Cape Verde"
+          "sub": "🇨🇻"
+        },
+        {
+          "min": "4'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇪🇸"
+        },
+        {
+          "min": "4'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇪🇸"
         },
         {
           "min": "",
-          "icon": "•",
+          "icon": "🏁",
           "txt": "Começa o primeiro tempo.",
-          "sub": ""
+          "sub": "🏳️"
         }
       ],
       "lineups": {
@@ -223,7 +337,8 @@
               "row": 3
             }
           ],
-          "formation": "4-3-3"
+          "formation": "4-3-3",
+          "dotColor": "#c60b1e"
         },
         "away": {
           "starters": [
@@ -360,7 +475,8 @@
               "row": 3
             }
           ],
-          "formation": "4-1-4-1"
+          "formation": "4-1-4-1",
+          "dotColor": "#000080"
         }
       },
       "stats": {
@@ -443,109 +559,181 @@
           "min": "90'+6'",
           "icon": "•",
           "txt": "Fim do segundo tempo, Bélgica 1, Egypt 1.",
-          "sub": ""
+          "sub": "🏳️"
         },
         {
           "min": "88'",
           "icon": "🔄",
-          "txt": "Substituição, Egito. Entra Ibrahim Adel para o lugar de Hamdi Fathy.",
-          "sub": "Egypt"
+          "txt": "Substituição, 🇪🇬. Entra Ibrahim Adel para o lugar de Hamdi Fathy.",
+          "sub": "🇪🇬"
         },
         {
           "min": "88'",
           "icon": "🔄",
-          "txt": "Substituição, Egito. Karim Hafez substitui Ahmed Fatouh.",
-          "sub": "Egypt"
+          "txt": "Substituição, 🇪🇬. Karim Hafez substitui Ahmed Fatouh.",
+          "sub": "🇪🇬"
         },
         {
           "min": "86'",
           "icon": "🔄",
-          "txt": "Substituição, Bélgica. Entra Hans Vanaken para o lugar de Kevin De Bruyne.",
-          "sub": "Belgium"
+          "txt": "Substituição, 🇧🇪. Entra Hans Vanaken para o lugar de Kevin De Bruyne.",
+          "sub": "🇧🇪"
         },
         {
           "min": "86'",
           "icon": "🔄",
-          "txt": "Substituição, Bélgica. Entra em campo Matías Fernández-Pardo substituindo Jérémy Doku.",
-          "sub": "Belgium"
+          "txt": "Substituição, 🇧🇪. Entra em campo Matías Fernández-Pardo substituindo Jérémy Doku.",
+          "sub": "🇧🇪"
         },
         {
           "min": "76'",
           "icon": "🔄",
-          "txt": "Substituição, Egito. Entra Hamza Abdelkarim para o lugar de Mohamed Salah.",
-          "sub": "Egypt"
+          "txt": "Substituição, 🇪🇬. Entra Hamza Abdelkarim para o lugar de Mohamed Salah.",
+          "sub": "🇪🇬"
         },
         {
           "min": "76'",
           "icon": "🔄",
-          "txt": "Substituição, Egito. Entra Zizo para o lugar de Mostafa Zico.",
-          "sub": "Egypt"
+          "txt": "Substituição, 🇪🇬. Entra Zizo para o lugar de Mostafa Zico.",
+          "sub": "🇪🇬"
         },
         {
           "min": "75'",
           "icon": "🟨",
           "txt": "Maxim De Cuyper (Bélgica) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Belgium"
+          "sub": "🇧🇪"
         },
         {
           "min": "71'",
           "icon": "🔄",
-          "txt": "Substituição, Egito. Ramy Rabia substitui Emam Ashour.",
-          "sub": "Egypt"
+          "txt": "Substituição, 🇪🇬. Ramy Rabia substitui Emam Ashour.",
+          "sub": "🇪🇬"
+        },
+        {
+          "min": "70'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇪🇬"
+        },
+        {
+          "min": "70'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇧🇪"
+        },
+        {
+          "min": "67'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇪🇬"
+        },
+        {
+          "min": "67'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇧🇪"
         },
         {
           "min": "66'",
           "icon": "⚽ OG",
           "txt": "Gol contra de Mohamed Hany, Egito. Bélgica 1, Egito 1.",
-          "sub": "Belgium"
+          "sub": "🇧🇪"
         },
         {
           "min": "66'",
           "icon": "🔄",
-          "txt": "Substituição, Bélgica. Romelu Lukaku entra em campo e entra Charles De Ketelaere.",
-          "sub": "Belgium"
+          "txt": "Substituição, 🇧🇪. Romelu Lukaku entra em campo e entra Charles De Ketelaere.",
+          "sub": "🇧🇪"
         },
         {
           "min": "56'",
           "icon": "🔄",
-          "txt": "Substituição, Bélgica. Entra Maxim De Cuyper para o lugar de Amadou Onana.",
-          "sub": "Belgium"
+          "txt": "Substituição, 🇧🇪. Entra Maxim De Cuyper para o lugar de Amadou Onana.",
+          "sub": "🇧🇪"
         },
         {
           "min": "56'",
           "icon": "🔄",
-          "txt": "Substituição, Bélgica. Nicolas Raskin substitui Timothy Castagne.",
-          "sub": "Belgium"
+          "txt": "Substituição, 🇧🇪. Nicolas Raskin substitui Timothy Castagne.",
+          "sub": "🇧🇪"
+        },
+        {
+          "min": "45'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🏳️"
         },
         {
           "min": "45'+5'",
-          "icon": "•",
+          "icon": "⏱️",
           "txt": "Fim do primeiro tempo, Bélgica 0, Egito 1.",
-          "sub": ""
+          "sub": "🏳️"
         },
         {
           "min": "34'",
           "icon": "🟨",
           "txt": "Ahmed Fatouh (Egito) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Egypt"
+          "sub": "🇪🇬"
+        },
+        {
+          "min": "25'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇧🇪"
+        },
+        {
+          "min": "25'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇪🇬"
+        },
+        {
+          "min": "22'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇧🇪"
+        },
+        {
+          "min": "22'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇪🇬"
         },
         {
           "min": "20'",
           "icon": "⚽",
           "txt": "Emam Ashour (Egito) finalização com o pé direito de fora da área no Escanteio inferior esquerdo. Assistência de Mohamed Salah.",
-          "sub": "Egypt"
+          "sub": "🇪🇬"
         },
         {
           "min": "14'",
           "icon": "🟨",
           "txt": "Timothy Castagne (Bélgica) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Belgium"
+          "sub": "🇧🇪"
         },
         {
           "min": "13'",
           "icon": "🟨",
           "txt": "Marwan Attia (Egito) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Egypt"
+          "sub": "🇪🇬"
+        },
+        {
+          "min": "12'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇧🇪"
+        },
+        {
+          "min": "12'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇧🇪"
+        },
+        {
+          "min": "",
+          "icon": "🏁",
+          "txt": "Início de jogo",
+          "sub": "🏳️"
         }
       ],
       "lineups": {
@@ -679,7 +867,8 @@
               "row": 3
             }
           ],
-          "formation": "4-2-3-1"
+          "formation": "4-2-3-1",
+          "dotColor": "#E30613"
         },
         "away": {
           "starters": [
@@ -816,7 +1005,8 @@
               "row": 3
             }
           ],
-          "formation": "4-2-3-1"
+          "formation": "4-2-3-1",
+          "dotColor": "#D20300"
         }
       },
       "stats": {
@@ -896,88 +1086,178 @@
       "clock": "",
       "events": [
         {
-          "min": "90'+3'",
-          "icon": "🔄",
-          "txt": "Substituição, Arábia Saudita. Entra Ali Lajami para o lugar de Saud Abdulhamid.",
-          "sub": "Saudi Arabia"
+          "min": "90'+9'",
+          "icon": "•",
+          "txt": "jogador",
+          "sub": "🏳️"
         },
         {
           "min": "90'+3'",
           "icon": "🔄",
-          "txt": "Substituição, Arábia Saudita. Alaa Al Hejji entra em campo e entra Feras Al Brikan.",
-          "sub": "Saudi Arabia"
+          "txt": "Substituição, 🇸🇦. Entra Ali Lajami para o lugar de Saud Abdulhamid.",
+          "sub": "🇸🇦"
         },
         {
           "min": "90'+3'",
           "icon": "🔄",
-          "txt": "Substituição, Arábia Saudita. Entra Abdullah Al Hamddan substituindo Moteb Al Harbi.",
-          "sub": "Saudi Arabia"
+          "txt": "Substituição, 🇸🇦. Alaa Al Hejji entra em campo e entra Feras Al Brikan.",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "90'+3'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇦. Entra Abdullah Al Hamddan substituindo Moteb Al Harbi.",
+          "sub": "🇸🇦"
         },
         {
           "min": "90'",
           "icon": "🔄",
-          "txt": "Substituição, Uruguai. Entra Rodrigo Aguirre para o lugar de Federico Viñas.",
-          "sub": "Uruguay"
+          "txt": "Substituição, 🇺🇾. Entra Rodrigo Aguirre para o lugar de Federico Viñas.",
+          "sub": "🇺🇾"
         },
         {
           "min": "81'",
           "icon": "🔄",
-          "txt": "Substituição, Arábia Saudita. Nawaf Bu Washl entra em campo Mohammed Abu Al Shamat.",
-          "sub": "Saudi Arabia"
+          "txt": "Substituição, 🇸🇦. Nawaf Bu Washl entra em campo Mohammed Abu Al Shamat.",
+          "sub": "🇸🇦"
         },
         {
           "min": "81'",
           "icon": "🔄",
-          "txt": "Substituição, Uruguai. Brian Rodríguez substitui Maxi Araújo.",
-          "sub": "Uruguay"
+          "txt": "Substituição, 🇺🇾. Brian Rodríguez substitui Maxi Araújo.",
+          "sub": "🇺🇾"
         },
         {
           "min": "80'",
           "icon": "⚽",
           "txt": "Maxi Araújo (Uruguai) finalização com o pé esquerdo do lado esquerdo da pequena área no Escanteio inferior esquerdo.",
-          "sub": "Uruguay"
+          "sub": "🇺🇾"
         },
         {
           "min": "72'",
           "icon": "🔄",
-          "txt": "Substituição, Uruguai. Nicolás de la Cruz substitui Manuel Ugarte.",
-          "sub": "Uruguay"
+          "txt": "Substituição, 🇺🇾. Nicolás de la Cruz substitui Manuel Ugarte.",
+          "sub": "🇺🇾"
+        },
+        {
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇺🇾"
+        },
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇺🇾"
         },
         {
           "min": "63'",
           "icon": "🔄",
-          "txt": "Substituição, Arábia Saudita. Nasser Al Dawsari entra em campo Musab Al Juwayr.",
-          "sub": "Saudi Arabia"
+          "txt": "Substituição, 🇸🇦. Nasser Al Dawsari entra em campo Musab Al Juwayr.",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "63'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇺🇾"
+        },
+        {
+          "min": "63'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "61'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇺🇾"
+        },
+        {
+          "min": "61'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Mohammed Al Owais (Arábia Saudita).",
+          "sub": "🇸🇦"
         },
         {
           "min": "45'",
-          "icon": "•",
+          "icon": "▶️",
           "txt": "Início do segundo tempo Arábia Saudita 1, Uruguai 0.",
-          "sub": ""
+          "sub": "🏳️"
         },
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, Uruguai. Agustín Canobbio substitui Darwin Núñez.",
-          "sub": "Uruguay"
+          "txt": "Substituição, 🇺🇾. Agustín Canobbio substitui Darwin Núñez.",
+          "sub": "🇺🇾"
         },
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, Uruguai. Juan Manuel Sanabria entra no lugar de Matías Viña.",
-          "sub": "Uruguay"
+          "txt": "Substituição, 🇺🇾. Juan Manuel Sanabria entra no lugar de Matías Viña.",
+          "sub": "🇺🇾"
+        },
+        {
+          "min": "45'+5'",
+          "icon": "⏱️",
+          "txt": "Intervalo",
+          "sub": "🏳️"
         },
         {
           "min": "44'",
           "icon": "🟨",
           "txt": "Abdulelah Al Amri (Arábia Saudita) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Saudi Arabia"
+          "sub": "🇸🇦"
         },
         {
           "min": "41'",
           "icon": "⚽",
           "txt": "Abdulelah Al Amri (Arábia Saudita) remate com o pé direito em frente à baliza ao centro da baliza após escanteio.",
-          "sub": "Saudi Arabia"
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "27'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "27'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇺🇾"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇺🇾"
+        },
+        {
+          "min": "",
+          "icon": "🏁",
+          "txt": "Início de jogo",
+          "sub": "🏳️"
         }
       ],
       "lineups": {
@@ -1116,7 +1396,8 @@
               "row": 3
             }
           ],
-          "formation": "4-4-2"
+          "formation": "4-4-2",
+          "dotColor": "#125B34"
         },
         "away": {
           "starters": [
@@ -1243,7 +1524,8 @@
               "row": 3
             }
           ],
-          "formation": "4-2-3-1"
+          "formation": "4-2-3-1",
+          "dotColor": "#55B5E5"
         }
       },
       "stats": {
@@ -1323,100 +1605,256 @@
       "clock": "",
       "events": [
         {
-          "min": "90'+2'",
-          "icon": "🔄",
-          "txt": "Substituição, Nova Zelândia. Entra Tyler Bindon para o lugar de Marko Stamenic.",
-          "sub": "New Zealand"
+          "min": "90'+6'",
+          "icon": "•",
+          "txt": "jogador",
+          "sub": "🏳️"
         },
         {
           "min": "90'+2'",
           "icon": "🔄",
-          "txt": "Substituição, Nova Zelândia. Entra Jesse Randall para o lugar de Sarpreet Singh.",
-          "sub": "New Zealand"
+          "txt": "Substituição, 🇳🇿. Entra Tyler Bindon para o lugar de Marko Stamenic.",
+          "sub": "🇳🇿"
+        },
+        {
+          "min": "90'+2'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇳🇿. Entra Jesse Randall para o lugar de Sarpreet Singh.",
+          "sub": "🇳🇿"
         },
         {
           "min": "89'",
           "icon": "🟨",
           "txt": "Ehsan Hajisafi (IR Irã) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Iran"
+          "sub": "🇮🇷"
         },
         {
           "min": "80'",
           "icon": "🔄",
-          "txt": "Substituição, IR Irã. Amirhossein Hosseinzadeh substituiu Mehdi Taremi.",
-          "sub": "Iran"
+          "txt": "Substituição, 🇮🇷. Amirhossein Hosseinzadeh substituiu Mehdi Taremi.",
+          "sub": "🇮🇷"
+        },
+        {
+          "min": "79'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇮🇷"
+        },
+        {
+          "min": "79'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇳🇿"
+        },
+        {
+          "min": "78'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇳🇿"
+        },
+        {
+          "min": "78'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Saeid Ezatolahi (IR Irã).",
+          "sub": "🇮🇷"
         },
         {
           "min": "78'",
           "icon": "🔄",
-          "txt": "Substituição, Nova Zelândia. Callan Elliot substitui Tim Payne.",
-          "sub": "New Zealand"
+          "txt": "Substituição, 🇳🇿. Callan Elliot substitui Tim Payne.",
+          "sub": "🇳🇿"
+        },
+        {
+          "min": "70'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇮🇷"
+        },
+        {
+          "min": "70'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇳🇿"
+        },
+        {
+          "min": "68'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇮🇷"
+        },
+        {
+          "min": "68'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇳🇿"
         },
         {
           "min": "68'",
           "icon": "🔄",
-          "txt": "Substituição, Nova Zelândia. Entra Ben Old substituindo Liberato Cacace.",
-          "sub": "New Zealand"
+          "txt": "Substituição, 🇳🇿. Entra Ben Old para o lugar de Liberato Cacace.",
+          "sub": "🇳🇿"
         },
         {
           "min": "68'",
           "icon": "🔄",
-          "txt": "Substituição, Nova Zelândia. Ryan Thomas substitui Callum McCowatt.",
-          "sub": "New Zealand"
+          "txt": "Substituição, 🇳🇿. Ryan Thomas substitui Callum McCowatt.",
+          "sub": "🇳🇿"
         },
         {
           "min": "65'",
           "icon": "🔄",
-          "txt": "Substituição, IR Irã. Entra Ehsan Hajisafi para o lugar de Saman Ghoddos.",
-          "sub": "Iran"
+          "txt": "Substituição, 🇮🇷. Entra Ehsan Hajisafi para o lugar de Saman Ghoddos.",
+          "sub": "🇮🇷"
         },
         {
           "min": "64'",
           "icon": "⚽",
           "txt": "Mohammad Mohebbi (IR Irã) de cabeça do meio da área no Escanteio inferior esquerdo. Assistência de Ramin Rezaeian com um cruzamento.",
-          "sub": "Iran"
+          "sub": "🇮🇷"
         },
         {
           "min": "54'",
           "icon": "⚽",
           "txt": "Elijah Just (Nova Zelândia) finalização com o pé direito do lado direito da área para o centro do gol. Assistência de Chris Wood depois de um contra-ataque.",
-          "sub": "New Zealand"
+          "sub": "🇳🇿"
         },
         {
           "min": "53'",
           "icon": "🔄",
-          "txt": "Substituição, IR Irã. Entra Ali Alipour substituindo Shahriyar Moghanloo.",
-          "sub": "Iran"
+          "txt": "Substituição, 🇮🇷. Entra Ali Alipour substituindo Shahriyar Moghanloo.",
+          "sub": "🇮🇷"
+        },
+        {
+          "min": "45'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🏳️"
         },
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, IR Irã. Mehdi Ghayedi substitui Arya Yousefi.",
-          "sub": "Iran"
+          "txt": "Substituição, 🇮🇷. Mehdi Ghayedi substitui Arya Yousefi.",
+          "sub": "🇮🇷"
         },
         {
           "min": "45'+7'",
-          "icon": "•",
+          "icon": "⏱️",
           "txt": "Fim do primeiro tempo, IR Iran 1, Nova Zelândia 1.",
-          "sub": ""
+          "sub": "🏳️"
+        },
+        {
+          "min": "41'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇳🇿"
+        },
+        {
+          "min": "41'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇮🇷"
+        },
+        {
+          "min": "39'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇳🇿"
+        },
+        {
+          "min": "39'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Saeid Ezatolahi (IR Irã).",
+          "sub": "🇮🇷"
+        },
+        {
+          "min": "35'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇳🇿"
+        },
+        {
+          "min": "35'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇮🇷"
+        },
+        {
+          "min": "35'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Marko Stamenic (Nova Zelândia).",
+          "sub": "🇳🇿"
+        },
+        {
+          "min": "35'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Shahriyar Moghanloo (IR Irã).",
+          "sub": "🇮🇷"
         },
         {
           "min": "32'",
           "icon": "⚽",
           "txt": "Ramin Rezaeian (IR Irã) finalização com o pé direito do meio da área no Escanteio inferior esquerdo.",
-          "sub": "Iran"
+          "sub": "🇮🇷"
+        },
+        {
+          "min": "28'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇮🇷"
+        },
+        {
+          "min": "28'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇳🇿"
+        },
+        {
+          "min": "25'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇮🇷"
+        },
+        {
+          "min": "25'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇳🇿"
+        },
+        {
+          "min": "18'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇳🇿"
+        },
+        {
+          "min": "18'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇮🇷"
+        },
+        {
+          "min": "17'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇳🇿"
+        },
+        {
+          "min": "17'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Shahriyar Moghanloo (IR Irã).",
+          "sub": "🇮🇷"
         },
         {
           "min": "7'",
           "icon": "⚽",
           "txt": "Elijah Just (Nova Zelândia) finalização com o pé direito do meio da área acertando no centro do gol. Assistência de Chris Wood.",
-          "sub": "New Zealand"
+          "sub": "🇳🇿"
         },
         {
           "min": "",
-          "icon": "•",
+          "icon": "🏁",
           "txt": "Começa o primeiro tempo.",
-          "sub": ""
+          "sub": "🏳️"
         }
       ],
       "lineups": {
@@ -1555,7 +1993,8 @@
               "row": 3
             }
           ],
-          "formation": "4-4-2"
+          "formation": "4-4-2",
+          "dotColor": "#da0000"
         },
         "away": {
           "starters": [
@@ -1687,7 +2126,8 @@
               "row": 3
             }
           ],
-          "formation": "4-2-3-1"
+          "formation": "4-2-3-1",
+          "dotColor": "#000000"
         }
       },
       "stats": {
@@ -1770,85 +2210,199 @@
           "min": "90'+10'",
           "icon": "•",
           "txt": "Fim do segundo tempo, França 3, Senegal 1.",
-          "sub": ""
+          "sub": "🏳️"
+        },
+        {
+          "min": "90'+9'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇸🇳"
+        },
+        {
+          "min": "90'+9'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇫🇷"
+        },
+        {
+          "min": "90'+9'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇸🇳"
+        },
+        {
+          "min": "90'+9'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Kylian Mbappé (França).",
+          "sub": "🇫🇷"
         },
         {
           "min": "90'+6'",
           "icon": "⚽",
           "txt": "Kylian Mbappé (França) finalização com o pé direito de fora da área ao ângulo superior esquerdo.",
-          "sub": "France"
+          "sub": "🇫🇷"
         },
         {
           "min": "90'+5'",
           "icon": "⚽",
           "txt": "Ibrahim Mbaye (Senegal) finalização com o pé direito do lado direito da área ao ângulo superior direito. Assistência de Iliman Ndiaye depois de um contra-ataque.",
-          "sub": "Senegal"
+          "sub": "🇸🇳"
         },
         {
           "min": "88'",
           "icon": "🔄",
-          "txt": "Substituição, Senegal. Pathé Ciss substitui Idrissa Gueye.",
-          "sub": "Senegal"
+          "txt": "Substituição, 🇸🇳. Pathé Ciss substitui Idrissa Gueye.",
+          "sub": "🇸🇳"
         },
         {
           "min": "87'",
           "icon": "🔄",
-          "txt": "Substituição, França. Rayan Cherki substitui Désiré Doué.",
-          "sub": "France"
+          "txt": "Substituição, 🇫🇷. Rayan Cherki substitui Désiré Doué.",
+          "sub": "🇫🇷"
         },
         {
           "min": "83'",
           "icon": "🔄",
-          "txt": "Substituição, Senegal. Bamba Dieng substitui Nicolas Jackson.",
-          "sub": "Senegal"
+          "txt": "Substituição, 🇸🇳. Entra Bamba Dieng para o lugar de Nicolas Jackson.",
+          "sub": "🇸🇳"
         },
         {
           "min": "83'",
           "icon": "🔄",
-          "txt": "Substituição, Senegal. Entra Iliman Ndiaye para o lugar de Pape Gueye.",
-          "sub": "Senegal"
+          "txt": "Substituição, 🇸🇳. Entra Iliman Ndiaye para o lugar de Pape Gueye.",
+          "sub": "🇸🇳"
         },
         {
           "min": "82'",
           "icon": "⚽",
           "txt": "Bradley Barcola (França) finalização com o pé direito do lado direito da área no Escanteio inferior direito. Assistência de Adrien Rabiot com um passe em profundidade após um contra-ataque.",
-          "sub": "France"
+          "sub": "🇫🇷"
         },
         {
           "min": "80'",
           "icon": "🔄",
-          "txt": "Substituição, França. Entra Bradley Barcola para o lugar de Ousmane Dembélé.",
-          "sub": "France"
+          "txt": "Substituição, 🇫🇷. Entra Bradley Barcola para o lugar de Ousmane Dembélé.",
+          "sub": "🇫🇷"
         },
         {
           "min": "76'",
           "icon": "🔄",
-          "txt": "Substituição, Senegal. Entra Habib Diarra para o lugar de Lamine Camara.",
-          "sub": "Senegal"
+          "txt": "Substituição, 🇸🇳. Entra Habib Diarra para o lugar de Lamine Camara.",
+          "sub": "🇸🇳"
         },
         {
           "min": "75'",
           "icon": "🔄",
-          "txt": "Substituição, Senegal. Ibrahim Mbaye substitui Ismaila Sarr.",
-          "sub": "Senegal"
+          "txt": "Substituição, 🇸🇳. Ibrahim Mbaye entra em campo para substituir Ismaïla Sarr.",
+          "sub": "🇸🇳"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇸🇳"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇫🇷"
+        },
+        {
+          "min": "68'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇸🇳"
+        },
+        {
+          "min": "68'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇫🇷"
         },
         {
           "min": "66'",
           "icon": "⚽",
           "txt": "Kylian Mbappé (França) remate com o pé direito no coração da área ao centro da baliza. Assistência de Michael Olise com um passe em profundidade.",
-          "sub": "France"
+          "sub": "🇫🇷"
+        },
+        {
+          "min": "61'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇫🇷"
+        },
+        {
+          "min": "60'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇫🇷"
         },
         {
           "min": "45'",
-          "icon": "•",
+          "icon": "▶️",
           "txt": "Começo do segundo tempo França 0, Senegal 0.",
-          "sub": ""
+          "sub": "🏳️"
+        },
+        {
+          "min": "45'+7'",
+          "icon": "⏱️",
+          "txt": "Intervalo",
+          "sub": "🏳️"
+        },
+        {
+          "min": "42'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇫🇷"
+        },
+        {
+          "min": "42'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇸🇳"
+        },
+        {
+          "min": "40'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇫🇷"
+        },
+        {
+          "min": "40'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Ismaïla Sarr (Senegal).",
+          "sub": "🇸🇳"
+        },
+        {
+          "min": "30'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇸🇳"
+        },
+        {
+          "min": "30'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇫🇷"
+        },
+        {
+          "min": "26'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇸🇳"
+        },
+        {
+          "min": "26'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇫🇷"
         },
         {
           "min": "",
-          "icon": "•",
+          "icon": "🏁",
           "txt": "Começa o primeiro tempo.",
-          "sub": ""
+          "sub": "🏳️"
         }
       ],
       "lineups": {
@@ -1987,7 +2541,8 @@
               "row": 3
             }
           ],
-          "formation": "4-2-3-1"
+          "formation": "4-2-3-1",
+          "dotColor": "#000080"
         },
         "away": {
           "starters": [
@@ -2124,7 +2679,8 @@
               "row": 3
             }
           ],
-          "formation": "4-2-3-1"
+          "formation": "4-2-3-1",
+          "dotColor": "#006436"
         }
       },
       "stats": {
@@ -2207,121 +2763,241 @@
           "min": "90'+8'",
           "icon": "•",
           "txt": "Fim do segundo tempo, Iraque 1, Noruega 4.",
-          "sub": ""
+          "sub": "🏳️"
         },
         {
           "min": "90'+6'",
           "icon": "⚽ OG",
           "txt": "Gol contra de Aymen Hussein, Iraque. Iraque 1, Noruega 4.",
-          "sub": "Norway"
+          "sub": "🇳🇴"
+        },
+        {
+          "min": "90'+2'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇳🇴"
+        },
+        {
+          "min": "90'+2'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇮🇶"
+        },
+        {
+          "min": "90'+2'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇳🇴"
+        },
+        {
+          "min": "90'+2'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Aymen Hussein (Iraque).",
+          "sub": "🇮🇶"
         },
         {
           "min": "86'",
           "icon": "🟨",
           "txt": "Zaid Tahseen (Iraque) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Iraq"
+          "sub": "🇮🇶"
         },
         {
           "min": "81'",
           "icon": "🔄",
-          "txt": "Substituição, Noruega. Patrick Berg entra no lugar de Martin Ødegaard.",
-          "sub": "Norway"
+          "txt": "Substituição, 🇳🇴. Patrick Berg entra no lugar de Martin Ødegaard.",
+          "sub": "🇳🇴"
         },
         {
           "min": "78'",
           "icon": "🔄",
-          "txt": "Substituição, Iraque. Entra Mohanad Ali para o lugar de Ibrahim Bayesh.",
-          "sub": "Iraq"
+          "txt": "Substituição, 🇮🇶. Entra Mohanad Ali para o lugar de Ibrahim Bayesh.",
+          "sub": "🇮🇶"
         },
         {
           "min": "76'",
           "icon": "⚽",
           "txt": "Leo Østigård (Noruega) de cabeça de muito perto acertando no centro do gol. Assistência de Martin Ødegaard com um cruzamento após escanteio.",
-          "sub": "Norway"
+          "sub": "🇳🇴"
         },
         {
           "min": "73'",
           "icon": "🔄",
-          "txt": "Substituição, Iraque. Ahmed Qasem substitui Ali Jasim devido a uma lesão.",
-          "sub": "Iraq"
+          "txt": "Substituição, 🇮🇶. Ahmed Qasem substitui Ali Jasim devido a uma lesão.",
+          "sub": "🇮🇶"
         },
         {
           "min": "73'",
           "icon": "🔄",
-          "txt": "Substituição, Iraque. Substituição Mustafa Saadoon, entra em campo Hussein Ali.",
-          "sub": "Iraq"
+          "txt": "Substituição, 🇮🇶. Substituição Mustafa Saadoon, entra em campo Hussein Ali.",
+          "sub": "🇮🇶"
         },
         {
           "min": "73'",
           "icon": "🔄",
-          "txt": "Substituição, Noruega. Leo Østigård substituiu David Møller Wolfe devido a uma lesão.",
-          "sub": "Norway"
+          "txt": "Substituição, 🇳🇴. Leo Østigård substituiu David Møller Wolfe devido a uma lesão.",
+          "sub": "🇳🇴"
         },
         {
           "min": "73'",
           "icon": "🔄",
-          "txt": "Substituição, Noruega. Oscar Bobb substitui Alexander Sørloth.",
-          "sub": "Norway"
+          "txt": "Substituição, 🇳🇴. Oscar Bobb substitui Alexander Sørloth.",
+          "sub": "🇳🇴"
         },
         {
           "min": "73'",
           "icon": "🔄",
-          "txt": "Substituição, Noruega. Entra Kristian Thorstvedt para o lugar de Fredrik Aursnes.",
-          "sub": "Norway"
+          "txt": "Substituição, 🇳🇴. Entra Kristian Thorstvedt para o lugar de Fredrik Aursnes.",
+          "sub": "🇳🇴"
         },
         {
           "min": "73'",
           "icon": "🔄",
-          "txt": "Substituição, Noruega. Entra Andreas Schjelderup para o lugar de Antonio Nusa.",
-          "sub": "Norway"
+          "txt": "Substituição, 🇳🇴. Entra Andreas Schjelderup para o lugar de Antonio Nusa.",
+          "sub": "🇳🇴"
+        },
+        {
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇮🇶"
+        },
+        {
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇳🇴"
+        },
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇮🇶"
+        },
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇳🇴"
+        },
+        {
+          "min": "69'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇳🇴"
+        },
+        {
+          "min": "69'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇮🇶"
+        },
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇳🇴"
+        },
+        {
+          "min": "69'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Ali Jasim (Iraque).",
+          "sub": "🇮🇶"
+        },
+        {
+          "min": "59'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇳🇴"
+        },
+        {
+          "min": "59'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇮🇶"
         },
         {
           "min": "59'",
           "icon": "🔄",
-          "txt": "Substituição, Iraque. Entra Marko Farji para o lugar de Ali Al Hamadi.",
-          "sub": "Iraq"
+          "txt": "Substituição, 🇮🇶. Entra Marko Farji para o lugar de Ali Al Hamadi.",
+          "sub": "🇮🇶"
         },
         {
           "min": "59'",
           "icon": "🔄",
-          "txt": "Substituição, Iraque. Zidane Iqbal substitui Zaid Ismael.",
-          "sub": "Iraq"
+          "txt": "Substituição, 🇮🇶. Zidane Iqbal substitui Zaid Ismael.",
+          "sub": "🇮🇶"
+        },
+        {
+          "min": "58'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇳🇴"
+        },
+        {
+          "min": "58'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Ali Jasim (Iraque).",
+          "sub": "🇮🇶"
         },
         {
           "min": "45'",
-          "icon": "•",
+          "icon": "▶️",
           "txt": "Começo do segundo tempo Iraque 1, Noruega 2.",
-          "sub": ""
+          "sub": "🏳️"
         },
         {
           "min": "45'+7'",
-          "icon": "•",
+          "icon": "⏱️",
           "txt": "Fim do primeiro tempo, Iraque 1, Noruega 2.",
-          "sub": ""
+          "sub": "🏳️"
         },
         {
           "min": "43'",
           "icon": "⚽",
           "txt": "Erling Haaland (Noruega) remate com o pé direito em frente à baliza ao centro da baliza.",
-          "sub": "Norway"
+          "sub": "🇳🇴"
         },
         {
           "min": "39'",
           "icon": "⚽",
           "txt": "Aymen Hussein (Iraque) de cabeça do meio da área no Escanteio inferior direito. Assistência de Amir Al Ammari com um cruzamento.",
-          "sub": "Iraq"
+          "sub": "🇮🇶"
         },
         {
           "min": "29'",
           "icon": "⚽",
           "txt": "Erling Haaland (Noruega) remate com o pé esquerdo em frente à baliza ao ângulo superior direito. Assistência de David Møller Wolfe com um cruzamento.",
-          "sub": "Norway"
+          "sub": "🇳🇴"
+        },
+        {
+          "min": "27'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇮🇶"
+        },
+        {
+          "min": "27'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇳🇴"
+        },
+        {
+          "min": "24'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇮🇶"
+        },
+        {
+          "min": "24'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇳🇴"
         },
         {
           "min": "",
-          "icon": "•",
+          "icon": "🏁",
           "txt": "Começa o primeiro tempo.",
-          "sub": ""
+          "sub": "🏳️"
         }
       ],
       "lineups": {
@@ -2460,7 +3136,8 @@
               "row": 3
             }
           ],
-          "formation": "4-4-2"
+          "formation": "4-4-2",
+          "dotColor": "#0A4D2E"
         },
         "away": {
           "starters": [
@@ -2597,7 +3274,8 @@
               "row": 3
             }
           ],
-          "formation": "4-4-2"
+          "formation": "4-4-2",
+          "dotColor": "#C8102E"
         }
       },
       "stats": {
@@ -2677,94 +3355,190 @@
       "clock": "",
       "events": [
         {
+          "min": "90'+7'",
+          "icon": "•",
+          "txt": "jogador",
+          "sub": "🏳️"
+        },
+        {
           "min": "82'",
           "icon": "🔄",
-          "txt": "Substituição, Argélia. Ramiz Zerrouki substitui Nabil Bentaleb.",
-          "sub": "Algeria"
+          "txt": "Substituição, 🇩🇿. Ramiz Zerrouki substitui Nabil Bentaleb.",
+          "sub": "🇩🇿"
         },
         {
           "min": "81'",
           "icon": "🔄",
-          "txt": "Substituição, Argélia. Entra Adil Boulbina para o lugar de Ibrahim Maza.",
-          "sub": "Algeria"
+          "txt": "Substituição, 🇩🇿. Entra Adil Boulbina para o lugar de Ibrahim Maza.",
+          "sub": "🇩🇿"
         },
         {
           "min": "80'",
           "icon": "🔄",
-          "txt": "Substituição, Argentina. Nicolás Otamendi substitui Cristian Romero.",
-          "sub": "Argentina"
+          "txt": "Substituição, 🇦🇷. Nicolás Otamendi substitui Cristian Romero.",
+          "sub": "🇦🇷"
         },
         {
           "min": "80'",
           "icon": "🔄",
-          "txt": "Substituição, Argentina. Nico Paz substitui Lionel Messi.",
-          "sub": "Argentina"
+          "txt": "Substituição, 🇦🇷. Nico Paz substitui Lionel Messi.",
+          "sub": "🇦🇷"
+        },
+        {
+          "min": "79'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇦🇷"
+        },
+        {
+          "min": "79'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇩🇿"
+        },
+        {
+          "min": "78'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇦🇷"
+        },
+        {
+          "min": "78'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Ibrahim Maza (Argélia).",
+          "sub": "🇩🇿"
         },
         {
           "min": "76'",
           "icon": "⚽",
           "txt": "Lionel Messi (Argentina) finalização com o pé esquerdo do meio da área no Escanteio inferior esquerdo. Assistência de Nico González.",
-          "sub": "Argentina"
+          "sub": "🇦🇷"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇩🇿"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇦🇷"
+        },
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇩🇿"
+        },
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇦🇷"
         },
         {
           "min": "64'",
           "icon": "🔄",
-          "txt": "Substituição, Argélia. Riyad Mahrez substitui Anis Hadj Moussa.",
-          "sub": "Algeria"
+          "txt": "Substituição, 🇩🇿. Riyad Mahrez substitui Anis Hadj Moussa.",
+          "sub": "🇩🇿"
         },
         {
           "min": "64'",
           "icon": "🔄",
-          "txt": "Substituição, Argélia. Entra Mohammed Amoura para o lugar de Amine Gouiri.",
-          "sub": "Algeria"
+          "txt": "Substituição, 🇩🇿. Entra Mohammed Amoura para o lugar de Amine Gouiri.",
+          "sub": "🇩🇿"
         },
         {
           "min": "64'",
           "icon": "🔄",
-          "txt": "Substituição, Argélia. Houssem Aouar entra em campo com Hicham Boudaoui.",
-          "sub": "Algeria"
+          "txt": "Substituição, 🇩🇿. Houssem Aouar entra em campo com Hicham Boudaoui.",
+          "sub": "🇩🇿"
         },
         {
           "min": "60'",
           "icon": "⚽",
           "txt": "Lionel Messi (Argentina) finalização com o pé direito do meio da área no Escanteio inferior direito.",
-          "sub": "Argentina"
+          "sub": "🇦🇷"
         },
         {
           "min": "55'",
           "icon": "🔄",
-          "txt": "Substituição, Argentina. Julián Alvarez substitui Lautaro Martínez.",
-          "sub": "Argentina"
+          "txt": "Substituição, 🇦🇷. Julián Alvarez substitui Lautaro Martínez.",
+          "sub": "🇦🇷"
         },
         {
           "min": "55'",
           "icon": "🔄",
-          "txt": "Substituição, Argentina. Entra Nico González para o lugar de Thiago Almada.",
-          "sub": "Argentina"
+          "txt": "Substituição, 🇦🇷. Entra Nico González para o lugar de Thiago Almada.",
+          "sub": "🇦🇷"
         },
         {
           "min": "45'",
-          "icon": "•",
+          "icon": "▶️",
           "txt": "Início do segundo tempo Argentina 1, Argélia 0.",
-          "sub": ""
+          "sub": "🏳️"
         },
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, Argentina. Nahuel Molina entra em campo Gonzalo Montiel.",
-          "sub": "Argentina"
+          "txt": "Substituição, 🇦🇷. Entra Nahuel Molina para o lugar de Gonzalo Montiel.",
+          "sub": "🇦🇷"
+        },
+        {
+          "min": "45'+5'",
+          "icon": "⏱️",
+          "txt": "Intervalo",
+          "sub": "🏳️"
+        },
+        {
+          "min": "28'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇩🇿"
+        },
+        {
+          "min": "28'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇦🇷"
+        },
+        {
+          "min": "25'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇩🇿"
+        },
+        {
+          "min": "25'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇦🇷"
         },
         {
           "min": "17'",
           "icon": "⚽",
           "txt": "Lionel Messi (Argentina) finalização com o pé esquerdo de fora da área no ângulo superior direito. Assistência de Rodrigo De Paul.",
-          "sub": "Argentina"
+          "sub": "🇦🇷"
+        },
+        {
+          "min": "9'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇩🇿"
+        },
+        {
+          "min": "9'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇩🇿"
         },
         {
           "min": "",
-          "icon": "•",
+          "icon": "🏁",
           "txt": "Começa o primeiro tempo.",
-          "sub": ""
+          "sub": "🏳️"
         }
       ],
       "lineups": {
@@ -2903,7 +3677,8 @@
               "row": 3
             }
           ],
-          "formation": "4-4-2"
+          "formation": "4-4-2",
+          "dotColor": "#74acdf"
         },
         "away": {
           "starters": [
@@ -3040,7 +3815,8 @@
               "row": 3
             }
           ],
-          "formation": "4-3-3"
+          "formation": "4-3-3",
+          "dotColor": "#4F9A44"
         }
       },
       "stats": {
@@ -3123,97 +3899,259 @@
           "min": "90'+14'",
           "icon": "•",
           "txt": "Fim do segundo tempo, Áustria 3, Jordânia 1.",
-          "sub": ""
+          "sub": "🏳️"
         },
         {
           "min": "90'+12'",
-          "icon": "⚽",
-          "txt": "Marko Arnautovic (Áustria) converte o pênalti com um finalização com o pé direito no Escanteio inferior esquerdo.",
-          "sub": "Austria"
+          "icon": "🟥",
+          "txt": "Gol! Áustria 3, Jordânia 1. Marko Arnautovic (Áustria) converte o pênalti com um finalização com o pé direito no Escanteio inferior esquerdo.",
+          "sub": "🇦🇹"
+        },
+        {
+          "min": "90'+12'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇦🇹"
+        },
+        {
+          "min": "90'+10'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇦🇹"
+        },
+        {
+          "min": "89'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇯🇴"
+        },
+        {
+          "min": "89'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇦🇹"
         },
         {
           "min": "89'",
           "icon": "🔄",
-          "txt": "Substituição, Jordânia. Entra Ali Azaizeh para o lugar de Odeh Fakhoury.",
-          "sub": "Jordan"
+          "txt": "Substituição, 🇯🇴. Entra Ali Azaizeh para o lugar de Odeh Fakhoury.",
+          "sub": "🇯🇴"
         },
         {
           "min": "88'",
           "icon": "🔄",
-          "txt": "Substituição, Jordânia. Entra Mohammad Al Daoud para o lugar de Mousa Al Tamari.",
-          "sub": "Jordan"
+          "txt": "Substituição, 🇯🇴. Entra Mohammad Al Daoud para o lugar de Mousa Al Tamari.",
+          "sub": "🇯🇴"
+        },
+        {
+          "min": "87'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Odeh Fakhoury (Jordânia).",
+          "sub": "🇯🇴"
+        },
+        {
+          "min": "87'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Stefan Posch (Áustria).",
+          "sub": "🇦🇹"
         },
         {
           "min": "83'",
           "icon": "🔄",
-          "txt": "Substituição, Áustria. Entra Patrick Wimmer para o lugar de Romano Schmid.",
-          "sub": "Austria"
+          "txt": "Substituição, 🇦🇹. Entra Patrick Wimmer para o lugar de Romano Schmid.",
+          "sub": "🇦🇹"
         },
         {
           "min": "81'",
           "icon": "🔄",
-          "txt": "Substituição, Jordânia. Entra Mahmoud Al Mardi para o lugar de Ehsan Haddad.",
-          "sub": "Jordan"
+          "txt": "Substituição, 🇯🇴. Entra Mahmoud Al Mardi para o lugar de Ehsan Haddad.",
+          "sub": "🇯🇴"
         },
         {
           "min": "81'",
           "icon": "🔄",
-          "txt": "Substituição, Jordânia. Saed Al Rosan entra em campo com Abdallah Nasib devido a uma lesão.",
-          "sub": "Jordan"
+          "txt": "Substituição, 🇯🇴. Saed Al Rosan entra em campo com Abdallah Nasib devido a uma lesão.",
+          "sub": "🇯🇴"
+        },
+        {
+          "min": "78'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇦🇹"
+        },
+        {
+          "min": "78'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇯🇴"
+        },
+        {
+          "min": "78'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇦🇹"
+        },
+        {
+          "min": "78'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Abdallah Nasib (Jordânia).",
+          "sub": "🇯🇴"
         },
         {
           "min": "77'",
           "icon": "🟨",
           "txt": "Marcel Sabitzer (Áustria) recebe cartão amarelo.",
-          "sub": "Austria"
+          "sub": "🇦🇹"
         },
         {
           "min": "76'",
           "icon": "⚽ OG",
           "txt": "Gol contra marcado por Yazan Al Arab, Jordânia. Áustria 2, Jordânia 1.",
-          "sub": "Austria"
+          "sub": "🇦🇹"
+        },
+        {
+          "min": "75'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇯🇴"
+        },
+        {
+          "min": "75'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇦🇹"
+        },
+        {
+          "min": "72'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇯🇴"
+        },
+        {
+          "min": "72'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇦🇹"
         },
         {
           "min": "72'",
           "icon": "🔄",
-          "txt": "Substituição, Jordânia. Saleem Obaid entra em campo e entra em campo Mohammad Abu Al Nadi.",
-          "sub": "Jordan"
+          "txt": "Substituição, 🇯🇴. Saleem Obaid entra em campo e entra em campo Mohammad Abu Al Nadi.",
+          "sub": "🇯🇴"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇦🇹"
+        },
+        {
+          "min": "70'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇦🇹"
+        },
+        {
+          "min": "65'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇦🇹"
+        },
+        {
+          "min": "65'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇯🇴"
+        },
+        {
+          "min": "63'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇦🇹"
+        },
+        {
+          "min": "63'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Yazeed Abulaila (Jordânia).",
+          "sub": "🇯🇴"
         },
         {
           "min": "59'",
           "icon": "🔄",
-          "txt": "Substituição, Áustria. Entra Carney Chukwuemeka para o lugar de Xaver Schlager.",
-          "sub": "Austria"
+          "txt": "Substituição, 🇦🇹. Entra Carney Chukwuemeka para o lugar de Xaver Schlager.",
+          "sub": "🇦🇹"
         },
         {
           "min": "59'",
           "icon": "🔄",
-          "txt": "Substituição, Áustria. Entra Kevin Danso para o lugar de David Alaba.",
-          "sub": "Austria"
+          "txt": "Substituição, 🇦🇹. Entra Kevin Danso para o lugar de David Alaba.",
+          "sub": "🇦🇹"
         },
         {
           "min": "59'",
           "icon": "🔄",
-          "txt": "Substituição, Áustria. Entra Paul Wanner para o lugar de Phillipp Mwene.",
-          "sub": "Austria"
+          "txt": "Substituição, 🇦🇹. Entra Paul Wanner para o lugar de Phillipp Mwene.",
+          "sub": "🇦🇹"
         },
         {
           "min": "50'",
           "icon": "⚽",
           "txt": "Ali Olwan (Jordan) finalização com o pé direito do lado esquerdo da área no Escanteio inferior direito. Assistência de Noor Al Rawabdeh depois de um contra-ataque.",
-          "sub": "Jordan"
+          "sub": "🇯🇴"
+        },
+        {
+          "min": "45'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🏳️"
         },
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, Áustria. Entra Marko Arnautovic substituindo Sasa Kalajdzic.",
-          "sub": "Austria"
+          "txt": "Substituição, 🇦🇹. Entra Marko Arnautovic substituindo Sasa Kalajdzic.",
+          "sub": "🇦🇹"
+        },
+        {
+          "min": "45'+5'",
+          "icon": "⏱️",
+          "txt": "Intervalo",
+          "sub": "🏳️"
+        },
+        {
+          "min": "26'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇯🇴"
+        },
+        {
+          "min": "26'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇦🇹"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇯🇴"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇦🇹"
         },
         {
           "min": "21'",
           "icon": "⚽",
           "txt": "Romano Schmid (Áustria) finalização com o pé direito de fora da área no ângulo superior direito. Assistência de Xaver Schlager.",
-          "sub": "Austria"
+          "sub": "🇦🇹"
+        },
+        {
+          "min": "",
+          "icon": "🏁",
+          "txt": "Início de jogo",
+          "sub": "🏳️"
         }
       ],
       "lineups": {
@@ -3352,7 +4290,8 @@
               "row": 3
             }
           ],
-          "formation": "4-2-3-1"
+          "formation": "4-2-3-1",
+          "dotColor": "#d72b2c"
         },
         "away": {
           "starters": [
@@ -3489,7 +4428,8 @@
               "row": 3
             }
           ],
-          "formation": "3-4-2-1"
+          "formation": "3-4-2-1",
+          "dotColor": "#E70000"
         }
       },
       "stats": {
@@ -3572,109 +4512,163 @@
           "min": "90'+5'",
           "icon": "•",
           "txt": "Fim do segundo tempo, Portugal 1, Congo RD 1.",
-          "sub": ""
+          "sub": "🏳️"
         },
         {
           "min": "90'+2'",
           "icon": "🟨",
           "txt": "Tomás Araújo (Portugal) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Portugal"
+          "sub": "🇵🇹"
         },
         {
           "min": "88'",
           "icon": "🟨",
           "txt": "Nélson Semedo (Portugal) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Portugal"
+          "sub": "🇵🇹"
         },
         {
           "min": "85'",
           "icon": "🔄",
-          "txt": "Substituição, RD Congo. Entra Simon Banza para o lugar de Cédric Bakambu.",
-          "sub": "Congo DR"
+          "txt": "Substituição, 🇨🇩. Entra Simon Banza para o lugar de Cédric Bakambu.",
+          "sub": "🇨🇩"
         },
         {
           "min": "85'",
           "icon": "🔄",
-          "txt": "Substituição, RD Congo. Entra Gédéon Kalulu para o lugar de Aaron Wan-Bissaka.",
-          "sub": "Congo DR"
+          "txt": "Substituição, 🇨🇩. Entra Gédéon Kalulu para o lugar de Aaron Wan-Bissaka.",
+          "sub": "🇨🇩"
         },
         {
           "min": "83'",
           "icon": "🔄",
-          "txt": "Substituição, Portugal. Gonçalo Ramos entra no lugar de Vitinha.",
-          "sub": "Portugal"
+          "txt": "Substituição, 🇵🇹. Gonçalo Ramos entra no lugar de Vitinha.",
+          "sub": "🇵🇹"
         },
         {
           "min": "74'",
           "icon": "🔄",
-          "txt": "Substituição, RD Congo. Entra Joris Kayembe substituindo Arthur Masuaku.",
-          "sub": "Congo DR"
+          "txt": "Substituição, 🇨🇩. Entra Joris Kayembe substituindo Arthur Masuaku.",
+          "sub": "🇨🇩"
         },
         {
           "min": "74'",
           "icon": "🔄",
-          "txt": "Substituição, RD Congo. Charles Pickel substitui Edo Kayembe.",
-          "sub": "Congo DR"
+          "txt": "Substituição, 🇨🇩. Charles Pickel substitui Edo Kayembe.",
+          "sub": "🇨🇩"
         },
         {
           "min": "72'",
           "icon": "🔄",
-          "txt": "Substituição, Portugal. Nélson Semedo substitui Nuno Mendes.",
-          "sub": "Portugal"
+          "txt": "Substituição, 🇵🇹. Nélson Semedo substitui Nuno Mendes.",
+          "sub": "🇵🇹"
         },
         {
           "min": "71'",
           "icon": "🔄",
-          "txt": "Substituição, Portugal. Rafael Leão entra no lugar de Pedro Neto.",
-          "sub": "Portugal"
+          "txt": "Substituição, 🇵🇹. Rafael Leão entra no lugar de Pedro Neto.",
+          "sub": "🇵🇹"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇩"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇵🇹"
+        },
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇨🇩"
+        },
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇵🇹"
         },
         {
           "min": "57'",
           "icon": "🔄",
-          "txt": "Substituição, RD Congo. Entra Noah Sadiki para o lugar de Ngal’ayel Mukau.",
-          "sub": "Congo DR"
+          "txt": "Substituição, 🇨🇩. Entra Noah Sadiki para o lugar de Ngal'ayel Mukau.",
+          "sub": "🇨🇩"
         },
         {
           "min": "45'",
-          "icon": "•",
+          "icon": "▶️",
           "txt": "Começo do segundo tempo Portugal 1, Congo RD 1.",
-          "sub": ""
+          "sub": "🏳️"
         },
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, Portugal. Francisco Conceição substitui Bernardo Silva.",
-          "sub": "Portugal"
+          "txt": "Substituição, 🇵🇹. Francisco Conceição entra no lugar de Bernardo Silva.",
+          "sub": "🇵🇹"
         },
         {
           "min": "45'+6'",
-          "icon": "•",
+          "icon": "⏱️",
           "txt": "Fim do primeiro tempo, Portugal 1, Congo RD 1.",
-          "sub": ""
+          "sub": "🏳️"
         },
         {
           "min": "45'+5'",
           "icon": "⚽",
           "txt": "Yoane Wissa (RD Congo) de cabeça de muito perto ao ângulo superior esquerdo. Assistência de Arthur Masuaku com um cruzamento após escanteio.",
-          "sub": "Congo DR"
+          "sub": "🇨🇩"
         },
         {
           "min": "32'",
           "icon": "🟨",
           "txt": "Chancel Mbemba (RD Congo) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Congo DR"
+          "sub": "🇨🇩"
+        },
+        {
+          "min": "27'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇩"
+        },
+        {
+          "min": "27'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇵🇹"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇨🇩"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇵🇹"
         },
         {
           "min": "13'",
           "icon": "🟨",
           "txt": "Bernardo Silva (Portugal) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Portugal"
+          "sub": "🇵🇹"
         },
         {
           "min": "6'",
           "icon": "⚽",
           "txt": "João Neves (Portugal) de cabeça do meio da área no Escanteio inferior direito. Assistência de Pedro Neto com um cruzamento.",
-          "sub": "Portugal"
+          "sub": "🇵🇹"
+        },
+        {
+          "min": "",
+          "icon": "🏁",
+          "txt": "Início de jogo",
+          "sub": "🏳️"
         }
       ],
       "lineups": {
@@ -3813,7 +4807,8 @@
               "row": 3
             }
           ],
-          "formation": "4-2-3-1"
+          "formation": "4-2-3-1",
+          "dotColor": "#da291c"
         },
         "away": {
           "starters": [
@@ -3950,7 +4945,8 @@
               "row": 3
             }
           ],
-          "formation": "5-3-2"
+          "formation": "5-3-2",
+          "dotColor": "#418fde"
         }
       },
       "stats": {
@@ -4033,115 +5029,193 @@
           "min": "90'+7'",
           "icon": "•",
           "txt": "Fim do segundo tempo, Inglaterra 4, Croácia 2.",
-          "sub": ""
+          "sub": "🏳️"
         },
         {
           "min": "87'",
           "icon": "🔄",
-          "txt": "Substituição, Inglaterra. Marc Guéhi substitui John Stones.",
-          "sub": "England"
+          "txt": "Substituição, 🏳️. Marc Guéhi substitui John Stones.",
+          "sub": "🏳️"
         },
         {
           "min": "85'",
           "icon": "⚽",
           "txt": "Marcus Rashford (Inglaterra) finalização com o pé direito do meio da área no Escanteio inferior direito. Assistência de Bukayo Saka.",
-          "sub": "England"
+          "sub": "🏳️"
         },
         {
           "min": "80'",
           "icon": "🔄",
-          "txt": "Substituição, Inglaterra. Djed Spence entra em campo para substituir Jude Bellingham.",
-          "sub": "England"
+          "txt": "Substituição, 🏳️. Djed Spence entra em campo para substituir Jude Bellingham.",
+          "sub": "🏳️"
         },
         {
           "min": "78'",
           "icon": "🔄",
-          "txt": "Substituição, Croácia. Nikola Vlasic entra no lugar de Martin Baturina.",
-          "sub": "Croatia"
+          "txt": "Substituição, 🇭🇷. Nikola Vlasic entra no lugar de Martin Baturina.",
+          "sub": "🇭🇷"
         },
         {
           "min": "78'",
           "icon": "🔄",
-          "txt": "Substituição, Croácia. Andrej Kramaric entra em campo e entra Mario Pasalic.",
-          "sub": "Croatia"
+          "txt": "Substituição, 🇭🇷. Andrej Kramaric entra em campo e entra Mario Pasalic.",
+          "sub": "🇭🇷"
+        },
+        {
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇭🇷"
+        },
+        {
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🏳️"
         },
         {
           "min": "72'",
           "icon": "🔄",
-          "txt": "Substituição, Inglaterra. Marcus Rashford substitui Anthony Gordon.",
-          "sub": "England"
+          "txt": "Substituição, 🏳️. Marcus Rashford substitui Anthony Gordon.",
+          "sub": "🏳️"
         },
         {
           "min": "72'",
           "icon": "🔄",
-          "txt": "Substituição, Inglaterra. Entra Bukayo Saka substituindo Noni Madueke.",
-          "sub": "England"
+          "txt": "Substituição, 🏳️. Entra Bukayo Saka substituindo Noni Madueke.",
+          "sub": "🏳️"
         },
         {
           "min": "72'",
           "icon": "🔄",
-          "txt": "Substituição, Inglaterra. Morgan Rogers substitui Declan Rice.",
-          "sub": "England"
+          "txt": "Substituição, 🏳️. Morgan Rogers substitui Declan Rice.",
+          "sub": "🏳️"
+        },
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇭🇷"
+        },
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🏳️"
         },
         {
           "min": "66'",
           "icon": "🔄",
-          "txt": "Substituição, Croácia. Entra Marco Pasalic para o lugar de Luka Vuskovic.",
-          "sub": "Croatia"
+          "txt": "Substituição, 🇭🇷. Entra Marco Pasalic para o lugar de Luka Vuskovic.",
+          "sub": "🇭🇷"
         },
         {
           "min": "66'",
           "icon": "🔄",
-          "txt": "Substituição, Croácia. Igor Matanovic entra em campo para substituir Petar Musa.",
-          "sub": "Croatia"
+          "txt": "Substituição, 🇭🇷. Igor Matanovic entra em campo para substituir Petar Musa.",
+          "sub": "🇭🇷"
         },
         {
           "min": "58'",
           "icon": "🔄",
-          "txt": "Substituição, Croácia. Entra Mateo Kovacic para o lugar de Luka Modric.",
-          "sub": "Croatia"
+          "txt": "Substituição, 🇭🇷. Entra Mateo Kovacic para o lugar de Luka Modric.",
+          "sub": "🇭🇷"
         },
         {
           "min": "47'",
           "icon": "⚽",
           "txt": "Jude Bellingham (Inglaterra) finalização com o pé direito do lado direito da área no Escanteio inferior esquerdo. Assistência de Elliot Anderson.",
-          "sub": "England"
+          "sub": "🏳️"
         },
         {
           "min": "45'",
-          "icon": "•",
+          "icon": "▶️",
           "txt": "Começo do segundo tempo Inglaterra 2, Croácia 2.",
-          "sub": ""
+          "sub": "🏳️"
+        },
+        {
+          "min": "45'+6'",
+          "icon": "⏱️",
+          "txt": "Intervalo",
+          "sub": "🏳️"
         },
         {
           "min": "45'+5'",
           "icon": "⚽",
           "txt": "Petar Musa (Croácia) remate com o pé direito no coração da área ao centro da baliza. Assistência de Ivan Perisic com um passe de cabeça.",
-          "sub": "Croatia"
+          "sub": "🇭🇷"
         },
         {
           "min": "42'",
           "icon": "⚽",
           "txt": "Harry Kane (Inglaterra) de cabeça do meio da área no Escanteio inferior esquerdo. Assistência de Declan Rice com um cruzamento após escanteio.",
-          "sub": "England"
+          "sub": "🏳️"
         },
         {
           "min": "36'",
           "icon": "⚽",
           "txt": "Martin Baturina (Croácia) finalização com o pé direito de fora da área ao ângulo superior esquerdo. Assistência de Petar Sucic.",
-          "sub": "Croatia"
+          "sub": "🇭🇷"
+        },
+        {
+          "min": "25'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇭🇷"
+        },
+        {
+          "min": "25'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🏳️"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇭🇷"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🏳️"
+        },
+        {
+          "min": "15'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇭🇷"
+        },
+        {
+          "min": "15'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇭🇷"
         },
         {
           "min": "12'",
-          "icon": "⚽",
-          "txt": "Harry Kane (Inglaterra) converte o pênalti com um finalização com o pé direito no Escanteio inferior direito.",
-          "sub": "England"
+          "icon": "🟥",
+          "txt": "Gol! Inglaterra 1, Croácia 0. Harry Kane (Inglaterra) converte o pênalti com um finalização com o pé direito no Escanteio inferior direito.",
+          "sub": "🏳️"
+        },
+        {
+          "min": "11'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🏳️"
+        },
+        {
+          "min": "11'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🏳️"
         },
         {
           "min": "",
-          "icon": "•",
+          "icon": "🏁",
           "txt": "Começa o primeiro tempo.",
-          "sub": ""
+          "sub": "🏳️"
         }
       ],
       "lineups": {
@@ -4275,7 +5349,8 @@
               "row": 3
             }
           ],
-          "formation": "4-2-3-1"
+          "formation": "4-2-3-1",
+          "dotColor": "#EA1F29"
         },
         "away": {
           "starters": [
@@ -4412,7 +5487,8 @@
               "row": 3
             }
           ],
-          "formation": "3-4-2-1"
+          "formation": "3-4-2-1",
+          "dotColor": "#ff0000"
         }
       },
       "stats": {
@@ -4492,88 +5568,250 @@
       "clock": "",
       "events": [
         {
+          "min": "90'+12'",
+          "icon": "•",
+          "txt": "jogador",
+          "sub": "🏳️"
+        },
+        {
+          "min": "90'+11'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇵🇦"
+        },
+        {
+          "min": "90'+11'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇬🇭"
+        },
+        {
+          "min": "90'+10'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇵🇦"
+        },
+        {
+          "min": "90'+10'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Benjamin Asare (Gana).",
+          "sub": "🇬🇭"
+        },
+        {
           "min": "90'+9'",
           "icon": "🟨",
           "txt": "Carlos Harvey (Panamá) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Panama"
+          "sub": "🇵🇦"
         },
         {
           "min": "90'+5'",
           "icon": "⚽",
           "txt": "Caleb Yirenkyi (Gana) finalização com o pé direito de muito perto no ângulo superior direito. Assistência de Brandon Thomas-Asante depois de um contra-ataque.",
-          "sub": "Ghana"
+          "sub": "🇬🇭"
         },
         {
           "min": "90'",
           "icon": "🔄",
-          "txt": "Substituição, Panamá. Aníbal Godoy substitui César Blackman.",
-          "sub": "Panama"
+          "txt": "Substituição, 🇵🇦. Aníbal Godoy substitui César Blackman.",
+          "sub": "🇵🇦"
         },
         {
           "min": "87'",
           "icon": "🔄",
-          "txt": "Substituição, Gana. O príncipe Adu substitui Jordan Ayew.",
-          "sub": "Ghana"
+          "txt": "Substituição, 🇬🇭. O príncipe Adu substitui Jordan Ayew.",
+          "sub": "🇬🇭"
         },
         {
           "min": "78'",
           "icon": "🔄",
-          "txt": "Substituição, Gana. Kwasi Sibo substitui Elisha Owusu.",
-          "sub": "Ghana"
+          "txt": "Substituição, 🇬🇭. Kwasi Sibo substitui Elisha Owusu.",
+          "sub": "🇬🇭"
         },
         {
           "min": "74'",
           "icon": "🔄",
-          "txt": "Substituição, Panamá. Entra Ismael Díaz para o lugar de José Luis Rodríguez.",
-          "sub": "Panama"
+          "txt": "Substituição, 🇵🇦. Ismael Díaz substitui José Luis Rodríguez.",
+          "sub": "🇵🇦"
         },
         {
           "min": "72'",
           "icon": "🟨",
           "txt": "César Blackman (Panamá) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Panama"
+          "sub": "🇵🇦"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇬🇭"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇵🇦"
+        },
+        {
+          "min": "68'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇬🇭"
+        },
+        {
+          "min": "68'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇵🇦"
         },
         {
           "min": "63'",
           "icon": "🔄",
-          "txt": "Substituição, Panamá. Azarías Londoño substitui Cristian Martínez.",
-          "sub": "Panama"
+          "txt": "Substituição, 🇵🇦. Azarías Londoño substitui Cristian Martínez.",
+          "sub": "🇵🇦"
         },
         {
           "min": "63'",
           "icon": "🔄",
-          "txt": "Substituição, Panamá. José Fajardo substitui Cecílio Waterman.",
-          "sub": "Panama"
+          "txt": "Substituição, 🇵🇦. José Fajardo substitui Cecílio Waterman.",
+          "sub": "🇵🇦"
         },
         {
           "min": "58'",
           "icon": "🔄",
-          "txt": "Substituição, Gana. Abdul Fatawu substitui Ernest Nuamah.",
-          "sub": "Ghana"
+          "txt": "Substituição, 🇬🇭. Abdul Fatawu substitui Ernest Nuamah.",
+          "sub": "🇬🇭"
         },
         {
           "min": "58'",
           "icon": "🔄",
-          "txt": "Substituição, Gana. Brandon Thomas-Asante entra em campo para substituir Kamaldeen Sulemana.",
-          "sub": "Ghana"
+          "txt": "Substituição, 🇬🇭. Brandon Thomas-Asante entra em campo para substituir Kamaldeen Sulemana.",
+          "sub": "🇬🇭"
+        },
+        {
+          "min": "45'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🏳️"
         },
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, Gana. Benjamin Asare substituiu Lawrence Ati Zigi devido a uma lesão.",
-          "sub": "Ghana"
+          "txt": "Substituição, 🇬🇭. Benjamin Asare substituiu Lawrence Ati Zigi devido a uma lesão.",
+          "sub": "🇬🇭"
+        },
+        {
+          "min": "45'+6'",
+          "icon": "⏱️",
+          "txt": "Intervalo",
+          "sub": "🏳️"
+        },
+        {
+          "min": "43'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇵🇦"
+        },
+        {
+          "min": "43'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇬🇭"
+        },
+        {
+          "min": "42'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇵🇦"
+        },
+        {
+          "min": "42'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Lawrence Ati Zigi (Gana).",
+          "sub": "🇬🇭"
+        },
+        {
+          "min": "36'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇵🇦"
+        },
+        {
+          "min": "36'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇬🇭"
+        },
+        {
+          "min": "35'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇵🇦"
+        },
+        {
+          "min": "35'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Lawrence Ati Zigi (Gana).",
+          "sub": "🇬🇭"
+        },
+        {
+          "min": "26'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇬🇭"
+        },
+        {
+          "min": "26'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇵🇦"
+        },
+        {
+          "min": "24'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇬🇭"
+        },
+        {
+          "min": "24'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇵🇦"
+        },
+        {
+          "min": "24'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇵🇦"
+        },
+        {
+          "min": "24'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇬🇭"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇵🇦"
+        },
+        {
+          "min": "23'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Jordan Ayew (Gana).",
+          "sub": "🇬🇭"
         },
         {
           "min": "16'",
           "icon": "🟨",
           "txt": "Caleb Yirenkyi (Gana) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Ghana"
+          "sub": "🇬🇭"
         },
         {
           "min": "",
-          "icon": "•",
+          "icon": "🏁",
           "txt": "Começa o primeiro tempo.",
-          "sub": ""
+          "sub": "🏳️"
         }
       ],
       "lineups": {
@@ -4707,7 +5945,8 @@
               "row": 3
             }
           ],
-          "formation": "4-3-3"
+          "formation": "4-3-3",
+          "dotColor": "#000000"
         },
         "away": {
           "starters": [
@@ -4844,7 +6083,8 @@
               "row": 3
             }
           ],
-          "formation": "3-4-3"
+          "formation": "3-4-3",
+          "dotColor": "#d21034"
         }
       },
       "stats": {
@@ -4924,106 +6164,220 @@
       "clock": "",
       "events": [
         {
+          "min": "90'+11'",
+          "icon": "•",
+          "txt": "jogador",
+          "sub": "🏳️"
+        },
+        {
           "min": "90'+9'",
           "icon": "⚽",
           "txt": "Jaminton Campaz (Colômbia) de cabeça do meio da área no Escanteio inferior esquerdo. Assistência de Cucho Hernández com um cruzamento.",
-          "sub": "Colombia"
+          "sub": "🇨🇴"
         },
         {
           "min": "90'+3'",
           "icon": "🔄",
-          "txt": "Substituição, Uzbequistão. Igor Sergeev substitui Eldor Shomurodov.",
-          "sub": "Uzbekistan"
+          "txt": "Substituição, 🇺🇿. Igor Sergeev substitui Eldor Shomurodov.",
+          "sub": "🇺🇿"
         },
         {
           "min": "90'+3'",
           "icon": "🔄",
-          "txt": "Substituição, Colômbia. Entra Kevin Castaño para o lugar de Jhon Arias.",
-          "sub": "Colombia"
+          "txt": "Substituição, 🇨🇴. Entra Kevin Castaño para o lugar de Jhon Arias.",
+          "sub": "🇨🇴"
         },
         {
           "min": "90'+3'",
           "icon": "🔄",
-          "txt": "Substituição, Colômbia. Andrés Gómez entra no lugar de Luis Díaz.",
-          "sub": "Colombia"
+          "txt": "Substituição, 🇨🇴. Andrés Gómez substitui Luis Díaz.",
+          "sub": "🇨🇴"
         },
         {
           "min": "80'",
           "icon": "🔄",
-          "txt": "Substituição, Colômbia. Cucho Hernández substitui Luis Suárez.",
-          "sub": "Colombia"
+          "txt": "Substituição, 🇨🇴. Cucho Hernández substitui Luis Suárez.",
+          "sub": "🇨🇴"
         },
         {
           "min": "80'",
           "icon": "🔄",
-          "txt": "Substituição, Colômbia. Entra Richard Ríos para o lugar de Gustavo Puerta.",
-          "sub": "Colombia"
+          "txt": "Substituição, 🇨🇴. Entra Richard Ríos para o lugar de Gustavo Puerta.",
+          "sub": "🇨🇴"
         },
         {
           "min": "77'",
           "icon": "🔄",
-          "txt": "Substituição, Uzbequistão. Entra Azizbek Amonov substituindo Abbosbek Fayzullaev.",
-          "sub": "Uzbekistan"
+          "txt": "Substituição, 🇺🇿. Entra Azizbek Amonov substituindo Abbosbek Fayzullaev.",
+          "sub": "🇺🇿"
         },
         {
           "min": "77'",
           "icon": "🔄",
-          "txt": "Substituição, Uzbequistão. Jakhongir Urozov entra em campo Rustam Ashurmatov devido a uma lesão.",
-          "sub": "Uzbekistan"
+          "txt": "Substituição, 🇺🇿. Jakhongir Urozov entra em campo Rustam Ashurmatov devido a uma lesão.",
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "77'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇴"
+        },
+        {
+          "min": "77'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "76'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇨🇴"
+        },
+        {
+          "min": "76'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Rustam Ashurmatov (Uzbequistão).",
+          "sub": "🇺🇿"
         },
         {
           "min": "72'",
           "icon": "🔄",
-          "txt": "Substituição, Colômbia. Entra Jaminton Campaz para o lugar de James Rodríguez.",
-          "sub": "Colombia"
+          "txt": "Substituição, 🇨🇴. Entra Jaminton Campaz para o lugar de James Rodríguez.",
+          "sub": "🇨🇴"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇨🇴"
+        },
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇨🇴"
         },
         {
           "min": "65'",
           "icon": "⚽",
           "txt": "Luis Díaz (Colômbia) finalização com o pé direito do meio da área no Escanteio inferior direito. Assistência de Gustavo Puerta.",
-          "sub": "Colombia"
+          "sub": "🇨🇴"
         },
         {
           "min": "60'",
           "icon": "⚽",
           "txt": "Abbosbek Fayzullaev (Uzbequistão) de cabeça de muito perto ao ângulo superior esquerdo.",
-          "sub": "Uzbekistan"
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "45'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🏳️"
         },
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, Uzbequistão. Farrukh Sayfiev substitui Sherzod Nasrullaev.",
-          "sub": "Uzbekistan"
+          "txt": "Substituição, 🇺🇿. Farrukh Sayfiev substitui Sherzod Nasrullaev.",
+          "sub": "🇺🇿"
         },
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, Uzbequistão. Entra Dostonbek Khamdamov substituindo Oston Urunov.",
-          "sub": "Uzbekistan"
+          "txt": "Substituição, 🇺🇿. Entra Dostonbek Khamdamov substituindo Oston Urunov.",
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "45'+6'",
+          "icon": "⏱️",
+          "txt": "Intervalo",
+          "sub": "🏳️"
         },
         {
           "min": "40'",
           "icon": "⚽",
           "txt": "Daniel Muñoz (Colômbia) finalização com o pé direito do meio da área acertando no centro do gol. Assistência de Luis Díaz com um passe em profundidade.",
-          "sub": "Colombia"
+          "sub": "🇨🇴"
         },
         {
           "min": "34'",
           "icon": "🟨",
           "txt": "Abdukodir Khusanov (Uzbequistão) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Uzbekistan"
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "26'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "26'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇨🇴"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇨🇴"
+        },
+        {
+          "min": "16'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇴"
+        },
+        {
+          "min": "16'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "16'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇨🇴"
+        },
+        {
+          "min": "16'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a lesão de Utkir Yusupov (Uzbequistão).",
+          "sub": "🇺🇿"
         },
         {
           "min": "7'",
           "icon": "🟨",
           "txt": "Johan Mojica (Colômbia) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Colombia"
+          "sub": "🇨🇴"
         },
         {
           "min": "",
-          "icon": "•",
+          "icon": "🏁",
           "txt": "Começa o primeiro tempo.",
-          "sub": ""
+          "sub": "🏳️"
         }
       ],
       "lineups": {
@@ -5162,7 +6516,8 @@
               "row": 3
             }
           ],
-          "formation": "3-4-2-1"
+          "formation": "3-4-2-1",
+          "dotColor": "#0072CE"
         },
         "away": {
           "starters": [
@@ -5299,7 +6654,8 @@
               "row": 3
             }
           ],
-          "formation": "4-3-3"
+          "formation": "4-3-3",
+          "dotColor": "#21418c"
         }
       },
       "stats": {
@@ -5382,103 +6738,175 @@
           "min": "90'+8'",
           "icon": "•",
           "txt": "Fim do segundo tempo, Chéquia 1, África do Sul 1.",
-          "sub": ""
+          "sub": "🏳️"
         },
         {
           "min": "84'",
           "icon": "🔄",
-          "txt": "Substituição, África do Sul. Entra Kamogelo Sebelebele substituindo Thapelo Maseko.",
-          "sub": "South Africa"
+          "txt": "Substituição, 🇿🇦. Entra Kamogelo Sebelebele substituindo Thapelo Maseko.",
+          "sub": "🇿🇦"
         },
         {
           "min": "83'",
-          "icon": "⚽",
-          "txt": "Teboho Mokoena (África do Sul) converte o pênalti com um finalização com o pé direito no Escanteio inferior esquerdo.",
-          "sub": "South Africa"
+          "icon": "🟥",
+          "txt": "Gol! Tchéquia 1, África do Sul 1. Teboho Mokoena (África do Sul) converte o pênalti com um finalização com o pé direito no Escanteio inferior esquerdo.",
+          "sub": "🇿🇦"
         },
         {
           "min": "78'",
           "icon": "🔄",
-          "txt": "Substituição, República Tcheca. David Zima entra em campo para substituir Lukás Cerv.",
-          "sub": "Czechia"
+          "txt": "Substituição, 🇨🇿. David Zima entra em campo para substituir Lukás Cerv.",
+          "sub": "🇨🇿"
+        },
+        {
+          "min": "77'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇿"
+        },
+        {
+          "min": "77'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇿🇦"
+        },
+        {
+          "min": "76'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇨🇿"
+        },
+        {
+          "min": "76'",
+          "icon": "⏸️",
+          "txt": "Partida atrasada (África do Sul).",
+          "sub": "🇿🇦"
         },
         {
           "min": "75'",
           "icon": "🟨",
           "txt": "Ladislav Krejcí (Tcheca) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Czechia"
+          "sub": "🇨🇿"
+        },
+        {
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇿"
+        },
+        {
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇿🇦"
+        },
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇨🇿"
+        },
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇿🇦"
         },
         {
           "min": "67'",
           "icon": "🔄",
-          "txt": "Substituição, República Tcheca. Lukás Provod entra em campo e entra Adam Hlozek.",
-          "sub": "Czechia"
+          "txt": "Substituição, 🇨🇿. Lukás Provod entra em campo e entra Adam Hlozek.",
+          "sub": "🇨🇿"
         },
         {
           "min": "67'",
           "icon": "🔄",
-          "txt": "Substituição, República Tcheca. Tomás Soucek entra no lugar de Michal Sadílek.",
-          "sub": "Czechia"
+          "txt": "Substituição, 🇨🇿. Tomás Soucek entra no lugar de Michal Sadílek.",
+          "sub": "🇨🇿"
         },
         {
           "min": "66'",
           "icon": "🔄",
-          "txt": "Substituição, África do Sul. Evidência Makgopa substitui Iqraam Rayners.",
-          "sub": "South Africa"
+          "txt": "Substituição, 🇿🇦. Evidência Makgopa substitui Iqraam Rayners.",
+          "sub": "🇿🇦"
         },
         {
           "min": "55'",
           "icon": "🔄",
-          "txt": "Substituição, República Tcheca. Entra Jaroslav Zeleny para o lugar de Alexandr Sojka.",
-          "sub": "Czechia"
+          "txt": "Substituição, 🇨🇿. Entra Jaroslav Zeleny para o lugar de Alexandr Sojka.",
+          "sub": "🇨🇿"
         },
         {
           "min": "55'",
           "icon": "🔄",
-          "txt": "Substituição, República Tcheca. Pavel Sulc substitui Vladimír Darida.",
-          "sub": "Czechia"
+          "txt": "Substituição, 🇨🇿. Pavel Sulc substitui Vladimír Darida.",
+          "sub": "🇨🇿"
         },
         {
           "min": "45'",
-          "icon": "•",
+          "icon": "▶️",
           "txt": "Início do segundo tempo Tchéquia 1, África do Sul 0.",
-          "sub": ""
+          "sub": "🏳️"
         },
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, África do Sul. Relebohile Mofokeng entra em campo e entra Jayden Adams.",
-          "sub": "South Africa"
+          "txt": "Substituição, 🇿🇦. Relebohile Mofokeng entra em campo e entra Jayden Adams.",
+          "sub": "🇿🇦"
         },
         {
           "min": "45'+5'",
-          "icon": "•",
+          "icon": "⏱️",
           "txt": "Fim do primeiro tempo, Chéquia 1, África do Sul 0.",
-          "sub": ""
+          "sub": "🏳️"
         },
         {
           "min": "40'",
           "icon": "🟨",
           "txt": "Thalente Mbatha (África do Sul) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "South Africa"
+          "sub": "🇿🇦"
         },
         {
           "min": "33'",
           "icon": "🟨",
           "txt": "Teboho Mokoena (África do Sul) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "South Africa"
+          "sub": "🇿🇦"
+        },
+        {
+          "min": "26'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇿"
+        },
+        {
+          "min": "26'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇿🇦"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇨🇿"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇿🇦"
         },
         {
           "min": "6'",
           "icon": "⚽",
           "txt": "Michal Sadílek (Tcheca) remate com o pé esquerdo no coração da área ao centro da baliza. Assistência de Alexandr Sojka.",
-          "sub": "Czechia"
+          "sub": "🇨🇿"
         },
         {
           "min": "",
-          "icon": "•",
+          "icon": "🏁",
           "txt": "Começa o primeiro tempo.",
-          "sub": ""
+          "sub": "🏳️"
         }
       ],
       "lineups": {
@@ -5612,7 +7040,8 @@
               "row": 3
             }
           ],
-          "formation": "3-5-2"
+          "formation": "3-5-2",
+          "dotColor": "#d7141a"
         },
         "away": {
           "starters": [
@@ -5739,7 +7168,8 @@
               "row": 3
             }
           ],
-          "formation": "4-3-3"
+          "formation": "4-3-3",
+          "dotColor": "#FFB81C"
         }
       },
       "stats": {
@@ -5822,127 +7252,223 @@
           "min": "90'+8'",
           "icon": "•",
           "txt": "Fim do segundo tempo, Suíça 4, Bósnia e Herzegovina 1.",
-          "sub": ""
+          "sub": "🏳️"
         },
         {
           "min": "90'+7'",
-          "icon": "⚽",
-          "txt": "Granit Xhaka (Suíça) converte o pênalti com um finalização com o pé esquerdo no Escanteio inferior direito.",
-          "sub": "Switzerland"
+          "icon": "🟥",
+          "txt": "Gol! Suíça 4, Bósnia e Herzegovina 1. Granit Xhaka (Suíça) converte o pênalti com um finalização com o pé esquerdo no Escanteio inferior direito.",
+          "sub": "🇨🇭"
         },
         {
           "min": "90'+3'",
           "icon": "⚽",
           "txt": "Ermin Mahmic (Bósnia e Herzegovina) finalização com o pé direito no coração da área acertando no centro do gol após escanteio.",
-          "sub": "Bosnia-Herzegovina"
+          "sub": "🏳️"
         },
         {
           "min": "90'+1'",
           "icon": "🔄",
-          "txt": "Substituição, Bósnia e Herzegovina. Ermin Mahmic entra em campo Kerim Alajbegovic.",
-          "sub": "Bosnia-Herzegovina"
+          "txt": "Substituição, 🏳️. Ermin Mahmic entra em campo Kerim Alajbegovic.",
+          "sub": "🏳️"
         },
         {
           "min": "90'",
           "icon": "⚽",
           "txt": "Johan Manzambi (Suíça) remate com o pé direito no coração da área ao centro da baliza. Assistência de Rubén Vargas.",
-          "sub": "Switzerland"
+          "sub": "🇨🇭"
         },
         {
           "min": "89'",
           "icon": "🔄",
-          "txt": "Substituição, Suíça. Entra Cedric Itten para o lugar de Breel Embolo.",
-          "sub": "Switzerland"
+          "txt": "Substituição, 🇨🇭. Entra Cedric Itten para o lugar de Breel Embolo.",
+          "sub": "🇨🇭"
         },
         {
           "min": "86'",
           "icon": "🔄",
-          "txt": "Substituição, Suíça. Entra Luca Jaquez para o lugar de Silvan Widmer.",
-          "sub": "Switzerland"
+          "txt": "Substituição, 🇨🇭. Entra Luca Jaquez para o lugar de Silvan Widmer.",
+          "sub": "🇨🇭"
         },
         {
           "min": "86'",
           "icon": "🔄",
-          "txt": "Substituição, Bósnia e Herzegovina. Amir Hadziahmetovic entra no lugar de Ivan Sunjic.",
-          "sub": "Bosnia-Herzegovina"
+          "txt": "Substituição, 🏳️. Amir Hadziahmetovic entra no lugar de Ivan Sunjic.",
+          "sub": "🏳️"
         },
         {
           "min": "86'",
           "icon": "🔄",
-          "txt": "Substituição, Bósnia e Herzegovina. Entra Jovo Lukic substituindo Ermedin Demirovic.",
-          "sub": "Bosnia-Herzegovina"
+          "txt": "Substituição, 🏳️. Entra Jovo Lukic substituindo Ermedin Demirovic.",
+          "sub": "🏳️"
         },
         {
           "min": "84'",
           "icon": "⚽",
           "txt": "Rubén Vargas (Suíça) finalização com o pé direito do meio da área no Escanteio inferior direito. Assistência de Breel Embolo.",
-          "sub": "Switzerland"
+          "sub": "🇨🇭"
         },
         {
           "min": "80'",
           "icon": "🟥",
           "txt": "Tarik Muharemovic (Bósnia e Herzegovina) recebe cartão vermelho.",
-          "sub": "Bosnia-Herzegovina"
+          "sub": "🏳️"
         },
         {
           "min": "74'",
           "icon": "⚽",
           "txt": "Johan Manzambi (Suíça) finalização com o pé direito do meio da área ao ângulo superior direito.",
-          "sub": "Switzerland"
+          "sub": "🇨🇭"
+        },
+        {
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🏳️"
+        },
+        {
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇨🇭"
         },
         {
           "min": "71'",
           "icon": "🔄",
-          "txt": "Substituição, Suíça. Rubén Vargas substitui Fabian Rieder.",
-          "sub": "Switzerland"
+          "txt": "Substituição, 🇨🇭. Rubén Vargas substitui Fabian Rieder.",
+          "sub": "🇨🇭"
         },
         {
           "min": "71'",
           "icon": "🔄",
-          "txt": "Substituição, Suíça. Entra Johan Manzambi substituindo Dan Ndoye.",
-          "sub": "Switzerland"
+          "txt": "Substituição, 🇨🇭. Entra Johan Manzambi substituindo Dan Ndoye.",
+          "sub": "🇨🇭"
         },
         {
           "min": "71'",
           "icon": "🔄",
-          "txt": "Substituição, Suíça. Entra Djibril Sow para o lugar de Michel Aebischer.",
-          "sub": "Switzerland"
+          "txt": "Substituição, 🇨🇭. Entra Djibril Sow para o lugar de Michel Aebischer.",
+          "sub": "🇨🇭"
+        },
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🏳️"
+        },
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇨🇭"
         },
         {
           "min": "65'",
           "icon": "🟨",
           "txt": "Nico Elvedi (Suíça) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Switzerland"
+          "sub": "🇨🇭"
         },
         {
           "min": "64'",
           "icon": "🔄",
-          "txt": "Substituição, Bósnia e Herzegovina. Entra Esmir Bajraktarevic substituindo Edin Dzeko.",
-          "sub": "Bosnia-Herzegovina"
+          "txt": "Substituição, 🏳️. Entra Esmir Bajraktarevic substituindo Edin Dzeko.",
+          "sub": "🏳️"
         },
         {
           "min": "63'",
           "icon": "🔄",
-          "txt": "Substituição, Bósnia e Herzegovina. Ivan Basic entra em campo e entra Benjamin Tahirovic.",
-          "sub": "Bosnia-Herzegovina"
+          "txt": "Substituição, 🏳️. Ivan Basic entra em campo e entra Benjamin Tahirovic.",
+          "sub": "🏳️"
         },
         {
           "min": "61'",
           "icon": "🟨",
           "txt": "Edin Dzeko (Bósnia e Herzegovina) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Bosnia-Herzegovina"
+          "sub": "🏳️"
         },
         {
           "min": "59'",
           "icon": "🟨",
           "txt": "Amar Dedic (Bósnia e Herzegovina) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Bosnia-Herzegovina"
+          "sub": "🏳️"
+        },
+        {
+          "min": "56'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇭"
+        },
+        {
+          "min": "56'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇨🇭"
+        },
+        {
+          "min": "45'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🏳️"
         },
         {
           "min": "45'+3'",
-          "icon": "•",
+          "icon": "⏱️",
           "txt": "Fim do primeiro tempo, Suíça 0, Bósnia e Herzegovina 0.",
-          "sub": ""
+          "sub": "🏳️"
+        },
+        {
+          "min": "39'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🏳️"
+        },
+        {
+          "min": "39'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇨🇭"
+        },
+        {
+          "min": "39'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🏳️"
+        },
+        {
+          "min": "39'",
+          "icon": "⏸️",
+          "txt": "Partida atrasada (Suíça).",
+          "sub": "🇨🇭"
+        },
+        {
+          "min": "25'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🏳️"
+        },
+        {
+          "min": "25'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇨🇭"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🏳️"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇨🇭"
+        },
+        {
+          "min": "",
+          "icon": "🏁",
+          "txt": "Início de jogo",
+          "sub": "🏳️"
         }
       ],
       "lineups": {
@@ -6076,7 +7602,8 @@
               "row": 3
             }
           ],
-          "formation": "4-3-1-2"
+          "formation": "4-3-1-2",
+          "dotColor": "#FF0000"
         },
         "away": {
           "starters": [
@@ -6213,7 +7740,8 @@
               "row": 3
             }
           ],
-          "formation": "4-4-2"
+          "formation": "4-4-2",
+          "dotColor": "#112855"
         }
       },
       "stats": {
@@ -6293,136 +7821,316 @@
       "clock": "",
       "events": [
         {
+          "min": "90'+10'",
+          "icon": "•",
+          "txt": "jogador",
+          "sub": "🏳️"
+        },
+        {
           "min": "90'+2'",
           "icon": "⚽",
           "txt": "Jonathan David (Canadá) finalização com o pé esquerdo do meio da área ao ângulo superior esquerdo. Assistência de Nathan Saliba.",
-          "sub": "Canada"
+          "sub": "🇨🇦"
         },
         {
           "min": "87'",
           "icon": "🔄",
-          "txt": "Substituição, Catar. Entra Lucas Mendes para o lugar de Ahmed Fathy.",
-          "sub": "Qatar"
+          "txt": "Substituição, 🇶🇦. Entra Lucas Mendes para o lugar de Ahmed Fathy.",
+          "sub": "🇶🇦"
+        },
+        {
+          "min": "83'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇦"
+        },
+        {
+          "min": "83'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇶🇦"
         },
         {
           "min": "83'",
           "icon": "🔄",
-          "txt": "Substituição, Canadá. Niko Sigur substitui Tajon Buchanan.",
-          "sub": "Canada"
+          "txt": "Substituição, 🇨🇦. Niko Sigur substitui Tajon Buchanan.",
+          "sub": "🇨🇦"
+        },
+        {
+          "min": "82'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇨🇦"
+        },
+        {
+          "min": "82'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Mahmoud Abunada (Qatar).",
+          "sub": "🇶🇦"
         },
         {
           "min": "75'",
           "icon": "⚽ OG",
           "txt": "Gol contra de Mohammad Al Manai, Catar. Canadá 5, Catar 0.",
-          "sub": "Canada"
+          "sub": "🇨🇦"
         },
         {
           "min": "71'",
           "icon": "🔄",
-          "txt": "Substituição, Canadá. Entra Tani Oluwaseyi para o lugar de Ali Ahmed.",
-          "sub": "Canada"
+          "txt": "Substituição, 🇨🇦. Entra Tani Oluwaseyi para o lugar de Ali Ahmed.",
+          "sub": "🇨🇦"
         },
         {
           "min": "71'",
           "icon": "🔄",
-          "txt": "Substituição, Canadá. Entra Jacob Shaffelburg para o lugar de Luc De Fougerolles.",
-          "sub": "Canada"
+          "txt": "Substituição, 🇨🇦. Entra Jacob Shaffelburg para o lugar de Luc De Fougerolles.",
+          "sub": "🇨🇦"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇶🇦"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇨🇦"
+        },
+        {
+          "min": "68'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇶🇦"
+        },
+        {
+          "min": "68'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇨🇦"
+        },
+        {
+          "min": "67'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇦"
+        },
+        {
+          "min": "67'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇶🇦"
+        },
+        {
+          "min": "66'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇨🇦"
+        },
+        {
+          "min": "66'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Mahmoud Abunada (Qatar).",
+          "sub": "🇶🇦"
         },
         {
           "min": "64'",
           "icon": "⚽",
           "txt": "Nathan Saliba (Canadá) Gol de falta com um finalização com o pé direito no Escanteio inferior direito.",
-          "sub": "Canada"
+          "sub": "🇨🇦"
         },
         {
           "min": "62'",
           "icon": "🟨",
           "txt": "Ahmed Fathy (Qatar) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Qatar"
+          "sub": "🇶🇦"
         },
         {
           "min": "59'",
           "icon": "🔄",
-          "txt": "Substituição, Catar. Entra Al Hashmi Al Hussain substituindo Akram Afif.",
-          "sub": "Qatar"
+          "txt": "Substituição, 🇶🇦. Entra Al Hashmi Al Hussain substituindo Akram Afif.",
+          "sub": "🇶🇦"
         },
         {
           "min": "57'",
           "icon": "🔄",
-          "txt": "Substituição, Canadá. Nathan Saliba entra em campo com Ismaël Koné devido a uma lesão.",
-          "sub": "Canada"
+          "txt": "Substituição, 🇨🇦. Nathan Saliba entra em campo com Ismaël Koné devido a uma lesão.",
+          "sub": "🇨🇦"
+        },
+        {
+          "min": "55'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇶🇦"
+        },
+        {
+          "min": "55'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇦"
         },
         {
           "min": "53'",
           "icon": "🟥",
           "txt": "Assim Madibo (Qatar) recebe cartão vermelho.",
-          "sub": "Qatar"
+          "sub": "🇶🇦"
+        },
+        {
+          "min": "53'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇶🇦"
+        },
+        {
+          "min": "53'",
+          "icon": "⏸️",
+          "txt": "Partida atrasada (Catar). Verificação do VAR.",
+          "sub": "🇶🇦"
+        },
+        {
+          "min": "51'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇶🇦"
+        },
+        {
+          "min": "51'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a lesão de Ismaël Koné (Canadá).",
+          "sub": "🇨🇦"
         },
         {
           "min": "45'",
-          "icon": "•",
+          "icon": "▶️",
           "txt": "Começo do segundo tempo Canadá 3, Catar 0.",
-          "sub": ""
+          "sub": "🏳️"
         },
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, Canadá. Moïse Bombito substitui Derek Cornelius.",
-          "sub": "Canada"
+          "txt": "Substituição, 🇨🇦. Moïse Bombito substitui Derek Cornelius.",
+          "sub": "🇨🇦"
         },
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, Catar. Entra Mohammad Al Manai substituindo Jassem Gaber.",
-          "sub": "Qatar"
+          "txt": "Substituição, 🇶🇦. Entra Mohammad Al Manai substituindo Jassem Gaber.",
+          "sub": "🇶🇦"
         },
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, Catar. Entra Ahmed Fathy para o lugar de Edmílson Junior.",
-          "sub": "Qatar"
+          "txt": "Substituição, 🇶🇦. Entra Ahmed Fathy para o lugar de Edmílson Junior.",
+          "sub": "🇶🇦"
+        },
+        {
+          "min": "45'+6'",
+          "icon": "⏱️",
+          "txt": "Intervalo",
+          "sub": "🏳️"
         },
         {
           "min": "45'+3'",
           "icon": "⚽",
           "txt": "Jonathan David (Canadá) finalização com o pé direito de muito perto para o centro do gol.",
-          "sub": "Canada"
+          "sub": "🇨🇦"
         },
         {
           "min": "40'",
           "icon": "🔄",
-          "txt": "Substituição, Catar. Entra Sultão Al Brake substituindo Yusuf Abdurisag.",
-          "sub": "Qatar"
+          "txt": "Substituição, 🇶🇦. Entra Sultão Al Brake substituindo Yusuf Abdurisag.",
+          "sub": "🇶🇦"
         },
         {
           "min": "33'",
           "icon": "🟥",
           "txt": "Homam El Amin (Qatar) recebe cartão vermelho.",
-          "sub": "Qatar"
+          "sub": "🇶🇦"
+        },
+        {
+          "min": "33'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇦"
+        },
+        {
+          "min": "33'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇨🇦"
         },
         {
           "min": "29'",
           "icon": "⚽",
           "txt": "Jonathan David (Canadá) finalização com o pé direito do lado direito da área no Escanteio inferior direito.",
-          "sub": "Canada"
+          "sub": "🇨🇦"
+        },
+        {
+          "min": "27'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇶🇦"
+        },
+        {
+          "min": "27'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇨🇦"
+        },
+        {
+          "min": "25'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇶🇦"
+        },
+        {
+          "min": "25'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇨🇦"
+        },
+        {
+          "min": "23'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇦"
+        },
+        {
+          "min": "23'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇶🇦"
+        },
+        {
+          "min": "22'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇨🇦"
+        },
+        {
+          "min": "22'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Boualem Khoukhi (Qatar).",
+          "sub": "🇶🇦"
         },
         {
           "min": "16'",
           "icon": "⚽",
           "txt": "Cyle Larin (Canadá) finalização com o pé esquerdo de muito perto no Escanteio inferior direito após escanteio.",
-          "sub": "Canada"
+          "sub": "🇨🇦"
         },
         {
           "min": "9'",
           "icon": "🟨",
           "txt": "Derek Cornelius (Canadá) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "Canada"
+          "sub": "🇨🇦"
         },
         {
           "min": "",
-          "icon": "•",
+          "icon": "🏁",
           "txt": "Começa o primeiro tempo.",
-          "sub": ""
+          "sub": "🏳️"
         }
       ],
       "lineups": {
@@ -6556,7 +8264,8 @@
               "row": 3
             }
           ],
-          "formation": "4-4-2"
+          "formation": "4-4-2",
+          "dotColor": "#ed2224"
         },
         "away": {
           "starters": [
@@ -6693,7 +8402,8 @@
               "row": 3
             }
           ],
-          "formation": "4-3-3"
+          "formation": "4-3-3",
+          "dotColor": "#691a40"
         }
       },
       "stats": {
@@ -6776,97 +8486,175 @@
           "min": "90'+7'",
           "icon": "•",
           "txt": "Fim do segundo tempo, México 1, Coreia do Sul 0.",
-          "sub": ""
+          "sub": "🏳️"
+        },
+        {
+          "min": "89'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇰🇷"
+        },
+        {
+          "min": "89'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇲🇽"
+        },
+        {
+          "min": "87'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇰🇷"
+        },
+        {
+          "min": "87'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a lesão de Raúl Rangel (México).",
+          "sub": "🇲🇽"
         },
         {
           "min": "84'",
           "icon": "🔄",
-          "txt": "Substituição, México. César Huerta substitui Julián Quiñones.",
-          "sub": "Mexico"
+          "txt": "Substituição, 🇲🇽. César Huerta substitui Julián Quiñones.",
+          "sub": "🇲🇽"
         },
         {
           "min": "80'",
           "icon": "🔄",
-          "txt": "Substituição, México. Santiago Giménez substitui Raúl Jiménez.",
-          "sub": "Mexico"
+          "txt": "Substituição, 🇲🇽. Santiago Giménez substitui Raúl Jiménez.",
+          "sub": "🇲🇽"
         },
         {
           "min": "80'",
           "icon": "🔄",
-          "txt": "Substituição, México. Entra Israel Reyes substituindo Roberto Alvarado.",
-          "sub": "Mexico"
+          "txt": "Substituição, 🇲🇽. Entra Israel Reyes para o lugar de Roberto Alvarado.",
+          "sub": "🇲🇽"
         },
         {
           "min": "77'",
           "icon": "🔄",
-          "txt": "Substituição, Coreia do Sul. Cho Gue-Sung substitui Paik Seung-Ho.",
-          "sub": "South Korea"
+          "txt": "Substituição, 🇰🇷. Cho Gue-Sung substitui Paik Seung-Ho.",
+          "sub": "🇰🇷"
         },
         {
           "min": "71'",
           "icon": "🔄",
-          "txt": "Substituição, Coreia do Sul. Yang Hyun-Jun substitui Seol Young-Woo.",
-          "sub": "South Korea"
+          "txt": "Substituição, 🇰🇷. Yang Hyun-Jun substitui Seol Young-Woo.",
+          "sub": "🇰🇷"
         },
         {
           "min": "71'",
           "icon": "🔄",
-          "txt": "Substituição, Coreia do Sul. Eom Ji-Sung substitui Kim Moon-Hwan.",
-          "sub": "South Korea"
+          "txt": "Substituição, 🇰🇷. Eom Ji-Sung substitui Kim Moon-Hwan.",
+          "sub": "🇰🇷"
         },
         {
           "min": "71'",
           "icon": "🔄",
-          "txt": "Substituição, México. Entra Obed Vargas para o lugar de Luis Romo.",
-          "sub": "Mexico"
+          "txt": "Substituição, 🇲🇽. Entra Obed Vargas para o lugar de Luis Romo.",
+          "sub": "🇲🇽"
         },
         {
           "min": "71'",
           "icon": "🔄",
-          "txt": "Substituição, México. Orbelín Pineda entra em campo e entra Brian Gutiérrez.",
-          "sub": "Mexico"
+          "txt": "Substituição, 🇲🇽. Orbelín Pineda entra em campo e entra Brian Gutiérrez.",
+          "sub": "🇲🇽"
+        },
+        {
+          "min": "70'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇲🇽"
+        },
+        {
+          "min": "70'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇰🇷"
+        },
+        {
+          "min": "68'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇲🇽"
+        },
+        {
+          "min": "68'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇰🇷"
         },
         {
           "min": "58'",
           "icon": "🟨",
           "txt": "Paik Seung-Ho (Coreia do Sul) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "South Korea"
+          "sub": "🇰🇷"
         },
         {
           "min": "57'",
           "icon": "🔄",
-          "txt": "Substituição, Coreia do Sul. Oh Hyeon-Gyu substitui Son Heung-Min.",
-          "sub": "South Korea"
+          "txt": "Substituição, 🇰🇷. Oh Hyeon-Gyu substitui Son Heung-Min.",
+          "sub": "🇰🇷"
         },
         {
           "min": "57'",
           "icon": "🔄",
-          "txt": "Substituição, Coreia do Sul. Hwang Hee-Chan substitui Lee Jae-Sung.",
-          "sub": "South Korea"
+          "txt": "Substituição, 🇰🇷. Hwang Hee-Chan substitui Lee Jae-Sung.",
+          "sub": "🇰🇷"
         },
         {
           "min": "50'",
           "icon": "⚽",
           "txt": "Luis Romo (México) finalização com o pé direito do meio da área ao centro do gol.",
-          "sub": "Mexico"
+          "sub": "🇲🇽"
+        },
+        {
+          "min": "45'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🏳️"
         },
         {
           "min": "45'+5'",
-          "icon": "•",
+          "icon": "⏱️",
           "txt": "Fim do primeiro tempo, México 0, Coreia do Sul 0.",
-          "sub": ""
+          "sub": "🏳️"
+        },
+        {
+          "min": "26'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇰🇷"
+        },
+        {
+          "min": "26'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇲🇽"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇰🇷"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇲🇽"
         },
         {
           "min": "4'",
           "icon": "🟨",
           "txt": "Lee Kang-In (Coreia do Sul) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "South Korea"
+          "sub": "🇰🇷"
         },
         {
           "min": "",
-          "icon": "•",
+          "icon": "🏁",
           "txt": "Começa o primeiro tempo.",
-          "sub": ""
+          "sub": "🏳️"
         }
       ],
       "lineups": {
@@ -7000,7 +8788,8 @@
               "row": 3
             }
           ],
-          "formation": "4-3-3"
+          "formation": "4-3-3",
+          "dotColor": "#006847"
         },
         "away": {
           "starters": [
@@ -7137,7 +8926,8 @@
               "row": 3
             }
           ],
-          "formation": "3-4-2-1"
+          "formation": "3-4-2-1",
+          "dotColor": "#ce2028"
         }
       },
       "stats": {
@@ -7225,13 +9015,13 @@
         {
           "min": "90'+6'",
           "icon": "🔄",
-          "txt": "Substituição, EUA. Giovanni Reyna entra em campo para substituir Weston McKennie.",
+          "txt": "Substituição, 🇺🇸. Giovanni Reyna entra em campo para substituir Weston McKennie.",
           "sub": "🇺🇸"
         },
         {
           "min": "90'+6'",
           "icon": "🔄",
-          "txt": "Substituição, EUA. Haji Wright substitui Folarin Balogun.",
+          "txt": "Substituição, 🇺🇸. Haji Wright substitui Folarin Balogun.",
           "sub": "🇺🇸"
         },
         {
@@ -7285,25 +9075,25 @@
         {
           "min": "80'",
           "icon": "🔄",
-          "txt": "Substituição, EUA. Entra Auston Trusty para o lugar de Antonee Robinson.",
+          "txt": "Substituição, 🇺🇸. Entra Auston Trusty para o lugar de Antonee Robinson.",
           "sub": "🇺🇸"
         },
         {
           "min": "80'",
           "icon": "🔄",
-          "txt": "Substituição, EUA. Entra Joe Scally para o lugar de Sergiño Dest.",
+          "txt": "Substituição, 🇺🇸. Entra Joe Scally para o lugar de Sergiño Dest.",
           "sub": "🇺🇸"
         },
         {
           "min": "78'",
           "icon": "🔄",
-          "txt": "Substituição, Austrália. Entra Jackson Irvine substituindo Paul Okon-Engstler.",
+          "txt": "Substituição, 🇦🇺. Entra Jackson Irvine substituindo Paul Okon-Engstler.",
           "sub": "🇦🇺"
         },
         {
           "min": "74'",
           "icon": "🔄",
-          "txt": "Substituição, EUA. Entra Sebastian Berhalter para o lugar de Ricardo Pepi.",
+          "txt": "Substituição, 🇺🇸. Entra Sebastian Berhalter para o lugar de Ricardo Pepi.",
           "sub": "🇺🇸"
         },
         {
@@ -7333,7 +9123,7 @@
         {
           "min": "61'",
           "icon": "🔄",
-          "txt": "Substituição, Austrália. Cristian Volpato entra em campo com Mathew Leckie devido a uma lesão.",
+          "txt": "Substituição, 🇦🇺. Cristian Volpato entra em campo com Mathew Leckie devido a uma lesão.",
           "sub": "🇦🇺"
         },
         {
@@ -7411,19 +9201,19 @@
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, Austrália. Nestory Irankunda substitui Mohamed Touré.",
+          "txt": "Substituição, 🇦🇺. Nestory Irankunda substitui Mohamed Touré.",
           "sub": "🇦🇺"
         },
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, Austrália. Entra Connor Metcalfe para o lugar de Nishan Velupillay.",
+          "txt": "Substituição, 🇦🇺. Entra Connor Metcalfe para o lugar de Nishan Velupillay.",
           "sub": "🇦🇺"
         },
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, Austrália. Jason Geria substitui Cameron Burgess.",
+          "txt": "Substituição, 🇦🇺. Jason Geria substitui Cameron Burgess.",
           "sub": "🇦🇺"
         },
         {
@@ -7881,13 +9671,13 @@
         {
           "min": "90'",
           "icon": "🔄",
-          "txt": "Substituição, Marrocos. Entra Samir El Mourabet substituindo Azzedine Ounahi.",
+          "txt": "Substituição, 🇲🇦. Entra Samir El Mourabet substituindo Azzedine Ounahi.",
           "sub": "🇲🇦"
         },
         {
           "min": "89'",
           "icon": "🔄",
-          "txt": "Substituição, Escócia. Ross Stewart substitui John McGinn.",
+          "txt": "Substituição, 🏳️. Ross Stewart substitui John McGinn.",
           "sub": "🏳️"
         },
         {
@@ -7905,7 +9695,7 @@
         {
           "min": "89'",
           "icon": "🔄",
-          "txt": "Substituição, Escócia. Anthony Ralston substitui Nathan Patterson.",
+          "txt": "Substituição, 🏳️. Anthony Ralston substitui Nathan Patterson.",
           "sub": "🏳️"
         },
         {
@@ -7923,31 +9713,31 @@
         {
           "min": "84'",
           "icon": "🔄",
-          "txt": "Substituição, Marrocos. Ayoube Amaimouni-Echghouyab substituiu Brahim Díaz.",
+          "txt": "Substituição, 🇲🇦. Ayoube Amaimouni-Echghouyab substituiu Brahim Díaz.",
           "sub": "🇲🇦"
         },
         {
           "min": "84'",
           "icon": "🔄",
-          "txt": "Substituição, Marrocos. Entra Chemsdine Talbi substituindo Bilal El Khannouss.",
+          "txt": "Substituição, 🇲🇦. Entra Chemsdine Talbi substituindo Bilal El Khannouss.",
           "sub": "🇲🇦"
         },
         {
           "min": "84'",
           "icon": "🔄",
-          "txt": "Substituição, Marrocos. Entra Soufiane Rahimi para o lugar de Ismael Saibari.",
+          "txt": "Substituição, 🇲🇦. Entra Soufiane Rahimi para o lugar de Ismael Saibari.",
           "sub": "🇲🇦"
         },
         {
           "min": "71'",
           "icon": "🔄",
-          "txt": "Substituição, Escócia. Kenny McLean substitui Ryan Christie.",
+          "txt": "Substituição, 🏳️. Kenny McLean substitui Ryan Christie.",
           "sub": "🏳️"
         },
         {
           "min": "71'",
           "icon": "🔄",
-          "txt": "Substituição, Escócia. Lyndon Dykes substitui Ché Adams.",
+          "txt": "Substituição, 🏳️. Lyndon Dykes substitui Ché Adams.",
           "sub": "🏳️"
         },
         {
@@ -7995,7 +9785,7 @@
         {
           "min": "60'",
           "icon": "🔄",
-          "txt": "Substituição, Escócia. Ben Gannon-Doak entra no lugar de Kieran Tierney devido a uma lesão.",
+          "txt": "Substituição, 🏳️. Ben Gannon-Doak entra no lugar de Kieran Tierney devido a uma lesão.",
           "sub": "🏳️"
         },
         {
@@ -8452,19 +10242,19 @@
         {
           "min": "81'",
           "icon": "🔄",
-          "txt": "Substituição, Haiti. Derrick Etienne entra em campo e entra Jean-Ricner Bellegarde.",
+          "txt": "Substituição, 🇭🇹. Derrick Etienne entra em campo e entra Jean-Ricner Bellegarde.",
           "sub": "🇭🇹"
         },
         {
           "min": "81'",
           "icon": "🔄",
-          "txt": "Substituição, Brasil. Éderson Silva entra em campo com Bruno Guimarães.",
+          "txt": "Substituição, 🇧🇷. Éderson Silva entra em campo com Bruno Guimarães.",
           "sub": "🇧🇷"
         },
         {
           "min": "81'",
           "icon": "🔄",
-          "txt": "Substituição, Brasil. Entra Danilo Santos para o lugar de Vinícius Júnior.",
+          "txt": "Substituição, 🇧🇷. Entra Danilo Santos para o lugar de Vinícius Júnior.",
           "sub": "🇧🇷"
         },
         {
@@ -8488,7 +10278,7 @@
         {
           "min": "71'",
           "icon": "🔄",
-          "txt": "Substituição, Haiti. Lenny Joseph substitui Ruben Providence.",
+          "txt": "Substituição, 🇭🇹. Lenny Joseph substitui Ruben Providence.",
           "sub": "🇭🇹"
         },
         {
@@ -8512,19 +10302,19 @@
         {
           "min": "64'",
           "icon": "🔄",
-          "txt": "Substituição, Brasil. Endrick entra no lugar de Matheus Cunha.",
+          "txt": "Substituição, 🇧🇷. Endrick entra no lugar de Matheus Cunha.",
           "sub": "🇧🇷"
         },
         {
           "min": "64'",
           "icon": "🔄",
-          "txt": "Substituição, Brasil. Entra Gabriel Martinelli para o lugar de Lucas Paquetá.",
+          "txt": "Substituição, 🇧🇷. Entra Gabriel Martinelli para o lugar de Lucas Paquetá.",
           "sub": "🇧🇷"
         },
         {
           "min": "62'",
           "icon": "🔄",
-          "txt": "Substituição, Haiti. Entra Louicius Deedson substituindo Josué Casimir.",
+          "txt": "Substituição, 🇭🇹. Entra Louicius Deedson substituindo Josué Casimir.",
           "sub": "🇭🇹"
         },
         {
@@ -8536,13 +10326,13 @@
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, Haiti. Entra Wilson Isidor substituindo Frantzdy Pierrot.",
+          "txt": "Substituição, 🇭🇹. Entra Wilson Isidor substituindo Frantzdy Pierrot.",
           "sub": "🇭🇹"
         },
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, Haiti. Dominique Simon substitui Carlens Arcus.",
+          "txt": "Substituição, 🇭🇹. Dominique Simon substitui Carlens Arcus.",
           "sub": "🇭🇹"
         },
         {
@@ -8590,7 +10380,7 @@
         {
           "min": "40'",
           "icon": "🔄",
-          "txt": "Substituição, Brasil. Rayan substitui Raphinha por lesão.",
+          "txt": "Substituição, 🇧🇷. Rayan substitui Raphinha por lesão.",
           "sub": "🇧🇷"
         },
         {
@@ -9024,7 +10814,7 @@
         {
           "min": "90'+2'",
           "icon": "🔄",
-          "txt": "Substituição, Paraguai. José Canale entra no lugar de Matías Galarza devido a uma lesão.",
+          "txt": "Substituição, 🇵🇾. José Canale entra no lugar de Matías Galarza devido a uma lesão.",
           "sub": "🇵🇾"
         },
         {
@@ -9042,7 +10832,7 @@
         {
           "min": "90'+2'",
           "icon": "🔄",
-          "txt": "Substituição, Paraguai. Gabriel Ávalos entra no lugar de Julio Enciso devido a uma lesão.",
+          "txt": "Substituição, 🇵🇾. Gabriel Ávalos entra no lugar de Julio Enciso devido a uma lesão.",
           "sub": "🇵🇾"
         },
         {
@@ -9060,13 +10850,13 @@
         {
           "min": "86'",
           "icon": "🔄",
-          "txt": "Substituição, Turkiye. Entra Orkun Kökçü para o lugar de Abdülkerim Bardakci.",
+          "txt": "Substituição, 🇹🇷. Entra Orkun Kökçü para o lugar de Abdülkerim Bardakci.",
           "sub": "🇹🇷"
         },
         {
           "min": "81'",
           "icon": "🔄",
-          "txt": "Substituição, Paraguai. Alexandro Maidana substitui Juan José Cáceres.",
+          "txt": "Substituição, 🇵🇾. Alexandro Maidana substitui Juan José Cáceres.",
           "sub": "🇵🇾"
         },
         {
@@ -9090,7 +10880,7 @@
         {
           "min": "70'",
           "icon": "🔄",
-          "txt": "Substituição, Turkiye. Entra Eren Elmali substituindo Ferdi Kadioglu.",
+          "txt": "Substituição, 🇹🇷. Entra Eren Elmali substituindo Ferdi Kadioglu.",
           "sub": "🇹🇷"
         },
         {
@@ -9108,7 +10898,7 @@
         {
           "min": "67'",
           "icon": "🔄",
-          "txt": "Substituição, Paraguai. Gustavo Velázquez substituiu Diego Gómez devido a uma lesão.",
+          "txt": "Substituição, 🇵🇾. Gustavo Velázquez substituiu Diego Gómez devido a uma lesão.",
           "sub": "🇵🇾"
         },
         {
@@ -9174,13 +10964,13 @@
         {
           "min": "60'",
           "icon": "🔄",
-          "txt": "Substituição, Turkiye. Deniz Gül entra em campo com Yunus Akgün.",
+          "txt": "Substituição, 🇹🇷. Deniz Gül entra em campo com Yunus Akgün.",
           "sub": "🇹🇷"
         },
         {
           "min": "60'",
           "icon": "🔄",
-          "txt": "Substituição, Turkiye. Can Uzun substitui Ismail Yüksek.",
+          "txt": "Substituição, 🇹🇷. Can Uzun substitui Ismail Yüksek.",
           "sub": "🇹🇷"
         },
         {
@@ -9204,13 +10994,13 @@
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, Turkiye. Entra Baris Alper Yilmaz para o lugar de Kerem Aktürkoglu.",
+          "txt": "Substituição, 🇹🇷. Entra Baris Alper Yilmaz para o lugar de Kerem Aktürkoglu.",
           "sub": "🇹🇷"
         },
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, Paraguai. Entra Damián Bobadilla para o lugar de Isidro Pitta.",
+          "txt": "Substituição, 🇵🇾. Entra Damián Bobadilla para o lugar de Isidro Pitta.",
           "sub": "🇵🇾"
         },
         {
@@ -9787,13 +11577,13 @@
         {
           "min": "90'+3'",
           "icon": "🔄",
-          "txt": "Substituição, Suécia. Entra Elliot Stroud para o lugar de Gabriel Gudmundsson.",
+          "txt": "Substituição, 🇸🇪. Entra Elliot Stroud para o lugar de Gabriel Gudmundsson.",
           "sub": "🇸🇪"
         },
         {
           "min": "90'",
           "icon": "🔄",
-          "txt": "Substituição, Holanda. Noa Lang substitui Cody Gakpo.",
+          "txt": "Substituição, 🇳🇱. Noa Lang substitui Cody Gakpo.",
           "sub": "🇳🇱"
         },
         {
@@ -9811,7 +11601,7 @@
         {
           "min": "79'",
           "icon": "🔄",
-          "txt": "Substituição, Suécia. Taha Ali entra em campo com Yasin Ayari.",
+          "txt": "Substituição, 🇸🇪. Taha Ali entra em campo com Yasin Ayari.",
           "sub": "🇸🇪"
         },
         {
@@ -9823,7 +11613,7 @@
         {
           "min": "72'",
           "icon": "🔄",
-          "txt": "Substituição, Holanda. Entra Memphis Depay para o lugar de Brian Brobbey.",
+          "txt": "Substituição, 🇳🇱. Entra Memphis Depay para o lugar de Brian Brobbey.",
           "sub": "🇳🇱"
         },
         {
@@ -9853,13 +11643,13 @@
         {
           "min": "59'",
           "icon": "🔄",
-          "txt": "Substituição, Holanda. Entra Guus Til substituindo Tijjani Reijnders.",
+          "txt": "Substituição, 🇳🇱. Entra Guus Til para o lugar de Tijjani Reijnders.",
           "sub": "🇳🇱"
         },
         {
           "min": "59'",
           "icon": "🔄",
-          "txt": "Substituição, Holanda. Entra Teun Koopmeiners substituindo Frenkie de Jong.",
+          "txt": "Substituição, 🇳🇱. Entra Teun Koopmeiners substituindo Frenkie de Jong.",
           "sub": "🇳🇱"
         },
         {
@@ -9871,19 +11661,19 @@
         {
           "min": "56'",
           "icon": "🔄",
-          "txt": "Substituição, Suécia. Entra Lucas Bergvall para o lugar de Benjamin Nygren.",
+          "txt": "Substituição, 🇸🇪. Entra Lucas Bergvall para o lugar de Benjamin Nygren.",
           "sub": "🇸🇪"
         },
         {
           "min": "56'",
           "icon": "🔄",
-          "txt": "Substituição, Suécia. Entra Besfort Zeneli substituindo Jesper Karlström.",
+          "txt": "Substituição, 🇸🇪. Entra Besfort Zeneli substituindo Jesper Karlström.",
           "sub": "🇸🇪"
         },
         {
           "min": "55'",
           "icon": "🔄",
-          "txt": "Substituição, Suécia. Anthony Elanga entra em campo e entra Alexander Bernhardsson.",
+          "txt": "Substituição, 🇸🇪. Anthony Elanga entra em campo e entra Alexander Bernhardsson.",
           "sub": "🇸🇪"
         },
         {
@@ -9913,7 +11703,7 @@
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, Holanda. Entra Crysencio Summerville substituindo Donyell Malen.",
+          "txt": "Substituição, 🇳🇱. Entra Crysencio Summerville substituindo Donyell Malen.",
           "sub": "🇳🇱"
         },
         {
@@ -10312,8 +12102,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "90'+6'",
+      "clock": "90'+7'",
       "events": [
+        {
+          "min": "90'+8'",
+          "icon": "•",
+          "txt": "jogador",
+          "sub": "🏳️"
+        },
         {
           "min": "90'+4'",
           "icon": "⚽",
@@ -10323,19 +12119,19 @@
         {
           "min": "85'",
           "icon": "🔄",
-          "txt": "Substituição, Alemanha. Entra Leon Goretzka para o lugar de Kai Havertz.",
+          "txt": "Substituição, 🇩🇪. Entra Leon Goretzka para o lugar de Kai Havertz.",
           "sub": "🇩🇪"
         },
         {
           "min": "85'",
           "icon": "🔄",
-          "txt": "Substituição, Costa do Marfim. Entra Nicolas Pépé para o lugar de Yan Diomande.",
+          "txt": "Substituição, 🇨🇮. Entra Nicolas Pépé para o lugar de Yan Diomande.",
           "sub": "🇨🇮"
         },
         {
           "min": "82'",
           "icon": "🔄",
-          "txt": "Substituição, Costa do Marfim. Guéla Doué entra em campo com Wilfried Singo devido a uma lesão.",
+          "txt": "Substituição, 🇨🇮. Guéla Doué entra em campo com Wilfried Singo devido a uma lesão.",
           "sub": "🇨🇮"
         },
         {
@@ -10389,19 +12185,19 @@
         {
           "min": "75'",
           "icon": "🔄",
-          "txt": "Substituição, Costa do Marfim. Entra Simon Adingra para o lugar de Amad Diallo.",
+          "txt": "Substituição, 🇨🇮. Entra Simon Adingra para o lugar de Amad Diallo.",
           "sub": "🇨🇮"
         },
         {
           "min": "75'",
           "icon": "🔄",
-          "txt": "Substituição, Costa do Marfim. Entra Seko Fofana substituindo Ibrahim Sangaré.",
+          "txt": "Substituição, 🇨🇮. Entra Seko Fofana substituindo Ibrahim Sangaré.",
           "sub": "🇨🇮"
         },
         {
           "min": "75'",
           "icon": "🔄",
-          "txt": "Substituição, Costa do Marfim. Evann Guessand substitui Ange-Yoan Bonny.",
+          "txt": "Substituição, 🇨🇮. Evann Guessand substitui Ange-Yoan Bonny.",
           "sub": "🇨🇮"
         },
         {
@@ -10437,19 +12233,19 @@
         {
           "min": "60'",
           "icon": "🔄",
-          "txt": "Substituição, Alemanha. Nadiem Amiri entra em campo Aleksandar Pavlovic.",
+          "txt": "Substituição, 🇩🇪. Nadiem Amiri entra em campo Aleksandar Pavlovic.",
           "sub": "🇩🇪"
         },
         {
           "min": "60'",
           "icon": "🔄",
-          "txt": "Substituição, Alemanha. Deniz Undav entra em campo e entra Jamal Musiala.",
+          "txt": "Substituição, 🇩🇪. Deniz Undav entra em campo e entra Jamal Musiala.",
           "sub": "🇩🇪"
         },
         {
           "min": "60'",
           "icon": "🔄",
-          "txt": "Substituição, Alemanha. Entra Jamie Leweling para o lugar de Leroy Sané.",
+          "txt": "Substituição, 🇩🇪. Entra Jamie Leweling para o lugar de Leroy Sané.",
           "sub": "🇩🇪"
         },
         {
@@ -10461,7 +12257,7 @@
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, Alemanha. Antonio Rüdiger entra em campo com Nico Schlotterbeck devido a uma lesão.",
+          "txt": "Substituição, 🇩🇪. Antonio Rüdiger entra em campo com Nico Schlotterbeck devido a uma lesão.",
           "sub": "🇩🇪"
         },
         {
@@ -10841,26 +12637,26 @@
           "offsides": "0",
           "wonCorners": "8",
           "saves": "1",
-          "possessionPct": "59.9",
+          "possessionPct": "59.4",
           "totalShots": "16",
           "shotsOnTarget": "7",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "553",
-          "totalPasses": "618",
+          "accuratePasses": "554",
+          "totalPasses": "622",
           "passPct": "0.9",
           "accurateCrosses": "5",
           "totalCrosses": "21",
           "crossPct": "0.2",
-          "totalLongBalls": "29",
+          "totalLongBalls": "30",
           "accurateLongBalls": "17",
           "longballPct": "0.6",
           "blockedShots": "4",
           "effectiveTackles": "17",
           "totalTackles": "26",
           "tacklePct": "0.7",
-          "interceptions": "6",
+          "interceptions": "7",
           "effectiveClearance": "16",
           "totalClearance": "16"
         },
@@ -10871,20 +12667,20 @@
           "offsides": "1",
           "wonCorners": "3",
           "saves": "5",
-          "possessionPct": "40.1",
+          "possessionPct": "40.6",
           "totalShots": "9",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "361",
-          "totalPasses": "420",
+          "accuratePasses": "367",
+          "totalPasses": "431",
           "passPct": "0.9",
           "accurateCrosses": "5",
           "totalCrosses": "9",
           "crossPct": "0.6",
-          "totalLongBalls": "54",
-          "accurateLongBalls": "28",
+          "totalLongBalls": "58",
+          "accurateLongBalls": "29",
           "longballPct": "0.5",
           "blockedShots": "5",
           "effectiveTackles": "11",
