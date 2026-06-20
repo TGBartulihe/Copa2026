@@ -28,20 +28,19 @@ body{background:#040804;color:#ddd;font-family:Georgia,serif;min-height:100vh}
    seja qual for a imagem que colocares */
 .bg-overlay{
   position:fixed;top:0;left:0;right:0;bottom:0;
-  background:linear-gradient(180deg,rgba(4,8,4,.65) 0%,rgba(4,8,4,.85) 45%,rgba(4,8,4,.95) 100%);
+  background:linear-gradient(180deg,rgba(18,28,18,.45) 0%,rgba(14,22,14,.58) 50%,rgba(10,16,10,.72) 100%);
   z-index:-1;pointer-events:none;
 }
 .header-logo{
-  height:36px;width:auto;max-width:80px;flex-shrink:0;
+  position:absolute;left:14px;top:12px;
+  height:38px;width:auto;max-width:70px;
   filter:drop-shadow(0 2px 6px rgba(0,0,0,.5));
 }
-.header-title-row{display:flex;align-items:center;justify-content:flex-start;gap:8px;text-align:left}
-.header-title-row .header-title{flex:1;min-width:0}
 #app{max-width:640px;margin:0 auto;padding-bottom:24px}
 .header{background:linear-gradient(135deg,#082008,#0f3a0f,#082008);padding:14px 16px 10px;text-align:center;border-bottom:2px solid #1a5e1a;position:sticky;top:0;z-index:100}
 .header-sub{font-size:9px;letter-spacing:5px;color:#3dbb3d;margin-bottom:3px}
 .header-title{font-size:clamp(16px,5vw,24px);font-weight:bold;color:#fff;letter-spacing:2px}
-.header-meta{font-size:10px;color:#555;margin-top:5px;display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:wrap}
+.header-meta{font-size:10px;color:#8a9a88;margin-top:5px;display:flex;justify-content:center;align-items:center;gap:8px;flex-wrap:wrap}
 .rbtn{background:#0f3a0f;border:1px solid #1a5e1a;color:#3dbb3d;padding:3px 10px;border-radius:4px;cursor:pointer;font-size:10px;font-family:Georgia,serif}
 .rbtn:active{background:#1a5e1a}
 .live-dot{width:7px;height:7px;background:#ff4444;border-radius:50%;display:inline-block;animation:blink 1.2s infinite}
@@ -51,10 +50,10 @@ body{background:#040804;color:#ddd;font-family:Georgia,serif;min-height:100vh}
 .src-bar.espn{background:#0a1a0a;color:#3dbb3d}
 .src-bar.sdb{background:#0a0a1a;color:#4d9dbb}
 .src-bar.local{background:#1a0a0a;color:#f87171}
-.src-bar.loading{background:#0a0a0a;color:#444}
-.tz-bar{font-size:9px;text-align:center;padding:4px;background:#050805;color:#333;border-bottom:1px solid #0a0a0a}
-.tabs{display:flex;background:#080d08;border-bottom:1px solid #111;overflow-x:auto;-webkit-overflow-scrolling:touch}
-.tab{flex:1;padding:11px 3px;background:transparent;color:#444;border:none;cursor:pointer;font-size:10px;font-family:Georgia,serif;white-space:nowrap;border-bottom:2px solid transparent}
+.src-bar.loading{background:#0a0a0a;color:#7a8a78}
+.tz-bar{font-size:9px;text-align:center;padding:4px;background:#050805;color:#677a67;border-bottom:1px solid #0a0a0a}
+.tabs{display:flex;background:#121c14;border-bottom:1px solid #111;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.tab{flex:1;padding:11px 3px;background:transparent;color:#7a8a78;border:none;cursor:pointer;font-size:10px;font-family:Georgia,serif;white-space:nowrap;border-bottom:2px solid transparent}
 .tab.active{background:#0f3a0f;color:#3dbb3d;font-weight:bold;border-bottom:2px solid #1a5e1a}
 .tab.ft.active{background:#1a1500;color:#f0c040;border-bottom-color:#f0c040}
 .body{padding:12px}
@@ -62,18 +61,18 @@ body{background:#040804;color:#ddd;font-family:Georgia,serif;min-height:100vh}
 .lbl.mt{margin-top:16px}
 .glbl{font-size:9px;letter-spacing:2px;font-weight:bold;margin:10px 0 6px}
 /* CARDS */
-.card{border-radius:7px;padding:10px 13px;margin-bottom:6px;border:1px solid #111;border-left:3px solid #222;background:#070c07;position:relative}
+.card{border-radius:7px;padding:10px 13px;margin-bottom:6px;border:1px solid #111;border-left:3px solid #222;background:#101a11;position:relative}
 .card.clive{background:#081808;border-color:#1a5e1a;border-left-color:#3dbb3d}
-.card.cfav{border-color:#2a2000;border-left-color:#f0c040;background:#080700}
+.card.cfav{border-color:#2a2000;border-left-color:#f0c040;background:#141008}
 .card.cfavlive{background:#0d0c02;border-color:#3a3000;border-left-color:#f0c040}
 .cbadge{font-size:9px;font-weight:bold;letter-spacing:1px;margin-bottom:5px}
 .cbadge.live{color:#ff4444}
 .cbadge.favlive{color:#f0c040}
-.cbadge.soon{color:#666}
+.cbadge.soon{color:#8c9a8a}
 .crow{display:flex;justify-content:space-between;align-items:center}
 .cteam{flex:1;font-size:clamp(11px,2.8vw,13px)}
 .cteam.win{color:#ddd;font-weight:bold}.cteam.lose{color:#888}.cteam.r{text-align:right}
-.cscore{font-weight:bold;padding:3px 10px;background:#050905;border-radius:5px;letter-spacing:2px;margin:0 8px;min-width:54px;text-align:center}
+.cscore{font-weight:bold;padding:3px 10px;background:#0c150d;border-radius:5px;letter-spacing:2px;margin:0 8px;min-width:54px;text-align:center}
 .cscore.done{color:#f0c040;font-size:clamp(15px,4vw,20px)}
 .cscore.alive{color:#ff6644;font-size:clamp(15px,4vw,20px)}
 .cscore.favalive{color:#f0c040;font-size:clamp(15px,4vw,20px)}
@@ -89,29 +88,42 @@ body{background:#040804;color:#ddd;font-family:Georgia,serif;min-height:100vh}
 .evmin{color:#f0c040;font-weight:bold;min-width:26px;font-size:10px;padding-top:1px}
 .evico{min-width:16px;font-size:12px}
 .evtxt{font-size:11px;color:#bbb;line-height:1.4}
-.evsub{font-size:9px;color:#444;margin-top:1px}
-.evnone{font-size:10px;color:#222;font-style:italic;text-align:center;padding:8px 0}
+.evsub{font-size:9px;color:#7a8a78;margin-top:1px}
+.evnone{font-size:10px;color:#5a6a58;font-style:italic;text-align:center;padding:8px 0}
+/* TEASER no cartão pequeno, aponta para a tab Minuto a Minuto */
+.cteaser{font-size:10px;color:#3dbb3d;text-align:center;margin-top:6px;padding-top:6px;border-top:1px solid #131e14;cursor:pointer;letter-spacing:.5px}
+.cteaser:active{opacity:.6}
+/* CARTÃO GRANDE — tab Minuto a Minuto */
+.minuto-card{background:#101a11;border:1px solid #1a2a1c;border-radius:10px;margin-bottom:14px;overflow:hidden}
+.minuto-card.minuto-fav{border-color:#3a3000}
+.minuto-head{padding:12px 14px;background:#0c150d}
+.minuto-teams{display:flex;align-items:center;justify-content:space-between;gap:8px;font-size:14px;font-weight:bold;color:#f2ecd8}
+.minuto-favteam{color:#f0c040}
+.minuto-score{font-size:20px;font-weight:bold;color:#f0c040;background:#070c07;border-radius:6px;padding:3px 14px;letter-spacing:2px;flex-shrink:0}
+.minuto-meta{font-size:10px;color:#7a8a78;margin-top:6px;display:flex;align-items:center;gap:6px}
+.minuto-card .evbox{padding:0 14px 12px;border-top:none;margin-top:0}
+.minuto-card .evtitle{padding-top:10px}
 /* FAVORITES */
-.favsec{background:#090800;border:1px solid #2a2000;border-radius:8px;padding:12px;margin-bottom:12px}
+.favsec{background:#161208;border:1px solid #2a2000;border-radius:8px;padding:12px;margin-bottom:12px}
 .favtitle{font-size:9px;color:#b8860b;letter-spacing:3px;font-weight:bold;margin-bottom:10px}
 .favchips{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
 .chip{display:inline-flex;align-items:center;gap:4px;background:#111;border:1px solid #2a2000;border-radius:20px;padding:4px 10px;font-size:11px;cursor:pointer;color:#f0c040}
-.chip .x{color:#555;font-size:10px}
+.chip .x{color:#8a9a88;font-size:10px}
 .tgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:3px;margin-top:6px}
-.tbtn{background:#080d08;border:1px solid #111;border-radius:5px;padding:5px 3px;font-size:10px;cursor:pointer;text-align:center;color:#555;font-family:Georgia,serif}
+.tbtn{background:#121c14;border:1px solid #111;border-radius:5px;padding:5px 3px;font-size:10px;cursor:pointer;text-align:center;color:#8a9a88;font-family:Georgia,serif}
 .tbtn.on{background:#1a1200;border-color:#f0c040;color:#f0c040}
-.tgridlbl{font-size:9px;color:#333;letter-spacing:1px;margin-top:8px;margin-bottom:4px}
+.tgridlbl{font-size:9px;color:#677a67;letter-spacing:1px;margin-top:8px;margin-bottom:4px}
 .falert{background:linear-gradient(135deg,#1a1200,#2a1e00);border:1px solid #f0c040;border-radius:8px;padding:10px 14px;margin-bottom:10px;display:flex;align-items:center;gap:10px}
 .falert-ico{font-size:20px}
 .falert-t{font-size:12px;color:#f0c040;font-weight:bold}
 .falert-s{font-size:10px;color:#888;margin-top:2px}
 /* GROUP TABLE */
 .gbtns{display:flex;flex-wrap:wrap;gap:4px;margin-bottom:14px;justify-content:center}
-.gbtn{padding:5px 10px;border-radius:4px;cursor:pointer;font-weight:bold;font-family:Georgia,serif;font-size:12px;border:1px solid #1a1a1a;background:#0c100c;color:#444}
+.gbtn{padding:5px 10px;border-radius:4px;cursor:pointer;font-weight:bold;font-family:Georgia,serif;font-size:12px;border:1px solid #1a1a1a;background:#0c100c;color:#7a8a78}
 .gbtn.on{color:#fff}
 .twrap{border-radius:8px;overflow:hidden;margin-bottom:10px;border:1px solid #111;border-top:3px solid var(--gc)}
-.thead2{padding:8px 12px;background:#050905;font-size:9px;letter-spacing:3px;font-weight:bold;border-bottom:1px solid #0e0e0e;color:var(--gc)}
-table{width:100%;border-collapse:collapse;background:#070c07}
+.thead2{padding:8px 12px;background:#0c150d;font-size:9px;letter-spacing:3px;font-weight:bold;border-bottom:1px solid #0e0e0e;color:var(--gc)}
+table{width:100%;border-collapse:collapse;background:#101a11}
 th{padding:6px 5px;font-size:8px;color:#1e3a1e;letter-spacing:1px;border-bottom:1px solid #0c0c0c;font-family:Georgia,serif;font-weight:normal;text-align:center}
 th.tl{text-align:left}
 tbody tr{border-bottom:1px solid #0b0b0b}
@@ -119,36 +131,36 @@ tbody tr.q{background:rgba(26,94,26,.13)}
 td{padding:8px 5px;font-size:11px;text-align:center}
 td.tl{text-align:left}
 td.pts{font-weight:bold;color:#f0c040;font-size:13px}
-td.pos{color:#4ade80;font-weight:bold}td.neg{color:#f87171;font-weight:bold}td.zer{color:#444}
+td.pos{color:#4ade80;font-weight:bold}td.neg{color:#f87171;font-weight:bold}td.zer{color:#7a8a78}
 /* UPCOMING */
-.uc{background:#080d08;border:1px solid #111;border-left:3px solid #222;border-radius:7px;padding:10px 13px;margin-bottom:6px;display:flex;justify-content:space-between;align-items:center}
-.uc.fav{background:#090800;border-color:#2a2000;border-left-color:#f0c040}
+.uc{background:#121c14;border:1px solid #111;border-left:3px solid #222;border-radius:7px;padding:10px 13px;margin-bottom:6px;display:flex;justify-content:space-between;align-items:center}
+.uc.fav{background:#161208;border-color:#2a2000;border-left-color:#f0c040}
 .uch{font-size:12px;font-weight:bold}
-.uca{font-size:11px;color:#444;margin-top:1px}
+.uca{font-size:11px;color:#7a8a78;margin-top:1px}
 .uct{font-size:12px;color:#f0c040;font-weight:bold;text-align:right}
 .ucm{font-size:9px;margin-top:2px;text-align:right}
 /* BRACKET */
 .bracket{padding:4px 0}
 .bround{margin-bottom:22px}
 .brnd-title{font-size:9px;color:#b8860b;letter-spacing:3px;font-weight:bold;margin-bottom:10px;padding-bottom:6px;border-bottom:1px solid #1a1500}
-.bmatch{background:#090e09;border:1px solid #141a14;border-radius:6px;padding:9px 12px;margin-bottom:5px;display:flex;justify-content:space-between;align-items:center}
+.bmatch{background:#131e14;border:1px solid #141a14;border-radius:6px;padding:9px 12px;margin-bottom:5px;display:flex;justify-content:space-between;align-items:center}
 .bmatch.done{border-left:3px solid #166534}
 .bmatch.live-b{border-left:3px solid #ff4444;background:#0a1008}
 .bmatch.tbd{opacity:.5}
 .bteams{flex:1}
 .bt1{font-size:12px;font-weight:bold;color:#ccc}
-.bt2{font-size:12px;color:#666;margin-top:3px}
-.bscore{font-size:16px;font-weight:bold;color:#f0c040;padding:2px 10px;background:#060b06;border-radius:4px;letter-spacing:2px;text-align:center;min-width:50px}
-.bscore.tbd-s{color:#222;font-size:12px}
+.bt2{font-size:12px;color:#8c9a8a;margin-top:3px}
+.bscore{font-size:16px;font-weight:bold;color:#f0c040;padding:2px 10px;background:#0e160e;border-radius:4px;letter-spacing:2px;text-align:center;min-width:50px}
+.bscore.tbd-s{color:#5a6a58;font-size:12px}
 .bscore.live-sc{color:#ff6644}
-.binfo{font-size:9px;color:#333;margin-top:2px}
+.binfo{font-size:9px;color:#677a67;margin-top:2px}
 
 /* ── CHAVE VISUAL — caixa de confronto, time de cada lado ──────────────────── */
-.bbox{border-radius:10px;overflow:hidden;margin-bottom:6px;background:linear-gradient(160deg,#0a0f0a,#060a06);border:1px solid #131d13}
+.bbox{border-radius:10px;overflow:hidden;margin-bottom:6px;background:linear-gradient(160deg,#141f15,#0e160e);border:1px solid #1a2a1c}
 .bbox.bbox-live{border-color:#3dbb3d}
 .bbox.bbox-done{border-color:#1a3320}
 .bbox.bbox-tbd{opacity:.55}
-.bbox-head{padding:4px 10px;font-size:8px;letter-spacing:1.5px;color:#557;background:#050905;border-bottom:1px solid #0e140e;display:flex;justify-content:space-between}
+.bbox-head{padding:4px 10px;font-size:8px;letter-spacing:1.5px;color:#557;background:#0c150d;border-bottom:1px solid #0e140e;display:flex;justify-content:space-between}
 .bbox-head.head-live{color:#ff5544}
 .bbox-head.head-done{color:#3dbb3d}
 .bbox-body{display:flex;align-items:stretch}
@@ -161,11 +173,15 @@ td.pos{color:#4ade80;font-weight:bold}td.neg{color:#f87171;font-weight:bold}td.z
 .bbox-mid{display:flex;align-items:center;padding:0 7px;flex-shrink:0;border-left:1px solid #101a10;border-right:1px solid #101a10}
 .bbox-score{font-size:16px;font-weight:bold;color:#f0c040;letter-spacing:1px;min-width:42px;text-align:center}
 .bbox-score.live{color:#ff6644}
-.bbox-score.tbd{color:#2a3a2a;font-size:11px;letter-spacing:0}
+.bbox-score.tbd{color:#5e7a5c;font-size:11px;letter-spacing:0}
 .bconnector{display:flex;justify-content:center;position:relative;height:16px;margin:-2px 0 4px}
 .bconnector::before{content:"";position:absolute;top:0;bottom:0;left:50%;width:1px;background:#162616}
 .bconnector span{position:relative;background:#040804;color:#2a4022;font-size:7px;letter-spacing:1.5px;padding:0 8px;align-self:center}
-.bremain{font-size:10px;color:#2a3a2a;text-align:center;padding:8px 0 2px}
+.bremain{font-size:10px;color:#5e7a5c;text-align:center;padding:8px 0 2px}
+/* FUNIL entre fases — reforça o afunilamento sem fingir ligações exatas */
+.bfunnel{position:relative;height:34px;margin:2px 0 16px;display:flex;align-items:center;justify-content:center}
+.bfunnel-tri{width:0;height:0;border-left:55px solid transparent;border-right:55px solid transparent;border-top:16px solid #1a2a1c}
+.bfunnel-label{position:absolute;background:#0a120a;padding:3px 10px;font-size:8px;letter-spacing:1.5px;color:#b8860b;border:1px solid #2a2000;border-radius:10px;white-space:nowrap}
 
 ::-webkit-scrollbar{width:4px;height:4px}
 ::-webkit-scrollbar-track{background:#040804}
@@ -177,11 +193,9 @@ td.pos{color:#4ade80;font-weight:bold}td.neg{color:#f87171;font-weight:bold}td.z
 <div class="bg-overlay"></div>
 <div id="app">
   <div class="header">
+    <img id="logoImg" alt="" class="header-logo" onerror="this.style.display='none'"/>
     <div class="header-sub">COPA DO MUNDO FIFA 2026</div>
-    <div class="header-title-row">
-      <img id="logoImg" alt="" class="header-logo" onerror="this.style.display='none'"/>
-      <div class="header-title">⚽WORLD CUP TRACKER - BY TICOBARTU⚽</div>
-    </div>
+    <div class="header-title">⚽WORLD CUP TRACKER - BY TICOBARTU⚽</div>
     <div class="header-meta">
       <span id="li"></span>
       <span id="ts">Carregando...</span>
@@ -191,15 +205,17 @@ td.pos{color:#4ade80;font-weight:bold}td.neg{color:#f87171;font-weight:bold}td.z
   <div id="srcbar" class="src-bar loading">⟳ Conectando...</div>
   <div id="tzbar" class="tz-bar">🕐 Detectando fuso...</div>
   <div class="tabs">
-    <button class="tab active" onclick="setTab('hoje',this)">🔴 Hoje</button>
-    <button class="tab ft"    onclick="setTab('favs',this)">⭐ Favoritos</button>
+    <button class="tab minuto-tab active" onclick="setTab('minuto',this)">🔴 Ao Vivo</button>
+    <button class="tab"       onclick="setTab('hoje',this)">📆 Hoje</button>
+    <button class="tab"       onclick="setTab('prox',this)">📅 Próximos</button>
     <button class="tab"       onclick="setTab('result',this)">✅ Resultados</button>
     <button class="tab"       onclick="setTab('grupos',this)">🏟 Grupos</button>
     <button class="tab"       onclick="setTab('mm',this)">🏆 Mata-Mata</button>
-    <button class="tab"       onclick="setTab('prox',this)">📅 Próximos</button>
+    <button class="tab"       onclick="setTab('sim',this)">🔮 Simulação</button>
+    <button class="tab ft"    onclick="setTab('favs',this)">⭐ Favoritos</button>
   </div>
   <div class="body"><div id="content"></div></div>
-  <div style="text-align:center;padding:18px 12px 8px;font-size:9px;color:#222;letter-spacing:1px">
+  <div style="text-align:center;padding:18px 12px 8px;font-size:9px;color:#5a6a58;letter-spacing:1px">
     ⚽ Copa 2026 Tracker · Criado por <span style="color:#3a5a3a">Thiago Bartulihe</span>
   </div>
 </div>
@@ -343,7 +359,7 @@ const FALLBACK_RES=[
     {min:"88",icon:"⚽",txt:"Alexander Sørloth",sub:"Noruega 🇳🇴 · 1–4"},
    ]},
   {g:"J",home:"Argentina 🇦🇷",away:"Argélia 🇩🇿",sh:3,sa:0,date:"16/06",brTime:"22h",done:true,live:false,venue:"Kansas City",
-   note:"⭐ MESSI HAT-TRICK! 1º da carreira no Mundial · iguala recorde histórico de 16 golos",
+   note:"⭐ MESSI HAT-TRICK! 1º da carreira no Mundial · iguala recorde histórico de 16 gols",
    events:[
     {min:"18",icon:"⚽",txt:"Lionel Messi",sub:"Argentina 🇦🇷 · 1–0"},
     {min:"55",icon:"⚽",txt:"Lionel Messi",sub:"Argentina 🇦🇷 · 2–0 · magistral"},
@@ -353,7 +369,10 @@ const FALLBACK_RES=[
   {g:"K",home:"Portugal 🇵🇹",away:"RD Congo 🇨🇩",sh:null,sa:null,date:"17/06",brTime:"14h",done:false,venue:"Boston"},
   {g:"K",home:"Uzbequistão 🇺🇿",away:"Colômbia 🇨🇴",sh:null,sa:null,date:"17/06",brTime:"21h",done:false,venue:"Seattle"},
   {g:"L",home:"Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",away:"Croácia 🇭🇷",sh:null,sa:null,date:"17/06",brTime:"17h",done:false,venue:"Nova York"},
-  {g:"L",home:"Gana 🇬🇭",away:"Panamá 🇵🇦",sh:null,sa:null,date:"17/06",brTime:"20h",done:false,venue:"Filadélfia"}
+  {g:"L",home:"Gana 🇬🇭",away:"Panamá 🇵🇦",sh:null,sa:null,date:"17/06",brTime:"20h",done:false,venue:"Filadélfia"},
+  {g:"F",home:"Holanda 🇳🇱",away:"Suécia 🇸🇪",sh:null,sa:null,date:"20/06",brTime:"14h",done:false,live:false,venue:"NRG Stadium, Houston"},
+  {g:"E",home:"Alemanha 🇩🇪",away:"C. do Marfim 🇨🇮",sh:null,sa:null,date:"20/06",brTime:"17h",done:false,live:false,venue:"BMO Field, Toronto"},
+  {g:"E",home:"Equador 🇪🇨",away:"Curaçao 🇨🇼",sh:null,sa:null,date:"20/06",brTime:"21h",done:false,live:false,venue:"GEHA Field at Arrowhead Stadium"}
 ];
 
 // RES é o array realmente usado pela interface — começa como cópia do fallback,
@@ -646,17 +665,25 @@ function adaptRefresh(){
   refreshIv=setInterval(fetchData,iv);
 }
 
-// Salvaguarda: jogos de dias anteriores nunca ficam presos como "live"
+// Salvaguarda: jogos de dias anteriores nunca ficam presos como "live",
+// e jogos agendados cuja data já passou sem resultado ficam marcados como
+// "pending" — para a UI avisar em vez de mostrar como se fosse futuro.
 function autoExpireLiveGames(){
   const today=new Date();
   const todayStr=`${String(today.getDate()).padStart(2,"0")}/${String(today.getMonth()+1).padStart(2,"0")}`;
+  const todayKey=dateSortKey(todayStr);
   RES.forEach(r=>{
-    if(!r.live)return;
-    // Se a data do jogo não é hoje, encerra automaticamente
-    if(r.date && r.date!==todayStr){
-      r.live=false;
-      // Se não tem placar, marca como encerrado com placar desconhecido
-      if(!r.done){ r.done=true; r.note=(r.note||"")+" · resultado atualizar"; }
+    if(r.live){
+      if(r.date && r.date!==todayStr){
+        r.live=false;
+        if(!r.done){ r.done=true; r.note=(r.note||"")+" · resultado a atualizar"; }
+      }
+      return;
+    }
+    if(!r.done && r.date && dateSortKey(r.date)<todayKey){
+      r.pending=true;
+    } else {
+      r.pending=false;
     }
   });
 }
@@ -678,14 +705,16 @@ function calcS(g){
 }
 
 // ── RENDER ────────────────────────────────────────────────────────────────────
-let TAB="hoje",GRP="C";
+let TAB="minuto",GRP="C";
 function render(){document.getElementById("content").innerHTML=build();}
 function build(){
   if(TAB==="hoje")  return bHoje();
+  if(TAB==="minuto")return bMinuto();
   if(TAB==="favs")  return bFavs();
   if(TAB==="result")return bResult();
   if(TAB==="grupos")return bGrupos();
-  if(TAB==="mm")    return bMM();
+  if(TAB==="mm")    return bOficial();
+  if(TAB==="sim")   return bProjecao();
   if(TAB==="prox")  return bProx();
   return "";
 }
@@ -711,7 +740,7 @@ function bHoje(){
   if(tDone.length){h+=lbl(`✅ HOJE ENCERRADOS — ${today}`,true);tDone.forEach(r=>{h+=card(r);});}
   if(tNext.length){h+=lbl(`⏰ MAIS TARDE HOJE — ${today}`,true);tNext.forEach(r=>{h+=card(r,false,true);});}
   if(!live.length&&!tDone.length&&!tNext.length){
-    h+=`<div style="background:#090e09;border:1px solid #111;border-radius:7px;padding:16px;text-align:center;color:#333;font-size:12px;margin-bottom:12px">
+    h+=`<div style="background:#131e14;border:1px solid #111;border-radius:7px;padding:16px;text-align:center;color:#677a67;font-size:12px;margin-bottom:12px">
       Sem jogos hoje (${today})<br><span style="font-size:10px;margin-top:4px;display:block">Ver aba 📅 Próximos para os próximos jogos</span></div>`;
   }
   if(yestGames.length){h+=lbl(`📋 ONTEM — ${yest}`,true);yestGames.forEach(r=>{h+=card(r);});}
@@ -734,7 +763,7 @@ function bFavs(){
   const clearBtn=FAVS.length>0?`<button onclick="clearFavs()" style="margin-top:8px;background:#1a0505;border:1px solid #4a1515;color:#f87171;padding:5px 14px;border-radius:4px;cursor:pointer;font-size:10px;font-family:Georgia,serif;letter-spacing:1px">🗑 LIMPAR TUDO</button>`:"";
   let h=alerts;
   h+=`<div class="favsec"><div class="favtitle">⭐ SELEÇÕES FAVORITAS</div>
-    <div class="favchips">${chips||'<span style="color:#333;font-size:11px">Nenhuma selecionada</span>'}</div>
+    <div class="favchips">${chips||'<span style="color:#677a67;font-size:11px">Nenhuma selecionada</span>'}</div>
     ${clearBtn}
     <div class="tgridlbl">ADICIONAR / REMOVER</div>
     <div class="tgrid">${tbtns}</div></div>`;
@@ -787,33 +816,24 @@ function calcProjection(){
   return {leaders,runners,bestThirds,outThirds};
 }
 
-function bMM(){
-  // 12 grupos × 4 seleções → 6 jogos por grupo (todos contra todos) = 72 no total
+// Cabeçalho de progresso — usado tanto no Mata-Mata real como na Simulação
+function groupStageProgress(){
   const TOTAL_GROUP_GAMES=72;
   const done=RES.filter(r=>r.done).length;
-  const total=TOTAL_GROUP_GAMES;
-  const pct=Math.round((done/total)*100);
-
-  let h=`<div style="display:flex;gap:6px;margin-bottom:14px">
-    <button onclick="setMMView('oficial')" style="flex:1;padding:8px;border-radius:5px;border:1px solid ${MM_VIEW==="oficial"?"#b8860b":"#1a1a1a"};background:${MM_VIEW==="oficial"?"#1a1500":"#0c100c"};color:${MM_VIEW==="oficial"?"#f0c040":"#555"};font-family:Georgia,serif;font-size:11px;font-weight:bold;cursor:pointer">📋 Estrutura Oficial</button>
-    <button onclick="setMMView('projecao')" style="flex:1;padding:8px;border-radius:5px;border:1px solid ${MM_VIEW==="projecao"?"#166534":"#1a1a1a"};background:${MM_VIEW==="projecao"?"#0a1f0a":"#0c100c"};color:${MM_VIEW==="projecao"?"#3dbb3d":"#555"};font-family:Georgia,serif;font-size:11px;font-weight:bold;cursor:pointer">🔮 Projeção Atual</button>
-  </div>`;
-
-  h+=`<div style="background:#090e09;border:1px solid #1a2a1a;border-radius:8px;padding:12px;margin-bottom:16px">
+  const pct=Math.round((done/TOTAL_GROUP_GAMES)*100);
+  return `<div style="background:#131e14;border:1px solid #1a2a1a;border-radius:8px;padding:12px;margin-bottom:16px">
     <div style="font-size:9px;color:#1a5e1a;letter-spacing:2px;margin-bottom:6px">FASE DE GRUPOS</div>
     <div style="background:#111;border-radius:4px;height:6px;overflow:hidden;margin-bottom:6px">
       <div style="background:#166534;height:100%;width:${pct}%;transition:width .5s"></div></div>
-    <div style="font-size:10px;color:#555">${done} de ${total} jogos disputados · ${pct}% concluído</div>
-    <div style="font-size:10px;color:#333;margin-top:4px">Avos de final: a partir de 27/06</div>
+    <div style="font-size:10px;color:#8a9a88">${done} de ${TOTAL_GROUP_GAMES} jogos disputados · ${pct}% concluído</div>
+    <div style="font-size:10px;color:#677a67;margin-top:4px">Avos de final: a partir de 27/06</div>
   </div>`;
-
-  if(MM_VIEW==="projecao") return h+bProjecao();
-  return h+bOficial();
 }
 
 function bProjecao(){
   const {leaders,runners,bestThirds,outThirds}=calcProjection();
-  let h=`<div style="background:#0a0f00;border:1px solid #2a3a00;border-radius:8px;padding:10px 14px;margin-bottom:14px;font-size:10px;color:#9ab;line-height:1.5">
+  let h=groupStageProgress();
+  h+=`<div style="background:#0a0f00;border:1px solid #2a3a00;border-radius:8px;padding:10px 14px;margin-bottom:14px;font-size:10px;color:#9ab;line-height:1.5">
     🔮 <b style="color:#b8c43d">Projeção baseada nos resultados de agora.</b> Mostra quem se classificaria se a fase de grupos parasse neste momento — muda conforme os jogos acontecem.<br><br>
     ⚠️ Os <b>confrontos exatos</b> do mata-mata com terceiros colocados só saem da FIFA após o fim da fase de grupos — existem 495 combinações possíveis. Aqui mostro só <b>quem se classifica</b>, não quem joga contra quem.
   </div>`;
@@ -821,7 +841,7 @@ function bProjecao(){
   h+=lbl("🥇 LÍDERES DOS GRUPOS (1º lugar)");
   leaders.forEach(t=>{
     const fav=isFav(t.t);
-    h+=`<div class="uc" style="border-left-color:${GC[t.g]}${fav?";background:#090800":""}">
+    h+=`<div class="uc" style="border-left-color:${GC[t.g]}${fav?";background:#161208":""}">
       <div><div class="uch">${t.t}${fav?" ⭐":""}</div><div class="uca">Grupo ${t.g} · ${t.pts} pts · ${t.j} jogos</div></div>
       <div style="text-align:right"><div class="uct" style="color:${GC[t.g]}">${t.dif>0?"+":""}${t.dif}</div><div class="ucm">saldo</div></div>
     </div>`;
@@ -830,7 +850,7 @@ function bProjecao(){
   h+=lbl("🥈 VICE-LÍDERES (2º lugar)",true);
   runners.forEach(t=>{
     const fav=isFav(t.t);
-    h+=`<div class="uc" style="border-left-color:${GC[t.g]}${fav?";background:#090800":""}">
+    h+=`<div class="uc" style="border-left-color:${GC[t.g]}${fav?";background:#161208":""}">
       <div><div class="uch">${t.t}${fav?" ⭐":""}</div><div class="uca">Grupo ${t.g} · ${t.pts} pts · ${t.j} jogos</div></div>
       <div style="text-align:right"><div class="uct" style="color:${GC[t.g]}">${t.dif>0?"+":""}${t.dif}</div><div class="ucm">saldo</div></div>
     </div>`;
@@ -839,7 +859,7 @@ function bProjecao(){
   h+=lbl("🥉 MELHORES TERCEIROS — top 8 entram",true);
   bestThirds.forEach((t,i)=>{
     const fav=isFav(t.t);
-    h+=`<div class="uc fav" style="border-left-color:#3dbb3d${fav?";background:#090800":""}">
+    h+=`<div class="uc fav" style="border-left-color:#3dbb3d${fav?";background:#161208":""}">
       <div><div class="uch">${i+1}º · ${t.t}${fav?" ⭐":""}</div><div class="uca">Grupo ${t.g} · ${t.pts} pts · ${t.j} jogos</div></div>
       <div style="text-align:right"><div class="uct" style="color:#3dbb3d">${t.dif>0?"+":""}${t.dif}</div><div class="ucm">✔ classificado</div></div>
     </div>`;
@@ -849,7 +869,7 @@ function bProjecao(){
     h+=lbl("❌ TERCEIROS FORA — por enquanto",true);
     outThirds.forEach((t,i)=>{
       const fav=isFav(t.t);
-      h+=`<div class="uc" style="border-left-color:#3a1a1a;opacity:.6${fav?";background:#090800":""}">
+      h+=`<div class="uc" style="border-left-color:#3a1a1a;opacity:.6${fav?";background:#161208":""}">
         <div><div class="uch">${i+9}º · ${t.t}${fav?" ⭐":""}</div><div class="uca">Grupo ${t.g} · ${t.pts} pts · ${t.j} jogos</div></div>
         <div style="text-align:right"><div class="uct" style="color:#664">${t.dif>0?"+":""}${t.dif}</div><div class="ucm">eliminado</div></div>
       </div>`;
@@ -883,7 +903,7 @@ function bracketBox(homeLabel,awayLabel,sh,sa,status,meta,favHome,favAway){
 function connector(text){ return `<div class="bconnector"><span>${text||"VENCEDOR AVANÇA"}</span></div>`; }
 
 function bOficial(){
-  let h="";
+  let h=groupStageProgress();
   const rounds=[
     {key:"avos",    label:"AVOS DE FINAL — 27 A 30/06",      expected:16},
     {key:"oitavas", label:"OITAVAS DE FINAL — 3 A 6/07",      expected:8},
@@ -892,7 +912,7 @@ function bOficial(){
     {key:"final",   label:"👑 GRANDE FINAL — 19/07",          expected:1},
   ];
 
-  rounds.forEach(({key,label,expected})=>{
+  rounds.forEach(({key,label,expected},roundIdx)=>{
     h+=`<div class="bround"><div class="brnd-title">${label}</div>`;
     const real=(KO_MATCHES||[]).filter(m=>m.round===key)
       .sort((a,b)=>new Date(a.iso||0)-new Date(b.iso||0));
@@ -924,6 +944,11 @@ function bOficial(){
       });
     }
     h+="</div>";
+    if(roundIdx<rounds.length-1){
+      h+=`<div class="bfunnel"><div class="bfunnel-tri"></div>
+        <div class="bfunnel-label">${expected} CONFRONTOS → ${rounds[roundIdx+1].expected} VENCEDORES</div>
+      </div>`;
+    }
   });
   return h;
 }
@@ -940,21 +965,32 @@ function dateSortKey(ddmm){
 }
 
 function bProx(){
-  const today=todayStr(), tom=tomorrowStr();
-  const upcoming=RES.filter(r=>!r.done&&!r.live).sort((a,b)=>dateSortKey(a.date)-dateSortKey(b.date));
+  const today=todayStr(), tom=tomorrowStr(), todayKey=dateSortKey(today);
+  const all=RES.filter(r=>!r.done&&!r.live);
+  const pending=all.filter(r=>r.pending);
+  const upcoming=all.filter(r=>!r.pending).sort((a,b)=>dateSortKey(a.date)-dateSortKey(b.date));
 
-  if(!upcoming.length){
-    return `<div class="no-g">Sem jogos futuros cadastrados ainda.<br><span style="font-size:10px;color:#222">O robô adiciona automaticamente conforme a ESPN confirma novos jogos — tenta o Refresh.</span></div>`;
+  let h="";
+
+  if(pending.length){
+    h+=`<div style="background:#1a1200;border:1px solid #4a3a00;border-radius:7px;padding:10px 14px;margin-bottom:14px;font-size:10px;color:#d4a017">
+      ⚠️ <b>Resultado ainda não confirmado</b> — estes jogos já deviam ter terminado, mas a fonte de dados não trouxe o placar ainda. Tenta o Refresh.
+    </div>`;
+    pending.forEach(r=>{h+=uc(r);});
   }
 
-  let h="", lastDate=null, first=true;
+  if(!upcoming.length && !pending.length){
+    return h+`<div class="no-g">Sem jogos futuros cadastrados ainda.<br><span style="font-size:10px;color:#5a6a58">O robô adiciona automaticamente conforme a ESPN confirma novos jogos — tenta o Refresh.</span></div>`;
+  }
+
+  let lastDate=null, first=true;
   upcoming.forEach(r=>{
     if(r.date!==lastDate){
       lastDate=r.date;
       let label=r.date||"DATA A CONFIRMAR";
       if(r.date===today)label=`HOJE — ${r.date}`;
       else if(r.date===tom)label=`AMANHÃ — ${r.date}`;
-      h+=lbl(label,!first);
+      h+=lbl(label,!first||pending.length>0);
       first=false;
     }
     h+=uc(r);
@@ -970,8 +1006,8 @@ function buildTable(g){
     const q=i<2&&hasG,fv=isFav(r.t);
     h+=`<tr class="${q?"q":""}"><td style="${q?`color:${col}`:""};font-size:10px">${q?"✔":"✗"}</td>
       <td class="tl" style="color:${q?"#ddd":"#555"};font-weight:${q?"bold":"normal"}">${r.t}${fv?' <span style="color:#f0c040;font-size:9px">⭐</span>':""}</td>
-      <td class="pts">${r.pts}</td><td style="color:#444">${r.j}</td>
-      <td style="color:#777">${r.gf}</td><td style="color:#444">${r.gc}</td>
+      <td class="pts">${r.pts}</td><td style="color:#7a8a78">${r.j}</td>
+      <td style="color:#777">${r.gf}</td><td style="color:#7a8a78">${r.gc}</td>
       <td class="${r.dif>0?"pos":r.dif<0?"neg":"zer"}">${r.dif>0?"+"+r.dif:r.dif}</td></tr>`;
   });
   return h+"</tbody></table></div>";
@@ -986,9 +1022,35 @@ function glbl(g,mt){
 }
 function ft(r){if(!r.brTime)return{time:"",date:r.date||""};return localTime(r.brTime,r.date);}
 
+// ── MINUTO A MINUTO — tab própria, jogos ao vivo em formato espaçoso ────────
+function bMinuto(){
+  const live=RES.filter(r=>r.live);
+  if(!live.length){
+    return `<div class="no-g">📻 Nenhum jogo ao vivo neste momento.<br>
+      <span style="font-size:10px;color:#5e7a5c">Quando houver jogo a decorrer, os eventos minuto a minuto aparecem aqui automaticamente — gols, cartões e substituições.</span></div>`;
+  }
+  let h=lbl(`🔴 ${live.length} JOGO${live.length>1?"S":""} AO VIVO AGORA`);
+  live.forEach(r=>{
+    const fv=isFav(r.home)||isFav(r.away);
+    const col=GC[r.g]||"#3dbb3d";
+    h+=`<div class="minuto-card${fv?" minuto-fav":""}">
+      <div class="minuto-head" style="border-left:3px solid ${fv?"#f0c040":col}">
+        <div class="minuto-teams">
+          <span class="${isFav(r.home)?"minuto-favteam":""}">${r.home}</span>
+          <span class="minuto-score">${r.sh??0} – ${r.sa??0}</span>
+          <span class="${isFav(r.away)?"minuto-favteam":""}">${r.away}</span>
+        </div>
+        <div class="minuto-meta"><span class="live-dot"></span> ${r.clock?r.clock+"'":"AO VIVO"} · GRUPO ${r.g}${fv?" · ⭐ FAVORITO":""}</div>
+      </div>
+      ${buildEvBox(r)}
+    </div>`;
+  });
+  return h;
+}
+
 function buildEvBox(r){
   const evs=(r.events||[]).filter(e=>e.icon&&e.icon!=="•");
-  if(!evs.length)return `<div class="evbox"><div class="evnone">Sem golos ou cartões até ao momento</div></div>`;
+  if(!evs.length)return `<div class="evbox"><div class="evnone">Sem gols ou cartões até ao momento</div></div>`;
   const rows=evs.slice(0,10).map(e=>`<div class="evrow">
     <div class="evmin">${e.min?e.min+"'":""}</div>
     <div class="evico">${e.icon}</div>
@@ -1013,6 +1075,9 @@ function card(r,live,upcoming){
   let foot="";
   if(r.done)foot=`<div class="cfoot"><span style="color:${col};font-size:9px">GRP ${r.g} · ${date}</span>${r.note?`<span style="color:#3dbb3d;font-style:italic;font-size:9px;max-width:58%;text-align:right">${r.note}</span>`:""}</div>`;
   const hOn=isFav(r.home), aOn=isFav(r.away);
+  // Eventos completos saíram daqui — vivem na tab 🎙 Minuto a Minuto.
+  // Aqui fica só um link curto, sem poluir o cartão.
+  const liveTeaser=live?`<div class="cteaser" onclick="setTab('minuto',document.querySelector('.tab.minuto-tab'))">🎙 Ver minuto a minuto →</div>`:"";
   return `<div class="card${live&&fv?" cfavlive":live?" clive":fv&&r.done?" cfav":""}" style="${r.done&&!live?"border-left-color:"+col:""}">
     ${badge}
     <div class="crow">
@@ -1020,7 +1085,7 @@ function card(r,live,upcoming){
       ${score}
       <div class="cteam r ${wa?"win":r.done?"lose":""}"><span class="ministar${aOn?" on":""}" onclick="toggleFav('${r.away}')">⭐</span> ${r.away}</div>
     </div>
-    ${foot}${live?buildEvBox(r):""}
+    ${foot}${liveTeaser}
   </div>`;
 }
 
