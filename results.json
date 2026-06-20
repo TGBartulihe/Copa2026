@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T17:16:22.641Z",
+  "generatedAt": "2026-06-20T17:17:22.736Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -2084,12 +2084,18 @@
       "brTime": "14h",
       "venue": "NRG Stadium",
       "iso": "2026-06-20T17:00Z",
-      "sh": 1,
+      "sh": 2,
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "16'",
+      "clock": "17'",
       "events": [
+        {
+          "min": "17'",
+          "icon": "⚽",
+          "txt": "Brian Brobbey (Netherlands) Goal at 17'",
+          "sub": "Netherlands"
+        },
         {
           "min": "5'",
           "icon": "⚽",
