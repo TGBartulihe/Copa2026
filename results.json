@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T20:30:34.361Z",
+  "generatedAt": "2026-06-20T20:31:25.234Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -2214,10 +2214,10 @@
       "venue": "BMO Field",
       "iso": "2026-06-20T20:00Z",
       "sh": 0,
-      "sa": 0,
+      "sa": 1,
       "done": false,
       "live": true,
-      "clock": "30'",
+      "clock": "31'",
       "events": [
         {
           "min": "30'",
