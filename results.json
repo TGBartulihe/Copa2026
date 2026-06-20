@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T18:16:28.013Z",
+  "generatedAt": "2026-06-20T18:17:26.882Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -2088,12 +2088,30 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "55'",
+      "clock": "56'",
       "events": [
+        {
+          "min": "56'",
+          "icon": "🔄",
+          "txt": "Substituição, Suécia. Anthony Elanga entra em campo e entra Alexander Bernhardsson.",
+          "sub": "Sweden"
+        },
+        {
+          "min": "56'",
+          "icon": "🔄",
+          "txt": "Substituição, Suécia. Entra Lucas Bergvall para o lugar de Benjamin Nygren.",
+          "sub": "Sweden"
+        },
+        {
+          "min": "56'",
+          "icon": "🔄",
+          "txt": "Substituição, Suécia. Entra Besfort Zeneli substituindo Jesper Karlström.",
+          "sub": "Sweden"
+        },
         {
           "min": "54'",
           "icon": "⚽",
-          "txt": "Cody Gakpo (Holanda) finalização com o pé direito do lado esquerdo da área após um contra-ataque.",
+          "txt": "Cody Gakpo (Holanda) finalização com o pé direito do lado esquerdo da área no canto inferior esquerdo. Assistência de Crysencio Summerville depois de um contra-ataque.",
           "sub": "Netherlands"
         },
         {
