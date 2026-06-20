@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T18:50:27.318Z",
+  "generatedAt": "2026-06-20T18:51:26.195Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -2084,12 +2084,18 @@
       "brTime": "14h",
       "venue": "NRG Stadium",
       "iso": "2026-06-20T17:00Z",
-      "sh": 4,
+      "sh": 5,
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "89'",
+      "clock": "90'",
       "events": [
+        {
+          "min": "89'",
+          "icon": "⚽",
+          "txt": "Crysencio Summerville (Holanda) finalização com o pé direito de fora da área no canto inferior esquerdo. Assistência de Memphis Depay.",
+          "sub": "Netherlands"
+        },
         {
           "min": "80'",
           "icon": "🟨",
@@ -2117,7 +2123,7 @@
         {
           "min": "59'",
           "icon": "🔄",
-          "txt": "Substituição, Holanda. Entra Guus Til para o lugar de Tijjani Reijnders.",
+          "txt": "Substituição, Holanda. Entra Guus Til substituindo Tijjani Reijnders.",
           "sub": "Netherlands"
         },
         {
