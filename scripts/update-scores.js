@@ -277,30 +277,58 @@ async function loadSubscriptions(){
   }
 }
 
-async function sendPushToAll(subs, payload){
-  if (!webpush) return subs;
+async function sendPushToSubs(subs, payload){
+  if (!webpush) return [];
   const body = JSON.stringify(payload);
-  const stillValid = [];
+  const deadEndpoints = [];
   for (const sub of subs){
+    const target = sub.subscription || sub;
     try{
-      await webpush.sendNotification(sub.subscription || sub, body);
-      stillValid.push(sub);
+      await webpush.sendNotification(target, body);
       console.log(`📨 Notificação enviada: ${payload.title}`);
     }catch(e){
-      // 404/410 = subscrição morta (utilizador desinstalou) — remove da lista
+      // 404/410 = subscrição morta (utilizador desinstalou)
       if (e.statusCode === 404 || e.statusCode === 410){
-        console.log("Subscrição expirada, a remover.");
+        if (target.endpoint) deadEndpoints.push(target.endpoint);
+        console.log("Subscrição expirada, marcada para remoção.");
       } else {
-        stillValid.push(sub); // erro temporário — mantém para tentar depois
         console.warn("Falha a enviar push:", e.message);
       }
     }
   }
-  return stillValid;
+  return deadEndpoints;
 }
+
+// Códigos de 3 letras — mesmo dicionário do index.html, usado para comparar
+// com favoriteTeams (que chega do telemóvel já como códigos, ex: "BRA")
+const TEAM_CODE={
+  "México 🇲🇽":"MEX","Coreia do Sul 🇰🇷":"KOR","Rep. Tcheca 🇨🇿":"CZE","África do Sul 🇿🇦":"RSA",
+  "Canadá 🇨🇦":"CAN","Bósnia 🇧🇦":"BIH","Qatar 🇶🇦":"QAT","Suíça 🇨🇭":"SUI",
+  "Brasil 🇧🇷":"BRA","Marrocos 🇲🇦":"MAR","Escócia 🏴󠁧󠁢󠁳󠁣󠁴󠁿":"SCO","Haiti 🇭🇹":"HAI",
+  "EUA 🇺🇸":"USA","Austrália 🇦🇺":"AUS","Turquia 🇹🇷":"TUR","Paraguai 🇵🇾":"PAR",
+  "Alemanha 🇩🇪":"GER","C. do Marfim 🇨🇮":"CIV","Equador 🇪🇨":"ECU","Curaçao 🇨🇼":"CUW",
+  "Suécia 🇸🇪":"SWE","Holanda 🇳🇱":"NED","Japão 🇯🇵":"JPN","Tunísia 🇹🇳":"TUN",
+  "Bélgica 🇧🇪":"BEL","Irã 🇮🇷":"IRN","Egito 🇪🇬":"EGY","Nova Zelândia 🇳🇿":"NZL",
+  "Espanha 🇪🇸":"ESP","Cabo Verde 🇨🇻":"CPV","Arábia Saudita 🇸🇦":"KSA","Uruguai 🇺🇾":"URU",
+  "França 🇫🇷":"FRA","Noruega 🇳🇴":"NOR","Senegal 🇸🇳":"SEN","Iraque 🇮🇶":"IRQ",
+  "Argentina 🇦🇷":"ARG","Áustria 🇦🇹":"AUT","Argélia 🇩🇿":"ALG","Jordânia 🇯🇴":"JOR",
+  "Portugal 🇵🇹":"POR","Colômbia 🇨🇴":"COL","RD Congo 🇨🇩":"COD","Uzbequistão 🇺🇿":"UZB",
+  "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿":"ENG","Croácia 🇭🇷":"CRO","Gana 🇬🇭":"GHA","Panamá 🇵🇦":"PAN",
+};
+function teamCode(name){ return TEAM_CODE[name]||(name||"").replace(/[^A-Za-zÀ-ú]/g,"").slice(0,3).toUpperCase(); }
 
 function isFavoriteMatch(m){
   return FAVORITE_TEAMS.includes(m.home) || FAVORITE_TEAMS.includes(m.away);
+}
+
+// Decide se ESTA subscrição em particular quer ser avisada deste jogo —
+// usa as favoriteTeams próprias dela; só recorre à lista global antiga
+// se, por algum motivo, a subscrição não tiver favoriteTeams guardadas.
+function matchesSubscription(m, sub){
+  const favs = sub.favoriteTeams;
+  if (!Array.isArray(favs) || !favs.length) return isFavoriteMatch(m);
+  const homeCode = teamCode(m.home), awayCode = teamCode(m.away);
+  return favs.includes(homeCode) || favs.includes(awayCode);
 }
 
 async function checkAndNotify(allMatches){
@@ -308,7 +336,7 @@ async function checkAndNotify(allMatches){
     console.log("Notificações desligadas (sem chaves VAPID configuradas).");
     return;
   }
-  let subs = await loadSubscriptions();
+  const subs = await loadSubscriptions();
   if (!Array.isArray(subs) || !subs.length){
     console.log("Nenhuma subscrição registada ainda — sem notificações a enviar.");
     return;
@@ -317,13 +345,20 @@ async function checkAndNotify(allMatches){
   const cache = loadJSON(NOTIFIED_CACHE_FILE, {});
   const now = Date.now();
   let sentAny = false;
+  const deadEndpointsAll = new Set();
 
-  for (const m of allMatches){
-    if (!isFavoriteMatch(m)) continue;
+  // Só processa jogos que interessem a pelo menos uma subscrição
+  const relevant = allMatches.filter(m => subs.some(s => matchesSubscription(m, s)));
+
+  for (const m of relevant){
     const matchKey = `${m.home}|${m.away}|${m.date}`;
     if (!cache[matchKey]) cache[matchKey] = { goals: [] };
     const entry = cache[matchKey];
     if (!Array.isArray(entry.goals)) entry.goals = [];
+
+    // Só estas subscrições é que pediram para seguir este jogo em concreto
+    const targetSubs = subs.filter(s => matchesSubscription(m, s));
+    if (!targetSubs.length) continue;
 
     // 1) Aviso de jogo perto de começar — janela larga porque o robô não
     // corre ao minuto exato (a cada ~15 min), por isso não há garantia de
@@ -331,11 +366,12 @@ async function checkAndNotify(allMatches){
     if (!m.done && !m.live && m.iso && !entry.preNotified){
       const minsUntil = (new Date(m.iso).getTime() - now) / 60000;
       if (minsUntil > 0 && minsUntil <= 20){
-        subs = await sendPushToAll(subs, {
+        const dead = await sendPushToSubs(targetSubs, {
           title: "🍿 Prepara a pipoca!",
           body: `${m.home} x ${m.away} começa em breve`,
           tag: matchKey,
         });
+        dead.forEach(e => deadEndpointsAll.add(e));
         entry.preNotified = true; sentAny = true;
       }
     }
@@ -346,27 +382,32 @@ async function checkAndNotify(allMatches){
         if (!ev.icon || !ev.icon.startsWith("⚽")) continue;
         const goalKey = `${ev.min}|${ev.txt}`;
         if (entry.goals.includes(goalKey)) continue;
-        subs = await sendPushToAll(subs, {
+        const dead = await sendPushToSubs(targetSubs, {
           title: "⚽ GOOOL!",
           body: `${ev.txt} (${ev.min}') — ${m.home} ${m.sh}–${m.sa} ${m.away}`,
           tag: matchKey + "-goal",
         });
+        dead.forEach(e => deadEndpointsAll.add(e));
         entry.goals.push(goalKey); sentAny = true;
       }
     }
 
     // 3) Resultado final
     if (m.done && !entry.finalNotified){
-      subs = await sendPushToAll(subs, {
+      const dead = await sendPushToSubs(targetSubs, {
         title: "🏁 Jogo terminado",
         body: `${m.home} ${m.sh}–${m.sa} ${m.away}`,
         tag: matchKey + "-final",
       });
+      dead.forEach(e => deadEndpointsAll.add(e));
       entry.finalNotified = true; sentAny = true;
     }
   }
 
   saveJSON(NOTIFIED_CACHE_FILE, cache);
+  if (deadEndpointsAll.size){
+    console.log(`${deadEndpointsAll.size} subscrição(ões) expirada(s) detectada(s) — limpeza no Cloudflare KV fica para uma próxima melhoria.`);
+  }
   // Cloudflare KV é a fonte principal de subscriptions. Não sobrescrevemos subscriptions.json aqui.
   if (sentAny) console.log("✅ Ciclo de notificações concluído.");
 }
@@ -449,5 +490,3 @@ async function main(){
 }
 
 main().catch(e => { console.error("Erro fatal:", e); process.exit(1); });
-
-
