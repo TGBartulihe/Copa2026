@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T18:29:29.185Z",
+  "generatedAt": "2026-06-20T18:30:32.391Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -239,7 +239,7 @@
         {
           "min": "81'",
           "icon": "🔄",
-          "txt": "Substituição, Uruguai. Brian Rodríguez substitui Maxi Araújo.",
+          "txt": "Substituição, Uruguai. Brian Rodríguez entra em campo para substituir Maxi Araújo.",
           "sub": "Uruguay"
         },
         {
@@ -332,7 +332,7 @@
         {
           "min": "68'",
           "icon": "🔄",
-          "txt": "Substituição, Nova Zelândia. Entra Ben Old para o lugar de Liberato Cacace.",
+          "txt": "Substituição, Nova Zelândia. Entra Ben Old substituindo Liberato Cacace.",
           "sub": "New Zealand"
         },
         {
@@ -455,7 +455,7 @@
         {
           "min": "75'",
           "icon": "🔄",
-          "txt": "Substituição, Senegal. Ibrahim Mbaye entra em campo para substituir Ismaïla Sarr.",
+          "txt": "Substituição, Senegal. Ibrahim Mbaye substitui Ismaila Sarr.",
           "sub": "Senegal"
         },
         {
@@ -659,7 +659,7 @@
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, Argentina. Entra Nahuel Molina para o lugar de Gonzalo Montiel.",
+          "txt": "Substituição, Argentina. Nahuel Molina entra em campo Gonzalo Montiel.",
           "sub": "Argentina"
         },
         {
@@ -851,7 +851,7 @@
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, Portugal. Francisco Conceição entra no lugar de Bernardo Silva.",
+          "txt": "Substituição, Portugal. Francisco Conceição substitui Bernardo Silva.",
           "sub": "Portugal"
         },
         {
@@ -875,7 +875,7 @@
         {
           "min": "6'",
           "icon": "⚽",
-          "txt": "João Neves (Portugal) de cabeça no coração da área ao lado inferior direito. Assistência de Pedro Neto com um cruzamento.",
+          "txt": "João Neves (Portugal) de cabeça do meio da área no canto inferior direito. Assistência de Pedro Neto com um cruzamento.",
           "sub": "Portugal"
         }
       ]
@@ -1037,7 +1037,7 @@
         {
           "min": "74'",
           "icon": "🔄",
-          "txt": "Substituição, Panamá. Ismael Díaz substitui José Luis Rodríguez.",
+          "txt": "Substituição, Panamá. Entra Ismael Díaz para o lugar de José Luis Rodríguez.",
           "sub": "Panama"
         },
         {
@@ -1118,7 +1118,7 @@
         {
           "min": "90'+3'",
           "icon": "🔄",
-          "txt": "Substituição, Colômbia. Andrés Gómez substitui Luis Díaz.",
+          "txt": "Substituição, Colômbia. Andrés Gómez entra no lugar de Luis Díaz.",
           "sub": "Colombia"
         },
         {
@@ -1580,7 +1580,7 @@
         {
           "min": "80'",
           "icon": "🔄",
-          "txt": "Substituição, México. Entra Israel Reyes para o lugar de Roberto Alvarado.",
+          "txt": "Substituição, México. Entra Israel Reyes substituindo Roberto Alvarado.",
           "sub": "Mexico"
         },
         {
@@ -2088,7 +2088,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "68'",
+      "clock": "69'",
       "events": [
         {
           "min": "59'",
