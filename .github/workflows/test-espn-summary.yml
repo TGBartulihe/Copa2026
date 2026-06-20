@@ -1,0 +1,33 @@
+name: Test ESPN Summary
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Test ESPN
+        run: |
+          node -e "
+          async function main(){
+
+            const EVENT_ID='COLOCA_AQUI';
+
+            const url='https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event='+EVENT_ID;
+
+            console.log(url);
+
+            const r=await fetch(url);
+            const data=await r.json();
+
+            console.log('TOP LEVEL KEYS');
+            console.log(Object.keys(data));
+
+            console.log('JSON PREVIEW');
+            console.log(JSON.stringify(data,null,2).substring(0,30000));
+          }
+
+          main();
+          "
