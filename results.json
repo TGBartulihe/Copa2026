@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-20T18:19:30.624Z",
+  "generatedAt": "2026-06-20T18:20:25.915Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -2088,8 +2088,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "58'",
+      "clock": "59'",
       "events": [
+        {
+          "min": "59'",
+          "icon": "⚽",
+          "txt": "Anthony Elanga (Suécia) Gol aos 59'",
+          "sub": "Sweden"
+        },
         {
           "min": "56'",
           "icon": "🔄",
