@@ -1,31 +1,2848 @@
 {
-  "generatedAt": "2026-06-19T00:00:00.000Z",
-  "note": "Seed inicial — será sobrescrito automaticamente pelo GitHub Actions",
+  "generatedAt": "2026-06-20T07:57:17.128Z",
   "matches": [
-    {"home":"México 🇲🇽","away":"África do Sul 🇿🇦","date":"11/06","brTime":"16h","venue":"Cidade do México","sh":2,"sa":0,"done":true,"live":false,"clock":"","events":[]},
-    {"home":"Coreia do Sul 🇰🇷","away":"Rep. Tcheca 🇨🇿","date":"11/06","brTime":"23h","venue":"Guadalajara","sh":2,"sa":1,"done":true,"live":false,"clock":"","events":[]},
-    {"home":"Canadá 🇨🇦","away":"Bósnia 🇧🇦","date":"12/06","brTime":"16h","venue":"Toronto","sh":1,"sa":1,"done":true,"live":false,"clock":"","events":[]},
-    {"home":"Qatar 🇶🇦","away":"Suíça 🇨🇭","date":"13/06","brTime":"16h","venue":"San Francisco","sh":1,"sa":1,"done":true,"live":false,"clock":"","events":[]},
-    {"home":"Brasil 🇧🇷","away":"Marrocos 🇲🇦","date":"13/06","brTime":"19h","venue":"Nova York","sh":1,"sa":1,"done":true,"live":false,"clock":"","events":[]},
-    {"home":"Haiti 🇭🇹","away":"Escócia 🏴󠁧󠁢󠁳󠁣󠁴󠁿","date":"13/06","brTime":"22h","venue":"Boston","sh":0,"sa":1,"done":true,"live":false,"clock":"","events":[]},
-    {"home":"EUA 🇺🇸","away":"Paraguai 🇵🇾","date":"12/06","brTime":"22h","venue":"Los Angeles","sh":4,"sa":1,"done":true,"live":false,"clock":"","events":[]},
-    {"home":"Austrália 🇦🇺","away":"Turquia 🇹🇷","date":"14/06","brTime":"01h","venue":"Vancouver","sh":2,"sa":0,"done":true,"live":false,"clock":"","events":[]},
-    {"home":"Alemanha 🇩🇪","away":"Curaçao 🇨🇼","date":"14/06","brTime":"14h","venue":"Houston","sh":7,"sa":1,"done":true,"live":false,"clock":"","events":[]},
-    {"home":"C. do Marfim 🇨🇮","away":"Equador 🇪🇨","date":"14/06","brTime":"20h","venue":"Filadélfia","sh":1,"sa":0,"done":true,"live":false,"clock":"","events":[]},
-    {"home":"Holanda 🇳🇱","away":"Japão 🇯🇵","date":"14/06","brTime":"17h","venue":"Dallas","sh":2,"sa":2,"done":true,"live":false,"clock":"","events":[]},
-    {"home":"Suécia 🇸🇪","away":"Tunísia 🇹🇳","date":"14/06","brTime":"23h","venue":"Monterrey","sh":5,"sa":1,"done":true,"live":false,"clock":"","events":[]},
-    {"home":"Bélgica 🇧🇪","away":"Egito 🇪🇬","date":"15/06","brTime":"16h","venue":"Seattle","sh":1,"sa":1,"done":true,"live":false,"clock":"","events":[]},
-    {"home":"Irã 🇮🇷","away":"Nova Zelândia 🇳🇿","date":"15/06","brTime":"22h","venue":"Los Angeles","sh":2,"sa":2,"done":true,"live":false,"clock":"","events":[]},
-    {"home":"Espanha 🇪🇸","away":"Cabo Verde 🇨🇻","date":"15/06","brTime":"13h","venue":"Atlanta","sh":0,"sa":0,"done":true,"live":false,"clock":"","events":[]},
-    {"home":"Arábia Saudita 🇸🇦","away":"Uruguai 🇺🇾","date":"15/06","brTime":"19h","venue":"Miami","sh":1,"sa":1,"done":true,"live":false,"clock":"","events":[]},
-    {"home":"França 🇫🇷","away":"Senegal 🇸🇳","date":"16/06","brTime":"16h","venue":"Nova York","sh":3,"sa":1,"done":true,"live":false,"clock":"","events":[]},
-    {"home":"Iraque 🇮🇶","away":"Noruega 🇳🇴","date":"16/06","brTime":"19h","venue":"Boston","sh":1,"sa":4,"done":true,"live":false,"clock":"","events":[]},
-    {"home":"Argentina 🇦🇷","away":"Argélia 🇩🇿","date":"16/06","brTime":"22h","venue":"Kansas City","sh":3,"sa":0,"done":true,"live":false,"clock":"","events":[]},
-    {"home":"Áustria 🇦🇹","away":"Jordânia 🇯🇴","date":"17/06","brTime":"01h","venue":"Santa Clara","sh":null,"sa":null,"done":false,"live":false,"clock":"","events":[]},
-    {"home":"Portugal 🇵🇹","away":"RD Congo 🇨🇩","date":"17/06","brTime":"14h","venue":"Boston","sh":null,"sa":null,"done":false,"live":false,"clock":"","events":[]},
-    {"home":"Uzbequistão 🇺🇿","away":"Colômbia 🇨🇴","date":"17/06","brTime":"21h","venue":"Seattle","sh":null,"sa":null,"done":false,"live":false,"clock":"","events":[]},
-    {"home":"Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿","away":"Croácia 🇭🇷","date":"17/06","brTime":"17h","venue":"Nova York","sh":null,"sa":null,"done":false,"live":false,"clock":"","events":[]},
-    {"home":"Gana 🇬🇭","away":"Panamá 🇵🇦","date":"17/06","brTime":"20h","venue":"Filadélfia","sh":null,"sa":null,"done":false,"live":false,"clock":"","events":[]}
+    {
+      "home": "Espanha 🇪🇸",
+      "away": "Cabo Verde 🇨🇻",
+      "date": "15/06",
+      "brTime": "13h",
+      "venue": "Mercedes-Benz Stadium",
+      "iso": "2026-06-15T16:00Z",
+      "sh": 0,
+      "sa": 0,
+      "done": true,
+      "live": false,
+      "clock": "",
+      "events": [
+        {
+          "min": "90'+3'",
+          "icon": "🟨",
+          "txt": "Pedri (Spain) is shown the yellow card for a bad foul.",
+          "sub": "Spain"
+        },
+        {
+          "min": "87'",
+          "icon": "🔄",
+          "txt": "Substitution, Spain. Nico Williams replaces Rodri.",
+          "sub": "Spain"
+        },
+        {
+          "min": "81'",
+          "icon": "🔄",
+          "txt": "Substitution, Spain. Dani Olmo replaces Ferran Torres.",
+          "sub": "Spain"
+        },
+        {
+          "min": "79'",
+          "icon": "🔄",
+          "txt": "Substitution, Cabo Verde. Telmo Arcanjo replaces Jamiro Monteiro.",
+          "sub": "Cape Verde"
+        },
+        {
+          "min": "76'",
+          "icon": "🔄",
+          "txt": "Substitution, Cabo Verde. João Paulo replaces Sidny Cabral.",
+          "sub": "Cape Verde"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substitution, Spain. Lamine Yamal replaces Gavi.",
+          "sub": "Spain"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substitution, Spain. Mikel Merino replaces Fabián Ruiz.",
+          "sub": "Spain"
+        },
+        {
+          "min": "61'",
+          "icon": "🔄",
+          "txt": "Substitution, Cabo Verde. Nuno da Costa replaces Dailon Livramento.",
+          "sub": "Cape Verde"
+        },
+        {
+          "min": "61'",
+          "icon": "🔄",
+          "txt": "Substitution, Cabo Verde. Deroy Duarte replaces Laros Duarte.",
+          "sub": "Cape Verde"
+        },
+        {
+          "min": "61'",
+          "icon": "🔄",
+          "txt": "Substitution, Cabo Verde. Willy Semedo replaces Jovane Cabral because of an injury.",
+          "sub": "Cape Verde"
+        },
+        {
+          "min": "16'",
+          "icon": "🟨",
+          "txt": "Sidny Cabral (Cabo Verde) is shown the yellow card for a bad foul.",
+          "sub": "Cape Verde"
+        }
+      ]
+    },
+    {
+      "home": "Bélgica 🇧🇪",
+      "away": "Egito 🇪🇬",
+      "date": "15/06",
+      "brTime": "16h",
+      "venue": "Lumen Field",
+      "iso": "2026-06-15T19:00Z",
+      "sh": 1,
+      "sa": 1,
+      "done": true,
+      "live": false,
+      "clock": "",
+      "events": [
+        {
+          "min": "88'",
+          "icon": "🔄",
+          "txt": "Substitution, Egypt. Ibrahim Adel replaces Hamdi Fathy.",
+          "sub": "Egypt"
+        },
+        {
+          "min": "88'",
+          "icon": "🔄",
+          "txt": "Substitution, Egypt. Karim Hafez replaces Ahmed Fatouh.",
+          "sub": "Egypt"
+        },
+        {
+          "min": "86'",
+          "icon": "🔄",
+          "txt": "Substitution, Belgium. Hans Vanaken replaces Kevin De Bruyne.",
+          "sub": "Belgium"
+        },
+        {
+          "min": "86'",
+          "icon": "🔄",
+          "txt": "Substitution, Belgium. Matias Fernandez-Pardo replaces Jérémy Doku.",
+          "sub": "Belgium"
+        },
+        {
+          "min": "76'",
+          "icon": "🔄",
+          "txt": "Substitution, Egypt. Hamza Abdelkarim replaces Mohamed Salah.",
+          "sub": "Egypt"
+        },
+        {
+          "min": "76'",
+          "icon": "🔄",
+          "txt": "Substitution, Egypt. Zizo replaces Mostafa Zico.",
+          "sub": "Egypt"
+        },
+        {
+          "min": "75'",
+          "icon": "🟨",
+          "txt": "Maxim De Cuyper (Belgium) is shown the yellow card for a bad foul.",
+          "sub": "Belgium"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substitution, Egypt. Ramy Rabia replaces Emam Ashour.",
+          "sub": "Egypt"
+        },
+        {
+          "min": "66'",
+          "icon": "⚽ OG",
+          "txt": "Own Goal by Mohamed Hany, Egypt. Belgium 1, Egypt 1.",
+          "sub": "Belgium"
+        },
+        {
+          "min": "66'",
+          "icon": "🔄",
+          "txt": "Substitution, Belgium. Romelu Lukaku replaces Charles De Ketelaere.",
+          "sub": "Belgium"
+        },
+        {
+          "min": "56'",
+          "icon": "🔄",
+          "txt": "Substitution, Belgium. Maxim De Cuyper replaces Amadou Onana.",
+          "sub": "Belgium"
+        },
+        {
+          "min": "56'",
+          "icon": "🔄",
+          "txt": "Substitution, Belgium. Nicolas Raskin replaces Timothy Castagne.",
+          "sub": "Belgium"
+        },
+        {
+          "min": "34'",
+          "icon": "🟨",
+          "txt": "Ahmed Fatouh (Egypt) is shown the yellow card for a bad foul.",
+          "sub": "Egypt"
+        },
+        {
+          "min": "20'",
+          "icon": "⚽",
+          "txt": "Goal! Belgium 0, Egypt 1. Emam Ashour (Egypt) right footed shot from outside the box to the bottom left corner. Assisted by Mohamed Salah.",
+          "sub": "Egypt"
+        },
+        {
+          "min": "14'",
+          "icon": "🟨",
+          "txt": "Timothy Castagne (Belgium) is shown the yellow card for a bad foul.",
+          "sub": "Belgium"
+        },
+        {
+          "min": "13'",
+          "icon": "🟨",
+          "txt": "Marwan Attia (Egypt) is shown the yellow card for a bad foul.",
+          "sub": "Egypt"
+        }
+      ]
+    },
+    {
+      "home": "Arábia Saudita 🇸🇦",
+      "away": "Uruguai 🇺🇾",
+      "date": "15/06",
+      "brTime": "19h",
+      "venue": "Hard Rock Stadium",
+      "iso": "2026-06-15T22:00Z",
+      "sh": 1,
+      "sa": 1,
+      "done": true,
+      "live": false,
+      "clock": "",
+      "events": [
+        {
+          "min": "90'+3'",
+          "icon": "🔄",
+          "txt": "Substitution, Saudi Arabia. Ali Lajami replaces Saud Abdulhamid.",
+          "sub": "Saudi Arabia"
+        },
+        {
+          "min": "90'+3'",
+          "icon": "🔄",
+          "txt": "Substitution, Saudi Arabia. Alaa Al Hejji replaces Feras Al Brikan.",
+          "sub": "Saudi Arabia"
+        },
+        {
+          "min": "90'+3'",
+          "icon": "🔄",
+          "txt": "Substitution, Saudi Arabia. Abdullah Al Hamddan replaces Moteb Al Harbi.",
+          "sub": "Saudi Arabia"
+        },
+        {
+          "min": "90'",
+          "icon": "🔄",
+          "txt": "Substitution, Uruguay. Rodrigo Aguirre replaces Federico Viñas.",
+          "sub": "Uruguay"
+        },
+        {
+          "min": "81'",
+          "icon": "🔄",
+          "txt": "Substitution, Saudi Arabia. Nawaf Bu Washl replaces Mohammed Abu Al Shamat.",
+          "sub": "Saudi Arabia"
+        },
+        {
+          "min": "81'",
+          "icon": "🔄",
+          "txt": "Substitution, Uruguay. Brian Rodríguez replaces Maxi Araújo.",
+          "sub": "Uruguay"
+        },
+        {
+          "min": "80'",
+          "icon": "⚽",
+          "txt": "Goal! Saudi Arabia 1, Uruguay 1. Maxi Araújo (Uruguay) left footed shot from the left side of the six yard box to the bottom left corner.",
+          "sub": "Uruguay"
+        },
+        {
+          "min": "72'",
+          "icon": "🔄",
+          "txt": "Substitution, Uruguay. Nicolás de la Cruz replaces Manuel Ugarte.",
+          "sub": "Uruguay"
+        },
+        {
+          "min": "63'",
+          "icon": "🔄",
+          "txt": "Substitution, Saudi Arabia. Nasser Al Dawsari replaces Musab Al Juwayr.",
+          "sub": "Saudi Arabia"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substitution, Uruguay. Agustín Canobbio replaces Darwin Núñez.",
+          "sub": "Uruguay"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substitution, Uruguay. Juan Manuel Sanabria replaces Matías Viña.",
+          "sub": "Uruguay"
+        },
+        {
+          "min": "44'",
+          "icon": "🟨",
+          "txt": "Abdulelah Al Amri (Saudi Arabia) is shown the yellow card for a bad foul.",
+          "sub": "Saudi Arabia"
+        },
+        {
+          "min": "41'",
+          "icon": "⚽",
+          "txt": "Goal! Saudi Arabia 1, Uruguay 0. Abdulelah Al Amri (Saudi Arabia) right footed shot from very close range to the centre of the goal following a corner.",
+          "sub": "Saudi Arabia"
+        }
+      ]
+    },
+    {
+      "home": "Irã 🇮🇷",
+      "away": "Nova Zelândia 🇳🇿",
+      "date": "15/06",
+      "brTime": "22h",
+      "venue": "SoFi Stadium",
+      "iso": "2026-06-16T01:00Z",
+      "sh": 2,
+      "sa": 2,
+      "done": true,
+      "live": false,
+      "clock": "",
+      "events": [
+        {
+          "min": "90'+2'",
+          "icon": "🔄",
+          "txt": "Substitution, New Zealand. Tyler Bindon replaces Marko Stamenic.",
+          "sub": "New Zealand"
+        },
+        {
+          "min": "90'+2'",
+          "icon": "🔄",
+          "txt": "Substitution, New Zealand. Jesse Randall replaces Sarpreet Singh.",
+          "sub": "New Zealand"
+        },
+        {
+          "min": "89'",
+          "icon": "🟨",
+          "txt": "Ehsan Hajisafi (IR Iran) is shown the yellow card for a bad foul.",
+          "sub": "Iran"
+        },
+        {
+          "min": "80'",
+          "icon": "🔄",
+          "txt": "Substitution, IR Iran. Amirhossein Hosseinzadeh replaces Mehdi Taremi.",
+          "sub": "Iran"
+        },
+        {
+          "min": "78'",
+          "icon": "🔄",
+          "txt": "Substitution, New Zealand. Callan Elliot replaces Tim Payne.",
+          "sub": "New Zealand"
+        },
+        {
+          "min": "68'",
+          "icon": "🔄",
+          "txt": "Substitution, New Zealand. Ben Old replaces Liberato Cacace.",
+          "sub": "New Zealand"
+        },
+        {
+          "min": "68'",
+          "icon": "🔄",
+          "txt": "Substitution, New Zealand. Ryan Thomas replaces Callum McCowatt.",
+          "sub": "New Zealand"
+        },
+        {
+          "min": "65'",
+          "icon": "🔄",
+          "txt": "Substitution, IR Iran. Ehsan Hajisafi replaces Saman Ghoddos.",
+          "sub": "Iran"
+        },
+        {
+          "min": "64'",
+          "icon": "⚽",
+          "txt": "Goal! IR Iran 2, New Zealand 2. Mohammad Mohebbi (IR Iran) header from the centre of the box to the bottom left corner. Assisted by Ramin Rezaeian with a cross.",
+          "sub": "Iran"
+        },
+        {
+          "min": "54'",
+          "icon": "⚽",
+          "txt": "Goal! IR Iran 1, New Zealand 2. Elijah Just (New Zealand) right footed shot from the right side of the box to the centre of the goal. Assisted by Chris Wood following a fast break.",
+          "sub": "New Zealand"
+        },
+        {
+          "min": "53'",
+          "icon": "🔄",
+          "txt": "Substitution, IR Iran. Ali Alipour replaces Shahriyar Moghanloo.",
+          "sub": "Iran"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substitution, IR Iran. Mehdi Ghayedi replaces Arya Yousefi.",
+          "sub": "Iran"
+        },
+        {
+          "min": "32'",
+          "icon": "⚽",
+          "txt": "Goal! IR Iran 1, New Zealand 1. Ramin Rezaeian (IR Iran) right footed shot from the centre of the box to the bottom left corner.",
+          "sub": "Iran"
+        },
+        {
+          "min": "7'",
+          "icon": "⚽",
+          "txt": "Goal! IR Iran 0, New Zealand 1. Elijah Just (New Zealand) right footed shot from the centre of the box to the high centre of the goal. Assisted by Chris Wood.",
+          "sub": "New Zealand"
+        }
+      ]
+    },
+    {
+      "home": "França 🇫🇷",
+      "away": "Senegal 🇸🇳",
+      "date": "16/06",
+      "brTime": "16h",
+      "venue": "MetLife Stadium",
+      "iso": "2026-06-16T19:00Z",
+      "sh": 3,
+      "sa": 1,
+      "done": true,
+      "live": false,
+      "clock": "",
+      "events": [
+        {
+          "min": "90'+6'",
+          "icon": "⚽",
+          "txt": "Goal! France 3, Senegal 1. Kylian Mbappé (France) right footed shot from outside the box to the top left corner.",
+          "sub": "France"
+        },
+        {
+          "min": "90'+5'",
+          "icon": "⚽",
+          "txt": "Goal! France 2, Senegal 1. Ibrahim Mbaye (Senegal) right footed shot from the right side of the box to the top right corner. Assisted by Iliman Ndiaye following a fast break.",
+          "sub": "Senegal"
+        },
+        {
+          "min": "88'",
+          "icon": "🔄",
+          "txt": "Substitution, Senegal. Pathé Ciss replaces Idrissa Gueye.",
+          "sub": "Senegal"
+        },
+        {
+          "min": "87'",
+          "icon": "🔄",
+          "txt": "Substitution, France. Rayan Cherki replaces Désiré Doué.",
+          "sub": "France"
+        },
+        {
+          "min": "83'",
+          "icon": "🔄",
+          "txt": "Substitution, Senegal. Bamba Dieng replaces Nicolas Jackson.",
+          "sub": "Senegal"
+        },
+        {
+          "min": "83'",
+          "icon": "🔄",
+          "txt": "Substitution, Senegal. Iliman Ndiaye replaces Pape Gueye.",
+          "sub": "Senegal"
+        },
+        {
+          "min": "82'",
+          "icon": "⚽",
+          "txt": "Goal! France 2, Senegal 0. Bradley Barcola (France) right footed shot from the right side of the box to the bottom right corner. Assisted by Adrien Rabiot with a through ball following a fast break.",
+          "sub": "France"
+        },
+        {
+          "min": "80'",
+          "icon": "🔄",
+          "txt": "Substitution, France. Bradley Barcola replaces Ousmane Dembélé.",
+          "sub": "France"
+        },
+        {
+          "min": "76'",
+          "icon": "🔄",
+          "txt": "Substitution, Senegal. Habib Diarra replaces Lamine Camara.",
+          "sub": "Senegal"
+        },
+        {
+          "min": "75'",
+          "icon": "🔄",
+          "txt": "Substitution, Senegal. Ibrahim Mbaye replaces Ismaïla Sarr.",
+          "sub": "Senegal"
+        },
+        {
+          "min": "66'",
+          "icon": "⚽",
+          "txt": "Goal! France 1, Senegal 0. Kylian Mbappé (France) right footed shot from the centre of the box to the centre of the goal. Assisted by Michael Olise with a through ball.",
+          "sub": "France"
+        }
+      ]
+    },
+    {
+      "home": "Iraque 🇮🇶",
+      "away": "Noruega 🇳🇴",
+      "date": "16/06",
+      "brTime": "19h",
+      "venue": "Gillette Stadium",
+      "iso": "2026-06-16T22:00Z",
+      "sh": 1,
+      "sa": 4,
+      "done": true,
+      "live": false,
+      "clock": "",
+      "events": [
+        {
+          "min": "90'+6'",
+          "icon": "⚽ OG",
+          "txt": "Own Goal by Aymen Hussein, Iraq. Iraq 1, Norway 4.",
+          "sub": "Norway"
+        },
+        {
+          "min": "86'",
+          "icon": "🟨",
+          "txt": "Zaid Tahseen (Iraq) is shown the yellow card for a bad foul.",
+          "sub": "Iraq"
+        },
+        {
+          "min": "81'",
+          "icon": "🔄",
+          "txt": "Substitution, Norway. Patrick Berg replaces Martin Ødegaard.",
+          "sub": "Norway"
+        },
+        {
+          "min": "78'",
+          "icon": "🔄",
+          "txt": "Substitution, Iraq. Mohanad Ali replaces Ibrahim Bayesh.",
+          "sub": "Iraq"
+        },
+        {
+          "min": "76'",
+          "icon": "⚽",
+          "txt": "Goal! Iraq 1, Norway 3. Leo Østigård (Norway) header from very close range to the high centre of the goal. Assisted by Martin Ødegaard with a cross following a corner.",
+          "sub": "Norway"
+        },
+        {
+          "min": "73'",
+          "icon": "🔄",
+          "txt": "Substitution, Iraq. Ahmed Qasem replaces Ali Jasim because of an injury.",
+          "sub": "Iraq"
+        },
+        {
+          "min": "73'",
+          "icon": "🔄",
+          "txt": "Substitution, Iraq. Mustafa Saadoon replaces Hussein Ali.",
+          "sub": "Iraq"
+        },
+        {
+          "min": "73'",
+          "icon": "🔄",
+          "txt": "Substitution, Norway. Leo Østigård replaces David Møller Wolfe because of an injury.",
+          "sub": "Norway"
+        },
+        {
+          "min": "73'",
+          "icon": "🔄",
+          "txt": "Substitution, Norway. Oscar Bobb replaces Alexander Sørloth.",
+          "sub": "Norway"
+        },
+        {
+          "min": "73'",
+          "icon": "🔄",
+          "txt": "Substitution, Norway. Kristian Thorstvedt replaces Fredrik Aursnes.",
+          "sub": "Norway"
+        },
+        {
+          "min": "73'",
+          "icon": "🔄",
+          "txt": "Substitution, Norway. Andreas Schjelderup replaces Antonio Nusa.",
+          "sub": "Norway"
+        },
+        {
+          "min": "59'",
+          "icon": "🔄",
+          "txt": "Substitution, Iraq. Marko Farji replaces Ali Al Hamadi.",
+          "sub": "Iraq"
+        },
+        {
+          "min": "59'",
+          "icon": "🔄",
+          "txt": "Substitution, Iraq. Zidane Iqbal replaces Zaid Ismael.",
+          "sub": "Iraq"
+        },
+        {
+          "min": "43'",
+          "icon": "⚽",
+          "txt": "Goal! Iraq 1, Norway 2. Erling Haaland (Norway) right footed shot from very close range to the centre of the goal.",
+          "sub": "Norway"
+        },
+        {
+          "min": "39'",
+          "icon": "⚽",
+          "txt": "Goal! Iraq 1, Norway 1. Aymen Hussein (Iraq) header from the centre of the box to the bottom right corner. Assisted by Amir Al Ammari with a cross.",
+          "sub": "Iraq"
+        },
+        {
+          "min": "29'",
+          "icon": "⚽",
+          "txt": "Goal! Iraq 0, Norway 1. Erling Haaland (Norway) left footed shot from very close range to the top right corner. Assisted by David Møller Wolfe with a cross.",
+          "sub": "Norway"
+        }
+      ]
+    },
+    {
+      "home": "Argentina 🇦🇷",
+      "away": "Argélia 🇩🇿",
+      "date": "16/06",
+      "brTime": "22h",
+      "venue": "GEHA Field at Arrowhead Stadium",
+      "iso": "2026-06-17T01:00Z",
+      "sh": 3,
+      "sa": 0,
+      "done": true,
+      "live": false,
+      "clock": "",
+      "events": [
+        {
+          "min": "82'",
+          "icon": "🔄",
+          "txt": "Substitution, Algeria. Ramiz Zerrouki replaces Nabil Bentaleb.",
+          "sub": "Algeria"
+        },
+        {
+          "min": "81'",
+          "icon": "🔄",
+          "txt": "Substitution, Algeria. Adil Boulbina replaces Ibrahim Maza.",
+          "sub": "Algeria"
+        },
+        {
+          "min": "80'",
+          "icon": "🔄",
+          "txt": "Substitution, Argentina. Nicolás Otamendi replaces Cristian Romero.",
+          "sub": "Argentina"
+        },
+        {
+          "min": "80'",
+          "icon": "🔄",
+          "txt": "Substitution, Argentina. Nico Paz replaces Lionel Messi.",
+          "sub": "Argentina"
+        },
+        {
+          "min": "76'",
+          "icon": "⚽",
+          "txt": "Goal! Argentina 3, Algeria 0. Lionel Messi (Argentina) left footed shot from the centre of the box to the bottom left corner. Assisted by Nico González.",
+          "sub": "Argentina"
+        },
+        {
+          "min": "64'",
+          "icon": "🔄",
+          "txt": "Substitution, Algeria. Riyad Mahrez replaces Anis Hadj Moussa.",
+          "sub": "Algeria"
+        },
+        {
+          "min": "64'",
+          "icon": "🔄",
+          "txt": "Substitution, Algeria. Mohammed Amoura replaces Amine Gouiri.",
+          "sub": "Algeria"
+        },
+        {
+          "min": "64'",
+          "icon": "🔄",
+          "txt": "Substitution, Algeria. Houssem Aouar replaces Hicham Boudaoui.",
+          "sub": "Algeria"
+        },
+        {
+          "min": "60'",
+          "icon": "⚽",
+          "txt": "Goal! Argentina 2, Algeria 0. Lionel Messi (Argentina) right footed shot from the centre of the box to the bottom right corner.",
+          "sub": "Argentina"
+        },
+        {
+          "min": "55'",
+          "icon": "🔄",
+          "txt": "Substitution, Argentina. Julián Alvarez replaces Lautaro Martínez.",
+          "sub": "Argentina"
+        },
+        {
+          "min": "55'",
+          "icon": "🔄",
+          "txt": "Substitution, Argentina. Nico González replaces Thiago Almada.",
+          "sub": "Argentina"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substitution, Argentina. Nahuel Molina replaces Gonzalo Montiel.",
+          "sub": "Argentina"
+        },
+        {
+          "min": "17'",
+          "icon": "⚽",
+          "txt": "Goal! Argentina 1, Algeria 0. Lionel Messi (Argentina) left footed shot from outside the box to the top right corner. Assisted by Rodrigo De Paul.",
+          "sub": "Argentina"
+        }
+      ]
+    },
+    {
+      "home": "Áustria 🇦🇹",
+      "away": "Jordânia 🇯🇴",
+      "date": "17/06",
+      "brTime": "01h",
+      "venue": "Levi's Stadium",
+      "iso": "2026-06-17T04:00Z",
+      "sh": 3,
+      "sa": 1,
+      "done": true,
+      "live": false,
+      "clock": "",
+      "events": [
+        {
+          "min": "90'+12'",
+          "icon": "⚽",
+          "txt": "Goal! Austria 3, Jordan 1. Marko Arnautovic (Austria) converts the penalty with a right footed shot to the bottom left corner.",
+          "sub": "Austria"
+        },
+        {
+          "min": "89'",
+          "icon": "🔄",
+          "txt": "Substitution, Jordan. Ali Azaizeh replaces Odeh Fakhoury.",
+          "sub": "Jordan"
+        },
+        {
+          "min": "88'",
+          "icon": "🔄",
+          "txt": "Substitution, Jordan. Mohammad Al Daoud replaces Mousa Al Tamari.",
+          "sub": "Jordan"
+        },
+        {
+          "min": "83'",
+          "icon": "🔄",
+          "txt": "Substitution, Austria. Patrick Wimmer replaces Romano Schmid.",
+          "sub": "Austria"
+        },
+        {
+          "min": "81'",
+          "icon": "🔄",
+          "txt": "Substitution, Jordan. Mahmoud Al Mardi replaces Ehsan Haddad.",
+          "sub": "Jordan"
+        },
+        {
+          "min": "81'",
+          "icon": "🔄",
+          "txt": "Substitution, Jordan. Saed Al Rosan replaces Abdallah Nasib because of an injury.",
+          "sub": "Jordan"
+        },
+        {
+          "min": "77'",
+          "icon": "🟨",
+          "txt": "Marcel Sabitzer (Austria) is shown the yellow card.",
+          "sub": "Austria"
+        },
+        {
+          "min": "76'",
+          "icon": "⚽ OG",
+          "txt": "Own Goal by Yazan Al Arab, Jordan. Austria 2, Jordan 1.",
+          "sub": "Austria"
+        },
+        {
+          "min": "72'",
+          "icon": "🔄",
+          "txt": "Substitution, Jordan. Saleem Obaid replaces Mohammad Abu Al Nadi.",
+          "sub": "Jordan"
+        },
+        {
+          "min": "59'",
+          "icon": "🔄",
+          "txt": "Substitution, Austria. Carney Chukwuemeka replaces Xaver Schlager.",
+          "sub": "Austria"
+        },
+        {
+          "min": "59'",
+          "icon": "🔄",
+          "txt": "Substitution, Austria. Kevin Danso replaces David Alaba.",
+          "sub": "Austria"
+        },
+        {
+          "min": "59'",
+          "icon": "🔄",
+          "txt": "Substitution, Austria. Paul Wanner replaces Phillipp Mwene.",
+          "sub": "Austria"
+        },
+        {
+          "min": "50'",
+          "icon": "⚽",
+          "txt": "Goal! Austria 1, Jordan 1. Ali Olwan (Jordan) right footed shot from the left side of the box to the bottom right corner. Assisted by Noor Al Rawabdeh following a fast break.",
+          "sub": "Jordan"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substitution, Austria. Marko Arnautovic replaces Sasa Kalajdzic.",
+          "sub": "Austria"
+        },
+        {
+          "min": "21'",
+          "icon": "⚽",
+          "txt": "Goal! Austria 1, Jordan 0. Romano Schmid (Austria) right footed shot from outside the box to the top right corner. Assisted by Xaver Schlager.",
+          "sub": "Austria"
+        }
+      ]
+    },
+    {
+      "home": "Portugal 🇵🇹",
+      "away": "Congo DR",
+      "date": "17/06",
+      "brTime": "14h",
+      "venue": "NRG Stadium",
+      "iso": "2026-06-17T17:00Z",
+      "sh": 1,
+      "sa": 1,
+      "done": true,
+      "live": false,
+      "clock": "",
+      "events": [
+        {
+          "min": "90'+2'",
+          "icon": "🟨",
+          "txt": "Tomás Araújo (Portugal) is shown the yellow card for a bad foul.",
+          "sub": "Portugal"
+        },
+        {
+          "min": "88'",
+          "icon": "🟨",
+          "txt": "Nélson Semedo (Portugal) is shown the yellow card for a bad foul.",
+          "sub": "Portugal"
+        },
+        {
+          "min": "85'",
+          "icon": "🔄",
+          "txt": "Substitution, Congo DR. Simon Banza replaces Cédric Bakambu.",
+          "sub": "Congo DR"
+        },
+        {
+          "min": "85'",
+          "icon": "🔄",
+          "txt": "Substitution, Congo DR. Gédéon Kalulu replaces Aaron Wan-Bissaka.",
+          "sub": "Congo DR"
+        },
+        {
+          "min": "83'",
+          "icon": "🔄",
+          "txt": "Substitution, Portugal. Gonçalo Ramos replaces Vitinha.",
+          "sub": "Portugal"
+        },
+        {
+          "min": "74'",
+          "icon": "🔄",
+          "txt": "Substitution, Congo DR. Joris Kayembe replaces Arthur Masuaku.",
+          "sub": "Congo DR"
+        },
+        {
+          "min": "74'",
+          "icon": "🔄",
+          "txt": "Substitution, Congo DR. Charles Pickel replaces Edo Kayembe.",
+          "sub": "Congo DR"
+        },
+        {
+          "min": "72'",
+          "icon": "🔄",
+          "txt": "Substitution, Portugal. Nélson Semedo replaces Nuno Mendes.",
+          "sub": "Portugal"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substitution, Portugal. Rafael Leão replaces Pedro Neto.",
+          "sub": "Portugal"
+        },
+        {
+          "min": "57'",
+          "icon": "🔄",
+          "txt": "Substitution, Congo DR. Noah Sadiki replaces Ngal'ayel Mukau.",
+          "sub": "Congo DR"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substitution, Portugal. Francisco Conceição replaces Bernardo Silva.",
+          "sub": "Portugal"
+        },
+        {
+          "min": "45'+5'",
+          "icon": "⚽",
+          "txt": "Goal! Portugal 1, Congo DR 1. Yoane Wissa (Congo DR) header from very close range to the top left corner. Assisted by Arthur Masuaku with a cross following a corner.",
+          "sub": "Congo DR"
+        },
+        {
+          "min": "32'",
+          "icon": "🟨",
+          "txt": "Chancel Mbemba (Congo DR) is shown the yellow card for a bad foul.",
+          "sub": "Congo DR"
+        },
+        {
+          "min": "13'",
+          "icon": "🟨",
+          "txt": "Bernardo Silva (Portugal) is shown the yellow card for a bad foul.",
+          "sub": "Portugal"
+        },
+        {
+          "min": "6'",
+          "icon": "⚽",
+          "txt": "Goal! Portugal 1, Congo DR 0. João Neves (Portugal) header from the centre of the box to the bottom right corner. Assisted by Pedro Neto with a cross.",
+          "sub": "Portugal"
+        }
+      ]
+    },
+    {
+      "home": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "away": "Croácia 🇭🇷",
+      "date": "17/06",
+      "brTime": "17h",
+      "venue": "AT&T Stadium",
+      "iso": "2026-06-17T20:00Z",
+      "sh": 4,
+      "sa": 2,
+      "done": true,
+      "live": false,
+      "clock": "",
+      "events": [
+        {
+          "min": "87'",
+          "icon": "🔄",
+          "txt": "Substitution, England. Marc Guéhi replaces John Stones.",
+          "sub": "England"
+        },
+        {
+          "min": "85'",
+          "icon": "⚽",
+          "txt": "Goal! England 4, Croatia 2. Marcus Rashford (England) right footed shot from the centre of the box to the bottom right corner. Assisted by Bukayo Saka.",
+          "sub": "England"
+        },
+        {
+          "min": "80'",
+          "icon": "🔄",
+          "txt": "Substitution, England. Djed Spence replaces Jude Bellingham.",
+          "sub": "England"
+        },
+        {
+          "min": "78'",
+          "icon": "🔄",
+          "txt": "Substitution, Croatia. Nikola Vlasic replaces Martin Baturina.",
+          "sub": "Croatia"
+        },
+        {
+          "min": "78'",
+          "icon": "🔄",
+          "txt": "Substitution, Croatia. Andrej Kramaric replaces Mario Pasalic.",
+          "sub": "Croatia"
+        },
+        {
+          "min": "72'",
+          "icon": "🔄",
+          "txt": "Substitution, England. Marcus Rashford replaces Anthony Gordon.",
+          "sub": "England"
+        },
+        {
+          "min": "72'",
+          "icon": "🔄",
+          "txt": "Substitution, England. Bukayo Saka replaces Noni Madueke.",
+          "sub": "England"
+        },
+        {
+          "min": "72'",
+          "icon": "🔄",
+          "txt": "Substitution, England. Morgan Rogers replaces Declan Rice.",
+          "sub": "England"
+        },
+        {
+          "min": "66'",
+          "icon": "🔄",
+          "txt": "Substitution, Croatia. Marco Pasalic replaces Luka Vuskovic.",
+          "sub": "Croatia"
+        },
+        {
+          "min": "66'",
+          "icon": "🔄",
+          "txt": "Substitution, Croatia. Igor Matanovic replaces Petar Musa.",
+          "sub": "Croatia"
+        },
+        {
+          "min": "58'",
+          "icon": "🔄",
+          "txt": "Substitution, Croatia. Mateo Kovacic replaces Luka Modric.",
+          "sub": "Croatia"
+        },
+        {
+          "min": "47'",
+          "icon": "⚽",
+          "txt": "Goal! England 3, Croatia 2. Jude Bellingham (England) right footed shot from the right side of the box to the bottom left corner. Assisted by Elliot Anderson.",
+          "sub": "England"
+        },
+        {
+          "min": "45'+5'",
+          "icon": "⚽",
+          "txt": "Goal! England 2, Croatia 2. Petar Musa (Croatia) right footed shot from the centre of the box to the centre of the goal. Assisted by Ivan Perisic with a headed pass.",
+          "sub": "Croatia"
+        },
+        {
+          "min": "42'",
+          "icon": "⚽",
+          "txt": "Goal! England 2, Croatia 1. Harry Kane (England) header from the centre of the box to the bottom left corner. Assisted by Declan Rice with a cross following a corner.",
+          "sub": "England"
+        },
+        {
+          "min": "36'",
+          "icon": "⚽",
+          "txt": "Goal! England 1, Croatia 1. Martin Baturina (Croatia) right footed shot from outside the box to the top left corner. Assisted by Petar Sucic.",
+          "sub": "Croatia"
+        },
+        {
+          "min": "12'",
+          "icon": "⚽",
+          "txt": "Goal! England 1, Croatia 0. Harry Kane (England) converts the penalty with a right footed shot to the bottom right corner.",
+          "sub": "England"
+        }
+      ]
+    },
+    {
+      "home": "Gana 🇬🇭",
+      "away": "Panamá 🇵🇦",
+      "date": "17/06",
+      "brTime": "20h",
+      "venue": "BMO Field",
+      "iso": "2026-06-17T23:00Z",
+      "sh": 1,
+      "sa": 0,
+      "done": true,
+      "live": false,
+      "clock": "",
+      "events": [
+        {
+          "min": "90'+9'",
+          "icon": "🟨",
+          "txt": "Carlos Harvey (Panama) is shown the yellow card for a bad foul.",
+          "sub": "Panama"
+        },
+        {
+          "min": "90'+5'",
+          "icon": "⚽",
+          "txt": "Goal! Ghana 1, Panama 0. Caleb Yirenkyi (Ghana) right footed shot from very close range to the top right corner. Assisted by Brandon Thomas-Asante following a fast break.",
+          "sub": "Ghana"
+        },
+        {
+          "min": "90'",
+          "icon": "🔄",
+          "txt": "Substitution, Panama. Aníbal Godoy replaces César Blackman.",
+          "sub": "Panama"
+        },
+        {
+          "min": "87'",
+          "icon": "🔄",
+          "txt": "Substitution, Ghana. Prince Adu replaces Jordan Ayew.",
+          "sub": "Ghana"
+        },
+        {
+          "min": "78'",
+          "icon": "🔄",
+          "txt": "Substitution, Ghana. Kwasi Sibo replaces Elisha Owusu.",
+          "sub": "Ghana"
+        },
+        {
+          "min": "74'",
+          "icon": "🔄",
+          "txt": "Substitution, Panama. Ismael Díaz replaces José Luis Rodríguez.",
+          "sub": "Panama"
+        },
+        {
+          "min": "72'",
+          "icon": "🟨",
+          "txt": "César Blackman (Panama) is shown the yellow card for a bad foul.",
+          "sub": "Panama"
+        },
+        {
+          "min": "63'",
+          "icon": "🔄",
+          "txt": "Substitution, Panama. Azarías Londoño replaces Cristian Martínez.",
+          "sub": "Panama"
+        },
+        {
+          "min": "63'",
+          "icon": "🔄",
+          "txt": "Substitution, Panama. José Fajardo replaces Cecilio Waterman.",
+          "sub": "Panama"
+        },
+        {
+          "min": "58'",
+          "icon": "🔄",
+          "txt": "Substitution, Ghana. Abdul Fatawu replaces Ernest Nuamah.",
+          "sub": "Ghana"
+        },
+        {
+          "min": "58'",
+          "icon": "🔄",
+          "txt": "Substitution, Ghana. Brandon Thomas-Asante replaces Kamaldeen Sulemana.",
+          "sub": "Ghana"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substitution, Ghana. Benjamin Asare replaces Lawrence Ati Zigi because of an injury.",
+          "sub": "Ghana"
+        },
+        {
+          "min": "16'",
+          "icon": "🟨",
+          "txt": "Caleb Yirenkyi (Ghana) is shown the yellow card for a bad foul.",
+          "sub": "Ghana"
+        }
+      ]
+    },
+    {
+      "home": "Uzbequistão 🇺🇿",
+      "away": "Colômbia 🇨🇴",
+      "date": "17/06",
+      "brTime": "23h",
+      "venue": "Estadio Banorte",
+      "iso": "2026-06-18T02:00Z",
+      "sh": 1,
+      "sa": 3,
+      "done": true,
+      "live": false,
+      "clock": "",
+      "events": [
+        {
+          "min": "90'+9'",
+          "icon": "⚽",
+          "txt": "Goal! Uzbekistan 1, Colombia 3. Jaminton Campaz (Colombia) header from the centre of the box to the bottom left corner. Assisted by Cucho Hernández with a cross.",
+          "sub": "Colombia"
+        },
+        {
+          "min": "90'+3'",
+          "icon": "🔄",
+          "txt": "Substitution, Uzbekistan. Igor Sergeev replaces Eldor Shomurodov.",
+          "sub": "Uzbekistan"
+        },
+        {
+          "min": "90'+3'",
+          "icon": "🔄",
+          "txt": "Substitution, Colombia. Kevin Castaño replaces Jhon Arias.",
+          "sub": "Colombia"
+        },
+        {
+          "min": "90'+3'",
+          "icon": "🔄",
+          "txt": "Substitution, Colombia. Andrés Gómez replaces Luis Díaz.",
+          "sub": "Colombia"
+        },
+        {
+          "min": "80'",
+          "icon": "🔄",
+          "txt": "Substitution, Colombia. Cucho Hernández replaces Luis Suárez.",
+          "sub": "Colombia"
+        },
+        {
+          "min": "80'",
+          "icon": "🔄",
+          "txt": "Substitution, Colombia. Richard Ríos replaces Gustavo Puerta.",
+          "sub": "Colombia"
+        },
+        {
+          "min": "77'",
+          "icon": "🔄",
+          "txt": "Substitution, Uzbekistan. Azizbek Amonov replaces Abbosbek Fayzullaev.",
+          "sub": "Uzbekistan"
+        },
+        {
+          "min": "77'",
+          "icon": "🔄",
+          "txt": "Substitution, Uzbekistan. Jakhongir Urozov replaces Rustam Ashurmatov because of an injury.",
+          "sub": "Uzbekistan"
+        },
+        {
+          "min": "72'",
+          "icon": "🔄",
+          "txt": "Substitution, Colombia. Jaminton Campaz replaces James Rodríguez.",
+          "sub": "Colombia"
+        },
+        {
+          "min": "65'",
+          "icon": "⚽",
+          "txt": "Goal! Uzbekistan 1, Colombia 2. Luis Díaz (Colombia) right footed shot from the centre of the box to the bottom right corner. Assisted by Gustavo Puerta.",
+          "sub": "Colombia"
+        },
+        {
+          "min": "60'",
+          "icon": "⚽",
+          "txt": "Goal! Uzbekistan 1, Colombia 1. Abbosbek Fayzullaev (Uzbekistan) header from very close range to the top left corner.",
+          "sub": "Uzbekistan"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substitution, Uzbekistan. Farrukh Sayfiev replaces Sherzod Nasrullaev.",
+          "sub": "Uzbekistan"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substitution, Uzbekistan. Dostonbek Khamdamov replaces Oston Urunov.",
+          "sub": "Uzbekistan"
+        },
+        {
+          "min": "40'",
+          "icon": "⚽",
+          "txt": "Goal! Uzbekistan 0, Colombia 1. Daniel Muñoz (Colombia) right footed shot from the centre of the box to the high centre of the goal. Assisted by Luis Díaz with a through ball.",
+          "sub": "Colombia"
+        },
+        {
+          "min": "34'",
+          "icon": "🟨",
+          "txt": "Abdukodir Khusanov (Uzbekistan) is shown the yellow card for a bad foul.",
+          "sub": "Uzbekistan"
+        },
+        {
+          "min": "7'",
+          "icon": "🟨",
+          "txt": "Johan Mojica (Colombia) is shown the yellow card for a bad foul.",
+          "sub": "Colombia"
+        }
+      ]
+    },
+    {
+      "home": "Rep. Tcheca 🇨🇿",
+      "away": "África do Sul 🇿🇦",
+      "date": "18/06",
+      "brTime": "13h",
+      "venue": "Mercedes-Benz Stadium",
+      "iso": "2026-06-18T16:00Z",
+      "sh": 1,
+      "sa": 1,
+      "done": true,
+      "live": false,
+      "clock": "",
+      "events": [
+        {
+          "min": "84'",
+          "icon": "🔄",
+          "txt": "Substitution, South Africa. Kamogelo Sebelebele replaces Thapelo Maseko.",
+          "sub": "South Africa"
+        },
+        {
+          "min": "83'",
+          "icon": "⚽",
+          "txt": "Goal! Czechia 1, South Africa 1. Teboho Mokoena (South Africa) converts the penalty with a right footed shot to the bottom left corner.",
+          "sub": "South Africa"
+        },
+        {
+          "min": "78'",
+          "icon": "🔄",
+          "txt": "Substitution, Czechia. David Zima replaces Lukás Cerv.",
+          "sub": "Czechia"
+        },
+        {
+          "min": "75'",
+          "icon": "🟨",
+          "txt": "Ladislav Krejcí (Czechia) is shown the yellow card for a bad foul.",
+          "sub": "Czechia"
+        },
+        {
+          "min": "67'",
+          "icon": "🔄",
+          "txt": "Substitution, Czechia. Lukás Provod replaces Adam Hlozek.",
+          "sub": "Czechia"
+        },
+        {
+          "min": "67'",
+          "icon": "🔄",
+          "txt": "Substitution, Czechia. Tomás Soucek replaces Michal Sadílek.",
+          "sub": "Czechia"
+        },
+        {
+          "min": "66'",
+          "icon": "🔄",
+          "txt": "Substitution, South Africa. Evidence Makgopa replaces Iqraam Rayners.",
+          "sub": "South Africa"
+        },
+        {
+          "min": "55'",
+          "icon": "🔄",
+          "txt": "Substitution, Czechia. Jaroslav Zeleny replaces Alexandr Sojka.",
+          "sub": "Czechia"
+        },
+        {
+          "min": "55'",
+          "icon": "🔄",
+          "txt": "Substitution, Czechia. Pavel Sulc replaces Vladimír Darida.",
+          "sub": "Czechia"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substitution, South Africa. Relebohile Mofokeng replaces Jayden Adams.",
+          "sub": "South Africa"
+        },
+        {
+          "min": "40'",
+          "icon": "🟨",
+          "txt": "Thalente Mbatha (South Africa) is shown the yellow card for a bad foul.",
+          "sub": "South Africa"
+        },
+        {
+          "min": "33'",
+          "icon": "🟨",
+          "txt": "Teboho Mokoena (South Africa) is shown the yellow card for a bad foul.",
+          "sub": "South Africa"
+        },
+        {
+          "min": "6'",
+          "icon": "⚽",
+          "txt": "Goal! Czechia 1, South Africa 0. Michal Sadílek (Czechia) left footed shot from the centre of the box to the centre of the goal. Assisted by Alexandr Sojka.",
+          "sub": "Czechia"
+        }
+      ]
+    },
+    {
+      "home": "Suíça 🇨🇭",
+      "away": "Bosnia-Herzegovina",
+      "date": "18/06",
+      "brTime": "16h",
+      "venue": "SoFi Stadium",
+      "iso": "2026-06-18T19:00Z",
+      "sh": 4,
+      "sa": 1,
+      "done": true,
+      "live": false,
+      "clock": "",
+      "events": [
+        {
+          "min": "90'+7'",
+          "icon": "⚽",
+          "txt": "Goal! Switzerland 4, Bosnia and Herzegovina 1. Granit Xhaka (Switzerland) converts the penalty with a left footed shot to the bottom right corner.",
+          "sub": "Switzerland"
+        },
+        {
+          "min": "90'+3'",
+          "icon": "⚽",
+          "txt": "Goal! Switzerland 3, Bosnia and Herzegovina 1. Ermin Mahmic (Bosnia and Herzegovina) right footed shot from the centre of the box to the high centre of the goal following a corner.",
+          "sub": "Bosnia-Herzegovina"
+        },
+        {
+          "min": "90'+1'",
+          "icon": "🔄",
+          "txt": "Substitution, Bosnia and Herzegovina. Ermin Mahmic replaces Kerim Alajbegovic.",
+          "sub": "Bosnia-Herzegovina"
+        },
+        {
+          "min": "90'",
+          "icon": "⚽",
+          "txt": "Goal! Switzerland 3, Bosnia and Herzegovina 0. Johan Manzambi (Switzerland) right footed shot from the centre of the box to the centre of the goal. Assisted by Rubén Vargas.",
+          "sub": "Switzerland"
+        },
+        {
+          "min": "89'",
+          "icon": "🔄",
+          "txt": "Substitution, Switzerland. Cedric Itten replaces Breel Embolo.",
+          "sub": "Switzerland"
+        },
+        {
+          "min": "86'",
+          "icon": "🔄",
+          "txt": "Substitution, Switzerland. Luca Jaquez replaces Silvan Widmer.",
+          "sub": "Switzerland"
+        },
+        {
+          "min": "86'",
+          "icon": "🔄",
+          "txt": "Substitution, Bosnia and Herzegovina. Amir Hadziahmetovic replaces Ivan Sunjic.",
+          "sub": "Bosnia-Herzegovina"
+        },
+        {
+          "min": "86'",
+          "icon": "🔄",
+          "txt": "Substitution, Bosnia and Herzegovina. Jovo Lukic replaces Ermedin Demirovic.",
+          "sub": "Bosnia-Herzegovina"
+        },
+        {
+          "min": "84'",
+          "icon": "⚽",
+          "txt": "Goal! Switzerland 2, Bosnia and Herzegovina 0. Rubén Vargas (Switzerland) right footed shot from the centre of the box to the bottom right corner. Assisted by Breel Embolo.",
+          "sub": "Switzerland"
+        },
+        {
+          "min": "80'",
+          "icon": "🟥",
+          "txt": "Tarik Muharemovic (Bosnia and Herzegovina) is shown the red card.",
+          "sub": "Bosnia-Herzegovina"
+        },
+        {
+          "min": "74'",
+          "icon": "⚽",
+          "txt": "Goal! Switzerland 1, Bosnia and Herzegovina 0. Johan Manzambi (Switzerland) right footed shot from the centre of the box to the top right corner.",
+          "sub": "Switzerland"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substitution, Switzerland. Rubén Vargas replaces Fabian Rieder.",
+          "sub": "Switzerland"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substitution, Switzerland. Johan Manzambi replaces Dan Ndoye.",
+          "sub": "Switzerland"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substitution, Switzerland. Djibril Sow replaces Michel Aebischer.",
+          "sub": "Switzerland"
+        },
+        {
+          "min": "65'",
+          "icon": "🟨",
+          "txt": "Nico Elvedi (Switzerland) is shown the yellow card for a bad foul.",
+          "sub": "Switzerland"
+        },
+        {
+          "min": "64'",
+          "icon": "🔄",
+          "txt": "Substitution, Bosnia and Herzegovina. Esmir Bajraktarevic replaces Edin Dzeko.",
+          "sub": "Bosnia-Herzegovina"
+        },
+        {
+          "min": "63'",
+          "icon": "🔄",
+          "txt": "Substitution, Bosnia and Herzegovina. Ivan Basic replaces Benjamin Tahirovic.",
+          "sub": "Bosnia-Herzegovina"
+        },
+        {
+          "min": "61'",
+          "icon": "🟨",
+          "txt": "Edin Dzeko (Bosnia and Herzegovina) is shown the yellow card for a bad foul.",
+          "sub": "Bosnia-Herzegovina"
+        },
+        {
+          "min": "59'",
+          "icon": "🟨",
+          "txt": "Amar Dedic (Bosnia and Herzegovina) is shown the yellow card for a bad foul.",
+          "sub": "Bosnia-Herzegovina"
+        }
+      ]
+    },
+    {
+      "home": "Canadá 🇨🇦",
+      "away": "Qatar 🇶🇦",
+      "date": "18/06",
+      "brTime": "19h",
+      "venue": "BC Place",
+      "iso": "2026-06-18T22:00Z",
+      "sh": 6,
+      "sa": 0,
+      "done": true,
+      "live": false,
+      "clock": "",
+      "events": [
+        {
+          "min": "90'+2'",
+          "icon": "⚽",
+          "txt": "Goal! Canada 6, Qatar 0. Jonathan David (Canada) left footed shot from the centre of the box to the top left corner. Assisted by Nathan Saliba.",
+          "sub": "Canada"
+        },
+        {
+          "min": "87'",
+          "icon": "🔄",
+          "txt": "Substitution, Qatar. Lucas Mendes replaces Ahmed Fathy.",
+          "sub": "Qatar"
+        },
+        {
+          "min": "83'",
+          "icon": "🔄",
+          "txt": "Substitution, Canada. Niko Sigur replaces Tajon Buchanan.",
+          "sub": "Canada"
+        },
+        {
+          "min": "75'",
+          "icon": "⚽ OG",
+          "txt": "Own Goal by Mohammad Al Manai, Qatar. Canada 5, Qatar 0.",
+          "sub": "Canada"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substitution, Canada. Tani Oluwaseyi replaces Ali Ahmed.",
+          "sub": "Canada"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substitution, Canada. Jacob Shaffelburg replaces Luc De Fougerolles.",
+          "sub": "Canada"
+        },
+        {
+          "min": "64'",
+          "icon": "⚽",
+          "txt": "Goal! Canada 4, Qatar 0. Nathan Saliba (Canada) from a free kick with a right footed shot to the bottom right corner.",
+          "sub": "Canada"
+        },
+        {
+          "min": "62'",
+          "icon": "🟨",
+          "txt": "Ahmed Fathy (Qatar) is shown the yellow card for a bad foul.",
+          "sub": "Qatar"
+        },
+        {
+          "min": "59'",
+          "icon": "🔄",
+          "txt": "Substitution, Qatar. Al Hashmi Al Hussain replaces Akram Afif.",
+          "sub": "Qatar"
+        },
+        {
+          "min": "57'",
+          "icon": "🔄",
+          "txt": "Substitution, Canada. Nathan Saliba replaces Ismaël Koné because of an injury.",
+          "sub": "Canada"
+        },
+        {
+          "min": "53'",
+          "icon": "🟥",
+          "txt": "Assim Madibo (Qatar) is shown the red card.",
+          "sub": "Qatar"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substitution, Canada. Moïse Bombito replaces Derek Cornelius.",
+          "sub": "Canada"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substitution, Qatar. Mohammad Al Manai replaces Jassem Gaber.",
+          "sub": "Qatar"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substitution, Qatar. Ahmed Fathy replaces Edmílson Junior.",
+          "sub": "Qatar"
+        },
+        {
+          "min": "45'+3'",
+          "icon": "⚽",
+          "txt": "Goal! Canada 3, Qatar 0. Jonathan David (Canada) right footed shot from very close range to the centre of the goal.",
+          "sub": "Canada"
+        },
+        {
+          "min": "40'",
+          "icon": "🔄",
+          "txt": "Substitution, Qatar. Sultan Al Brake replaces Yusuf Abdurisag.",
+          "sub": "Qatar"
+        },
+        {
+          "min": "33'",
+          "icon": "🟥",
+          "txt": "Homam El Amin (Qatar) is shown the red card.",
+          "sub": "Qatar"
+        },
+        {
+          "min": "29'",
+          "icon": "⚽",
+          "txt": "Goal! Canada 2, Qatar 0. Jonathan David (Canada) right footed shot from the right side of the box to the bottom right corner.",
+          "sub": "Canada"
+        },
+        {
+          "min": "16'",
+          "icon": "⚽",
+          "txt": "Goal! Canada 1, Qatar 0. Cyle Larin (Canada) left footed shot from very close range to the bottom right corner following a corner.",
+          "sub": "Canada"
+        },
+        {
+          "min": "9'",
+          "icon": "🟨",
+          "txt": "Derek Cornelius (Canada) is shown the yellow card for a bad foul.",
+          "sub": "Canada"
+        }
+      ]
+    },
+    {
+      "home": "México 🇲🇽",
+      "away": "Coreia do Sul 🇰🇷",
+      "date": "18/06",
+      "brTime": "22h",
+      "venue": "Estadio Akron",
+      "iso": "2026-06-19T01:00Z",
+      "sh": 1,
+      "sa": 0,
+      "done": true,
+      "live": false,
+      "clock": "",
+      "events": [
+        {
+          "min": "84'",
+          "icon": "🔄",
+          "txt": "Substitution, Mexico. César Huerta replaces Julián Quiñones.",
+          "sub": "Mexico"
+        },
+        {
+          "min": "80'",
+          "icon": "🔄",
+          "txt": "Substitution, Mexico. Santiago Giménez replaces Raúl Jiménez.",
+          "sub": "Mexico"
+        },
+        {
+          "min": "80'",
+          "icon": "🔄",
+          "txt": "Substitution, Mexico. Israel Reyes replaces Roberto Alvarado.",
+          "sub": "Mexico"
+        },
+        {
+          "min": "77'",
+          "icon": "🔄",
+          "txt": "Substitution, Korea Republic. Cho Gue-Sung replaces Paik Seung-Ho.",
+          "sub": "South Korea"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substitution, Korea Republic. Yang Hyun-Jun replaces Seol Young-Woo.",
+          "sub": "South Korea"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substitution, Korea Republic. Eom Ji-Sung replaces Kim Moon-Hwan.",
+          "sub": "South Korea"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substitution, Mexico. Obed Vargas replaces Luis Romo.",
+          "sub": "Mexico"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substitution, Mexico. Orbelín Pineda replaces Brian Gutiérrez.",
+          "sub": "Mexico"
+        },
+        {
+          "min": "58'",
+          "icon": "🟨",
+          "txt": "Paik Seung-Ho (Korea Republic) is shown the yellow card for a bad foul.",
+          "sub": "South Korea"
+        },
+        {
+          "min": "57'",
+          "icon": "🔄",
+          "txt": "Substitution, Korea Republic. Oh Hyeon-Gyu replaces Son Heung-Min.",
+          "sub": "South Korea"
+        },
+        {
+          "min": "57'",
+          "icon": "🔄",
+          "txt": "Substitution, Korea Republic. Hwang Hee-Chan replaces Lee Jae-Sung.",
+          "sub": "South Korea"
+        },
+        {
+          "min": "50'",
+          "icon": "⚽",
+          "txt": "Goal! Mexico 1, Korea Republic 0. Luis Romo (Mexico) right footed shot from the centre of the box to the centre of the goal.",
+          "sub": "Mexico"
+        },
+        {
+          "min": "4'",
+          "icon": "🟨",
+          "txt": "Lee Kang-In (Korea Republic) is shown the yellow card for a bad foul.",
+          "sub": "South Korea"
+        }
+      ]
+    },
+    {
+      "home": "EUA 🇺🇸",
+      "away": "Austrália 🇦🇺",
+      "date": "19/06",
+      "brTime": "16h",
+      "venue": "Lumen Field",
+      "iso": "2026-06-19T19:00Z",
+      "sh": 2,
+      "sa": 0,
+      "done": true,
+      "live": false,
+      "clock": "",
+      "events": [
+        {
+          "min": "90'+6'",
+          "icon": "🔄",
+          "txt": "Substitution, USA. Giovanni Reyna replaces Weston McKennie.",
+          "sub": "United States"
+        },
+        {
+          "min": "90'+6'",
+          "icon": "🔄",
+          "txt": "Substitution, USA. Haji Wright replaces Folarin Balogun.",
+          "sub": "United States"
+        },
+        {
+          "min": "90'+3'",
+          "icon": "🟨",
+          "txt": "Chris Richards (USA) is shown the yellow card for a bad foul.",
+          "sub": "United States"
+        },
+        {
+          "min": "89'",
+          "icon": "🟨",
+          "txt": "Jacob Italiano (Australia) is shown the yellow card.",
+          "sub": "Australia"
+        },
+        {
+          "min": "89'",
+          "icon": "🟨",
+          "txt": "Folarin Balogun (USA) is shown the yellow card.",
+          "sub": "United States"
+        },
+        {
+          "min": "88'",
+          "icon": "🟨",
+          "txt": "Harry Souttar (Australia) is shown the yellow card.",
+          "sub": "Australia"
+        },
+        {
+          "min": "80'",
+          "icon": "🔄",
+          "txt": "Substitution, USA. Auston Trusty replaces Antonee Robinson.",
+          "sub": "United States"
+        },
+        {
+          "min": "80'",
+          "icon": "🔄",
+          "txt": "Substitution, USA. Joe Scally replaces Sergiño Dest.",
+          "sub": "United States"
+        },
+        {
+          "min": "78'",
+          "icon": "🔄",
+          "txt": "Substitution, Australia. Jackson Irvine replaces Paul Okon-Engstler.",
+          "sub": "Australia"
+        },
+        {
+          "min": "74'",
+          "icon": "🔄",
+          "txt": "Substitution, USA. Sebastian Berhalter replaces Ricardo Pepi.",
+          "sub": "United States"
+        },
+        {
+          "min": "61'",
+          "icon": "🔄",
+          "txt": "Substitution, Australia. Cristian Volpato replaces Mathew Leckie because of an injury.",
+          "sub": "Australia"
+        },
+        {
+          "min": "56'",
+          "icon": "🟨",
+          "txt": "Antonee Robinson (USA) is shown the yellow card for a bad foul.",
+          "sub": "United States"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substitution, Australia. Nestory Irankunda replaces Mohamed Touré.",
+          "sub": "Australia"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substitution, Australia. Connor Metcalfe replaces Nishan Velupillay.",
+          "sub": "Australia"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substitution, Australia. Jason Geria replaces Cameron Burgess.",
+          "sub": "Australia"
+        },
+        {
+          "min": "43'",
+          "icon": "⚽",
+          "txt": "Goal! USA 2, Australia 0. Alex Freeman (USA) header from very close range to the bottom right corner following a set piece situation.Goal awarded following VAR Review.",
+          "sub": "United States"
+        },
+        {
+          "min": "32'",
+          "icon": "🟨",
+          "txt": "Alessandro Circati (Australia) is shown the yellow card for a bad foul.",
+          "sub": "Australia"
+        },
+        {
+          "min": "16'",
+          "icon": "🟨",
+          "txt": "Jordan Bos (Australia) is shown the yellow card for a bad foul.",
+          "sub": "Australia"
+        },
+        {
+          "min": "11'",
+          "icon": "⚽ OG",
+          "txt": "Own Goal by Cameron Burgess, Australia. USA 1, Australia 0.",
+          "sub": "United States"
+        }
+      ]
+    },
+    {
+      "home": "Escócia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "away": "Marrocos 🇲🇦",
+      "date": "19/06",
+      "brTime": "19h",
+      "venue": "Gillette Stadium",
+      "iso": "2026-06-19T22:00Z",
+      "sh": 0,
+      "sa": 1,
+      "done": true,
+      "live": false,
+      "clock": "",
+      "events": [
+        {
+          "min": "90'",
+          "icon": "🔄",
+          "txt": "Substitution, Morocco. Samir El Mourabet replaces Azzedine Ounahi.",
+          "sub": "Morocco"
+        },
+        {
+          "min": "89'",
+          "icon": "🔄",
+          "txt": "Substitution, Scotland. Ross Stewart replaces John McGinn.",
+          "sub": "Scotland"
+        },
+        {
+          "min": "89'",
+          "icon": "🔄",
+          "txt": "Substitution, Scotland. Anthony Ralston replaces Nathan Patterson.",
+          "sub": "Scotland"
+        },
+        {
+          "min": "84'",
+          "icon": "🔄",
+          "txt": "Substitution, Morocco. Ayoube Amaimouni-Echghouyab replaces Brahim Díaz.",
+          "sub": "Morocco"
+        },
+        {
+          "min": "84'",
+          "icon": "🔄",
+          "txt": "Substitution, Morocco. Chemsdine Talbi replaces Bilal El Khannouss.",
+          "sub": "Morocco"
+        },
+        {
+          "min": "84'",
+          "icon": "🔄",
+          "txt": "Substitution, Morocco. Soufiane Rahimi replaces Ismael Saibari.",
+          "sub": "Morocco"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substitution, Scotland. Kenny McLean replaces Ryan Christie.",
+          "sub": "Scotland"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substitution, Scotland. Lyndon Dykes replaces Ché Adams.",
+          "sub": "Scotland"
+        },
+        {
+          "min": "65'",
+          "icon": "🟨",
+          "txt": "Andy Robertson (Scotland) is shown the yellow card for a bad foul.",
+          "sub": "Scotland"
+        },
+        {
+          "min": "60'",
+          "icon": "🔄",
+          "txt": "Substitution, Scotland. Ben Gannon-Doak replaces Kieran Tierney because of an injury.",
+          "sub": "Scotland"
+        },
+        {
+          "min": "23'",
+          "icon": "🟨",
+          "txt": "Issa Diop (Morocco) is shown the yellow card for a bad foul.",
+          "sub": "Morocco"
+        },
+        {
+          "min": "2'",
+          "icon": "⚽",
+          "txt": "Goal! Scotland 0, Morocco 1. Ismael Saibari (Morocco) right footed shot from the right side of the box to the high centre of the goal. Assisted by Brahim Díaz with a through ball.",
+          "sub": "Morocco"
+        }
+      ]
+    },
+    {
+      "home": "Brasil 🇧🇷",
+      "away": "Haiti 🇭🇹",
+      "date": "19/06",
+      "brTime": "21h",
+      "venue": "Lincoln Financial Field",
+      "iso": "2026-06-20T00:30Z",
+      "sh": 3,
+      "sa": 0,
+      "done": true,
+      "live": false,
+      "clock": "",
+      "events": [
+        {
+          "min": "81'",
+          "icon": "🔄",
+          "txt": "Substitution, Haiti. Derrick Etienne replaces Jean-Ricner Bellegarde.",
+          "sub": "Haiti"
+        },
+        {
+          "min": "81'",
+          "icon": "🔄",
+          "txt": "Substitution, Brazil. Éderson Silva replaces Bruno Guimarães.",
+          "sub": "Brazil"
+        },
+        {
+          "min": "81'",
+          "icon": "🔄",
+          "txt": "Substitution, Brazil. Danilo Santos replaces Vinícius Júnior.",
+          "sub": "Brazil"
+        },
+        {
+          "min": "72'",
+          "icon": "🟨",
+          "txt": "Danley Jean Jacques (Haiti) is shown the yellow card for a bad foul.",
+          "sub": "Haiti"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substitution, Haiti. Lenny Joseph replaces Ruben Providence.",
+          "sub": "Haiti"
+        },
+        {
+          "min": "65'",
+          "icon": "🟨",
+          "txt": "Douglas Santos (Brazil) is shown the yellow card for a bad foul.",
+          "sub": "Brazil"
+        },
+        {
+          "min": "64'",
+          "icon": "🔄",
+          "txt": "Substitution, Brazil. Endrick replaces Matheus Cunha.",
+          "sub": "Brazil"
+        },
+        {
+          "min": "64'",
+          "icon": "🔄",
+          "txt": "Substitution, Brazil. Gabriel Martinelli replaces Lucas Paquetá.",
+          "sub": "Brazil"
+        },
+        {
+          "min": "62'",
+          "icon": "🔄",
+          "txt": "Substitution, Haiti. Louicius Deedson replaces Josué Casimir.",
+          "sub": "Haiti"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substitution, Haiti. Wilson Isidor replaces Frantzdy Pierrot.",
+          "sub": "Haiti"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substitution, Haiti. Dominique Simon replaces Carlens Arcus.",
+          "sub": "Haiti"
+        },
+        {
+          "min": "45'+4'",
+          "icon": "🟨",
+          "txt": "Frantzdy Pierrot (Haiti) is shown the yellow card for a bad foul.",
+          "sub": "Haiti"
+        },
+        {
+          "min": "45'+3'",
+          "icon": "⚽",
+          "txt": "Goal! Brazil 3, Haiti 0. Vinícius Júnior (Brazil) right footed shot from the left side of the box to the centre of the goal. Assisted by Lucas Paquetá with a through ball.",
+          "sub": "Brazil"
+        },
+        {
+          "min": "40'",
+          "icon": "🔄",
+          "txt": "Substitution, Brazil. Rayan replaces Raphinha because of an injury.",
+          "sub": "Brazil"
+        },
+        {
+          "min": "36'",
+          "icon": "⚽",
+          "txt": "Goal! Brazil 2, Haiti 0. Matheus Cunha (Brazil) left footed shot from the left side of the box to the top left corner. Assisted by Vinícius Júnior with a through ball following a fast break.",
+          "sub": "Brazil"
+        },
+        {
+          "min": "23'",
+          "icon": "⚽",
+          "txt": "Goal! Brazil 1, Haiti 0. Matheus Cunha (Brazil) left footed shot from the centre of the box to the bottom left corner following a fast break.",
+          "sub": "Brazil"
+        },
+        {
+          "min": "4'",
+          "icon": "🟨",
+          "txt": "Carlens Arcus (Haiti) is shown the yellow card for a bad foul.",
+          "sub": "Haiti"
+        }
+      ]
+    },
+    {
+      "home": "Turquia 🇹🇷",
+      "away": "Paraguai 🇵🇾",
+      "date": "20/06",
+      "brTime": "00h",
+      "venue": "Levi's Stadium",
+      "iso": "2026-06-20T03:00Z",
+      "sh": 0,
+      "sa": 1,
+      "done": true,
+      "live": false,
+      "clock": "",
+      "events": [
+        {
+          "min": "90'+2'",
+          "icon": "🔄",
+          "txt": "Substitution, Paraguay. José Canale replaces Matías Galarza because of an injury.",
+          "sub": "Paraguay"
+        },
+        {
+          "min": "90'+2'",
+          "icon": "🔄",
+          "txt": "Substitution, Paraguay. Gabriel Ávalos replaces Julio Enciso because of an injury.",
+          "sub": "Paraguay"
+        },
+        {
+          "min": "86'",
+          "icon": "🔄",
+          "txt": "Substitution, Türkiye. Orkun Kökçü replaces Abdülkerim Bardakci.",
+          "sub": "Türkiye"
+        },
+        {
+          "min": "81'",
+          "icon": "🔄",
+          "txt": "Substitution, Paraguay. Alexandro Maidana replaces Juan José Cáceres.",
+          "sub": "Paraguay"
+        },
+        {
+          "min": "71'",
+          "icon": "🟨",
+          "txt": "Eren Elmali (Türkiye) is shown the yellow card for a bad foul.",
+          "sub": "Türkiye"
+        },
+        {
+          "min": "70'",
+          "icon": "🔄",
+          "txt": "Substitution, Türkiye. Eren Elmali replaces Ferdi Kadioglu.",
+          "sub": "Türkiye"
+        },
+        {
+          "min": "67'",
+          "icon": "🔄",
+          "txt": "Substitution, Paraguay. Gustavo Velázquez replaces Diego Gómez because of an injury.",
+          "sub": "Paraguay"
+        },
+        {
+          "min": "60'",
+          "icon": "🔄",
+          "txt": "Substitution, Türkiye. Deniz Gül replaces Yunus Akgün.",
+          "sub": "Türkiye"
+        },
+        {
+          "min": "60'",
+          "icon": "🔄",
+          "txt": "Substitution, Türkiye. Can Uzun replaces Ismail Yüksek.",
+          "sub": "Türkiye"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substitution, Türkiye. Baris Alper Yilmaz replaces Kerem Aktürkoglu.",
+          "sub": "Türkiye"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substitution, Paraguay. Damián Bobadilla replaces Isidro Pitta.",
+          "sub": "Paraguay"
+        },
+        {
+          "min": "45'+3'",
+          "icon": "🟥",
+          "txt": "Miguel Almirón (Paraguay) is shown the red card.",
+          "sub": "Paraguay"
+        },
+        {
+          "min": "4'",
+          "icon": "🟨",
+          "txt": "Matías Galarza (Paraguay) is shown the yellow card for a bad foul.",
+          "sub": "Paraguay"
+        },
+        {
+          "min": "2'",
+          "icon": "⚽",
+          "txt": "Goal! Türkiye 0, Paraguay 1. Matías Galarza (Paraguay) left footed shot from outside the box to the bottom right corner. Assisted by Julio Enciso.",
+          "sub": "Paraguay"
+        }
+      ]
+    },
+    {
+      "home": "Holanda 🇳🇱",
+      "away": "Suécia 🇸🇪",
+      "date": "20/06",
+      "brTime": "14h",
+      "venue": "NRG Stadium",
+      "iso": "2026-06-20T17:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Alemanha 🇩🇪",
+      "away": "C. do Marfim 🇨🇮",
+      "date": "20/06",
+      "brTime": "17h",
+      "venue": "BMO Field",
+      "iso": "2026-06-20T20:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Equador 🇪🇨",
+      "away": "Curaçao 🇨🇼",
+      "date": "20/06",
+      "brTime": "21h",
+      "venue": "GEHA Field at Arrowhead Stadium",
+      "iso": "2026-06-21T00:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Tunísia 🇹🇳",
+      "away": "Japão 🇯🇵",
+      "date": "21/06",
+      "brTime": "01h",
+      "venue": "Estadio BBVA",
+      "iso": "2026-06-21T04:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Espanha 🇪🇸",
+      "away": "Arábia Saudita 🇸🇦",
+      "date": "21/06",
+      "brTime": "13h",
+      "venue": "Mercedes-Benz Stadium",
+      "iso": "2026-06-21T16:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Bélgica 🇧🇪",
+      "away": "Irã 🇮🇷",
+      "date": "21/06",
+      "brTime": "16h",
+      "venue": "SoFi Stadium",
+      "iso": "2026-06-21T19:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Uruguai 🇺🇾",
+      "away": "Cabo Verde 🇨🇻",
+      "date": "21/06",
+      "brTime": "19h",
+      "venue": "Hard Rock Stadium",
+      "iso": "2026-06-21T22:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Nova Zelândia 🇳🇿",
+      "away": "Egito 🇪🇬",
+      "date": "21/06",
+      "brTime": "22h",
+      "venue": "BC Place",
+      "iso": "2026-06-22T01:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Argentina 🇦🇷",
+      "away": "Áustria 🇦🇹",
+      "date": "22/06",
+      "brTime": "14h",
+      "venue": "AT&T Stadium",
+      "iso": "2026-06-22T17:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "França 🇫🇷",
+      "away": "Iraque 🇮🇶",
+      "date": "22/06",
+      "brTime": "18h",
+      "venue": "Lincoln Financial Field",
+      "iso": "2026-06-22T21:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Noruega 🇳🇴",
+      "away": "Senegal 🇸🇳",
+      "date": "22/06",
+      "brTime": "21h",
+      "venue": "MetLife Stadium",
+      "iso": "2026-06-23T00:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Jordânia 🇯🇴",
+      "away": "Argélia 🇩🇿",
+      "date": "23/06",
+      "brTime": "00h",
+      "venue": "Levi's Stadium",
+      "iso": "2026-06-23T03:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Portugal 🇵🇹",
+      "away": "Uzbequistão 🇺🇿",
+      "date": "23/06",
+      "brTime": "14h",
+      "venue": "NRG Stadium",
+      "iso": "2026-06-23T17:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "away": "Gana 🇬🇭",
+      "date": "23/06",
+      "brTime": "17h",
+      "venue": "Gillette Stadium",
+      "iso": "2026-06-23T20:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Panamá 🇵🇦",
+      "away": "Croácia 🇭🇷",
+      "date": "23/06",
+      "brTime": "20h",
+      "venue": "BMO Field",
+      "iso": "2026-06-23T23:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Colômbia 🇨🇴",
+      "away": "Congo DR",
+      "date": "23/06",
+      "brTime": "23h",
+      "venue": "Estadio Akron",
+      "iso": "2026-06-24T02:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Bosnia-Herzegovina",
+      "away": "Qatar 🇶🇦",
+      "date": "24/06",
+      "brTime": "16h",
+      "venue": "Lumen Field",
+      "iso": "2026-06-24T19:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Suíça 🇨🇭",
+      "away": "Canadá 🇨🇦",
+      "date": "24/06",
+      "brTime": "16h",
+      "venue": "BC Place",
+      "iso": "2026-06-24T19:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Marrocos 🇲🇦",
+      "away": "Haiti 🇭🇹",
+      "date": "24/06",
+      "brTime": "19h",
+      "venue": "Mercedes-Benz Stadium",
+      "iso": "2026-06-24T22:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Escócia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+      "away": "Brasil 🇧🇷",
+      "date": "24/06",
+      "brTime": "19h",
+      "venue": "Hard Rock Stadium",
+      "iso": "2026-06-24T22:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Rep. Tcheca 🇨🇿",
+      "away": "México 🇲🇽",
+      "date": "24/06",
+      "brTime": "22h",
+      "venue": "Estadio Banorte",
+      "iso": "2026-06-25T01:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "África do Sul 🇿🇦",
+      "away": "Coreia do Sul 🇰🇷",
+      "date": "24/06",
+      "brTime": "22h",
+      "venue": "Estadio BBVA",
+      "iso": "2026-06-25T01:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Curaçao 🇨🇼",
+      "away": "C. do Marfim 🇨🇮",
+      "date": "25/06",
+      "brTime": "17h",
+      "venue": "Lincoln Financial Field",
+      "iso": "2026-06-25T20:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Equador 🇪🇨",
+      "away": "Alemanha 🇩🇪",
+      "date": "25/06",
+      "brTime": "17h",
+      "venue": "MetLife Stadium",
+      "iso": "2026-06-25T20:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Japão 🇯🇵",
+      "away": "Suécia 🇸🇪",
+      "date": "25/06",
+      "brTime": "20h",
+      "venue": "AT&T Stadium",
+      "iso": "2026-06-25T23:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Tunísia 🇹🇳",
+      "away": "Holanda 🇳🇱",
+      "date": "25/06",
+      "brTime": "20h",
+      "venue": "GEHA Field at Arrowhead Stadium",
+      "iso": "2026-06-25T23:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Paraguai 🇵🇾",
+      "away": "Austrália 🇦🇺",
+      "date": "25/06",
+      "brTime": "23h",
+      "venue": "Levi's Stadium",
+      "iso": "2026-06-26T02:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Turquia 🇹🇷",
+      "away": "EUA 🇺🇸",
+      "date": "25/06",
+      "brTime": "23h",
+      "venue": "SoFi Stadium",
+      "iso": "2026-06-26T02:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Noruega 🇳🇴",
+      "away": "França 🇫🇷",
+      "date": "26/06",
+      "brTime": "16h",
+      "venue": "Gillette Stadium",
+      "iso": "2026-06-26T19:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    },
+    {
+      "home": "Senegal 🇸🇳",
+      "away": "Iraque 🇮🇶",
+      "date": "26/06",
+      "brTime": "16h",
+      "venue": "BMO Field",
+      "iso": "2026-06-26T19:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": []
+    }
   ],
-  "knockout": []
+  "knockout": [
+    {
+      "home": "Cabo Verde 🇨🇻",
+      "away": "Arábia Saudita 🇸🇦",
+      "date": "26/06",
+      "brTime": "21h",
+      "venue": "NRG Stadium",
+      "iso": "2026-06-27T00:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "avos"
+    },
+    {
+      "home": "Uruguai 🇺🇾",
+      "away": "Espanha 🇪🇸",
+      "date": "26/06",
+      "brTime": "21h",
+      "venue": "Estadio Akron",
+      "iso": "2026-06-27T00:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "avos"
+    },
+    {
+      "home": "Egito 🇪🇬",
+      "away": "Irã 🇮🇷",
+      "date": "27/06",
+      "brTime": "00h",
+      "venue": "Lumen Field",
+      "iso": "2026-06-27T03:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "avos"
+    },
+    {
+      "home": "Nova Zelândia 🇳🇿",
+      "away": "Bélgica 🇧🇪",
+      "date": "27/06",
+      "brTime": "00h",
+      "venue": "BC Place",
+      "iso": "2026-06-27T03:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "avos"
+    },
+    {
+      "home": "Croácia 🇭🇷",
+      "away": "Gana 🇬🇭",
+      "date": "27/06",
+      "brTime": "18h",
+      "venue": "Lincoln Financial Field",
+      "iso": "2026-06-27T21:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "avos"
+    },
+    {
+      "home": "Panamá 🇵🇦",
+      "away": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+      "date": "27/06",
+      "brTime": "18h",
+      "venue": "MetLife Stadium",
+      "iso": "2026-06-27T21:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "avos"
+    },
+    {
+      "home": "Colômbia 🇨🇴",
+      "away": "Portugal 🇵🇹",
+      "date": "27/06",
+      "brTime": "20h",
+      "venue": "Hard Rock Stadium",
+      "iso": "2026-06-27T23:30Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "avos"
+    },
+    {
+      "home": "Congo DR",
+      "away": "Uzbequistão 🇺🇿",
+      "date": "27/06",
+      "brTime": "20h",
+      "venue": "Mercedes-Benz Stadium",
+      "iso": "2026-06-27T23:30Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "avos"
+    },
+    {
+      "home": "Argélia 🇩🇿",
+      "away": "Áustria 🇦🇹",
+      "date": "27/06",
+      "brTime": "23h",
+      "venue": "GEHA Field at Arrowhead Stadium",
+      "iso": "2026-06-28T02:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "avos"
+    },
+    {
+      "home": "Jordânia 🇯🇴",
+      "away": "Argentina 🇦🇷",
+      "date": "27/06",
+      "brTime": "23h",
+      "venue": "AT&T Stadium",
+      "iso": "2026-06-28T02:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "avos"
+    },
+    {
+      "home": "Group A 2nd Place",
+      "away": "Group B 2nd Place",
+      "date": "28/06",
+      "brTime": "16h",
+      "venue": "SoFi Stadium",
+      "iso": "2026-06-28T19:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "avos"
+    },
+    {
+      "home": "Group C Winner",
+      "away": "Group F 2nd Place",
+      "date": "29/06",
+      "brTime": "14h",
+      "venue": "NRG Stadium",
+      "iso": "2026-06-29T17:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "avos"
+    },
+    {
+      "home": "Group E Winner",
+      "away": "Third Place Group A/B/C/D/F",
+      "date": "29/06",
+      "brTime": "17h",
+      "venue": "Gillette Stadium",
+      "iso": "2026-06-29T20:30Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "avos"
+    },
+    {
+      "home": "Group F Winner",
+      "away": "Group C 2nd Place",
+      "date": "29/06",
+      "brTime": "22h",
+      "venue": "Estadio BBVA",
+      "iso": "2026-06-30T01:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "avos"
+    },
+    {
+      "home": "Group E 2nd Place",
+      "away": "Group I 2nd Place",
+      "date": "30/06",
+      "brTime": "14h",
+      "venue": "AT&T Stadium",
+      "iso": "2026-06-30T17:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "avos"
+    },
+    {
+      "home": "Group I Winner",
+      "away": "Third Place Group C/D/F/G/H",
+      "date": "30/06",
+      "brTime": "18h",
+      "venue": "MetLife Stadium",
+      "iso": "2026-06-30T21:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "avos"
+    },
+    {
+      "home": "México 🇲🇽",
+      "away": "Third Place Group C/E/F/H/I",
+      "date": "30/06",
+      "brTime": "22h",
+      "venue": "Estadio Banorte",
+      "iso": "2026-07-01T01:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "avos"
+    },
+    {
+      "home": "Group L Winner",
+      "away": "Third Place Group E/H/I/J/K",
+      "date": "01/07",
+      "brTime": "13h",
+      "venue": "Mercedes-Benz Stadium",
+      "iso": "2026-07-01T16:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "avos"
+    },
+    {
+      "home": "Group G Winner",
+      "away": "Third Place Group A/E/H/I/J",
+      "date": "01/07",
+      "brTime": "17h",
+      "venue": "Lumen Field",
+      "iso": "2026-07-01T20:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "avos"
+    },
+    {
+      "home": "EUA 🇺🇸",
+      "away": "Third Place Group B/E/F/I/J",
+      "date": "01/07",
+      "brTime": "21h",
+      "venue": "Levi's Stadium",
+      "iso": "2026-07-02T00:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "oitavas"
+    },
+    {
+      "home": "Group H Winner",
+      "away": "Group J 2nd Place",
+      "date": "02/07",
+      "brTime": "16h",
+      "venue": "SoFi Stadium",
+      "iso": "2026-07-02T19:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "oitavas"
+    },
+    {
+      "home": "Group K 2nd Place",
+      "away": "Group L 2nd Place",
+      "date": "02/07",
+      "brTime": "20h",
+      "venue": "BMO Field",
+      "iso": "2026-07-02T23:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "oitavas"
+    },
+    {
+      "home": "Group B Winner",
+      "away": "Third Place Group E/F/G/I/J",
+      "date": "03/07",
+      "brTime": "00h",
+      "venue": "BC Place",
+      "iso": "2026-07-03T03:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "oitavas"
+    }
+  ]
 }
