@@ -402,6 +402,35 @@ let DATA_SOURCE="fallback"; // "actions" | "espn-direct" | "sdb" | "fallback"
 let LAST_BOT_UPDATE=null;
 let KO_MATCHES=[]; // jogos reais do mata-mata, vindos do robô (round, home, away, sh, sa, done, live, clock, events, iso, venue)
 
+// Rede de segurança genérica — junta entradas que são claramente o mesmo jogo
+// (mesma fase, nomes que se sobrepõem em qualquer ordem), mesmo que tenham
+// chegado com pequenas variações de grafia ou casa/fora trocados.
+function dedupeRES(){
+  const kept=[];
+  const meta=[];
+  RES.forEach(r=>{
+    const k1=tkey(r.home), k2=tkey(r.away);
+    const dupIdx=meta.findIndex(s=>{
+      if(s.g!==r.g) return false;
+      const direct=(s.k1===k1&&s.k2===k2)||(s.k1===k2&&s.k2===k1);
+      const overlapA=(s.k1.includes(k1)||k1.includes(s.k1))&&(s.k2.includes(k2)||k2.includes(s.k2));
+      const overlapB=(s.k1.includes(k2)||k2.includes(s.k1))&&(s.k2.includes(k1)||k1.includes(s.k2));
+      return direct||overlapA||overlapB;
+    });
+    if(dupIdx===-1){
+      meta.push({k1,k2,g:r.g});
+      kept.push(r);
+    } else {
+      // Mantém a versão mais completa — a que já tem placar/resultado ganha
+      const existing=kept[dupIdx];
+      if((r.done&&!existing.done)||(r.sh!==null&&existing.sh===null)){
+        Object.assign(existing,r);
+      }
+    }
+  });
+  RES=kept;
+}
+
 function mergeResultsJSON(json){
   if(Array.isArray(json.knockout)) KO_MATCHES=json.knockout;
   const incoming=json.matches||[];
@@ -410,16 +439,23 @@ function mergeResultsJSON(json){
     let g=groupOf(m.home);
     if(g==="?") g=groupOf(m.away); // segunda tentativa — o adversário pode resolver
     let existing=RES.find(r=>tkey(r.home)===tkey(m.home)&&tkey(r.away)===tkey(m.away));
+    let reversed=false;
+    if(!existing){
+      // a ESPN pode devolver casa/fora trocados num dia diferente — tenta ao contrário
+      existing=RES.find(r=>tkey(r.home)===tkey(m.away)&&tkey(r.away)===tkey(m.home));
+      if(existing) reversed=true;
+    }
     if(existing){
       // Preserva nota escrita à mão se a automática não tiver uma melhor
       const keepNote=existing.note;
       Object.assign(existing,{
         date:m.date||existing.date, brTime:m.brTime||existing.brTime,
         venue:m.venue||existing.venue,
-        sh:m.sh, sa:m.sa, done:m.done, live:m.live, clock:m.clock||"",
+        sh: reversed?m.sa:m.sh, sa: reversed?m.sh:m.sa,
+        done:m.done, live:m.live, clock:m.clock||"",
       });
       if(m.events&&m.events.length) existing.events=m.events;
-      if(m.lineups) existing.lineups=m.lineups;
+      if(m.lineups) existing.lineups = reversed ? {home:m.lineups.away, away:m.lineups.home} : m.lineups;
       if(!existing.note && keepNote) existing.note=keepNote;
       updated++;
     } else {
@@ -432,6 +468,7 @@ function mergeResultsJSON(json){
       updated++;
     }
   });
+  dedupeRES();
   return updated;
 }
 
