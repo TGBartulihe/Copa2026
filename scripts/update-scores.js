@@ -29,6 +29,101 @@ const ESPN_MAP = {
 };
 function mapTeam(n){ return ESPN_MAP[n] || n; }
 
+// ── API-FOOTBALL — só para escalações, com orçamento muito apertado ──────────
+// Plano grátis = 100 chamadas/dia no TOTAL. O robô corre ~96x/dia (a cada 15min),
+// por isso isto só pode gastar chamadas quando há jogo mesmo a decorrer, e cada
+// escalação só é buscada UMA VEZ por jogo (fica em cache, nunca repete).
+const API_FOOTBALL_KEY = process.env.API_FOOTBALL_KEY || "";
+const AF_BASE = "https://v3.football.api-sports.io";
+const MAX_AF_CALLS_PER_RUN = 4; // limite de segurança por execução
+const LINEUPS_CACHE_FILE = "lineups-cache.json";
+let afCallsUsed = 0;
+let lineupsCache = {};
+
+function loadLineupsCache(){
+  try{ lineupsCache = JSON.parse(fs.readFileSync(LINEUPS_CACHE_FILE, "utf8")); }
+  catch(e){ lineupsCache = {}; }
+}
+function saveLineupsCache(){
+  try{ fs.writeFileSync(LINEUPS_CACHE_FILE, JSON.stringify(lineupsCache, null, 2)); }catch(e){}
+}
+async function afFetch(path){
+  if (!API_FOOTBALL_KEY || afCallsUsed >= MAX_AF_CALLS_PER_RUN) return null;
+  afCallsUsed++;
+  try{
+    const res = await fetch(`${AF_BASE}${path}`, { headers: { "x-apisports-key": API_FOOTBALL_KEY } });
+    if (!res.ok) return null;
+    return await res.json();
+  }catch(e){ return null; }
+}
+
+let WC_LEAGUE_ID = null;
+async function resolveWorldCupLeagueId(){
+  if (WC_LEAGUE_ID) return WC_LEAGUE_ID;
+  if (lineupsCache._leagueId){ WC_LEAGUE_ID = lineupsCache._leagueId; return WC_LEAGUE_ID; }
+  const data = await afFetch(`/leagues?name=World%20Cup&season=2026`);
+  if (!data?.response?.length) return null;
+  const wc = data.response.find(l => /world cup/i.test(l.league?.name||"") && !/u-?20|u-?17|women|qualif/i.test(l.league?.name||""));
+  if (!wc) return null;
+  WC_LEAGUE_ID = wc.league.id;
+  lineupsCache._leagueId = WC_LEAGUE_ID;
+  return WC_LEAGUE_ID;
+}
+function parseAFLineup(side){
+  if (!side) return null;
+  const starters = (side.startXI||[]).map(p => ({ name: p.player?.name||"?", pos: p.player?.pos||"" }));
+  if (!starters.length) return null;
+  return {
+    formation: side.formation || null,
+    starters,
+    subs: (side.substitutes||[]).map(p => ({ name: p.player?.name||"?", pos: p.player?.pos||"" })),
+  };
+}
+// Aliases extra — nomes que a API-Football pode usar diferente da ESPN
+const AF_EXTRA_ALIASES = { "IR Iran":"Irã 🇮🇷", "Korea Republic":"Coreia do Sul 🇰🇷", "Korea South":"Coreia do Sul 🇰🇷" };
+function mapAF(n){ return AF_EXTRA_ALIASES[n] || mapTeam(n); }
+
+// Busca escalações só dos jogos AO VIVO de hoje — nunca dos já encerrados/futuros,
+// e nunca repete um jogo já guardado em cache.
+async function fetchLineupsForLive(liveMatches){
+  if (!API_FOOTBALL_KEY || !liveMatches.length) return {};
+  loadLineupsCache();
+  const todayAF = new Date().toISOString().slice(0,10);
+  const results = {};
+
+  // o que já está em cache não gasta chamada nenhuma
+  const pending = liveMatches.filter(m => {
+    const ck = `${m.home}|${m.away}|${todayAF}`;
+    if (lineupsCache[ck]){ results[`${m.home}|${m.away}`] = lineupsCache[ck]; return false; }
+    return true;
+  });
+  if (!pending.length) return results;
+
+  const leagueId = await resolveWorldCupLeagueId();
+  if (!leagueId) return results;
+
+  const fxData = await afFetch(`/fixtures?league=${leagueId}&season=2026&date=${todayAF}`);
+  if (!fxData?.response?.length){ saveLineupsCache(); return results; }
+
+  for (const m of pending){
+    if (afCallsUsed >= MAX_AF_CALLS_PER_RUN) break;
+    const fx = fxData.response.find(f =>
+      (mapAF(f.teams?.home?.name||"")===m.home && mapAF(f.teams?.away?.name||"")===m.away) ||
+      (mapAF(f.teams?.away?.name||"")===m.home && mapAF(f.teams?.home?.name||"")===m.away)
+    );
+    if (!fx) continue;
+    const luData = await afFetch(`/fixtures/lineups?fixture=${fx.fixture.id}`);
+    if (!luData?.response?.length) continue;
+    const parsed = { home: parseAFLineup(luData.response[0]), away: parseAFLineup(luData.response[1]) };
+    if (!parsed.home && !parsed.away) continue;
+    const ck = `${m.home}|${m.away}|${todayAF}`;
+    results[`${m.home}|${m.away}`] = parsed;
+    lineupsCache[ck] = parsed;
+  }
+  saveLineupsCache();
+  return results;
+}
+
 // ── FILTRO DE EVENTOS RELEVANTES ──────────────────────────────────────────────
 const SKIP_WORDS = ["delay","drink","half begins","kick off","kick-off","end of","period begins","weather","var check concluded","attendance","whistle"];
 function isRelevantEvent(p){
@@ -181,6 +276,18 @@ async function main(){
     matches: Object.values(matches),
     knockout
   };
+
+  // Escalações — só para jogos de grupo AO VIVO agora (mata-mata fica para depois)
+  const liveNow = out.matches.filter(m => m.live).map(m => ({home:m.home, away:m.away}));
+  if (liveNow.length){
+    console.log(`Tentando escalações para ${liveNow.length} jogo(s) ao vivo...`);
+    const lineupsByPair = await fetchLineupsForLive(liveNow);
+    out.matches.forEach(m => {
+      const l = lineupsByPair[`${m.home}|${m.away}`];
+      if (l) m.lineups = l;
+    });
+    if (Object.keys(lineupsByPair).length) console.log(`✅ Escalações obtidas: ${Object.keys(lineupsByPair).length} (${afCallsUsed} chamada(s) à API-Football usada(s))`);
+  }
 
   fs.writeFileSync("results.json", JSON.stringify(out, null, 2));
   console.log(`✅ results.json escrito com ${out.matches.length} jogos de grupo e ${knockout.length} de mata-mata.`);

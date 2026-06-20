@@ -419,13 +419,15 @@ function mergeResultsJSON(json){
         sh:m.sh, sa:m.sa, done:m.done, live:m.live, clock:m.clock||"",
       });
       if(m.events&&m.events.length) existing.events=m.events;
+      if(m.lineups) existing.lineups=m.lineups;
       if(!existing.note && keepNote) existing.note=keepNote;
       updated++;
     } else {
       // Nunca descarta — mesmo sem grupo resolvido, fica visível por data
       RES.push({
         g:g, home:m.home, away:m.away, date:m.date, brTime:m.brTime, venue:m.venue,
-        sh:m.sh, sa:m.sa, done:m.done, live:m.live, clock:m.clock||"", events:m.events||[]
+        sh:m.sh, sa:m.sa, done:m.done, live:m.live, clock:m.clock||"", events:m.events||[],
+        lineups:m.lineups||undefined
       });
       updated++;
     }

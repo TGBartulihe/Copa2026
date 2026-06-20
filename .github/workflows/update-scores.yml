@@ -22,7 +22,9 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Buscar resultados na ESPN
+      - name: Buscar resultados na ESPN e escalações na API-Football
+        env:
+          API_FOOTBALL_KEY: ${{ secrets.API_FOOTBALL_KEY }}
         run: node scripts/update-scores.js
 
       - name: Commit se houver mudanças
@@ -30,6 +32,7 @@ jobs:
           git config user.name "Copa2026 Bot"
           git config user.email "actions@github.com"
           git add results.json
+          git add lineups-cache.json 2>/dev/null || true
           if git diff --staged --quiet; then
             echo "Sem mudanças nos resultados."
           else
