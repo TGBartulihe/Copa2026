@@ -85,40 +85,61 @@ function mapAF(n){ return AF_EXTRA_ALIASES[n] || mapTeam(n); }
 
 // Busca escalações só dos jogos AO VIVO de hoje — nunca dos já encerrados/futuros,
 // e nunca repete um jogo já guardado em cache.
+const LINEUP_RETRY_COOLDOWN_MIN = 10; // não retenta o mesmo jogo/falha antes disto
+
 async function fetchLineupsForLive(liveMatches){
   if (!API_FOOTBALL_KEY || !liveMatches.length) return {};
   loadLineupsCache();
   const todayAF = new Date().toISOString().slice(0,10);
   const results = {};
+  const now = Date.now();
+  const cooledDown = (key) => {
+    const last = lineupsCache[key];
+    return !last || (now - new Date(last).getTime()) / 60000 >= LINEUP_RETRY_COOLDOWN_MIN;
+  };
 
-  // o que já está em cache não gasta chamada nenhuma
+  // o que já está em cache (sucesso) não gasta chamada nenhuma; o que
+  // falhou há pouco também não tenta de novo ainda — evita martelar a
+  // API quando a escalação genuinamente não está disponível
   const pending = liveMatches.filter(m => {
     const ck = `${m.home}|${m.away}|${todayAF}`;
     if (lineupsCache[ck]){ results[`${m.home}|${m.away}`] = lineupsCache[ck]; return false; }
-    return true;
+    return cooledDown(`fail:${ck}`);
   });
   if (!pending.length) return results;
 
+  // Se a descoberta da liga falhou recentemente, não insiste nisso também
+  if (!cooledDown("fail:_leagueId")) return results;
+
   const leagueId = await resolveWorldCupLeagueId();
-  if (!leagueId) return results;
+  if (!leagueId){
+    lineupsCache["fail:_leagueId"] = new Date().toISOString();
+    saveLineupsCache();
+    return results;
+  }
 
   const fxData = await afFetch(`/fixtures?league=${leagueId}&season=2026&date=${todayAF}`);
-  if (!fxData?.response?.length){ saveLineupsCache(); return results; }
+  if (!fxData?.response?.length){
+    pending.forEach(m => { lineupsCache[`fail:${m.home}|${m.away}|${todayAF}`] = new Date().toISOString(); });
+    saveLineupsCache();
+    return results;
+  }
 
   for (const m of pending){
     if (afCallsUsed >= MAX_AF_CALLS_PER_RUN) break;
+    const ck = `${m.home}|${m.away}|${todayAF}`;
     const fx = fxData.response.find(f =>
       (mapAF(f.teams?.home?.name||"")===m.home && mapAF(f.teams?.away?.name||"")===m.away) ||
       (mapAF(f.teams?.away?.name||"")===m.home && mapAF(f.teams?.home?.name||"")===m.away)
     );
-    if (!fx) continue;
+    if (!fx){ lineupsCache[`fail:${ck}`] = new Date().toISOString(); continue; }
     const luData = await afFetch(`/fixtures/lineups?fixture=${fx.fixture.id}`);
-    if (!luData?.response?.length) continue;
+    if (!luData?.response?.length){ lineupsCache[`fail:${ck}`] = new Date().toISOString(); continue; }
     const parsed = { home: parseAFLineup(luData.response[0]), away: parseAFLineup(luData.response[1]) };
-    if (!parsed.home && !parsed.away) continue;
-    const ck = `${m.home}|${m.away}|${todayAF}`;
+    if (!parsed.home && !parsed.away){ lineupsCache[`fail:${ck}`] = new Date().toISOString(); continue; }
     results[`${m.home}|${m.away}`] = parsed;
     lineupsCache[ck] = parsed;
+    delete lineupsCache[`fail:${ck}`];
   }
   saveLineupsCache();
   return results;
@@ -146,6 +167,21 @@ function getIcon(p){
   return null;
 }
 
+// Constrói a frase em português a partir das peças estruturadas (tipo de
+// evento + jogador + equipa) — não traduz a prosa em inglês da ESPN, que
+// não é fiável traduzir automaticamente; em vez disso, monta a frase do
+// zero, sempre correta em português.
+function describeEventPT(icon, playerName){
+  const p = playerName || "jogador";
+  if (icon === "⚽")     return `Gol de ${p}`;
+  if (icon === "⚽ OG")  return `Gol contra de ${p}`;
+  if (icon === "⚽🎯")   return `Pênalti convertido por ${p}`;
+  if (icon === "🟨")     return `Cartão amarelo para ${p}`;
+  if (icon === "🟥")     return `Cartão vermelho para ${p}`;
+  if (icon === "🔄")     return `Substituição — entra ${p}`;
+  return p;
+}
+
 // ── DATAS ─────────────────────────────────────────────────────────────────────
 function dateStr(daysOffset){
   const d = new Date();
@@ -168,21 +204,62 @@ async function fetchScoreboard(ds){
   return res.json();
 }
 
+// ── TRADUÇÃO — preserva o contexto real da ESPN em vez de simplificar ───────
+// Usa DeepL (free tier, 500k caracteres/mês) para traduzir a frase verdadeira
+// da ESPN. Cada frase só é traduzida UMA VEZ (fica em cache) — jogos ao vivo
+// reconsultam o mesmo evento a cada minuto, sem isto gastaria orçamento à toa.
+const DEEPL_API_KEY = process.env.DEEPL_API_KEY || "";
+const TRANSLATE_CACHE_FILE = "translate-cache.json";
+let translateCache = {};
+function loadTranslateCache(){ translateCache = loadJSON(TRANSLATE_CACHE_FILE, {}); }
+function saveTranslateCache(){ saveJSON(TRANSLATE_CACHE_FILE, translateCache); }
+
+async function translateToPT(text){
+  if (!text) return null;
+  if (translateCache[text]) return translateCache[text];
+  if (!DEEPL_API_KEY) return null;
+  try{
+    const res = await fetch("https://api-free.deepl.com/v2/translate", {
+      method: "POST",
+      headers: {
+        "Authorization": `DeepL-Auth-Key ${DEEPL_API_KEY}`,
+        "Content-Type": "application/x-www-form-urlencoded",
+      },
+      body: new URLSearchParams({ text, target_lang: "PT-PT", source_lang: "EN" }),
+    });
+    if (!res.ok) return null;
+    const data = await res.json();
+    const translated = data.translations?.[0]?.text;
+    if (translated) translateCache[text] = translated;
+    return translated || null;
+  }catch(e){ return null; }
+}
+
 async function fetchEvents(eventId){
   try{
     const res = await fetch(`https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event=${eventId}`);
     if (!res.ok) return [];
     const data = await res.json();
     const plays = [...(data.keyEvents||[]), ...(data.plays||[])];
-    return plays
-      .filter(isRelevantEvent)
-      .map(p => {
-        const icon = getIcon(p);
-        if (!icon) return null;
-        return { min: p.clock?.displayValue || "", icon, txt: p.text || p.shortText || "", sub: p.team?.displayName || "" };
-      })
-      .filter(Boolean)
-      .reverse();
+    const relevant = plays.filter(isRelevantEvent);
+
+    const results = [];
+    for (const p of relevant){
+      const icon = getIcon(p);
+      if (!icon) continue;
+      const playerName = p.participants?.[0]?.athlete?.displayName;
+      const teamName = p.team?.displayName || "";
+      const original = p.text || p.shortText || "";
+
+      // Tenta a tradução real (preserva contexto: tipo de remate, assistência...).
+      // Se falhar (sem chave, API em baixo, sem internet), cai no template
+      // simples — nunca mostra a frase em inglês.
+      let txt = await translateToPT(original);
+      if (!txt) txt = describeEventPT(icon, playerName);
+
+      results.push({ min: p.clock?.displayValue || "", icon, txt, sub: teamName });
+    }
+    return results.reverse();
   }catch(e){ return []; }
 }
 
@@ -443,6 +520,7 @@ function markFullRefreshDone(){
 }
 
 async function main(){
+  loadTranslateCache();
   const doFull = shouldDoFullRefresh();
   let offsets;
   if (doFull){
@@ -547,6 +625,7 @@ async function main(){
   fs.writeFileSync("results.json", JSON.stringify(out, null, 2));
   console.log(`✅ results.json escrito com ${out.matches.length} jogos de grupo e ${knockout.length} de mata-mata. (${doFull ? "completa" : "rápida"})`);
 
+  saveTranslateCache();
   await checkAndNotify(out.matches);
   if (doFull) markFullRefreshDone();
 }
