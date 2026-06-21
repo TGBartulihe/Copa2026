@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T04:02:25.176Z",
+  "generatedAt": "2026-06-21T04:03:21.822Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11124,7 +11124,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "2'",
+      "clock": "3'",
       "events": [
         {
           "min": "",
@@ -11162,7 +11162,7 @@
               "row": 2
             },
             {
-              "name": "Hannibal Mejbri",
+              "name": "Anis Slimane",
               "pos": "CM-R",
               "row": 2
             },
@@ -11177,17 +11177,17 @@
               "row": 2
             },
             {
-              "name": "Anis Slimane",
+              "name": "Elias Saad",
               "pos": "F",
               "row": 3
             },
             {
-              "name": "Sebastian Tounekti",
+              "name": "Hannibal Mejbri",
               "pos": "CF-L",
               "row": 3
             },
             {
-              "name": "Elias Saad",
+              "name": "Sebastian Tounekti",
               "pos": "CF-R",
               "row": 3
             }
@@ -11409,7 +11409,7 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "22.2",
+          "possessionPct": "15.4",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
@@ -11439,21 +11439,21 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "77.8",
+          "possessionPct": "84.6",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "6",
-          "totalPasses": "7",
-          "passPct": "0.9",
+          "accuratePasses": "9",
+          "totalPasses": "11",
+          "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
-          "totalLongBalls": "2",
+          "totalLongBalls": "3",
           "accurateLongBalls": "1",
-          "longballPct": "0.5",
+          "longballPct": "0.3",
           "blockedShots": "0",
           "effectiveTackles": "0",
           "totalTackles": "0",
