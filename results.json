@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T23:36:23.780Z",
+  "generatedAt": "2026-06-21T23:37:23.528Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12787,7 +12787,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "71'",
+      "clock": "72'",
       "events": [
         {
           "min": "71'",
@@ -12798,13 +12798,13 @@
         {
           "min": "71'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
           "sub": "🇺🇾"
         },
         {
           "min": "71'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇻. Laros Duarte (Cabo Verde) Substituição aos 71'",
+          "txt": "Substituição, 🇨🇻. Laros Duarte substitui Kevin Pina.",
           "sub": "🇨🇻"
         },
         {
