@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T04:30:25.294Z",
+  "generatedAt": "2026-06-21T04:31:23.501Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11124,8 +11124,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "30'",
+      "clock": "31'",
       "events": [
+        {
+          "min": "31'",
+          "icon": "⚽",
+          "txt": "Ayase Ueda (Japão) Gol aos 31'",
+          "sub": "🇯🇵"
+        },
         {
           "min": "27'",
           "icon": "▶️",
