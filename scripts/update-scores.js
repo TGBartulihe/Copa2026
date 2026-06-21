@@ -11,7 +11,7 @@ const fs = require("fs");
 const ESPN_MAP = {
   "Mexico":"México 🇲🇽","South Africa":"África do Sul 🇿🇦",
   "South Korea":"Coreia do Sul 🇰🇷","Czech Republic":"Rep. Tcheca 🇨🇿","Czechia":"Rep. Tcheca 🇨🇿",
-  "Canada":"Canadá 🇨🇦","Bosnia and Herzegovina":"Bósnia 🇧🇦","Bosnia":"Bósnia 🇧🇦",
+  "Canada":"Canadá 🇨🇦","Bosnia and Herzegovina":"Bósnia 🇧🇦","Bosnia":"Bósnia 🇧🇦","Bosnia-Herzegovina":"Bósnia 🇧🇦",
   "Qatar":"Qatar 🇶🇦","Switzerland":"Suíça 🇨🇭",
   "Brazil":"Brasil 🇧🇷","Morocco":"Marrocos 🇲🇦","Scotland":"Escócia 🏴󠁧󠁢󠁳󠁣󠁴󠁿","Haiti":"Haiti 🇭🇹",
   "United States":"EUA 🇺🇸","USA":"EUA 🇺🇸","Paraguay":"Paraguai 🇵🇾",

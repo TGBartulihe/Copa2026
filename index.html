@@ -293,7 +293,7 @@ const AT={
 
 // Lookup time → grupo, usado para classificar entradas vindas do results.json
 const TEAM_GROUP={};
-Object.entries(AT).forEach(([g,teams])=>teams.forEach(t=>{TEAM_GROUP[t.replace(/[^\p{L}\p{N}]/gu,"").toLowerCase()]=g;}));
+Object.entries(AT).forEach(([g,teams])=>teams.forEach(t=>{TEAM_GROUP[t.normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^\p{L}\p{N}]/gu,"").toLowerCase()]=g;}));
 function groupOf(teamName){
   const k=(teamName||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-zA-Z0-9]/g,"").toLowerCase();
   return TEAM_GROUP[k]||"?";
@@ -679,7 +679,7 @@ let MM_RESULTS={};
 const ESPN_MAP={
   "Mexico":"México 🇲🇽","South Africa":"África do Sul 🇿🇦",
   "South Korea":"Coreia do Sul 🇰🇷","Czech Republic":"Rep. Tcheca 🇨🇿","Czechia":"Rep. Tcheca 🇨🇿",
-  "Canada":"Canadá 🇨🇦","Bosnia and Herzegovina":"Bósnia 🇧🇦","Bosnia":"Bósnia 🇧🇦",
+  "Canada":"Canadá 🇨🇦","Bosnia and Herzegovina":"Bósnia 🇧🇦","Bosnia":"Bósnia 🇧🇦","Bosnia-Herzegovina":"Bósnia 🇧🇦",
   "Qatar":"Qatar 🇶🇦","Switzerland":"Suíça 🇨🇭",
   "Brazil":"Brasil 🇧🇷","Morocco":"Marrocos 🇲🇦","Scotland":"Escócia 🏴󠁧󠁢󠁳󠁣󠁴󠁿","Haiti":"Haiti 🇭🇹",
   "United States":"EUA 🇺🇸","USA":"EUA 🇺🇸","Paraguay":"Paraguai 🇵🇾",
@@ -1134,7 +1134,7 @@ function bResult(){
       uncat.forEach(r=>{h+=card(r);});
     }
   } else {
-    const sorted=[...done].sort((a,b)=>dateSortKey(a.date)-dateSortKey(b.date));
+    const sorted=[...done].sort((a,b)=>dateSortKey(b.date)-dateSortKey(a.date));
     let lastDate=null,first=true;
     sorted.forEach(r=>{
       if(r.date!==lastDate){lastDate=r.date;h+=lbl(r.date,!first);first=false;}
