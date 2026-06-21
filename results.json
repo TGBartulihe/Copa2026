@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T22:53:25.898Z",
+  "generatedAt": "2026-06-21T22:54:24.106Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12790,6 +12790,12 @@
       "clock": "45'+8'",
       "events": [
         {
+          "min": "45'+9'",
+          "icon": "⏱️",
+          "txt": "Fim do primeiro tempo, Uruguai 2, Cabo Verde 1.",
+          "sub": "🏳️"
+        },
+        {
           "min": "45'+6'",
           "icon": "⚽",
           "txt": "Agustín Canobbio (Uruguai) remate com o pé direito no coração da área ao centro da baliza. Assistência de Maxi Araújo com um passe de cabeça.",
@@ -13156,8 +13162,8 @@
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "217",
-          "totalPasses": "258",
+          "accuratePasses": "222",
+          "totalPasses": "263",
           "passPct": "0.8",
           "accurateCrosses": "3",
           "totalCrosses": "12",
@@ -13186,13 +13192,13 @@
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "101",
-          "totalPasses": "138",
+          "accuratePasses": "103",
+          "totalPasses": "141",
           "passPct": "0.7",
           "accurateCrosses": "1",
           "totalCrosses": "3",
           "crossPct": "0.3",
-          "totalLongBalls": "32",
+          "totalLongBalls": "33",
           "accurateLongBalls": "7",
           "longballPct": "0.2",
           "blockedShots": "0",
