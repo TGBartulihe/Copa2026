@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T01:35:26.354Z",
+  "generatedAt": "2026-06-21T01:36:24.904Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -10514,15 +10514,27 @@
       "clock": "76'",
       "events": [
         {
+          "min": "76'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇼. Jearl Margaritha (Curaçao) Substituição aos 76'",
+          "sub": "🇨🇼"
+        },
+        {
+          "min": "76'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇼. Entra Roshon van Eijma para o lugar de Deveron Fonville.",
+          "sub": "🇨🇼"
+        },
+        {
           "min": "75'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇼. Kenji Gorré (Curaçao) Substituição aos 75'",
+          "txt": "Substituição, 🇨🇼. Entra Kenji Gorré substituindo Juninho Bacuna.",
           "sub": "🇨🇼"
         },
         {
           "min": "75'",
           "icon": "🟨",
-          "txt": "Juriën Gaari (Curaçao) Cartão Amarelo aos 75'",
+          "txt": "Juriën Gaari (Curaçao) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇨🇼"
         },
         {
