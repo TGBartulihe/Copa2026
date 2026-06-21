@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T00:00:21.525Z",
+  "generatedAt": "2026-06-21T00:01:24.146Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -12699,12 +12699,359 @@
       "brTime": "21h",
       "venue": "GEHA Field at Arrowhead Stadium",
       "iso": "2026-06-21T00:00Z",
-      "sh": null,
-      "sa": null,
+      "sh": 0,
+      "sa": 0,
       "done": false,
-      "live": false,
-      "clock": "",
-      "events": []
+      "live": true,
+      "clock": "1'",
+      "events": [
+        {
+          "min": "",
+          "icon": "🏁",
+          "txt": "Início de jogo",
+          "sub": "🏳️"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Hernán Galíndez",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Willian Pacho",
+              "pos": "CD",
+              "row": 1
+            },
+            {
+              "name": "Piero Hincapié",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Alan Franco",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Pedro Vite",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Moisés Caicedo",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Pervis Estupiñán",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "John Yeboah",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Jordy Alcívar",
+              "pos": "SW",
+              "row": 3
+            },
+            {
+              "name": "Enner Valencia",
+              "pos": "CF-L",
+              "row": 3
+            },
+            {
+              "name": "Gonzalo Plata",
+              "pos": "CF-R",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Jeremy Arévalo",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Anthony Valencia",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Jackson Porozo",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Kevin Rodríguez",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Yaimar Medina",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Jordy Caicedo",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Alan Minda",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Félix Torres",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Joel Ordóñez",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Nilson Angulo",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Gonzalo Valle",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Ángelo Preciado",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Denil Castillo",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Moisés Ramírez",
+              "pos": "",
+              "row": 3
+            },
+            {
+              "name": "Kendry Páez",
+              "pos": "",
+              "row": 3
+            }
+          ],
+          "formation": "3-1-4-2",
+          "dotColor": "#034ea2"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Eloy Room",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Armando Obispo",
+              "pos": "CD",
+              "row": 1
+            },
+            {
+              "name": "Sherel Floranus",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Juriën Gaari",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Deveron Fonville",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Joshua Brenet",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Leandro Bacuna",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Livano Comenencia",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Juninho Bacuna",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Tahith Chong",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Jürgen Locadia",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Trevor Doornbusch",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Shurandy Sambo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kenji Gorré",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Riechedly Bazoer",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jeremy Antonisse",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ar'jany Martha",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jearl Margaritha",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kevin Felida",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Tyrese Noslin",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Brandley Kuwas",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Godfried Roemeratoe",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Roshon van Eijma",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Gervane Kastaneer",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Tyrick Bodak",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Sontje Hansen",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "5-4-1",
+          "dotColor": "#0537e4"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "0",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "0",
+          "saves": "0",
+          "possessionPct": "100",
+          "totalShots": "0",
+          "shotsOnTarget": "0",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "5",
+          "totalPasses": "6",
+          "passPct": "0.8",
+          "accurateCrosses": "0",
+          "totalCrosses": "0",
+          "crossPct": "0.0",
+          "totalLongBalls": "0",
+          "accurateLongBalls": "0",
+          "longballPct": "0.0",
+          "blockedShots": "0",
+          "effectiveTackles": "0",
+          "totalTackles": "0",
+          "tacklePct": "0.0",
+          "interceptions": "0",
+          "effectiveClearance": "0",
+          "totalClearance": "0"
+        },
+        "away": {
+          "foulsCommitted": "0",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "0",
+          "saves": "0",
+          "possessionPct": "0",
+          "totalShots": "0",
+          "shotsOnTarget": "0",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "0",
+          "totalPasses": "0",
+          "passPct": "0.0",
+          "accurateCrosses": "0",
+          "totalCrosses": "0",
+          "crossPct": "0.0",
+          "totalLongBalls": "0",
+          "accurateLongBalls": "0",
+          "longballPct": "0.0",
+          "blockedShots": "0",
+          "effectiveTackles": "0",
+          "totalTackles": "0",
+          "tacklePct": "0.0",
+          "interceptions": "0",
+          "effectiveClearance": "0",
+          "totalClearance": "0"
+        }
+      }
     },
     {
       "home": "Tunísia 🇹🇳",
