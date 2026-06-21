@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T19:36:24.660Z",
+  "generatedAt": "2026-06-21T19:37:24.376Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12232,19 +12232,19 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "36'",
+      "clock": "37'",
       "events": [
-        {
-          "min": "35'",
-          "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇮🇷"
-        },
         {
           "min": "35'",
           "icon": "▶️",
           "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇧🇪"
+        },
+        {
+          "min": "35'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇮🇷"
         },
         {
           "min": "34'",
@@ -12610,17 +12610,17 @@
           "foulsCommitted": "4",
           "yellowCards": "1",
           "redCards": "0",
-          "offsides": "0",
+          "offsides": "1",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "75.8",
+          "possessionPct": "77.3",
           "totalShots": "8",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "178",
-          "totalPasses": "203",
+          "accuratePasses": "202",
+          "totalPasses": "228",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "10",
@@ -12643,14 +12643,14 @@
           "offsides": "2",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "24.2",
+          "possessionPct": "22.7",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "41",
-          "totalPasses": "65",
+          "accuratePasses": "42",
+          "totalPasses": "67",
           "passPct": "0.6",
           "accurateCrosses": "1",
           "totalCrosses": "2",
@@ -12662,7 +12662,7 @@
           "effectiveTackles": "3",
           "totalTackles": "5",
           "tacklePct": "0.6",
-          "interceptions": "3",
+          "interceptions": "4",
           "effectiveClearance": "13",
           "totalClearance": "13"
         }
