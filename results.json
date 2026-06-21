@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T22:51:24.199Z",
+  "generatedAt": "2026-06-21T22:52:22.633Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12783,12 +12783,18 @@
       "brTime": "19h",
       "venue": "Hard Rock Stadium",
       "iso": "2026-06-21T22:00Z",
-      "sh": 1,
+      "sh": 2,
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "45'+6'",
+      "clock": "45'+7'",
       "events": [
+        {
+          "min": "45'+6'",
+          "icon": "⚽",
+          "txt": "Agustín Canobbio (Uruguai) remate com o pé direito no coração da área ao centro da baliza. Assistência de Maxi Araújo com um passe de cabeça.",
+          "sub": "🇺🇾"
+        },
         {
           "min": "45'+1'",
           "icon": "▶️",
@@ -13144,17 +13150,17 @@
           "offsides": "2",
           "wonCorners": "4",
           "saves": "0",
-          "possessionPct": "66.1",
-          "totalShots": "10",
-          "shotsOnTarget": "1",
-          "shotPct": "0.1",
+          "possessionPct": "66.9",
+          "totalShots": "11",
+          "shotsOnTarget": "2",
+          "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "209",
-          "totalPasses": "249",
+          "accuratePasses": "217",
+          "totalPasses": "258",
           "passPct": "0.8",
           "accurateCrosses": "3",
-          "totalCrosses": "11",
+          "totalCrosses": "12",
           "crossPct": "0.3",
           "totalLongBalls": "22",
           "accurateLongBalls": "11",
@@ -13174,7 +13180,7 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "33.9",
+          "possessionPct": "33.1",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
@@ -13193,9 +13199,9 @@
           "effectiveTackles": "5",
           "totalTackles": "6",
           "tacklePct": "0.8",
-          "interceptions": "2",
-          "effectiveClearance": "20",
-          "totalClearance": "20"
+          "interceptions": "3",
+          "effectiveClearance": "21",
+          "totalClearance": "21"
         }
       }
     },
