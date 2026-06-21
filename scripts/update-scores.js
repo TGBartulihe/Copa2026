@@ -435,12 +435,27 @@ function matchesSubscription(m, sub){
   return favs.includes(homeCode) || favs.includes(awayCode);
 }
 
-async function checkAndNotify(allMatches){
+// Cache local — o Cloudflare KV tem limite de só 1.000 chamadas "list" por
+// dia, e o robô agora corre ~1440x/dia. Sem isto, só esta chamada já
+// passava do limite. Só busca de verdade nas execuções "completas"
+// (~100x/dia), e usa o que já tinha guardado nas execuções rápidas.
+const SUBS_CACHE_FILE = "subscriptions-cache.json";
+async function loadSubscriptionsCached(forceFresh){
+  if (!forceFresh){
+    const cached = loadJSON(SUBS_CACHE_FILE, null);
+    if (cached && Array.isArray(cached.subs)) return cached.subs;
+  }
+  const subs = await loadSubscriptions();
+  saveJSON(SUBS_CACHE_FILE, { subs, fetchedAt: new Date().toISOString() });
+  return subs;
+}
+
+async function checkAndNotify(allMatches, doFull){
   if (!webpush || !VAPID_PUBLIC || !VAPID_PRIVATE){
     console.log("Notificações desligadas (sem chaves VAPID configuradas).");
     return;
   }
-  const subs = await loadSubscriptions();
+  const subs = await loadSubscriptionsCached(doFull);
   if (!Array.isArray(subs) || !subs.length){
     console.log("Nenhuma subscrição registada ainda — sem notificações a enviar.");
     return;
@@ -653,7 +668,7 @@ async function main(){
   console.log(`✅ results.json escrito com ${out.matches.length} jogos de grupo e ${knockout.length} de mata-mata. (${doFull ? "completa" : "rápida"})`);
 
   saveTranslateCache();
-  await checkAndNotify(out.matches);
+  await checkAndNotify(out.matches, doFull);
   if (doFull) markFullRefreshDone();
 }
 

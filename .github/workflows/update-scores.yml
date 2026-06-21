@@ -40,6 +40,7 @@ jobs:
           git add notified-cache.json 2>/dev/null || true
           git add subscriptions.json 2>/dev/null || true
           git add full-refresh-state.json 2>/dev/null || true
+          git add subscriptions-cache.json 2>/dev/null || true
           git add translate-cache.json 2>/dev/null || true
 
           if git diff --staged --quiet; then
