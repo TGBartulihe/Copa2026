@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T05:28:25.070Z",
+  "generatedAt": "2026-06-21T05:29:23.410Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11124,8 +11124,14 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "68'",
+      "clock": "69'",
       "events": [
+        {
+          "min": "69'",
+          "icon": "⚽",
+          "txt": "Junya Ito (Japão) finalização com o pé direito do meio da área.",
+          "sub": "🇯🇵"
+        },
         {
           "min": "64'",
           "icon": "🔄",
