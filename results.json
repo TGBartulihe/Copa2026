@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T16:30:24.016Z",
+  "generatedAt": "2026-06-21T16:31:25.498Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11649,8 +11649,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "29'",
+      "clock": "30'",
       "events": [
+        {
+          "min": "30'",
+          "icon": "🟨",
+          "txt": "Salem Al Dawsari (Arábia Saudita) recebe cartão amarelo por uma entrada perigosa.",
+          "sub": "🇸🇦"
+        },
         {
           "min": "28'",
           "icon": "▶️",
@@ -11678,7 +11684,7 @@
         {
           "min": "24'",
           "icon": "⚽",
-          "txt": "Mikel Oyarzabal (Espanha) finalização com o pé esquerdo em frente à baliza ao ângulo superior direito. Assistência de Dani Olmo.",
+          "txt": "Mikel Oyarzabal (Espanha) finalização com o pé esquerdo em frente à baliza ao ângulo superior direito. Assistência de Dani Olmo com um passe de cabeça.",
           "sub": "🇪🇸"
         },
         {
@@ -11986,24 +11992,24 @@
           "offsides": "0",
           "wonCorners": "3",
           "saves": "0",
-          "possessionPct": "73.1",
+          "possessionPct": "73.6",
           "totalShots": "12",
           "shotsOnTarget": "4",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "159",
-          "totalPasses": "175",
+          "accuratePasses": "168",
+          "totalPasses": "185",
           "passPct": "0.9",
           "accurateCrosses": "5",
-          "totalCrosses": "13",
+          "totalCrosses": "14",
           "crossPct": "0.4",
           "totalLongBalls": "11",
           "accurateLongBalls": "8",
           "longballPct": "0.7",
           "blockedShots": "1",
-          "effectiveTackles": "4",
-          "totalTackles": "4",
+          "effectiveTackles": "5",
+          "totalTackles": "5",
           "tacklePct": "1.0",
           "interceptions": "6",
           "effectiveClearance": "1",
@@ -12011,19 +12017,19 @@
         },
         "away": {
           "foulsCommitted": "1",
-          "yellowCards": "0",
+          "yellowCards": "1",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "26.9",
+          "possessionPct": "26.4",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "45",
-          "totalPasses": "68",
+          "accuratePasses": "46",
+          "totalPasses": "70",
           "passPct": "0.7",
           "accurateCrosses": "0",
           "totalCrosses": "0",
@@ -12035,9 +12041,9 @@
           "effectiveTackles": "2",
           "totalTackles": "2",
           "tacklePct": "1.0",
-          "interceptions": "0",
-          "effectiveClearance": "16",
-          "totalClearance": "16"
+          "interceptions": "1",
+          "effectiveClearance": "17",
+          "totalClearance": "17"
         }
       }
     },
