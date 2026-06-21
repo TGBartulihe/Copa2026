@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T23:37:23.528Z",
+  "generatedAt": "2026-06-21T23:38:25.183Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12787,7 +12787,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "72'",
+      "clock": "73'",
       "events": [
         {
           "min": "71'",
@@ -12804,7 +12804,7 @@
         {
           "min": "71'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇻. Laros Duarte substitui Kevin Pina.",
+          "txt": "Substituição, 🇨🇻. Laros Duarte entra em campo com Kevin Pina devido a uma lesão.",
           "sub": "🇨🇻"
         },
         {
@@ -12817,12 +12817,6 @@
           "min": "70'",
           "icon": "🔄",
           "txt": "Substituição, 🇺🇾. Darwin Núñez substitui Federico Viñas.",
-          "sub": "🇺🇾"
-        },
-        {
-          "min": "70'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
           "sub": "🇺🇾"
         },
         {
@@ -13326,8 +13320,8 @@
           "totalTackles": "12",
           "tacklePct": "0.9",
           "interceptions": "8",
-          "effectiveClearance": "30",
-          "totalClearance": "30"
+          "effectiveClearance": "29",
+          "totalClearance": "29"
         }
       }
     },
