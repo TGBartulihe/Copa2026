@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T16:49:24.071Z",
+  "generatedAt": "2026-06-21T16:50:22.842Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11649,7 +11649,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "45'+3'",
+      "clock": "45'+4'",
       "events": [
         {
           "min": "30'",
@@ -11992,14 +11992,14 @@
           "offsides": "0",
           "wonCorners": "4",
           "saves": "0",
-          "possessionPct": "72.6",
+          "possessionPct": "72.5",
           "totalShots": "17",
           "shotsOnTarget": "5",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "335",
-          "totalPasses": "366",
+          "accuratePasses": "336",
+          "totalPasses": "368",
           "passPct": "0.9",
           "accurateCrosses": "6",
           "totalCrosses": "17",
@@ -12008,12 +12008,12 @@
           "accurateLongBalls": "11",
           "longballPct": "0.7",
           "blockedShots": "1",
-          "effectiveTackles": "5",
-          "totalTackles": "6",
-          "tacklePct": "0.8",
+          "effectiveTackles": "6",
+          "totalTackles": "7",
+          "tacklePct": "0.9",
           "interceptions": "10",
-          "effectiveClearance": "6",
-          "totalClearance": "6"
+          "effectiveClearance": "9",
+          "totalClearance": "9"
         },
         "away": {
           "foulsCommitted": "1",
@@ -12022,14 +12022,14 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "27.4",
+          "possessionPct": "27.5",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "100",
-          "totalPasses": "143",
+          "accuratePasses": "101",
+          "totalPasses": "144",
           "passPct": "0.7",
           "accurateCrosses": "0",
           "totalCrosses": "1",
@@ -12042,8 +12042,8 @@
           "totalTackles": "6",
           "tacklePct": "0.8",
           "interceptions": "5",
-          "effectiveClearance": "24",
-          "totalClearance": "24"
+          "effectiveClearance": "25",
+          "totalClearance": "25"
         }
       }
     },
