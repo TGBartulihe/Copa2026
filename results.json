@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T17:54:24.398Z",
+  "generatedAt": "2026-06-21T17:55:24.012Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11645,12 +11645,18 @@
       "brTime": "13h",
       "venue": "Mercedes-Benz Stadium",
       "iso": "2026-06-21T16:00Z",
-      "sh": 4,
+      "sh": 5,
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "90'+1'",
+      "clock": "90'+2'",
       "events": [
+        {
+          "min": "90'+2'",
+          "icon": "⚽",
+          "txt": "Ferran Torres (Espanha) finalização com o pé esquerdo de muito perto.",
+          "sub": "🇪🇸"
+        },
         {
           "min": "90'",
           "icon": "🔄",
@@ -12148,14 +12154,14 @@
           "offsides": "1",
           "wonCorners": "6",
           "saves": "1",
-          "possessionPct": "65.7",
-          "totalShots": "21",
-          "shotsOnTarget": "8",
+          "possessionPct": "66.4",
+          "totalShots": "22",
+          "shotsOnTarget": "9",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "610",
-          "totalPasses": "666",
+          "accuratePasses": "634",
+          "totalPasses": "690",
           "passPct": "0.9",
           "accurateCrosses": "7",
           "totalCrosses": "24",
@@ -12178,7 +12184,7 @@
           "offsides": "3",
           "wonCorners": "1",
           "saves": "5",
-          "possessionPct": "34.3",
+          "possessionPct": "33.6",
           "totalShots": "3",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
