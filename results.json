@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T05:44:22.545Z",
+  "generatedAt": "2026-06-21T05:45:22.322Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11124,12 +11124,24 @@
       "sa": 4,
       "done": false,
       "live": true,
-      "clock": "84'",
+      "clock": "85'",
       "events": [
+        {
+          "min": "85'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇹🇳"
+        },
+        {
+          "min": "84'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇯🇵. Substituição de Keisuke Goto (Japão) aos 84'",
+          "sub": "🇯🇵"
+        },
         {
           "min": "83'",
           "icon": "⚽",
-          "txt": "Ayase Ueda (Japão) cabeceia de muito perto.",
+          "txt": "Ayase Ueda (Japão) de cabeça de muito perto no Escanteio inferior direito. Assistência de Kaishu Sano com um cruzamento.",
           "sub": "🇯🇵"
         },
         {
