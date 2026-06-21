@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T00:37:23.321Z",
+  "generatedAt": "2026-06-21T00:38:22.888Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -10511,8 +10511,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "36'",
+      "clock": "37'",
       "events": [
+        {
+          "min": "38'",
+          "icon": "🟨",
+          "txt": "Jordy Alcívar (Equador) Cartão Amarelo aos 38'",
+          "sub": "🇪🇨"
+        },
         {
           "min": "35'",
           "icon": "▶️",
@@ -10860,8 +10866,8 @@
           "shotPct": "0.7",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "239",
-          "totalPasses": "270",
+          "accuratePasses": "244",
+          "totalPasses": "278",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "6",
@@ -10890,19 +10896,19 @@
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "73",
-          "totalPasses": "98",
+          "accuratePasses": "75",
+          "totalPasses": "101",
           "passPct": "0.7",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
-          "totalLongBalls": "14",
+          "totalLongBalls": "15",
           "accurateLongBalls": "2",
           "longballPct": "0.1",
           "blockedShots": "2",
-          "effectiveTackles": "1",
-          "totalTackles": "4",
-          "tacklePct": "0.3",
+          "effectiveTackles": "2",
+          "totalTackles": "5",
+          "tacklePct": "0.4",
           "interceptions": "5",
           "effectiveClearance": "8",
           "totalClearance": "8"
