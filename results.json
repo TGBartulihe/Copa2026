@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T01:03:23.353Z",
+  "generatedAt": "2026-06-21T01:04:25.727Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -10513,6 +10513,12 @@
       "live": true,
       "clock": "45'+4'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇪🇨. Kevin Rodríguez (Equador) Substituição aos 45'",
+          "sub": "🇪🇨"
+        },
         {
           "min": "45'+5'",
           "icon": "⏱️",
