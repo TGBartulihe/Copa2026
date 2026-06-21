@@ -1,1 +1,55 @@
-{}
+{
+  "subs": [
+    {
+      "favoriteTeams": [
+        "BRA",
+        "CRO",
+        "COL"
+      ],
+      "subscription": {
+        "endpoint": "https://fcm.googleapis.com/fcm/send/c6H_tCzqxw4:APA91bHwMwoNVQh1wORoGfzv0seT3-koU6kou2th1hT9MQXtleyS_cueJm-f9dzbGH0T7bzpd7L_kQFki4uNk7vMUsgI3VAcAd4FTFW9zyvko7-_sE_N8oyeNDl_d06Fs7kMmYAqz_8m",
+        "expirationTime": null,
+        "keys": {
+          "p256dh": "BLcGAbPgGNScX5-jcHkhM-__iXi1AP80w0r6dbeqTVp15gvKECL4v7meDA8oQyBrv_2aHO7yLZj33vXAOeTIzq0",
+          "auth": "CFgg1mK8Bva1o4Fq0YYlLA"
+        }
+      },
+      "createdAt": "2026-06-20T16:45:58.747Z",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "favoriteTeams": [
+        "CRO",
+        "BRA",
+        "POR"
+      ],
+      "subscription": {
+        "endpoint": "https://fcm.googleapis.com/fcm/send/eWhkc9_wFZA:APA91bHEmLBPkpcS0gawgVY6PhUAFvh2Fl6LEWLhfzoJakpJPhohV5LdMRCMnSofhsxNQhiwmNYBtVd3qUlGgCy52F5jCVzTSrLw7fXFQAIFRbXLwCC9QeDNzQyJjXbk_yKyCU2a9fsC",
+        "expirationTime": null,
+        "keys": {
+          "p256dh": "BJ3WNyjcA6L4rujRXAzPTeO8tPVw-Z-VFZsO-KGLlKWH8Kc3pRAmG3ofKt4ctzjL-Fjqjy-wbmF0g0RT-IwDmZo",
+          "auth": "_-UiXE7APzTigCbxv5RuDw"
+        }
+      },
+      "createdAt": "2026-06-21T06:49:44.114Z",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "favoriteTeams": [
+        "BRA",
+        "CRO"
+      ],
+      "subscription": {
+        "endpoint": "https://fcm.googleapis.com/fcm/send/d-D643BlI6M:APA91bGq3AZetpUWLAPklicegMwl3q4vkSXCE1e6Mnh0_-jG9wRwscx1WR6f-jw2qckkWnPGKm3EWvMxCLqOna3AThdXpjmsB6k8TecbzUSHMy0PJImQBQBPcvLqk6WADXPeOSoN4XVX",
+        "expirationTime": null,
+        "keys": {
+          "p256dh": "BCE6i-lQ_JyoZrgQSaF9WSp-wN42mxvY5EF2EKsso_WSJ_z5HBFcZnuvdC8WVQEKfEhjX16oym8QluNIZl4uNyk",
+          "auth": "XGFjywPzqnyQYwik5v1LpQ"
+        }
+      },
+      "createdAt": "2026-06-20T18:10:03.832Z",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+    }
+  ],
+  "fetchedAt": "2026-06-21T17:31:24.832Z"
+}
