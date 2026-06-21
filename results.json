@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T19:31:24.738Z",
+  "generatedAt": "2026-06-21T19:32:22.127Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12232,7 +12232,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "31'",
+      "clock": "32'",
       "events": [
         {
           "min": "30'",
@@ -12572,7 +12572,7 @@
           "wonCorners": "2",
           "saves": "1",
           "possessionPct": "74.1",
-          "totalShots": "7",
+          "totalShots": "8",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
@@ -12586,7 +12586,7 @@
           "totalLongBalls": "6",
           "accurateLongBalls": "2",
           "longballPct": "0.3",
-          "blockedShots": "2",
+          "blockedShots": "3",
           "effectiveTackles": "2",
           "totalTackles": "5",
           "tacklePct": "0.4",
