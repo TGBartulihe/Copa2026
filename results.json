@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T17:49:24.768Z",
+  "generatedAt": "2026-06-21T17:50:22.201Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11649,8 +11649,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "86'",
+      "clock": "87'",
       "events": [
+        {
+          "min": "87'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "87'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇪🇸"
+        },
         {
           "min": "70'",
           "icon": "▶️",
@@ -12118,7 +12130,7 @@
           "offsides": "1",
           "wonCorners": "6",
           "saves": "1",
-          "possessionPct": "67.3",
+          "possessionPct": "65.5",
           "totalShots": "21",
           "shotsOnTarget": "8",
           "shotPct": "0.4",
@@ -12138,8 +12150,8 @@
           "totalTackles": "9",
           "tacklePct": "0.9",
           "interceptions": "14",
-          "effectiveClearance": "12",
-          "totalClearance": "12"
+          "effectiveClearance": "14",
+          "totalClearance": "14"
         },
         "away": {
           "foulsCommitted": "2",
@@ -12148,21 +12160,21 @@
           "offsides": "3",
           "wonCorners": "1",
           "saves": "5",
-          "possessionPct": "32.7",
+          "possessionPct": "34.5",
           "totalShots": "3",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "263",
-          "totalPasses": "329",
+          "accuratePasses": "286",
+          "totalPasses": "355",
           "passPct": "0.8",
           "accurateCrosses": "0",
-          "totalCrosses": "4",
+          "totalCrosses": "5",
           "crossPct": "0.0",
-          "totalLongBalls": "32",
-          "accurateLongBalls": "11",
-          "longballPct": "0.3",
+          "totalLongBalls": "34",
+          "accurateLongBalls": "13",
+          "longballPct": "0.4",
           "blockedShots": "1",
           "effectiveTackles": "12",
           "totalTackles": "15",
