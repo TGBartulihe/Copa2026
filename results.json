@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T05:29:23.410Z",
+  "generatedAt": "2026-06-21T05:30:25.438Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11121,15 +11121,21 @@
       "venue": "Estadio BBVA",
       "iso": "2026-06-21T04:00Z",
       "sh": 0,
-      "sa": 2,
+      "sa": 3,
       "done": false,
       "live": true,
-      "clock": "69'",
+      "clock": "70'",
       "events": [
+        {
+          "min": "70'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇯🇵"
+        },
         {
           "min": "69'",
           "icon": "⚽",
-          "txt": "Junya Ito (Japão) finalização com o pé direito do meio da área.",
+          "txt": "Junya Ito (Japão) finalização com o pé direito do meio da área no Escanteio inferior direito. Assistência de Ayase Ueda com um passe em profundidade.",
           "sub": "🇯🇵"
         },
         {
@@ -11481,7 +11487,7 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "36.6",
+          "possessionPct": "36.3",
           "totalShots": "2",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
@@ -11511,14 +11517,14 @@
           "offsides": "0",
           "wonCorners": "4",
           "saves": "0",
-          "possessionPct": "63.4",
-          "totalShots": "8",
-          "shotsOnTarget": "3",
+          "possessionPct": "63.7",
+          "totalShots": "9",
+          "shotsOnTarget": "4",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "421",
-          "totalPasses": "469",
+          "accuratePasses": "429",
+          "totalPasses": "477",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "9",
