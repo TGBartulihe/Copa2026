@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T20:15:26.219Z",
+  "generatedAt": "2026-06-21T20:16:26.521Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11689,15 +11689,15 @@
         },
         {
           "min": "87'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a uma lesão de Mohamed Kanno (Arábia Saudita).",
-          "sub": "🇸🇦"
-        },
-        {
-          "min": "87'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇪🇸"
+        },
+        {
+          "min": "87'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Mohamed Kanno (Arábia Saudita).",
+          "sub": "🇸🇦"
         },
         {
           "min": "70'",
@@ -11767,15 +11767,15 @@
         },
         {
           "min": "60'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a uma lesão de Rodri (Espanha).",
-          "sub": "🇪🇸"
-        },
-        {
-          "min": "60'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇸🇦"
+        },
+        {
+          "min": "60'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Rodri (Espanha).",
+          "sub": "🇪🇸"
         },
         {
           "min": "60'",
@@ -12232,7 +12232,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "50'",
+      "clock": "51'",
       "events": [
         {
           "min": "45'",
@@ -12629,20 +12629,20 @@
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "2",
-          "wonCorners": "3",
+          "wonCorners": "4",
           "saves": "1",
-          "possessionPct": "80.8",
-          "totalShots": "12",
+          "possessionPct": "80.9",
+          "totalShots": "13",
           "shotsOnTarget": "4",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "334",
-          "totalPasses": "390",
+          "totalPasses": "391",
           "passPct": "0.9",
-          "accurateCrosses": "1",
-          "totalCrosses": "16",
-          "crossPct": "0.1",
+          "accurateCrosses": "3",
+          "totalCrosses": "18",
+          "crossPct": "0.2",
           "totalLongBalls": "16",
           "accurateLongBalls": "6",
           "longballPct": "0.4",
@@ -12661,7 +12661,7 @@
           "offsides": "2",
           "wonCorners": "1",
           "saves": "4",
-          "possessionPct": "19.2",
+          "possessionPct": "19.1",
           "totalShots": "3",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
