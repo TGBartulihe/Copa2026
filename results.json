@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T21:01:25.276Z",
+  "generatedAt": "2026-06-21T21:02:24.521Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12230,10 +12230,16 @@
       "iso": "2026-06-21T19:00Z",
       "sh": 0,
       "sa": 0,
-      "done": false,
-      "live": true,
-      "clock": "90'+5'",
+      "done": true,
+      "live": false,
+      "clock": "",
       "events": [
+        {
+          "min": "90'+6'",
+          "icon": "•",
+          "txt": "Fim do segundo tempo, Bélgica 0, IR Iran 0.",
+          "sub": "🏳️"
+        },
         {
           "min": "87'",
           "icon": "🔄",
