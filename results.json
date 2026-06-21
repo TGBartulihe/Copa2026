@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T00:32:22.289Z",
+  "generatedAt": "2026-06-21T00:33:22.804Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -10511,7 +10511,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "31'",
+      "clock": "32'",
       "events": [
         {
           "min": "27'",
@@ -10830,17 +10830,17 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "72.1",
+          "possessionPct": "71.9",
           "totalShots": "7",
           "shotsOnTarget": "5",
           "shotPct": "0.7",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "195",
-          "totalPasses": "224",
+          "accuratePasses": "204",
+          "totalPasses": "234",
           "passPct": "0.9",
           "accurateCrosses": "0",
-          "totalCrosses": "5",
+          "totalCrosses": "6",
           "crossPct": "0.0",
           "totalLongBalls": "14",
           "accurateLongBalls": "4",
@@ -10860,14 +10860,14 @@
           "offsides": "2",
           "wonCorners": "0",
           "saves": "5",
-          "possessionPct": "27.9",
+          "possessionPct": "28.1",
           "totalShots": "3",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "64",
-          "totalPasses": "88",
+          "accuratePasses": "69",
+          "totalPasses": "93",
           "passPct": "0.7",
           "accurateCrosses": "0",
           "totalCrosses": "0",
@@ -10876,12 +10876,12 @@
           "accurateLongBalls": "2",
           "longballPct": "0.2",
           "blockedShots": "1",
-          "effectiveTackles": "0",
-          "totalTackles": "2",
-          "tacklePct": "0.0",
+          "effectiveTackles": "1",
+          "totalTackles": "4",
+          "tacklePct": "0.3",
           "interceptions": "5",
-          "effectiveClearance": "6",
-          "totalClearance": "6"
+          "effectiveClearance": "8",
+          "totalClearance": "8"
         }
       }
     },
