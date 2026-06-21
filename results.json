@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T00:01:24.146Z",
+  "generatedAt": "2026-06-21T00:02:22.429Z",
   "matches": [
     {
       "home": "Espanha 🇪🇸",
@@ -12703,7 +12703,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "1'",
+      "clock": "2'",
       "events": [
         {
           "min": "",
@@ -12736,12 +12736,12 @@
               "row": 1
             },
             {
-              "name": "Pedro Vite",
+              "name": "Moisés Caicedo",
               "pos": "CM-L",
               "row": 2
             },
             {
-              "name": "Moisés Caicedo",
+              "name": "Pedro Vite",
               "pos": "CM-R",
               "row": 2
             },
