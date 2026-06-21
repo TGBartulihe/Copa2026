@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T01:31:23.918Z",
+  "generatedAt": "2026-06-21T01:32:23.995Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -10511,19 +10511,19 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "71'",
+      "clock": "72'",
       "events": [
         {
           "min": "71'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
-          "sub": "🇪🇨"
+          "sub": "🇨🇼"
         },
         {
           "min": "71'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇨🇼"
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇪🇨"
         },
         {
           "min": "70'",
@@ -10532,7 +10532,7 @@
           "sub": "🇪🇨"
         },
         {
-          "min": "70'",
+          "min": "68'",
           "icon": "⏸️",
           "txt": "Atraso na partida para uma pausa para bebidas.",
           "sub": "🇪🇨"
@@ -10944,8 +10944,8 @@
           "shotPct": "0.6",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "453",
-          "totalPasses": "502",
+          "accuratePasses": "457",
+          "totalPasses": "506",
           "passPct": "0.9",
           "accurateCrosses": "8",
           "totalCrosses": "19",
@@ -10958,8 +10958,8 @@
           "totalTackles": "18",
           "tacklePct": "0.6",
           "interceptions": "4",
-          "effectiveClearance": "13",
-          "totalClearance": "13"
+          "effectiveClearance": "14",
+          "totalClearance": "14"
         },
         "away": {
           "foulsCommitted": "8",
@@ -10967,7 +10967,7 @@
           "redCards": "0",
           "offsides": "2",
           "wonCorners": "0",
-          "saves": "11",
+          "saves": "12",
           "possessionPct": "26",
           "totalShots": "9",
           "shotsOnTarget": "2",
@@ -10975,18 +10975,18 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "129",
-          "totalPasses": "180",
+          "totalPasses": "181",
           "passPct": "0.7",
           "accurateCrosses": "1",
           "totalCrosses": "1",
           "crossPct": "1.0",
-          "totalLongBalls": "37",
+          "totalLongBalls": "38",
           "accurateLongBalls": "9",
           "longballPct": "0.2",
           "blockedShots": "3",
-          "effectiveTackles": "4",
-          "totalTackles": "9",
-          "tacklePct": "0.4",
+          "effectiveTackles": "5",
+          "totalTackles": "11",
+          "tacklePct": "0.5",
           "interceptions": "7",
           "effectiveClearance": "15",
           "totalClearance": "15"
