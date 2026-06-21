@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T20:37:25.459Z",
+  "generatedAt": "2026-06-21T20:38:23.445Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12232,8 +12232,26 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "71'",
+      "clock": "73'",
       "events": [
+        {
+          "min": "73'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇧🇪. Substituição de Arthur Theate (Bélgica) aos 73'",
+          "sub": "🇧🇪"
+        },
+        {
+          "min": "73'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇮🇷"
+        },
+        {
+          "min": "73'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇧🇪"
+        },
         {
           "min": "70'",
           "icon": "⏸️",
