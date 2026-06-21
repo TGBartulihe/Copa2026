@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T19:32:22.127Z",
+  "generatedAt": "2026-06-21T19:33:23.137Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12232,8 +12232,26 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "32'",
+      "clock": "33'",
       "events": [
+        {
+          "min": "33'",
+          "icon": "🟨",
+          "txt": "Saeid Ezatolahi (Irã) Cartão Amarelo aos 33'",
+          "sub": "🇮🇷"
+        },
+        {
+          "min": "33'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇧🇪"
+        },
+        {
+          "min": "33'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇮🇷"
+        },
         {
           "min": "30'",
           "icon": "⏸️",
