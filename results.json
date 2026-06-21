@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T17:05:22.317Z",
+  "generatedAt": "2026-06-21T17:06:25.032Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11651,6 +11651,30 @@
       "live": true,
       "clock": "45'+5'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇦. Substituição de Abdullah Al-Hamdan (Arábia Saudita) aos 45'",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇦. Mohamed Kanno (Arábia Saudita) Substituição aos 45'",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇪🇸. Ferran Torres (Espanha) Substituição aos 45'",
+          "sub": "🇪🇸"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇪🇸. Yéremy Pino substitui Lamine Yamal.",
+          "sub": "🇪🇸"
+        },
         {
           "min": "45'+6'",
           "icon": "⏱️",
