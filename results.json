@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T08:38:24.924Z",
+  "generatedAt": "2026-06-21T17:29:22.514Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11590,7 +11590,7 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "284",
-          "totalPasses": "353",
+          "totalPasses": "354",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "10",
@@ -11620,19 +11620,19 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "521",
-          "totalPasses": "582",
+          "totalPasses": "583",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "11",
           "crossPct": "0.2",
           "totalLongBalls": "32",
-          "accurateLongBalls": "19",
+          "accurateLongBalls": "18",
           "longballPct": "0.6",
           "blockedShots": "3",
-          "effectiveTackles": "11",
+          "effectiveTackles": "12",
           "totalTackles": "18",
-          "tacklePct": "0.6",
-          "interceptions": "6",
+          "tacklePct": "0.7",
+          "interceptions": "7",
           "effectiveClearance": "25",
           "totalClearance": "25"
         }
@@ -11645,12 +11645,503 @@
       "brTime": "13h",
       "venue": "Mercedes-Benz Stadium",
       "iso": "2026-06-21T16:00Z",
-      "sh": null,
-      "sa": null,
+      "sh": 4,
+      "sa": 0,
       "done": false,
-      "live": false,
-      "clock": "",
-      "events": []
+      "live": true,
+      "clock": "66'",
+      "events": [
+        {
+          "min": "61'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇪🇸. Nico Williams substitui Álex Baena.",
+          "sub": "🇪🇸"
+        },
+        {
+          "min": "61'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇪🇸. Entra Mikel Merino para o lugar de Dani Olmo.",
+          "sub": "🇪🇸"
+        },
+        {
+          "min": "61'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "61'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇪🇸"
+        },
+        {
+          "min": "60'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇦. Alaa Al Hejji entra em campo com Abdulelah Al Amri.",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "60'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇦. Entra Mohammed Abu Al Shamat para o lugar de Feras Al Brikan.",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "60'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Rodri (Espanha).",
+          "sub": "🇪🇸"
+        },
+        {
+          "min": "60'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "60'",
+          "icon": "🟨",
+          "txt": "Mohamed Kanno (Arábia Saudita) recebe cartão amarelo por uma entrada perigosa.",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "49'",
+          "icon": "⚽ OG",
+          "txt": "Gol contra marcado por Hassan Al Tambakti, Arábia Saudita. Espanha 4, Arábia Saudita 0.",
+          "sub": "🇪🇸"
+        },
+        {
+          "min": "45'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🏳️"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇦. Entra Abdullah Al Hamddan substituindo Musab Al Juwayr.",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇦. Entra Mohamed Kanno para o lugar de Abdullah Al Khaibari.",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇪🇸. Ferran Torres entra em campo e entra Mikel Oyarzabal.",
+          "sub": "🇪🇸"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇪🇸. Yéremy Pino substitui Lamine Yamal.",
+          "sub": "🇪🇸"
+        },
+        {
+          "min": "45'+6'",
+          "icon": "⏱️",
+          "txt": "Fim do primeiro tempo, Espanha 3, Arábia Saudita 0.",
+          "sub": "🏳️"
+        },
+        {
+          "min": "30'",
+          "icon": "🟨",
+          "txt": "Salem Al Dawsari (Arábia Saudita) recebe cartão amarelo por uma entrada perigosa.",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "28'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "28'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇪🇸"
+        },
+        {
+          "min": "25'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "25'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇪🇸"
+        },
+        {
+          "min": "24'",
+          "icon": "⚽",
+          "txt": "Mikel Oyarzabal (Espanha) finalização com o pé esquerdo em frente à baliza ao ângulo superior direito. Assistência de Dani Olmo com um passe de cabeça.",
+          "sub": "🇪🇸"
+        },
+        {
+          "min": "21'",
+          "icon": "⚽",
+          "txt": "Mikel Oyarzabal (Espanha) finalização com o pé esquerdo do lado esquerdo da pequena área no Escanteio inferior direito. Assistência de Aymeric Laporte com um passe de cabeça após escanteio.",
+          "sub": "🇪🇸"
+        },
+        {
+          "min": "10'",
+          "icon": "⚽",
+          "txt": "Lamine Yamal (Espanha) finalização com o pé direito do lado direito da pequena área no Escanteio inferior direito. Assistência de Mikel Oyarzabal com um cruzamento após um contra-ataque.",
+          "sub": "🇪🇸"
+        },
+        {
+          "min": "",
+          "icon": "🏁",
+          "txt": "Início de jogo",
+          "sub": "🏳️"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Unai Simón",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Aymeric Laporte",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Pau Cubarsí",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Marc Cucurella",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Pedro Porro",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Rodri ",
+              "pos": "CM",
+              "row": 2
+            },
+            {
+              "name": "Pedri ",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Dani Olmo",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Mikel Oyarzabal",
+              "pos": "F",
+              "row": 3
+            },
+            {
+              "name": "Álex Baena",
+              "pos": "LF",
+              "row": 3
+            },
+            {
+              "name": "Lamine Yamal",
+              "pos": "RF",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Ferran Torres",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mikel Merino",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Joan García",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Martín Zubimendi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "David Raya",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Gavi ",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Alejandro Grimaldo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Eric García",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Borja Iglesias",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Fabián Ruiz",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Víctor Muñoz",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Marc Pubill",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Yéremy Pino",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Marcos Llorente",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nico Williams",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-3-3",
+          "dotColor": "#c60b1e"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Mohammed Al-Owais",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Ali Lajami",
+              "pos": "CD",
+              "row": 1
+            },
+            {
+              "name": "Hassan Al-Tambakti",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Abdulelah Al-Amri",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Moteb Al-Harbi",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Saud Abdulhamid",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Nasser Al-Dawsari",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Abdullah Al-Khaibari",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Salem Al-Dawsari",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Musab Al-Juwayr",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Feras Al-Brikan",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Abdullah Al-Hamdan",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ziyad Al-Johani",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Saleh Al-Shehri",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ala Al-Hajji",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Sultan Mandash",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Hassan Kadish",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mohammed Abu Al-Shamat",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ali Majrashi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nawaf Al-Aqidi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ahmed Al-Kassar",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jehad Thakri",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Khalid Al-Ghannam",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nawaf Boushal",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Aiman Yahya",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mohamed Kanno",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "5-4-1",
+          "dotColor": "#125B34"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "7",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "5",
+          "saves": "0",
+          "possessionPct": "70.7",
+          "totalShots": "21",
+          "shotsOnTarget": "8",
+          "shotPct": "0.4",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "482",
+          "totalPasses": "526",
+          "passPct": "0.9",
+          "accurateCrosses": "7",
+          "totalCrosses": "21",
+          "crossPct": "0.3",
+          "totalLongBalls": "27",
+          "accurateLongBalls": "19",
+          "longballPct": "0.7",
+          "blockedShots": "1",
+          "effectiveTackles": "6",
+          "totalTackles": "7",
+          "tacklePct": "0.9",
+          "interceptions": "13",
+          "effectiveClearance": "11",
+          "totalClearance": "11"
+        },
+        "away": {
+          "foulsCommitted": "2",
+          "yellowCards": "2",
+          "redCards": "0",
+          "offsides": "3",
+          "wonCorners": "1",
+          "saves": "5",
+          "possessionPct": "29.3",
+          "totalShots": "2",
+          "shotsOnTarget": "0",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "169",
+          "totalPasses": "224",
+          "passPct": "0.8",
+          "accurateCrosses": "0",
+          "totalCrosses": "2",
+          "crossPct": "0.0",
+          "totalLongBalls": "26",
+          "accurateLongBalls": "8",
+          "longballPct": "0.3",
+          "blockedShots": "1",
+          "effectiveTackles": "8",
+          "totalTackles": "10",
+          "tacklePct": "0.8",
+          "interceptions": "9",
+          "effectiveClearance": "29",
+          "totalClearance": "29"
+        }
+      }
     },
     {
       "home": "Bélgica 🇧🇪",
