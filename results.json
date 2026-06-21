@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T20:38:23.445Z",
+  "generatedAt": "2026-06-21T20:39:23.372Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12232,12 +12232,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "73'",
+      "clock": "74'",
       "events": [
         {
           "min": "73'",
           "icon": "🔄",
-          "txt": "Substituição, 🇧🇪. Substituição de Arthur Theate (Bélgica) aos 73'",
+          "txt": "Substituição, 🇧🇪. Arthur Theate substitui Romelu Lukaku.",
           "sub": "🇧🇪"
         },
         {
@@ -12249,13 +12249,7 @@
         {
           "min": "73'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇧🇪"
-        },
-        {
-          "min": "70'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇧🇪"
         },
         {
@@ -12263,6 +12257,12 @@
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇮🇷"
+        },
+        {
+          "min": "70'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇧🇪"
         },
         {
           "min": "66'",
