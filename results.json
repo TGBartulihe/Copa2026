@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T23:09:22.085Z",
+  "generatedAt": "2026-06-21T23:10:23.227Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12789,6 +12789,12 @@
       "live": true,
       "clock": "45'+8'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇻. Deroy Duarte substitui Telmo Arcanjo devido a uma lesão.",
+          "sub": "🇨🇻"
+        },
         {
           "min": "45'+9'",
           "icon": "⏱️",
