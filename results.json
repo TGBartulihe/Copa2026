@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T05:25:21.844Z",
+  "generatedAt": "2026-06-21T05:26:23.585Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11124,12 +11124,12 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "65'",
+      "clock": "66'",
       "events": [
         {
           "min": "64'",
           "icon": "🔄",
-          "txt": "Substituição, 🇹🇳. Firas Chaouat (Tunísia) Substituição aos 64'",
+          "txt": "Substituição, 🇹🇳. Entra Firas Chaouat para o lugar de Sebastian Tounekti.",
           "sub": "🇹🇳"
         },
         {
@@ -11475,14 +11475,14 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "36.8",
+          "possessionPct": "36.5",
           "totalShots": "2",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "204",
-          "totalPasses": "257",
+          "accuratePasses": "205",
+          "totalPasses": "259",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "5",
@@ -11505,14 +11505,14 @@
           "offsides": "0",
           "wonCorners": "4",
           "saves": "0",
-          "possessionPct": "63.2",
+          "possessionPct": "63.5",
           "totalShots": "7",
           "shotsOnTarget": "3",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "395",
-          "totalPasses": "440",
+          "accuratePasses": "405",
+          "totalPasses": "450",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "9",
@@ -11525,8 +11525,8 @@
           "totalTackles": "11",
           "tacklePct": "0.5",
           "interceptions": "4",
-          "effectiveClearance": "19",
-          "totalClearance": "19"
+          "effectiveClearance": "20",
+          "totalClearance": "20"
         }
       }
     },
