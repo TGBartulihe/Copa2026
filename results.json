@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T22:08:25.123Z",
+  "generatedAt": "2026-06-21T22:09:23.004Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12787,7 +12787,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "8'",
+      "clock": "9'",
       "events": [
         {
           "min": "5'",
@@ -13084,11 +13084,11 @@
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "25",
-          "totalPasses": "32",
+          "accuratePasses": "28",
+          "totalPasses": "36",
           "passPct": "0.8",
           "accurateCrosses": "0",
-          "totalCrosses": "0",
+          "totalCrosses": "1",
           "crossPct": "0.0",
           "totalLongBalls": "6",
           "accurateLongBalls": "3",
@@ -13097,7 +13097,7 @@
           "effectiveTackles": "0",
           "totalTackles": "0",
           "tacklePct": "0.0",
-          "interceptions": "1",
+          "interceptions": "2",
           "effectiveClearance": "1",
           "totalClearance": "1"
         },
@@ -13114,22 +13114,22 @@
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "12",
-          "totalPasses": "19",
+          "accuratePasses": "14",
+          "totalPasses": "22",
           "passPct": "0.6",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
-          "totalLongBalls": "3",
+          "totalLongBalls": "4",
           "accurateLongBalls": "0",
           "longballPct": "0.0",
           "blockedShots": "0",
-          "effectiveTackles": "1",
-          "totalTackles": "1",
+          "effectiveTackles": "2",
+          "totalTackles": "2",
           "tacklePct": "1.0",
-          "interceptions": "0",
-          "effectiveClearance": "1",
-          "totalClearance": "1"
+          "interceptions": "1",
+          "effectiveClearance": "2",
+          "totalClearance": "2"
         }
       }
     },
