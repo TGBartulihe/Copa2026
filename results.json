@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T16:09:24.132Z",
+  "generatedAt": "2026-06-21T16:10:24.741Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11649,7 +11649,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "8'",
+      "clock": "9'",
       "events": [
         {
           "min": "",
@@ -11687,17 +11687,17 @@
               "row": 1
             },
             {
-              "name": "Pedri ",
+              "name": "Rodri ",
               "pos": "CM",
               "row": 2
             },
             {
-              "name": "Rodri ",
+              "name": "Pedri ",
               "pos": "LM",
               "row": 2
             },
             {
-              "name": "Lamine Yamal",
+              "name": "Dani Olmo",
               "pos": "RM",
               "row": 2
             },
@@ -11712,7 +11712,7 @@
               "row": 3
             },
             {
-              "name": "Dani Olmo",
+              "name": "Lamine Yamal",
               "pos": "RF",
               "row": 3
             }
@@ -11942,23 +11942,23 @@
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
-          "wonCorners": "1",
+          "wonCorners": "2",
           "saves": "0",
-          "possessionPct": "84.2",
+          "possessionPct": "85.1",
           "totalShots": "2",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "69",
-          "totalPasses": "77",
+          "accuratePasses": "70",
+          "totalPasses": "78",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "6",
           "crossPct": "0.2",
-          "totalLongBalls": "3",
-          "accurateLongBalls": "2",
-          "longballPct": "0.7",
+          "totalLongBalls": "4",
+          "accurateLongBalls": "3",
+          "longballPct": "0.8",
           "blockedShots": "1",
           "effectiveTackles": "1",
           "totalTackles": "1",
@@ -11974,15 +11974,15 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "15.8",
+          "possessionPct": "14.9",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "8",
-          "totalPasses": "15",
-          "passPct": "0.5",
+          "totalPasses": "14",
+          "passPct": "0.6",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
