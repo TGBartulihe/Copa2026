@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T00:50:22.117Z",
+  "generatedAt": "2026-06-21T00:51:23.192Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -10514,6 +10514,12 @@
       "clock": "45'+4'",
       "events": [
         {
+          "min": "45'+5'",
+          "icon": "⏱️",
+          "txt": "Fim do primeiro tempo, Equador 0, Curaçao 0.",
+          "sub": "🏳️"
+        },
+        {
           "min": "39'",
           "icon": "🟨",
           "txt": "Leandro Bacuna (Curaçao) recebe cartão amarelo por uma entrada perigosa.",
@@ -10866,14 +10872,14 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "74.6",
+          "possessionPct": "74.7",
           "totalShots": "8",
           "shotsOnTarget": "6",
           "shotPct": "0.8",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "339",
-          "totalPasses": "380",
+          "accuratePasses": "340",
+          "totalPasses": "381",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "7",
@@ -10890,13 +10896,13 @@
           "totalClearance": "8"
         },
         "away": {
-          "foulsCommitted": "4",
+          "foulsCommitted": "5",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "2",
           "wonCorners": "0",
           "saves": "6",
-          "possessionPct": "25.4",
+          "possessionPct": "25.3",
           "totalShots": "5",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
@@ -10912,9 +10918,9 @@
           "accurateLongBalls": "3",
           "longballPct": "0.1",
           "blockedShots": "2",
-          "effectiveTackles": "3",
+          "effectiveTackles": "2",
           "totalTackles": "6",
-          "tacklePct": "0.5",
+          "tacklePct": "0.3",
           "interceptions": "5",
           "effectiveClearance": "9",
           "totalClearance": "9"
