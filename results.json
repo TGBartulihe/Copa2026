@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T17:33:23.945Z",
+  "generatedAt": "2026-06-21T17:34:23.527Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11649,8 +11649,26 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "70'",
+      "clock": "71'",
       "events": [
+        {
+          "min": "70'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "70'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇪🇸"
+        },
+        {
+          "min": "70'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇪🇸. Entra Fabián Ruiz para o lugar de Pedri.",
+          "sub": "🇪🇸"
+        },
         {
           "min": "68'",
           "icon": "⏸️",
