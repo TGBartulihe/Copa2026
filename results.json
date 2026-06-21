@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T19:33:23.137Z",
+  "generatedAt": "2026-06-21T19:34:22.707Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12232,7 +12232,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "33'",
+      "clock": "34'",
       "events": [
         {
           "min": "33'",
@@ -12244,18 +12244,12 @@
           "min": "33'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
-          "sub": "🇧🇪"
+          "sub": "🇮🇷"
         },
         {
           "min": "33'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇮🇷"
-        },
-        {
-          "min": "30'",
-          "icon": "⏸️",
-          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇧🇪"
         },
         {
@@ -12263,6 +12257,12 @@
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇮🇷"
+        },
+        {
+          "min": "30'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇧🇪"
         },
         {
           "min": "27'",
@@ -12589,21 +12589,21 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "74.1",
+          "possessionPct": "74.3",
           "totalShots": "8",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "161",
-          "totalPasses": "185",
+          "accuratePasses": "163",
+          "totalPasses": "187",
           "passPct": "0.9",
-          "accurateCrosses": "0",
+          "accurateCrosses": "1",
           "totalCrosses": "10",
-          "crossPct": "0.0",
-          "totalLongBalls": "6",
-          "accurateLongBalls": "2",
-          "longballPct": "0.3",
+          "crossPct": "0.1",
+          "totalLongBalls": "7",
+          "accurateLongBalls": "3",
+          "longballPct": "0.4",
           "blockedShots": "3",
           "effectiveTackles": "2",
           "totalTackles": "5",
@@ -12619,7 +12619,7 @@
           "offsides": "2",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "25.9",
+          "possessionPct": "25.7",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
