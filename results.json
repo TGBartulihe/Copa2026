@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T23:29:23.909Z",
+  "generatedAt": "2026-06-21T23:30:24.520Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12787,8 +12787,14 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "63'",
+      "clock": "64'",
       "events": [
+        {
+          "min": "64'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a lesão de Kevin Pina (Cabo Verde).",
+          "sub": "🇨🇻"
+        },
         {
           "min": "61'",
           "icon": "⚽",
@@ -13216,14 +13222,14 @@
           "offsides": "2",
           "wonCorners": "5",
           "saves": "0",
-          "possessionPct": "66.4",
+          "possessionPct": "66.7",
           "totalShots": "11",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "323",
-          "totalPasses": "384",
+          "accuratePasses": "329",
+          "totalPasses": "390",
           "passPct": "0.8",
           "accurateCrosses": "3",
           "totalCrosses": "15",
@@ -13246,7 +13252,7 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "33.6",
+          "possessionPct": "33.3",
           "totalShots": "6",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
@@ -13262,8 +13268,8 @@
           "accurateLongBalls": "8",
           "longballPct": "0.2",
           "blockedShots": "1",
-          "effectiveTackles": "7",
-          "totalTackles": "8",
+          "effectiveTackles": "8",
+          "totalTackles": "9",
           "tacklePct": "0.9",
           "interceptions": "8",
           "effectiveClearance": "27",
