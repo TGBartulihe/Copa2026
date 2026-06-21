@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T05:04:22.996Z",
+  "generatedAt": "2026-06-21T05:05:23.083Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11126,6 +11126,18 @@
       "live": true,
       "clock": "45'+4'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇹🇳. Mohamed Amine Ben Hamida (Tunísia) Substituição aos 45'",
+          "sub": "🇹🇳"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇹🇳. Ismaël Gharbi substitui Elias Saad.",
+          "sub": "🇹🇳"
+        },
         {
           "min": "45'+5'",
           "icon": "⏱️",
