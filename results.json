@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T08:23:23.229Z",
+  "generatedAt": "2026-06-21T08:24:25.711Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -8134,13 +8134,13 @@
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, 🇭🇹. Entra Wilson Isidor substituindo Frantzdy Pierrot.",
+          "txt": "Substituição, 🇭🇹. Dominique Simon substitui Carlens Arcus.",
           "sub": "🇭🇹"
         },
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, 🇭🇹. Dominique Simon substitui Carlens Arcus.",
+          "txt": "Substituição, 🇭🇹. Entra Wilson Isidor substituindo Frantzdy Pierrot.",
           "sub": "🇭🇹"
         },
         {
@@ -12341,6 +12341,51 @@
       "brTime": "00h",
       "venue": "BC Place",
       "iso": "2026-07-03T03:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "oitavas"
+    },
+    {
+      "home": "Group D 2nd Place",
+      "away": "Group G 2nd Place",
+      "date": "03/07",
+      "brTime": "15h",
+      "venue": "AT&T Stadium",
+      "iso": "2026-07-03T18:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "oitavas"
+    },
+    {
+      "home": "Group J Winner",
+      "away": "Group H 2nd Place",
+      "date": "03/07",
+      "brTime": "19h",
+      "venue": "Hard Rock Stadium",
+      "iso": "2026-07-03T22:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "oitavas"
+    },
+    {
+      "home": "Group K Winner",
+      "away": "Third Place Group D/E/I/J/L",
+      "date": "03/07",
+      "brTime": "22h",
+      "venue": "GEHA Field at Arrowhead Stadium",
+      "iso": "2026-07-04T01:30Z",
       "sh": null,
       "sa": null,
       "done": false,
