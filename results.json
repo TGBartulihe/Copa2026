@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T17:52:21.940Z",
+  "generatedAt": "2026-06-21T17:53:25.907Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11649,8 +11649,26 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "89'",
+      "clock": "90'",
       "events": [
+        {
+          "min": "90'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇦. Entra Khalid Al Ghannam para o lugar de Nasser Al Dawsari.",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "89'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇪🇸"
+        },
+        {
+          "min": "89'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇸🇦"
+        },
         {
           "min": "87'",
           "icon": "🩹",
