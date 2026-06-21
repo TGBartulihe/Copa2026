@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T23:19:22.528Z",
+  "generatedAt": "2026-06-21T23:20:22.959Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12787,19 +12787,19 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "54'",
+      "clock": "55'",
       "events": [
-        {
-          "min": "50'",
-          "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇺🇾"
-        },
         {
           "min": "50'",
           "icon": "▶️",
           "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇨🇻"
+        },
+        {
+          "min": "50'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇺🇾"
         },
         {
           "min": "50'",
@@ -12810,7 +12810,7 @@
         {
           "min": "50'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Partida atrasada (Uruguai).",
           "sub": "🇺🇾"
         },
         {
@@ -13192,26 +13192,26 @@
           "offsides": "2",
           "wonCorners": "5",
           "saves": "0",
-          "possessionPct": "65.2",
+          "possessionPct": "66.6",
           "totalShots": "11",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "265",
-          "totalPasses": "315",
+          "accuratePasses": "288",
+          "totalPasses": "342",
           "passPct": "0.8",
           "accurateCrosses": "3",
           "totalCrosses": "15",
           "crossPct": "0.2",
-          "totalLongBalls": "23",
-          "accurateLongBalls": "11",
+          "totalLongBalls": "24",
+          "accurateLongBalls": "12",
           "longballPct": "0.5",
           "blockedShots": "4",
           "effectiveTackles": "0",
           "totalTackles": "5",
           "tacklePct": "0.0",
-          "interceptions": "5",
+          "interceptions": "4",
           "effectiveClearance": "6",
           "totalClearance": "6"
         },
@@ -13222,14 +13222,14 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "34.8",
+          "possessionPct": "33.4",
           "totalShots": "3",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "132",
-          "totalPasses": "173",
+          "totalPasses": "175",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "3",
@@ -13241,9 +13241,9 @@
           "effectiveTackles": "6",
           "totalTackles": "7",
           "tacklePct": "0.9",
-          "interceptions": "5",
-          "effectiveClearance": "26",
-          "totalClearance": "26"
+          "interceptions": "6",
+          "effectiveClearance": "27",
+          "totalClearance": "27"
         }
       }
     },
