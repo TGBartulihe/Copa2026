@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T05:33:24.265Z",
+  "generatedAt": "2026-06-21T05:34:23.587Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11124,8 +11124,32 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "73'",
+      "clock": "74'",
       "events": [
+        {
+          "min": "74'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇯🇵. Yukinari Sugawara (Japão) Substituição aos 74'",
+          "sub": "🇯🇵"
+        },
+        {
+          "min": "74'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇯🇵. Entra Junnosuke Suzuki substituindo Daichi Kamada.",
+          "sub": "🇯🇵"
+        },
+        {
+          "min": "74'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇹🇳"
+        },
+        {
+          "min": "73'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇯🇵"
+        },
         {
           "min": "70'",
           "icon": "⏸️",
