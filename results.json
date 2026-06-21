@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T04:49:24.292Z",
+  "generatedAt": "2026-06-21T04:50:22.874Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11127,6 +11127,12 @@
       "clock": "45'+4'",
       "events": [
         {
+          "min": "45'+5'",
+          "icon": "⏱️",
+          "txt": "Intervalo",
+          "sub": "🏳️"
+        },
+        {
           "min": "31'",
           "icon": "⚽",
           "txt": "Ayase Ueda (Japão) finalização com o pé direito do lado direito da área no Escanteio inferior esquerdo. Assistência de Ko Itakura depois de um contra-ataque.",
@@ -11445,8 +11451,8 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "34.6",
-          "totalShots": "1",
+          "possessionPct": "34.3",
+          "totalShots": "2",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
@@ -11455,8 +11461,8 @@
           "totalPasses": "155",
           "passPct": "0.8",
           "accurateCrosses": "1",
-          "totalCrosses": "2",
-          "crossPct": "0.0",
+          "totalCrosses": "3",
+          "crossPct": "0.3",
           "totalLongBalls": "36",
           "accurateLongBalls": "11",
           "longballPct": "0.3",
@@ -11475,14 +11481,14 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "0",
-          "possessionPct": "65.4",
+          "possessionPct": "65.7",
           "totalShots": "5",
           "shotsOnTarget": "3",
           "shotPct": "0.6",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "261",
-          "totalPasses": "290",
+          "accuratePasses": "266",
+          "totalPasses": "295",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "7",
