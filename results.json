@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T22:39:24.359Z",
+  "generatedAt": "2026-06-21T22:40:24.216Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12787,7 +12787,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "38'",
+      "clock": "39'",
       "events": [
         {
           "min": "27'",
@@ -13114,20 +13114,20 @@
           "offsides": "2",
           "wonCorners": "4",
           "saves": "0",
-          "possessionPct": "61.9",
+          "possessionPct": "62.5",
           "totalShots": "7",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "147",
-          "totalPasses": "178",
+          "accuratePasses": "153",
+          "totalPasses": "185",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "7",
           "crossPct": "0.3",
-          "totalLongBalls": "21",
-          "accurateLongBalls": "10",
+          "totalLongBalls": "22",
+          "accurateLongBalls": "11",
           "longballPct": "0.5",
           "blockedShots": "3",
           "effectiveTackles": "0",
@@ -13144,7 +13144,7 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "38.1",
+          "possessionPct": "37.5",
           "totalShots": "1",
           "shotsOnTarget": "1",
           "shotPct": "1.0",
@@ -13154,8 +13154,8 @@
           "totalPasses": "111",
           "passPct": "0.7",
           "accurateCrosses": "1",
-          "totalCrosses": "2",
-          "crossPct": "0.5",
+          "totalCrosses": "3",
+          "crossPct": "0.3",
           "totalLongBalls": "25",
           "accurateLongBalls": "7",
           "longballPct": "0.3",
@@ -13164,8 +13164,8 @@
           "totalTackles": "6",
           "tacklePct": "0.8",
           "interceptions": "1",
-          "effectiveClearance": "14",
-          "totalClearance": "14"
+          "effectiveClearance": "15",
+          "totalClearance": "15"
         }
       }
     },
