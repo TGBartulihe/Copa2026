@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T23:47:26.066Z",
+  "generatedAt": "2026-06-21T23:48:25.240Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12787,12 +12787,12 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "82'",
+      "clock": "83'",
       "events": [
         {
-          "min": "82'",
+          "min": "81'",
           "icon": "🔄",
-          "txt": "Substituição, 🇺🇾. Brian Rodríguez (Uruguai) Substituição aos 82'",
+          "txt": "Substituição, 🇺🇾. Brian Rodríguez substitui Maxi Araújo.",
           "sub": "🇺🇾"
         },
         {
@@ -13294,28 +13294,28 @@
           "offsides": "3",
           "wonCorners": "6",
           "saves": "0",
-          "possessionPct": "64.9",
+          "possessionPct": "64.8",
           "totalShots": "13",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "372",
-          "totalPasses": "443",
+          "accuratePasses": "379",
+          "totalPasses": "451",
           "passPct": "0.8",
           "accurateCrosses": "3",
-          "totalCrosses": "17",
+          "totalCrosses": "19",
           "crossPct": "0.2",
-          "totalLongBalls": "35",
-          "accurateLongBalls": "17",
+          "totalLongBalls": "36",
+          "accurateLongBalls": "18",
           "longballPct": "0.5",
           "blockedShots": "5",
           "effectiveTackles": "4",
           "totalTackles": "12",
           "tacklePct": "0.3",
           "interceptions": "7",
-          "effectiveClearance": "8",
-          "totalClearance": "8"
+          "effectiveClearance": "9",
+          "totalClearance": "9"
         },
         "away": {
           "foulsCommitted": "3",
@@ -13324,19 +13324,19 @@
           "offsides": "0",
           "wonCorners": "3",
           "saves": "0",
-          "possessionPct": "35.1",
+          "possessionPct": "35.2",
           "totalShots": "7",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "180",
-          "totalPasses": "241",
+          "accuratePasses": "183",
+          "totalPasses": "246",
           "passPct": "0.7",
           "accurateCrosses": "2",
           "totalCrosses": "6",
           "crossPct": "0.3",
-          "totalLongBalls": "48",
+          "totalLongBalls": "50",
           "accurateLongBalls": "13",
           "longballPct": "0.3",
           "blockedShots": "1",
@@ -13344,8 +13344,8 @@
           "totalTackles": "13",
           "tacklePct": "0.9",
           "interceptions": "8",
-          "effectiveClearance": "31",
-          "totalClearance": "31"
+          "effectiveClearance": "32",
+          "totalClearance": "32"
         }
       }
     },
