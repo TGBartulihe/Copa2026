@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T05:24:22.661Z",
+  "generatedAt": "2026-06-21T05:25:21.844Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11124,8 +11124,14 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "64'",
+      "clock": "65'",
       "events": [
+        {
+          "min": "64'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇹🇳. Firas Chaouat (Tunísia) Substituição aos 64'",
+          "sub": "🇹🇳"
+        },
         {
           "min": "45'",
           "icon": "▶️",
@@ -11469,18 +11475,18 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "36.5",
+          "possessionPct": "36.8",
           "totalShots": "2",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "199",
-          "totalPasses": "251",
+          "accuratePasses": "204",
+          "totalPasses": "257",
           "passPct": "0.8",
           "accurateCrosses": "1",
-          "totalCrosses": "4",
-          "crossPct": "0.3",
+          "totalCrosses": "5",
+          "crossPct": "0.2",
           "totalLongBalls": "44",
           "accurateLongBalls": "13",
           "longballPct": "0.3",
@@ -11488,9 +11494,9 @@
           "effectiveTackles": "14",
           "totalTackles": "15",
           "tacklePct": "0.9",
-          "interceptions": "8",
-          "effectiveClearance": "18",
-          "totalClearance": "18"
+          "interceptions": "9",
+          "effectiveClearance": "19",
+          "totalClearance": "19"
         },
         "away": {
           "foulsCommitted": "10",
@@ -11499,28 +11505,28 @@
           "offsides": "0",
           "wonCorners": "4",
           "saves": "0",
-          "possessionPct": "63.5",
+          "possessionPct": "63.2",
           "totalShots": "7",
           "shotsOnTarget": "3",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "392",
-          "totalPasses": "435",
+          "accuratePasses": "395",
+          "totalPasses": "440",
           "passPct": "0.9",
           "accurateCrosses": "1",
-          "totalCrosses": "8",
+          "totalCrosses": "9",
           "crossPct": "0.1",
           "totalLongBalls": "26",
-          "accurateLongBalls": "17",
-          "longballPct": "0.7",
+          "accurateLongBalls": "16",
+          "longballPct": "0.6",
           "blockedShots": "1",
           "effectiveTackles": "6",
           "totalTackles": "11",
           "tacklePct": "0.5",
           "interceptions": "4",
-          "effectiveClearance": "18",
-          "totalClearance": "18"
+          "effectiveClearance": "19",
+          "totalClearance": "19"
         }
       }
     },
