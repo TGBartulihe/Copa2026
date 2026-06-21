@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T17:50:22.201Z",
+  "generatedAt": "2026-06-21T17:51:22.848Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11649,12 +11649,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "87'",
+      "clock": "88'",
       "events": [
         {
           "min": "87'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Mohamed Kanno (Arábia Saudita).",
           "sub": "🇸🇦"
         },
         {
