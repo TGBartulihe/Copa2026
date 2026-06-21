@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T01:15:22.866Z",
+  "generatedAt": "2026-06-21T01:16:25.238Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -10511,18 +10511,24 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "56'",
+      "clock": "57'",
       "events": [
         {
-          "min": "55'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "min": "56'",
+          "icon": "🟨",
+          "txt": "Livano Comenencia (Curaçao) Cartão Amarelo aos 56'",
+          "sub": "🇨🇼"
+        },
+        {
+          "min": "56'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
           "sub": "🇪🇨"
         },
         {
           "min": "55'",
-          "icon": "📺",
-          "txt": "Gonzalo Plata (Equador) VAR - Outro aos 55'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
           "sub": "🇪🇨"
         },
         {
