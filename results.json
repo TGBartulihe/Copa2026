@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T04:45:21.928Z",
+  "generatedAt": "2026-06-21T04:46:23.670Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11124,12 +11124,12 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "45'",
+      "clock": "45'+1'",
       "events": [
         {
           "min": "31'",
           "icon": "⚽",
-          "txt": "Ayase Ueda (Japão) finalização com o pé direito de fora da área no Escanteio inferior esquerdo. Assistência de Ko Itakura depois de um contra-ataque.",
+          "txt": "Ayase Ueda (Japão) finalização com o pé direito do lado direito da área no Escanteio inferior esquerdo. Assistência de Ko Itakura depois de um contra-ataque.",
           "sub": "🇯🇵"
         },
         {
@@ -11445,14 +11445,14 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "36.8",
+          "possessionPct": "36.4",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "112",
-          "totalPasses": "147",
+          "accuratePasses": "117",
+          "totalPasses": "153",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "2",
@@ -11464,9 +11464,9 @@
           "effectiveTackles": "8",
           "totalTackles": "9",
           "tacklePct": "0.9",
-          "interceptions": "5",
-          "effectiveClearance": "14",
-          "totalClearance": "14"
+          "interceptions": "6",
+          "effectiveClearance": "15",
+          "totalClearance": "15"
         },
         "away": {
           "foulsCommitted": "7",
@@ -11475,28 +11475,28 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "0",
-          "possessionPct": "63.2",
+          "possessionPct": "63.6",
           "totalShots": "5",
           "shotsOnTarget": "3",
           "shotPct": "0.6",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "223",
-          "totalPasses": "250",
+          "accuratePasses": "237",
+          "totalPasses": "265",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "6",
           "crossPct": "0.2",
-          "totalLongBalls": "14",
-          "accurateLongBalls": "9",
-          "longballPct": "0.6",
+          "totalLongBalls": "15",
+          "accurateLongBalls": "10",
+          "longballPct": "0.7",
           "blockedShots": "1",
           "effectiveTackles": "6",
           "totalTackles": "9",
           "tacklePct": "0.7",
           "interceptions": "3",
-          "effectiveClearance": "13",
-          "totalClearance": "13"
+          "effectiveClearance": "14",
+          "totalClearance": "14"
         }
       }
     },
