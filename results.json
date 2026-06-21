@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T04:04:24.411Z",
+  "generatedAt": "2026-06-21T04:05:25.303Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11121,11 +11121,17 @@
       "venue": "Estadio BBVA",
       "iso": "2026-06-21T04:00Z",
       "sh": 0,
-      "sa": 0,
+      "sa": 1,
       "done": false,
       "live": true,
-      "clock": "4'",
+      "clock": "5'",
       "events": [
+        {
+          "min": "4'",
+          "icon": "⚽",
+          "txt": "Daichi Kamada (Japão) finalização com o pé esquerdo de muito perto.",
+          "sub": "🇯🇵"
+        },
         {
           "min": "",
           "icon": "🏁",
