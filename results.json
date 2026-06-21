@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T16:12:22.381Z",
+  "generatedAt": "2026-06-21T16:13:23.049Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11649,12 +11649,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "12'",
+      "clock": "13'",
       "events": [
         {
           "min": "10'",
           "icon": "⚽",
-          "txt": "Lamine Yamal (Espanha) finalização com o pé direito do lado direito da pequena área.",
+          "txt": "Lamine Yamal (Espanha) finalização com o pé direito do lado direito da pequena área no Escanteio inferior direito. Assistência de Mikel Oyarzabal com um cruzamento após um contra-ataque.",
           "sub": "🇪🇸"
         },
         {
@@ -11950,7 +11950,7 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "0",
-          "possessionPct": "86.1",
+          "possessionPct": "80.8",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
@@ -11966,10 +11966,10 @@
           "accurateLongBalls": "3",
           "longballPct": "0.8",
           "blockedShots": "1",
-          "effectiveTackles": "1",
-          "totalTackles": "1",
+          "effectiveTackles": "2",
+          "totalTackles": "2",
           "tacklePct": "1.0",
-          "interceptions": "1",
+          "interceptions": "2",
           "effectiveClearance": "0",
           "totalClearance": "0"
         },
@@ -11980,15 +11980,15 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "13.9",
+          "possessionPct": "19.2",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "8",
-          "totalPasses": "16",
-          "passPct": "0.5",
+          "accuratePasses": "15",
+          "totalPasses": "24",
+          "passPct": "0.6",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
