@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T05:47:23.869Z",
+  "generatedAt": "2026-06-21T05:48:23.751Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11124,8 +11124,20 @@
       "sa": 4,
       "done": false,
       "live": true,
-      "clock": "87'",
+      "clock": "89'",
       "events": [
+        {
+          "min": "88'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇯🇵"
+        },
+        {
+          "min": "88'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇹🇳"
+        },
         {
           "min": "85'",
           "icon": "⏸️",
@@ -11600,8 +11612,8 @@
           "longballPct": "0.6",
           "blockedShots": "3",
           "effectiveTackles": "8",
-          "totalTackles": "14",
-          "tacklePct": "0.6",
+          "totalTackles": "15",
+          "tacklePct": "0.5",
           "interceptions": "5",
           "effectiveClearance": "23",
           "totalClearance": "23"
