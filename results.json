@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T19:03:23.205Z",
+  "generatedAt": "2026-06-21T19:04:24.859Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12232,8 +12232,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "3'",
+      "clock": "4'",
       "events": [
+        {
+          "min": "3'",
+          "icon": "🟨",
+          "txt": "Romelu Lukaku (Bélgica) Cartão Amarelo aos 3'",
+          "sub": "🇧🇪"
+        },
         {
           "min": "",
           "icon": "🏁",
