@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T20:10:25.145Z",
+  "generatedAt": "2026-06-21T20:11:22.899Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12232,8 +12232,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "45'+8'",
+      "clock": "46'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🏳️"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇮🇷. Entra Alireza Jahanbakhsh substituindo Saleh Hardani.",
+          "sub": "🇮🇷"
+        },
         {
           "min": "45'+9'",
           "icon": "⏱️",
@@ -12665,9 +12677,9 @@
           "accurateLongBalls": "5",
           "longballPct": "0.2",
           "blockedShots": "0",
-          "effectiveTackles": "5",
+          "effectiveTackles": "4",
           "totalTackles": "8",
-          "tacklePct": "0.6",
+          "tacklePct": "0.5",
           "interceptions": "9",
           "effectiveClearance": "26",
           "totalClearance": "26"
