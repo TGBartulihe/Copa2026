@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T22:20:23.535Z",
+  "generatedAt": "2026-06-21T22:21:23.533Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12787,8 +12787,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "19'",
+      "clock": "20'",
       "events": [
+        {
+          "min": "20'",
+          "icon": "🟨",
+          "txt": "Rodrigo Bentancur (Uruguai) Cartão Amarelo aos 20'",
+          "sub": "🇺🇾"
+        },
         {
           "min": "5'",
           "icon": "🟨",
@@ -13072,13 +13078,13 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "3",
+          "foulsCommitted": "4",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "2",
           "wonCorners": "3",
           "saves": "0",
-          "possessionPct": "63.4",
+          "possessionPct": "63.1",
           "totalShots": "2",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
@@ -13108,14 +13114,14 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "36.6",
+          "possessionPct": "36.9",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "42",
-          "totalPasses": "62",
+          "accuratePasses": "43",
+          "totalPasses": "63",
           "passPct": "0.7",
           "accurateCrosses": "1",
           "totalCrosses": "1",
