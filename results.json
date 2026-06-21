@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T01:44:23.217Z",
+  "generatedAt": "2026-06-21T01:45:26.064Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -10511,18 +10511,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "84'",
+      "clock": "85'",
       "events": [
         {
           "min": "84'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇼. Substituição Godfried Roemeratoe (Curaçao) aos 84'",
-          "sub": "🇨🇼"
-        },
-        {
-          "min": "83'",
-          "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Substituição, 🇨🇼. Entra Godfried Roemeratoe para o lugar de Livano Comenencia.",
           "sub": "🇨🇼"
         },
         {
@@ -10533,8 +10527,14 @@
         },
         {
           "min": "83'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇨🇼"
+        },
+        {
+          "min": "83'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇼. Gervane Kastaneer (Curaçao) Substituição aos 83'",
+          "txt": "Substituição, 🇨🇼. Gervane Kastaneer substitui Jürgen Locadia devido a uma lesão.",
           "sub": "🇨🇼"
         },
         {
