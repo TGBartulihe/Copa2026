@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T23:24:28.231Z",
+  "generatedAt": "2026-06-21T23:25:25.385Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12787,24 +12787,24 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "59'",
+      "clock": "60'",
       "events": [
         {
           "min": "59'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇻. Hélio Varela (Cabo Verde) Substituição aos 59'",
+          "txt": "Substituição, 🇨🇻. Hélio Varela entra em campo para substituir Garry Rodrigues.",
           "sub": "🇨🇻"
         },
         {
           "min": "58'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇻. Substituição de Nuno da Costa (Cabo Verde) aos 58'",
+          "txt": "Substituição, 🇨🇻. Nuno da Costa entra em campo para substituir Gilson Benchimol.",
           "sub": "🇨🇻"
         },
         {
           "min": "58'",
           "icon": "🟨",
-          "txt": "Mathías Olivera (Uruguai) Cartão Amarelo aos 58'",
+          "txt": "Mathías Olivera (Uruguai) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇺🇾"
         },
         {
@@ -13205,7 +13205,7 @@
       "stats": {
         "home": {
           "foulsCommitted": "8",
-          "yellowCards": "1",
+          "yellowCards": "2",
           "redCards": "0",
           "offsides": "2",
           "wonCorners": "5",
@@ -13230,8 +13230,8 @@
           "totalTackles": "7",
           "tacklePct": "0.3",
           "interceptions": "6",
-          "effectiveClearance": "7",
-          "totalClearance": "7"
+          "effectiveClearance": "8",
+          "totalClearance": "8"
         },
         "away": {
           "foulsCommitted": "2",
@@ -13241,7 +13241,7 @@
           "wonCorners": "1",
           "saves": "0",
           "possessionPct": "34.2",
-          "totalShots": "3",
+          "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
@@ -13255,10 +13255,10 @@
           "totalLongBalls": "36",
           "accurateLongBalls": "8",
           "longballPct": "0.2",
-          "blockedShots": "0",
+          "blockedShots": "1",
           "effectiveTackles": "6",
-          "totalTackles": "8",
-          "tacklePct": "0.8",
+          "totalTackles": "7",
+          "tacklePct": "0.9",
           "interceptions": "6",
           "effectiveClearance": "26",
           "totalClearance": "26"
