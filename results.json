@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T01:55:22.097Z",
+  "generatedAt": "2026-06-21T01:56:24.280Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -10509,10 +10509,16 @@
       "iso": "2026-06-21T00:00Z",
       "sh": 0,
       "sa": 0,
-      "done": false,
-      "live": true,
-      "clock": "90'+5'",
+      "done": true,
+      "live": false,
+      "clock": "",
       "events": [
+        {
+          "min": "90'+6'",
+          "icon": "•",
+          "txt": "jogador",
+          "sub": "🏳️"
+        },
         {
           "min": "90'+1'",
           "icon": "🟨",
@@ -11050,7 +11056,7 @@
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "1",
-          "wonCorners": "8",
+          "wonCorners": "9",
           "saves": "3",
           "possessionPct": "74.8",
           "totalShots": "28",
@@ -11058,11 +11064,11 @@
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "575",
-          "totalPasses": "638",
+          "accuratePasses": "577",
+          "totalPasses": "641",
           "passPct": "0.9",
           "accurateCrosses": "13",
-          "totalCrosses": "31",
+          "totalCrosses": "32",
           "crossPct": "0.4",
           "totalLongBalls": "32",
           "accurateLongBalls": "12",
@@ -11071,7 +11077,7 @@
           "effectiveTackles": "11",
           "totalTackles": "19",
           "tacklePct": "0.6",
-          "interceptions": "6",
+          "interceptions": "7",
           "effectiveClearance": "17",
           "totalClearance": "17"
         },
@@ -11089,7 +11095,7 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "154",
-          "totalPasses": "222",
+          "totalPasses": "223",
           "passPct": "0.7",
           "accurateCrosses": "1",
           "totalCrosses": "1",
@@ -11102,8 +11108,8 @@
           "totalTackles": "17",
           "tacklePct": "0.4",
           "interceptions": "8",
-          "effectiveClearance": "28",
-          "totalClearance": "28"
+          "effectiveClearance": "31",
+          "totalClearance": "31"
         }
       }
     },
