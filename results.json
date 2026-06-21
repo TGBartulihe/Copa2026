@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T20:39:23.372Z",
+  "generatedAt": "2026-06-21T20:40:22.688Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12232,7 +12232,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "74'",
+      "clock": "75'",
       "events": [
         {
           "min": "73'",
@@ -12697,19 +12697,19 @@
           "offsides": "3",
           "wonCorners": "4",
           "saves": "2",
-          "possessionPct": "77.8",
+          "possessionPct": "76.9",
           "totalShots": "17",
           "shotsOnTarget": "6",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "440",
-          "totalPasses": "508",
+          "accuratePasses": "442",
+          "totalPasses": "513",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "23",
           "crossPct": "0.1",
-          "totalLongBalls": "23",
+          "totalLongBalls": "25",
           "accurateLongBalls": "9",
           "longballPct": "0.4",
           "blockedShots": "6",
@@ -12727,14 +12727,14 @@
           "offsides": "2",
           "wonCorners": "2",
           "saves": "6",
-          "possessionPct": "22.2",
+          "possessionPct": "23.1",
           "totalShots": "5",
           "shotsOnTarget": "2",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "92",
-          "totalPasses": "145",
+          "accuratePasses": "100",
+          "totalPasses": "155",
           "passPct": "0.6",
           "accurateCrosses": "2",
           "totalCrosses": "5",
@@ -12747,8 +12747,8 @@
           "totalTackles": "12",
           "tacklePct": "0.5",
           "interceptions": "10",
-          "effectiveClearance": "40",
-          "totalClearance": "40"
+          "effectiveClearance": "41",
+          "totalClearance": "41"
         }
       }
     },
