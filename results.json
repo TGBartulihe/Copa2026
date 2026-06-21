@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T04:06:26.046Z",
+  "generatedAt": "2026-06-21T04:07:23.051Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -10539,9 +10539,9 @@
         },
         {
           "min": "83'",
-          "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇪🇨"
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇼. Gervane Kastaneer substitui Jürgen Locadia devido a uma lesão.",
+          "sub": "🇨🇼"
         },
         {
           "min": "83'",
@@ -10551,9 +10551,9 @@
         },
         {
           "min": "83'",
-          "icon": "🔄",
-          "txt": "Substituição, 🇨🇼. Gervane Kastaneer substitui Jürgen Locadia devido a uma lesão.",
-          "sub": "🇨🇼"
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇪🇨"
         },
         {
           "min": "83'",
@@ -11124,7 +11124,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "6'",
+      "clock": "7'",
       "events": [
         {
           "min": "4'",
@@ -11183,7 +11183,7 @@
               "row": 2
             },
             {
-              "name": "Elias Saad",
+              "name": "Sebastian Tounekti",
               "pos": "F",
               "row": 3
             },
@@ -11193,7 +11193,7 @@
               "row": 3
             },
             {
-              "name": "Sebastian Tounekti",
+              "name": "Elias Saad",
               "pos": "CF-R",
               "row": 3
             }
@@ -11415,21 +11415,21 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "33.3",
+          "possessionPct": "28.9",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "7",
-          "totalPasses": "9",
-          "passPct": "0.8",
+          "totalPasses": "11",
+          "passPct": "0.6",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
-          "totalLongBalls": "2",
+          "totalLongBalls": "3",
           "accurateLongBalls": "1",
-          "longballPct": "0.5",
+          "longballPct": "0.3",
           "blockedShots": "0",
           "effectiveTackles": "0",
           "totalTackles": "0",
@@ -11445,21 +11445,21 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "66.7",
-          "totalShots": "1",
+          "possessionPct": "71.1",
+          "totalShots": "2",
           "shotsOnTarget": "1",
-          "shotPct": "1.0",
+          "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "16",
-          "totalPasses": "18",
+          "accuratePasses": "24",
+          "totalPasses": "27",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
-          "totalLongBalls": "3",
-          "accurateLongBalls": "1",
-          "longballPct": "0.3",
+          "totalLongBalls": "4",
+          "accurateLongBalls": "2",
+          "longballPct": "0.5",
           "blockedShots": "0",
           "effectiveTackles": "1",
           "totalTackles": "2",
