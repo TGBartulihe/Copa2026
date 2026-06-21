@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T23:35:23.965Z",
+  "generatedAt": "2026-06-21T23:36:23.780Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12787,19 +12787,43 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "69'",
+      "clock": "71'",
       "events": [
         {
-          "min": "70'",
+          "min": "71'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
+          "sub": "🇨🇻"
+        },
+        {
+          "min": "71'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇺🇾"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇻. Laros Duarte (Cabo Verde) Substituição aos 71'",
+          "sub": "🇨🇻"
+        },
+        {
+          "min": "70'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇺🇾. Nicolás de la Cruz substitui Manuel Ugarte.",
+          "sub": "🇺🇾"
+        },
+        {
+          "min": "70'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇺🇾. Darwin Núñez substitui Federico Viñas.",
           "sub": "🇺🇾"
         },
         {
           "min": "70'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
-          "sub": "🇨🇻"
+          "sub": "🇺🇾"
         },
         {
           "min": "65'",
