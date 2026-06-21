@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T19:02:25.683Z",
+  "generatedAt": "2026-06-21T19:03:23.205Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12232,7 +12232,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "2'",
+      "clock": "3'",
       "events": [
         {
           "min": "",
@@ -12379,11 +12379,6 @@
             },
             {
               "name": "Shoja Khalilzadeh",
-              "pos": "CD",
-              "row": 1
-            },
-            {
-              "name": "Ali Nemati",
               "pos": "CD-L",
               "row": 1
             },
@@ -12393,7 +12388,7 @@
               "row": 1
             },
             {
-              "name": "Ehsan Hajsafi",
+              "name": "Ali Nemati",
               "pos": "LB",
               "row": 1
             },
@@ -12421,6 +12416,11 @@
               "name": "Ramin Rezaeian",
               "pos": "RM",
               "row": 2
+            },
+            {
+              "name": "Ehsan Hajsafi",
+              "pos": "AM",
+              "row": 2.5
             },
             {
               "name": "Mehdi Taremi",
