@@ -441,11 +441,17 @@ function matchesSubscription(m, sub){
 // (~100x/dia), e usa o que já tinha guardado nas execuções rápidas.
 const SUBS_CACHE_FILE = "subscriptions-cache.json";
 async function loadSubscriptionsCached(forceFresh){
-  if (!forceFresh){
-    const cached = loadJSON(SUBS_CACHE_FILE, null);
-    if (cached && Array.isArray(cached.subs)) return cached.subs;
-  }
+  const cached = loadJSON(SUBS_CACHE_FILE, null);
+  if (!forceFresh && cached && Array.isArray(cached.subs)) return cached.subs;
+
   const subs = await loadSubscriptions();
+  // Se a busca fresca falhar ou vier vazia (ex: Cloudflare em baixo, limite
+  // esgotado), e já tínhamos uma cache válida com gente lá, é melhor
+  // reaproveitar essa do que assumir que ninguém está inscrito
+  if ((!subs || !subs.length) && cached?.subs?.length){
+    console.log("Busca fresca de subscrições falhou ou veio vazia — reaproveitando cache anterior.");
+    return cached.subs;
+  }
   saveJSON(SUBS_CACHE_FILE, { subs, fetchedAt: new Date().toISOString() });
   return subs;
 }

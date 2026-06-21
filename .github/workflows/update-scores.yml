@@ -5,6 +5,15 @@ on:
     - cron: '*/5 * * * *'
   workflow_dispatch: {}
 
+# Evita execuções sobrepostas — com o Cloudflare a disparar de 1 em 1 minuto
+# por fora, e o cron nativo a cada 5 min, sem isto duas execuções podiam
+# correr ao mesmo tempo se uma demorasse mais que 1 minuto, arriscando
+# conflitos de commit ou notificações duplicadas. Fica em fila, não cancela
+# a que já está a meio (evitar deixar o trabalho a meio sem comitar).
+concurrency:
+  group: update-scores
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
