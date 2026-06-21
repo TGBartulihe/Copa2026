@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T17:23:23.809Z",
+  "generatedAt": "2026-06-21T17:24:23.947Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11649,8 +11649,38 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "60'",
+      "clock": "61'",
       "events": [
+        {
+          "min": "61'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇪🇸"
+        },
+        {
+          "min": "61'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "61'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇦. Entra Mohammed Abu Al Shamat para o lugar de Feras Al Brikan.",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "60'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇦. Alaa Al Hejji entra em campo com Abdulelah Al Amri.",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "60'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Rodri (Espanha).",
+          "sub": "🇪🇸"
+        },
         {
           "min": "60'",
           "icon": "⏸️",
@@ -11659,14 +11689,8 @@
         },
         {
           "min": "60'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
-          "sub": "🇪🇸"
-        },
-        {
-          "min": "60'",
           "icon": "🟨",
-          "txt": "Mohamed Kanno (Arábia Saudita) Cartão Amarelo aos 60'",
+          "txt": "Mohamed Kanno (Arábia Saudita) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇸🇦"
         },
         {
@@ -12052,21 +12076,21 @@
           "offsides": "0",
           "wonCorners": "5",
           "saves": "0",
-          "possessionPct": "71.9",
+          "possessionPct": "72",
           "totalShots": "20",
           "shotsOnTarget": "8",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "462",
-          "totalPasses": "504",
+          "accuratePasses": "464",
+          "totalPasses": "506",
           "passPct": "0.9",
           "accurateCrosses": "7",
           "totalCrosses": "21",
           "crossPct": "0.3",
-          "totalLongBalls": "23",
-          "accurateLongBalls": "17",
-          "longballPct": "0.7",
+          "totalLongBalls": "24",
+          "accurateLongBalls": "18",
+          "longballPct": "0.8",
           "blockedShots": "1",
           "effectiveTackles": "6",
           "totalTackles": "7",
@@ -12077,12 +12101,12 @@
         },
         "away": {
           "foulsCommitted": "2",
-          "yellowCards": "1",
+          "yellowCards": "2",
           "redCards": "0",
           "offsides": "3",
           "wonCorners": "1",
           "saves": "5",
-          "possessionPct": "28.1",
+          "possessionPct": "28",
           "totalShots": "2",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
@@ -12102,8 +12126,8 @@
           "totalTackles": "9",
           "tacklePct": "0.8",
           "interceptions": "9",
-          "effectiveClearance": "30",
-          "totalClearance": "30"
+          "effectiveClearance": "29",
+          "totalClearance": "29"
         }
       }
     },
