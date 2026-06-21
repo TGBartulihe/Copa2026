@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T07:08:21.697Z",
+  "generatedAt": "2026-06-21T07:09:25.453Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -5045,7 +5045,7 @@
     },
     {
       "home": "Suíça 🇨🇭",
-      "away": "Bosnia-Herzegovina",
+      "away": "Bósnia 🇧🇦",
       "date": "18/06",
       "brTime": "16h",
       "venue": "SoFi Stadium",
@@ -5072,13 +5072,13 @@
           "min": "90'+3'",
           "icon": "⚽",
           "txt": "Ermin Mahmic (Bósnia e Herzegovina) finalização com o pé direito no coração da área acertando no centro do gol após escanteio.",
-          "sub": "🏳️"
+          "sub": "🇧🇦"
         },
         {
           "min": "90'+1'",
           "icon": "🔄",
-          "txt": "Substituição, 🏳️. Ermin Mahmic entra em campo Kerim Alajbegovic.",
-          "sub": "🏳️"
+          "txt": "Substituição, 🇧🇦. Ermin Mahmic entra em campo Kerim Alajbegovic.",
+          "sub": "🇧🇦"
         },
         {
           "min": "90'",
@@ -5101,14 +5101,14 @@
         {
           "min": "86'",
           "icon": "🔄",
-          "txt": "Substituição, 🏳️. Amir Hadziahmetovic entra no lugar de Ivan Sunjic.",
-          "sub": "🏳️"
+          "txt": "Substituição, 🇧🇦. Amir Hadziahmetovic entra no lugar de Ivan Sunjic.",
+          "sub": "🇧🇦"
         },
         {
           "min": "86'",
           "icon": "🔄",
-          "txt": "Substituição, 🏳️. Entra Jovo Lukic substituindo Ermedin Demirovic.",
-          "sub": "🏳️"
+          "txt": "Substituição, 🇧🇦. Entra Jovo Lukic substituindo Ermedin Demirovic.",
+          "sub": "🇧🇦"
         },
         {
           "min": "84'",
@@ -5120,7 +5120,7 @@
           "min": "80'",
           "icon": "🟥",
           "txt": "Tarik Muharemovic (Bósnia e Herzegovina) recebe cartão vermelho.",
-          "sub": "🏳️"
+          "sub": "🇧🇦"
         },
         {
           "min": "74'",
@@ -5132,7 +5132,7 @@
           "min": "72'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
-          "sub": "🏳️"
+          "sub": "🇧🇦"
         },
         {
           "min": "72'",
@@ -5162,7 +5162,7 @@
           "min": "69'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
-          "sub": "🏳️"
+          "sub": "🇧🇦"
         },
         {
           "min": "69'",
@@ -5179,26 +5179,26 @@
         {
           "min": "64'",
           "icon": "🔄",
-          "txt": "Substituição, 🏳️. Entra Esmir Bajraktarevic substituindo Edin Dzeko.",
-          "sub": "🏳️"
+          "txt": "Substituição, 🇧🇦. Entra Esmir Bajraktarevic substituindo Edin Dzeko.",
+          "sub": "🇧🇦"
         },
         {
           "min": "63'",
           "icon": "🔄",
-          "txt": "Substituição, 🏳️. Ivan Basic entra em campo e entra Benjamin Tahirovic.",
-          "sub": "🏳️"
+          "txt": "Substituição, 🇧🇦. Ivan Basic entra em campo e entra Benjamin Tahirovic.",
+          "sub": "🇧🇦"
         },
         {
           "min": "61'",
           "icon": "🟨",
           "txt": "Edin Dzeko (Bósnia e Herzegovina) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "🏳️"
+          "sub": "🇧🇦"
         },
         {
           "min": "59'",
           "icon": "🟨",
           "txt": "Amar Dedic (Bósnia e Herzegovina) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "🏳️"
+          "sub": "🇧🇦"
         },
         {
           "min": "56'",
@@ -5228,7 +5228,7 @@
           "min": "39'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
-          "sub": "🏳️"
+          "sub": "🇧🇦"
         },
         {
           "min": "39'",
@@ -5240,7 +5240,7 @@
           "min": "39'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
-          "sub": "🏳️"
+          "sub": "🇧🇦"
         },
         {
           "min": "39'",
@@ -5252,7 +5252,7 @@
           "min": "25'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
-          "sub": "🏳️"
+          "sub": "🇧🇦"
         },
         {
           "min": "25'",
@@ -5264,7 +5264,7 @@
           "min": "23'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
-          "sub": "🏳️"
+          "sub": "🇧🇦"
         },
         {
           "min": "23'",
@@ -11807,7 +11807,7 @@
       "events": []
     },
     {
-      "home": "Bosnia-Herzegovina",
+      "home": "Bósnia 🇧🇦",
       "away": "Qatar 🇶🇦",
       "date": "24/06",
       "brTime": "16h",
