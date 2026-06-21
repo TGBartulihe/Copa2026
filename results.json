@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T19:30:23.416Z",
+  "generatedAt": "2026-06-21T19:31:24.738Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12232,7 +12232,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "30'",
+      "clock": "31'",
       "events": [
         {
           "min": "30'",
@@ -12621,8 +12621,8 @@
           "totalTackles": "5",
           "tacklePct": "0.6",
           "interceptions": "3",
-          "effectiveClearance": "13",
-          "totalClearance": "13"
+          "effectiveClearance": "12",
+          "totalClearance": "12"
         }
       }
     },
