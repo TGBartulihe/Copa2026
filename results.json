@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T20:14:22.194Z",
+  "generatedAt": "2026-06-21T20:15:26.219Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11870,7 +11870,7 @@
         {
           "min": "10'",
           "icon": "⚽",
-          "txt": "Lamine Yamal (Espanha) finalização com o pé direito do lado direito da pequena área no Escanteio inferior direito. Assistência de Mikel Oyarzabal com um cruzamento após um contra-ataque.",
+          "txt": "Lamine Yamal (Espanha) finalização com o pé direito do lado direito da pequena área no Escanteio inferior direito. Assistência de Mikel Oyarzabal com um cruzamento.",
           "sub": "🇪🇸"
         },
         {
@@ -12173,21 +12173,21 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "668",
-          "totalPasses": "725",
+          "totalPasses": "726",
           "passPct": "0.9",
           "accurateCrosses": "7",
           "totalCrosses": "25",
           "crossPct": "0.3",
-          "totalLongBalls": "37",
-          "accurateLongBalls": "27",
+          "totalLongBalls": "38",
+          "accurateLongBalls": "28",
           "longballPct": "0.7",
           "blockedShots": "2",
           "effectiveTackles": "8",
-          "totalTackles": "9",
-          "tacklePct": "0.9",
-          "interceptions": "16",
-          "effectiveClearance": "15",
-          "totalClearance": "15"
+          "totalTackles": "10",
+          "tacklePct": "0.8",
+          "interceptions": "13",
+          "effectiveClearance": "17",
+          "totalClearance": "17"
         },
         "away": {
           "foulsCommitted": "2",
@@ -12202,7 +12202,7 @@
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "292",
+          "accuratePasses": "294",
           "totalPasses": "364",
           "passPct": "0.8",
           "accurateCrosses": "0",
@@ -12215,9 +12215,9 @@
           "effectiveTackles": "12",
           "totalTackles": "15",
           "tacklePct": "0.8",
-          "interceptions": "12",
-          "effectiveClearance": "36",
-          "totalClearance": "36"
+          "interceptions": "13",
+          "effectiveClearance": "35",
+          "totalClearance": "35"
         }
       }
     },
@@ -12232,7 +12232,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "49'",
+      "clock": "50'",
       "events": [
         {
           "min": "45'",
@@ -12629,9 +12629,9 @@
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "2",
-          "wonCorners": "2",
+          "wonCorners": "3",
           "saves": "1",
-          "possessionPct": "80.7",
+          "possessionPct": "80.8",
           "totalShots": "12",
           "shotsOnTarget": "4",
           "shotPct": "0.3",
@@ -12641,7 +12641,7 @@
           "totalPasses": "390",
           "passPct": "0.9",
           "accurateCrosses": "1",
-          "totalCrosses": "15",
+          "totalCrosses": "16",
           "crossPct": "0.1",
           "totalLongBalls": "16",
           "accurateLongBalls": "6",
@@ -12661,7 +12661,7 @@
           "offsides": "2",
           "wonCorners": "1",
           "saves": "4",
-          "possessionPct": "19.3",
+          "possessionPct": "19.2",
           "totalShots": "3",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
@@ -12681,8 +12681,8 @@
           "totalTackles": "8",
           "tacklePct": "0.5",
           "interceptions": "10",
-          "effectiveClearance": "29",
-          "totalClearance": "29"
+          "effectiveClearance": "30",
+          "totalClearance": "30"
         }
       }
     },
