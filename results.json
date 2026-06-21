@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T16:51:23.937Z",
+  "generatedAt": "2026-06-21T16:52:23.087Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11652,6 +11652,12 @@
       "clock": "45'+5'",
       "events": [
         {
+          "min": "45'+6'",
+          "icon": "⏱️",
+          "txt": "Fim do primeiro tempo, Espanha 3, Arábia Saudita 0.",
+          "sub": "🏳️"
+        },
+        {
           "min": "30'",
           "icon": "🟨",
           "txt": "Salem Al Dawsari (Arábia Saudita) recebe cartão amarelo por uma entrada perigosa.",
@@ -11992,7 +11998,7 @@
           "offsides": "0",
           "wonCorners": "4",
           "saves": "0",
-          "possessionPct": "71.7",
+          "possessionPct": "71.6",
           "totalShots": "17",
           "shotsOnTarget": "5",
           "shotPct": "0.3",
@@ -12022,21 +12028,21 @@
           "offsides": "2",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "28.3",
+          "possessionPct": "28.4",
           "totalShots": "2",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "110",
-          "totalPasses": "153",
+          "totalPasses": "154",
           "passPct": "0.7",
           "accurateCrosses": "0",
           "totalCrosses": "1",
           "crossPct": "0.0",
-          "totalLongBalls": "20",
+          "totalLongBalls": "21",
           "accurateLongBalls": "5",
-          "longballPct": "0.3",
+          "longballPct": "0.2",
           "blockedShots": "1",
           "effectiveTackles": "5",
           "totalTackles": "6",
