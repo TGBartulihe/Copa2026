@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T23:15:22.117Z",
+  "generatedAt": "2026-06-21T23:16:25.391Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12787,8 +12787,32 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "50'",
+      "clock": "51'",
       "events": [
+        {
+          "min": "50'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇻"
+        },
+        {
+          "min": "50'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇺🇾"
+        },
+        {
+          "min": "50'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇨🇻"
+        },
+        {
+          "min": "50'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇺🇾"
+        },
         {
           "min": "45'",
           "icon": "▶️",
@@ -13168,17 +13192,17 @@
           "offsides": "2",
           "wonCorners": "5",
           "saves": "0",
-          "possessionPct": "67.9",
+          "possessionPct": "68",
           "totalShots": "11",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "265",
-          "totalPasses": "312",
+          "totalPasses": "314",
           "passPct": "0.8",
           "accurateCrosses": "3",
-          "totalCrosses": "14",
+          "totalCrosses": "15",
           "crossPct": "0.2",
           "totalLongBalls": "23",
           "accurateLongBalls": "11",
@@ -13198,14 +13222,14 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "32.1",
+          "possessionPct": "32",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "111",
-          "totalPasses": "151",
+          "accuratePasses": "112",
+          "totalPasses": "152",
           "passPct": "0.7",
           "accurateCrosses": "1",
           "totalCrosses": "3",
@@ -13217,9 +13241,9 @@
           "effectiveTackles": "6",
           "totalTackles": "7",
           "tacklePct": "0.9",
-          "interceptions": "4",
-          "effectiveClearance": "25",
-          "totalClearance": "25"
+          "interceptions": "5",
+          "effectiveClearance": "26",
+          "totalClearance": "26"
         }
       }
     },
