@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T20:12:22.517Z",
+  "generatedAt": "2026-06-21T20:13:23.418Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12232,12 +12232,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "47'",
+      "clock": "48'",
       "events": [
         {
           "min": "45'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Início do segundo tempo Bélgica 0, IR Irã 0.",
           "sub": "🏳️"
         },
         {
@@ -12631,14 +12631,14 @@
           "offsides": "2",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "80.6",
+          "possessionPct": "80.7",
           "totalShots": "12",
           "shotsOnTarget": "4",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "333",
-          "totalPasses": "387",
+          "accuratePasses": "334",
+          "totalPasses": "390",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "15",
@@ -12655,13 +12655,13 @@
           "totalClearance": "4"
         },
         "away": {
-          "foulsCommitted": "5",
+          "foulsCommitted": "6",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "2",
           "wonCorners": "1",
           "saves": "4",
-          "possessionPct": "19.4",
+          "possessionPct": "19.3",
           "totalShots": "3",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
@@ -12680,9 +12680,9 @@
           "effectiveTackles": "4",
           "totalTackles": "8",
           "tacklePct": "0.5",
-          "interceptions": "9",
-          "effectiveClearance": "26",
-          "totalClearance": "26"
+          "interceptions": "10",
+          "effectiveClearance": "29",
+          "totalClearance": "29"
         }
       }
     },
