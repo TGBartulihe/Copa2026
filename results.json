@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T19:47:25.029Z",
+  "generatedAt": "2026-06-21T19:48:23.499Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12232,7 +12232,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "45'+2'",
+      "clock": "45'+3'",
       "events": [
         {
           "min": "35'",
@@ -12613,25 +12613,25 @@
           "offsides": "1",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "80.1",
+          "possessionPct": "80.6",
           "totalShots": "11",
           "shotsOnTarget": "4",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "281",
-          "totalPasses": "325",
+          "accuratePasses": "291",
+          "totalPasses": "336",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "12",
           "crossPct": "0.2",
-          "totalLongBalls": "11",
-          "accurateLongBalls": "4",
+          "totalLongBalls": "12",
+          "accurateLongBalls": "5",
           "longballPct": "0.4",
           "blockedShots": "4",
-          "effectiveTackles": "5",
-          "totalTackles": "8",
-          "tacklePct": "0.6",
+          "effectiveTackles": "6",
+          "totalTackles": "9",
+          "tacklePct": "0.7",
           "interceptions": "2",
           "effectiveClearance": "2",
           "totalClearance": "2"
@@ -12643,7 +12643,7 @@
           "offsides": "2",
           "wonCorners": "1",
           "saves": "4",
-          "possessionPct": "19.9",
+          "possessionPct": "19.4",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
@@ -12662,9 +12662,9 @@
           "effectiveTackles": "4",
           "totalTackles": "6",
           "tacklePct": "0.7",
-          "interceptions": "6",
-          "effectiveClearance": "20",
-          "totalClearance": "20"
+          "interceptions": "7",
+          "effectiveClearance": "21",
+          "totalClearance": "21"
         }
       }
     },
