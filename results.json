@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T20:32:26.046Z",
+  "generatedAt": "2026-06-21T20:33:28.638Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12232,18 +12232,24 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "67'",
+      "clock": "68'",
       "events": [
         {
           "min": "66'",
+          "icon": "🟥",
+          "txt": "Nathan Ngoy (Bélgica) recebe cartão vermelho.",
+          "sub": "🇧🇪"
+        },
+        {
+          "min": "66'",
           "icon": "🔄",
-          "txt": "Substituição, 🇮🇷. Substituição de Milad Mohammadi (Irã) aos 66'",
+          "txt": "Substituição, 🇮🇷. Entra Milad Mohammadi para o lugar de Ehsan Hajisafi.",
           "sub": "🇮🇷"
         },
         {
           "min": "66'",
           "icon": "🔄",
-          "txt": "Substituição, 🇮🇷. Substituição de Mehdi Torabi (Irã) aos 66'",
+          "txt": "Substituição, 🇮🇷. Mehdi Torabi substitui Mohammad Mohebbi.",
           "sub": "🇮🇷"
         },
         {
@@ -12655,20 +12661,20 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "6",
+          "foulsCommitted": "7",
           "yellowCards": "1",
-          "redCards": "0",
+          "redCards": "1",
           "offsides": "3",
           "wonCorners": "4",
           "saves": "2",
-          "possessionPct": "79.4",
+          "possessionPct": "79.6",
           "totalShots": "17",
           "shotsOnTarget": "6",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "426",
-          "totalPasses": "493",
+          "accuratePasses": "432",
+          "totalPasses": "499",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "23",
@@ -12691,7 +12697,7 @@
           "offsides": "2",
           "wonCorners": "2",
           "saves": "6",
-          "possessionPct": "20.6",
+          "possessionPct": "20.4",
           "totalShots": "5",
           "shotsOnTarget": "2",
           "shotPct": "0.4",
