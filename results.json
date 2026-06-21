@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T19:26:23.163Z",
+  "generatedAt": "2026-06-21T19:27:21.897Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12235,9 +12235,15 @@
       "clock": "26'",
       "events": [
         {
-          "min": "25'",
-          "icon": "⚽",
-          "txt": "Mehdi Taremi (IR Irã) finalização com o pé esquerdo do meio da área no Escanteio inferior direito. Assistência de Ehsan Hajisafi com um passe em profundidade após bola parada.",
+          "min": "27'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇮🇷"
+        },
+        {
+          "min": "27'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
           "sub": "🇮🇷"
         },
         {
