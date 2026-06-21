@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T23:26:22.404Z",
+  "generatedAt": "2026-06-21T23:27:22.760Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12784,13 +12784,19 @@
       "venue": "Hard Rock Stadium",
       "iso": "2026-06-21T22:00Z",
       "sh": 2,
-      "sa": 1,
+      "sa": 2,
       "done": false,
       "live": true,
       "clock": "61'",
       "events": [
         {
-          "min": "59'",
+          "min": "61'",
+          "icon": "⚽",
+          "txt": "Hélio Varela (Cabo Verde) finalização com o pé direito de fora da área.",
+          "sub": "🇨🇻"
+        },
+        {
+          "min": "58'",
           "icon": "🔄",
           "txt": "Substituição, 🇨🇻. Hélio Varela entra em campo para substituir Garry Rodrigues.",
           "sub": "🇨🇻"
@@ -13210,20 +13216,20 @@
           "offsides": "2",
           "wonCorners": "5",
           "saves": "0",
-          "possessionPct": "65.6",
+          "possessionPct": "66.1",
           "totalShots": "11",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "311",
-          "totalPasses": "369",
+          "accuratePasses": "316",
+          "totalPasses": "376",
           "passPct": "0.8",
           "accurateCrosses": "3",
           "totalCrosses": "15",
           "crossPct": "0.2",
-          "totalLongBalls": "28",
-          "accurateLongBalls": "13",
+          "totalLongBalls": "29",
+          "accurateLongBalls": "14",
           "longballPct": "0.5",
           "blockedShots": "4",
           "effectiveTackles": "2",
@@ -13240,10 +13246,10 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "34.4",
-          "totalShots": "4",
-          "shotsOnTarget": "1",
-          "shotPct": "0.3",
+          "possessionPct": "33.9",
+          "totalShots": "5",
+          "shotsOnTarget": "2",
+          "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "149",
@@ -13259,7 +13265,7 @@
           "effectiveTackles": "6",
           "totalTackles": "7",
           "tacklePct": "0.9",
-          "interceptions": "6",
+          "interceptions": "7",
           "effectiveClearance": "27",
           "totalClearance": "27"
         }
