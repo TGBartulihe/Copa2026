@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T01:42:21.673Z",
+  "generatedAt": "2026-06-21T01:43:25.813Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -10511,12 +10511,42 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "83'",
+      "clock": "84'",
       "events": [
         {
+          "min": "84'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇼. Substituição Godfried Roemeratoe (Curaçao) aos 84'",
+          "sub": "🇨🇼"
+        },
+        {
+          "min": "83'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇼. Gervane Kastaneer (Curaçao) Substituição aos 83'",
+          "sub": "🇨🇼"
+        },
+        {
+          "min": "83'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇼"
+        },
+        {
+          "min": "83'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇪🇨"
+        },
+        {
+          "min": "83'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇪🇨. Ángelo Preciado substitui Alan Franco.",
+          "sub": "🇪🇨"
+        },
+        {
           "min": "82'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Jürgen Locadia (Curaçao).",
           "sub": "🇨🇼"
         },
         {
@@ -10606,14 +10636,14 @@
         {
           "min": "68'",
           "icon": "⏸️",
-          "txt": "Atraso na partida para uma pausa para bebidas.",
-          "sub": "🇪🇨"
+          "txt": "Jogo paralisado",
+          "sub": "🇨🇼"
         },
         {
           "min": "68'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
-          "sub": "🇨🇼"
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇪🇨"
         },
         {
           "min": "56'",
