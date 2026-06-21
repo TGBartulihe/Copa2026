@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T02:52:22.876Z",
+  "generatedAt": "2026-06-21T02:53:24.657Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -10796,12 +10796,12 @@
               "row": 1
             },
             {
-              "name": "Pedro Vite",
+              "name": "Moisés Caicedo",
               "pos": "CM-L",
               "row": 2
             },
             {
-              "name": "Moisés Caicedo",
+              "name": "Pedro Vite",
               "pos": "CM-R",
               "row": 2
             },
@@ -11070,7 +11070,7 @@
           "accurateCrosses": "12",
           "totalCrosses": "32",
           "crossPct": "0.4",
-          "totalLongBalls": "32",
+          "totalLongBalls": "33",
           "accurateLongBalls": "12",
           "longballPct": "0.4",
           "blockedShots": "2",
