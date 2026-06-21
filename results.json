@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T20:49:22.298Z",
+  "generatedAt": "2026-06-21T20:50:24.193Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12235,6 +12235,12 @@
       "clock": "84'",
       "events": [
         {
+          "min": "85'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇮🇷. Amirhossein Hosseinzadeh (Irã) Substituição aos 85'",
+          "sub": "🇮🇷"
+        },
+        {
           "min": "79'",
           "icon": "🔄",
           "txt": "Substituição, 🇮🇷. Shahriyar Moghanloo substituiu Saman Ghoddos.",
@@ -12703,17 +12709,17 @@
           "offsides": "3",
           "wonCorners": "4",
           "saves": "3",
-          "possessionPct": "72.1",
-          "totalShots": "17",
+          "possessionPct": "72.2",
+          "totalShots": "18",
           "shotsOnTarget": "6",
-          "shotPct": "0.4",
+          "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "479",
-          "totalPasses": "556",
+          "accuratePasses": "481",
+          "totalPasses": "558",
           "passPct": "0.9",
           "accurateCrosses": "3",
-          "totalCrosses": "24",
+          "totalCrosses": "27",
           "crossPct": "0.1",
           "totalLongBalls": "28",
           "accurateLongBalls": "10",
@@ -12727,25 +12733,25 @@
           "totalClearance": "10"
         },
         "away": {
-          "foulsCommitted": "8",
+          "foulsCommitted": "9",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "2",
           "wonCorners": "2",
           "saves": "6",
-          "possessionPct": "27.9",
+          "possessionPct": "27.8",
           "totalShots": "6",
           "shotsOnTarget": "3",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "156",
-          "totalPasses": "217",
+          "totalPasses": "218",
           "passPct": "0.7",
           "accurateCrosses": "2",
           "totalCrosses": "8",
           "crossPct": "0.3",
-          "totalLongBalls": "42",
+          "totalLongBalls": "43",
           "accurateLongBalls": "14",
           "longballPct": "0.3",
           "blockedShots": "0",
@@ -12753,8 +12759,8 @@
           "totalTackles": "15",
           "tacklePct": "0.5",
           "interceptions": "12",
-          "effectiveClearance": "43",
-          "totalClearance": "43"
+          "effectiveClearance": "44",
+          "totalClearance": "44"
         }
       }
     },
