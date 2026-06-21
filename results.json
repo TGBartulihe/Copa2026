@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T23:30:24.520Z",
+  "generatedAt": "2026-06-21T23:31:26.191Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12787,8 +12787,26 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "64'",
+      "clock": "65'",
       "events": [
+        {
+          "min": "65'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇺🇾"
+        },
+        {
+          "min": "65'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇨🇻"
+        },
+        {
+          "min": "64'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇺🇾"
+        },
         {
           "min": "64'",
           "icon": "🩹",
