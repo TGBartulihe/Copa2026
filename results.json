@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T01:45:26.064Z",
+  "generatedAt": "2026-06-21T01:46:25.213Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -10511,7 +10511,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "85'",
+      "clock": "87'",
       "events": [
         {
           "min": "84'",
@@ -10545,15 +10545,15 @@
         },
         {
           "min": "82'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a uma lesão de Jürgen Locadia (Curaçao).",
-          "sub": "🇨🇼"
-        },
-        {
-          "min": "82'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇪🇨"
+        },
+        {
+          "min": "82'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Jürgen Locadia (Curaçao).",
+          "sub": "🇨🇼"
         },
         {
           "min": "81'",
@@ -11041,18 +11041,18 @@
           "wonCorners": "7",
           "saves": "3",
           "possessionPct": "74",
-          "totalShots": "27",
+          "totalShots": "28",
           "shotsOnTarget": "15",
-          "shotPct": "0.6",
+          "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "515",
-          "totalPasses": "566",
+          "accuratePasses": "525",
+          "totalPasses": "579",
           "passPct": "0.9",
           "accurateCrosses": "12",
           "totalCrosses": "25",
           "crossPct": "0.5",
-          "totalLongBalls": "27",
+          "totalLongBalls": "29",
           "accurateLongBalls": "12",
           "longballPct": "0.4",
           "blockedShots": "3",
@@ -11076,19 +11076,19 @@
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "145",
-          "totalPasses": "204",
+          "accuratePasses": "147",
+          "totalPasses": "209",
           "passPct": "0.7",
           "accurateCrosses": "1",
           "totalCrosses": "1",
           "crossPct": "1.0",
-          "totalLongBalls": "43",
-          "accurateLongBalls": "10",
+          "totalLongBalls": "45",
+          "accurateLongBalls": "11",
           "longballPct": "0.2",
           "blockedShots": "3",
           "effectiveTackles": "7",
-          "totalTackles": "15",
-          "tacklePct": "0.5",
+          "totalTackles": "16",
+          "tacklePct": "0.4",
           "interceptions": "7",
           "effectiveClearance": "20",
           "totalClearance": "20"
