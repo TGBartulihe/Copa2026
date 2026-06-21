@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T01:50:24.594Z",
+  "generatedAt": "2026-06-21T01:51:24.206Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -10511,8 +10511,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "90'+1'",
+      "clock": "90'+2'",
       "events": [
+        {
+          "min": "90'+1'",
+          "icon": "🟨",
+          "txt": "Gervane Kastaneer (Curaçao) Cartão Amarelo aos 90'+1'",
+          "sub": "🇨🇼"
+        },
         {
           "min": "89'",
           "icon": "🔄",
