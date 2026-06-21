@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T20:52:24.297Z",
+  "generatedAt": "2026-06-21T20:53:23.475Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12232,8 +12232,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "87'",
+      "clock": "88'",
       "events": [
+        {
+          "min": "87'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇧🇪. Matias Fernandez-Pardo (Bélgica) Substituição aos 87'",
+          "sub": "🇧🇪"
+        },
         {
           "min": "85'",
           "icon": "🔄",
@@ -12709,7 +12715,7 @@
           "offsides": "3",
           "wonCorners": "4",
           "saves": "3",
-          "possessionPct": "72.3",
+          "possessionPct": "71.3",
           "totalShots": "20",
           "shotsOnTarget": "7",
           "shotPct": "0.4",
@@ -12736,17 +12742,17 @@
           "foulsCommitted": "9",
           "yellowCards": "1",
           "redCards": "0",
-          "offsides": "2",
+          "offsides": "3",
           "wonCorners": "2",
-          "saves": "6",
-          "possessionPct": "27.7",
+          "saves": "7",
+          "possessionPct": "28.7",
           "totalShots": "6",
           "shotsOnTarget": "3",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "158",
-          "totalPasses": "220",
+          "accuratePasses": "168",
+          "totalPasses": "230",
           "passPct": "0.7",
           "accurateCrosses": "2",
           "totalCrosses": "8",
