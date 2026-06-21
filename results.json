@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T17:55:24.012Z",
+  "generatedAt": "2026-06-21T17:56:24.502Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11649,12 +11649,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "90'+2'",
+      "clock": "90'+3'",
       "events": [
         {
           "min": "90'+2'",
           "icon": "⚽",
-          "txt": "Ferran Torres (Espanha) finalização com o pé esquerdo de muito perto.",
+          "txt": "Ferran Torres (Espanha) remate com o pé esquerdo em frente à baliza ao centro da baliza. Assistência de Pedro Porro.",
           "sub": "🇪🇸"
         },
         {
@@ -12154,14 +12154,14 @@
           "offsides": "1",
           "wonCorners": "6",
           "saves": "1",
-          "possessionPct": "66.4",
+          "possessionPct": "66.5",
           "totalShots": "22",
           "shotsOnTarget": "9",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "634",
-          "totalPasses": "690",
+          "accuratePasses": "635",
+          "totalPasses": "691",
           "passPct": "0.9",
           "accurateCrosses": "7",
           "totalCrosses": "24",
@@ -12184,7 +12184,7 @@
           "offsides": "3",
           "wonCorners": "1",
           "saves": "5",
-          "possessionPct": "33.6",
+          "possessionPct": "33.5",
           "totalShots": "3",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
