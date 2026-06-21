@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T23:39:22.138Z",
+  "generatedAt": "2026-06-21T23:40:23.317Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12787,8 +12787,14 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "73'",
+      "clock": "75'",
       "events": [
+        {
+          "min": "74'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇺🇾"
+        },
         {
           "min": "74'",
           "icon": "▶️",
