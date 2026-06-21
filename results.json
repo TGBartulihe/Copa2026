@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T05:50:24.248Z",
+  "generatedAt": "2026-06-21T05:51:25.951Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11127,6 +11127,18 @@
       "clock": "90'+1'",
       "events": [
         {
+          "min": "90'+1'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇹🇳. Elias Achouri (Tunísia) Substituição aos 90'+1'",
+          "sub": "🇹🇳"
+        },
+        {
+          "min": "90'+1'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇹🇳. Entra Rani Khedira para o lugar de Ellyes Skhiri.",
+          "sub": "🇹🇳"
+        },
+        {
           "min": "87'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
@@ -11565,7 +11577,7 @@
           "offsides": "1",
           "wonCorners": "3",
           "saves": "1",
-          "possessionPct": "38.2",
+          "possessionPct": "37.6",
           "totalShots": "2",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
@@ -11595,20 +11607,20 @@
           "offsides": "1",
           "wonCorners": "5",
           "saves": "0",
-          "possessionPct": "61.8",
+          "possessionPct": "62.4",
           "totalShots": "11",
           "shotsOnTarget": "5",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "478",
-          "totalPasses": "534",
+          "accuratePasses": "491",
+          "totalPasses": "547",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "11",
           "crossPct": "0.2",
-          "totalLongBalls": "31",
-          "accurateLongBalls": "18",
+          "totalLongBalls": "32",
+          "accurateLongBalls": "19",
           "longballPct": "0.6",
           "blockedShots": "3",
           "effectiveTackles": "8",
