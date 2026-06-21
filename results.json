@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T22:46:27.673Z",
+  "generatedAt": "2026-06-21T22:47:21.849Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12793,6 +12793,18 @@
           "min": "45'+1'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
+          "sub": "🇺🇾"
+        },
+        {
+          "min": "45'+1'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇨🇻"
+        },
+        {
+          "min": "44'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a lesão de Telmo Arcanjo (Cabo Verde).",
           "sub": "🇨🇻"
         },
         {
@@ -12800,12 +12812,6 @@
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇺🇾"
-        },
-        {
-          "min": "44'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a lesão de Telmo Arcanjo (Cabo Verde).",
-          "sub": "🇨🇻"
         },
         {
           "min": "44'",
