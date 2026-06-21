@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T01:12:22.345Z",
+  "generatedAt": "2026-06-21T01:13:24.732Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -10511,8 +10511,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "52'",
+      "clock": "54'",
       "events": [
+        {
+          "min": "53'",
+          "icon": "🟨",
+          "txt": "Juninho Bacuna (Curaçao) Cartão Amarelo aos 53'",
+          "sub": "🇨🇼"
+        },
         {
           "min": "45'",
           "icon": "▶️",
@@ -10884,17 +10890,17 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "74.2",
+          "possessionPct": "74.1",
           "totalShots": "10",
           "shotsOnTarget": "7",
           "shotPct": "0.7",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "382",
-          "totalPasses": "427",
+          "accuratePasses": "383",
+          "totalPasses": "429",
           "passPct": "0.9",
           "accurateCrosses": "1",
-          "totalCrosses": "9",
+          "totalCrosses": "10",
           "crossPct": "0.1",
           "totalLongBalls": "21",
           "accurateLongBalls": "6",
@@ -10908,25 +10914,25 @@
           "totalClearance": "9"
         },
         "away": {
-          "foulsCommitted": "5",
+          "foulsCommitted": "6",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "2",
           "wonCorners": "0",
           "saves": "7",
-          "possessionPct": "25.8",
+          "possessionPct": "25.9",
           "totalShots": "5",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "106",
-          "totalPasses": "149",
+          "accuratePasses": "107",
+          "totalPasses": "151",
           "passPct": "0.7",
           "accurateCrosses": "1",
           "totalCrosses": "1",
           "crossPct": "1.0",
-          "totalLongBalls": "28",
+          "totalLongBalls": "29",
           "accurateLongBalls": "5",
           "longballPct": "0.2",
           "blockedShots": "2",
@@ -10934,8 +10940,8 @@
           "totalTackles": "6",
           "tacklePct": "0.3",
           "interceptions": "6",
-          "effectiveClearance": "9",
-          "totalClearance": "9"
+          "effectiveClearance": "10",
+          "totalClearance": "10"
         }
       }
     },
