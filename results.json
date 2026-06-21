@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T00:34:23.378Z",
+  "generatedAt": "2026-06-21T00:35:26.622Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -10511,12 +10511,18 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "33'",
+      "clock": "34'",
       "events": [
         {
-          "min": "33'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "min": "35'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇪🇨"
+        },
+        {
+          "min": "35'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇨🇼"
         },
         {
@@ -10524,6 +10530,12 @@
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇪🇨"
+        },
+        {
+          "min": "33'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a lesão de Juninho Bacuna (Curaçao).",
+          "sub": "🇨🇼"
         },
         {
           "min": "27'",
