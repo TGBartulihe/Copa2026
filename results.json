@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T01:52:22.412Z",
+  "generatedAt": "2026-06-21T01:53:24.636Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11062,7 +11062,7 @@
           "totalPasses": "626",
           "passPct": "0.9",
           "accurateCrosses": "12",
-          "totalCrosses": "27",
+          "totalCrosses": "28",
           "crossPct": "0.4",
           "totalLongBalls": "31",
           "accurateLongBalls": "12",
@@ -11077,7 +11077,7 @@
         },
         "away": {
           "foulsCommitted": "10",
-          "yellowCards": "4",
+          "yellowCards": "5",
           "redCards": "0",
           "offsides": "2",
           "wonCorners": "0",
