@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T20:31:24.192Z",
+  "generatedAt": "2026-06-21T20:32:26.046Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12232,8 +12232,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "66'",
+      "clock": "67'",
       "events": [
+        {
+          "min": "66'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇮🇷. Substituição de Milad Mohammadi (Irã) aos 66'",
+          "sub": "🇮🇷"
+        },
+        {
+          "min": "66'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇮🇷. Substituição de Mehdi Torabi (Irã) aos 66'",
+          "sub": "🇮🇷"
+        },
         {
           "min": "58'",
           "icon": "🔄",
@@ -12680,9 +12692,9 @@
           "wonCorners": "2",
           "saves": "6",
           "possessionPct": "20.6",
-          "totalShots": "4",
+          "totalShots": "5",
           "shotsOnTarget": "2",
-          "shotPct": "0.5",
+          "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "76",
