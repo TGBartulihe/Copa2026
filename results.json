@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T22:21:23.533Z",
+  "generatedAt": "2026-06-21T22:22:22.661Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12784,15 +12784,21 @@
       "venue": "Hard Rock Stadium",
       "iso": "2026-06-21T22:00Z",
       "sh": 0,
-      "sa": 0,
+      "sa": 1,
       "done": false,
       "live": true,
-      "clock": "20'",
+      "clock": "21'",
       "events": [
+        {
+          "min": "21'",
+          "icon": "⚽",
+          "txt": "Kevin Pina (Cabo Verde) Gol de falta com finalização com o pé direito.",
+          "sub": "🇨🇻"
+        },
         {
           "min": "20'",
           "icon": "🟨",
-          "txt": "Rodrigo Bentancur (Uruguai) Cartão Amarelo aos 20'",
+          "txt": "Rodrigo Bentancur (Uruguai) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇺🇾"
         },
         {
@@ -13079,7 +13085,7 @@
       "stats": {
         "home": {
           "foulsCommitted": "4",
-          "yellowCards": "0",
+          "yellowCards": "1",
           "redCards": "0",
           "offsides": "2",
           "wonCorners": "3",
@@ -13115,9 +13121,9 @@
           "wonCorners": "0",
           "saves": "0",
           "possessionPct": "36.9",
-          "totalShots": "0",
-          "shotsOnTarget": "0",
-          "shotPct": "0.0",
+          "totalShots": "1",
+          "shotsOnTarget": "1",
+          "shotPct": "1.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "43",
