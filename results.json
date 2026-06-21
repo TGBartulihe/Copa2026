@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T00:38:22.888Z",
+  "generatedAt": "2026-06-21T00:39:23.537Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -10511,12 +10511,18 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "37'",
+      "clock": "39'",
       "events": [
+        {
+          "min": "39'",
+          "icon": "🟨",
+          "txt": "Leandro Bacuna (Curaçao) recebe cartão amarelo por uma entrada perigosa.",
+          "sub": "🇨🇼"
+        },
         {
           "min": "38'",
           "icon": "🟨",
-          "txt": "Jordy Alcívar (Equador) Cartão Amarelo aos 38'",
+          "txt": "Jordy Alcívar (Equador) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇪🇨"
         },
         {
@@ -10854,13 +10860,13 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "3",
-          "yellowCards": "0",
+          "foulsCommitted": "4",
+          "yellowCards": "1",
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "73.8",
+          "possessionPct": "73.6",
           "totalShots": "7",
           "shotsOnTarget": "5",
           "shotPct": "0.7",
@@ -10876,28 +10882,28 @@
           "accurateLongBalls": "4",
           "longballPct": "0.3",
           "blockedShots": "0",
-          "effectiveTackles": "5",
-          "totalTackles": "8",
-          "tacklePct": "0.6",
+          "effectiveTackles": "6",
+          "totalTackles": "9",
+          "tacklePct": "0.7",
           "interceptions": "2",
-          "effectiveClearance": "5",
-          "totalClearance": "5"
+          "effectiveClearance": "6",
+          "totalClearance": "6"
         },
         "away": {
-          "foulsCommitted": "2",
-          "yellowCards": "0",
+          "foulsCommitted": "3",
+          "yellowCards": "1",
           "redCards": "0",
           "offsides": "2",
           "wonCorners": "0",
           "saves": "5",
-          "possessionPct": "26.2",
+          "possessionPct": "26.4",
           "totalShots": "4",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "75",
-          "totalPasses": "101",
+          "totalPasses": "102",
           "passPct": "0.7",
           "accurateCrosses": "0",
           "totalCrosses": "0",
