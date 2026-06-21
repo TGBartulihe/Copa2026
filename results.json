@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T20:22:22.341Z",
+  "generatedAt": "2026-06-21T20:23:28.418Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12232,8 +12232,26 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "56'",
+      "clock": "58'",
       "events": [
+        {
+          "min": "58'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇧🇪. Dodi Lukébakio (Bélgica) Substituição aos 58'",
+          "sub": "🇧🇪"
+        },
+        {
+          "min": "58'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇧🇪. Hans Vanaken (Bélgica) Substituição aos 58'",
+          "sub": "🇧🇪"
+        },
+        {
+          "min": "58'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇧🇪. Entra Timothy Castagne para o lugar de Thomas Meunier.",
+          "sub": "🇧🇪"
+        },
         {
           "min": "45'",
           "icon": "▶️",
@@ -12631,17 +12649,17 @@
           "offsides": "3",
           "wonCorners": "4",
           "saves": "2",
-          "possessionPct": "79.5",
+          "possessionPct": "80",
           "totalShots": "14",
           "shotsOnTarget": "4",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "365",
-          "totalPasses": "427",
+          "accuratePasses": "375",
+          "totalPasses": "438",
           "passPct": "0.9",
           "accurateCrosses": "3",
-          "totalCrosses": "19",
+          "totalCrosses": "20",
           "crossPct": "0.2",
           "totalLongBalls": "20",
           "accurateLongBalls": "7",
