@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T22:09:23.004Z",
+  "generatedAt": "2026-06-21T22:10:23.030Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12832,28 +12832,28 @@
             },
             {
               "name": "Manuel Ugarte",
-              "pos": "LM",
-              "row": 2
-            },
-            {
-              "name": "Rodrigo Bentancur",
-              "pos": "RM",
+              "pos": "DM",
               "row": 2
             },
             {
               "name": "Federico Valverde",
-              "pos": "AM",
-              "row": 2.5
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Rodrigo Bentancur",
+              "pos": "CM-R",
+              "row": 2
             },
             {
               "name": "Maxi Araújo",
-              "pos": "AM-L",
-              "row": 2.5
+              "pos": "LM",
+              "row": 2
             },
             {
               "name": "Agustín Cano",
-              "pos": "AM-R",
-              "row": 2.5
+              "pos": "RM",
+              "row": 2
             },
             {
               "name": "Federico Viñas",
@@ -12928,7 +12928,7 @@
               "row": 3
             }
           ],
-          "formation": "4-2-3-1",
+          "formation": "4-1-4-1",
           "dotColor": "#55B5E5"
         },
         "away": {
@@ -13075,25 +13075,25 @@
           "foulsCommitted": "2",
           "yellowCards": "0",
           "redCards": "0",
-          "offsides": "0",
+          "offsides": "1",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "62.7",
-          "totalShots": "0",
+          "possessionPct": "56.2",
+          "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "28",
-          "totalPasses": "36",
+          "accuratePasses": "31",
+          "totalPasses": "40",
           "passPct": "0.8",
-          "accurateCrosses": "0",
+          "accurateCrosses": "1",
           "totalCrosses": "1",
-          "crossPct": "0.0",
-          "totalLongBalls": "6",
+          "crossPct": "1.0",
+          "totalLongBalls": "7",
           "accurateLongBalls": "3",
-          "longballPct": "0.5",
-          "blockedShots": "0",
+          "longballPct": "0.4",
+          "blockedShots": "1",
           "effectiveTackles": "0",
           "totalTackles": "0",
           "tacklePct": "0.0",
@@ -13108,21 +13108,21 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "37.3",
+          "possessionPct": "43.8",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "14",
-          "totalPasses": "22",
-          "passPct": "0.6",
+          "accuratePasses": "22",
+          "totalPasses": "32",
+          "passPct": "0.7",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
-          "totalLongBalls": "4",
-          "accurateLongBalls": "0",
-          "longballPct": "0.0",
+          "totalLongBalls": "6",
+          "accurateLongBalls": "1",
+          "longballPct": "0.2",
           "blockedShots": "0",
           "effectiveTackles": "2",
           "totalTackles": "2",
