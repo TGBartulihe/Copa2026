@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T05:34:23.587Z",
+  "generatedAt": "2026-06-21T05:35:25.455Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11124,22 +11124,22 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "74'",
+      "clock": "75'",
       "events": [
         {
           "min": "74'",
           "icon": "🔄",
-          "txt": "Substituição, 🇯🇵. Yukinari Sugawara (Japão) Substituição aos 74'",
+          "txt": "Substituição, 🇯🇵. Yukinari Sugawara substitui Ritsu Doan.",
           "sub": "🇯🇵"
         },
         {
-          "min": "74'",
+          "min": "73'",
           "icon": "🔄",
           "txt": "Substituição, 🇯🇵. Entra Junnosuke Suzuki substituindo Daichi Kamada.",
           "sub": "🇯🇵"
         },
         {
-          "min": "74'",
+          "min": "73'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
           "sub": "🇹🇳"
@@ -11515,7 +11515,7 @@
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
-          "wonCorners": "1",
+          "wonCorners": "2",
           "saves": "1",
           "possessionPct": "36.7",
           "totalShots": "1",
@@ -11524,7 +11524,7 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "220",
-          "totalPasses": "277",
+          "totalPasses": "278",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "6",
@@ -11554,7 +11554,7 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "430",
-          "totalPasses": "478",
+          "totalPasses": "479",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "9",
@@ -11567,8 +11567,8 @@
           "totalTackles": "13",
           "tacklePct": "0.5",
           "interceptions": "4",
-          "effectiveClearance": "20",
-          "totalClearance": "20"
+          "effectiveClearance": "21",
+          "totalClearance": "21"
         }
       }
     },
