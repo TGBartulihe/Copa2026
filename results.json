@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T03:08:25.408Z",
+  "generatedAt": "2026-06-21T03:09:21.985Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -10670,7 +10670,7 @@
           "sub": "🇨🇼"
         },
         {
-          "min": "56'",
+          "min": "55'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
           "sub": "🇪🇨"
@@ -11105,7 +11105,7 @@
           "longballPct": "0.3",
           "blockedShots": "3",
           "effectiveTackles": "7",
-          "totalTackles": "16",
+          "totalTackles": "17",
           "tacklePct": "0.4",
           "interceptions": "8",
           "effectiveClearance": "32",
