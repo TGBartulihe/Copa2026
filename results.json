@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T01:57:24.357Z",
+  "generatedAt": "2026-06-21T01:58:23.321Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11058,14 +11058,14 @@
           "offsides": "1",
           "wonCorners": "9",
           "saves": "3",
-          "possessionPct": "74.8",
+          "possessionPct": "74.9",
           "totalShots": "28",
           "shotsOnTarget": "15",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "577",
-          "totalPasses": "641",
+          "accuratePasses": "578",
+          "totalPasses": "642",
           "passPct": "0.9",
           "accurateCrosses": "13",
           "totalCrosses": "32",
@@ -11088,7 +11088,7 @@
           "offsides": "2",
           "wonCorners": "0",
           "saves": "15",
-          "possessionPct": "25.2",
+          "possessionPct": "25.1",
           "totalShots": "10",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
@@ -11674,7 +11674,7 @@
       "round": "avos"
     },
     {
-      "home": "Group E Winner",
+      "home": "Alemanha 🇩🇪",
       "away": "Third Place Group A/B/C/D/F",
       "date": "29/06",
       "brTime": "17h",
