@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T05:05:23.083Z",
+  "generatedAt": "2026-06-21T05:06:25.728Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11124,12 +11124,18 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "45'+4'",
+      "clock": "46'",
       "events": [
         {
           "min": "45'",
+          "icon": "▶️",
+          "txt": "Começo do segundo tempo Tunísia 0, Japão 2.",
+          "sub": "🏳️"
+        },
+        {
+          "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, 🇹🇳. Mohamed Amine Ben Hamida (Tunísia) Substituição aos 45'",
+          "txt": "Substituição, 🇹🇳. Entra Mohamed Amine Ben Hmida para o lugar de Dylan Bronn.",
           "sub": "🇹🇳"
         },
         {
@@ -11463,7 +11469,7 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "34.4",
+          "possessionPct": "34.3",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
@@ -11493,21 +11499,21 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "0",
-          "possessionPct": "65.6",
+          "possessionPct": "65.7",
           "totalShots": "5",
           "shotsOnTarget": "3",
           "shotPct": "0.6",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "266",
-          "totalPasses": "295",
+          "accuratePasses": "267",
+          "totalPasses": "297",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "7",
           "crossPct": "0.1",
-          "totalLongBalls": "16",
+          "totalLongBalls": "17",
           "accurateLongBalls": "11",
-          "longballPct": "0.7",
+          "longballPct": "0.6",
           "blockedShots": "1",
           "effectiveTackles": "6",
           "totalTackles": "9",
