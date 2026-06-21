@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T23:23:21.868Z",
+  "generatedAt": "2026-06-21T23:24:28.231Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12787,8 +12787,26 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "58'",
+      "clock": "59'",
       "events": [
+        {
+          "min": "59'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇻. Hélio Varela (Cabo Verde) Substituição aos 59'",
+          "sub": "🇨🇻"
+        },
+        {
+          "min": "58'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇻. Substituição de Nuno da Costa (Cabo Verde) aos 58'",
+          "sub": "🇨🇻"
+        },
+        {
+          "min": "58'",
+          "icon": "🟨",
+          "txt": "Mathías Olivera (Uruguai) Cartão Amarelo aos 58'",
+          "sub": "🇺🇾"
+        },
         {
           "min": "50'",
           "icon": "▶️",
@@ -13186,34 +13204,34 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "7",
+          "foulsCommitted": "8",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "2",
           "wonCorners": "5",
           "saves": "0",
-          "possessionPct": "66.6",
+          "possessionPct": "65.8",
           "totalShots": "11",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "288",
-          "totalPasses": "342",
+          "accuratePasses": "311",
+          "totalPasses": "369",
           "passPct": "0.8",
           "accurateCrosses": "3",
           "totalCrosses": "15",
           "crossPct": "0.2",
-          "totalLongBalls": "24",
-          "accurateLongBalls": "12",
+          "totalLongBalls": "28",
+          "accurateLongBalls": "13",
           "longballPct": "0.5",
           "blockedShots": "4",
-          "effectiveTackles": "0",
-          "totalTackles": "5",
-          "tacklePct": "0.0",
-          "interceptions": "4",
-          "effectiveClearance": "6",
-          "totalClearance": "6"
+          "effectiveTackles": "2",
+          "totalTackles": "7",
+          "tacklePct": "0.3",
+          "interceptions": "6",
+          "effectiveClearance": "7",
+          "totalClearance": "7"
         },
         "away": {
           "foulsCommitted": "2",
@@ -13222,28 +13240,28 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "33.4",
+          "possessionPct": "34.2",
           "totalShots": "3",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "132",
-          "totalPasses": "175",
+          "accuratePasses": "149",
+          "totalPasses": "196",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "3",
           "crossPct": "0.3",
-          "totalLongBalls": "34",
-          "accurateLongBalls": "7",
+          "totalLongBalls": "36",
+          "accurateLongBalls": "8",
           "longballPct": "0.2",
           "blockedShots": "0",
           "effectiveTackles": "6",
-          "totalTackles": "7",
-          "tacklePct": "0.9",
+          "totalTackles": "8",
+          "tacklePct": "0.8",
           "interceptions": "6",
-          "effectiveClearance": "27",
-          "totalClearance": "27"
+          "effectiveClearance": "26",
+          "totalClearance": "26"
         }
       }
     },
