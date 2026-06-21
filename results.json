@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T05:30:25.438Z",
+  "generatedAt": "2026-06-21T05:31:22.265Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11124,12 +11124,18 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "70'",
+      "clock": "71'",
       "events": [
         {
           "min": "70'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
+          "sub": "🇹🇳"
+        },
+        {
+          "min": "70'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
           "sub": "🇯🇵"
         },
         {
@@ -11487,14 +11493,14 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "36.3",
+          "possessionPct": "36.6",
           "totalShots": "2",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "216",
-          "totalPasses": "272",
+          "accuratePasses": "220",
+          "totalPasses": "277",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "5",
@@ -11517,14 +11523,14 @@
           "offsides": "0",
           "wonCorners": "4",
           "saves": "0",
-          "possessionPct": "63.7",
+          "possessionPct": "63.4",
           "totalShots": "9",
           "shotsOnTarget": "4",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "429",
-          "totalPasses": "477",
+          "accuratePasses": "430",
+          "totalPasses": "478",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "9",
@@ -11534,8 +11540,8 @@
           "longballPct": "0.6",
           "blockedShots": "2",
           "effectiveTackles": "7",
-          "totalTackles": "12",
-          "tacklePct": "0.6",
+          "totalTackles": "13",
+          "tacklePct": "0.5",
           "interceptions": "4",
           "effectiveClearance": "20",
           "totalClearance": "20"
