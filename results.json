@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T19:25:24.777Z",
+  "generatedAt": "2026-06-21T19:26:23.163Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -12229,11 +12229,17 @@
       "venue": "SoFi Stadium",
       "iso": "2026-06-21T19:00Z",
       "sh": 0,
-      "sa": 0,
+      "sa": 1,
       "done": false,
       "live": true,
-      "clock": "25'",
+      "clock": "26'",
       "events": [
+        {
+          "min": "25'",
+          "icon": "⚽",
+          "txt": "Mehdi Taremi (IR Irã) finalização com o pé esquerdo do meio da área no Escanteio inferior direito. Assistência de Ehsan Hajisafi com um passe em profundidade após bola parada.",
+          "sub": "🇮🇷"
+        },
         {
           "min": "6'",
           "icon": "▶️",
@@ -12541,13 +12547,13 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "3",
+          "foulsCommitted": "4",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "72.8",
+          "possessionPct": "72.4",
           "totalShots": "7",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
@@ -12562,7 +12568,7 @@
           "totalLongBalls": "5",
           "accurateLongBalls": "2",
           "longballPct": "0.4",
-          "blockedShots": "3",
+          "blockedShots": "2",
           "effectiveTackles": "2",
           "totalTackles": "5",
           "tacklePct": "0.4",
@@ -12577,14 +12583,14 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "27.2",
-          "totalShots": "2",
-          "shotsOnTarget": "1",
-          "shotPct": "0.5",
+          "possessionPct": "27.6",
+          "totalShots": "3",
+          "shotsOnTarget": "2",
+          "shotPct": "0.7",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "39",
-          "totalPasses": "59",
+          "accuratePasses": "40",
+          "totalPasses": "60",
           "passPct": "0.7",
           "accurateCrosses": "1",
           "totalCrosses": "2",
