@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T17:57:21.679Z",
+  "generatedAt": "2026-06-21T17:58:25.183Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -11645,16 +11645,22 @@
       "brTime": "13h",
       "venue": "Mercedes-Benz Stadium",
       "iso": "2026-06-21T16:00Z",
-      "sh": 5,
+      "sh": 4,
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "90'+4'",
+      "clock": "90'+5'",
       "events": [
         {
-          "min": "90'+2'",
-          "icon": "⚽",
-          "txt": "Ferran Torres (Espanha) remate com o pé esquerdo em frente à baliza ao centro da baliza. Assistência de Pedro Porro.",
+          "min": "90'+5'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇪🇸"
+        },
+        {
+          "min": "90'+5'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
           "sub": "🇪🇸"
         },
         {
@@ -12155,8 +12161,8 @@
           "wonCorners": "6",
           "saves": "1",
           "possessionPct": "66.5",
-          "totalShots": "22",
-          "shotsOnTarget": "9",
+          "totalShots": "21",
+          "shotsOnTarget": "8",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
