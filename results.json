@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-21T00:33:22.804Z",
+  "generatedAt": "2026-06-21T00:34:23.378Z",
   "matches": [
     {
       "home": "França 🇫🇷",
@@ -10511,8 +10511,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "32'",
+      "clock": "33'",
       "events": [
+        {
+          "min": "33'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇨🇼"
+        },
+        {
+          "min": "33'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇪🇨"
+        },
         {
           "min": "27'",
           "icon": "▶️",
@@ -10824,7 +10836,7 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "2",
+          "foulsCommitted": "3",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "1",
@@ -10836,8 +10848,8 @@
           "shotPct": "0.7",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "204",
-          "totalPasses": "234",
+          "accuratePasses": "209",
+          "totalPasses": "240",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "6",
@@ -10850,8 +10862,8 @@
           "totalTackles": "7",
           "tacklePct": "0.7",
           "interceptions": "2",
-          "effectiveClearance": "3",
-          "totalClearance": "3"
+          "effectiveClearance": "5",
+          "totalClearance": "5"
         },
         "away": {
           "foulsCommitted": "2",
@@ -10861,21 +10873,21 @@
           "wonCorners": "0",
           "saves": "5",
           "possessionPct": "28.1",
-          "totalShots": "3",
+          "totalShots": "4",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "69",
-          "totalPasses": "93",
+          "accuratePasses": "71",
+          "totalPasses": "96",
           "passPct": "0.7",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
-          "totalLongBalls": "12",
+          "totalLongBalls": "13",
           "accurateLongBalls": "2",
           "longballPct": "0.2",
-          "blockedShots": "1",
+          "blockedShots": "2",
           "effectiveTackles": "1",
           "totalTackles": "4",
           "tacklePct": "0.3",
