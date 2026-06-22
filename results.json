@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T18:26:35.714Z",
+  "generatedAt": "2026-06-22T18:27:32.933Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12314,12 +12314,18 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "62'",
+      "clock": "63'",
       "events": [
         {
           "min": "62'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇦🇷"
+        },
+        {
+          "min": "62'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇦🇹"
         },
         {
@@ -12327,6 +12333,12 @@
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇦🇷"
+        },
+        {
+          "min": "62'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Kevin Danso (Áustria).",
+          "sub": "🇦🇹"
         },
         {
           "min": "57'",
