@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T17:40:32.634Z",
+  "generatedAt": "2026-06-22T17:41:32.936Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12314,12 +12314,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "39'",
+      "clock": "40'",
       "events": [
         {
           "min": "38'",
           "icon": "⚽",
-          "txt": "Lionel Messi (Argentina) finalização com o pé esquerdo do meio da área depois de um contra-ataque.",
+          "txt": "Lionel Messi (Argentina) finalização com o pé esquerdo do meio da área no Escanteio inferior esquerdo. Assistência de Facundo Medina após um contra-ataque.",
           "sub": "🇦🇷"
         },
         {
@@ -12705,7 +12705,7 @@
           "offsides": "1",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "58.5",
+          "possessionPct": "58.4",
           "totalShots": "3",
           "shotsOnTarget": "2",
           "shotPct": "0.7",
@@ -12735,14 +12735,14 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "41.5",
+          "possessionPct": "41.6",
           "totalShots": "2",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "111",
-          "totalPasses": "141",
+          "totalPasses": "142",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "5",
