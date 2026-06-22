@@ -37,7 +37,10 @@
     {
       "favoriteTeams": [
         "BRA",
-        "CRO"
+        "CRO",
+        "ARG",
+        "FRA",
+        "NOR"
       ],
       "subscription": {
         "endpoint": "https://fcm.googleapis.com/fcm/send/d-D643BlI6M:APA91bGq3AZetpUWLAPklicegMwl3q4vkSXCE1e6Mnh0_-jG9wRwscx1WR6f-jw2qckkWnPGKm3EWvMxCLqOna3AThdXpjmsB6k8TecbzUSHMy0PJImQBQBPcvLqk6WADXPeOSoN4XVX",
@@ -47,9 +50,9 @@
           "auth": "XGFjywPzqnyQYwik5v1LpQ"
         }
       },
-      "createdAt": "2026-06-20T18:10:03.832Z",
+      "createdAt": "2026-06-22T11:55:05.969Z",
       "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
     }
   ],
-  "fetchedAt": "2026-06-22T11:53:30.402Z"
+  "fetchedAt": "2026-06-22T12:07:32.536Z"
 }
