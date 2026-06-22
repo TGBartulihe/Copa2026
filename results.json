@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T21:20:29.025Z",
+  "generatedAt": "2026-06-22T21:21:31.981Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12945,7 +12945,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "19'",
+      "clock": "20'",
       "events": [
         {
           "min": "14'",
@@ -13138,12 +13138,12 @@
               "row": 2
             },
             {
-              "name": "Ahmed Qasim",
+              "name": "Zidane Iqbal",
               "pos": "CM-L",
               "row": 2
             },
             {
-              "name": "Zidane Iqbal",
+              "name": "Zaid Ismael",
               "pos": "CM-R",
               "row": 2
             },
@@ -13153,7 +13153,7 @@
               "row": 2
             },
             {
-              "name": "Zaid Ismael",
+              "name": "Ahmed Qasim",
               "pos": "RM",
               "row": 2
             },
