@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T18:40:30.400Z",
+  "generatedAt": "2026-06-22T18:41:31.171Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12314,8 +12314,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "76'",
+      "clock": "77'",
       "events": [
+        {
+          "min": "76'",
+          "icon": "🟨",
+          "txt": "Konrad Laimer (Áustria) Cartão Amarelo aos 76'",
+          "sub": "🇦🇹"
+        },
         {
           "min": "76'",
           "icon": "🟨",
@@ -12813,19 +12819,19 @@
           "offsides": "2",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "57.9",
+          "possessionPct": "58.1",
           "totalShots": "6",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "424",
-          "totalPasses": "473",
+          "accuratePasses": "428",
+          "totalPasses": "479",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "3",
           "crossPct": "0.3",
-          "totalLongBalls": "16",
+          "totalLongBalls": "17",
           "accurateLongBalls": "6",
           "longballPct": "0.4",
           "blockedShots": "1",
@@ -12837,20 +12843,20 @@
           "totalClearance": "28"
         },
         "away": {
-          "foulsCommitted": "9",
+          "foulsCommitted": "10",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "42.1",
+          "possessionPct": "41.9",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "282",
-          "totalPasses": "337",
+          "accuratePasses": "283",
+          "totalPasses": "339",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "10",
@@ -12862,7 +12868,7 @@
           "effectiveTackles": "9",
           "totalTackles": "12",
           "tacklePct": "0.8",
-          "interceptions": "7",
+          "interceptions": "8",
           "effectiveClearance": "9",
           "totalClearance": "9"
         }
