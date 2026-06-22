@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T18:36:33.265Z",
+  "generatedAt": "2026-06-22T18:37:31.998Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12314,12 +12314,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "71'",
+      "clock": "72'",
       "events": [
         {
           "min": "71'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇦🇷"
         },
         {
@@ -12807,14 +12807,14 @@
           "offsides": "2",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "58.8",
+          "possessionPct": "59",
           "totalShots": "5",
           "shotsOnTarget": "2",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "419",
-          "totalPasses": "464",
+          "accuratePasses": "420",
+          "totalPasses": "468",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "2",
@@ -12837,7 +12837,7 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "41.2",
+          "possessionPct": "41",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
@@ -12853,12 +12853,12 @@
           "accurateLongBalls": "8",
           "longballPct": "0.5",
           "blockedShots": "0",
-          "effectiveTackles": "8",
-          "totalTackles": "11",
-          "tacklePct": "0.7",
-          "interceptions": "6",
-          "effectiveClearance": "8",
-          "totalClearance": "8"
+          "effectiveTackles": "9",
+          "totalTackles": "12",
+          "tacklePct": "0.8",
+          "interceptions": "7",
+          "effectiveClearance": "9",
+          "totalClearance": "9"
         }
       }
     },
