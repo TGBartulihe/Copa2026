@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T18:31:32.106Z",
+  "generatedAt": "2026-06-22T18:32:37.432Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12314,8 +12314,26 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "67'",
+      "clock": "68'",
       "events": [
+        {
+          "min": "68'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇦🇹. Substituição de Marko Arnautovic (Áustria) aos 68'",
+          "sub": "🇦🇹"
+        },
+        {
+          "min": "68'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇦🇹. Alexander Prass (Áustria) Substituição aos 68'",
+          "sub": "🇦🇹"
+        },
+        {
+          "min": "67'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇦🇹. Marco Friedl (Áustria) Substituição aos 67'",
+          "sub": "🇦🇹"
+        },
         {
           "min": "65'",
           "icon": "🔄",
@@ -12765,7 +12783,7 @@
           "offsides": "2",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "57.9",
+          "possessionPct": "57.6",
           "totalShots": "5",
           "shotsOnTarget": "2",
           "shotPct": "0.4",
@@ -12795,18 +12813,18 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "42.1",
-          "totalShots": "4",
+          "possessionPct": "42.4",
+          "totalShots": "5",
           "shotsOnTarget": "1",
-          "shotPct": "0.3",
+          "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "262",
-          "totalPasses": "315",
+          "accuratePasses": "264",
+          "totalPasses": "317",
           "passPct": "0.8",
-          "accurateCrosses": "1",
-          "totalCrosses": "9",
-          "crossPct": "0.1",
+          "accurateCrosses": "2",
+          "totalCrosses": "10",
+          "crossPct": "0.2",
           "totalLongBalls": "17",
           "accurateLongBalls": "8",
           "longballPct": "0.5",
