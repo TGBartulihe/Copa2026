@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T02:25:24.805Z",
+  "generatedAt": "2026-06-22T02:26:22.220Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -11695,8 +11695,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "65'",
+      "clock": "66'",
       "events": [
+        {
+          "min": "66'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇳🇿. Ben Old substitui Callum McCowatt.",
+          "sub": "🇳🇿"
+        },
         {
           "min": "58'",
           "icon": "⚽",
