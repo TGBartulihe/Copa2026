@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T01:23:22.317Z",
+  "generatedAt": "2026-06-22T01:24:22.401Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -11695,12 +11695,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "23'",
+      "clock": "24'",
       "events": [
         {
           "min": "22'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
           "sub": "🇪🇬"
         },
         {
