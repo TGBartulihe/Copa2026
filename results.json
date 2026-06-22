@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T01:44:25.508Z",
+  "generatedAt": "2026-06-22T01:45:23.292Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -11695,7 +11695,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "44'",
+      "clock": "45'",
       "events": [
         {
           "min": "41'",
@@ -12098,13 +12098,13 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "7",
+          "foulsCommitted": "8",
           "yellowCards": "2",
           "redCards": "0",
           "offsides": "2",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "44.8",
+          "possessionPct": "43.8",
           "totalShots": "7",
           "shotsOnTarget": "3",
           "shotPct": "0.4",
@@ -12124,8 +12124,8 @@
           "totalTackles": "4",
           "tacklePct": "0.8",
           "interceptions": "4",
-          "effectiveClearance": "7",
-          "totalClearance": "7"
+          "effectiveClearance": "8",
+          "totalClearance": "8"
         },
         "away": {
           "foulsCommitted": "2",
@@ -12134,17 +12134,17 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "55.2",
+          "possessionPct": "56.2",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "218",
-          "totalPasses": "246",
+          "accuratePasses": "228",
+          "totalPasses": "256",
           "passPct": "0.9",
           "accurateCrosses": "1",
-          "totalCrosses": "3",
+          "totalCrosses": "4",
           "crossPct": "0.3",
           "totalLongBalls": "19",
           "accurateLongBalls": "9",
