@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T21:08:32.057Z",
+  "generatedAt": "2026-06-22T21:09:28.879Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12945,7 +12945,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "8'",
+      "clock": "9'",
       "events": [
         {
           "min": "6'",
@@ -13246,20 +13246,20 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "54.4",
-          "totalShots": "1",
+          "possessionPct": "56.6",
+          "totalShots": "2",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "36",
-          "totalPasses": "41",
+          "accuratePasses": "40",
+          "totalPasses": "45",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "2",
-          "crossPct": "0.5",
-          "totalLongBalls": "4",
-          "accurateLongBalls": "4",
+          "crossPct": "0.0",
+          "totalLongBalls": "5",
+          "accurateLongBalls": "5",
           "longballPct": "1.0",
           "blockedShots": "0",
           "effectiveTackles": "0",
@@ -13276,7 +13276,7 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "45.6",
+          "possessionPct": "43.4",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
@@ -13292,12 +13292,12 @@
           "accurateLongBalls": "5",
           "longballPct": "0.6",
           "blockedShots": "0",
-          "effectiveTackles": "0",
-          "totalTackles": "1",
-          "tacklePct": "0.0",
+          "effectiveTackles": "1",
+          "totalTackles": "3",
+          "tacklePct": "0.3",
           "interceptions": "1",
-          "effectiveClearance": "2",
-          "totalClearance": "2"
+          "effectiveClearance": "3",
+          "totalClearance": "3"
         }
       }
     },
