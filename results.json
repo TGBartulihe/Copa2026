@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T01:26:23.452Z",
+  "generatedAt": "2026-06-22T01:27:25.203Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -11695,7 +11695,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "26'",
+      "clock": "27'",
       "events": [
         {
           "min": "25'",
@@ -12068,28 +12068,28 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "48.4",
-          "totalShots": "5",
+          "possessionPct": "49.4",
+          "totalShots": "6",
           "shotsOnTarget": "3",
-          "shotPct": "0.6",
+          "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "93",
-          "totalPasses": "114",
+          "accuratePasses": "100",
+          "totalPasses": "123",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "4",
           "crossPct": "0.3",
-          "totalLongBalls": "13",
+          "totalLongBalls": "14",
           "accurateLongBalls": "5",
           "longballPct": "0.4",
-          "blockedShots": "1",
+          "blockedShots": "2",
           "effectiveTackles": "2",
           "totalTackles": "2",
           "tacklePct": "1.0",
           "interceptions": "0",
-          "effectiveClearance": "2",
-          "totalClearance": "2"
+          "effectiveClearance": "3",
+          "totalClearance": "3"
         },
         "away": {
           "foulsCommitted": "2",
@@ -12098,14 +12098,14 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "51.6",
+          "possessionPct": "50.6",
           "totalShots": "3",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "112",
-          "totalPasses": "126",
+          "accuratePasses": "115",
+          "totalPasses": "130",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "1",
@@ -12118,8 +12118,8 @@
           "totalTackles": "5",
           "tacklePct": "0.6",
           "interceptions": "1",
-          "effectiveClearance": "7",
-          "totalClearance": "7"
+          "effectiveClearance": "9",
+          "totalClearance": "9"
         }
       }
     },
