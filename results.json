@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T18:42:30.545Z",
+  "generatedAt": "2026-06-22T18:43:34.834Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12314,8 +12314,26 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "78'",
+      "clock": "79'",
       "events": [
+        {
+          "min": "79'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇦🇹"
+        },
+        {
+          "min": "79'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇦🇷"
+        },
+        {
+          "min": "78'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇦🇹. Entra Patrick Wimmer para o lugar de Romano Schmid.",
+          "sub": "🇦🇹"
+        },
         {
           "min": "76'",
           "icon": "🟨",
@@ -12819,14 +12837,14 @@
           "offsides": "2",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "57.5",
+          "possessionPct": "57.4",
           "totalShots": "6",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "430",
-          "totalPasses": "481",
+          "accuratePasses": "440",
+          "totalPasses": "491",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "3",
@@ -12836,9 +12854,9 @@
           "longballPct": "0.4",
           "blockedShots": "1",
           "effectiveTackles": "10",
-          "totalTackles": "18",
-          "tacklePct": "0.6",
-          "interceptions": "6",
+          "totalTackles": "19",
+          "tacklePct": "0.5",
+          "interceptions": "7",
           "effectiveClearance": "28",
           "totalClearance": "28"
         },
@@ -12849,14 +12867,14 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "42.5",
+          "possessionPct": "42.6",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "292",
-          "totalPasses": "348",
+          "accuratePasses": "300",
+          "totalPasses": "358",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "10",
