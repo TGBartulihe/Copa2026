@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T01:16:26.608Z",
+  "generatedAt": "2026-06-22T01:17:22.194Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -11695,8 +11695,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "16'",
+      "clock": "17'",
       "events": [
+        {
+          "min": "17'",
+          "icon": "🟨",
+          "txt": "Mohanad Lashin (Egito) Cartão Amarelo aos 17'",
+          "sub": "🇪🇬"
+        },
         {
           "min": "15'",
           "icon": "⚽",
