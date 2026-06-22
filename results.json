@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T02:45:28.185Z",
+  "generatedAt": "2026-06-22T02:46:25.354Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -11695,18 +11695,30 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "85'",
+      "clock": "86'",
       "events": [
         {
           "min": "85'",
           "icon": "🔄",
-          "txt": "Substituição, 🇪🇬. Zizo substitui Emam Ashour.",
-          "sub": "🇪🇬"
+          "txt": "Substituição, 🇳🇿. Substituição de Francis de Vries (Nova Zelândia) aos 85'",
+          "sub": "🇳🇿"
+        },
+        {
+          "min": "85'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇳🇿. Substituição de Tyler Bindon (Nova Zelândia) aos 85'",
+          "sub": "🇳🇿"
         },
         {
           "min": "85'",
           "icon": "🔄",
           "txt": "Substituição, 🇪🇬. Entra Hossam Abdelmaguid para o lugar de Mohamed Salah.",
+          "sub": "🇪🇬"
+        },
+        {
+          "min": "85'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇪🇬. Zizo substitui Emam Ashour.",
           "sub": "🇪🇬"
         },
         {
