@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T01:35:24.150Z",
+  "generatedAt": "2026-06-22T01:36:22.861Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -11695,12 +11695,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "35'",
+      "clock": "36'",
       "events": [
         {
           "min": "34'",
           "icon": "🟨",
-          "txt": "Callum McCowatt (Nova Zelândia) Cartão Amarelo aos 34'",
+          "txt": "Callum McCowatt (Nova Zelândia) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇳🇿"
         },
         {
@@ -12069,12 +12069,12 @@
       "stats": {
         "home": {
           "foulsCommitted": "6",
-          "yellowCards": "1",
+          "yellowCards": "2",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "44.3",
+          "possessionPct": "44.2",
           "totalShots": "7",
           "shotsOnTarget": "3",
           "shotPct": "0.4",
@@ -12104,14 +12104,14 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "55.7",
-          "totalShots": "4",
+          "possessionPct": "55.8",
+          "totalShots": "5",
           "shotsOnTarget": "1",
-          "shotPct": "0.3",
+          "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "176",
-          "totalPasses": "199",
+          "accuratePasses": "177",
+          "totalPasses": "200",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "2",
