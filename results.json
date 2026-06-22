@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T17:41:32.936Z",
+  "generatedAt": "2026-06-22T17:42:30.729Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12314,8 +12314,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "40'",
+      "clock": "41'",
       "events": [
+        {
+          "min": "40'",
+          "icon": "🟨",
+          "txt": "Stefan Posch (Áustria) recebe cartão amarelo.",
+          "sub": "🇦🇹"
+        },
         {
           "min": "38'",
           "icon": "⚽",
