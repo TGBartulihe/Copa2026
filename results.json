@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T02:06:22.320Z",
+  "generatedAt": "2026-06-22T02:07:24.445Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -11695,7 +11695,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "46'",
+      "clock": "47'",
       "events": [
         {
           "min": "45'",
@@ -12110,13 +12110,13 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "9",
+          "foulsCommitted": "10",
           "yellowCards": "2",
           "redCards": "0",
           "offsides": "2",
           "wonCorners": "1",
-          "saves": "1",
-          "possessionPct": "42.7",
+          "saves": "2",
+          "possessionPct": "41.4",
           "totalShots": "7",
           "shotsOnTarget": "3",
           "shotPct": "0.4",
@@ -12136,8 +12136,8 @@
           "totalTackles": "5",
           "tacklePct": "0.6",
           "interceptions": "4",
-          "effectiveClearance": "9",
-          "totalClearance": "9"
+          "effectiveClearance": "11",
+          "totalClearance": "11"
         },
         "away": {
           "foulsCommitted": "2",
@@ -12146,21 +12146,21 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "57.3",
-          "totalShots": "6",
-          "shotsOnTarget": "1",
-          "shotPct": "0.2",
+          "possessionPct": "58.6",
+          "totalShots": "7",
+          "shotsOnTarget": "2",
+          "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "254",
-          "totalPasses": "285",
+          "accuratePasses": "269",
+          "totalPasses": "300",
           "passPct": "0.9",
-          "accurateCrosses": "2",
-          "totalCrosses": "6",
-          "crossPct": "0.3",
-          "totalLongBalls": "23",
-          "accurateLongBalls": "12",
-          "longballPct": "0.5",
+          "accurateCrosses": "3",
+          "totalCrosses": "8",
+          "crossPct": "0.4",
+          "totalLongBalls": "25",
+          "accurateLongBalls": "14",
+          "longballPct": "0.6",
           "blockedShots": "2",
           "effectiveTackles": "4",
           "totalTackles": "6",
