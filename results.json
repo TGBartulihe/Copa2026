@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T18:29:36.685Z",
+  "generatedAt": "2026-06-22T18:30:33.272Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12314,12 +12314,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "65'",
+      "clock": "66'",
       "events": [
         {
           "min": "65'",
           "icon": "🔄",
-          "txt": "Substituição, 🇦🇷. Nico González (Argentina) Substituição aos 65'",
+          "txt": "Substituição, 🇦🇷. Entra Nico González para o lugar de Lautaro Martínez.",
           "sub": "🇦🇷"
         },
         {
@@ -12765,14 +12765,14 @@
           "offsides": "2",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "58.8",
-          "totalShots": "4",
+          "possessionPct": "59.1",
+          "totalShots": "5",
           "shotsOnTarget": "2",
-          "shotPct": "0.5",
+          "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "391",
-          "totalPasses": "434",
+          "accuratePasses": "397",
+          "totalPasses": "440",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "2",
@@ -12795,7 +12795,7 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "41.2",
+          "possessionPct": "40.9",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
