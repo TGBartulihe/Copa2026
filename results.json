@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T21:03:32.485Z",
+  "generatedAt": "2026-06-22T21:04:31.381Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12945,7 +12945,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "3'",
+      "clock": "4'",
       "events": [
         {
           "min": "",
@@ -13121,17 +13121,17 @@
               "row": 1
             },
             {
-              "name": "Zaid Ismael",
+              "name": "Amir Al-Ammari",
               "pos": "CM",
               "row": 2
             },
             {
-              "name": "Amir Al-Ammari",
+              "name": "Zidane Iqbal",
               "pos": "LM",
               "row": 2
             },
             {
-              "name": "Ahmed Qasim",
+              "name": "Zaid Ismael",
               "pos": "RM",
               "row": 2
             },
@@ -13146,7 +13146,7 @@
               "row": 3
             },
             {
-              "name": "Zidane Iqbal",
+              "name": "Ahmed Qasim",
               "pos": "RF",
               "row": 3
             }
@@ -13234,20 +13234,20 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "0",
+          "foulsCommitted": "1",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "90.5",
+          "possessionPct": "79.3",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "18",
-          "totalPasses": "18",
+          "accuratePasses": "21",
+          "totalPasses": "22",
           "passPct": "1.0",
           "accurateCrosses": "0",
           "totalCrosses": "1",
@@ -13270,15 +13270,15 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "9.5",
+          "possessionPct": "20.7",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "0",
-          "totalPasses": "2",
-          "passPct": "0.0",
+          "accuratePasses": "4",
+          "totalPasses": "6",
+          "passPct": "0.7",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
