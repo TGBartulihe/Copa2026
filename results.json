@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T17:06:27.946Z",
+  "generatedAt": "2026-06-22T17:07:29.317Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12317,6 +12317,18 @@
       "clock": "6'",
       "events": [
         {
+          "min": "7'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇦🇷"
+        },
+        {
+          "min": "7'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇦🇷"
+        },
+        {
           "min": "4'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
@@ -12324,8 +12336,8 @@
         },
         {
           "min": "4'",
-          "icon": "⏸️",
-          "txt": "Partida atrasada (Argentina).",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a lesão de Lautaro Martínez (Argentina).",
           "sub": "🇦🇷"
         },
         {
