@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T18:28:34.912Z",
+  "generatedAt": "2026-06-22T18:29:36.685Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12314,8 +12314,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "64'",
+      "clock": "65'",
       "events": [
+        {
+          "min": "65'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇦🇷. Nico González (Argentina) Substituição aos 65'",
+          "sub": "🇦🇷"
+        },
+        {
+          "min": "64'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇦🇷. Julián Álvarez entra em campo e entra Thiago Almada.",
+          "sub": "🇦🇷"
+        },
         {
           "min": "62'",
           "icon": "▶️",
@@ -12753,17 +12765,17 @@
           "offsides": "2",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "58.3",
+          "possessionPct": "58.8",
           "totalShots": "4",
           "shotsOnTarget": "2",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "383",
-          "totalPasses": "425",
+          "accuratePasses": "391",
+          "totalPasses": "434",
           "passPct": "0.9",
           "accurateCrosses": "0",
-          "totalCrosses": "1",
+          "totalCrosses": "2",
           "crossPct": "0.0",
           "totalLongBalls": "13",
           "accurateLongBalls": "6",
@@ -12783,7 +12795,7 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "41.7",
+          "possessionPct": "41.2",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
@@ -12802,9 +12814,9 @@
           "effectiveTackles": "8",
           "totalTackles": "11",
           "tacklePct": "0.7",
-          "interceptions": "5",
-          "effectiveClearance": "7",
-          "totalClearance": "7"
+          "interceptions": "6",
+          "effectiveClearance": "8",
+          "totalClearance": "8"
         }
       }
     },
