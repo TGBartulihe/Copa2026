@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T17:23:32.452Z",
+  "generatedAt": "2026-06-22T17:24:29.837Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12314,8 +12314,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "22'",
+      "clock": "23'",
       "events": [
+        {
+          "min": "24'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇦🇹"
+        },
+        {
+          "min": "22'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇦🇹"
+        },
         {
           "min": "22'",
           "icon": "▶️",
@@ -12325,19 +12337,13 @@
         {
           "min": "22'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇦🇷"
         },
         {
-          "min": "22'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
-          "sub": "🇦🇹"
-        },
-        {
-          "min": "22'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "min": "21'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a lesão de Rodrigo De Paul (Argentina).",
           "sub": "🇦🇷"
         },
         {
@@ -12675,7 +12681,7 @@
           "offsides": "1",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "56.2",
+          "possessionPct": "52.9",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
@@ -12695,28 +12701,28 @@
           "totalTackles": "6",
           "tacklePct": "0.3",
           "interceptions": "2",
-          "effectiveClearance": "6",
-          "totalClearance": "6"
+          "effectiveClearance": "8",
+          "totalClearance": "8"
         },
         "away": {
           "foulsCommitted": "4",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
-          "wonCorners": "0",
+          "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "43.8",
-          "totalShots": "0",
+          "possessionPct": "47.1",
+          "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "57",
-          "totalPasses": "76",
+          "accuratePasses": "66",
+          "totalPasses": "86",
           "passPct": "0.8",
-          "accurateCrosses": "0",
-          "totalCrosses": "2",
-          "crossPct": "0.0",
+          "accurateCrosses": "1",
+          "totalCrosses": "3",
+          "crossPct": "0.3",
           "totalLongBalls": "6",
           "accurateLongBalls": "4",
           "longballPct": "0.7",
