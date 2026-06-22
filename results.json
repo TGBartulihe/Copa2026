@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T18:27:32.933Z",
+  "generatedAt": "2026-06-22T18:28:34.912Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12314,7 +12314,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "63'",
+      "clock": "64'",
       "events": [
         {
           "min": "62'",
@@ -12330,15 +12330,15 @@
         },
         {
           "min": "62'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
-          "sub": "🇦🇷"
-        },
-        {
-          "min": "62'",
           "icon": "🩹",
           "txt": "Partida atrasada devido a uma lesão de Kevin Danso (Áustria).",
           "sub": "🇦🇹"
+        },
+        {
+          "min": "62'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇦🇷"
         },
         {
           "min": "57'",
@@ -12753,28 +12753,28 @@
           "offsides": "2",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "56.8",
-          "totalShots": "3",
+          "possessionPct": "58.3",
+          "totalShots": "4",
           "shotsOnTarget": "2",
-          "shotPct": "0.7",
+          "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "358",
-          "totalPasses": "400",
+          "accuratePasses": "383",
+          "totalPasses": "425",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "1",
           "crossPct": "0.0",
-          "totalLongBalls": "12",
-          "accurateLongBalls": "5",
-          "longballPct": "0.4",
+          "totalLongBalls": "13",
+          "accurateLongBalls": "6",
+          "longballPct": "0.5",
           "blockedShots": "1",
           "effectiveTackles": "9",
           "totalTackles": "17",
           "tacklePct": "0.5",
-          "interceptions": "6",
-          "effectiveClearance": "27",
-          "totalClearance": "27"
+          "interceptions": "5",
+          "effectiveClearance": "28",
+          "totalClearance": "28"
         },
         "away": {
           "foulsCommitted": "8",
@@ -12783,7 +12783,7 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "43.2",
+          "possessionPct": "41.7",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
@@ -12803,8 +12803,8 @@
           "totalTackles": "11",
           "tacklePct": "0.7",
           "interceptions": "5",
-          "effectiveClearance": "6",
-          "totalClearance": "6"
+          "effectiveClearance": "7",
+          "totalClearance": "7"
         }
       }
     },
