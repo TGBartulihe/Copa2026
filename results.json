@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T18:45:34.642Z",
+  "generatedAt": "2026-06-22T18:46:32.457Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12314,12 +12314,18 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "81'",
+      "clock": "82'",
       "events": [
         {
-          "min": "80'",
-          "icon": "▶️",
-          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "min": "82'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇦🇷. Nicolás Tagliafico (Argentina) Substituição aos 82'",
+          "sub": "🇦🇷"
+        },
+        {
+          "min": "82'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇦🇷. Leandro Paredes (Argentina) Substituição aos 82'",
           "sub": "🇦🇷"
         },
         {
@@ -12327,6 +12333,12 @@
           "icon": "▶️",
           "txt": "Jogo reiniciado",
           "sub": "🇦🇹"
+        },
+        {
+          "min": "80'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇦🇷"
         },
         {
           "min": "79'",
