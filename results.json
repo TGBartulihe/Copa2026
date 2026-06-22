@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T17:24:29.837Z",
+  "generatedAt": "2026-06-22T17:25:28.546Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12314,8 +12314,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "23'",
+      "clock": "24'",
       "events": [
+        {
+          "min": "24'",
+          "icon": "⏸️",
+          "txt": "Partida atrasada (Argentina).",
+          "sub": "🇦🇷"
+        },
         {
           "min": "24'",
           "icon": "⏸️",
