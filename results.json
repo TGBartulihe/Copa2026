@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T02:15:27.156Z",
+  "generatedAt": "2026-06-22T02:16:24.732Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -11695,7 +11695,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "55'",
+      "clock": "56'",
       "events": [
         {
           "min": "45'",
@@ -12110,13 +12110,13 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "10",
+          "foulsCommitted": "11",
           "yellowCards": "2",
           "redCards": "0",
           "offsides": "2",
           "wonCorners": "2",
           "saves": "2",
-          "possessionPct": "42.1",
+          "possessionPct": "40.6",
           "totalShots": "8",
           "shotsOnTarget": "4",
           "shotPct": "0.5",
@@ -12136,8 +12136,8 @@
           "totalTackles": "6",
           "tacklePct": "0.7",
           "interceptions": "5",
-          "effectiveClearance": "13",
-          "totalClearance": "13"
+          "effectiveClearance": "14",
+          "totalClearance": "14"
         },
         "away": {
           "foulsCommitted": "3",
@@ -12146,21 +12146,21 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "3",
-          "possessionPct": "57.9",
+          "possessionPct": "59.4",
           "totalShots": "11",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "295",
-          "totalPasses": "331",
+          "accuratePasses": "316",
+          "totalPasses": "351",
           "passPct": "0.9",
-          "accurateCrosses": "3",
-          "totalCrosses": "10",
+          "accurateCrosses": "4",
+          "totalCrosses": "12",
           "crossPct": "0.3",
           "totalLongBalls": "27",
-          "accurateLongBalls": "14",
-          "longballPct": "0.5",
+          "accurateLongBalls": "15",
+          "longballPct": "0.6",
           "blockedShots": "4",
           "effectiveTackles": "6",
           "totalTackles": "8",
