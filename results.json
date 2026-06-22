@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T01:41:25.467Z",
+  "generatedAt": "2026-06-22T01:42:23.913Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -11695,12 +11695,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "41'",
+      "clock": "42'",
       "events": [
         {
           "min": "41'",
-          "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "icon": "🔄",
+          "txt": "Substituição, 🇪🇬. Ramy Rabia entra no lugar de Hamdi Fathy devido a uma lesão.",
           "sub": "🇪🇬"
         },
         {
@@ -11710,9 +11710,15 @@
           "sub": "🇳🇿"
         },
         {
+          "min": "41'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇪🇬"
+        },
+        {
           "min": "40'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Hamdi Fathy (Egito).",
           "sub": "🇪🇬"
         },
         {
@@ -12098,21 +12104,21 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "46.6",
+          "possessionPct": "46.8",
           "totalShots": "7",
           "shotsOnTarget": "3",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "160",
-          "totalPasses": "193",
+          "accuratePasses": "161",
+          "totalPasses": "194",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "7",
           "crossPct": "0.3",
           "totalLongBalls": "23",
-          "accurateLongBalls": "8",
-          "longballPct": "0.3",
+          "accurateLongBalls": "9",
+          "longballPct": "0.4",
           "blockedShots": "2",
           "effectiveTackles": "3",
           "totalTackles": "4",
@@ -12128,7 +12134,7 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "53.4",
+          "possessionPct": "53.2",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
@@ -12148,8 +12154,8 @@
           "totalTackles": "5",
           "tacklePct": "0.6",
           "interceptions": "1",
-          "effectiveClearance": "15",
-          "totalClearance": "15"
+          "effectiveClearance": "14",
+          "totalClearance": "14"
         }
       }
     },
