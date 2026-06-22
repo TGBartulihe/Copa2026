@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T02:27:24.096Z",
+  "generatedAt": "2026-06-22T02:28:23.667Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -11695,8 +11695,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "67'",
+      "clock": "68'",
       "events": [
+        {
+          "min": "67'",
+          "icon": "⚽",
+          "txt": "Mohamed Salah (Egipto) remate com o pé esquerdo no coração da área.",
+          "sub": "🇪🇬"
+        },
         {
           "min": "66'",
           "icon": "🔄",
