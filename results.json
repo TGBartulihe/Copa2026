@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T17:28:32.341Z",
+  "generatedAt": "2026-06-22T17:29:32.372Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12314,14 +12314,8 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "27'",
+      "clock": "28'",
       "events": [
-        {
-          "min": "26'",
-          "icon": "▶️",
-          "txt": "Atraso acabou. Eles estão prontos para continuar.",
-          "sub": "🇦🇷"
-        },
         {
           "min": "26'",
           "icon": "▶️",
@@ -12329,9 +12323,9 @@
           "sub": "🇦🇹"
         },
         {
-          "min": "23'",
-          "icon": "⏸️",
-          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "min": "26'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇦🇷"
         },
         {
@@ -12339,6 +12333,12 @@
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇦🇹"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇦🇷"
         },
         {
           "min": "22'",
@@ -12699,7 +12699,7 @@
           "offsides": "1",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "53.1",
+          "possessionPct": "51.5",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
@@ -12729,14 +12729,14 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "46.9",
+          "possessionPct": "48.5",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "67",
-          "totalPasses": "87",
+          "accuratePasses": "73",
+          "totalPasses": "93",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "4",
