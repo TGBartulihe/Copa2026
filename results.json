@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T18:12:29.569Z",
+  "generatedAt": "2026-06-22T18:13:30.242Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12314,7 +12314,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "48'",
+      "clock": "49'",
       "events": [
         {
           "min": "45'",
@@ -12723,14 +12723,14 @@
           "offsides": "1",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "57.8",
+          "possessionPct": "57.9",
           "totalShots": "3",
           "shotsOnTarget": "2",
           "shotPct": "0.7",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "278",
-          "totalPasses": "313",
+          "accuratePasses": "279",
+          "totalPasses": "314",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "0",
@@ -12747,13 +12747,13 @@
           "totalClearance": "21"
         },
         "away": {
-          "foulsCommitted": "5",
+          "foulsCommitted": "6",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "42.2",
+          "possessionPct": "42.1",
           "totalShots": "3",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
