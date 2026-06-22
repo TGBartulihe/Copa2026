@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T18:09:31.967Z",
+  "generatedAt": "2026-06-22T18:10:30.251Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12314,8 +12314,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "45'+7'",
+      "clock": "46'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "▶️",
+          "txt": "Início do segundo tempo Argentina 1, Áustria 0.",
+          "sub": "🏳️"
+        },
         {
           "min": "45'+7'",
           "icon": "⏱️",
@@ -12717,14 +12723,14 @@
           "offsides": "1",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "60.2",
+          "possessionPct": "60.1",
           "totalShots": "3",
           "shotsOnTarget": "2",
           "shotPct": "0.7",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "276",
-          "totalPasses": "309",
+          "accuratePasses": "274",
+          "totalPasses": "307",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "0",
@@ -12747,7 +12753,7 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "39.8",
+          "possessionPct": "39.9",
           "totalShots": "2",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
