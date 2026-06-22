@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T03:08:22.901Z",
+  "generatedAt": "2026-06-22T03:09:24.035Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -11723,15 +11723,15 @@
         },
         {
           "min": "90'+4'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a uma lesão de Hossam Abdelmaguid (Egito).",
-          "sub": "🇪🇬"
-        },
-        {
-          "min": "90'+4'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇳🇿"
+        },
+        {
+          "min": "90'+4'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Hossam Abdelmaguid (Egito).",
+          "sub": "🇪🇬"
         },
         {
           "min": "85'",
@@ -11861,15 +11861,15 @@
         },
         {
           "min": "40'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a uma lesão de Hamdi Fathy (Egito).",
-          "sub": "🇪🇬"
-        },
-        {
-          "min": "40'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇳🇿"
+        },
+        {
+          "min": "40'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Hamdi Fathy (Egito).",
+          "sub": "🇪🇬"
         },
         {
           "min": "34'",
@@ -12249,9 +12249,9 @@
           "wonCorners": "4",
           "saves": "4",
           "possessionPct": "44.3",
-          "totalShots": "12",
+          "totalShots": "11",
           "shotsOnTarget": "5",
-          "shotPct": "0.4",
+          "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "338",
@@ -12263,7 +12263,7 @@
           "totalLongBalls": "49",
           "accurateLongBalls": "20",
           "longballPct": "0.4",
-          "blockedShots": "4",
+          "blockedShots": "3",
           "effectiveTackles": "6",
           "totalTackles": "11",
           "tacklePct": "0.5",
