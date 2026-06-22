@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T18:21:30.585Z",
+  "generatedAt": "2026-06-22T18:22:29.012Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12314,8 +12314,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "57'",
+      "clock": "58'",
       "events": [
+        {
+          "min": "57'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇦🇷. Nicolás Otamendi (Argentina) Substituição aos 57'",
+          "sub": "🇦🇷"
+        },
         {
           "min": "45'",
           "icon": "▶️",
@@ -12723,14 +12729,14 @@
           "offsides": "2",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "58.4",
+          "possessionPct": "56.8",
           "totalShots": "3",
           "shotsOnTarget": "2",
           "shotPct": "0.7",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "317",
-          "totalPasses": "356",
+          "accuratePasses": "320",
+          "totalPasses": "359",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "1",
@@ -12742,9 +12748,9 @@
           "effectiveTackles": "8",
           "totalTackles": "16",
           "tacklePct": "0.5",
-          "interceptions": "4",
-          "effectiveClearance": "23",
-          "totalClearance": "23"
+          "interceptions": "5",
+          "effectiveClearance": "24",
+          "totalClearance": "24"
         },
         "away": {
           "foulsCommitted": "7",
@@ -12753,14 +12759,14 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "41.6",
+          "possessionPct": "43.2",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "201",
-          "totalPasses": "246",
+          "accuratePasses": "221",
+          "totalPasses": "266",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "9",
