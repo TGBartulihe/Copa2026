@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T19:10:31.809Z",
+  "generatedAt": "2026-06-22T19:11:29.049Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12462,15 +12462,15 @@
         },
         {
           "min": "62'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a uma lesão de Kevin Danso (Áustria).",
-          "sub": "🇦🇹"
-        },
-        {
-          "min": "62'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇦🇷"
+        },
+        {
+          "min": "62'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Kevin Danso (Áustria).",
+          "sub": "🇦🇹"
         },
         {
           "min": "57'",
@@ -12554,12 +12554,6 @@
           "min": "9'",
           "icon": "⚽🎯",
           "txt": "Pênalti perdido. Lionel Messi (Argentina) finalização com o pé esquerdo passa perto, mas falha na lateral direita.",
-          "sub": "🇦🇷"
-        },
-        {
-          "min": "7'",
-          "icon": "▶️",
-          "txt": "Jogo reiniciado",
           "sub": "🇦🇷"
         },
         {
