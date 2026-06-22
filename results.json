@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T21:30:28.166Z",
+  "generatedAt": "2026-06-22T21:31:27.379Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12945,7 +12945,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "29'",
+      "clock": "30'",
       "events": [
         {
           "min": "28'",
@@ -12961,15 +12961,15 @@
         },
         {
           "min": "26'",
-          "icon": "▶️",
-          "txt": "Atraso acabou. Eles estão prontos para continuar.",
-          "sub": "🇫🇷"
-        },
-        {
-          "min": "26'",
           "icon": "🔄",
           "txt": "Substituição, 🇮🇶. Ali Al Hamadi entra em campo Aymen Hussein devido a uma lesão.",
           "sub": "🇮🇶"
+        },
+        {
+          "min": "25'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇫🇷"
         },
         {
           "min": "25'",
@@ -13294,7 +13294,7 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "61.8",
+          "possessionPct": "60.7",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
@@ -13322,22 +13322,22 @@
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "0",
-          "wonCorners": "0",
+          "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "38.2",
+          "possessionPct": "39.3",
           "totalShots": "2",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "95",
-          "totalPasses": "122",
+          "accuratePasses": "100",
+          "totalPasses": "127",
           "passPct": "0.8",
           "accurateCrosses": "1",
-          "totalCrosses": "2",
-          "crossPct": "0.5",
-          "totalLongBalls": "23",
-          "accurateLongBalls": "9",
+          "totalCrosses": "3",
+          "crossPct": "0.3",
+          "totalLongBalls": "24",
+          "accurateLongBalls": "10",
           "longballPct": "0.4",
           "blockedShots": "1",
           "effectiveTackles": "4",
