@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T02:36:23.533Z",
+  "generatedAt": "2026-06-22T02:37:24.219Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -11695,8 +11695,20 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "76'",
+      "clock": "77'",
       "events": [
+        {
+          "min": "76'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇪🇬. Substituição de Hamza Abdelkarim (Egito) aos 76'",
+          "sub": "🇪🇬"
+        },
+        {
+          "min": "76'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇪🇬. Substituição de Trézéguet (Egito) aos 76'",
+          "sub": "🇪🇬"
+        },
         {
           "min": "76'",
           "icon": "🔄",
@@ -11712,14 +11724,14 @@
         {
           "min": "75'",
           "icon": "▶️",
-          "txt": "Atraso acabou. Eles estão prontos para continuar.",
-          "sub": "🇪🇬"
+          "txt": "Jogo reiniciado",
+          "sub": "🇳🇿"
         },
         {
           "min": "75'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇳🇿"
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇪🇬"
         },
         {
           "min": "72'",
