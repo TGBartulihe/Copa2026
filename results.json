@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T18:22:29.012Z",
+  "generatedAt": "2026-06-22T18:23:34.522Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12314,12 +12314,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "58'",
+      "clock": "59'",
       "events": [
         {
           "min": "57'",
           "icon": "🔄",
-          "txt": "Substituição, 🇦🇷. Nicolás Otamendi (Argentina) Substituição aos 57'",
+          "txt": "Substituição, 🇦🇷. Nicolás Otamendi substitui Cristian Romero.",
           "sub": "🇦🇷"
         },
         {
@@ -12729,14 +12729,14 @@
           "offsides": "2",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "56.8",
+          "possessionPct": "57.4",
           "totalShots": "3",
           "shotsOnTarget": "2",
           "shotPct": "0.7",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "320",
-          "totalPasses": "359",
+          "accuratePasses": "330",
+          "totalPasses": "369",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "1",
@@ -12753,13 +12753,13 @@
           "totalClearance": "24"
         },
         "away": {
-          "foulsCommitted": "7",
+          "foulsCommitted": "8",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "43.2",
+          "possessionPct": "42.6",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
