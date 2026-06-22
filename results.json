@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T21:02:31.419Z",
+  "generatedAt": "2026-06-22T21:03:32.485Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12945,7 +12945,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "1'",
+      "clock": "3'",
       "events": [
         {
           "min": "",
@@ -12993,7 +12993,7 @@
               "row": 2
             },
             {
-              "name": "Ousmane Dembélé",
+              "name": "Michael Olise",
               "pos": "AM",
               "row": 2.5
             },
@@ -13003,7 +13003,7 @@
               "row": 2.5
             },
             {
-              "name": "Michael Olise",
+              "name": "Ousmane Dembélé",
               "pos": "AM-R",
               "row": 2.5
             },
@@ -13122,32 +13122,32 @@
             },
             {
               "name": "Zaid Ismael",
-              "pos": "LM",
+              "pos": "CM",
               "row": 2
             },
             {
               "name": "Amir Al-Ammari",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Ahmed Qasim",
               "pos": "RM",
               "row": 2
             },
             {
-              "name": "Zidane Iqbal",
-              "pos": "AM",
-              "row": 2.5
+              "name": "Aymen Hussein",
+              "pos": "F",
+              "row": 3
             },
             {
               "name": "Ibrahim Bayesh",
-              "pos": "AM-L",
-              "row": 2.5
+              "pos": "LF",
+              "row": 3
             },
             {
-              "name": "Ahmed Qasim",
-              "pos": "AM-R",
-              "row": 2.5
-            },
-            {
-              "name": "Aymen Hussein",
-              "pos": "F",
+              "name": "Zidane Iqbal",
+              "pos": "RF",
               "row": 3
             }
           ],
@@ -13228,7 +13228,7 @@
               "row": 3
             }
           ],
-          "formation": "4-2-3-1",
+          "formation": "4-3-3",
           "dotColor": "#0A4D2E"
         }
       },
@@ -13240,21 +13240,21 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "90",
-          "totalShots": "0",
+          "possessionPct": "90.5",
+          "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "9",
-          "totalPasses": "9",
+          "accuratePasses": "18",
+          "totalPasses": "18",
           "passPct": "1.0",
           "accurateCrosses": "0",
-          "totalCrosses": "0",
+          "totalCrosses": "1",
           "crossPct": "0.0",
-          "totalLongBalls": "0",
-          "accurateLongBalls": "0",
-          "longballPct": "0.0",
+          "totalLongBalls": "2",
+          "accurateLongBalls": "2",
+          "longballPct": "1.0",
           "blockedShots": "0",
           "effectiveTackles": "0",
           "totalTackles": "0",
@@ -13270,28 +13270,28 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "10",
+          "possessionPct": "9.5",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "0",
-          "totalPasses": "1",
+          "totalPasses": "2",
           "passPct": "0.0",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
-          "totalLongBalls": "1",
+          "totalLongBalls": "2",
           "accurateLongBalls": "0",
           "longballPct": "0.0",
           "blockedShots": "0",
           "effectiveTackles": "0",
-          "totalTackles": "0",
+          "totalTackles": "1",
           "tacklePct": "0.0",
           "interceptions": "0",
-          "effectiveClearance": "0",
-          "totalClearance": "0"
+          "effectiveClearance": "1",
+          "totalClearance": "1"
         }
       }
     },
