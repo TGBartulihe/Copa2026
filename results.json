@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T17:09:31.442Z",
+  "generatedAt": "2026-06-22T17:10:33.904Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12317,6 +12317,12 @@
       "clock": "9'",
       "events": [
         {
+          "min": "9'",
+          "icon": "⚽🎯",
+          "txt": "Pênalti perdido. Lionel Messi (Argentina) finalização com o pé esquerdo.",
+          "sub": "🇦🇷"
+        },
+        {
           "min": "7'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
@@ -12645,14 +12651,14 @@
           "offsides": "1",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "74.1",
-          "totalShots": "0",
+          "possessionPct": "76.9",
+          "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
-          "penaltyKickShots": "0",
-          "accuratePasses": "41",
-          "totalPasses": "43",
+          "penaltyKickShots": "1",
+          "accuratePasses": "38",
+          "totalPasses": "40",
           "passPct": "1.0",
           "accurateCrosses": "0",
           "totalCrosses": "0",
@@ -12669,21 +12675,21 @@
           "totalClearance": "0"
         },
         "away": {
-          "foulsCommitted": "0",
+          "foulsCommitted": "1",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "25.9",
+          "possessionPct": "23.1",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "11",
-          "totalPasses": "15",
-          "passPct": "0.7",
+          "accuratePasses": "10",
+          "totalPasses": "12",
+          "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
@@ -12693,7 +12699,7 @@
           "blockedShots": "0",
           "effectiveTackles": "1",
           "totalTackles": "2",
-          "tacklePct": "0.5",
+          "tacklePct": "0.0",
           "interceptions": "0",
           "effectiveClearance": "0",
           "totalClearance": "0"
