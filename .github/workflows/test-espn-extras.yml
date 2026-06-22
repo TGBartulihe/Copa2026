@@ -1,0 +1,47 @@
+name: Test ESPN Extras (artilheiros, goleiros, MOTM)
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Testar endpoints extra da ESPN
+        run: |
+          node -e "
+          async function tryFetch(label, url){
+            console.log('=== ' + label + ' ===');
+            console.log('URL: ' + url);
+            try{
+              const res = await fetch(url);
+              console.log('status:', res.status);
+              if(!res.ok){ console.log('(não OK, a saltar)'); return; }
+              const data = await res.json();
+              console.log(JSON.stringify(data, null, 2).slice(0, 3000));
+            }catch(e){ console.log('erro:', e.message); }
+            console.log('');
+          }
+
+          async function main(){
+            // 1) Artilheiros do torneio — tentativa de endpoint de líderes
+            await tryFetch('LEADERS (artilheiros do torneio)',
+              'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/leaders');
+
+            // 2) Resumo de um jogo real — procurar Homem da Partida
+            const eventId='760448'; // Alemanha x Costa do Marfim, já usado antes
+            const res = await fetch('https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event='+eventId);
+            const data = await res.json();
+            console.log('=== CHAVES DE TOPO NO SUMMARY (procurando MOTM) ===');
+            console.log(Object.keys(data));
+            console.log('Tem campo \"standout\" ou \"motm\" ou \"playerOfMatch\"?',
+              !!data.standout, !!data.motm, !!data.playerOfMatch, !!data.gamePackage);
+
+            // 3) Perfil de jogador específico — testar se dá stats de carreira
+            // Usa o ID do Kai Havertz visto antes nos dados reais (231182)
+            await tryFetch('PERFIL DE JOGADOR (Kai Havertz, ver se tem carreira)',
+              'https://site.api.espn.com/apis/common/v3/sports/soccer/athletes/231182');
+          }
+          main().catch(e=>{console.error(e);process.exit(1);});
+          "
