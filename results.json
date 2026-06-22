@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T00:03:23.411Z",
+  "generatedAt": "2026-06-22T00:04:25.113Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -11098,22 +11098,16 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "90'+7'",
+      "clock": "90'+8'",
       "events": [
         {
-          "min": "90'+8'",
+          "min": "90'+3'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
           "sub": "🇺🇾"
         },
         {
-          "min": "90'+8'",
-          "icon": "📺",
-          "txt": "Agustín Cano (Uruguai) VAR - Outro aos 90'+8'",
-          "sub": "🇺🇾"
-        },
-        {
-          "min": "90'+8'",
+          "min": "90'+3'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇺🇾"
