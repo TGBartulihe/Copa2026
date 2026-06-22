@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T18:43:34.834Z",
+  "generatedAt": "2026-06-22T18:44:34.334Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12314,8 +12314,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "79'",
+      "clock": "80'",
       "events": [
+        {
+          "min": "80'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇦🇷"
+        },
+        {
+          "min": "80'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇦🇹"
+        },
         {
           "min": "79'",
           "icon": "⏸️",
@@ -12837,7 +12849,7 @@
           "offsides": "2",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "57.4",
+          "possessionPct": "56.8",
           "totalShots": "6",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
@@ -12867,21 +12879,21 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "42.6",
+          "possessionPct": "43.2",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "300",
-          "totalPasses": "358",
+          "accuratePasses": "307",
+          "totalPasses": "366",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "10",
           "crossPct": "0.2",
-          "totalLongBalls": "18",
-          "accurateLongBalls": "8",
-          "longballPct": "0.4",
+          "totalLongBalls": "19",
+          "accurateLongBalls": "9",
+          "longballPct": "0.5",
           "blockedShots": "0",
           "effectiveTackles": "9",
           "totalTackles": "12",
