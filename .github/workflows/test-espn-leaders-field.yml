@@ -1,0 +1,22 @@
+name: Test ESPN Leaders Field (per match)
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Ver conteúdo do campo leaders no resumo do jogo
+        run: |
+          node -e "
+          async function main(){
+            const eventId='760448';
+            const res = await fetch('https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/summary?event='+eventId);
+            const data = await res.json();
+            console.log('=== CONTEÚDO COMPLETO DE data.leaders ===');
+            console.log(JSON.stringify(data.leaders, null, 2));
+          }
+          main().catch(e=>{console.error(e);process.exit(1);});
+          "
