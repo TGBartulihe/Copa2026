@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T01:40:22.506Z",
+  "generatedAt": "2026-06-22T01:41:25.467Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -11695,8 +11695,26 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "40'",
+      "clock": "41'",
       "events": [
+        {
+          "min": "41'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇪🇬"
+        },
+        {
+          "min": "41'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇳🇿"
+        },
+        {
+          "min": "40'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇪🇬"
+        },
         {
           "min": "40'",
           "icon": "⏸️",
@@ -12080,21 +12098,21 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "44.9",
+          "possessionPct": "46.6",
           "totalShots": "7",
           "shotsOnTarget": "3",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "146",
-          "totalPasses": "178",
+          "accuratePasses": "160",
+          "totalPasses": "193",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "7",
           "crossPct": "0.3",
-          "totalLongBalls": "22",
+          "totalLongBalls": "23",
           "accurateLongBalls": "8",
-          "longballPct": "0.4",
+          "longballPct": "0.3",
           "blockedShots": "2",
           "effectiveTackles": "3",
           "totalTackles": "4",
@@ -12110,28 +12128,28 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "55.1",
+          "possessionPct": "53.4",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "200",
-          "totalPasses": "225",
+          "accuratePasses": "201",
+          "totalPasses": "227",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "2",
           "crossPct": "0.5",
-          "totalLongBalls": "17",
-          "accurateLongBalls": "8",
+          "totalLongBalls": "19",
+          "accurateLongBalls": "9",
           "longballPct": "0.5",
           "blockedShots": "2",
           "effectiveTackles": "3",
           "totalTackles": "5",
           "tacklePct": "0.6",
           "interceptions": "1",
-          "effectiveClearance": "14",
-          "totalClearance": "14"
+          "effectiveClearance": "15",
+          "totalClearance": "15"
         }
       }
     },
