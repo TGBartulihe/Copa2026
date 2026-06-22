@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T04:50:23.373Z",
+  "generatedAt": "2026-06-22T04:51:21.841Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12284,8 +12284,8 @@
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "462",
-          "totalPasses": "528",
+          "accuratePasses": "460",
+          "totalPasses": "526",
           "passPct": "0.9",
           "accurateCrosses": "7",
           "totalCrosses": "22",
@@ -12298,8 +12298,8 @@
           "totalTackles": "16",
           "tacklePct": "0.8",
           "interceptions": "7",
-          "effectiveClearance": "36",
-          "totalClearance": "36"
+          "effectiveClearance": "37",
+          "totalClearance": "37"
         }
       }
     },
