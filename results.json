@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T17:25:28.546Z",
+  "generatedAt": "2026-06-22T17:26:30.660Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12314,7 +12314,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "24'",
+      "clock": "25'",
       "events": [
         {
           "min": "24'",
@@ -12330,12 +12330,6 @@
         },
         {
           "min": "22'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
-          "sub": "🇦🇹"
-        },
-        {
-          "min": "22'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
           "sub": "🇦🇹"
@@ -12345,6 +12339,12 @@
           "icon": "▶️",
           "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇦🇷"
+        },
+        {
+          "min": "21'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇦🇹"
         },
         {
           "min": "21'",
@@ -12687,14 +12687,14 @@
           "offsides": "1",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "52.9",
+          "possessionPct": "53.1",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "87",
-          "totalPasses": "100",
+          "accuratePasses": "89",
+          "totalPasses": "103",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "0",
@@ -12707,8 +12707,8 @@
           "totalTackles": "6",
           "tacklePct": "0.3",
           "interceptions": "2",
-          "effectiveClearance": "8",
-          "totalClearance": "8"
+          "effectiveClearance": "9",
+          "totalClearance": "9"
         },
         "away": {
           "foulsCommitted": "4",
@@ -12717,17 +12717,17 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "47.1",
+          "possessionPct": "46.9",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "66",
-          "totalPasses": "86",
+          "accuratePasses": "67",
+          "totalPasses": "87",
           "passPct": "0.8",
           "accurateCrosses": "1",
-          "totalCrosses": "3",
+          "totalCrosses": "4",
           "crossPct": "0.3",
           "totalLongBalls": "6",
           "accurateLongBalls": "4",
