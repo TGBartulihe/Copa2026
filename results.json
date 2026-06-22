@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T17:32:33.835Z",
+  "generatedAt": "2026-06-22T17:33:31.347Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12314,7 +12314,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "31'",
+      "clock": "32'",
       "events": [
         {
           "min": "26'",
@@ -12693,20 +12693,20 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "3",
+          "foulsCommitted": "4",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "47.3",
-          "totalShots": "1",
+          "possessionPct": "49.8",
+          "totalShots": "2",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "98",
-          "totalPasses": "114",
+          "accuratePasses": "109",
+          "totalPasses": "126",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "0",
@@ -12714,13 +12714,13 @@
           "totalLongBalls": "2",
           "accurateLongBalls": "0",
           "longballPct": "0.0",
-          "blockedShots": "0",
+          "blockedShots": "1",
           "effectiveTackles": "3",
           "totalTackles": "10",
           "tacklePct": "0.3",
           "interceptions": "2",
-          "effectiveClearance": "11",
-          "totalClearance": "11"
+          "effectiveClearance": "12",
+          "totalClearance": "12"
         },
         "away": {
           "foulsCommitted": "4",
@@ -12729,7 +12729,7 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "52.7",
+          "possessionPct": "50.2",
           "totalShots": "2",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
@@ -12746,11 +12746,11 @@
           "longballPct": "0.6",
           "blockedShots": "0",
           "effectiveTackles": "3",
-          "totalTackles": "4",
-          "tacklePct": "0.8",
+          "totalTackles": "5",
+          "tacklePct": "0.6",
           "interceptions": "2",
-          "effectiveClearance": "0",
-          "totalClearance": "0"
+          "effectiveClearance": "2",
+          "totalClearance": "2"
         }
       }
     },
