@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T02:35:24.682Z",
+  "generatedAt": "2026-06-22T02:36:23.533Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -11695,19 +11695,43 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "75'",
+      "clock": "76'",
       "events": [
         {
-          "min": "72'",
-          "icon": "⏸️",
-          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "min": "76'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇳🇿. Substituição de Ryan Thomas (Nova Zelândia) aos 76'",
+          "sub": "🇳🇿"
+        },
+        {
+          "min": "76'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇳🇿. Entra Jesse Randall para o lugar de Liberato Cacace.",
+          "sub": "🇳🇿"
+        },
+        {
+          "min": "75'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇪🇬"
+        },
+        {
+          "min": "75'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇳🇿"
         },
         {
           "min": "72'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇳🇿"
+        },
+        {
+          "min": "72'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇪🇬"
         },
         {
           "min": "67'",
