@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T04:22:22.620Z",
+  "generatedAt": "2026-06-22T04:23:22.923Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12267,9 +12267,9 @@
           "effectiveTackles": "5",
           "totalTackles": "11",
           "tacklePct": "0.5",
-          "interceptions": "5",
-          "effectiveClearance": "23",
-          "totalClearance": "23"
+          "interceptions": "4",
+          "effectiveClearance": "24",
+          "totalClearance": "24"
         },
         "away": {
           "foulsCommitted": "8",
