@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T18:33:34.276Z",
+  "generatedAt": "2026-06-22T18:34:35.474Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12314,7 +12314,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "68'",
+      "clock": "69'",
       "events": [
         {
           "min": "69'",
@@ -12325,7 +12325,7 @@
         {
           "min": "69'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
           "sub": "🇦🇷"
         },
         {
@@ -12795,26 +12795,26 @@
           "offsides": "2",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "57.9",
+          "possessionPct": "58.8",
           "totalShots": "5",
           "shotsOnTarget": "2",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "403",
-          "totalPasses": "447",
+          "accuratePasses": "419",
+          "totalPasses": "464",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "2",
           "crossPct": "0.0",
-          "totalLongBalls": "14",
+          "totalLongBalls": "15",
           "accurateLongBalls": "6",
           "longballPct": "0.4",
           "blockedShots": "1",
           "effectiveTackles": "9",
           "totalTackles": "17",
           "tacklePct": "0.5",
-          "interceptions": "5",
+          "interceptions": "6",
           "effectiveClearance": "28",
           "totalClearance": "28"
         },
@@ -12825,7 +12825,7 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "42.1",
+          "possessionPct": "41.2",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
