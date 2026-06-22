@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T21:26:30.000Z",
+  "generatedAt": "2026-06-22T21:27:28.687Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12947,6 +12947,18 @@
       "live": true,
       "clock": "26'",
       "events": [
+        {
+          "min": "26'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇫🇷"
+        },
+        {
+          "min": "26'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇮🇶. Ali Al Hamadi entra em campo Aymen Hussein devido a uma lesão.",
+          "sub": "🇮🇶"
+        },
         {
           "min": "25'",
           "icon": "▶️",
