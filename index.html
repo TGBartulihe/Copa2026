@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8"/>
@@ -621,6 +621,15 @@ function mergeResultsJSON(json){
       updated++;
     }
   });
+  // Restaura notas históricas direto da fonte original, sempre — mais
+  // robusto do que depender só da cadeia de merge para preservar isto
+  // (se o nome mudar ligeiramente, o merge normal pode falhar a comparação
+  // e criar uma entrada nova sem a nota original)
+  FALLBACK_RES.forEach(fb=>{
+    if(!fb.note) return;
+    const match=RES.find(r=>tkey(r.home)===tkey(fb.home)&&tkey(r.away)===tkey(fb.away));
+    if(match && !match.note) match.note=fb.note;
+  });
   dedupeRES();
   return updated;
 }
@@ -1144,6 +1153,22 @@ function bResult(){
   return h;
 }
 
+// Swipe lateral entre grupos — A↔B↔C...↔L. Os botões continuam a funcionar
+// exatamente como antes; isto é só um atalho adicional por gesto.
+let _grpSwipeStartX=null;
+function grpSwipeStart(e){ _grpSwipeStartX=(e.touches?e.touches[0].clientX:e.clientX); }
+function grpSwipeEnd(e){
+  if(_grpSwipeStartX===null) return;
+  const endX=(e.changedTouches?e.changedTouches[0].clientX:e.clientX);
+  const dx=endX-_grpSwipeStartX;
+  _grpSwipeStartX=null;
+  if(Math.abs(dx)<50) return; // arrasto pequeno demais, ignora (pode ter sido scroll vertical)
+  const groups="ABCDEFGHIJKL".split("");
+  const idx=groups.indexOf(GRP);
+  if(dx<0 && idx<groups.length-1) setGrp(groups[idx+1]);
+  else if(dx>0 && idx>0) setGrp(groups[idx-1]);
+}
+
 function bGrupos(){
   const btns="ABCDEFGHIJKL".split("").map(g=>{
     const on=g===GRP,col=GC[g]||"#333";
@@ -1152,7 +1177,7 @@ function bGrupos(){
   let h=`<div class="gbtns">${btns}</div>`;
   h+=buildTable(GRP);h+=glbl(GRP,true);
   RES.filter(r=>r.g===GRP&&r._demoIdx===undefined).forEach(r=>{h+=card(r,r.live,!r.done&&!r.live);});
-  return h;
+  return `<div ontouchstart="grpSwipeStart(event)" ontouchend="grpSwipeEnd(event)">${h}</div>`;
 }
 
 let MM_VIEW="oficial"; // "oficial" | "projecao"
@@ -1423,7 +1448,24 @@ function bProjecao(){
 }
 
 // ── CAIXA DE CONFRONTO — time de cada lado, vencedor em destaque ─────────────
+// A ESPN usa texto em inglês para vagas do mata-mata ainda não decididas
+// ("Group H Winner", "Group J 2nd Place", "Third Place Group A/C/D") —
+// traduz isso para português, sem tentar resolver o nome real (isso já é
+// feito à parte para os avos, via buildSimR32)
+function translateBracketPlaceholder(name){
+  if(!name) return name;
+  let m=name.match(/^Group ([A-L]) Winner$/i);
+  if(m) return `Vencedor Grupo ${m[1]}`;
+  m=name.match(/^Group ([A-L]) (?:2nd|Runner-?up) ?Place?$/i);
+  if(m) return `2º Grupo ${m[1]}`;
+  m=name.match(/^(?:3rd|Third) Place Group(?:s)? ([A-L/]+)$/i);
+  if(m) return `Melhor 3º (${m[1]})`;
+  return name;
+}
+
 function bracketBox(homeLabel,awayLabel,sh,sa,status,meta,favHome,favAway){
+  homeLabel=translateBracketPlaceholder(homeLabel);
+  awayLabel=translateBracketPlaceholder(awayLabel);
   const isDone=status==="done", isLive=status==="live";
   const wh=isDone&&sh>sa, wa=isDone&&sa>sh;
   const scoreCls=isLive?"live":!isDone?"tbd":"";
