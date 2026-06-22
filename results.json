@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-22T18:32:37.432Z",
+  "generatedAt": "2026-06-22T18:33:34.276Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12317,21 +12317,33 @@
       "clock": "68'",
       "events": [
         {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇦🇹"
+        },
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇦🇷"
+        },
+        {
           "min": "68'",
           "icon": "🔄",
-          "txt": "Substituição, 🇦🇹. Substituição de Marko Arnautovic (Áustria) aos 68'",
+          "txt": "Substituição, 🇦🇹. Entra Marko Arnautovic substituindo Paul Wanner.",
           "sub": "🇦🇹"
         },
         {
           "min": "68'",
           "icon": "🔄",
-          "txt": "Substituição, 🇦🇹. Alexander Prass (Áustria) Substituição aos 68'",
+          "txt": "Substituição, 🇦🇹. Alexander Prass substitui Stefan Posch.",
           "sub": "🇦🇹"
         },
         {
           "min": "67'",
           "icon": "🔄",
-          "txt": "Substituição, 🇦🇹. Marco Friedl (Áustria) Substituição aos 67'",
+          "txt": "Substituição, 🇦🇹. Entra Marco Friedl para o lugar de David Alaba.",
           "sub": "🇦🇹"
         },
         {
@@ -12783,14 +12795,14 @@
           "offsides": "2",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "57.6",
+          "possessionPct": "57.9",
           "totalShots": "5",
           "shotsOnTarget": "2",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "398",
-          "totalPasses": "442",
+          "accuratePasses": "403",
+          "totalPasses": "447",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "2",
@@ -12813,7 +12825,7 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "42.4",
+          "possessionPct": "42.1",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
