@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T04:47:28.032Z",
+  "generatedAt": "2026-06-23T04:48:29.736Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -11176,18 +11176,30 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "84'",
+      "clock": "86'",
       "events": [
+        {
+          "min": "86'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇩🇿. Substituição de Zineddine Belaïd (Argélia) aos 86'",
+          "sub": "🇩🇿"
+        },
         {
           "min": "85'",
           "icon": "🔄",
-          "txt": "Substituição, 🇯🇴. Mohammad Abu Hasheesh (Jordânia) Substituição aos 85'",
+          "txt": "Substituição, 🇩🇿. Substituição de Jaouen Hadjam (Argélia) aos 85'",
+          "sub": "🇩🇿"
+        },
+        {
+          "min": "85'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇯🇴. Mohammad Abu Hasheesh substitui Mohannad Abu Taha.",
           "sub": "🇯🇴"
         },
         {
           "min": "85'",
           "icon": "🔄",
-          "txt": "Substituição, 🇯🇴. Substituição por Ali Azaizeh (Jordânia) aos 85'",
+          "txt": "Substituição, 🇯🇴. Entra Ali Azaizeh para o lugar de Mousa Al Tamari.",
           "sub": "🇯🇴"
         },
         {
