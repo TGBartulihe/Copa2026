@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T04:45:27.489Z",
+  "generatedAt": "2026-06-23T04:46:28.432Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -11173,7 +11173,7 @@
       "venue": "Levi's Stadium",
       "iso": "2026-06-23T03:00Z",
       "sh": 1,
-      "sa": 1,
+      "sa": 2,
       "done": false,
       "live": true,
       "clock": "83'",
@@ -11181,7 +11181,7 @@
         {
           "min": "82'",
           "icon": "⚽",
-          "txt": "Amine Gouiri (Argélia) Gol aos 82'",
+          "txt": "Amine Gouiri (Argélia) remate com o pé direito em frente à baliza ao centro da baliza após escanteio.",
           "sub": "🇩🇿"
         },
         {
@@ -11611,8 +11611,8 @@
           "wonCorners": "8",
           "saves": "3",
           "possessionPct": "74.7",
-          "totalShots": "14",
-          "shotsOnTarget": "6",
+          "totalShots": "16",
+          "shotsOnTarget": "7",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
@@ -11625,7 +11625,7 @@
           "totalLongBalls": "33",
           "accurateLongBalls": "17",
           "longballPct": "0.5",
-          "blockedShots": "4",
+          "blockedShots": "5",
           "effectiveTackles": "16",
           "totalTackles": "22",
           "tacklePct": "0.7",
