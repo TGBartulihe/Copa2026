@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T21:37:16.239Z",
+  "generatedAt": "2026-06-23T21:38:18.611Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -12259,12 +12259,18 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "73'",
+      "clock": "74'",
       "events": [
         {
+          "min": "74'",
+          "icon": "🔄",
+          "txt": "Substituição, 🏳️. Entra Eberechi Eze substituindo Elliot Anderson.",
+          "sub": "🏳️"
+        },
+        {
           "min": "73'",
-          "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "icon": "🔄",
+          "txt": "Substituição, 🏳️. Substituição de Morgan Rogers (Inglaterra) aos 73'",
           "sub": "🏳️"
         },
         {
@@ -12272,6 +12278,12 @@
           "icon": "▶️",
           "txt": "Jogo reiniciado",
           "sub": "🇬🇭"
+        },
+        {
+          "min": "73'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🏳️"
         },
         {
           "min": "70'",
