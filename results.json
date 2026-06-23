@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T01:20:27.260Z",
+  "generatedAt": "2026-06-23T01:21:28.717Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -10611,19 +10611,19 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "61'",
+      "clock": "62'",
       "events": [
-        {
-          "min": "59'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
-          "sub": "🇳🇴"
-        },
         {
           "min": "59'",
           "icon": "🩹",
           "txt": "Partida atrasada devido a uma lesão de Édouard Mendy (Senegal).",
           "sub": "🇸🇳"
+        },
+        {
+          "min": "59'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇳🇴"
         },
         {
           "min": "58'",
