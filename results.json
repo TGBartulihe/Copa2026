@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T00:23:30.113Z",
+  "generatedAt": "2026-06-23T00:24:31.567Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -10106,18 +10106,30 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "68'",
+      "clock": "69'",
       "events": [
+        {
+          "min": "69'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇮🇶. Substituição de Marko Farji (Iraque) aos 69'",
+          "sub": "🇮🇶"
+        },
         {
           "min": "68'",
           "icon": "🔄",
-          "txt": "Substituição, 🇫🇷. Substituição de Rayan Cherki (França) aos 68'",
+          "txt": "Substituição, 🇮🇶. Aimar Sher substitui Amir Al Ammari.",
+          "sub": "🇮🇶"
+        },
+        {
+          "min": "68'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇫🇷. Rayan Cherki substitui Michael Olise.",
           "sub": "🇫🇷"
         },
         {
           "min": "68'",
           "icon": "🔄",
-          "txt": "Substituição, 🇫🇷. Désiré Doué (França) Substituição aos 68'",
+          "txt": "Substituição, 🇫🇷. Désiré Doué substitui Ousmane Dembélé.",
           "sub": "🇫🇷"
         },
         {
@@ -10575,7 +10587,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "23'",
+      "clock": "24'",
       "events": [
         {
           "min": "23'",
