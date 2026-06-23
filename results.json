@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T04:54:27.982Z",
+  "generatedAt": "2026-06-23T04:55:31.384Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -11176,18 +11176,18 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "90'+2'",
+      "clock": "90'+3'",
       "events": [
         {
           "min": "90'+2'",
           "icon": "🔄",
-          "txt": "Substituição, 🇯🇴. Substituição de Mohammed Abu Zraiq (Jordânia) aos 90'+2'",
+          "txt": "Substituição, 🇯🇴. Saleem Obaid substitui Husam Abu Dahab.",
           "sub": "🇯🇴"
         },
         {
           "min": "90'+2'",
           "icon": "🔄",
-          "txt": "Substituição, 🇯🇴. Substituição de Saleem Obaid (Jordânia) aos 90'+2'",
+          "txt": "Substituição, 🇯🇴. Entra Mohammad Abu Zraiq substituindo Ali Olwan.",
           "sub": "🇯🇴"
         },
         {
@@ -11623,12 +11623,12 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "161",
-          "totalPasses": "224",
+          "totalPasses": "225",
           "passPct": "0.7",
           "accurateCrosses": "2",
           "totalCrosses": "4",
           "crossPct": "0.5",
-          "totalLongBalls": "47",
+          "totalLongBalls": "48",
           "accurateLongBalls": "20",
           "longballPct": "0.4",
           "blockedShots": "0",
@@ -11636,8 +11636,8 @@
           "totalTackles": "28",
           "tacklePct": "0.5",
           "interceptions": "2",
-          "effectiveClearance": "33",
-          "totalClearance": "33"
+          "effectiveClearance": "35",
+          "totalClearance": "35"
         },
         "away": {
           "foulsCommitted": "6",
@@ -11652,19 +11652,19 @@
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "535",
-          "totalPasses": "605",
+          "accuratePasses": "537",
+          "totalPasses": "609",
           "passPct": "0.9",
           "accurateCrosses": "5",
           "totalCrosses": "20",
           "crossPct": "0.3",
-          "totalLongBalls": "39",
+          "totalLongBalls": "41",
           "accurateLongBalls": "18",
-          "longballPct": "0.5",
+          "longballPct": "0.4",
           "blockedShots": "5",
-          "effectiveTackles": "17",
-          "totalTackles": "23",
-          "tacklePct": "0.7",
+          "effectiveTackles": "18",
+          "totalTackles": "24",
+          "tacklePct": "0.8",
           "interceptions": "10",
           "effectiveClearance": "13",
           "totalClearance": "13"
