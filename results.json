@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T01:22:27.451Z",
+  "generatedAt": "2026-06-23T01:23:27.442Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -10611,8 +10611,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "63'",
+      "clock": "64'",
       "events": [
+        {
+          "min": "63'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇳. Substituição de Pathé Ciss (Senegal) aos 63'",
+          "sub": "🇸🇳"
+        },
         {
           "min": "63'",
           "icon": "▶️",
