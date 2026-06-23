@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T01:17:28.119Z",
+  "generatedAt": "2026-06-23T01:18:29.776Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -10611,12 +10611,24 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "58'",
+      "clock": "59'",
       "events": [
+        {
+          "min": "59'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇳🇴"
+        },
+        {
+          "min": "59'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇸🇳"
+        },
         {
           "min": "58'",
           "icon": "⚽",
-          "txt": "Erling Haaland (Noruega) remate com o pé direito no coração da área.",
+          "txt": "Erling Haaland (Noruega) finalização com o pé direito do meio da área acertando no centro do gol. Assistência de Patrick Berg.",
           "sub": "🇳🇴"
         },
         {
@@ -10990,14 +11002,14 @@
           "offsides": "0",
           "wonCorners": "4",
           "saves": "2",
-          "possessionPct": "46.2",
-          "totalShots": "9",
-          "shotsOnTarget": "5",
-          "shotPct": "0.6",
+          "possessionPct": "46.4",
+          "totalShots": "11",
+          "shotsOnTarget": "6",
+          "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "220",
-          "totalPasses": "262",
+          "accuratePasses": "222",
+          "totalPasses": "264",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "8",
@@ -11005,7 +11017,7 @@
           "totalLongBalls": "35",
           "accurateLongBalls": "22",
           "longballPct": "0.6",
-          "blockedShots": "1",
+          "blockedShots": "2",
           "effectiveTackles": "10",
           "totalTackles": "11",
           "tacklePct": "0.9",
@@ -11020,7 +11032,7 @@
           "offsides": "3",
           "wonCorners": "1",
           "saves": "3",
-          "possessionPct": "53.8",
+          "possessionPct": "53.6",
           "totalShots": "9",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
