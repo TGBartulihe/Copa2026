@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T01:21:28.717Z",
+  "generatedAt": "2026-06-23T01:22:27.451Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -10611,8 +10611,26 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "62'",
+      "clock": "63'",
       "events": [
+        {
+          "min": "63'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇳🇴"
+        },
+        {
+          "min": "63'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇳. Mory Diaw entra em campo Édouard Mendy devido a uma lesão.",
+          "sub": "🇸🇳"
+        },
+        {
+          "min": "63'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇸🇳"
+        },
         {
           "min": "59'",
           "icon": "🩹",
