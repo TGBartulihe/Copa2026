@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T00:42:28.541Z",
+  "generatedAt": "2026-06-23T00:43:27.493Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -10106,7 +10106,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "86'",
+      "clock": "87'",
       "events": [
         {
           "min": "83'",
@@ -10599,8 +10599,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "42'",
+      "clock": "43'",
       "events": [
+        {
+          "min": "43'",
+          "icon": "⚽",
+          "txt": "Marcus Holmgren Pedersen (Noruega) Gol aos 43'",
+          "sub": "🇳🇴"
+        },
         {
           "min": "26'",
           "icon": "▶️",
