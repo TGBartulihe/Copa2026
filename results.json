@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T18:34:17.992Z",
+  "generatedAt": "2026-06-23T20:38:30.443Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -11690,16 +11690,64 @@
       "brTime": "14h",
       "venue": "NRG Stadium",
       "iso": "2026-06-23T17:00Z",
-      "sh": 4,
+      "sh": 5,
       "sa": 0,
-      "done": false,
-      "live": true,
-      "clock": "70'",
+      "done": true,
+      "live": false,
+      "clock": "",
       "events": [
         {
-          "min": "69'",
-          "icon": "⏸️",
-          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "min": "90'+6'",
+          "icon": "•",
+          "txt": "jogador",
+          "sub": "🏳️"
+        },
+        {
+          "min": "90'+2'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇺🇿. Sherzod Esanov substitui Otabek Shukurov.",
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "90'+2'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇺🇿. Entra Ruslanbek Jiyanov substituindo Bekhruz Karimov.",
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "87'",
+          "icon": "⚽",
+          "txt": "Rafael Leão (Portugal) remate com o pé direito no coração da área ao ângulo superior esquerdo.",
+          "sub": "🇵🇹"
+        },
+        {
+          "min": "83'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇹. Entra Rafael Leão para o lugar de Vitinha.",
+          "sub": "🇵🇹"
+        },
+        {
+          "min": "76'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇹. Bernardo Silva entra no lugar de João Neves.",
+          "sub": "🇵🇹"
+        },
+        {
+          "min": "73'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇺🇿. Igor Sergeev substitui Abbosbek Fayzullaev.",
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇵🇹"
         },
         {
@@ -11709,13 +11757,19 @@
           "sub": "🇺🇿"
         },
         {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇵🇹"
+        },
+        {
           "min": "68'",
           "icon": "🟨",
           "txt": "Renato Veiga (Portugal) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇵🇹"
         },
         {
-          "min": "64'",
+          "min": "63'",
           "icon": "🔄",
           "txt": "Substituição, 🇵🇹. Trincão entra no lugar de João Félix.",
           "sub": "🇵🇹"
@@ -11741,12 +11795,6 @@
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, 🇺🇿. Entra em campo Khojiakbar Alijonov substituindo Sherzod Nasrullaev.",
-          "sub": "🇺🇿"
-        },
-        {
-          "min": "45'",
-          "icon": "🔄",
           "txt": "Substituição, 🇵🇹. Nélson Semedo substitui João Cancelo.",
           "sub": "🇵🇹"
         },
@@ -11754,6 +11802,12 @@
           "min": "45'",
           "icon": "🔄",
           "txt": "Substituição, 🇺🇿. Entra Akmal Mozgovoy substituindo Odiljon Khamrobekov.",
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇺🇿. Entra em campo Khojiakbar Alijonov substituindo Sherzod Nasrullaev.",
           "sub": "🇺🇿"
         },
         {
@@ -11807,14 +11861,14 @@
         {
           "min": "25'",
           "icon": "▶️",
-          "txt": "Atraso acabou. Eles estão prontos para continuar.",
-          "sub": "🇵🇹"
+          "txt": "Jogo reiniciado",
+          "sub": "🇺🇿"
         },
         {
           "min": "25'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇺🇿"
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇵🇹"
         },
         {
           "min": "23'",
@@ -12133,64 +12187,64 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "11",
+          "foulsCommitted": "14",
           "yellowCards": "1",
           "redCards": "0",
-          "offsides": "0",
-          "wonCorners": "2",
+          "offsides": "2",
+          "wonCorners": "3",
           "saves": "2",
-          "possessionPct": "65.9",
-          "totalShots": "12",
-          "shotsOnTarget": "6",
+          "possessionPct": "66",
+          "totalShots": "17",
+          "shotsOnTarget": "9",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "394",
-          "totalPasses": "442",
+          "accuratePasses": "561",
+          "totalPasses": "624",
           "passPct": "0.9",
           "accurateCrosses": "5",
-          "totalCrosses": "18",
-          "crossPct": "0.3",
-          "totalLongBalls": "29",
-          "accurateLongBalls": "12",
-          "longballPct": "0.4",
-          "blockedShots": "2",
-          "effectiveTackles": "7",
-          "totalTackles": "9",
-          "tacklePct": "0.8",
-          "interceptions": "2",
-          "effectiveClearance": "14",
-          "totalClearance": "14"
-        },
-        "away": {
-          "foulsCommitted": "10",
-          "yellowCards": "1",
-          "redCards": "0",
-          "offsides": "0",
-          "wonCorners": "2",
-          "saves": "2",
-          "possessionPct": "34.1",
-          "totalShots": "6",
-          "shotsOnTarget": "2",
-          "shotPct": "0.3",
-          "penaltyKickGoals": "0",
-          "penaltyKickShots": "0",
-          "accuratePasses": "187",
-          "totalPasses": "234",
-          "passPct": "0.8",
-          "accurateCrosses": "0",
-          "totalCrosses": "5",
-          "crossPct": "0.0",
-          "totalLongBalls": "19",
-          "accurateLongBalls": "5",
-          "longballPct": "0.3",
+          "totalCrosses": "22",
+          "crossPct": "0.2",
+          "totalLongBalls": "40",
+          "accurateLongBalls": "22",
+          "longballPct": "0.6",
           "blockedShots": "3",
           "effectiveTackles": "11",
           "totalTackles": "14",
           "tacklePct": "0.8",
-          "interceptions": "9",
-          "effectiveClearance": "24",
-          "totalClearance": "24"
+          "interceptions": "5",
+          "effectiveClearance": "16",
+          "totalClearance": "16"
+        },
+        "away": {
+          "foulsCommitted": "15",
+          "yellowCards": "1",
+          "redCards": "0",
+          "offsides": "2",
+          "wonCorners": "2",
+          "saves": "4",
+          "possessionPct": "34",
+          "totalShots": "7",
+          "shotsOnTarget": "2",
+          "shotPct": "0.3",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "262",
+          "totalPasses": "325",
+          "passPct": "0.8",
+          "accurateCrosses": "0",
+          "totalCrosses": "8",
+          "crossPct": "0.0",
+          "totalLongBalls": "29",
+          "accurateLongBalls": "9",
+          "longballPct": "0.3",
+          "blockedShots": "3",
+          "effectiveTackles": "13",
+          "totalTackles": "18",
+          "tacklePct": "0.7",
+          "interceptions": "14",
+          "effectiveClearance": "30",
+          "totalClearance": "30"
         }
       }
     },
@@ -12201,12 +12255,407 @@
       "brTime": "17h",
       "venue": "Gillette Stadium",
       "iso": "2026-06-23T20:00Z",
-      "sh": null,
-      "sa": null,
+      "sh": 0,
+      "sa": 0,
       "done": false,
-      "live": false,
-      "clock": "",
-      "events": []
+      "live": true,
+      "clock": "38'",
+      "events": [
+        {
+          "min": "29'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇬🇭"
+        },
+        {
+          "min": "29'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🏳️"
+        },
+        {
+          "min": "26'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇬🇭"
+        },
+        {
+          "min": "26'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🏳️"
+        },
+        {
+          "min": "23'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇬🇭"
+        },
+        {
+          "min": "23'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🏳️"
+        },
+        {
+          "min": "20'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Reece James (Inglaterra).",
+          "sub": "🏳️"
+        },
+        {
+          "min": "20'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Jordan Ayew (Gana).",
+          "sub": "🇬🇭"
+        },
+        {
+          "min": "",
+          "icon": "🏁",
+          "txt": "Início de jogo",
+          "sub": "🏳️"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Jordan Pickford",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Marc Guéhi",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Ezri Konsa",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Djed Spence",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Reece James",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Declan Rice",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Elliot Anderson",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Jude Bellingham",
+              "pos": "AM",
+              "row": 2.5
+            },
+            {
+              "name": "Anthony Gordon",
+              "pos": "AM-L",
+              "row": 2.5
+            },
+            {
+              "name": "Noni Madueke",
+              "pos": "AM-R",
+              "row": 2.5
+            },
+            {
+              "name": "Harry Kane",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Jordan Henderson",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Trevoh Chalobah",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ivan Toney",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Morgan Rogers",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Eberechi Eze",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jarell Quansah",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ollie Watkins",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "John Stones",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Dean Henderson",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Marcus Rashford",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Dan Burn",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nico O'Reilly",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Bukayo Saka",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kobbie Mainoo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "James Trafford",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-2-3-1",
+          "dotColor": "#EA1F29"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Benjamin Asare",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Jerome Opoku",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Jonas Adjetey",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Gideon Mensah",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Marvin Senaya",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Thomas Partey",
+              "pos": "DM",
+              "row": 2
+            },
+            {
+              "name": "Kwasi Sibo",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Caleb Yirenkyi",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Antoine Semenyo",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Iñaki Williams",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Jordan Ayew",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Joseph Anang",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Prince Adu",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kojo Peprah Oppong",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Augustine Boakye",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kamaldeen Sulemana",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Alidu Seidu",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Elisha Owusu",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Abdul Mumin",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Derrick Luckassen",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Baba Rahman",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Brandon Thomas-Asante",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Christopher Bonsu Baah",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ernest Nuamah",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Lawrence Ati Zigi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Fatawu Issahaku",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-1-4-1",
+          "dotColor": "#000000"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "5",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "1",
+          "saves": "0",
+          "possessionPct": "84",
+          "totalShots": "5",
+          "shotsOnTarget": "0",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "273",
+          "totalPasses": "285",
+          "passPct": "1.0",
+          "accurateCrosses": "1",
+          "totalCrosses": "10",
+          "crossPct": "0.1",
+          "totalLongBalls": "12",
+          "accurateLongBalls": "10",
+          "longballPct": "0.8",
+          "blockedShots": "3",
+          "effectiveTackles": "1",
+          "totalTackles": "1",
+          "tacklePct": "1.0",
+          "interceptions": "1",
+          "effectiveClearance": "1",
+          "totalClearance": "1"
+        },
+        "away": {
+          "foulsCommitted": "8",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "1",
+          "wonCorners": "0",
+          "saves": "0",
+          "possessionPct": "16",
+          "totalShots": "0",
+          "shotsOnTarget": "0",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "41",
+          "totalPasses": "56",
+          "passPct": "0.7",
+          "accurateCrosses": "0",
+          "totalCrosses": "0",
+          "crossPct": "0.0",
+          "totalLongBalls": "17",
+          "accurateLongBalls": "9",
+          "longballPct": "0.5",
+          "blockedShots": "0",
+          "effectiveTackles": "8",
+          "totalTackles": "9",
+          "tacklePct": "0.9",
+          "interceptions": "5",
+          "effectiveClearance": "15",
+          "totalClearance": "15"
+        }
+      }
     },
     {
       "home": "Panamá 🇵🇦",
