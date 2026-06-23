@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T01:13:29.915Z",
+  "generatedAt": "2026-06-23T01:14:29.561Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -10611,12 +10611,24 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "54'",
+      "clock": "55'",
       "events": [
+        {
+          "min": "54'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇳. Ibrahim Mbaye (Senegal) Substituição aos 54'",
+          "sub": "🇸🇳"
+        },
+        {
+          "min": "54'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇳. Ismail Jakobs (Senegal) Substituição aos 54'",
+          "sub": "🇸🇳"
+        },
         {
           "min": "53'",
           "icon": "⚽",
-          "txt": "Ismaïla Sarr (Senegal) remate com o pé direito no coração da área.",
+          "txt": "Ismaïla Sarr (Senegal) remate com o pé direito no coração da área ao ângulo superior direito. Assistência de Sadio Mané.",
           "sub": "🇸🇳"
         },
         {
@@ -10978,7 +10990,7 @@
           "shotPct": "0.6",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "200",
+          "accuratePasses": "201",
           "totalPasses": "239",
           "passPct": "0.8",
           "accurateCrosses": "2",
