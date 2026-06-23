@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T01:56:27.924Z",
+  "generatedAt": "2026-06-23T01:57:28.332Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -10611,8 +10611,20 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "90'+7'",
+      "clock": "90'+8'",
       "events": [
+        {
+          "min": "90'+7'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇸🇳"
+        },
+        {
+          "min": "90'+7'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇳🇴"
+        },
         {
           "min": "90'+7'",
           "icon": "⏸️",
@@ -10621,8 +10633,8 @@
         },
         {
           "min": "90'+7'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Leo Østigård (Noruega).",
           "sub": "🇳🇴"
         },
         {
