@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T00:10:27.264Z",
+  "generatedAt": "2026-06-23T00:11:30.514Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12941,16 +12941,16 @@
       "brTime": "18h",
       "venue": "Lincoln Financial Field",
       "iso": "2026-06-22T21:00Z",
-      "sh": 1,
+      "sh": 2,
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "55'",
+      "clock": "56'",
       "events": [
         {
           "min": "54'",
           "icon": "⚽",
-          "txt": "Kylian Mbappé (França) Gol aos 54'",
+          "txt": "Kylian Mbappé (França) finalização com o pé direito do meio da área no Escanteio inferior direito. Assistência de Ousmane Dembélé.",
           "sub": "🇫🇷"
         },
         {
@@ -13318,7 +13318,7 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "55.8",
+          "possessionPct": "55.4",
           "totalShots": "9",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
@@ -13348,14 +13348,14 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "44.2",
+          "possessionPct": "44.6",
           "totalShots": "2",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "251",
-          "totalPasses": "297",
+          "accuratePasses": "256",
+          "totalPasses": "302",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "5",
@@ -13384,7 +13384,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "10'",
+      "clock": "11'",
       "events": [
         {
           "min": "",
