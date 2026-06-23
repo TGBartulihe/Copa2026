@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T01:23:27.442Z",
+  "generatedAt": "2026-06-23T01:24:29.506Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -10611,12 +10611,18 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "64'",
+      "clock": "65'",
       "events": [
         {
           "min": "63'",
           "icon": "🔄",
-          "txt": "Substituição, 🇸🇳. Substituição de Pathé Ciss (Senegal) aos 63'",
+          "txt": "Substituição, 🇸🇳. Pathé Ciss substitui Lamine Camara.",
+          "sub": "🇸🇳"
+        },
+        {
+          "min": "63'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇳. Mory Diaw entra em campo Édouard Mendy devido a uma lesão.",
           "sub": "🇸🇳"
         },
         {
@@ -10624,12 +10630,6 @@
           "icon": "▶️",
           "txt": "Jogo reiniciado",
           "sub": "🇳🇴"
-        },
-        {
-          "min": "63'",
-          "icon": "🔄",
-          "txt": "Substituição, 🇸🇳. Mory Diaw entra em campo Édouard Mendy devido a uma lesão.",
-          "sub": "🇸🇳"
         },
         {
           "min": "63'",
@@ -11026,7 +11026,7 @@
           "offsides": "0",
           "wonCorners": "4",
           "saves": "2",
-          "possessionPct": "46.4",
+          "possessionPct": "45.2",
           "totalShots": "11",
           "shotsOnTarget": "6",
           "shotPct": "0.5",
@@ -11050,26 +11050,26 @@
           "totalClearance": "11"
         },
         "away": {
-          "foulsCommitted": "1",
+          "foulsCommitted": "2",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "3",
           "wonCorners": "1",
           "saves": "3",
-          "possessionPct": "53.6",
+          "possessionPct": "54.8",
           "totalShots": "9",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "274",
-          "totalPasses": "307",
+          "accuratePasses": "289",
+          "totalPasses": "322",
           "passPct": "0.9",
           "accurateCrosses": "4",
           "totalCrosses": "10",
           "crossPct": "0.4",
-          "totalLongBalls": "34",
-          "accurateLongBalls": "23",
+          "totalLongBalls": "35",
+          "accurateLongBalls": "24",
           "longballPct": "0.7",
           "blockedShots": "2",
           "effectiveTackles": "5",
