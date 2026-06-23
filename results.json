@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T03:09:29.702Z",
+  "generatedAt": "2026-06-23T03:10:29.568Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -11176,7 +11176,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "8'",
+      "clock": "9'",
       "events": [
         {
           "min": "",
@@ -11460,20 +11460,20 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "0",
+          "foulsCommitted": "1",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "27.9",
+          "possessionPct": "23.5",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "12",
-          "totalPasses": "18",
+          "accuratePasses": "13",
+          "totalPasses": "19",
           "passPct": "0.7",
           "accurateCrosses": "1",
           "totalCrosses": "1",
@@ -11485,7 +11485,7 @@
           "effectiveTackles": "1",
           "totalTackles": "1",
           "tacklePct": "1.0",
-          "interceptions": "0",
+          "interceptions": "1",
           "effectiveClearance": "5",
           "totalClearance": "5"
         },
@@ -11496,14 +11496,14 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "72.1",
+          "possessionPct": "76.5",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "40",
-          "totalPasses": "47",
+          "accuratePasses": "56",
+          "totalPasses": "63",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "2",
@@ -11516,8 +11516,8 @@
           "totalTackles": "1",
           "tacklePct": "1.0",
           "interceptions": "0",
-          "effectiveClearance": "3",
-          "totalClearance": "3"
+          "effectiveClearance": "2",
+          "totalClearance": "2"
         }
       }
     },
