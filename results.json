@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T21:58:11.223Z",
+  "generatedAt": "2026-06-23T21:59:15.904Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -12259,8 +12259,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "90'+4'",
+      "clock": "90'+5'",
       "events": [
+        {
+          "min": "90'+5'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇬🇭. Substituição de Baba Rahman (Gana) aos 90'+5'",
+          "sub": "🇬🇭"
+        },
         {
           "min": "87'",
           "icon": "🔄",
@@ -12720,19 +12726,19 @@
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "2",
-          "wonCorners": "7",
+          "wonCorners": "9",
           "saves": "0",
-          "possessionPct": "78.3",
-          "totalShots": "17",
-          "shotsOnTarget": "3",
+          "possessionPct": "78.6",
+          "totalShots": "19",
+          "shotsOnTarget": "4",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "571",
-          "totalPasses": "616",
+          "accuratePasses": "579",
+          "totalPasses": "625",
           "passPct": "0.9",
-          "accurateCrosses": "6",
-          "totalCrosses": "27",
+          "accurateCrosses": "7",
+          "totalCrosses": "29",
           "crossPct": "0.2",
           "totalLongBalls": "26",
           "accurateLongBalls": "14",
@@ -12752,7 +12758,7 @@
           "offsides": "2",
           "wonCorners": "2",
           "saves": "3",
-          "possessionPct": "21.7",
+          "possessionPct": "21.4",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
@@ -12772,8 +12778,8 @@
           "totalTackles": "21",
           "tacklePct": "0.8",
           "interceptions": "8",
-          "effectiveClearance": "35",
-          "totalClearance": "35"
+          "effectiveClearance": "37",
+          "totalClearance": "37"
         }
       }
     },
