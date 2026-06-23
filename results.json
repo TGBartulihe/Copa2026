@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T04:06:28.983Z",
+  "generatedAt": "2026-06-23T04:07:28.374Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -11178,6 +11178,12 @@
       "live": true,
       "clock": "45'+5'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇩🇿. Substituição de Nabil Bentaleb (Argélia) aos 45'",
+          "sub": "🇩🇿"
+        },
         {
           "min": "45'+5'",
           "icon": "⏱️",
