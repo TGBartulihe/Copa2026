@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T04:55:31.384Z",
+  "generatedAt": "2026-06-23T04:56:29.531Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -11176,18 +11176,18 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "90'+3'",
+      "clock": "90'+4'",
       "events": [
         {
           "min": "90'+2'",
           "icon": "🔄",
-          "txt": "Substituição, 🇯🇴. Saleem Obaid substitui Husam Abu Dahab.",
+          "txt": "Substituição, 🇯🇴. Entra Mohammad Abu Zraiq substituindo Ali Olwan.",
           "sub": "🇯🇴"
         },
         {
-          "min": "90'+2'",
+          "min": "90'+1'",
           "icon": "🔄",
-          "txt": "Substituição, 🇯🇴. Entra Mohammad Abu Zraiq substituindo Ali Olwan.",
+          "txt": "Substituição, 🇯🇴. Saleem Obaid substitui Husam Abu Dahab.",
           "sub": "🇯🇴"
         },
         {
@@ -11616,14 +11616,14 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "6",
-          "possessionPct": "26.8",
+          "possessionPct": "27",
           "totalShots": "8",
           "shotsOnTarget": "4",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "161",
-          "totalPasses": "225",
+          "accuratePasses": "168",
+          "totalPasses": "232",
           "passPct": "0.7",
           "accurateCrosses": "2",
           "totalCrosses": "4",
@@ -11636,8 +11636,8 @@
           "totalTackles": "28",
           "tacklePct": "0.5",
           "interceptions": "2",
-          "effectiveClearance": "35",
-          "totalClearance": "35"
+          "effectiveClearance": "36",
+          "totalClearance": "36"
         },
         "away": {
           "foulsCommitted": "6",
@@ -11646,19 +11646,19 @@
           "offsides": "0",
           "wonCorners": "9",
           "saves": "3",
-          "possessionPct": "73.2",
+          "possessionPct": "73",
           "totalShots": "17",
           "shotsOnTarget": "8",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "537",
-          "totalPasses": "609",
+          "accuratePasses": "546",
+          "totalPasses": "620",
           "passPct": "0.9",
           "accurateCrosses": "5",
           "totalCrosses": "20",
           "crossPct": "0.3",
-          "totalLongBalls": "41",
+          "totalLongBalls": "42",
           "accurateLongBalls": "18",
           "longballPct": "0.4",
           "blockedShots": "5",
