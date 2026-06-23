@@ -1,0 +1,97 @@
+name: Recuperar Jogos Antigos Perdidos - ESCREVER
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Buscar fresco da ESPN e recuperar os 5 jogos de 17/06
+        run: |
+          node -e "
+          const fs = require('fs');
+
+          // Mesmo dicionário do robô — fonte única de verdade, sem digitar nada à mão
+          const ESPN_MAP = {
+            'Mexico':'México 🇲🇽','South Africa':'África do Sul 🇿🇦',
+            'South Korea':'Coreia do Sul 🇰🇷','Czech Republic':'Rep. Tcheca 🇨🇿','Czechia':'Rep. Tcheca 🇨🇿',
+            'Canada':'Canadá 🇨🇦','Bosnia and Herzegovina':'Bósnia 🇧🇦','Bosnia':'Bósnia 🇧🇦','Bosnia-Herzegovina':'Bósnia 🇧🇦',
+            'Qatar':'Qatar 🇶🇦','Switzerland':'Suíça 🇨🇭',
+            'Brazil':'Brasil 🇧🇷','Morocco':'Marrocos 🇲🇦','Scotland':'Escócia 🏴󠁧󠁢󠁳󠁣󠁴󠁿','Haiti':'Haiti 🇭🇹',
+            'United States':'EUA 🇺🇸','USA':'EUA 🇺🇸','Paraguay':'Paraguai 🇵🇾',
+            'Australia':'Austrália 🇦🇺','Türkiye':'Turquia 🇹🇷','Turkey':'Turquia 🇹🇷',
+            'Germany':'Alemanha 🇩🇪','Curacao':'Curaçao 🇨🇼','Curaçao':'Curaçao 🇨🇼',
+            'Ivory Coast':'C. do Marfim 🇨🇮',\"Côte d'Ivoire\":'C. do Marfim 🇨🇮',\"Cote d'Ivoire\":'C. do Marfim 🇨🇮',
+            'Ecuador':'Equador 🇪🇨','Netherlands':'Holanda 🇳🇱','Japan':'Japão 🇯🇵',
+            'Sweden':'Suécia 🇸🇪','Tunisia':'Tunísia 🇹🇳',
+            'Belgium':'Bélgica 🇧🇪','Egypt':'Egito 🇪🇬','Iran':'Irã 🇮🇷','New Zealand':'Nova Zelândia 🇳🇿',
+            'Spain':'Espanha 🇪🇸','Cape Verde':'Cabo Verde 🇨🇻','Saudi Arabia':'Arábia Saudita 🇸🇦','Uruguay':'Uruguai 🇺🇾',
+            'France':'França 🇫🇷','Senegal':'Senegal 🇸🇳','Iraq':'Iraque 🇮🇶','Norway':'Noruega 🇳🇴',
+            'Argentina':'Argentina 🇦🇷','Algeria':'Argélia 🇩🇿','Austria':'Áustria 🇦🇹','Jordan':'Jordânia 🇯🇴',
+            'Portugal':'Portugal 🇵🇹','DR Congo':'RD Congo 🇨🇩','Congo DR':'RD Congo 🇨🇩','DRC':'RD Congo 🇨🇩','Democratic Republic of the Congo':'RD Congo 🇨🇩','Congo':'RD Congo 🇨🇩','Uzbekistan':'Uzbequistão 🇺🇿','Colombia':'Colômbia 🇨🇴',
+            'England':'Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿','Croatia':'Croácia 🇭🇷','Ghana':'Gana 🇬🇭','Panama':'Panamá 🇵🇦',
+          };
+          function mapTeam(n){ return ESPN_MAP[n] || n; }
+          function toBR(isoDate){
+            const d = new Date(isoDate);
+            const br = new Date(d.getTime() - 3*3600*1000);
+            const p = n => String(n).padStart(2,'0');
+            return { date: \`\${p(br.getUTCDate())}/\${p(br.getUTCMonth()+1)}\`, brTime: \`\${p(br.getUTCHours())}h\` };
+          }
+
+          async function main(){
+            const existing = JSON.parse(fs.readFileSync('results.json', 'utf8'));
+            const byKey = {};
+            existing.matches.forEach(m => { byKey[m.home + '|' + m.away] = m; });
+
+            const res = await fetch('https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260617');
+            const data = await res.json();
+            let recovered = 0;
+
+            (data.events || []).forEach(ev => {
+              const comp = ev.competitions?.[0];
+              const homeC = comp?.competitors?.find(c=>c.homeAway==='home');
+              const awayC = comp?.competitors?.find(c=>c.homeAway==='away');
+              if(!homeC || !awayC) return;
+
+              const home = mapTeam(homeC.team?.displayName);
+              const away = mapTeam(awayC.team?.displayName);
+              const { date, brTime } = toBR(ev.date);
+              const statusType = comp?.status?.type;
+
+              byKey[home+'|'+away] = {
+                home, away, date, brTime,
+                venue: comp?.venue?.fullName || '',
+                iso: ev.date,
+                sh: parseInt(homeC.score) ?? null,
+                sa: parseInt(awayC.score) ?? null,
+                done: statusType?.completed === true,
+                live: statusType?.state === 'in',
+                clock: '',
+                events: []
+              };
+              recovered++;
+              console.log('Recuperado: ' + home + ' ' + homeC.score + ' x ' + awayC.score + ' ' + away);
+            });
+
+            existing.matches = Object.values(byKey);
+            fs.writeFileSync('results.json', JSON.stringify(existing, null, 2));
+            console.log('Total recuperado: ' + recovered + ' jogo(s). Total geral agora: ' + existing.matches.length);
+          }
+          main().catch(e=>{console.error(e);process.exit(1);});
+          "
+
+      - name: Commit
+        run: |
+          git config user.name "actions-user"
+          git config user.email "actions@github.com"
+          git add results.json
+          git commit -m "Recupera jogos de 17/06 perdidos pela janela de datas" || echo "Nada para comitar"
+          git push
