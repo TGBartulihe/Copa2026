@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T04:31:27.375Z",
+  "generatedAt": "2026-06-23T04:32:29.993Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -11176,12 +11176,12 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "69'",
+      "clock": "70'",
       "events": [
         {
           "min": "69'",
           "icon": "⚽",
-          "txt": "Nadhir Benbouali (Argélia) Gol - Cabeçada aos 69'",
+          "txt": "Nadhir Benbouali (Argélia) de cabeça do meio da área no Escanteio inferior esquerdo. Assistência de Riyad Mahrez com um cruzamento após escanteio.",
           "sub": "🇩🇿"
         },
         {
@@ -11569,9 +11569,9 @@
           "wonCorners": "6",
           "saves": "2",
           "possessionPct": "74.8",
-          "totalShots": "10",
-          "shotsOnTarget": "4",
-          "shotPct": "0.4",
+          "totalShots": "11",
+          "shotsOnTarget": "5",
+          "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "463",
