@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T04:38:29.368Z",
+  "generatedAt": "2026-06-23T04:39:28.964Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -11176,8 +11176,26 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "76'",
+      "clock": "77'",
       "events": [
+        {
+          "min": "77'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇩🇿"
+        },
+        {
+          "min": "76'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇯🇴. Odeh Fakhoury (Jordânia) Substituição aos 76'",
+          "sub": "🇯🇴"
+        },
+        {
+          "min": "76'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇩🇿. Entra Anis Hadj Moussa para o lugar de Riyad Mahrez.",
+          "sub": "🇩🇿"
+        },
         {
           "min": "74'",
           "icon": "⏸️",
