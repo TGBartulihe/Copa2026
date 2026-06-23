@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T01:52:28.458Z",
+  "generatedAt": "2026-06-23T01:53:29.609Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -10608,15 +10608,15 @@
       "venue": "MetLife Stadium",
       "iso": "2026-06-23T00:00Z",
       "sh": 3,
-      "sa": 1,
+      "sa": 2,
       "done": false,
       "live": true,
-      "clock": "90'+3'",
+      "clock": "90'+4'",
       "events": [
         {
           "min": "90'+3'",
           "icon": "⚽",
-          "txt": "Ismaïla Sarr (Senegal) Gol aos 90'+3'",
+          "txt": "Ismaïla Sarr (Senegal) remate com o pé direito no coração da área ao ângulo superior direito. Assistência de Nicolás Jackson.",
           "sub": "🇸🇳"
         },
         {
@@ -11080,7 +11080,7 @@
           "offsides": "0",
           "wonCorners": "5",
           "saves": "2",
-          "possessionPct": "43.7",
+          "possessionPct": "43.3",
           "totalShots": "13",
           "shotsOnTarget": "7",
           "shotPct": "0.5",
@@ -11100,8 +11100,8 @@
           "totalTackles": "12",
           "tacklePct": "0.9",
           "interceptions": "8",
-          "effectiveClearance": "19",
-          "totalClearance": "19"
+          "effectiveClearance": "21",
+          "totalClearance": "21"
         },
         "away": {
           "foulsCommitted": "4",
@@ -11110,25 +11110,25 @@
           "offsides": "4",
           "wonCorners": "2",
           "saves": "3",
-          "possessionPct": "56.3",
-          "totalShots": "12",
-          "shotsOnTarget": "3",
+          "possessionPct": "56.7",
+          "totalShots": "14",
+          "shotsOnTarget": "4",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "391",
-          "totalPasses": "446",
+          "accuratePasses": "398",
+          "totalPasses": "453",
           "passPct": "0.9",
           "accurateCrosses": "7",
-          "totalCrosses": "19",
+          "totalCrosses": "20",
           "crossPct": "0.4",
           "totalLongBalls": "53",
           "accurateLongBalls": "34",
           "longballPct": "0.6",
-          "blockedShots": "4",
-          "effectiveTackles": "6",
-          "totalTackles": "14",
-          "tacklePct": "0.4",
+          "blockedShots": "5",
+          "effectiveTackles": "7",
+          "totalTackles": "15",
+          "tacklePct": "0.5",
           "interceptions": "9",
           "effectiveClearance": "18",
           "totalClearance": "18"
