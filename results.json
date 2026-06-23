@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T04:48:29.736Z",
+  "generatedAt": "2026-06-23T04:49:28.923Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -11176,18 +11176,18 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "86'",
+      "clock": "87'",
       "events": [
         {
           "min": "86'",
           "icon": "🔄",
-          "txt": "Substituição, 🇩🇿. Substituição de Zineddine Belaïd (Argélia) aos 86'",
+          "txt": "Substituição, 🇩🇿. Entra Zineddine Belaïd substituindo Amine Gouiri.",
           "sub": "🇩🇿"
         },
         {
           "min": "85'",
           "icon": "🔄",
-          "txt": "Substituição, 🇩🇿. Substituição de Jaouen Hadjam (Argélia) aos 85'",
+          "txt": "Substituição, 🇩🇿. Jaouen Hadjam entra em campo com Rayan Aït-Nouri.",
           "sub": "🇩🇿"
         },
         {
@@ -11197,7 +11197,7 @@
           "sub": "🇯🇴"
         },
         {
-          "min": "85'",
+          "min": "84'",
           "icon": "🔄",
           "txt": "Substituição, 🇯🇴. Entra Ali Azaizeh para o lugar de Mousa Al Tamari.",
           "sub": "🇯🇴"
@@ -11598,20 +11598,20 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "8",
+          "foulsCommitted": "9",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "1",
           "saves": "5",
-          "possessionPct": "25.3",
+          "possessionPct": "25.8",
           "totalShots": "8",
           "shotsOnTarget": "4",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "145",
-          "totalPasses": "198",
+          "accuratePasses": "148",
+          "totalPasses": "203",
           "passPct": "0.7",
           "accurateCrosses": "2",
           "totalCrosses": "4",
@@ -11621,7 +11621,7 @@
           "longballPct": "0.4",
           "blockedShots": "0",
           "effectiveTackles": "10",
-          "totalTackles": "24",
+          "totalTackles": "25",
           "tacklePct": "0.4",
           "interceptions": "2",
           "effectiveClearance": "31",
@@ -11634,7 +11634,7 @@
           "offsides": "0",
           "wonCorners": "8",
           "saves": "3",
-          "possessionPct": "74.7",
+          "possessionPct": "74.2",
           "totalShots": "16",
           "shotsOnTarget": "7",
           "shotPct": "0.4",
