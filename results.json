@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T01:04:27.768Z",
+  "generatedAt": "2026-06-23T01:05:28.055Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -10611,8 +10611,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "45'+4'",
+      "clock": "46'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "▶️",
+          "txt": "Começo do segundo tempo Noruega 1, Senegal 0.",
+          "sub": "🏳️"
+        },
         {
           "min": "45'",
           "icon": "🔄",
@@ -10954,7 +10960,7 @@
           "offsides": "0",
           "wonCorners": "4",
           "saves": "1",
-          "possessionPct": "50.3",
+          "possessionPct": "50.1",
           "totalShots": "8",
           "shotsOnTarget": "4",
           "shotPct": "0.5",
@@ -10984,14 +10990,14 @@
           "offsides": "2",
           "wonCorners": "1",
           "saves": "3",
-          "possessionPct": "49.7",
+          "possessionPct": "49.9",
           "totalShots": "6",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "193",
-          "totalPasses": "221",
+          "accuratePasses": "195",
+          "totalPasses": "223",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "8",
