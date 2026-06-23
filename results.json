@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T01:03:26.953Z",
+  "generatedAt": "2026-06-23T01:04:27.768Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -10613,6 +10613,12 @@
       "live": true,
       "clock": "45'+4'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇳🇴. Patrick Berg entra em campo e entra Fredrik Aursnes.",
+          "sub": "🇳🇴"
+        },
         {
           "min": "45'+5'",
           "icon": "⏱️",
