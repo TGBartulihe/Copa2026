@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T01:30:28.670Z",
+  "generatedAt": "2026-06-23T01:31:27.925Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -10611,19 +10611,43 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "71'",
+      "clock": "72'",
       "events": [
         {
-          "min": "68'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "min": "72'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇳. Substituição Pape Matar Sarr (Senegal) aos 72'",
           "sub": "🇸🇳"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇳🇴"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇸🇳"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇳🇴. Entra Andreas Schjelderup para o lugar de Antonio Nusa.",
+          "sub": "🇳🇴"
         },
         {
           "min": "68'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇳🇴"
+        },
+        {
+          "min": "68'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇸🇳"
         },
         {
           "min": "63'",
@@ -11075,7 +11099,7 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "309",
-          "totalPasses": "348",
+          "totalPasses": "349",
           "passPct": "0.9",
           "accurateCrosses": "5",
           "totalCrosses": "12",
