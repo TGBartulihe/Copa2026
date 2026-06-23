@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T21:53:26.524Z",
+  "generatedAt": "2026-06-23T21:54:15.149Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -12259,10 +12259,10 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "89'",
+      "clock": "90'",
       "events": [
         {
-          "min": "88'",
+          "min": "87'",
           "icon": "🔄",
           "txt": "Substituição, 🇬🇭. Entra Kojo Peprah Oppong substituindo Marvin Senaya.",
           "sub": "🇬🇭"
@@ -12716,23 +12716,23 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "12",
+          "foulsCommitted": "13",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "2",
           "wonCorners": "5",
           "saves": "0",
-          "possessionPct": "77.9",
+          "possessionPct": "78",
           "totalShots": "17",
           "shotsOnTarget": "3",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "550",
-          "totalPasses": "593",
+          "accuratePasses": "553",
+          "totalPasses": "596",
           "passPct": "0.9",
           "accurateCrosses": "6",
-          "totalCrosses": "23",
+          "totalCrosses": "24",
           "crossPct": "0.3",
           "totalLongBalls": "26",
           "accurateLongBalls": "14",
@@ -12752,7 +12752,7 @@
           "offsides": "2",
           "wonCorners": "2",
           "saves": "3",
-          "possessionPct": "22.1",
+          "possessionPct": "22",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
@@ -12772,8 +12772,8 @@
           "totalTackles": "20",
           "tacklePct": "0.8",
           "interceptions": "8",
-          "effectiveClearance": "33",
-          "totalClearance": "33"
+          "effectiveClearance": "34",
+          "totalClearance": "34"
         }
       }
     },
