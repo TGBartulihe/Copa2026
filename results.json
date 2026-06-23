@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T21:41:16.263Z",
+  "generatedAt": "2026-06-23T21:42:12.353Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -12259,20 +12259,8 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "77'",
+      "clock": "78'",
       "events": [
-        {
-          "min": "77'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
-          "sub": "🏳️"
-        },
-        {
-          "min": "77'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a uma lesão de Jerome Opoku (Gana).",
-          "sub": "🇬🇭"
-        },
         {
           "min": "74'",
           "icon": "🔄",
