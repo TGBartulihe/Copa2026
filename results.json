@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T00:44:32.190Z",
+  "generatedAt": "2026-06-23T00:45:30.052Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -10106,7 +10106,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "88'",
+      "clock": "89'",
       "events": [
         {
           "min": "83'",
@@ -10599,12 +10599,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "44'",
+      "clock": "45'",
       "events": [
         {
           "min": "43'",
           "icon": "⚽",
-          "txt": "Marcus Pedersen (Noruega) finalização com o pé direito do meio da área acertando no centro do gol.",
+          "txt": "Marcus Pedersen (Noruega) finalização com o pé direito do lado direito da área acertando no centro do gol.",
           "sub": "🇳🇴"
         },
         {
@@ -10930,7 +10930,7 @@
           "offsides": "0",
           "wonCorners": "4",
           "saves": "0",
-          "possessionPct": "54",
+          "possessionPct": "53.2",
           "totalShots": "6",
           "shotsOnTarget": "3",
           "shotPct": "0.5",
@@ -10960,14 +10960,14 @@
           "offsides": "2",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "46",
+          "possessionPct": "46.8",
           "totalShots": "5",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "153",
-          "totalPasses": "178",
+          "accuratePasses": "159",
+          "totalPasses": "184",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "5",
