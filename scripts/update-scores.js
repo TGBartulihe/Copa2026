@@ -1,4 +1,4 @@
-﻿// Copa 2026 Tracker — atualização automática de resultados
+// Copa 2026 Tracker — atualização automática de resultados
 // Roda via GitHub Actions a cada ~15 minutos. Autor: Thiago Bartulihe
 //
 // Busca a scoreboard da ESPN para uma janela de dias (passado + futuro próximo),
@@ -637,11 +637,26 @@ async function main(){
 
   let out;
   if (doFull){
-    // Execução completa — o resultado cobre toda a janela, não precisa de fundir
+    // Execução completa cobre a janela atual (-5 a +12 dias), mas precisa
+    // de FUNDIR com o histórico existente — sem isto, qualquer jogo com
+    // mais de 5 dias desaparecia do results.json a cada ciclo completo,
+    // mesmo já tendo resultado real confirmado antes. Resultados antigos
+    // têm de persistir indefinidamente, não só dentro da janela de busca.
+    const existing = loadJSON("results.json", { matches: [], knockout: [] });
+    const mergedMatches = {};
+    (existing.matches || []).forEach(m => { mergedMatches[`${m.home}|${m.away}`] = m; });
+    Object.entries(matches).forEach(([key, m]) => { mergedMatches[key] = m; });
+
+    let mergedKnockout = existing.knockout || [];
+    knockout.forEach(k => {
+      const idx = mergedKnockout.findIndex(e => e.round === k.round && e.home === k.home && e.away === k.away);
+      if (idx >= 0) mergedKnockout[idx] = k; else mergedKnockout.push(k);
+    });
+
     out = {
       generatedAt: new Date().toISOString(),
-      matches: Object.values(matches),
-      knockout
+      matches: Object.values(mergedMatches),
+      knockout: mergedKnockout
     };
   } else {
     // Execução rápida — só ontem/hoje/amanhã foram buscados agora. Funde com
