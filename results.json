@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T04:07:28.374Z",
+  "generatedAt": "2026-06-23T04:08:31.214Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -11176,12 +11176,24 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "45'+5'",
+      "clock": "46'",
       "events": [
         {
           "min": "45'",
+          "icon": "▶️",
+          "txt": "Início do segundo tempo Jordânia 1, Argélia 0.",
+          "sub": "🏳️"
+        },
+        {
+          "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, 🇩🇿. Substituição de Nabil Bentaleb (Argélia) aos 45'",
+          "txt": "Substituição, 🇩🇿. Nadhir Benbouali entra em campo Hicham Boudaoui.",
+          "sub": "🇩🇿"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇩🇿. Nabil Bentaleb entra em campo Ramiz Zerrouki.",
           "sub": "🇩🇿"
         },
         {
