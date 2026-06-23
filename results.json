@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T00:12:29.943Z",
+  "generatedAt": "2026-06-23T00:13:27.783Z",
   "matches": [
     {
       "home": "Áustria 🇦🇹",
@@ -12945,7 +12945,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "56'",
+      "clock": "57'",
       "events": [
         {
           "min": "54'",
@@ -13387,6 +13387,12 @@
       "clock": "13'",
       "events": [
         {
+          "min": "12'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇳🇴. Marcus Pedersen substitui Julian Ryerson devido a uma lesão.",
+          "sub": "🇳🇴"
+        },
+        {
           "min": "",
           "icon": "🏁",
           "txt": "Começa o primeiro tempo.",
@@ -13679,21 +13685,21 @@
           "offsides": "0",
           "wonCorners": "4",
           "saves": "0",
-          "possessionPct": "53.3",
+          "possessionPct": "53.9",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "29",
-          "totalPasses": "36",
+          "totalPasses": "37",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "4",
           "crossPct": "0.3",
-          "totalLongBalls": "6",
+          "totalLongBalls": "7",
           "accurateLongBalls": "3",
-          "longballPct": "0.5",
+          "longballPct": "0.4",
           "blockedShots": "0",
           "effectiveTackles": "1",
           "totalTackles": "1",
@@ -13706,10 +13712,10 @@
           "foulsCommitted": "1",
           "yellowCards": "0",
           "redCards": "0",
-          "offsides": "1",
+          "offsides": "2",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "46.7",
+          "possessionPct": "46.1",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
@@ -13725,12 +13731,12 @@
           "accurateLongBalls": "5",
           "longballPct": "0.8",
           "blockedShots": "1",
-          "effectiveTackles": "3",
-          "totalTackles": "3",
+          "effectiveTackles": "2",
+          "totalTackles": "2",
           "tacklePct": "1.0",
           "interceptions": "0",
-          "effectiveClearance": "6",
-          "totalClearance": "6"
+          "effectiveClearance": "7",
+          "totalClearance": "7"
         }
       }
     },
