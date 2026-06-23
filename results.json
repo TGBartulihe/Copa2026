@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T01:55:29.103Z",
+  "generatedAt": "2026-06-23T01:56:27.924Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -10611,8 +10611,20 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "90'+6'",
+      "clock": "90'+7'",
       "events": [
+        {
+          "min": "90'+7'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇸🇳"
+        },
+        {
+          "min": "90'+7'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇳🇴"
+        },
         {
           "min": "90'+3'",
           "icon": "⚽",
@@ -11080,7 +11092,7 @@
           "offsides": "0",
           "wonCorners": "5",
           "saves": "2",
-          "possessionPct": "42.6",
+          "possessionPct": "42.5",
           "totalShots": "13",
           "shotsOnTarget": "7",
           "shotPct": "0.5",
@@ -11100,17 +11112,17 @@
           "totalTackles": "12",
           "tacklePct": "0.9",
           "interceptions": "8",
-          "effectiveClearance": "24",
-          "totalClearance": "24"
+          "effectiveClearance": "23",
+          "totalClearance": "23"
         },
         "away": {
           "foulsCommitted": "4",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "4",
-          "wonCorners": "2",
+          "wonCorners": "3",
           "saves": "3",
-          "possessionPct": "57.4",
+          "possessionPct": "57.5",
           "totalShots": "14",
           "shotsOnTarget": "4",
           "shotPct": "0.3",
@@ -11120,7 +11132,7 @@
           "totalPasses": "469",
           "passPct": "0.9",
           "accurateCrosses": "7",
-          "totalCrosses": "21",
+          "totalCrosses": "22",
           "crossPct": "0.3",
           "totalLongBalls": "53",
           "accurateLongBalls": "34",
@@ -11129,7 +11141,7 @@
           "effectiveTackles": "7",
           "totalTackles": "15",
           "tacklePct": "0.5",
-          "interceptions": "9",
+          "interceptions": "10",
           "effectiveClearance": "18",
           "totalClearance": "18"
         }
