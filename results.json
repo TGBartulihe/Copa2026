@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T22:00:13.323Z",
+  "generatedAt": "2026-06-23T22:01:25.532Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -12257,14 +12257,20 @@
       "iso": "2026-06-23T20:00Z",
       "sh": 0,
       "sa": 0,
-      "done": false,
-      "live": true,
-      "clock": "90'+6'",
+      "done": true,
+      "live": false,
+      "clock": "",
       "events": [
+        {
+          "min": "90'+7'",
+          "icon": "•",
+          "txt": "jogador",
+          "sub": "🏳️"
+        },
         {
           "min": "90'+5'",
           "icon": "🔄",
-          "txt": "Substituição, 🇬🇭. Substituição de Baba Rahman (Gana) aos 90'+5'",
+          "txt": "Substituição, 🇬🇭. Abdul Rahman Baba substitui o Príncipe Adu.",
           "sub": "🇬🇭"
         },
         {
@@ -12728,19 +12734,19 @@
           "offsides": "2",
           "wonCorners": "9",
           "saves": "0",
-          "possessionPct": "78.6",
+          "possessionPct": "78.7",
           "totalShots": "19",
           "shotsOnTarget": "4",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "581",
-          "totalPasses": "627",
+          "accuratePasses": "585",
+          "totalPasses": "632",
           "passPct": "0.9",
           "accurateCrosses": "7",
           "totalCrosses": "30",
           "crossPct": "0.2",
-          "totalLongBalls": "26",
+          "totalLongBalls": "27",
           "accurateLongBalls": "14",
           "longballPct": "0.5",
           "blockedShots": "6",
@@ -12758,7 +12764,7 @@
           "offsides": "2",
           "wonCorners": "2",
           "saves": "3",
-          "possessionPct": "21.4",
+          "possessionPct": "21.3",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
@@ -12778,8 +12784,8 @@
           "totalTackles": "21",
           "tacklePct": "0.8",
           "interceptions": "8",
-          "effectiveClearance": "36",
-          "totalClearance": "36"
+          "effectiveClearance": "38",
+          "totalClearance": "38"
         }
       }
     },
