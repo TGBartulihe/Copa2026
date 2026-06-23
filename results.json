@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T01:43:28.539Z",
+  "generatedAt": "2026-06-23T01:44:30.132Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -10611,18 +10611,18 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "83'",
+      "clock": "85'",
       "events": [
         {
           "min": "84'",
           "icon": "🔄",
-          "txt": "Substituição, 🇳🇴. Substituição de Oscar Bobb (Noruega) aos 84'",
+          "txt": "Substituição, 🇳🇴. Leo Østigård entra em campo com Torbjørn Heggem devido a uma lesão.",
           "sub": "🇳🇴"
         },
         {
           "min": "84'",
           "icon": "🔄",
-          "txt": "Substituição, 🇳🇴. Leo Østigard (Noruega) Substituição aos 84'",
+          "txt": "Substituição, 🇳🇴. Oscar Bobb substitui Alexander Sørloth.",
           "sub": "🇳🇴"
         },
         {
@@ -11080,7 +11080,7 @@
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "257",
+          "accuratePasses": "258",
           "totalPasses": "318",
           "passPct": "0.8",
           "accurateCrosses": "2",
@@ -11105,13 +11105,13 @@
           "wonCorners": "2",
           "saves": "3",
           "possessionPct": "56",
-          "totalShots": "11",
+          "totalShots": "12",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "353",
-          "totalPasses": "405",
+          "totalPasses": "404",
           "passPct": "0.9",
           "accurateCrosses": "7",
           "totalCrosses": "16",
@@ -11119,9 +11119,9 @@
           "totalLongBalls": "49",
           "accurateLongBalls": "33",
           "longballPct": "0.7",
-          "blockedShots": "3",
-          "effectiveTackles": "5",
-          "totalTackles": "13",
+          "blockedShots": "4",
+          "effectiveTackles": "6",
+          "totalTackles": "14",
           "tacklePct": "0.4",
           "interceptions": "7",
           "effectiveClearance": "15",
