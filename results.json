@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T21:39:13.524Z",
+  "generatedAt": "2026-06-23T21:40:15.267Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -12205,9 +12205,9 @@
           "accurateCrosses": "5",
           "totalCrosses": "22",
           "crossPct": "0.2",
-          "totalLongBalls": "40",
+          "totalLongBalls": "41",
           "accurateLongBalls": "22",
-          "longballPct": "0.6",
+          "longballPct": "0.5",
           "blockedShots": "3",
           "effectiveTackles": "11",
           "totalTackles": "14",
@@ -12259,7 +12259,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "75'",
+      "clock": "76'",
       "events": [
         {
           "min": "74'",
@@ -12270,7 +12270,7 @@
         {
           "min": "73'",
           "icon": "🔄",
-          "txt": "Substituição, 🏳️. Substituição de Morgan Rogers (Inglaterra) aos 73'",
+          "txt": "Substituição, 🏳️. Morgan Rogers substitui Jude Bellingham.",
           "sub": "🏳️"
         },
         {
@@ -12708,19 +12708,19 @@
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "1",
-          "wonCorners": "4",
+          "wonCorners": "5",
           "saves": "0",
-          "possessionPct": "77.1",
+          "possessionPct": "77.4",
           "totalShots": "14",
           "shotsOnTarget": "2",
           "shotPct": "0.1",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "479",
-          "totalPasses": "513",
+          "accuratePasses": "486",
+          "totalPasses": "520",
           "passPct": "0.9",
           "accurateCrosses": "4",
-          "totalCrosses": "17",
+          "totalCrosses": "18",
           "crossPct": "0.2",
           "totalLongBalls": "21",
           "accurateLongBalls": "11",
@@ -12740,7 +12740,7 @@
           "offsides": "1",
           "wonCorners": "2",
           "saves": "2",
-          "possessionPct": "22.9",
+          "possessionPct": "22.6",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
