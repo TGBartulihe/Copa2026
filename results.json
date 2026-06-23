@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T16:43:18.041Z",
+  "generatedAt": "2026-06-23T18:34:17.992Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -11690,12 +11690,509 @@
       "brTime": "14h",
       "venue": "NRG Stadium",
       "iso": "2026-06-23T17:00Z",
-      "sh": null,
-      "sa": null,
+      "sh": 4,
+      "sa": 0,
       "done": false,
-      "live": false,
-      "clock": "",
-      "events": []
+      "live": true,
+      "clock": "70'",
+      "events": [
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇵🇹"
+        },
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "68'",
+          "icon": "🟨",
+          "txt": "Renato Veiga (Portugal) recebe cartão amarelo por uma entrada perigosa.",
+          "sub": "🇵🇹"
+        },
+        {
+          "min": "64'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇹. Trincão entra no lugar de João Félix.",
+          "sub": "🇵🇹"
+        },
+        {
+          "min": "60'",
+          "icon": "⚽ OG",
+          "txt": "Gol contra de Abduvokhid Nematov, Uzbequistão. Portugal 4, Uzbequistão 0.",
+          "sub": "🇵🇹"
+        },
+        {
+          "min": "45'",
+          "icon": "▶️",
+          "txt": "Começo do segundo tempo Portugal 3, Uzbequistão 0.",
+          "sub": "🏳️"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇹. Francisco Conceição substitui Pedro Neto.",
+          "sub": "🇵🇹"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇺🇿. Entra em campo Khojiakbar Alijonov substituindo Sherzod Nasrullaev.",
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇹. Nélson Semedo substitui João Cancelo.",
+          "sub": "🇵🇹"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇺🇿. Entra Akmal Mozgovoy substituindo Odiljon Khamrobekov.",
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "45'+7'",
+          "icon": "⏱️",
+          "txt": "Fim do primeiro tempo, Portugal 3, Uzbequistão 0.",
+          "sub": "🏳️"
+        },
+        {
+          "min": "45'+2'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "45'+2'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇵🇹"
+        },
+        {
+          "min": "45'+2'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "45'+2'",
+          "icon": "⏸️",
+          "txt": "Partida atrasada (Portugal).",
+          "sub": "🇵🇹"
+        },
+        {
+          "min": "39'",
+          "icon": "⚽",
+          "txt": "Cristiano Ronaldo (Portugal) finalização com o pé direito do lado direito da área no Escanteio inferior esquerdo. Assistência de Bruno Fernandes com um passe em profundidade após um contra-ataque.",
+          "sub": "🇵🇹"
+        },
+        {
+          "min": "31'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "30'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "25'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇵🇹"
+        },
+        {
+          "min": "25'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇵🇹"
+        },
+        {
+          "min": "17'",
+          "icon": "⚽",
+          "txt": "Nuno Mendes (Portugal) Gol de falta com um finalização com o pé esquerdo no Escanteio inferior esquerdo.",
+          "sub": "🇵🇹"
+        },
+        {
+          "min": "14'",
+          "icon": "🟨",
+          "txt": "Odiljon Khamrobekov (Uzbequistão) recebe cartão amarelo por uma entrada perigosa.",
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "6'",
+          "icon": "⚽",
+          "txt": "Cristiano Ronaldo (Portugal) finalização com o pé direito do meio da área no Escanteio inferior direito. Assistência de João Cancelo com um cruzamento.",
+          "sub": "🇵🇹"
+        },
+        {
+          "min": "",
+          "icon": "🏁",
+          "txt": "Começa o primeiro tempo.",
+          "sub": "🏳️"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Diogo Costa",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Renato Veiga",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Rúben Dias",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Nuno Mendes",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "João Cancelo",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Vitinha ",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "João Neves",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Bruno Fernandes",
+              "pos": "AM",
+              "row": 2.5
+            },
+            {
+              "name": "João Félix",
+              "pos": "AM-L",
+              "row": 2.5
+            },
+            {
+              "name": "Pedro Neto",
+              "pos": "AM-R",
+              "row": 2.5
+            },
+            {
+              "name": "Cristiano Ronaldo",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "José Sá",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nélson Semedo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Bernardo Silva",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Francisco Trincão",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Rúben Neves",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Gonçalo Inácio",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Rafael Leão",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Rui Silva",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Samú Costa",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Diogo Dalot",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Matheus Nunes",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Gonçalo Ramos",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Gonçalo Guedes",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Francisco Conceição",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Tomás Araújo",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-2-3-1",
+          "dotColor": "#da291c"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Abduvohid Nematov",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Abdulla Abdullaev",
+              "pos": "CD",
+              "row": 1
+            },
+            {
+              "name": "Rustam Ashurmatov",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Abdukodir Khusanov",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Otabek Shukurov",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Odiljon Xamrobekov",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Sherzod Nasrullaev",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Behruzjon Karimov",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Eldor Shomurodov",
+              "pos": "F",
+              "row": 3
+            },
+            {
+              "name": "Abbosbek Fayzullaev",
+              "pos": "CF-L",
+              "row": 3
+            },
+            {
+              "name": "Azizjon Ganiev",
+              "pos": "CF-R",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Oston Urunov",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Khojiakbar Alijonov",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Azizbek Amonov",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Igor Sergeev",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Botirali Ergashev",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ruslanbek Jiyanov",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Dostonbek Khamdamov",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Avazbek Ulmasaliyev",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Akmal Mozgovoy",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Umar Eshmurodov",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jamshid Iskanderov",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jakhongir Urozov",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Utkir Yusupov",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Farrukh Sayfiev",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Sherzod Esanov",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "3-4-2-1",
+          "dotColor": "#0072CE"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "11",
+          "yellowCards": "1",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "2",
+          "saves": "2",
+          "possessionPct": "65.9",
+          "totalShots": "12",
+          "shotsOnTarget": "6",
+          "shotPct": "0.5",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "394",
+          "totalPasses": "442",
+          "passPct": "0.9",
+          "accurateCrosses": "5",
+          "totalCrosses": "18",
+          "crossPct": "0.3",
+          "totalLongBalls": "29",
+          "accurateLongBalls": "12",
+          "longballPct": "0.4",
+          "blockedShots": "2",
+          "effectiveTackles": "7",
+          "totalTackles": "9",
+          "tacklePct": "0.8",
+          "interceptions": "2",
+          "effectiveClearance": "14",
+          "totalClearance": "14"
+        },
+        "away": {
+          "foulsCommitted": "10",
+          "yellowCards": "1",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "2",
+          "saves": "2",
+          "possessionPct": "34.1",
+          "totalShots": "6",
+          "shotsOnTarget": "2",
+          "shotPct": "0.3",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "187",
+          "totalPasses": "234",
+          "passPct": "0.8",
+          "accurateCrosses": "0",
+          "totalCrosses": "5",
+          "crossPct": "0.0",
+          "totalLongBalls": "19",
+          "accurateLongBalls": "5",
+          "longballPct": "0.3",
+          "blockedShots": "3",
+          "effectiveTackles": "11",
+          "totalTackles": "14",
+          "tacklePct": "0.8",
+          "interceptions": "9",
+          "effectiveClearance": "24",
+          "totalClearance": "24"
+        }
+      }
     },
     {
       "home": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
