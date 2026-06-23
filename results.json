@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T04:39:28.964Z",
+  "generatedAt": "2026-06-23T04:40:28.618Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -11182,12 +11182,18 @@
           "min": "77'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
+          "sub": "🇯🇴"
+        },
+        {
+          "min": "77'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇩🇿"
         },
         {
           "min": "76'",
           "icon": "🔄",
-          "txt": "Substituição, 🇯🇴. Odeh Fakhoury (Jordânia) Substituição aos 76'",
+          "txt": "Substituição, 🇯🇴. Entra Odeh Fakhoury para o lugar de Mahmoud Al Mardi.",
           "sub": "🇯🇴"
         },
         {
@@ -11200,6 +11206,12 @@
           "min": "74'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
+          "sub": "🇯🇴"
+        },
+        {
+          "min": "74'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
           "sub": "🇩🇿"
         },
         {
@@ -11556,13 +11568,13 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "7",
+          "foulsCommitted": "8",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "1",
           "saves": "5",
-          "possessionPct": "25.7",
+          "possessionPct": "25.6",
           "totalShots": "8",
           "shotsOnTarget": "4",
           "shotPct": "0.5",
@@ -11592,14 +11604,14 @@
           "offsides": "0",
           "wonCorners": "6",
           "saves": "3",
-          "possessionPct": "74.3",
+          "possessionPct": "74.4",
           "totalShots": "12",
           "shotsOnTarget": "6",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "487",
-          "totalPasses": "547",
+          "accuratePasses": "488",
+          "totalPasses": "548",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "17",
