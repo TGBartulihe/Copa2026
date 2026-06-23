@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T23:01:17.607Z",
+  "generatedAt": "2026-06-23T23:02:12.231Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -12800,7 +12800,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "1'",
+      "clock": "2'",
       "events": [
         {
           "min": "",
@@ -12833,6 +12833,16 @@
               "row": 1
             },
             {
+              "name": "César Blackman",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Amir Murillo",
+              "pos": "RB",
+              "row": 1
+            },
+            {
               "name": "Édgar Yoel Bárcenas",
               "pos": "CM-L",
               "row": 2
@@ -12843,28 +12853,18 @@
               "row": 2
             },
             {
-              "name": "César Blackman",
+              "name": "José Luis Rodríguez",
               "pos": "LM",
               "row": 2
             },
             {
-              "name": "Amir Murillo",
+              "name": "Cristian Martínez",
               "pos": "RM",
               "row": 2
             },
             {
               "name": "José Fajardo",
               "pos": "F",
-              "row": 3
-            },
-            {
-              "name": "José Luis Rodríguez",
-              "pos": "CF-L",
-              "row": 3
-            },
-            {
-              "name": "Cristian Martínez",
-              "pos": "CF-R",
               "row": 3
             }
           ],
@@ -12945,7 +12945,7 @@
               "row": 3
             }
           ],
-          "formation": "3-4-3",
+          "formation": "5-4-1",
           "dotColor": "#d21034"
         },
         "away": {
@@ -13126,17 +13126,17 @@
           "wonCorners": "0",
           "saves": "0",
           "possessionPct": "100",
-          "totalShots": "0",
+          "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "3",
-          "totalPasses": "3",
+          "accuratePasses": "20",
+          "totalPasses": "20",
           "passPct": "1.0",
-          "accurateCrosses": "0",
-          "totalCrosses": "0",
-          "crossPct": "0.0",
+          "accurateCrosses": "1",
+          "totalCrosses": "1",
+          "crossPct": "1.0",
           "totalLongBalls": "0",
           "accurateLongBalls": "0",
           "longballPct": "0.0",
