@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T03:01:29.033Z",
+  "generatedAt": "2026-06-23T03:02:29.521Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -11176,12 +11176,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "1'",
+      "clock": "2'",
       "events": [
         {
           "min": "",
           "icon": "🏁",
-          "txt": "Início de jogo",
+          "txt": "Começa o primeiro tempo.",
           "sub": "🏳️"
         }
       ],
@@ -11466,19 +11466,19 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "0",
-          "totalShots": "0",
+          "possessionPct": "100",
+          "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "0",
-          "totalPasses": "0",
-          "passPct": "0.0",
-          "accurateCrosses": "0",
-          "totalCrosses": "0",
-          "crossPct": "0.0",
-          "totalLongBalls": "0",
+          "accuratePasses": "1",
+          "totalPasses": "2",
+          "passPct": "0.5",
+          "accurateCrosses": "1",
+          "totalCrosses": "1",
+          "crossPct": "1.0",
+          "totalLongBalls": "1",
           "accurateLongBalls": "0",
           "longballPct": "0.0",
           "blockedShots": "0",
@@ -11490,7 +11490,7 @@
           "totalClearance": "0"
         },
         "away": {
-          "foulsCommitted": "0",
+          "foulsCommitted": "1",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
@@ -11516,8 +11516,8 @@
           "totalTackles": "0",
           "tacklePct": "0.0",
           "interceptions": "0",
-          "effectiveClearance": "0",
-          "totalClearance": "0"
+          "effectiveClearance": "1",
+          "totalClearance": "1"
         }
       }
     },
