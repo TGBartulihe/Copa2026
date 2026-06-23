@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T21:48:14.039Z",
+  "generatedAt": "2026-06-23T21:49:12.767Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -12259,12 +12259,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "84'",
+      "clock": "85'",
       "events": [
         {
           "min": "83'",
           "icon": "🔄",
-          "txt": "Substituição, 🏳️. Substituição de Marcus Rashford (Inglaterra) aos 83'",
+          "txt": "Substituição, 🏳️. Entra Marcus Rashford para o lugar de Noni Madueke.",
           "sub": "🏳️"
         },
         {
@@ -12710,23 +12710,23 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "11",
+          "foulsCommitted": "12",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "2",
           "wonCorners": "5",
           "saves": "0",
-          "possessionPct": "77.6",
+          "possessionPct": "77.8",
           "totalShots": "14",
           "shotsOnTarget": "2",
           "shotPct": "0.1",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "512",
-          "totalPasses": "551",
+          "accuratePasses": "523",
+          "totalPasses": "563",
           "passPct": "0.9",
-          "accurateCrosses": "4",
-          "totalCrosses": "20",
+          "accurateCrosses": "5",
+          "totalCrosses": "21",
           "crossPct": "0.2",
           "totalLongBalls": "23",
           "accurateLongBalls": "12",
@@ -12736,38 +12736,38 @@
           "totalTackles": "14",
           "tacklePct": "0.5",
           "interceptions": "1",
-          "effectiveClearance": "4",
-          "totalClearance": "4"
+          "effectiveClearance": "5",
+          "totalClearance": "5"
         },
         "away": {
-          "foulsCommitted": "22",
+          "foulsCommitted": "23",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "2",
           "wonCorners": "2",
           "saves": "2",
-          "possessionPct": "22.4",
+          "possessionPct": "22.2",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "124",
-          "totalPasses": "159",
+          "totalPasses": "161",
           "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "5",
           "crossPct": "0.0",
-          "totalLongBalls": "47",
+          "totalLongBalls": "49",
           "accurateLongBalls": "22",
-          "longballPct": "0.5",
+          "longballPct": "0.4",
           "blockedShots": "1",
           "effectiveTackles": "15",
           "totalTackles": "19",
           "tacklePct": "0.8",
           "interceptions": "8",
-          "effectiveClearance": "29",
-          "totalClearance": "29"
+          "effectiveClearance": "31",
+          "totalClearance": "31"
         }
       }
     },
