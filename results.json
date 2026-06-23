@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T04:46:28.432Z",
+  "generatedAt": "2026-06-23T04:47:28.032Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -11176,8 +11176,20 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "83'",
+      "clock": "84'",
       "events": [
+        {
+          "min": "85'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇯🇴. Mohammad Abu Hasheesh (Jordânia) Substituição aos 85'",
+          "sub": "🇯🇴"
+        },
+        {
+          "min": "85'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇯🇴. Substituição por Ali Azaizeh (Jordânia) aos 85'",
+          "sub": "🇯🇴"
+        },
         {
           "min": "82'",
           "icon": "⚽",
