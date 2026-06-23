@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T23:06:14.906Z",
+  "generatedAt": "2026-06-23T23:07:12.710Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -12800,7 +12800,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "6'",
+      "clock": "7'",
       "events": [
         {
           "min": "",
@@ -13095,19 +13095,19 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "36.4",
+          "possessionPct": "37.1",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "16",
-          "totalPasses": "19",
+          "accuratePasses": "17",
+          "totalPasses": "22",
           "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "1",
           "crossPct": "0.0",
-          "totalLongBalls": "3",
+          "totalLongBalls": "4",
           "accurateLongBalls": "0",
           "longballPct": "0.0",
           "blockedShots": "1",
@@ -13125,14 +13125,14 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "63.6",
+          "possessionPct": "62.9",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "31",
-          "totalPasses": "34",
+          "accuratePasses": "34",
+          "totalPasses": "38",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "1",
@@ -13142,11 +13142,11 @@
           "longballPct": "0.5",
           "blockedShots": "0",
           "effectiveTackles": "0",
-          "totalTackles": "1",
+          "totalTackles": "2",
           "tacklePct": "0.0",
           "interceptions": "0",
-          "effectiveClearance": "2",
-          "totalClearance": "2"
+          "effectiveClearance": "3",
+          "totalClearance": "3"
         }
       }
     },
