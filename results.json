@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T01:08:29.447Z",
+  "generatedAt": "2026-06-23T01:09:29.361Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -10611,12 +10611,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "49'",
+      "clock": "50'",
       "events": [
         {
           "min": "48'",
           "icon": "⚽",
-          "txt": "Erling Haaland (Noruega) remate com o pé esquerdo no coração da área depois de um contra-ataque.",
+          "txt": "Erling Haaland (Noruega) finalização com o pé esquerdo do meio da área ao ângulo superior direito. Assistência de Martin Ødegaard depois de um contra-ataque.",
           "sub": "🇳🇴"
         },
         {
@@ -10966,7 +10966,7 @@
           "offsides": "0",
           "wonCorners": "4",
           "saves": "1",
-          "possessionPct": "48.3",
+          "possessionPct": "47.9",
           "totalShots": "9",
           "shotsOnTarget": "5",
           "shotPct": "0.6",
@@ -10982,8 +10982,8 @@
           "accurateLongBalls": "14",
           "longballPct": "0.6",
           "blockedShots": "1",
-          "effectiveTackles": "9",
-          "totalTackles": "10",
+          "effectiveTackles": "10",
+          "totalTackles": "11",
           "tacklePct": "0.9",
           "interceptions": "6",
           "effectiveClearance": "11",
@@ -10996,14 +10996,14 @@
           "offsides": "2",
           "wonCorners": "1",
           "saves": "3",
-          "possessionPct": "51.7",
+          "possessionPct": "52.1",
           "totalShots": "6",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "217",
-          "totalPasses": "247",
+          "accuratePasses": "221",
+          "totalPasses": "251",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "9",
