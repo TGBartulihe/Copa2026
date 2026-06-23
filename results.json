@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T00:35:27.383Z",
+  "generatedAt": "2026-06-23T00:36:29.976Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -10106,7 +10106,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "80'",
+      "clock": "81'",
       "events": [
         {
           "min": "69'",
@@ -10521,25 +10521,25 @@
           "offsides": "0",
           "wonCorners": "3",
           "saves": "0",
-          "possessionPct": "55.3",
-          "totalShots": "16",
+          "possessionPct": "56.4",
+          "totalShots": "17",
           "shotsOnTarget": "4",
-          "shotPct": "0.3",
+          "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "450",
-          "totalPasses": "502",
+          "accuratePasses": "477",
+          "totalPasses": "530",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "13",
           "crossPct": "0.2",
-          "totalLongBalls": "26",
-          "accurateLongBalls": "14",
-          "longballPct": "0.5",
+          "totalLongBalls": "27",
+          "accurateLongBalls": "15",
+          "longballPct": "0.6",
           "blockedShots": "4",
-          "effectiveTackles": "7",
-          "totalTackles": "11",
-          "tacklePct": "0.6",
+          "effectiveTackles": "8",
+          "totalTackles": "12",
+          "tacklePct": "0.7",
           "interceptions": "5",
           "effectiveClearance": "9",
           "totalClearance": "9"
@@ -10551,14 +10551,14 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "44.7",
+          "possessionPct": "43.6",
           "totalShots": "4",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "345",
-          "totalPasses": "407",
+          "accuratePasses": "348",
+          "totalPasses": "411",
           "passPct": "0.8",
           "accurateCrosses": "4",
           "totalCrosses": "9",
@@ -10571,8 +10571,8 @@
           "totalTackles": "17",
           "tacklePct": "0.5",
           "interceptions": "9",
-          "effectiveClearance": "21",
-          "totalClearance": "21"
+          "effectiveClearance": "22",
+          "totalClearance": "22"
         }
       }
     },
@@ -10587,7 +10587,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "35'",
+      "clock": "36'",
       "events": [
         {
           "min": "26'",
