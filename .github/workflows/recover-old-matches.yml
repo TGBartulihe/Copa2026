@@ -1,0 +1,52 @@
+name: Recuperar Jogos Antigos Perdidos (17-18/06)
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Buscar e fundir jogos de 17-18/06 perdidos
+        run: |
+          node -e "
+          const fs = require('fs');
+
+          async function fetchDay(dateStr){
+            const url = 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=' + dateStr;
+            const res = await fetch(url);
+            const data = await res.json();
+            return data.events || [];
+          }
+
+          async function main(){
+            const dates = ['20260617', '20260618'];
+            const existing = JSON.parse(fs.readFileSync('results.json', 'utf8'));
+            const byKey = {};
+            existing.matches.forEach(m => { byKey[m.home + '|' + m.away] = m; });
+
+            for (const d of dates){
+              const events = await fetchDay(d);
+              console.log('Data ' + d + ': ' + events.length + ' jogo(s) encontrado(s) na ESPN.');
+              events.forEach(ev => {
+                const comp = ev.competitions?.[0];
+                const home = comp?.competitors?.find(c=>c.homeAway==='home');
+                const away = comp?.competitors?.find(c=>c.homeAway==='away');
+                console.log('  - ' + home?.team?.displayName + ' ' + home?.score + ' x ' + away?.score + ' ' + away?.team?.displayName + ' (status: ' + comp?.status?.type?.name + ')');
+              });
+            }
+
+            console.log('');
+            console.log('Jogos ATUAIS no results.json para essas datas (antes da recuperação):');
+            existing.matches.filter(m => m.date === '17/06' || m.date === '18/06').forEach(m => {
+              console.log('  - ' + m.home + ' x ' + m.away + ' (done: ' + m.done + ', sh: ' + m.sh + ', sa: ' + m.sa + ')');
+            });
+          }
+          main().catch(e=>{console.error(e);process.exit(1);});
+          "
