@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T03:43:30.040Z",
+  "generatedAt": "2026-06-23T03:44:27.184Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -11176,8 +11176,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "43'",
+      "clock": "44'",
       "events": [
+        {
+          "min": "44'",
+          "icon": "🟨",
+          "txt": "Ramiz Zerrouki (Argélia) Cartão Amarelo aos 44'",
+          "sub": "🇩🇿"
+        },
         {
           "min": "36'",
           "icon": "⚽",
