@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-23T04:27:27.318Z",
+  "generatedAt": "2026-06-23T04:28:29.063Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -11181,7 +11181,7 @@
         {
           "min": "64'",
           "icon": "🟨",
-          "txt": "Husam Abu Dahab (Jordânia) Cartão Amarelo aos 64'",
+          "txt": "Husam Abu Dahab (Jordânia) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇯🇴"
         },
         {
@@ -11526,13 +11526,13 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "5",
-          "yellowCards": "0",
+          "foulsCommitted": "6",
+          "yellowCards": "1",
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "1",
           "saves": "4",
-          "possessionPct": "26",
+          "possessionPct": "25.9",
           "totalShots": "7",
           "shotsOnTarget": "3",
           "shotPct": "0.4",
@@ -11562,20 +11562,20 @@
           "offsides": "0",
           "wonCorners": "4",
           "saves": "2",
-          "possessionPct": "74",
+          "possessionPct": "74.1",
           "totalShots": "9",
           "shotsOnTarget": "4",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "445",
-          "totalPasses": "501",
+          "accuratePasses": "446",
+          "totalPasses": "502",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "10",
           "crossPct": "0.1",
-          "totalLongBalls": "31",
-          "accurateLongBalls": "16",
+          "totalLongBalls": "30",
+          "accurateLongBalls": "15",
           "longballPct": "0.5",
           "blockedShots": "2",
           "effectiveTackles": "16",
