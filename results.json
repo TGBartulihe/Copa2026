@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T03:42:11.944Z",
+  "generatedAt": "2026-06-24T03:43:17.388Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13299,8 +13299,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "81'",
+      "clock": "82'",
       "events": [
+        {
+          "min": "82'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇩. Substituição de Nathanaël Mbuku (RD Congo) aos 82'",
+          "sub": "🇨🇩"
+        },
         {
           "min": "78'",
           "icon": "🔄",
