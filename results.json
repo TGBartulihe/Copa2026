@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T23:36:16.425Z",
+  "generatedAt": "2026-06-24T23:37:11.973Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -14958,7 +14958,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "73'",
+      "clock": "74'",
       "events": [
         {
           "min": "71'",
@@ -15427,14 +15427,14 @@
           "offsides": "5",
           "wonCorners": "6",
           "saves": "0",
-          "possessionPct": "71",
+          "possessionPct": "70.7",
           "totalShots": "14",
           "shotsOnTarget": "8",
           "shotPct": "0.6",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "411",
-          "totalPasses": "460",
+          "accuratePasses": "413",
+          "totalPasses": "462",
           "passPct": "0.9",
           "accurateCrosses": "5",
           "totalCrosses": "18",
@@ -15451,20 +15451,20 @@
           "totalClearance": "9"
         },
         "away": {
-          "foulsCommitted": "14",
+          "foulsCommitted": "15",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "0",
           "saves": "7",
-          "possessionPct": "29",
+          "possessionPct": "29.3",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "154",
-          "totalPasses": "193",
+          "accuratePasses": "158",
+          "totalPasses": "197",
           "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "1",
@@ -15493,24 +15493,18 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "71'",
+      "clock": "72'",
       "events": [
         {
           "min": "71'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
-          "sub": "🇧🇷"
+          "sub": "🏳️"
         },
         {
           "min": "71'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🏳️"
-        },
-        {
-          "min": "68'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇧🇷"
         },
         {
@@ -15518,6 +15512,12 @@
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🏳️"
+        },
+        {
+          "min": "68'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇧🇷"
         },
         {
           "min": "66'",
