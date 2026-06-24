@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T23:54:12.966Z",
+  "generatedAt": "2026-06-24T23:55:13.035Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -14958,7 +14958,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "90'+1'",
+      "clock": "90'+2'",
       "events": [
         {
           "min": "89'",
@@ -15547,8 +15547,14 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "88'",
+      "clock": "89'",
       "events": [
+        {
+          "min": "89'",
+          "icon": "🟨",
+          "txt": "Ryan Christie (Escócia) Cartão Amarelo aos 89'",
+          "sub": "🏳️"
+        },
         {
           "min": "82'",
           "icon": "🟨",
@@ -16017,8 +16023,8 @@
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "444",
-          "totalPasses": "491",
+          "accuratePasses": "445",
+          "totalPasses": "492",
           "passPct": "0.9",
           "accurateCrosses": "8",
           "totalCrosses": "20",
@@ -16040,7 +16046,7 @@
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "7",
-          "saves": "3",
+          "saves": "4",
           "possessionPct": "52.5",
           "totalShots": "19",
           "shotsOnTarget": "8",
