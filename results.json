@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T21:00:14.318Z",
+  "generatedAt": "2026-06-24T21:01:20.630Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13988,15 +13988,15 @@
         },
         {
           "min": "55'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a uma lesão de Hassan Al Haydos (Catar).",
-          "sub": "🇶🇦"
-        },
-        {
-          "min": "55'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇧🇦"
+        },
+        {
+          "min": "55'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Hassan Al Haydos (Catar).",
+          "sub": "🇶🇦"
         },
         {
           "min": "45'",
@@ -14390,8 +14390,8 @@
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "452",
-          "totalPasses": "516",
+          "accuratePasses": "453",
+          "totalPasses": "517",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "22",
@@ -15659,6 +15659,36 @@
       "brTime": "21h",
       "venue": "Lumen Field",
       "iso": "2026-07-07T00:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "oitavas"
+    },
+    {
+      "home": "Group A 2nd Place",
+      "away": "Canadá 🇨🇦",
+      "date": "28/06",
+      "brTime": "16h",
+      "venue": "SoFi Stadium",
+      "iso": "2026-06-28T19:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "avos"
+    },
+    {
+      "home": "Suíça 🇨🇭",
+      "away": "Third Place Group E/F/G/I/J",
+      "date": "03/07",
+      "brTime": "00h",
+      "venue": "BC Place",
+      "iso": "2026-07-03T03:00Z",
       "sh": null,
       "sa": null,
       "done": false,
