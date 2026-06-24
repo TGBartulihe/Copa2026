@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T19:31:21.017Z",
+  "generatedAt": "2026-06-24T19:32:15.091Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13834,7 +13834,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "31'",
+      "clock": "32'",
       "events": [
         {
           "min": "29'",
@@ -14246,8 +14246,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "31'",
+      "clock": "32'",
       "events": [
+        {
+          "min": "32'",
+          "icon": "🟨",
+          "txt": "Granit Xhaka (Suíça) Cartão Amarelo aos 32'",
+          "sub": "🇨🇭"
+        },
+        {
+          "min": "32'",
+          "icon": "🟨",
+          "txt": "Cyle Larin (Canadá) recebe cartão amarelo.",
+          "sub": "🇨🇦"
+        },
         {
           "min": "25'",
           "icon": "▶️",
@@ -14550,15 +14562,15 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "69.7",
+          "possessionPct": "69.8",
           "totalShots": "3",
           "shotsOnTarget": "2",
           "shotPct": "0.7",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "141",
-          "totalPasses": "166",
-          "passPct": "0.8",
+          "accuratePasses": "144",
+          "totalPasses": "169",
+          "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "1",
           "crossPct": "0.0",
@@ -14574,20 +14586,20 @@
           "totalClearance": "8"
         },
         "away": {
-          "foulsCommitted": "3",
-          "yellowCards": "0",
+          "foulsCommitted": "4",
+          "yellowCards": "1",
           "redCards": "0",
           "offsides": "2",
           "wonCorners": "0",
           "saves": "2",
-          "possessionPct": "30.3",
+          "possessionPct": "30.2",
           "totalShots": "1",
           "shotsOnTarget": "1",
           "shotPct": "1.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "49",
-          "totalPasses": "69",
+          "accuratePasses": "50",
+          "totalPasses": "70",
           "passPct": "0.7",
           "accurateCrosses": "1",
           "totalCrosses": "2",
@@ -14599,7 +14611,7 @@
           "effectiveTackles": "1",
           "totalTackles": "2",
           "tacklePct": "0.5",
-          "interceptions": "2",
+          "interceptions": "1",
           "effectiveClearance": "7",
           "totalClearance": "7"
         }
