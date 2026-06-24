@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T00:51:15.313Z",
+  "generatedAt": "2026-06-24T00:52:13.881Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -12805,7 +12805,7 @@
         {
           "min": "90'+2'",
           "icon": "🟨",
-          "txt": "Petar Sucic (Croácia) Cartão Amarelo aos 90'+2'",
+          "txt": "Petar Sucic (Croácia) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇭🇷"
         },
         {
@@ -13234,12 +13234,12 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "272",
-          "totalPasses": "347",
+          "totalPasses": "348",
           "passPct": "0.8",
           "accurateCrosses": "6",
           "totalCrosses": "30",
           "crossPct": "0.2",
-          "totalLongBalls": "55",
+          "totalLongBalls": "56",
           "accurateLongBalls": "23",
           "longballPct": "0.4",
           "blockedShots": "1",
@@ -13247,12 +13247,12 @@
           "totalTackles": "9",
           "tacklePct": "0.4",
           "interceptions": "3",
-          "effectiveClearance": "26",
-          "totalClearance": "26"
+          "effectiveClearance": "27",
+          "totalClearance": "27"
         },
         "away": {
-          "foulsCommitted": "11",
-          "yellowCards": "0",
+          "foulsCommitted": "12",
+          "yellowCards": "1",
           "redCards": "0",
           "offsides": "2",
           "wonCorners": "2",
@@ -13264,12 +13264,12 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "430",
-          "totalPasses": "507",
+          "totalPasses": "509",
           "passPct": "0.8",
           "accurateCrosses": "4",
           "totalCrosses": "17",
           "crossPct": "0.2",
-          "totalLongBalls": "47",
+          "totalLongBalls": "48",
           "accurateLongBalls": "17",
           "longballPct": "0.4",
           "blockedShots": "1",
