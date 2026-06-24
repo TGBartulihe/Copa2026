@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T00:30:14.895Z",
+  "generatedAt": "2026-06-24T00:31:19.011Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -12800,12 +12800,30 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "71'",
+      "clock": "72'",
       "events": [
+        {
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇵🇦"
+        },
+        {
+          "min": "72'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇭🇷. Substituição de Petar Sucic (Croácia) aos 72'",
+          "sub": "🇭🇷"
+        },
+        {
+          "min": "72'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇭🇷. Entra Luka Sucic para o lugar de Marco Pasalic.",
+          "sub": "🇭🇷"
+        },
         {
           "min": "71'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇭🇷"
         },
         {
