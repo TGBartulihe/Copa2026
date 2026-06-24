@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T03:44:15.384Z",
+  "generatedAt": "2026-06-24T03:45:15.633Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13299,7 +13299,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "83'",
+      "clock": "84'",
       "events": [
         {
           "min": "82'",
@@ -13747,7 +13747,7 @@
           "foulsCommitted": "8",
           "yellowCards": "1",
           "redCards": "0",
-          "offsides": "6",
+          "offsides": "7",
           "wonCorners": "4",
           "saves": "0",
           "possessionPct": "65.9",
@@ -13774,7 +13774,7 @@
           "totalClearance": "9"
         },
         "away": {
-          "foulsCommitted": "12",
+          "foulsCommitted": "13",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
