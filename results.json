@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T00:12:13.332Z",
+  "generatedAt": "2026-06-24T00:13:11.929Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -12797,10 +12797,10 @@
       "venue": "BMO Field",
       "iso": "2026-06-23T23:00Z",
       "sh": 0,
-      "sa": 0,
+      "sa": 1,
       "done": false,
       "live": true,
-      "clock": "53'",
+      "clock": "54'",
       "events": [
         {
           "min": "45'",
