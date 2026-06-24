@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T02:00:13.319Z",
+  "generatedAt": "2026-06-24T02:01:20.135Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13295,12 +13295,359 @@
       "brTime": "23h",
       "venue": "Estadio Akron",
       "iso": "2026-06-24T02:00Z",
-      "sh": null,
-      "sa": null,
+      "sh": 0,
+      "sa": 0,
       "done": false,
-      "live": false,
-      "clock": "",
-      "events": []
+      "live": true,
+      "clock": "1'",
+      "events": [
+        {
+          "min": "",
+          "icon": "🏁",
+          "txt": "Começa o primeiro tempo.",
+          "sub": "🏳️"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Camilo Vargas",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Jhon Lucumí",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Davinson Sánchez",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Johan Mojica",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Daniel Muñoz",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Jefferson Lerma",
+              "pos": "CM",
+              "row": 2
+            },
+            {
+              "name": "Jhon Arias",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Gustavo Puerta",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Luis Suárez",
+              "pos": "F",
+              "row": 3
+            },
+            {
+              "name": "Luis Díaz",
+              "pos": "LF",
+              "row": 3
+            },
+            {
+              "name": "James Rodríguez",
+              "pos": "RF",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Deiver Machado",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jhon Córdoba",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Yerry Mina",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kevin Castaño",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Juan Portilla",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Willer Ditta",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jorge Carrascal",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Juan Fernando Quintero",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Santiago Arias",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jáminton Campaz",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Richard Ríos",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "David Ospina",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Andrés Gómez",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Álvaro Montero",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Cucho Hernández",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-3-3",
+          "dotColor": "#21418c"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Lionel Mpasi",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Axel Tuanzebe",
+              "pos": "CD",
+              "row": 1
+            },
+            {
+              "name": "Steve Kapuadi",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Chancel Mbemba",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Arthur Masuaku",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Aaron Wan-Bissaka",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Samuel Moutoussamy",
+              "pos": "CM",
+              "row": 2
+            },
+            {
+              "name": "Edo Kayembe",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Ngal'ayel Mukau",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Cédric Bakambu",
+              "pos": "CF-L",
+              "row": 3
+            },
+            {
+              "name": "Yoane Wissa",
+              "pos": "CF-R",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Joris Kayembe",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Matthieu Epolo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nathanaël Mbuku",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Gédéon Kalulu",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Timothy Fayulu",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Dylan Batubinsika",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Théo Bongonda",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Gaël Kakuta",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Brian Cipenga",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Aaron Tshibola",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Noah Sadiki",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Charles Pickel",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Fiston Mayele",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Meschack Elia",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Simon Banza",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "5-3-2",
+          "dotColor": "#418fde"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "0",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "0",
+          "saves": "0",
+          "possessionPct": "0",
+          "totalShots": "0",
+          "shotsOnTarget": "0",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "0",
+          "totalPasses": "0",
+          "passPct": "0.0",
+          "accurateCrosses": "0",
+          "totalCrosses": "0",
+          "crossPct": "0.0",
+          "totalLongBalls": "0",
+          "accurateLongBalls": "0",
+          "longballPct": "0.0",
+          "blockedShots": "0",
+          "effectiveTackles": "0",
+          "totalTackles": "0",
+          "tacklePct": "0.0",
+          "interceptions": "0",
+          "effectiveClearance": "0",
+          "totalClearance": "0"
+        },
+        "away": {
+          "foulsCommitted": "0",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "0",
+          "saves": "0",
+          "possessionPct": "0",
+          "totalShots": "0",
+          "shotsOnTarget": "0",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "0",
+          "totalPasses": "0",
+          "passPct": "0.0",
+          "accurateCrosses": "0",
+          "totalCrosses": "0",
+          "crossPct": "0.0",
+          "totalLongBalls": "0",
+          "accurateLongBalls": "0",
+          "longballPct": "0.0",
+          "blockedShots": "0",
+          "effectiveTackles": "0",
+          "totalTackles": "0",
+          "tacklePct": "0.0",
+          "interceptions": "0",
+          "effectiveClearance": "0",
+          "totalClearance": "0"
+        }
+      }
     },
     {
       "home": "Bósnia 🇧🇦",
