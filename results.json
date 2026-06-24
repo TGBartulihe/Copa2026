@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T19:02:13.720Z",
+  "generatedAt": "2026-06-24T19:03:14.210Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13834,7 +13834,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "2'",
+      "clock": "3'",
       "events": [
         {
           "min": "",
@@ -13852,7 +13852,7 @@
               "row": 0
             },
             {
-              "name": "Arjan Malic",
+              "name": "Stjepan Radeljic",
               "pos": "CD-L",
               "row": 1
             },
@@ -13867,7 +13867,7 @@
               "row": 1
             },
             {
-              "name": "Stjepan Radeljic",
+              "name": "Arjan Malic",
               "pos": "RB",
               "row": 1
             },
@@ -14025,12 +14025,12 @@
               "row": 3
             },
             {
-              "name": "Edmílson Junior",
+              "name": "Hassan Al-Haydos",
               "pos": "LF",
               "row": 3
             },
             {
-              "name": "Hassan Al-Haydos",
+              "name": "Edmílson Junior",
               "pos": "RF",
               "row": 3
             }
@@ -14114,21 +14114,21 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "0",
-          "totalShots": "0",
-          "shotsOnTarget": "0",
-          "shotPct": "0.0",
+          "possessionPct": "79.2",
+          "totalShots": "1",
+          "shotsOnTarget": "1",
+          "shotPct": "1.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "0",
-          "totalPasses": "0",
-          "passPct": "0.0",
+          "accuratePasses": "12",
+          "totalPasses": "17",
+          "passPct": "0.7",
           "accurateCrosses": "0",
-          "totalCrosses": "0",
+          "totalCrosses": "2",
           "crossPct": "0.0",
-          "totalLongBalls": "0",
-          "accurateLongBalls": "0",
-          "longballPct": "0.0",
+          "totalLongBalls": "2",
+          "accurateLongBalls": "1",
+          "longballPct": "0.5",
           "blockedShots": "0",
           "effectiveTackles": "0",
           "totalTackles": "0",
@@ -14143,20 +14143,20 @@
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "0",
-          "saves": "0",
-          "possessionPct": "0",
+          "saves": "1",
+          "possessionPct": "20.8",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "0",
-          "totalPasses": "0",
-          "passPct": "0.0",
+          "accuratePasses": "3",
+          "totalPasses": "5",
+          "passPct": "0.6",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
-          "totalLongBalls": "0",
+          "totalLongBalls": "1",
           "accurateLongBalls": "0",
           "longballPct": "0.0",
           "blockedShots": "0",
@@ -14164,8 +14164,8 @@
           "totalTackles": "0",
           "tacklePct": "0.0",
           "interceptions": "0",
-          "effectiveClearance": "0",
-          "totalClearance": "0"
+          "effectiveClearance": "4",
+          "totalClearance": "4"
         }
       }
     },
@@ -14180,7 +14180,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "2'",
+      "clock": "3'",
       "events": [
         {
           "min": "",
@@ -14351,12 +14351,12 @@
               "row": 1
             },
             {
-              "name": "Nathan Saliba",
+              "name": "Mathieu Choinière",
               "pos": "CM-L",
               "row": 2
             },
             {
-              "name": "Mathieu Choinière",
+              "name": "Nathan Saliba",
               "pos": "CM-R",
               "row": 2
             },
@@ -14454,27 +14454,27 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "0",
+          "foulsCommitted": "2",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "42.9",
+          "possessionPct": "59",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "4",
-          "totalPasses": "5",
+          "accuratePasses": "18",
+          "totalPasses": "22",
           "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
-          "totalLongBalls": "0",
-          "accurateLongBalls": "0",
-          "longballPct": "0.0",
+          "totalLongBalls": "3",
+          "accurateLongBalls": "1",
+          "longballPct": "0.3",
           "blockedShots": "0",
           "effectiveTackles": "0",
           "totalTackles": "0",
@@ -14490,21 +14490,21 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "57.1",
+          "possessionPct": "41",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "6",
-          "totalPasses": "8",
-          "passPct": "0.8",
+          "accuratePasses": "11",
+          "totalPasses": "16",
+          "passPct": "0.7",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
-          "totalLongBalls": "1",
+          "totalLongBalls": "3",
           "accurateLongBalls": "1",
-          "longballPct": "1.0",
+          "longballPct": "0.3",
           "blockedShots": "0",
           "effectiveTackles": "0",
           "totalTackles": "0",
