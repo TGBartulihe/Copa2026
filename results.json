@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T03:55:15.894Z",
+  "generatedAt": "2026-06-24T03:56:17.933Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13299,8 +13299,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "90'+3'",
+      "clock": "90'+5'",
       "events": [
+        {
+          "min": "90'+4'",
+          "icon": "🟨",
+          "txt": "Jefferson Lerma (Colômbia) Cartão Amarelo aos 90'+4'",
+          "sub": "🇨🇴"
+        },
+        {
+          "min": "90'+3'",
+          "icon": "🟨",
+          "txt": "Charles Pickel (RD Congo) Cartão Amarelo aos 90'+3'",
+          "sub": "🇨🇩"
+        },
         {
           "min": "82'",
           "icon": "🔄",
@@ -13770,8 +13782,8 @@
           "totalTackles": "10",
           "tacklePct": "0.6",
           "interceptions": "10",
-          "effectiveClearance": "17",
-          "totalClearance": "17"
+          "effectiveClearance": "16",
+          "totalClearance": "16"
         },
         "away": {
           "foulsCommitted": "14",
@@ -13781,16 +13793,16 @@
           "wonCorners": "4",
           "saves": "8",
           "possessionPct": "36",
-          "totalShots": "6",
+          "totalShots": "8",
           "shotsOnTarget": "1",
-          "shotPct": "0.2",
+          "shotPct": "0.1",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "221",
           "totalPasses": "291",
           "passPct": "0.8",
-          "accurateCrosses": "3",
-          "totalCrosses": "12",
+          "accurateCrosses": "4",
+          "totalCrosses": "13",
           "crossPct": "0.3",
           "totalLongBalls": "45",
           "accurateLongBalls": "14",
