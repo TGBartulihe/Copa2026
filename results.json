@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T19:25:15.342Z",
+  "generatedAt": "2026-06-24T19:26:15.767Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13834,8 +13834,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "25'",
+      "clock": "26'",
       "events": [
+        {
+          "min": "26'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇶🇦"
+        },
+        {
+          "min": "26'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇧🇦"
+        },
         {
           "min": "23'",
           "icon": "⏸️",
@@ -13851,19 +13863,13 @@
         {
           "min": "23'",
           "icon": "▶️",
-          "txt": "Atraso acabou. Eles estão prontos para continuar.",
-          "sub": "🇶🇦"
-        },
-        {
-          "min": "23'",
-          "icon": "▶️",
           "txt": "Jogo reiniciado",
           "sub": "🇧🇦"
         },
         {
           "min": "23'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a uma lesão de Boualem Khoukhi (Qatar).",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇶🇦"
         },
         {
@@ -13871,6 +13877,12 @@
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇧🇦"
+        },
+        {
+          "min": "23'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Boualem Khoukhi (Qatar).",
+          "sub": "🇶🇦"
         },
         {
           "min": "",
@@ -14216,7 +14228,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "25'",
+      "clock": "26'",
       "events": [
         {
           "min": "25'",
@@ -14227,7 +14239,7 @@
         {
           "min": "25'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇨🇭"
         },
         {
@@ -14520,7 +14532,7 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "71.3",
+          "possessionPct": "69.8",
           "totalShots": "3",
           "shotsOnTarget": "2",
           "shotPct": "0.7",
@@ -14540,8 +14552,8 @@
           "totalTackles": "3",
           "tacklePct": "1.0",
           "interceptions": "2",
-          "effectiveClearance": "7",
-          "totalClearance": "7"
+          "effectiveClearance": "8",
+          "totalClearance": "8"
         },
         "away": {
           "foulsCommitted": "3",
@@ -14550,25 +14562,25 @@
           "offsides": "2",
           "wonCorners": "0",
           "saves": "2",
-          "possessionPct": "28.7",
+          "possessionPct": "30.2",
           "totalShots": "1",
           "shotsOnTarget": "1",
           "shotPct": "1.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "35",
-          "totalPasses": "50",
+          "accuratePasses": "38",
+          "totalPasses": "54",
           "passPct": "0.7",
           "accurateCrosses": "1",
           "totalCrosses": "2",
           "crossPct": "0.5",
-          "totalLongBalls": "9",
+          "totalLongBalls": "10",
           "accurateLongBalls": "2",
           "longballPct": "0.2",
           "blockedShots": "0",
-          "effectiveTackles": "0",
-          "totalTackles": "1",
-          "tacklePct": "0.0",
+          "effectiveTackles": "1",
+          "totalTackles": "2",
+          "tacklePct": "0.5",
           "interceptions": "0",
           "effectiveClearance": "5",
           "totalClearance": "5"
