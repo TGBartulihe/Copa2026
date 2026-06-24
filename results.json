@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T00:50:14.100Z",
+  "generatedAt": "2026-06-24T00:51:15.313Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -12800,18 +12800,24 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "90'+1'",
+      "clock": "90'+2'",
       "events": [
         {
-          "min": "90'+1'",
-          "icon": "🔄",
-          "txt": "Substituição, 🇵🇦. Éric Davis substitui César Blackman.",
-          "sub": "🇵🇦"
+          "min": "90'+2'",
+          "icon": "🟨",
+          "txt": "Petar Sucic (Croácia) Cartão Amarelo aos 90'+2'",
+          "sub": "🇭🇷"
         },
         {
           "min": "90'",
           "icon": "🔄",
           "txt": "Substituição, 🇵🇦. Tomás Rodríguez substitui Yoel Bárcenas.",
+          "sub": "🇵🇦"
+        },
+        {
+          "min": "90'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇦. Éric Davis substitui César Blackman.",
           "sub": "🇵🇦"
         },
         {
