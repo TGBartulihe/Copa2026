@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T23:56:14.294Z",
+  "generatedAt": "2026-06-24T23:57:19.939Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -14958,12 +14958,12 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "90'+3'",
+      "clock": "90'+5'",
       "events": [
         {
           "min": "90'+3'",
           "icon": "🟨",
-          "txt": "Josué Casimir (Haiti) Cartão Amarelo aos 90'+3'",
+          "txt": "Josué Casimir (Haiti) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇭🇹"
         },
         {
@@ -15053,14 +15053,14 @@
         {
           "min": "68'",
           "icon": "⏸️",
-          "txt": "Atraso na partida para uma pausa para bebidas.",
-          "sub": "🇲🇦"
+          "txt": "Jogo paralisado",
+          "sub": "🇭🇹"
         },
         {
           "min": "68'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
-          "sub": "🇭🇹"
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇲🇦"
         },
         {
           "min": "67'",
@@ -15481,27 +15481,27 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "9",
+          "foulsCommitted": "10",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "5",
           "wonCorners": "9",
           "saves": "0",
-          "possessionPct": "69.8",
+          "possessionPct": "69.9",
           "totalShots": "22",
           "shotsOnTarget": "11",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "477",
-          "totalPasses": "537",
+          "accuratePasses": "478",
+          "totalPasses": "540",
           "passPct": "0.9",
           "accurateCrosses": "7",
           "totalCrosses": "22",
           "crossPct": "0.3",
-          "totalLongBalls": "33",
+          "totalLongBalls": "35",
           "accurateLongBalls": "19",
-          "longballPct": "0.6",
+          "longballPct": "0.5",
           "blockedShots": "5",
           "effectiveTackles": "9",
           "totalTackles": "18",
@@ -15512,12 +15512,12 @@
         },
         "away": {
           "foulsCommitted": "18",
-          "yellowCards": "2",
+          "yellowCards": "3",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "0",
           "saves": "8",
-          "possessionPct": "30.2",
+          "possessionPct": "30.1",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
@@ -15536,7 +15536,7 @@
           "effectiveTackles": "12",
           "totalTackles": "25",
           "tacklePct": "0.5",
-          "interceptions": "13",
+          "interceptions": "14",
           "effectiveClearance": "25",
           "totalClearance": "25"
         }
@@ -15553,8 +15553,20 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "90'+1'",
+      "clock": "90'+2'",
       "events": [
+        {
+          "min": "90'+1'",
+          "icon": "🔄",
+          "txt": "Substituição, 🏳️. Substituição de Findlay Curtis (Escócia) aos 90'+1'",
+          "sub": "🏳️"
+        },
+        {
+          "min": "90'+1'",
+          "icon": "🔄",
+          "txt": "Substituição, 🏳️. Ché Adams entra em campo e entra Lawrence Shankland.",
+          "sub": "🏳️"
+        },
         {
           "min": "89'",
           "icon": "🟨",
