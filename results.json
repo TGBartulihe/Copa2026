@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T03:23:13.482Z",
+  "generatedAt": "2026-06-24T03:24:11.776Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -12801,7 +12801,152 @@
       "done": true,
       "live": false,
       "clock": "",
-      "events": [],
+      "events": [
+        {
+          "min": "90'+6'",
+          "icon": "•",
+          "txt": "jogador",
+          "sub": "🏳️"
+        },
+        {
+          "min": "90'+2'",
+          "icon": "🟨",
+          "txt": "Petar Sucic (Croácia) recebe cartão amarelo por uma entrada perigosa.",
+          "sub": "🇭🇷"
+        },
+        {
+          "min": "90'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇦. Tomás Rodríguez substitui Yoel Bárcenas.",
+          "sub": "🇵🇦"
+        },
+        {
+          "min": "90'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇦. Éric Davis substitui César Blackman.",
+          "sub": "🇵🇦"
+        },
+        {
+          "min": "83'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇦. Entra em campo Azarias Londoño substituindo José Fajardo.",
+          "sub": "🇵🇦"
+        },
+        {
+          "min": "81'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇭🇷. Entra Mario Pasalic substituindo Luka Modric.",
+          "sub": "🇭🇷"
+        },
+        {
+          "min": "77'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇦. Entra Cecílio Waterman substituindo Jiovany Ramos.",
+          "sub": "🇵🇦"
+        },
+        {
+          "min": "72'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇭🇷. Petar Sucic substitui Mateo Kovacic.",
+          "sub": "🇭🇷"
+        },
+        {
+          "min": "72'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇭🇷. Entra Luka Sucic para o lugar de Marco Pasalic.",
+          "sub": "🇭🇷"
+        },
+        {
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇵🇦"
+        },
+        {
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇭🇷"
+        },
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇵🇦"
+        },
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇭🇷"
+        },
+        {
+          "min": "61'",
+          "icon": "🟨",
+          "txt": "Yoel Bárcenas (Panamá) recebe cartão amarelo por uma entrada perigosa.",
+          "sub": "🇵🇦"
+        },
+        {
+          "min": "54'",
+          "icon": "⚽",
+          "txt": "Ante Budimir (Croácia) finalização com o pé esquerdo de muito perto no Escanteio inferior esquerdo. Assistência de Josip Stanisic com um cruzamento.",
+          "sub": "🇭🇷"
+        },
+        {
+          "min": "45'",
+          "icon": "▶️",
+          "txt": "Início do segundo tempo Panamá 0, Croácia 0.",
+          "sub": "🏳️"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇭🇷. Andrej Kramaric entra em campo para substituir Josko Gvardiol.",
+          "sub": "🇭🇷"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇭🇷. Ante Budimir entra em campo Petar Musa.",
+          "sub": "🇭🇷"
+        },
+        {
+          "min": "45'+4'",
+          "icon": "⏱️",
+          "txt": "Intervalo",
+          "sub": "🏳️"
+        },
+        {
+          "min": "26'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇵🇦"
+        },
+        {
+          "min": "26'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇭🇷"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇵🇦"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇭🇷"
+        },
+        {
+          "min": "",
+          "icon": "🏁",
+          "txt": "Começa o primeiro tempo.",
+          "sub": "🏳️"
+        }
+      ],
       "lineups": {
         "home": {
           "starters": [
@@ -13082,16 +13227,64 @@
       },
       "stats": {
         "home": {
-          "goalDifference": "-1",
-          "totalGoals": "0",
-          "goalAssists": "0",
-          "goalsConceded": "1"
+          "foulsCommitted": "19",
+          "yellowCards": "1",
+          "redCards": "0",
+          "offsides": "1",
+          "wonCorners": "7",
+          "saves": "1",
+          "possessionPct": "42.1",
+          "totalShots": "8",
+          "shotsOnTarget": "1",
+          "shotPct": "0.1",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "277",
+          "totalPasses": "356",
+          "passPct": "0.8",
+          "accurateCrosses": "6",
+          "totalCrosses": "30",
+          "crossPct": "0.2",
+          "totalLongBalls": "57",
+          "accurateLongBalls": "25",
+          "longballPct": "0.4",
+          "blockedShots": "2",
+          "effectiveTackles": "5",
+          "totalTackles": "10",
+          "tacklePct": "0.5",
+          "interceptions": "5",
+          "effectiveClearance": "28",
+          "totalClearance": "28"
         },
         "away": {
-          "goalDifference": "-2",
-          "totalGoals": "2",
-          "goalAssists": "2",
-          "goalsConceded": "4"
+          "foulsCommitted": "12",
+          "yellowCards": "1",
+          "redCards": "0",
+          "offsides": "2",
+          "wonCorners": "2",
+          "saves": "1",
+          "possessionPct": "57.9",
+          "totalShots": "6",
+          "shotsOnTarget": "2",
+          "shotPct": "0.3",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "433",
+          "totalPasses": "515",
+          "passPct": "0.8",
+          "accurateCrosses": "4",
+          "totalCrosses": "17",
+          "crossPct": "0.2",
+          "totalLongBalls": "51",
+          "accurateLongBalls": "18",
+          "longballPct": "0.4",
+          "blockedShots": "1",
+          "effectiveTackles": "6",
+          "totalTackles": "17",
+          "tacklePct": "0.4",
+          "interceptions": "5",
+          "effectiveClearance": "36",
+          "totalClearance": "36"
         }
       }
     },
@@ -13106,7 +13299,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "62'",
+      "clock": "63'",
       "events": [
         {
           "min": "58'",
@@ -13500,23 +13693,23 @@
           "foulsCommitted": "7",
           "yellowCards": "1",
           "redCards": "0",
-          "offsides": "3",
+          "offsides": "4",
           "wonCorners": "3",
           "saves": "0",
-          "possessionPct": "67.1",
+          "possessionPct": "67.6",
           "totalShots": "16",
           "shotsOnTarget": "7",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "383",
-          "totalPasses": "427",
+          "accuratePasses": "391",
+          "totalPasses": "436",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "9",
           "crossPct": "0.3",
-          "totalLongBalls": "40",
-          "accurateLongBalls": "23",
+          "totalLongBalls": "42",
+          "accurateLongBalls": "24",
           "longballPct": "0.6",
           "blockedShots": "5",
           "effectiveTackles": "3",
@@ -13527,13 +13720,13 @@
           "totalClearance": "7"
         },
         "away": {
-          "foulsCommitted": "7",
+          "foulsCommitted": "9",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "2",
           "saves": "7",
-          "possessionPct": "32.9",
+          "possessionPct": "32.4",
           "totalShots": "3",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
@@ -13553,8 +13746,8 @@
           "totalTackles": "8",
           "tacklePct": "0.6",
           "interceptions": "6",
-          "effectiveClearance": "12",
-          "totalClearance": "12"
+          "effectiveClearance": "13",
+          "totalClearance": "13"
         }
       }
     },
