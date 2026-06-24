@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T20:33:14.620Z",
+  "generatedAt": "2026-06-24T20:34:15.667Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13834,8 +13834,20 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "70'",
+      "clock": "71'",
       "events": [
+        {
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇧🇦"
+        },
+        {
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇶🇦"
+        },
         {
           "min": "69'",
           "icon": "⏸️",
@@ -14366,8 +14378,26 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "74'",
+      "clock": "75'",
       "events": [
+        {
+          "min": "75'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇦. Promise David (Canadá) Substituição aos 75'",
+          "sub": "🇨🇦"
+        },
+        {
+          "min": "74'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇭. Silvan Widmer substitui Luca Jaquez.",
+          "sub": "🇨🇭"
+        },
+        {
+          "min": "74'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇭. Substituição de Michel Aebischer (Suíça) aos 74'",
+          "sub": "🇨🇭"
+        },
         {
           "min": "74'",
           "icon": "▶️",
@@ -14377,13 +14407,7 @@
         {
           "min": "74'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇨🇭"
-        },
-        {
-          "min": "73'",
-          "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇨🇭"
         },
         {
