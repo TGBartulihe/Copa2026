@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T20:42:12.922Z",
+  "generatedAt": "2026-06-24T20:43:15.352Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13830,12 +13830,18 @@
       "brTime": "16h",
       "venue": "Lumen Field",
       "iso": "2026-06-24T19:00Z",
-      "sh": 2,
+      "sh": 3,
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "79'",
+      "clock": "81'",
       "events": [
+        {
+          "min": "80'",
+          "icon": "⚽",
+          "txt": "Ermin Mahmic (Bósnia-Herzegovina) Gol aos 80'",
+          "sub": "🇧🇦"
+        },
         {
           "min": "79'",
           "icon": "🔄",
@@ -14336,14 +14342,14 @@
           "offsides": "1",
           "wonCorners": "5",
           "saves": "0",
-          "possessionPct": "57.5",
-          "totalShots": "10",
-          "shotsOnTarget": "3",
+          "possessionPct": "57.6",
+          "totalShots": "12",
+          "shotsOnTarget": "4",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "409",
-          "totalPasses": "466",
+          "accuratePasses": "411",
+          "totalPasses": "468",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "21",
@@ -14351,7 +14357,7 @@
           "totalLongBalls": "42",
           "accurateLongBalls": "25",
           "longballPct": "0.6",
-          "blockedShots": "3",
+          "blockedShots": "4",
           "effectiveTackles": "7",
           "totalTackles": "8",
           "tacklePct": "0.9",
@@ -14365,8 +14371,8 @@
           "redCards": "0",
           "offsides": "2",
           "wonCorners": "3",
-          "saves": "2",
-          "possessionPct": "42.5",
+          "saves": "3",
+          "possessionPct": "42.4",
           "totalShots": "6",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
@@ -14386,8 +14392,8 @@
           "totalTackles": "10",
           "tacklePct": "0.5",
           "interceptions": "4",
-          "effectiveClearance": "23",
-          "totalClearance": "23"
+          "effectiveClearance": "24",
+          "totalClearance": "24"
         }
       }
     },
@@ -14407,7 +14413,7 @@
         {
           "min": "83'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇦. Substituição de Jacob Shaffelburg (Canadá) aos 83'",
+          "txt": "Substituição, 🇨🇦. Entra Jacob Shaffelburg para o lugar de Richie Laryea.",
           "sub": "🇨🇦"
         },
         {
@@ -14820,14 +14826,14 @@
           "offsides": "1",
           "wonCorners": "2",
           "saves": "3",
-          "possessionPct": "55.7",
+          "possessionPct": "55.8",
           "totalShots": "6",
           "shotsOnTarget": "4",
           "shotPct": "0.7",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "335",
-          "totalPasses": "396",
+          "accuratePasses": "337",
+          "totalPasses": "399",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "5",
@@ -14844,13 +14850,13 @@
           "totalClearance": "30"
         },
         "away": {
-          "foulsCommitted": "10",
+          "foulsCommitted": "11",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "3",
           "wonCorners": "6",
           "saves": "2",
-          "possessionPct": "44.3",
+          "possessionPct": "44.2",
           "totalShots": "9",
           "shotsOnTarget": "4",
           "shotPct": "0.4",
