@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T22:24:14.839Z",
+  "generatedAt": "2026-06-24T22:25:16.453Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -14958,8 +14958,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "23'",
+      "clock": "24'",
       "events": [
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇲🇦"
+        },
         {
           "min": "23'",
           "icon": "⏸️",
@@ -15331,12 +15337,24 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "23'",
+      "clock": "24'",
       "events": [
+        {
+          "min": "24'",
+          "icon": "⚽",
+          "txt": "Verificação do VAR: Gol do Brasil (Vinícius Júnior).",
+          "sub": "🇧🇷"
+        },
+        {
+          "min": "24'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇧🇷"
+        },
         {
           "min": "22'",
           "icon": "⚽",
-          "txt": "Vinícius Júnior (Brasil) finalização com o pé direito do lado direito da área.",
+          "txt": "Vinícius Júnior (Brasil) finalização com o pé direito do lado direito da área para o centro do gol.",
           "sub": "🇧🇷"
         },
         {
@@ -15657,14 +15675,14 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "48.3",
+          "possessionPct": "47.7",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "123",
-          "totalPasses": "139",
+          "accuratePasses": "125",
+          "totalPasses": "142",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "1",
@@ -15677,8 +15695,8 @@
           "totalTackles": "3",
           "tacklePct": "0.7",
           "interceptions": "0",
-          "effectiveClearance": "3",
-          "totalClearance": "3"
+          "effectiveClearance": "4",
+          "totalClearance": "4"
         },
         "away": {
           "foulsCommitted": "0",
@@ -15687,25 +15705,25 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "51.7",
-          "totalShots": "5",
-          "shotsOnTarget": "1",
-          "shotPct": "0.2",
+          "possessionPct": "52.3",
+          "totalShots": "6",
+          "shotsOnTarget": "2",
+          "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "138",
-          "totalPasses": "146",
+          "accuratePasses": "143",
+          "totalPasses": "152",
           "passPct": "0.9",
           "accurateCrosses": "0",
-          "totalCrosses": "4",
+          "totalCrosses": "5",
           "crossPct": "0.0",
           "totalLongBalls": "5",
           "accurateLongBalls": "2",
           "longballPct": "0.4",
           "blockedShots": "2",
-          "effectiveTackles": "2",
-          "totalTackles": "4",
-          "tacklePct": "0.5",
+          "effectiveTackles": "1",
+          "totalTackles": "3",
+          "tacklePct": "0.3",
           "interceptions": "2",
           "effectiveClearance": "4",
           "totalClearance": "4"
