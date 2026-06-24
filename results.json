@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T03:32:13.789Z",
+  "generatedAt": "2026-06-24T03:33:16.026Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13299,8 +13299,32 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "71'",
+      "clock": "72'",
       "events": [
+        {
+          "min": "72'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇩. Substituição de Charles Pickel (RD Congo) aos 72'",
+          "sub": "🇨🇩"
+        },
+        {
+          "min": "72'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇩. Entra Joris Kayembe substituindo Arthur Masuaku.",
+          "sub": "🇨🇩"
+        },
+        {
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇨🇴"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇩"
+        },
         {
           "min": "68'",
           "icon": "⏸️",
