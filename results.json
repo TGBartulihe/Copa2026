@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T00:14:15.438Z",
+  "generatedAt": "2026-06-24T00:15:13.709Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -12800,12 +12800,12 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "55'",
+      "clock": "56'",
       "events": [
         {
           "min": "54'",
           "icon": "⚽",
-          "txt": "Ante Budimir (Croácia) finalização com o pé esquerdo de muito perto.",
+          "txt": "Ante Budimir (Croácia) finalização com o pé esquerdo de muito perto no Escanteio inferior esquerdo. Assistência de Josip Stanisic com um cruzamento.",
           "sub": "🇭🇷"
         },
         {
@@ -13185,8 +13185,8 @@
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "317",
-          "totalPasses": "363",
+          "accuratePasses": "316",
+          "totalPasses": "362",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "15",
