@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T00:40:12.184Z",
+  "generatedAt": "2026-06-24T00:41:16.030Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -12800,8 +12800,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "81'",
+      "clock": "82'",
       "events": [
+        {
+          "min": "81'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇭🇷. Substituição de Mario Pasalic (Croácia) aos 81'",
+          "sub": "🇭🇷"
+        },
         {
           "min": "77'",
           "icon": "🔄",
@@ -13191,13 +13197,13 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "16",
+          "foulsCommitted": "17",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "6",
           "saves": "1",
-          "possessionPct": "40.9",
+          "possessionPct": "40.8",
           "totalShots": "6",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
@@ -13227,20 +13233,20 @@
           "offsides": "2",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "59.1",
+          "possessionPct": "59.2",
           "totalShots": "5",
           "shotsOnTarget": "2",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "400",
-          "totalPasses": "469",
+          "accuratePasses": "401",
+          "totalPasses": "470",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "15",
           "crossPct": "0.2",
-          "totalLongBalls": "41",
-          "accurateLongBalls": "15",
+          "totalLongBalls": "42",
+          "accurateLongBalls": "16",
           "longballPct": "0.4",
           "blockedShots": "0",
           "effectiveTackles": "7",
