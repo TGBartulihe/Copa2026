@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T20:17:14.272Z",
+  "generatedAt": "2026-06-24T20:18:13.946Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13834,8 +13834,20 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "55'",
+      "clock": "56'",
       "events": [
+        {
+          "min": "56'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇶🇦. Substituição de Ahmed Al-Ganehi (Qatar) aos 56'",
+          "sub": "🇶🇦"
+        },
+        {
+          "min": "55'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇧🇦"
+        },
         {
           "min": "55'",
           "icon": "⏸️",
@@ -14228,19 +14240,19 @@
           "offsides": "0",
           "wonCorners": "4",
           "saves": "0",
-          "possessionPct": "59.4",
+          "possessionPct": "58.9",
           "totalShots": "9",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "318",
-          "totalPasses": "356",
+          "accuratePasses": "322",
+          "totalPasses": "362",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "18",
           "crossPct": "0.1",
-          "totalLongBalls": "31",
+          "totalLongBalls": "33",
           "accurateLongBalls": "19",
           "longballPct": "0.6",
           "blockedShots": "3",
@@ -14258,21 +14270,21 @@
           "offsides": "2",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "40.6",
+          "possessionPct": "41.1",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "211",
-          "totalPasses": "249",
+          "accuratePasses": "218",
+          "totalPasses": "258",
           "passPct": "0.8",
           "accurateCrosses": "3",
           "totalCrosses": "8",
           "crossPct": "0.4",
-          "totalLongBalls": "32",
+          "totalLongBalls": "33",
           "accurateLongBalls": "8",
-          "longballPct": "0.3",
+          "longballPct": "0.2",
           "blockedShots": "0",
           "effectiveTackles": "3",
           "totalTackles": "7",
@@ -14294,8 +14306,26 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "58'",
+      "clock": "59'",
       "events": [
+        {
+          "min": "58'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇦. Liam Millar substitui Ali Ahmed.",
+          "sub": "🇨🇦"
+        },
+        {
+          "min": "58'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇦. Entra Tani Oluwaseyi para o lugar de Cyle Larin.",
+          "sub": "🇨🇦"
+        },
+        {
+          "min": "58'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇦. Stephen Eustáquio substitui Mathieu Choinière.",
+          "sub": "🇨🇦"
+        },
         {
           "min": "57'",
           "icon": "⚽",
