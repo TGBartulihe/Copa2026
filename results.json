@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T23:10:13.966Z",
+  "generatedAt": "2026-06-24T23:11:14.894Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -14958,7 +14958,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "47'",
+      "clock": "48'",
       "events": [
         {
           "min": "45'",
@@ -15403,8 +15403,20 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "45'+7'",
+      "clock": "46'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🏳️"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🏳️. Kieran Tierney substitui Andy Robertson.",
+          "sub": "🏳️"
+        },
         {
           "min": "45'+7'",
           "icon": "⏱️",
