@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T00:03:13.928Z",
+  "generatedAt": "2026-06-24T00:04:13.751Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -12802,6 +12802,18 @@
       "live": true,
       "clock": "45'+3'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇭🇷. Substituição de Andrej Kramaric (Croácia) aos 45'",
+          "sub": "🇭🇷"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇭🇷. Ante Budimir entra em campo Petar Musa.",
+          "sub": "🇭🇷"
+        },
         {
           "min": "45'+4'",
           "icon": "⏱️",
