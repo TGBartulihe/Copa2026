@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T20:59:12.819Z",
+  "generatedAt": "2026-06-24T21:00:14.318Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13839,7 +13839,7 @@
         {
           "min": "90'+7'",
           "icon": "•",
-          "txt": "jogador",
+          "txt": "Fim do segundo tempo, Bósnia e Herzegovina 3, Catar 1.",
           "sub": "🏳️"
         },
         {
@@ -14378,13 +14378,13 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "8",
+          "foulsCommitted": "9",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "5",
           "saves": "2",
-          "possessionPct": "54.6",
+          "possessionPct": "54.5",
           "totalShots": "14",
           "shotsOnTarget": "5",
           "shotPct": "0.4",
@@ -14400,8 +14400,8 @@
           "accurateLongBalls": "31",
           "longballPct": "0.6",
           "blockedShots": "5",
-          "effectiveTackles": "8",
-          "totalTackles": "9",
+          "effectiveTackles": "9",
+          "totalTackles": "10",
           "tacklePct": "0.9",
           "interceptions": "4",
           "effectiveClearance": "21",
@@ -14414,20 +14414,20 @@
           "offsides": "3",
           "wonCorners": "5",
           "saves": "3",
-          "possessionPct": "45.4",
+          "possessionPct": "45.5",
           "totalShots": "9",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "368",
-          "totalPasses": "431",
+          "accuratePasses": "370",
+          "totalPasses": "434",
           "passPct": "0.9",
           "accurateCrosses": "5",
           "totalCrosses": "17",
           "crossPct": "0.3",
-          "totalLongBalls": "52",
-          "accurateLongBalls": "16",
+          "totalLongBalls": "53",
+          "accurateLongBalls": "17",
           "longballPct": "0.3",
           "blockedShots": "0",
           "effectiveTackles": "5",
