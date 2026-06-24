@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T22:25:16.453Z",
+  "generatedAt": "2026-06-24T22:26:13.266Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -14958,12 +14958,12 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "24'",
+      "clock": "25'",
       "events": [
         {
-          "min": "23'",
-          "icon": "⏸️",
-          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "min": "25'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
           "sub": "🇲🇦"
         },
         {
@@ -14971,6 +14971,12 @@
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇭🇹"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇲🇦"
         },
         {
           "min": "10'",
@@ -15271,7 +15277,7 @@
           "offsides": "2",
           "wonCorners": "2",
           "saves": "0",
-          "possessionPct": "70",
+          "possessionPct": "69.8",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
@@ -15301,25 +15307,25 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "30",
+          "possessionPct": "30.2",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "64",
-          "totalPasses": "73",
+          "totalPasses": "74",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
-          "totalLongBalls": "13",
+          "totalLongBalls": "14",
           "accurateLongBalls": "6",
-          "longballPct": "0.5",
+          "longballPct": "0.4",
           "blockedShots": "0",
           "effectiveTackles": "4",
-          "totalTackles": "6",
-          "tacklePct": "0.7",
+          "totalTackles": "7",
+          "tacklePct": "0.6",
           "interceptions": "1",
           "effectiveClearance": "8",
           "totalClearance": "8"
@@ -15334,15 +15340,15 @@
       "venue": "Hard Rock Stadium",
       "iso": "2026-06-24T22:00Z",
       "sh": 0,
-      "sa": 2,
+      "sa": 1,
       "done": false,
       "live": true,
-      "clock": "24'",
+      "clock": "25'",
       "events": [
         {
-          "min": "24'",
-          "icon": "⚽",
-          "txt": "Verificação do VAR: Gol do Brasil (Vinícius Júnior).",
+          "min": "25'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
           "sub": "🇧🇷"
         },
         {
