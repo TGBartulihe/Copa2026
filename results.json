@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T23:41:16.353Z",
+  "generatedAt": "2026-06-24T23:42:12.442Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -14908,8 +14908,8 @@
           "accurateLongBalls": "17",
           "longballPct": "0.4",
           "blockedShots": "1",
-          "effectiveTackles": "6",
-          "totalTackles": "15",
+          "effectiveTackles": "7",
+          "totalTackles": "16",
           "tacklePct": "0.4",
           "interceptions": "4",
           "effectiveClearance": "44",
@@ -14963,7 +14963,7 @@
         {
           "min": "78'",
           "icon": "⚽",
-          "txt": "Soufiane Rahimi (Marrocos) finalização com o pé direito do meio da área após escanteio.",
+          "txt": "Soufiane Rahimi (Marrocos) finalização com o pé direito do meio da área ao ângulo superior direito. Assistência de Chadi Riad após escanteio.",
           "sub": "🇲🇦"
         },
         {
@@ -15434,7 +15434,7 @@
           "wonCorners": "8",
           "saves": "0",
           "possessionPct": "71.6",
-          "totalShots": "18",
+          "totalShots": "19",
           "shotsOnTarget": "9",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
@@ -15499,8 +15499,14 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "75'",
+      "clock": "76'",
       "events": [
+        {
+          "min": "76'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇧🇷. Substituição de Neymar (Brasil) aos 76'",
+          "sub": "🇧🇷"
+        },
         {
           "min": "71'",
           "icon": "▶️",
@@ -15925,19 +15931,19 @@
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
-          "wonCorners": "4",
+          "wonCorners": "6",
           "saves": "3",
-          "possessionPct": "50.5",
-          "totalShots": "9",
+          "possessionPct": "50.9",
+          "totalShots": "10",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "410",
-          "totalPasses": "450",
+          "accuratePasses": "411",
+          "totalPasses": "452",
           "passPct": "0.9",
-          "accurateCrosses": "4",
-          "totalCrosses": "14",
+          "accurateCrosses": "6",
+          "totalCrosses": "18",
           "crossPct": "0.3",
           "totalLongBalls": "29",
           "accurateLongBalls": "15",
@@ -15957,7 +15963,7 @@
           "offsides": "1",
           "wonCorners": "4",
           "saves": "3",
-          "possessionPct": "49.5",
+          "possessionPct": "49.1",
           "totalShots": "16",
           "shotsOnTarget": "7",
           "shotPct": "0.4",
@@ -15977,8 +15983,8 @@
           "totalTackles": "11",
           "tacklePct": "0.5",
           "interceptions": "8",
-          "effectiveClearance": "16",
-          "totalClearance": "16"
+          "effectiveClearance": "19",
+          "totalClearance": "19"
         }
       }
     },
