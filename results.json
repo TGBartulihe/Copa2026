@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T20:44:15.144Z",
+  "generatedAt": "2026-06-24T20:45:17.633Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13834,12 +13834,24 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "81'",
+      "clock": "83'",
       "events": [
+        {
+          "min": "82'",
+          "icon": "🟨",
+          "txt": "Ermin Mahmic (Bósnia-Herzegovina) Cartão Amarelo aos 82'",
+          "sub": "🇧🇦"
+        },
+        {
+          "min": "82'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇧🇦. Dzenis Burnic entra em campo com Kerim Alajbegovic.",
+          "sub": "🇧🇦"
+        },
         {
           "min": "80'",
           "icon": "⚽",
-          "txt": "Ermin Mahmic (Bósnia e Herzegovina) finalização com o pé direito no meio da área após escanteio.",
+          "txt": "Ermin Mahmic (Bósnia e Herzegovina) remate com o pé direito no coração da área ao centro da baliza após Escanteio.",
           "sub": "🇧🇦"
         },
         {
@@ -14408,18 +14420,18 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "85'",
+      "clock": "86'",
       "events": [
         {
           "min": "85'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇭. Cedric Itten (Suíça) Substituição aos 85'",
+          "txt": "Substituição, 🇨🇭. Entra Cedric Itten para o lugar de Breel Embolo.",
           "sub": "🇨🇭"
         },
         {
           "min": "85'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇭. Christian Fassnacht (Suíça) Substituição aos 85'",
+          "txt": "Substituição, 🇨🇭. Entra Christian Fassnacht para o lugar de Johan Manzambi.",
           "sub": "🇨🇭"
         },
         {
@@ -14838,14 +14850,14 @@
           "offsides": "1",
           "wonCorners": "2",
           "saves": "3",
-          "possessionPct": "55.6",
+          "possessionPct": "55.7",
           "totalShots": "6",
           "shotsOnTarget": "4",
           "shotPct": "0.7",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "338",
-          "totalPasses": "402",
+          "accuratePasses": "340",
+          "totalPasses": "404",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "5",
@@ -14854,12 +14866,12 @@
           "accurateLongBalls": "18",
           "longballPct": "0.4",
           "blockedShots": "1",
-          "effectiveTackles": "4",
-          "totalTackles": "11",
+          "effectiveTackles": "5",
+          "totalTackles": "12",
           "tacklePct": "0.4",
           "interceptions": "5",
-          "effectiveClearance": "30",
-          "totalClearance": "30"
+          "effectiveClearance": "33",
+          "totalClearance": "33"
         },
         "away": {
           "foulsCommitted": "11",
@@ -14868,7 +14880,7 @@
           "offsides": "3",
           "wonCorners": "6",
           "saves": "2",
-          "possessionPct": "44.4",
+          "possessionPct": "44.3",
           "totalShots": "9",
           "shotsOnTarget": "4",
           "shotPct": "0.4",
@@ -14878,8 +14890,8 @@
           "totalPasses": "308",
           "passPct": "0.8",
           "accurateCrosses": "4",
-          "totalCrosses": "16",
-          "crossPct": "0.3",
+          "totalCrosses": "17",
+          "crossPct": "0.2",
           "totalLongBalls": "39",
           "accurateLongBalls": "16",
           "longballPct": "0.4",
@@ -14888,8 +14900,8 @@
           "totalTackles": "6",
           "tacklePct": "0.8",
           "interceptions": "9",
-          "effectiveClearance": "15",
-          "totalClearance": "15"
+          "effectiveClearance": "16",
+          "totalClearance": "16"
         }
       }
     },
