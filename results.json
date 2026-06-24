@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T00:04:13.751Z",
+  "generatedAt": "2026-06-24T00:05:16.227Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -12800,12 +12800,18 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "45'+3'",
+      "clock": "46'",
       "events": [
         {
           "min": "45'",
+          "icon": "▶️",
+          "txt": "Início do segundo tempo Panamá 0, Croácia 0.",
+          "sub": "🏳️"
+        },
+        {
+          "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, 🇭🇷. Substituição de Andrej Kramaric (Croácia) aos 45'",
+          "txt": "Substituição, 🇭🇷. Andrej Kramaric entra em campo para substituir Josko Gvardiol.",
           "sub": "🇭🇷"
         },
         {
