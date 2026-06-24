@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T23:50:15.499Z",
+  "generatedAt": "2026-06-24T23:51:16.554Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -14958,7 +14958,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "88'",
+      "clock": "89'",
       "events": [
         {
           "min": "83'",
@@ -14991,13 +14991,13 @@
           "sub": "🇭🇹"
         },
         {
-          "min": "79'",
+          "min": "80'",
           "icon": "🟨",
           "txt": "Duckens Nazon (Haiti) recebe cartão amarelo.",
           "sub": "🇭🇹"
         },
         {
-          "min": "78'",
+          "min": "79'",
           "icon": "🟨",
           "txt": "Johny Placide (Haiti) recebe cartão amarelo.",
           "sub": "🇭🇹"
@@ -15541,7 +15541,7 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "85'",
+      "clock": "86'",
       "events": [
         {
           "min": "82'",
@@ -16005,7 +16005,7 @@
           "offsides": "0",
           "wonCorners": "6",
           "saves": "4",
-          "possessionPct": "48.6",
+          "possessionPct": "48.4",
           "totalShots": "11",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
@@ -16021,8 +16021,8 @@
           "accurateLongBalls": "17",
           "longballPct": "0.5",
           "blockedShots": "2",
-          "effectiveTackles": "6",
-          "totalTackles": "9",
+          "effectiveTackles": "7",
+          "totalTackles": "10",
           "tacklePct": "0.7",
           "interceptions": "1",
           "effectiveClearance": "11",
@@ -16033,16 +16033,16 @@
           "yellowCards": "2",
           "redCards": "0",
           "offsides": "1",
-          "wonCorners": "5",
+          "wonCorners": "6",
           "saves": "3",
-          "possessionPct": "51.4",
+          "possessionPct": "51.6",
           "totalShots": "18",
           "shotsOnTarget": "8",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "486",
-          "totalPasses": "523",
+          "accuratePasses": "490",
+          "totalPasses": "528",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "9",
