@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T23:26:15.332Z",
+  "generatedAt": "2026-06-24T23:27:12.949Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -14958,7 +14958,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "63'",
+      "clock": "64'",
       "events": [
         {
           "min": "58'",
@@ -15367,7 +15367,7 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "4",
+          "foulsCommitted": "5",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "4",
@@ -15436,11 +15436,17 @@
       "venue": "Hard Rock Stadium",
       "iso": "2026-06-24T22:00Z",
       "sh": 0,
-      "sa": 2,
+      "sa": 3,
       "done": false,
       "live": true,
-      "clock": "61'",
+      "clock": "62'",
       "events": [
+        {
+          "min": "60'",
+          "icon": "⚽",
+          "txt": "Matheus Cunha (Brasil) finalização com o pé direito do meio da área.",
+          "sub": "🇧🇷"
+        },
         {
           "min": "45'",
           "icon": "▶️",
@@ -15819,7 +15825,7 @@
           "offsides": "0",
           "wonCorners": "3",
           "saves": "3",
-          "possessionPct": "48.8",
+          "possessionPct": "48.4",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
@@ -15849,14 +15855,14 @@
           "offsides": "0",
           "wonCorners": "4",
           "saves": "1",
-          "possessionPct": "51.2",
-          "totalShots": "15",
-          "shotsOnTarget": "6",
+          "possessionPct": "51.6",
+          "totalShots": "16",
+          "shotsOnTarget": "7",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "368",
-          "totalPasses": "401",
+          "accuratePasses": "375",
+          "totalPasses": "408",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "8",
