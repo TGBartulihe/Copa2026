@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T20:26:15.862Z",
+  "generatedAt": "2026-06-24T20:27:16.793Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13837,6 +13837,24 @@
       "clock": "64'",
       "events": [
         {
+          "min": "64'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇶🇦"
+        },
+        {
+          "min": "64'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇧🇦. Ermin Mahmic substitui Edin Dzeko.",
+          "sub": "🇧🇦"
+        },
+        {
+          "min": "64'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇧🇦"
+        },
+        {
           "min": "63'",
           "icon": "🔄",
           "txt": "Substituição, 🇧🇦. Dennis Hadzikadunic entra em campo Nikola Katic devido a uma lesão.",
@@ -13844,15 +13862,15 @@
         },
         {
           "min": "62'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a uma lesão de Nikola Vasilj (Bósnia e Herzegovina).",
-          "sub": "🇧🇦"
-        },
-        {
-          "min": "62'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇶🇦"
+        },
+        {
+          "min": "62'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Nikola Vasilj (Bósnia e Herzegovina).",
+          "sub": "🇧🇦"
         },
         {
           "min": "56'",
@@ -14277,12 +14295,12 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "372",
-          "totalPasses": "419",
+          "totalPasses": "420",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "20",
           "crossPct": "0.1",
-          "totalLongBalls": "36",
+          "totalLongBalls": "37",
           "accurateLongBalls": "21",
           "longballPct": "0.6",
           "blockedShots": "3",
@@ -14320,8 +14338,8 @@
           "totalTackles": "9",
           "tacklePct": "0.6",
           "interceptions": "3",
-          "effectiveClearance": "20",
-          "totalClearance": "20"
+          "effectiveClearance": "21",
+          "totalClearance": "21"
         }
       }
     },
@@ -14336,7 +14354,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "67'",
+      "clock": "68'",
       "events": [
         {
           "min": "58'",
