@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T23:45:13.200Z",
+  "generatedAt": "2026-06-24T23:46:15.160Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -14958,8 +14958,26 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "83'",
+      "clock": "84'",
       "events": [
+        {
+          "min": "83'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇭🇹. Frantzdy Pierrot substitui Lenny Joseph.",
+          "sub": "🇭🇹"
+        },
+        {
+          "min": "83'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇲🇦. Entra Samir El Mourabet substituindo Neil El Aynaoui.",
+          "sub": "🇲🇦"
+        },
+        {
+          "min": "83'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇲🇦. Noussair Mazraoui entra em campo e entra Anass Salah-Eddine.",
+          "sub": "🇲🇦"
+        },
         {
           "min": "80'",
           "icon": "🔄",
@@ -15458,12 +15476,12 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "445",
-          "totalPasses": "499",
+          "totalPasses": "500",
           "passPct": "0.9",
           "accurateCrosses": "7",
           "totalCrosses": "20",
           "crossPct": "0.4",
-          "totalLongBalls": "29",
+          "totalLongBalls": "30",
           "accurateLongBalls": "18",
           "longballPct": "0.6",
           "blockedShots": "4",
@@ -15500,7 +15518,7 @@
           "effectiveTackles": "10",
           "totalTackles": "23",
           "tacklePct": "0.4",
-          "interceptions": "10",
+          "interceptions": "11",
           "effectiveClearance": "21",
           "totalClearance": "21"
         }
@@ -15517,7 +15535,7 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "80'",
+      "clock": "81'",
       "events": [
         {
           "min": "76'",
@@ -15950,15 +15968,15 @@
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "6",
-          "saves": "3",
-          "possessionPct": "49.5",
+          "saves": "4",
+          "possessionPct": "49.3",
           "totalShots": "10",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "415",
-          "totalPasses": "457",
+          "accuratePasses": "420",
+          "totalPasses": "463",
           "passPct": "0.9",
           "accurateCrosses": "6",
           "totalCrosses": "18",
@@ -15971,27 +15989,27 @@
           "totalTackles": "8",
           "tacklePct": "0.6",
           "interceptions": "1",
-          "effectiveClearance": "10",
-          "totalClearance": "10"
+          "effectiveClearance": "11",
+          "totalClearance": "11"
         },
         "away": {
-          "foulsCommitted": "5",
+          "foulsCommitted": "6",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "5",
           "saves": "3",
-          "possessionPct": "50.5",
-          "totalShots": "16",
-          "shotsOnTarget": "7",
-          "shotPct": "0.4",
+          "possessionPct": "50.7",
+          "totalShots": "17",
+          "shotsOnTarget": "8",
+          "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "444",
-          "totalPasses": "479",
+          "accuratePasses": "453",
+          "totalPasses": "488",
           "passPct": "0.9",
           "accurateCrosses": "1",
-          "totalCrosses": "8",
+          "totalCrosses": "9",
           "crossPct": "0.1",
           "totalLongBalls": "25",
           "accurateLongBalls": "9",
