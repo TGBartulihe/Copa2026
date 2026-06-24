@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T00:41:16.030Z",
+  "generatedAt": "2026-06-24T00:42:12.158Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -12800,12 +12800,12 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "82'",
+      "clock": "83'",
       "events": [
         {
           "min": "81'",
           "icon": "🔄",
-          "txt": "Substituição, 🇭🇷. Substituição de Mario Pasalic (Croácia) aos 81'",
+          "txt": "Substituição, 🇭🇷. Entra Mario Pasalic substituindo Luka Modric.",
           "sub": "🇭🇷"
         },
         {
@@ -13231,16 +13231,16 @@
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "2",
-          "wonCorners": "1",
-          "saves": "2",
+          "wonCorners": "2",
+          "saves": "1",
           "possessionPct": "59.2",
-          "totalShots": "5",
+          "totalShots": "6",
           "shotsOnTarget": "2",
-          "shotPct": "0.4",
+          "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "401",
-          "totalPasses": "470",
+          "totalPasses": "471",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "15",
@@ -13248,7 +13248,7 @@
           "totalLongBalls": "42",
           "accurateLongBalls": "16",
           "longballPct": "0.4",
-          "blockedShots": "0",
+          "blockedShots": "1",
           "effectiveTackles": "7",
           "totalTackles": "16",
           "tacklePct": "0.4",
