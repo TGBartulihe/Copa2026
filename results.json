@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T23:34:13.775Z",
+  "generatedAt": "2026-06-24T23:35:13.117Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -14969,13 +14969,13 @@
         {
           "min": "71'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇲🇦"
         },
         {
           "min": "70'",
           "icon": "🔄",
-          "txt": "Substituição, 🇲🇦. Substituição de Gessime Yassine (Marrocos) aos 70'",
+          "txt": "Substituição, 🇲🇦. Entra Gessime Yassine substituindo Ayoub El Kaabi.",
           "sub": "🇲🇦"
         },
         {
@@ -14987,7 +14987,7 @@
         {
           "min": "70'",
           "icon": "🔄",
-          "txt": "Substituição, 🇲🇦. Substituição de Soufiane Rahimi (Marrocos) aos 70'",
+          "txt": "Substituição, 🇲🇦. Entra Soufiane Rahimi para o lugar de Ismael Saibari.",
           "sub": "🇲🇦"
         },
         {
@@ -15436,8 +15436,8 @@
           "accuratePasses": "397",
           "totalPasses": "443",
           "passPct": "0.9",
-          "accurateCrosses": "5",
-          "totalCrosses": "18",
+          "accurateCrosses": "6",
+          "totalCrosses": "19",
           "crossPct": "0.3",
           "totalLongBalls": "24",
           "accurateLongBalls": "14",
@@ -15493,7 +15493,7 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "69'",
+      "clock": "70'",
       "events": [
         {
           "min": "68'",
@@ -15945,7 +15945,7 @@
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "394",
+          "accuratePasses": "395",
           "totalPasses": "430",
           "passPct": "0.9",
           "accurateCrosses": "1",
