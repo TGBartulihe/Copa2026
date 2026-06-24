@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T22:01:20.899Z",
+  "generatedAt": "2026-06-24T22:02:14.999Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -14954,12 +14954,359 @@
       "brTime": "19h",
       "venue": "Mercedes-Benz Stadium",
       "iso": "2026-06-24T22:00Z",
-      "sh": null,
-      "sa": null,
+      "sh": 0,
+      "sa": 0,
       "done": false,
-      "live": false,
-      "clock": "",
-      "events": []
+      "live": true,
+      "clock": "1'",
+      "events": [
+        {
+          "min": "",
+          "icon": "🏁",
+          "txt": "Início de jogo",
+          "sub": "🏳️"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Yassine Bounou",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Chadi Riad",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Redouane Halhal",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Anass Salah-Eddine",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Achraf Hakimi",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Neil El Aynaoui",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Sofyan Amrabat",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Ismael Saibari",
+              "pos": "AM",
+              "row": 2.5
+            },
+            {
+              "name": "Bilal El Khannouss",
+              "pos": "AM-L",
+              "row": 2.5
+            },
+            {
+              "name": "Brahim Díaz",
+              "pos": "AM-R",
+              "row": 2.5
+            },
+            {
+              "name": "Ayoub El Kaabi",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Chemsdine Talbi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Gessime Yassine",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Noussair Mazraoui",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ayyoub Bouaddi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Samir El Mourabet",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ahmed Reda Tagnaouti",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Munir El Kajoui",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Youssef Belammari",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Zakaria El Ouahdi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Soufiane Rahimi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Issa Diop",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Marwane Saadane",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Amine Sbaï",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Azzedine Ounahi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ayoube Amaimouni",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-2-3-1",
+          "dotColor": "#df2027"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Johny Placide",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Hannes Delcroix",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Ricardo Adé",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Martin Expérience",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Jean-Kévin Duverne",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Jean-Ricner Bellegarde",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Danley Jean Jacques",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Ruben Providence",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Josué Casimir",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Lenny Joseph",
+              "pos": "CF-L",
+              "row": 3
+            },
+            {
+              "name": "Wilson Isidor",
+              "pos": "CF-R",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Keeto Thermoncy",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Woodensky Pierre",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Yassin Fortuné",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Wilguens Paugain",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Dominique Simon",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Duckens Nazon",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Derrick Etienne Jr.",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Carlens Arcus",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Garven Metusala",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Alexandre Pierre",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Louicius Deedson",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Markhus Lacroix",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Josué Duverger",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Carl Sainté",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Frantzdy Pierrot",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-4-2",
+          "dotColor": "#0033a0"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "0",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "0",
+          "saves": "0",
+          "possessionPct": "100",
+          "totalShots": "0",
+          "shotsOnTarget": "0",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "3",
+          "totalPasses": "3",
+          "passPct": "1.0",
+          "accurateCrosses": "0",
+          "totalCrosses": "0",
+          "crossPct": "0.0",
+          "totalLongBalls": "0",
+          "accurateLongBalls": "0",
+          "longballPct": "0.0",
+          "blockedShots": "0",
+          "effectiveTackles": "0",
+          "totalTackles": "0",
+          "tacklePct": "0.0",
+          "interceptions": "0",
+          "effectiveClearance": "0",
+          "totalClearance": "0"
+        },
+        "away": {
+          "foulsCommitted": "0",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "0",
+          "saves": "0",
+          "possessionPct": "0",
+          "totalShots": "0",
+          "shotsOnTarget": "0",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "0",
+          "totalPasses": "0",
+          "passPct": "0.0",
+          "accurateCrosses": "0",
+          "totalCrosses": "0",
+          "crossPct": "0.0",
+          "totalLongBalls": "0",
+          "accurateLongBalls": "0",
+          "longballPct": "0.0",
+          "blockedShots": "0",
+          "effectiveTackles": "0",
+          "totalTackles": "0",
+          "tacklePct": "0.0",
+          "interceptions": "0",
+          "effectiveClearance": "0",
+          "totalClearance": "0"
+        }
+      }
     },
     {
       "home": "Escócia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
@@ -14968,12 +15315,299 @@
       "brTime": "19h",
       "venue": "Hard Rock Stadium",
       "iso": "2026-06-24T22:00Z",
-      "sh": null,
-      "sa": null,
+      "sh": 0,
+      "sa": 0,
       "done": false,
-      "live": false,
-      "clock": "",
-      "events": []
+      "live": true,
+      "clock": "1'",
+      "events": [],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Angus Gunn",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Nathan Patterson",
+              "pos": "D",
+              "row": 1
+            },
+            {
+              "name": "Jack Hendry",
+              "pos": "D",
+              "row": 1
+            },
+            {
+              "name": "Andy Robertson",
+              "pos": "D",
+              "row": 1
+            },
+            {
+              "name": "Scott McKenna",
+              "pos": "D",
+              "row": 1
+            },
+            {
+              "name": "Scott McTominay",
+              "pos": "M",
+              "row": 2
+            },
+            {
+              "name": "Kenny McLean",
+              "pos": "M",
+              "row": 2
+            },
+            {
+              "name": "Ben Gannon-Doak",
+              "pos": "M",
+              "row": 2
+            },
+            {
+              "name": "John McGinn",
+              "pos": "M",
+              "row": 2
+            },
+            {
+              "name": "Lewis Ferguson",
+              "pos": "M",
+              "row": 2
+            },
+            {
+              "name": "Lawrence Shankland",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "George Hirst",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Dominic Hyam",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ché Adams",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "John Souttar",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Liam Kelly",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Grant Hanley",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ross Stewart",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Anthony Ralston",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ryan Christie",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Lyndon Dykes",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kieran Tierney",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Craig Gordon",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Aaron Hickey",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Tyler Fletcher",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Findlay Curtis",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-4-1-1",
+          "dotColor": "#1a2d69"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Alisson Becker",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Gabriel Magalhães",
+              "pos": "D",
+              "row": 1
+            },
+            {
+              "name": "Danilo",
+              "pos": "D",
+              "row": 1
+            },
+            {
+              "name": "Marquinhos",
+              "pos": "D",
+              "row": 1
+            },
+            {
+              "name": "Douglas Santos",
+              "pos": "D",
+              "row": 1
+            },
+            {
+              "name": "Bruno Guimarães",
+              "pos": "M",
+              "row": 2
+            },
+            {
+              "name": "Casemiro",
+              "pos": "M",
+              "row": 2
+            },
+            {
+              "name": "Lucas Paquetá",
+              "pos": "M",
+              "row": 2
+            },
+            {
+              "name": "Vinícius Júnior",
+              "pos": "F",
+              "row": 3
+            },
+            {
+              "name": "Rayan",
+              "pos": "F",
+              "row": 3
+            },
+            {
+              "name": "Matheus Cunha",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Fabinho",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Igor Thiago",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Luiz Henrique",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ederson ",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Danilo Santos",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Roger Ibañez",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Léo Pereira",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Weverton",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Neymar",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Endrick",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Gabriel Martinelli",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Alex Sandro",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Éderson",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Bremer",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-3-3",
+          "dotColor": "#193375"
+        }
+      },
+      "stats": {
+        "home": {
+          "goalDifference": "0",
+          "totalGoals": "1",
+          "goalAssists": "0",
+          "goalsConceded": "1"
+        },
+        "away": {
+          "goalDifference": "3",
+          "totalGoals": "4",
+          "goalAssists": "3",
+          "goalsConceded": "1"
+        }
+      }
     },
     {
       "home": "Rep. Tcheca 🇨🇿",
