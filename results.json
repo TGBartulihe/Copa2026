@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T19:24:13.273Z",
+  "generatedAt": "2026-06-24T19:25:15.342Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13834,7 +13834,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "24'",
+      "clock": "25'",
       "events": [
         {
           "min": "23'",
@@ -13845,13 +13845,13 @@
         {
           "min": "23'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
           "sub": "🇧🇦"
         },
         {
           "min": "23'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇶🇦"
         },
         {
@@ -13862,8 +13862,8 @@
         },
         {
           "min": "23'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Boualem Khoukhi (Qatar).",
           "sub": "🇶🇦"
         },
         {
@@ -14151,9 +14151,9 @@
           "wonCorners": "2",
           "saves": "0",
           "possessionPct": "58.4",
-          "totalShots": "4",
+          "totalShots": "5",
           "shotsOnTarget": "2",
-          "shotPct": "0.5",
+          "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "116",
@@ -14165,7 +14165,7 @@
           "totalLongBalls": "13",
           "accurateLongBalls": "10",
           "longballPct": "0.8",
-          "blockedShots": "1",
+          "blockedShots": "2",
           "effectiveTackles": "1",
           "totalTackles": "1",
           "tacklePct": "1.0",
@@ -14216,8 +14216,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "24'",
+      "clock": "25'",
       "events": [
+        {
+          "min": "25'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇦"
+        },
+        {
+          "min": "25'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇭"
+        },
         {
           "min": "23'",
           "icon": "⏸️",
