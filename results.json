@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T22:44:12.042Z",
+  "generatedAt": "2026-06-24T22:45:11.893Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -14958,8 +14958,14 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "43'",
+      "clock": "44'",
       "events": [
+        {
+          "min": "43'",
+          "icon": "⚽",
+          "txt": "Wilson Isidor (Haiti) finalização com o pé direito de fora da área ao ângulo superior esquerdo. Assistência de Jean-Kévin Duverne.",
+          "sub": "🇭🇹"
+        },
         {
           "min": "39'",
           "icon": "⚽",
@@ -15344,9 +15350,9 @@
           "wonCorners": "0",
           "saves": "4",
           "possessionPct": "34.3",
-          "totalShots": "3",
+          "totalShots": "4",
           "shotsOnTarget": "1",
-          "shotPct": "0.0",
+          "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "115",
@@ -15379,7 +15385,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "43'",
+      "clock": "44'",
       "events": [
         {
           "min": "28'",
