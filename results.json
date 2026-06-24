@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T20:07:15.802Z",
+  "generatedAt": "2026-06-24T20:08:14.922Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13834,12 +13834,24 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "45'+6'",
+      "clock": "46'",
       "events": [
         {
           "min": "45'",
+          "icon": "▶️",
+          "txt": "Início do segundo tempo Bósnia e Herzegovina 2, Catar 1.",
+          "sub": "🏳️"
+        },
+        {
+          "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, 🇧🇦. Substituição de Amar Memic (Bósnia-Herzegovina) aos 45'",
+          "txt": "Substituição, 🇶🇦. Abdulaziz Hatem entra em campo com Jassem Gaber.",
+          "sub": "🇶🇦"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇧🇦. Entra Amar Memic substituindo Arjan Malic.",
           "sub": "🇧🇦"
         },
         {
@@ -14276,7 +14288,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "48'",
+      "clock": "49'",
       "events": [
         {
           "min": "46'",
@@ -14610,21 +14622,21 @@
           "offsides": "1",
           "wonCorners": "2",
           "saves": "3",
-          "possessionPct": "69.8",
+          "possessionPct": "68",
           "totalShots": "5",
           "shotsOnTarget": "3",
           "shotPct": "0.6",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "261",
-          "totalPasses": "303",
+          "accuratePasses": "262",
+          "totalPasses": "306",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "4",
           "crossPct": "0.3",
-          "totalLongBalls": "26",
+          "totalLongBalls": "27",
           "accurateLongBalls": "12",
-          "longballPct": "0.5",
+          "longballPct": "0.4",
           "blockedShots": "1",
           "effectiveTackles": "3",
           "totalTackles": "7",
@@ -14640,14 +14652,14 @@
           "offsides": "3",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "30.2",
+          "possessionPct": "32",
           "totalShots": "5",
           "shotsOnTarget": "3",
           "shotPct": "0.6",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "96",
-          "totalPasses": "128",
+          "accuratePasses": "107",
+          "totalPasses": "141",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "4",
@@ -14659,7 +14671,7 @@
           "effectiveTackles": "3",
           "totalTackles": "4",
           "tacklePct": "0.8",
-          "interceptions": "4",
+          "interceptions": "5",
           "effectiveClearance": "9",
           "totalClearance": "9"
         }
