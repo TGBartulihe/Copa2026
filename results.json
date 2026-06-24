@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T03:06:14.715Z",
+  "generatedAt": "2026-06-24T03:07:14.467Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13299,8 +13299,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "45'+6'",
+      "clock": "46'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🏳️"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇩. Entra Noah Sadiki para o lugar de Ngal'ayel Mukau.",
+          "sub": "🇨🇩"
+        },
         {
           "min": "45'+5'",
           "icon": "⏱️",
@@ -13660,19 +13672,19 @@
           "offsides": "3",
           "wonCorners": "2",
           "saves": "0",
-          "possessionPct": "66.1",
+          "possessionPct": "66.3",
           "totalShots": "14",
           "shotsOnTarget": "6",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "272",
-          "totalPasses": "301",
+          "accuratePasses": "274",
+          "totalPasses": "304",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "6",
           "crossPct": "0.3",
-          "totalLongBalls": "26",
+          "totalLongBalls": "27",
           "accurateLongBalls": "16",
           "longballPct": "0.6",
           "blockedShots": "5",
@@ -13690,7 +13702,7 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "6",
-          "possessionPct": "33.9",
+          "possessionPct": "33.7",
           "totalShots": "2",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
