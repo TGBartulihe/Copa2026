@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T19:22:15.940Z",
+  "generatedAt": "2026-06-24T19:23:14.378Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13834,8 +13834,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "22'",
+      "clock": "23'",
       "events": [
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇶🇦"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇧🇦"
+        },
         {
           "min": "",
           "icon": "🏁",
@@ -14114,20 +14126,20 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "0",
-          "possessionPct": "57.3",
+          "possessionPct": "58.4",
           "totalShots": "4",
           "shotsOnTarget": "2",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "112",
-          "totalPasses": "128",
+          "accuratePasses": "116",
+          "totalPasses": "133",
           "passPct": "0.9",
           "accurateCrosses": "0",
-          "totalCrosses": "8",
+          "totalCrosses": "9",
           "crossPct": "0.0",
-          "totalLongBalls": "12",
-          "accurateLongBalls": "9",
+          "totalLongBalls": "13",
+          "accurateLongBalls": "10",
           "longballPct": "0.8",
           "blockedShots": "1",
           "effectiveTackles": "1",
@@ -14138,13 +14150,13 @@
           "totalClearance": "4"
         },
         "away": {
-          "foulsCommitted": "2",
+          "foulsCommitted": "3",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "2",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "42.7",
+          "possessionPct": "41.6",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
@@ -14180,8 +14192,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "22'",
+      "clock": "23'",
       "events": [
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇨🇦"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇨🇭"
+        },
         {
           "min": "",
           "icon": "🏁",
