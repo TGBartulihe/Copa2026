@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T21:35:14.902Z",
+  "generatedAt": "2026-06-24T21:36:12.964Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -14904,8 +14904,8 @@
           "accurateCrosses": "1",
           "totalCrosses": "6",
           "crossPct": "0.2",
-          "totalLongBalls": "47",
-          "accurateLongBalls": "19",
+          "totalLongBalls": "46",
+          "accurateLongBalls": "18",
           "longballPct": "0.4",
           "blockedShots": "1",
           "effectiveTackles": "7",
@@ -14941,7 +14941,7 @@
           "effectiveTackles": "6",
           "totalTackles": "9",
           "tacklePct": "0.7",
-          "interceptions": "12",
+          "interceptions": "13",
           "effectiveClearance": "19",
           "totalClearance": "19"
         }
