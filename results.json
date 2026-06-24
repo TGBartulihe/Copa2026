@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T03:38:18.640Z",
+  "generatedAt": "2026-06-24T03:39:15.566Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13299,12 +13299,18 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "77'",
+      "clock": "78'",
       "events": [
+        {
+          "min": "78'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇴. Substituição de Richard Ríos (Colômbia) aos 78'",
+          "sub": "🇨🇴"
+        },
         {
           "min": "76'",
           "icon": "⚽",
-          "txt": "Daniel Muñoz (Colômbia) finalização com o pé esquerdo do lado direito da área.",
+          "txt": "Daniel Muñoz (Colômbia) finalização com o pé esquerdo do lado direito da área no Escanteio inferior direito. Assistência de Juan Fernando Quintero.",
           "sub": "🇨🇴"
         },
         {
