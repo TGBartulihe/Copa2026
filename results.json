@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T00:18:13.477Z",
+  "generatedAt": "2026-06-24T00:19:10.990Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -12800,7 +12800,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "59'",
+      "clock": "60'",
       "events": [
         {
           "min": "54'",
@@ -13149,18 +13149,18 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "37",
-          "totalShots": "1",
+          "possessionPct": "37.2",
+          "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "165",
-          "totalPasses": "215",
+          "accuratePasses": "171",
+          "totalPasses": "221",
           "passPct": "0.8",
-          "accurateCrosses": "2",
-          "totalCrosses": "15",
-          "crossPct": "0.1",
+          "accurateCrosses": "3",
+          "totalCrosses": "17",
+          "crossPct": "0.2",
           "totalLongBalls": "39",
           "accurateLongBalls": "16",
           "longballPct": "0.4",
@@ -13179,14 +13179,14 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "63",
+          "possessionPct": "62.8",
           "totalShots": "5",
           "shotsOnTarget": "2",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "327",
-          "totalPasses": "376",
+          "accuratePasses": "336",
+          "totalPasses": "385",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "15",
@@ -13199,8 +13199,8 @@
           "totalTackles": "11",
           "tacklePct": "0.5",
           "interceptions": "3",
-          "effectiveClearance": "17",
-          "totalClearance": "17"
+          "effectiveClearance": "19",
+          "totalClearance": "19"
         }
       }
     },
