@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T23:49:16.023Z",
+  "generatedAt": "2026-06-24T23:50:15.499Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -14958,7 +14958,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "87'",
+      "clock": "88'",
       "events": [
         {
           "min": "83'",
@@ -14999,7 +14999,7 @@
         {
           "min": "78'",
           "icon": "🟨",
-          "txt": "Johny Placide (Haiti) Cartão Amarelo aos 78'",
+          "txt": "Johny Placide (Haiti) recebe cartão amarelo.",
           "sub": "🇭🇹"
         },
         {
@@ -15481,8 +15481,8 @@
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "459",
-          "totalPasses": "516",
+          "accuratePasses": "469",
+          "totalPasses": "528",
           "passPct": "0.9",
           "accurateCrosses": "7",
           "totalCrosses": "21",
@@ -15491,8 +15491,8 @@
           "accurateLongBalls": "19",
           "longballPct": "0.6",
           "blockedShots": "4",
-          "effectiveTackles": "8",
-          "totalTackles": "17",
+          "effectiveTackles": "9",
+          "totalTackles": "19",
           "tacklePct": "0.5",
           "interceptions": "6",
           "effectiveClearance": "13",
@@ -15500,7 +15500,7 @@
         },
         "away": {
           "foulsCommitted": "16",
-          "yellowCards": "1",
+          "yellowCards": "2",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "0",
@@ -15511,22 +15511,22 @@
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "178",
-          "totalPasses": "223",
+          "accuratePasses": "182",
+          "totalPasses": "228",
           "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "1",
           "crossPct": "0.0",
-          "totalLongBalls": "41",
+          "totalLongBalls": "42",
           "accurateLongBalls": "19",
           "longballPct": "0.5",
           "blockedShots": "1",
-          "effectiveTackles": "10",
-          "totalTackles": "23",
-          "tacklePct": "0.4",
-          "interceptions": "12",
-          "effectiveClearance": "23",
-          "totalClearance": "23"
+          "effectiveTackles": "11",
+          "totalTackles": "24",
+          "tacklePct": "0.5",
+          "interceptions": "13",
+          "effectiveClearance": "24",
+          "totalClearance": "24"
         }
       }
     },
@@ -15541,7 +15541,7 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "84'",
+      "clock": "85'",
       "events": [
         {
           "min": "82'",
@@ -16005,7 +16005,7 @@
           "offsides": "0",
           "wonCorners": "6",
           "saves": "4",
-          "possessionPct": "49.7",
+          "possessionPct": "48.6",
           "totalShots": "11",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
@@ -16035,14 +16035,14 @@
           "offsides": "1",
           "wonCorners": "5",
           "saves": "3",
-          "possessionPct": "50.3",
+          "possessionPct": "51.4",
           "totalShots": "18",
           "shotsOnTarget": "8",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "464",
-          "totalPasses": "501",
+          "accuratePasses": "486",
+          "totalPasses": "523",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "9",
