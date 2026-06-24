@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T19:23:14.378Z",
+  "generatedAt": "2026-06-24T19:24:13.273Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13834,8 +13834,32 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "23'",
+      "clock": "24'",
       "events": [
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇶🇦"
+        },
+        {
+          "min": "23'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇧🇦"
+        },
+        {
+          "min": "23'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇶🇦"
+        },
+        {
+          "min": "23'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇧🇦"
+        },
         {
           "min": "23'",
           "icon": "⏸️",
@@ -14192,7 +14216,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "23'",
+      "clock": "24'",
       "events": [
         {
           "min": "23'",
@@ -14203,7 +14227,7 @@
         {
           "min": "23'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
           "sub": "🇨🇭"
         },
         {
@@ -14481,17 +14505,17 @@
           "foulsCommitted": "8",
           "yellowCards": "0",
           "redCards": "0",
-          "offsides": "0",
+          "offsides": "1",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "71.1",
+          "possessionPct": "71.3",
           "totalShots": "3",
           "shotsOnTarget": "2",
           "shotPct": "0.7",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "113",
-          "totalPasses": "131",
+          "accuratePasses": "114",
+          "totalPasses": "132",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "1",
@@ -14514,7 +14538,7 @@
           "offsides": "2",
           "wonCorners": "0",
           "saves": "2",
-          "possessionPct": "28.9",
+          "possessionPct": "28.7",
           "totalShots": "1",
           "shotsOnTarget": "1",
           "shotPct": "1.0",
