@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T00:56:15.155Z",
+  "generatedAt": "2026-06-24T00:57:15.163Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -12846,12 +12846,6 @@
         },
         {
           "min": "72'",
-          "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇵🇦"
-        },
-        {
-          "min": "72'",
           "icon": "🔄",
           "txt": "Substituição, 🇭🇷. Petar Sucic substitui Mateo Kovacic.",
           "sub": "🇭🇷"
@@ -12861,6 +12855,12 @@
           "icon": "🔄",
           "txt": "Substituição, 🇭🇷. Entra Luka Sucic para o lugar de Marco Pasalic.",
           "sub": "🇭🇷"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇵🇦"
         },
         {
           "min": "71'",
