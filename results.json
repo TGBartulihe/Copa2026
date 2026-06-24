@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T03:19:16.532Z",
+  "generatedAt": "2026-06-24T03:20:14.879Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13299,8 +13299,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "58'",
+      "clock": "59'",
       "events": [
+        {
+          "min": "58'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇴. Substituição de Juan Fernando Quintero (Colômbia) aos 58'",
+          "sub": "🇨🇴"
+        },
         {
           "min": "58'",
           "icon": "🔄",
@@ -13310,13 +13316,13 @@
         {
           "min": "57'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇩. Substituição de Simon Banza (RD Congo) aos 57'",
+          "txt": "Substituição, 🇨🇩. Entra Simon Banza para o lugar de Cédric Bakambu.",
           "sub": "🇨🇩"
         },
         {
           "min": "56'",
           "icon": "🟨",
-          "txt": "Jhon Lucumí (Colômbia) Cartão Amarelo aos 56'",
+          "txt": "Jhon Lucumí (Colômbia) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇨🇴"
         },
         {
@@ -13690,20 +13696,20 @@
           "offsides": "3",
           "wonCorners": "3",
           "saves": "0",
-          "possessionPct": "66.3",
+          "possessionPct": "66.4",
           "totalShots": "16",
           "shotsOnTarget": "7",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "355",
-          "totalPasses": "398",
+          "accuratePasses": "358",
+          "totalPasses": "401",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "9",
           "crossPct": "0.3",
-          "totalLongBalls": "36",
-          "accurateLongBalls": "20",
+          "totalLongBalls": "37",
+          "accurateLongBalls": "21",
           "longballPct": "0.6",
           "blockedShots": "5",
           "effectiveTackles": "3",
@@ -13720,7 +13726,7 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "7",
-          "possessionPct": "33.7",
+          "possessionPct": "33.6",
           "totalShots": "3",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
@@ -13730,7 +13736,7 @@
           "totalPasses": "196",
           "passPct": "0.8",
           "accurateCrosses": "1",
-          "totalCrosses": "7",
+          "totalCrosses": "8",
           "crossPct": "0.1",
           "totalLongBalls": "31",
           "accurateLongBalls": "10",
