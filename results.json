@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T00:11:15.640Z",
+  "generatedAt": "2026-06-24T00:12:13.332Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -12800,7 +12800,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "52'",
+      "clock": "53'",
       "events": [
         {
           "min": "45'",
@@ -13137,23 +13137,23 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "11",
+          "foulsCommitted": "12",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "36.4",
+          "possessionPct": "37.1",
           "totalShots": "1",
           "shotsOnTarget": "1",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "152",
-          "totalPasses": "195",
+          "accuratePasses": "156",
+          "totalPasses": "201",
           "passPct": "0.8",
           "accurateCrosses": "2",
-          "totalCrosses": "12",
+          "totalCrosses": "13",
           "crossPct": "0.2",
           "totalLongBalls": "37",
           "accurateLongBalls": "14",
@@ -13173,14 +13173,14 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "63.6",
+          "possessionPct": "62.9",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "302",
-          "totalPasses": "346",
+          "totalPasses": "347",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "14",
@@ -13193,8 +13193,8 @@
           "totalTackles": "10",
           "tacklePct": "0.4",
           "interceptions": "3",
-          "effectiveClearance": "13",
-          "totalClearance": "13"
+          "effectiveClearance": "14",
+          "totalClearance": "14"
         }
       }
     },
