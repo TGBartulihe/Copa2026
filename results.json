@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T03:25:12.650Z",
+  "generatedAt": "2026-06-24T03:26:17.217Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13299,7 +13299,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "64'",
+      "clock": "65'",
       "events": [
         {
           "min": "58'",
@@ -13694,22 +13694,22 @@
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "4",
-          "wonCorners": "3",
+          "wonCorners": "4",
           "saves": "0",
-          "possessionPct": "67.5",
+          "possessionPct": "68.1",
           "totalShots": "16",
           "shotsOnTarget": "7",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "391",
-          "totalPasses": "436",
+          "accuratePasses": "401",
+          "totalPasses": "446",
           "passPct": "0.9",
           "accurateCrosses": "3",
-          "totalCrosses": "9",
+          "totalCrosses": "11",
           "crossPct": "0.3",
-          "totalLongBalls": "42",
-          "accurateLongBalls": "24",
+          "totalLongBalls": "44",
+          "accurateLongBalls": "26",
           "longballPct": "0.6",
           "blockedShots": "5",
           "effectiveTackles": "3",
@@ -13720,13 +13720,13 @@
           "totalClearance": "7"
         },
         "away": {
-          "foulsCommitted": "9",
+          "foulsCommitted": "10",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "2",
           "saves": "7",
-          "possessionPct": "32.5",
+          "possessionPct": "31.9",
           "totalShots": "3",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
@@ -13746,8 +13746,8 @@
           "totalTackles": "8",
           "tacklePct": "0.6",
           "interceptions": "6",
-          "effectiveClearance": "13",
-          "totalClearance": "13"
+          "effectiveClearance": "14",
+          "totalClearance": "14"
         }
       }
     },
