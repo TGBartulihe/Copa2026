@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T02:03:11.709Z",
+  "generatedAt": "2026-06-24T02:05:07.617Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13299,7 +13299,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "3'",
+      "clock": "5'",
       "events": [
         {
           "min": "",
@@ -13495,12 +13495,12 @@
               "row": 2
             },
             {
-              "name": "Cédric Bakambu",
+              "name": "Yoane Wissa",
               "pos": "CF-L",
               "row": 3
             },
             {
-              "name": "Yoane Wissa",
+              "name": "Cédric Bakambu",
               "pos": "CF-R",
               "row": 3
             }
@@ -13592,17 +13592,17 @@
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "1",
-          "wonCorners": "0",
+          "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "56",
+          "possessionPct": "58.5",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "10",
-          "totalPasses": "14",
-          "passPct": "0.7",
+          "accuratePasses": "20",
+          "totalPasses": "24",
+          "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
@@ -13624,20 +13624,20 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "44",
+          "possessionPct": "41.5",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "8",
-          "totalPasses": "11",
+          "accuratePasses": "12",
+          "totalPasses": "17",
           "passPct": "0.7",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
-          "totalLongBalls": "2",
-          "accurateLongBalls": "1",
+          "totalLongBalls": "4",
+          "accurateLongBalls": "2",
           "longballPct": "0.5",
           "blockedShots": "0",
           "effectiveTackles": "0",
