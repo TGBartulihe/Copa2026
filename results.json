@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T00:49:15.496Z",
+  "generatedAt": "2026-06-24T00:50:14.100Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -12800,8 +12800,20 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "90'",
+      "clock": "90'+1'",
       "events": [
+        {
+          "min": "90'+1'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇦. Éric Davis substitui César Blackman.",
+          "sub": "🇵🇦"
+        },
+        {
+          "min": "90'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇦. Tomás Rodríguez substitui Yoel Bárcenas.",
+          "sub": "🇵🇦"
+        },
         {
           "min": "83'",
           "icon": "🔄",
@@ -13207,19 +13219,19 @@
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "1",
-          "wonCorners": "6",
+          "wonCorners": "7",
           "saves": "1",
-          "possessionPct": "41.8",
+          "possessionPct": "41.9",
           "totalShots": "6",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "272",
-          "totalPasses": "345",
+          "totalPasses": "347",
           "passPct": "0.8",
-          "accurateCrosses": "5",
-          "totalCrosses": "28",
+          "accurateCrosses": "6",
+          "totalCrosses": "30",
           "crossPct": "0.2",
           "totalLongBalls": "55",
           "accurateLongBalls": "23",
@@ -13233,34 +13245,34 @@
           "totalClearance": "26"
         },
         "away": {
-          "foulsCommitted": "10",
+          "foulsCommitted": "11",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "2",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "58.2",
+          "possessionPct": "58.1",
           "totalShots": "6",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "429",
-          "totalPasses": "505",
-          "passPct": "0.9",
+          "accuratePasses": "430",
+          "totalPasses": "507",
+          "passPct": "0.8",
           "accurateCrosses": "4",
           "totalCrosses": "17",
           "crossPct": "0.2",
-          "totalLongBalls": "46",
+          "totalLongBalls": "47",
           "accurateLongBalls": "17",
           "longballPct": "0.4",
           "blockedShots": "1",
           "effectiveTackles": "7",
-          "totalTackles": "19",
+          "totalTackles": "18",
           "tacklePct": "0.4",
           "interceptions": "5",
-          "effectiveClearance": "33",
-          "totalClearance": "33"
+          "effectiveClearance": "35",
+          "totalClearance": "35"
         }
       }
     },
