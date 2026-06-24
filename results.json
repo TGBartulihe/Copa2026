@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T03:18:12.361Z",
+  "generatedAt": "2026-06-24T03:19:16.532Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13299,8 +13299,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "56'",
+      "clock": "58'",
       "events": [
+        {
+          "min": "58'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇴. Jhon Córdoba (Colômbia) Substituição aos 58'",
+          "sub": "🇨🇴"
+        },
+        {
+          "min": "57'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇩. Substituição de Simon Banza (RD Congo) aos 57'",
+          "sub": "🇨🇩"
+        },
         {
           "min": "56'",
           "icon": "🟨",
@@ -13673,7 +13685,7 @@
       "stats": {
         "home": {
           "foulsCommitted": "7",
-          "yellowCards": "0",
+          "yellowCards": "1",
           "redCards": "0",
           "offsides": "3",
           "wonCorners": "3",
