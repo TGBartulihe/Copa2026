@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T20:38:14.590Z",
+  "generatedAt": "2026-06-24T20:39:13.779Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -14384,8 +14384,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "79'",
+      "clock": "80'",
       "events": [
+        {
+          "min": "80'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇭. Substituição de Dan Ndoye (Suíça) aos 80'",
+          "sub": "🇨🇭"
+        },
         {
           "min": "76'",
           "icon": "⚽",
@@ -14790,7 +14796,7 @@
           "offsides": "1",
           "wonCorners": "2",
           "saves": "3",
-          "possessionPct": "56.3",
+          "possessionPct": "56.2",
           "totalShots": "6",
           "shotsOnTarget": "4",
           "shotPct": "0.7",
@@ -14820,17 +14826,17 @@
           "offsides": "3",
           "wonCorners": "6",
           "saves": "2",
-          "possessionPct": "43.7",
-          "totalShots": "9",
+          "possessionPct": "43.8",
+          "totalShots": "10",
           "shotsOnTarget": "4",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "236",
-          "totalPasses": "290",
+          "totalPasses": "291",
           "passPct": "0.8",
-          "accurateCrosses": "4",
-          "totalCrosses": "15",
+          "accurateCrosses": "5",
+          "totalCrosses": "16",
           "crossPct": "0.3",
           "totalLongBalls": "34",
           "accurateLongBalls": "15",
