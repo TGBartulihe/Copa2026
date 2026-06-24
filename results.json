@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T23:57:19.939Z",
+  "generatedAt": "2026-06-24T23:58:12.259Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -14495,7 +14495,7 @@
           "sub": "🇨🇦"
         },
         {
-          "min": "75'",
+          "min": "74'",
           "icon": "🔄",
           "txt": "Substituição, 🇨🇦. Promessa David substitui Tajon Buchanan.",
           "sub": "🇨🇦"
@@ -14960,6 +14960,18 @@
       "live": true,
       "clock": "90'+5'",
       "events": [
+        {
+          "min": "90'+6'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇲🇦"
+        },
+        {
+          "min": "90'+6'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇭🇹"
+        },
         {
           "min": "90'+3'",
           "icon": "🟨",
@@ -15486,8 +15498,8 @@
           "redCards": "0",
           "offsides": "5",
           "wonCorners": "9",
-          "saves": "0",
-          "possessionPct": "69.9",
+          "saves": "1",
+          "possessionPct": "69.7",
           "totalShots": "22",
           "shotsOnTarget": "11",
           "shotPct": "0.5",
@@ -15515,16 +15527,16 @@
           "yellowCards": "3",
           "redCards": "0",
           "offsides": "0",
-          "wonCorners": "0",
+          "wonCorners": "1",
           "saves": "8",
-          "possessionPct": "30.1",
+          "possessionPct": "30.3",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "192",
-          "totalPasses": "240",
+          "accuratePasses": "193",
+          "totalPasses": "242",
           "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "1",
@@ -15553,18 +15565,18 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "90'+2'",
+      "clock": "90'+3'",
       "events": [
         {
           "min": "90'+1'",
           "icon": "🔄",
-          "txt": "Substituição, 🏳️. Substituição de Findlay Curtis (Escócia) aos 90'+1'",
+          "txt": "Substituição, 🏳️. Ché Adams entra em campo e entra Lawrence Shankland.",
           "sub": "🏳️"
         },
         {
           "min": "90'+1'",
           "icon": "🔄",
-          "txt": "Substituição, 🏳️. Ché Adams entra em campo e entra Lawrence Shankland.",
+          "txt": "Substituição, 🏳️. Findlay Curtis substitui John McGinn.",
           "sub": "🏳️"
         },
         {
@@ -16029,50 +16041,50 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "9",
+          "foulsCommitted": "10",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "6",
           "saves": "5",
-          "possessionPct": "47.2",
+          "possessionPct": "46.9",
           "totalShots": "13",
           "shotsOnTarget": "4",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "445",
-          "totalPasses": "492",
+          "totalPasses": "495",
           "passPct": "0.9",
           "accurateCrosses": "9",
           "totalCrosses": "21",
           "crossPct": "0.4",
-          "totalLongBalls": "32",
+          "totalLongBalls": "33",
           "accurateLongBalls": "17",
           "longballPct": "0.5",
           "blockedShots": "3",
           "effectiveTackles": "6",
           "totalTackles": "10",
           "tacklePct": "0.6",
-          "interceptions": "1",
+          "interceptions": "2",
           "effectiveClearance": "13",
           "totalClearance": "13"
         },
         "away": {
-          "foulsCommitted": "8",
+          "foulsCommitted": "9",
           "yellowCards": "2",
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "7",
           "saves": "4",
-          "possessionPct": "52.8",
+          "possessionPct": "53.1",
           "totalShots": "20",
           "shotsOnTarget": "9",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "525",
-          "totalPasses": "564",
+          "accuratePasses": "533",
+          "totalPasses": "575",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "12",
@@ -16084,9 +16096,9 @@
           "effectiveTackles": "6",
           "totalTackles": "12",
           "tacklePct": "0.5",
-          "interceptions": "10",
-          "effectiveClearance": "20",
-          "totalClearance": "20"
+          "interceptions": "13",
+          "effectiveClearance": "21",
+          "totalClearance": "21"
         }
       }
     },
