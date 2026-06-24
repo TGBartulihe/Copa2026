@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T22:36:14.969Z",
+  "generatedAt": "2026-06-24T22:37:13.829Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -14958,7 +14958,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "34'",
+      "clock": "35'",
       "events": [
         {
           "min": "33'",
@@ -15307,17 +15307,17 @@
           "offsides": "3",
           "wonCorners": "3",
           "saves": "0",
-          "possessionPct": "67.5",
-          "totalShots": "7",
+          "possessionPct": "69.1",
+          "totalShots": "8",
           "shotsOnTarget": "3",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "183",
-          "totalPasses": "201",
+          "accuratePasses": "197",
+          "totalPasses": "215",
           "passPct": "0.9",
-          "accurateCrosses": "2",
-          "totalCrosses": "8",
+          "accurateCrosses": "3",
+          "totalCrosses": "10",
           "crossPct": "0.3",
           "totalLongBalls": "9",
           "accurateLongBalls": "6",
@@ -15331,13 +15331,13 @@
           "totalClearance": "4"
         },
         "away": {
-          "foulsCommitted": "3",
+          "foulsCommitted": "4",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "0",
           "saves": "3",
-          "possessionPct": "32.5",
+          "possessionPct": "30.9",
           "totalShots": "3",
           "shotsOnTarget": "1",
           "shotPct": "0.0",
@@ -15357,8 +15357,8 @@
           "totalTackles": "10",
           "tacklePct": "0.6",
           "interceptions": "3",
-          "effectiveClearance": "8",
-          "totalClearance": "8"
+          "effectiveClearance": "9",
+          "totalClearance": "9"
         }
       }
     },
@@ -15373,7 +15373,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "35'",
+      "clock": "36'",
       "events": [
         {
           "min": "28'",
