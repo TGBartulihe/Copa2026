@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T22:30:11.940Z",
+  "generatedAt": "2026-06-24T22:31:15.468Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -14958,10 +14958,10 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "28'",
+      "clock": "30'",
       "events": [
         {
-          "min": "26'",
+          "min": "25'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
           "sub": "🇭🇹"
@@ -15283,10 +15283,10 @@
           "offsides": "2",
           "wonCorners": "2",
           "saves": "0",
-          "possessionPct": "70.1",
-          "totalShots": "4",
+          "possessionPct": "69.6",
+          "totalShots": "5",
           "shotsOnTarget": "1",
-          "shotPct": "0.3",
+          "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "166",
@@ -15313,15 +15313,15 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "29.9",
+          "possessionPct": "30.4",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "67",
-          "totalPasses": "80",
-          "passPct": "0.8",
+          "accuratePasses": "70",
+          "totalPasses": "82",
+          "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
@@ -15349,19 +15349,19 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "29'",
+      "clock": "30'",
       "events": [
-        {
-          "min": "28'",
-          "icon": "▶️",
-          "txt": "Atraso acabou. Eles estão prontos para continuar.",
-          "sub": "🇧🇷"
-        },
         {
           "min": "28'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
           "sub": "🏳️"
+        },
+        {
+          "min": "28'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇧🇷"
         },
         {
           "min": "25'",
