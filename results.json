@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T02:50:15.443Z",
+  "generatedAt": "2026-06-24T02:51:19.341Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13299,8 +13299,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "45'+5'",
+      "clock": "45'+6'",
       "events": [
+        {
+          "min": "45'+6'",
+          "icon": "⏱️",
+          "txt": "Fim do primeiro tempo, Colômbia 0, Congo RD 0.",
+          "sub": "🏳️"
+        },
         {
           "min": "45'+5'",
           "icon": "▶️",
@@ -13654,7 +13660,7 @@
           "offsides": "3",
           "wonCorners": "2",
           "saves": "0",
-          "possessionPct": "66.2",
+          "possessionPct": "66.1",
           "totalShots": "14",
           "shotsOnTarget": "6",
           "shotPct": "0.4",
@@ -13684,19 +13690,19 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "6",
-          "possessionPct": "33.8",
+          "possessionPct": "33.9",
           "totalShots": "2",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "111",
-          "totalPasses": "148",
-          "passPct": "0.8",
+          "totalPasses": "149",
+          "passPct": "0.7",
           "accurateCrosses": "1",
           "totalCrosses": "7",
           "crossPct": "0.1",
-          "totalLongBalls": "23",
+          "totalLongBalls": "24",
           "accurateLongBalls": "7",
           "longballPct": "0.3",
           "blockedShots": "0",
