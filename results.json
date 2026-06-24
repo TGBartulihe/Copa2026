@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T23:22:11.610Z",
+  "generatedAt": "2026-06-24T23:23:14.811Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -14958,7 +14958,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "59'",
+      "clock": "60'",
       "events": [
         {
           "min": "58'",
@@ -15439,7 +15439,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "57'",
+      "clock": "58'",
       "events": [
         {
           "min": "45'",
@@ -15813,19 +15813,19 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "4",
+          "foulsCommitted": "5",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "3",
           "saves": "3",
-          "possessionPct": "50.7",
+          "possessionPct": "50.1",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "332",
+          "accuratePasses": "333",
           "totalPasses": "368",
           "passPct": "0.9",
           "accurateCrosses": "2",
@@ -15839,8 +15839,8 @@
           "totalTackles": "7",
           "tacklePct": "0.7",
           "interceptions": "1",
-          "effectiveClearance": "9",
-          "totalClearance": "9"
+          "effectiveClearance": "10",
+          "totalClearance": "10"
         },
         "away": {
           "foulsCommitted": "2",
@@ -15849,14 +15849,14 @@
           "offsides": "0",
           "wonCorners": "4",
           "saves": "1",
-          "possessionPct": "49.3",
+          "possessionPct": "49.9",
           "totalShots": "13",
           "shotsOnTarget": "6",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "332",
-          "totalPasses": "362",
+          "accuratePasses": "341",
+          "totalPasses": "372",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "8",
