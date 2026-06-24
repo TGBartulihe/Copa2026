@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T20:25:15.021Z",
+  "generatedAt": "2026-06-24T20:26:15.862Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13834,12 +13834,18 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "62'",
+      "clock": "64'",
       "events": [
         {
+          "min": "63'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇧🇦. Dennis Hadzikadunic entra em campo Nikola Katic devido a uma lesão.",
+          "sub": "🇧🇦"
+        },
+        {
           "min": "62'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Nikola Vasilj (Bósnia e Herzegovina).",
           "sub": "🇧🇦"
         },
         {
@@ -14314,8 +14320,8 @@
           "totalTackles": "9",
           "tacklePct": "0.6",
           "interceptions": "3",
-          "effectiveClearance": "19",
-          "totalClearance": "19"
+          "effectiveClearance": "20",
+          "totalClearance": "20"
         }
       }
     },
@@ -14330,7 +14336,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "66'",
+      "clock": "67'",
       "events": [
         {
           "min": "58'",
