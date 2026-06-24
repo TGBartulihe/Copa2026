@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T22:53:15.016Z",
+  "generatedAt": "2026-06-24T22:53:53.546Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -15400,6 +15400,12 @@
       "clock": "45'+7'",
       "events": [
         {
+          "min": "45'+7'",
+          "icon": "⏱️",
+          "txt": "Intervalo",
+          "sub": "🏳️"
+        },
+        {
           "min": "45'+3'",
           "icon": "⚽",
           "txt": "Vinícius Júnior (Brasil) de cabeça de muito perto ao ângulo superior esquerdo. Assistência de Bruno Guimarães com um cruzamento.",
@@ -15759,7 +15765,7 @@
           "offsides": "0",
           "wonCorners": "3",
           "saves": "1",
-          "possessionPct": "47.8",
+          "possessionPct": "47.7",
           "totalShots": "4",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
@@ -15787,16 +15793,16 @@
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
-          "wonCorners": "3",
+          "wonCorners": "4",
           "saves": "0",
-          "possessionPct": "52.2",
-          "totalShots": "10",
+          "possessionPct": "52.3",
+          "totalShots": "11",
           "shotsOnTarget": "4",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "270",
-          "totalPasses": "291",
+          "accuratePasses": "272",
+          "totalPasses": "293",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "8",
