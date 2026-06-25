@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T00:04:11.419Z",
+  "generatedAt": "2026-06-25T00:05:13.071Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -15130,15 +15130,15 @@
         },
         {
           "min": "54'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a uma lesão de Josué Casimir (Haiti).",
-          "sub": "🇭🇹"
-        },
-        {
-          "min": "54'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇲🇦"
+        },
+        {
+          "min": "54'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Josué Casimir (Haiti).",
+          "sub": "🇭🇹"
         },
         {
           "min": "45'",
@@ -15523,7 +15523,7 @@
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "478",
+          "accuratePasses": "479",
           "totalPasses": "542",
           "passPct": "0.9",
           "accurateCrosses": "7",
@@ -15537,8 +15537,8 @@
           "totalTackles": "18",
           "tacklePct": "0.5",
           "interceptions": "7",
-          "effectiveClearance": "13",
-          "totalClearance": "13"
+          "effectiveClearance": "14",
+          "totalClearance": "14"
         },
         "away": {
           "foulsCommitted": "18",
