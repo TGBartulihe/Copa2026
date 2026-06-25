@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T02:26:15.174Z",
+  "generatedAt": "2026-06-25T02:27:15.910Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -16137,7 +16137,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "65'",
+      "clock": "66'",
       "events": [
         {
           "min": "64'",
@@ -16557,19 +16557,19 @@
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "1",
-          "wonCorners": "1",
+          "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "50.7",
+          "possessionPct": "51.1",
           "totalShots": "9",
           "shotsOnTarget": "1",
           "shotPct": "0.1",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "245",
-          "totalPasses": "295",
+          "accuratePasses": "248",
+          "totalPasses": "298",
           "passPct": "0.8",
-          "accurateCrosses": "3",
-          "totalCrosses": "11",
+          "accurateCrosses": "4",
+          "totalCrosses": "13",
           "crossPct": "0.3",
           "totalLongBalls": "37",
           "accurateLongBalls": "13",
@@ -16589,7 +16589,7 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "49.3",
+          "possessionPct": "48.9",
           "totalShots": "8",
           "shotsOnTarget": "3",
           "shotPct": "0.4",
@@ -16609,8 +16609,8 @@
           "totalTackles": "8",
           "tacklePct": "0.6",
           "interceptions": "4",
-          "effectiveClearance": "17",
-          "totalClearance": "17"
+          "effectiveClearance": "18",
+          "totalClearance": "18"
         }
       }
     },
@@ -16625,8 +16625,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "65'",
+      "clock": "66'",
       "events": [
+        {
+          "min": "66'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇰🇷. Substituição de Park Jin-Seop (Coreia do Sul) aos 66'",
+          "sub": "🇰🇷"
+        },
         {
           "min": "63'",
           "icon": "⚽",
