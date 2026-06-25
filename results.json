@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-24T23:59:12.867Z",
+  "generatedAt": "2026-06-25T00:00:14.339Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -14958,12 +14958,18 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "90'+6'",
+      "clock": "90'+8'",
       "events": [
         {
-          "min": "90'+6'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a uma lesão de Sofyan Amrabat (Marrocos).",
+          "min": "90'+8'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇭🇹"
+        },
+        {
+          "min": "90'+7'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇲🇦"
         },
         {
@@ -14971,6 +14977,12 @@
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇭🇹"
+        },
+        {
+          "min": "90'+6'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Sofyan Amrabat (Marrocos).",
+          "sub": "🇲🇦"
         },
         {
           "min": "90'+3'",
@@ -16047,19 +16059,19 @@
           "offsides": "0",
           "wonCorners": "6",
           "saves": "5",
-          "possessionPct": "46.6",
+          "possessionPct": "46",
           "totalShots": "13",
           "shotsOnTarget": "4",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "447",
-          "totalPasses": "497",
+          "accuratePasses": "448",
+          "totalPasses": "499",
           "passPct": "0.9",
           "accurateCrosses": "9",
           "totalCrosses": "21",
           "crossPct": "0.4",
-          "totalLongBalls": "33",
+          "totalLongBalls": "34",
           "accurateLongBalls": "17",
           "longballPct": "0.5",
           "blockedShots": "3",
@@ -16077,14 +16089,14 @@
           "offsides": "1",
           "wonCorners": "7",
           "saves": "4",
-          "possessionPct": "53.4",
+          "possessionPct": "54",
           "totalShots": "20",
           "shotsOnTarget": "9",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "543",
-          "totalPasses": "585",
+          "accuratePasses": "560",
+          "totalPasses": "603",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "12",
