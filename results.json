@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T02:04:14.361Z",
+  "generatedAt": "2026-06-25T02:05:15.622Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -16549,6 +16549,12 @@
       "live": true,
       "clock": "45'+5'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇰🇷. Substituição de Son Heung-Min (Coreia do Sul) aos 45'",
+          "sub": "🇰🇷"
+        },
         {
           "min": "45'+5'",
           "icon": "⏱️",
