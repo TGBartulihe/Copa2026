@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T21:39:18.667Z",
+  "generatedAt": "2026-06-25T21:40:14.927Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -17198,24 +17198,24 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "78'",
+      "clock": "79'",
       "events": [
         {
           "min": "77'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇮. Jean Michaël Seri (Costa do Marfim) Substituição aos 77'",
+          "txt": "Substituição, 🇨🇮. Entra Jean Michaël Seri para o lugar de Franck Kessie.",
           "sub": "🇨🇮"
         },
         {
           "min": "77'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇼. Substituição de Tyrese Noslin (Curaçao) aos 77'",
+          "txt": "Substituição, 🇨🇼. Gervane Kastaneer substitui Juriën Gaari.",
           "sub": "🇨🇼"
         },
         {
           "min": "77'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇼. Gervane Kastaneer (Curaçao) Substituição aos 77'",
+          "txt": "Substituição, 🇨🇼. Entra Tyrese Noslin substituindo Deveron Fonville.",
           "sub": "🇨🇼"
         },
         {
@@ -17715,12 +17715,12 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "78'",
+      "clock": "79'",
       "events": [
         {
           "min": "77'",
           "icon": "⚽",
-          "txt": "Gonzalo Plata (Equador) Gol aos 77'",
+          "txt": "Gonzalo Plata (Equador) finalização com o pé esquerdo de muito perto no ângulo superior direito. Assistência de Kevin Rodríguez após escanteio.",
           "sub": "🇪🇨"
         },
         {
@@ -18180,22 +18180,22 @@
           "offsides": "0",
           "wonCorners": "3",
           "saves": "2",
-          "possessionPct": "42.7",
-          "totalShots": "6",
-          "shotsOnTarget": "2",
-          "shotPct": "0.3",
+          "possessionPct": "42.5",
+          "totalShots": "8",
+          "shotsOnTarget": "3",
+          "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "268",
           "totalPasses": "322",
           "passPct": "0.8",
-          "accurateCrosses": "2",
-          "totalCrosses": "11",
-          "crossPct": "0.2",
+          "accurateCrosses": "3",
+          "totalCrosses": "12",
+          "crossPct": "0.3",
           "totalLongBalls": "40",
           "accurateLongBalls": "18",
           "longballPct": "0.5",
-          "blockedShots": "2",
+          "blockedShots": "3",
           "effectiveTackles": "13",
           "totalTackles": "20",
           "tacklePct": "0.7",
@@ -18210,14 +18210,14 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "57.3",
+          "possessionPct": "57.5",
           "totalShots": "9",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "372",
-          "totalPasses": "432",
+          "accuratePasses": "377",
+          "totalPasses": "438",
           "passPct": "0.9",
           "accurateCrosses": "4",
           "totalCrosses": "9",
