@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T02:25:19.382Z",
+  "generatedAt": "2026-06-25T02:26:15.174Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -16142,13 +16142,13 @@
         {
           "min": "64'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇿. Tomás Soucek (Tcheca) Substituição aos 64'",
+          "txt": "Substituição, 🇨🇿. Entra Tomás Soucek para o lugar de Tomás Holes.",
           "sub": "🇨🇿"
         },
         {
           "min": "64'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇿. Substituição de Patrik Schick (Tcheca) aos 64'",
+          "txt": "Substituição, 🇨🇿. Entra Patrik Schick para o lugar de Adam Hlozek.",
           "sub": "🇨🇿"
         },
         {
@@ -16559,14 +16559,14 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "49.9",
+          "possessionPct": "50.7",
           "totalShots": "9",
           "shotsOnTarget": "1",
           "shotPct": "0.1",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "236",
-          "totalPasses": "286",
+          "accuratePasses": "245",
+          "totalPasses": "295",
           "passPct": "0.8",
           "accurateCrosses": "3",
           "totalCrosses": "11",
@@ -16589,7 +16589,7 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "50.1",
+          "possessionPct": "49.3",
           "totalShots": "8",
           "shotsOnTarget": "3",
           "shotPct": "0.4",
@@ -16625,7 +16625,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "64'",
+      "clock": "65'",
       "events": [
         {
           "min": "63'",
@@ -16976,7 +16976,7 @@
           "offsides": "3",
           "wonCorners": "4",
           "saves": "1",
-          "possessionPct": "37.7",
+          "possessionPct": "37.3",
           "totalShots": "13",
           "shotsOnTarget": "4",
           "shotPct": "0.3",
@@ -16996,8 +16996,8 @@
           "totalTackles": "8",
           "tacklePct": "0.5",
           "interceptions": "12",
-          "effectiveClearance": "13",
-          "totalClearance": "13"
+          "effectiveClearance": "12",
+          "totalClearance": "12"
         },
         "away": {
           "foulsCommitted": "4",
@@ -17006,14 +17006,14 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "3",
-          "possessionPct": "62.3",
+          "possessionPct": "62.7",
           "totalShots": "5",
           "shotsOnTarget": "2",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "418",
-          "totalPasses": "465",
+          "accuratePasses": "426",
+          "totalPasses": "473",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "18",
