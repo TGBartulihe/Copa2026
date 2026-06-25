@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T02:47:12.175Z",
+  "generatedAt": "2026-06-25T02:48:14.123Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -16137,12 +16137,36 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "86'",
+      "clock": "87'",
       "events": [
+        {
+          "min": "87'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇲🇽"
+        },
+        {
+          "min": "87'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇿. Alexandr Sojka substitui Tomás Soucek devido a uma lesão.",
+          "sub": "🇨🇿"
+        },
+        {
+          "min": "87'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇿. Tomás Chory substitui Lukás Cerv.",
+          "sub": "🇨🇿"
+        },
         {
           "min": "86'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇨🇿"
+        },
+        {
+          "min": "84'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a lesão de Tomás Soucek (Tcheca).",
           "sub": "🇨🇿"
         },
         {
@@ -16150,12 +16174,6 @@
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇲🇽"
-        },
-        {
-          "min": "84'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a lesão de Tomás Soucek (Tcheca).",
-          "sub": "🇨🇿"
         },
         {
           "min": "78'",
@@ -16685,7 +16703,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "86'",
+      "clock": "87'",
       "events": [
         {
           "min": "80'",
@@ -17096,19 +17114,19 @@
           "offsides": "3",
           "wonCorners": "4",
           "saves": "1",
-          "possessionPct": "31.9",
+          "possessionPct": "31.8",
           "totalShots": "13",
           "shotsOnTarget": "4",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "258",
-          "totalPasses": "305",
+          "totalPasses": "306",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "7",
           "crossPct": "0.1",
-          "totalLongBalls": "46",
+          "totalLongBalls": "47",
           "accurateLongBalls": "18",
           "longballPct": "0.4",
           "blockedShots": "4",
@@ -17116,8 +17134,8 @@
           "totalTackles": "9",
           "tacklePct": "0.4",
           "interceptions": "12",
-          "effectiveClearance": "26",
-          "totalClearance": "26"
+          "effectiveClearance": "27",
+          "totalClearance": "27"
         },
         "away": {
           "foulsCommitted": "8",
@@ -17126,17 +17144,17 @@
           "offsides": "0",
           "wonCorners": "5",
           "saves": "3",
-          "possessionPct": "68.1",
-          "totalShots": "5",
+          "possessionPct": "68.2",
+          "totalShots": "6",
           "shotsOnTarget": "2",
-          "shotPct": "0.4",
+          "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "581",
-          "totalPasses": "643",
+          "accuratePasses": "582",
+          "totalPasses": "646",
           "passPct": "0.9",
-          "accurateCrosses": "4",
-          "totalCrosses": "25",
+          "accurateCrosses": "5",
+          "totalCrosses": "26",
           "crossPct": "0.2",
           "totalLongBalls": "46",
           "accurateLongBalls": "28",
