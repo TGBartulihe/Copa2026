@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T21:26:14.882Z",
+  "generatedAt": "2026-06-25T21:27:12.678Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -17198,7 +17198,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "64'",
+      "clock": "65'",
       "events": [
         {
           "min": "64'",
@@ -17583,14 +17583,14 @@
           "offsides": "0",
           "wonCorners": "3",
           "saves": "0",
-          "possessionPct": "34.1",
+          "possessionPct": "34.8",
           "totalShots": "6",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "204",
-          "totalPasses": "245",
+          "accuratePasses": "213",
+          "totalPasses": "254",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "5",
@@ -17613,14 +17613,14 @@
           "offsides": "1",
           "wonCorners": "3",
           "saves": "1",
-          "possessionPct": "65.9",
+          "possessionPct": "65.2",
           "totalShots": "6",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "427",
-          "totalPasses": "475",
+          "accuratePasses": "430",
+          "totalPasses": "477",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "10",
@@ -17629,9 +17629,9 @@
           "accurateLongBalls": "10",
           "longballPct": "0.5",
           "blockedShots": "1",
-          "effectiveTackles": "7",
-          "totalTackles": "11",
-          "tacklePct": "0.6",
+          "effectiveTackles": "8",
+          "totalTackles": "12",
+          "tacklePct": "0.7",
           "interceptions": "9",
           "effectiveClearance": "11",
           "totalClearance": "11"
@@ -17649,18 +17649,18 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "65'",
+      "clock": "66'",
       "events": [
         {
           "min": "64'",
           "icon": "🔄",
-          "txt": "Substituição, 🇩🇪. Maximilian Beier (Alemanha) Substituição aos 64'",
+          "txt": "Substituição, 🇩🇪. Entra Maximilian Beier para o lugar de Félix Nmecha.",
           "sub": "🇩🇪"
         },
         {
           "min": "64'",
           "icon": "🔄",
-          "txt": "Substituição, 🇪🇨. Ángelo Preciado (Equador) Substituição aos 64'",
+          "txt": "Substituição, 🇪🇨. Ángelo Preciado substitui Alan Franco.",
           "sub": "🇪🇨"
         },
         {
