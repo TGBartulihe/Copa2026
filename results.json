@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T23:51:13.577Z",
+  "generatedAt": "2026-06-25T23:52:13.483Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -18328,15 +18328,15 @@
         },
         {
           "min": "35'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a uma lesão de Isak Hien (Suécia).",
-          "sub": "🇸🇪"
-        },
-        {
-          "min": "35'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇯🇵"
+        },
+        {
+          "min": "35'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Isak Hien (Suécia).",
+          "sub": "🇸🇪"
         },
         {
           "min": "32'",
