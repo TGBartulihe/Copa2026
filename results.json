@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T02:33:16.306Z",
+  "generatedAt": "2026-06-25T02:34:14.139Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -16137,7 +16137,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "72'",
+      "clock": "73'",
       "events": [
         {
           "min": "72'",
@@ -16148,14 +16148,14 @@
         {
           "min": "71'",
           "icon": "▶️",
-          "txt": "Atraso acabou. Eles estão prontos para continuar.",
-          "sub": "🇨🇿"
+          "txt": "Jogo reiniciado",
+          "sub": "🇲🇽"
         },
         {
           "min": "71'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇲🇽"
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇨🇿"
         },
         {
           "min": "68'",
@@ -16655,19 +16655,25 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "72'",
+      "clock": "73'",
       "events": [
         {
-          "min": "71'",
-          "icon": "▶️",
-          "txt": "Atraso acabou. Eles estão prontos para continuar.",
-          "sub": "🇰🇷"
+          "min": "73'",
+          "icon": "🟨",
+          "txt": "Aubrey Modiba (África do Sul) Cartão Amarelo aos 73'",
+          "sub": "🇿🇦"
         },
         {
           "min": "71'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
           "sub": "🇿🇦"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇰🇷"
         },
         {
           "min": "69'",
