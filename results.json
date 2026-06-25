@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T02:17:14.797Z",
+  "generatedAt": "2026-06-25T02:18:16.388Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -16142,7 +16142,7 @@
         {
           "min": "56'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇿. Lukás Provod (Tcheca) Substituição aos 56'",
+          "txt": "Substituição, 🇨🇿. Lukás Provod substitui Denis Visinsky.",
           "sub": "🇨🇿"
         },
         {
@@ -16517,25 +16517,25 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "5",
+          "foulsCommitted": "6",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "45.7",
+          "possessionPct": "46.2",
           "totalShots": "8",
           "shotsOnTarget": "1",
           "shotPct": "0.1",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "187",
-          "totalPasses": "234",
+          "accuratePasses": "191",
+          "totalPasses": "239",
           "passPct": "0.8",
           "accurateCrosses": "3",
           "totalCrosses": "9",
           "crossPct": "0.3",
-          "totalLongBalls": "34",
+          "totalLongBalls": "35",
           "accurateLongBalls": "11",
           "longballPct": "0.3",
           "blockedShots": "3",
@@ -16553,7 +16553,7 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "54.3",
+          "possessionPct": "53.8",
           "totalShots": "7",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
@@ -16589,7 +16589,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "56'",
+      "clock": "57'",
       "events": [
         {
           "min": "45'",
