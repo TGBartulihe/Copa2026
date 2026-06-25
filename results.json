@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T02:06:19.994Z",
+  "generatedAt": "2026-06-25T02:07:14.484Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -16137,8 +16137,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "45'+4'",
+      "clock": "46'",
       "events": [
+        {
+          "min": "46'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇲🇽"
+        },
+        {
+          "min": "45'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🏳️"
+        },
         {
           "min": "45'+4'",
           "icon": "⏱️",
@@ -16547,18 +16559,24 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "45'+5'",
+      "clock": "46'",
       "events": [
         {
           "min": "45'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🏳️"
+        },
+        {
+          "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, 🇰🇷. Jens Castrop (Coreia do Sul) Substituição aos 45'",
+          "txt": "Substituição, 🇰🇷. Jens Castrop substitui Lee Tae-Seok.",
           "sub": "🇰🇷"
         },
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, 🇰🇷. Substituição de Kim Jin-Gyu (Coreia do Sul) aos 45'",
+          "txt": "Substituição, 🇰🇷. Kim Jin-Gyu substitui Paik Seung-Ho.",
           "sub": "🇰🇷"
         },
         {
@@ -16880,19 +16898,19 @@
           "offsides": "3",
           "wonCorners": "4",
           "saves": "0",
-          "possessionPct": "39.4",
+          "possessionPct": "39.6",
           "totalShots": "10",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "170",
-          "totalPasses": "200",
-          "passPct": "0.9",
+          "accuratePasses": "172",
+          "totalPasses": "203",
+          "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "6",
           "crossPct": "0.2",
-          "totalLongBalls": "31",
+          "totalLongBalls": "32",
           "accurateLongBalls": "13",
           "longballPct": "0.4",
           "blockedShots": "3",
@@ -16910,14 +16928,14 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "3",
-          "possessionPct": "60.6",
+          "possessionPct": "60.4",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "269",
-          "totalPasses": "305",
+          "accuratePasses": "270",
+          "totalPasses": "306",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "12",
