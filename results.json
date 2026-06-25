@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T20:16:15.272Z",
+  "generatedAt": "2026-06-25T20:17:13.044Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -17499,28 +17499,28 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "34",
+          "possessionPct": "32.4",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "56",
-          "totalPasses": "65",
-          "passPct": "0.9",
+          "totalPasses": "67",
+          "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
-          "totalLongBalls": "4",
+          "totalLongBalls": "5",
           "accurateLongBalls": "1",
-          "longballPct": "0.3",
+          "longballPct": "0.2",
           "blockedShots": "0",
           "effectiveTackles": "3",
           "totalTackles": "3",
           "tacklePct": "1.0",
           "interceptions": "0",
-          "effectiveClearance": "2",
-          "totalClearance": "2"
+          "effectiveClearance": "3",
+          "totalClearance": "3"
         },
         "away": {
           "foulsCommitted": "0",
@@ -17529,14 +17529,14 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "66",
+          "possessionPct": "67.6",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "114",
-          "totalPasses": "126",
+          "accuratePasses": "125",
+          "totalPasses": "140",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "0",
@@ -17548,7 +17548,7 @@
           "effectiveTackles": "1",
           "totalTackles": "2",
           "tacklePct": "0.5",
-          "interceptions": "1",
+          "interceptions": "3",
           "effectiveClearance": "1",
           "totalClearance": "1"
         }
@@ -17565,7 +17565,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "16'",
+      "clock": "17'",
       "events": [
         {
           "min": "9'",
