@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T21:32:12.731Z",
+  "generatedAt": "2026-06-25T21:33:13.230Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -17198,7 +17198,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "70'",
+      "clock": "71'",
       "events": [
         {
           "min": "71'",
@@ -17691,18 +17691,18 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "71'",
+      "clock": "72'",
       "events": [
         {
           "min": "71'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇩🇪"
         },
         {
           "min": "71'",
           "icon": "🔄",
-          "txt": "Substituição, 🇪🇨. Pervis Estupiñán (Equador) Substituição aos 71'",
+          "txt": "Substituição, 🇪🇨. Entra Pervis Estupiñán substituindo Piero Hincapié.",
           "sub": "🇪🇨"
         },
         {
@@ -17720,7 +17720,7 @@
         {
           "min": "69'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
           "sub": "🇩🇪"
         },
         {
