@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T02:16:13.804Z",
+  "generatedAt": "2026-06-25T02:17:14.797Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -16137,12 +16137,18 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "56'",
+      "clock": "57'",
       "events": [
+        {
+          "min": "56'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇿. Lukás Provod (Tcheca) Substituição aos 56'",
+          "sub": "🇨🇿"
+        },
         {
           "min": "55'",
           "icon": "⚽",
-          "txt": "Mateo Chávez (México) finalização com o pé esquerdo do meio da área.",
+          "txt": "Mateo Chávez (México) finalização com o pé esquerdo do meio da área no Escanteio inferior esquerdo. Assistência de Luís Romo.",
           "sub": "🇲🇽"
         },
         {
@@ -16583,7 +16589,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "55'",
+      "clock": "56'",
       "events": [
         {
           "min": "45'",
