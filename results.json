@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T21:18:11.274Z",
+  "generatedAt": "2026-06-25T21:19:12.051Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -17198,7 +17198,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "56'",
+      "clock": "57'",
       "events": [
         {
           "min": "45'",
@@ -17565,20 +17565,20 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "9",
+          "foulsCommitted": "10",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "3",
           "saves": "0",
-          "possessionPct": "34",
+          "possessionPct": "34.5",
           "totalShots": "6",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "172",
-          "totalPasses": "207",
+          "accuratePasses": "178",
+          "totalPasses": "214",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "5",
@@ -17601,26 +17601,26 @@
           "offsides": "1",
           "wonCorners": "3",
           "saves": "1",
-          "possessionPct": "66",
+          "possessionPct": "65.5",
           "totalShots": "6",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "364",
-          "totalPasses": "405",
+          "accuratePasses": "368",
+          "totalPasses": "410",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "8",
           "crossPct": "0.3",
-          "totalLongBalls": "19",
-          "accurateLongBalls": "9",
+          "totalLongBalls": "20",
+          "accurateLongBalls": "10",
           "longballPct": "0.5",
           "blockedShots": "2",
           "effectiveTackles": "7",
           "totalTackles": "11",
           "tacklePct": "0.6",
-          "interceptions": "6",
+          "interceptions": "7",
           "effectiveClearance": "10",
           "totalClearance": "10"
         }
@@ -17637,7 +17637,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "58'",
+      "clock": "59'",
       "events": [
         {
           "min": "50'",
@@ -17902,52 +17902,52 @@
             },
             {
               "name": "Antonio Rüdiger",
-              "pos": "CD-L",
+              "pos": "CD",
               "row": 1
             },
             {
               "name": "Jonathan Tah",
-              "pos": "CD-R",
-              "row": 1
-            },
-            {
-              "name": "David Raum",
-              "pos": "LB",
+              "pos": "CD-L",
               "row": 1
             },
             {
               "name": "Joshua Kimmich",
-              "pos": "RB",
+              "pos": "CD-R",
               "row": 1
             },
             {
+              "name": "Felix Nmecha",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
               "name": "Aleksandar Pavlovic",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "David Raum",
               "pos": "LM",
               "row": 2
             },
             {
-              "name": "Felix Nmecha",
+              "name": "Leroy Sané",
               "pos": "RM",
               "row": 2
             },
             {
-              "name": "Jamal Musiala",
-              "pos": "AM",
-              "row": 2.5
+              "name": "Kai Havertz",
+              "pos": "F",
+              "row": 3
             },
             {
               "name": "Florian Wirtz",
-              "pos": "AM-L",
-              "row": 2.5
+              "pos": "CF-L",
+              "row": 3
             },
             {
-              "name": "Leroy Sané",
-              "pos": "AM-R",
-              "row": 2.5
-            },
-            {
-              "name": "Kai Havertz",
-              "pos": "F",
+              "name": "Jamal Musiala",
+              "pos": "CF-R",
               "row": 3
             }
           ],
@@ -18018,33 +18018,33 @@
               "row": 3
             }
           ],
-          "formation": "4-2-3-1",
+          "formation": "3-4-2-1",
           "dotColor": "#00CED1"
         }
       },
       "stats": {
         "home": {
-          "foulsCommitted": "9",
+          "foulsCommitted": "10",
           "yellowCards": "2",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "39.7",
+          "possessionPct": "39.2",
           "totalShots": "3",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "200",
-          "totalPasses": "241",
+          "totalPasses": "242",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "9",
           "crossPct": "0.2",
-          "totalLongBalls": "28",
+          "totalLongBalls": "29",
           "accurateLongBalls": "10",
-          "longballPct": "0.4",
+          "longballPct": "0.3",
           "blockedShots": "1",
           "effectiveTackles": "12",
           "totalTackles": "19",
@@ -18060,19 +18060,19 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "60.3",
+          "possessionPct": "60.8",
           "totalShots": "7",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "321",
-          "totalPasses": "368",
+          "accuratePasses": "329",
+          "totalPasses": "378",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "7",
           "crossPct": "0.4",
-          "totalLongBalls": "22",
+          "totalLongBalls": "23",
           "accurateLongBalls": "11",
           "longballPct": "0.5",
           "blockedShots": "4",
