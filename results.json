@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T00:03:12.993Z",
+  "generatedAt": "2026-06-25T00:04:11.419Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -15563,9 +15563,9 @@
           "accurateLongBalls": "20",
           "longballPct": "0.5",
           "blockedShots": "4",
-          "effectiveTackles": "12",
+          "effectiveTackles": "11",
           "totalTackles": "25",
-          "tacklePct": "0.5",
+          "tacklePct": "0.4",
           "interceptions": "14",
           "effectiveClearance": "26",
           "totalClearance": "26"
@@ -15732,14 +15732,14 @@
         {
           "min": "25'",
           "icon": "⏸️",
-          "txt": "Atraso na partida para uma pausa para bebidas.",
-          "sub": "🇧🇷"
+          "txt": "Jogo paralisado",
+          "sub": "🏳️"
         },
         {
           "min": "25'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
-          "sub": "🏳️"
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇧🇷"
         },
         {
           "min": "25'",
@@ -16087,9 +16087,9 @@
           "accurateLongBalls": "17",
           "longballPct": "0.5",
           "blockedShots": "3",
-          "effectiveTackles": "6",
+          "effectiveTackles": "7",
           "totalTackles": "11",
-          "tacklePct": "0.5",
+          "tacklePct": "0.6",
           "interceptions": "2",
           "effectiveClearance": "13",
           "totalClearance": "13"
