@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T21:51:14.807Z",
+  "generatedAt": "2026-06-25T21:52:12.969Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -17198,8 +17198,20 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "89'",
+      "clock": "90'+1'",
       "events": [
+        {
+          "min": "90'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇼. Brandley Kuwas (Curaçao) Substituição aos 90'",
+          "sub": "🇨🇼"
+        },
+        {
+          "min": "90'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇼. Shurandy Sambo (Curaçao) Substituição aos 90'",
+          "sub": "🇨🇼"
+        },
         {
           "min": "83'",
           "icon": "🟨",
@@ -17721,7 +17733,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "90'",
+      "clock": "90'+1'",
       "events": [
         {
           "min": "89'",
