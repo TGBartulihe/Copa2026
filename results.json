@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T02:59:11.303Z",
+  "generatedAt": "2026-06-25T03:00:14.014Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -17933,6 +17933,21 @@
       "brTime": "22h",
       "venue": "Estadio BBVA",
       "iso": "2026-06-30T01:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "avos"
+    },
+    {
+      "home": "África do Sul 🇿🇦",
+      "away": "Canadá 🇨🇦",
+      "date": "28/06",
+      "brTime": "16h",
+      "venue": "SoFi Stadium",
+      "iso": "2026-06-28T19:00Z",
       "sh": null,
       "sa": null,
       "done": false,
