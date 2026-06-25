@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T02:23:13.531Z",
+  "generatedAt": "2026-06-25T02:24:13.511Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -16137,8 +16137,26 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "62'",
+      "clock": "63'",
       "events": [
+        {
+          "min": "64'",
+          "icon": "🟨",
+          "txt": "Edson Álvarez (México) Cartão Amarelo aos 64'",
+          "sub": "🇲🇽"
+        },
+        {
+          "min": "63'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇲🇽. Entra Obed Vargas para o lugar de Luis Romo.",
+          "sub": "🇲🇽"
+        },
+        {
+          "min": "63'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇲🇽. Santiago Giménez substitui Guillermo Martínez.",
+          "sub": "🇲🇽"
+        },
         {
           "min": "61'",
           "icon": "⚽",
@@ -16529,14 +16547,14 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "49.2",
+          "possessionPct": "49.6",
           "totalShots": "9",
           "shotsOnTarget": "1",
           "shotPct": "0.1",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "227",
-          "totalPasses": "277",
+          "accuratePasses": "232",
+          "totalPasses": "282",
           "passPct": "0.8",
           "accurateCrosses": "3",
           "totalCrosses": "11",
@@ -16559,7 +16577,7 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "50.8",
+          "possessionPct": "50.4",
           "totalShots": "8",
           "shotsOnTarget": "3",
           "shotPct": "0.4",
@@ -16595,8 +16613,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "62'",
+      "clock": "63'",
       "events": [
+        {
+          "min": "63'",
+          "icon": "⚽",
+          "txt": "Thapelo Maseko (África do Sul) Gol aos 63'",
+          "sub": "🇿🇦"
+        },
         {
           "min": "62'",
           "icon": "🔄",
