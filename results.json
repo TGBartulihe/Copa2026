@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T20:43:14.043Z",
+  "generatedAt": "2026-06-25T20:44:15.398Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -17198,7 +17198,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "42'",
+      "clock": "43'",
       "events": [
         {
           "min": "35'",
@@ -17553,14 +17553,14 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "25.9",
+          "possessionPct": "26.3",
           "totalShots": "3",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "96",
-          "totalPasses": "116",
+          "accuratePasses": "98",
+          "totalPasses": "119",
           "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "2",
@@ -17572,7 +17572,7 @@
           "effectiveTackles": "6",
           "totalTackles": "10",
           "tacklePct": "0.6",
-          "interceptions": "4",
+          "interceptions": "6",
           "effectiveClearance": "9",
           "totalClearance": "9"
         },
@@ -17583,7 +17583,7 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "74.1",
+          "possessionPct": "73.7",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
@@ -17593,7 +17593,7 @@
           "totalPasses": "335",
           "passPct": "0.9",
           "accurateCrosses": "1",
-          "totalCrosses": "5",
+          "totalCrosses": "6",
           "crossPct": "0.2",
           "totalLongBalls": "13",
           "accurateLongBalls": "7",
@@ -17602,7 +17602,7 @@
           "effectiveTackles": "6",
           "totalTackles": "9",
           "tacklePct": "0.7",
-          "interceptions": "2",
+          "interceptions": "3",
           "effectiveClearance": "3",
           "totalClearance": "3"
         }
@@ -17619,12 +17619,18 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "43'",
+      "clock": "44'",
       "events": [
+        {
+          "min": "44'",
+          "icon": "🟨",
+          "txt": "Aleksandar Pavlovic (Alemanha) Cartão Amarelo aos 44'",
+          "sub": "🇩🇪"
+        },
         {
           "min": "43'",
           "icon": "🟨",
-          "txt": "Piero Hincapié (Equador) Cartão Amarelo aos 43'",
+          "txt": "Piero Hincapié (Equador) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇪🇨"
         },
         {
@@ -17964,13 +17970,13 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "8",
-          "yellowCards": "0",
+          "foulsCommitted": "9",
+          "yellowCards": "1",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "37.7",
+          "possessionPct": "37.2",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
@@ -18000,20 +18006,20 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "62.3",
+          "possessionPct": "62.8",
           "totalShots": "6",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "249",
-          "totalPasses": "279",
+          "accuratePasses": "255",
+          "totalPasses": "285",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "6",
           "crossPct": "0.3",
-          "totalLongBalls": "17",
-          "accurateLongBalls": "8",
+          "totalLongBalls": "18",
+          "accurateLongBalls": "9",
           "longballPct": "0.5",
           "blockedShots": "3",
           "effectiveTackles": "8",
