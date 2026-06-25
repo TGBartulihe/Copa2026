@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T20:36:15.520Z",
+  "generatedAt": "2026-06-25T20:37:12.587Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -17198,8 +17198,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "34'",
+      "clock": "36'",
       "events": [
+        {
+          "min": "35'",
+          "icon": "🟨",
+          "txt": "Nicolas Pépé (Costa do Marfim) Cartão Amarelo aos 35'",
+          "sub": "🇨🇮"
+        },
         {
           "min": "26'",
           "icon": "▶️",
@@ -17547,19 +17553,19 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "24.9",
+          "possessionPct": "25.5",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "74",
-          "totalPasses": "91",
+          "accuratePasses": "78",
+          "totalPasses": "97",
           "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "2",
           "crossPct": "0.0",
-          "totalLongBalls": "6",
+          "totalLongBalls": "7",
           "accurateLongBalls": "2",
           "longballPct": "0.3",
           "blockedShots": "0",
@@ -17567,24 +17573,24 @@
           "totalTackles": "10",
           "tacklePct": "0.6",
           "interceptions": "4",
-          "effectiveClearance": "7",
-          "totalClearance": "7"
+          "effectiveClearance": "8",
+          "totalClearance": "8"
         },
         "away": {
-          "foulsCommitted": "1",
-          "yellowCards": "0",
+          "foulsCommitted": "2",
+          "yellowCards": "1",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "75.1",
+          "possessionPct": "74.5",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "255",
-          "totalPasses": "279",
+          "accuratePasses": "263",
+          "totalPasses": "287",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "2",
@@ -17613,7 +17619,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "36'",
+      "clock": "34'",
       "events": [
         {
           "min": "30'",
