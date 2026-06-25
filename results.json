@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T08:52:16.331Z",
+  "generatedAt": "2026-06-25T08:53:13.694Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -16139,6 +16139,144 @@
       "live": false,
       "clock": "",
       "events": [
+        {
+          "min": "90'+7'",
+          "icon": "•",
+          "txt": "jogador",
+          "sub": "🏳️"
+        },
+        {
+          "min": "90'+4'",
+          "icon": "⚽",
+          "txt": "Álvaro Fidalgo (México) finalização com o pé direito do meio da área ao ângulo superior esquerdo. Assistência de Roberto Alvarado.",
+          "sub": "🇲🇽"
+        },
+        {
+          "min": "87'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇿. Alexandr Sojka substitui Tomás Soucek devido a uma lesão.",
+          "sub": "🇨🇿"
+        },
+        {
+          "min": "87'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇿. Tomás Chory substitui Lukás Cerv.",
+          "sub": "🇨🇿"
+        },
+        {
+          "min": "86'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇲🇽"
+        },
+        {
+          "min": "86'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇨🇿"
+        },
+        {
+          "min": "84'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇲🇽"
+        },
+        {
+          "min": "84'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a lesão de Tomás Soucek (Tcheca).",
+          "sub": "🇨🇿"
+        },
+        {
+          "min": "78'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇲🇽. Jesús Gallardo substitui Mateo Chávez.",
+          "sub": "🇲🇽"
+        },
+        {
+          "min": "78'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇲🇽. Entra Guillermo Ochoa para o lugar de Raúl Rangel.",
+          "sub": "🇲🇽"
+        },
+        {
+          "min": "72'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇲🇽. Álvaro Fidalgo entra no lugar de Gilberto Mora.",
+          "sub": "🇲🇽"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇲🇽"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇨🇿"
+        },
+        {
+          "min": "68'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇲🇽"
+        },
+        {
+          "min": "68'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇨🇿"
+        },
+        {
+          "min": "64'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇿. Entra Tomás Soucek para o lugar de Tomás Holes.",
+          "sub": "🇨🇿"
+        },
+        {
+          "min": "64'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇿. Entra Patrik Schick para o lugar de Adam Hlozek.",
+          "sub": "🇨🇿"
+        },
+        {
+          "min": "64'",
+          "icon": "🟨",
+          "txt": "Edson Álvarez (México) recebe cartão amarelo por uma entrada perigosa.",
+          "sub": "🇲🇽"
+        },
+        {
+          "min": "63'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇲🇽. Entra Obed Vargas para o lugar de Luis Romo.",
+          "sub": "🇲🇽"
+        },
+        {
+          "min": "63'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇲🇽. Santiago Giménez substitui Guillermo Martínez.",
+          "sub": "🇲🇽"
+        },
+        {
+          "min": "61'",
+          "icon": "⚽",
+          "txt": "Julián Quiñones (México) finalização com o pé direito em frente à baliza acertando no centro do gol. Assistência de Jorge Sánchez depois de um contra-ataque.",
+          "sub": "🇲🇽"
+        },
+        {
+          "min": "56'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇿. Lukás Provod substitui Denis Visinsky.",
+          "sub": "🇨🇿"
+        },
+        {
+          "min": "55'",
+          "icon": "⚽",
+          "txt": "Mateo Chávez (México) finalização com o pé esquerdo do meio da área no Escanteio inferior esquerdo. Assistência de Luís Romo.",
+          "sub": "🇲🇽"
+        },
         {
           "min": "47'",
           "icon": "▶️",
