@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T02:55:14.110Z",
+  "generatedAt": "2026-06-25T02:56:16.013Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -16142,7 +16142,7 @@
         {
           "min": "90'+4'",
           "icon": "⚽",
-          "txt": "Álvaro Fidalgo (México) finalização com o pé direito no coração da área.",
+          "txt": "Álvaro Fidalgo (México) finalização com o pé direito do meio da área ao ângulo superior esquerdo. Assistência de Roberto Alvarado.",
           "sub": "🇲🇽"
         },
         {
@@ -16674,9 +16674,9 @@
           "wonCorners": "1",
           "saves": "1",
           "possessionPct": "48.7",
-          "totalShots": "10",
-          "shotsOnTarget": "4",
-          "shotPct": "0.4",
+          "totalShots": "11",
+          "shotsOnTarget": "5",
+          "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "329",
@@ -16709,7 +16709,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "90'+4'",
+      "clock": "90'+5'",
       "events": [
         {
           "min": "80'",
@@ -17120,19 +17120,19 @@
           "offsides": "3",
           "wonCorners": "4",
           "saves": "2",
-          "possessionPct": "30.8",
+          "possessionPct": "31.5",
           "totalShots": "13",
           "shotsOnTarget": "4",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "266",
-          "totalPasses": "322",
+          "accuratePasses": "273",
+          "totalPasses": "333",
           "passPct": "0.8",
           "accurateCrosses": "1",
-          "totalCrosses": "7",
+          "totalCrosses": "8",
           "crossPct": "0.1",
-          "totalLongBalls": "52",
+          "totalLongBalls": "54",
           "accurateLongBalls": "19",
           "longballPct": "0.4",
           "blockedShots": "4",
@@ -17150,19 +17150,19 @@
           "offsides": "0",
           "wonCorners": "6",
           "saves": "3",
-          "possessionPct": "69.2",
+          "possessionPct": "68.5",
           "totalShots": "8",
           "shotsOnTarget": "3",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "639",
-          "totalPasses": "708",
+          "totalPasses": "711",
           "passPct": "0.9",
           "accurateCrosses": "7",
           "totalCrosses": "32",
           "crossPct": "0.2",
-          "totalLongBalls": "49",
+          "totalLongBalls": "51",
           "accurateLongBalls": "29",
           "longballPct": "0.6",
           "blockedShots": "1",
@@ -17170,8 +17170,8 @@
           "totalTackles": "11",
           "tacklePct": "0.7",
           "interceptions": "4",
-          "effectiveClearance": "14",
-          "totalClearance": "14"
+          "effectiveClearance": "15",
+          "totalClearance": "15"
         }
       }
     },
