@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T21:35:12.048Z",
+  "generatedAt": "2026-06-25T21:36:15.462Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -17198,7 +17198,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "74'",
+      "clock": "75'",
       "events": [
         {
           "min": "71'",
@@ -17625,14 +17625,14 @@
           "offsides": "1",
           "wonCorners": "3",
           "saves": "0",
-          "possessionPct": "36",
-          "totalShots": "6",
-          "shotsOnTarget": "1",
-          "shotPct": "0.2",
+          "possessionPct": "36.3",
+          "totalShots": "7",
+          "shotsOnTarget": "2",
+          "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "235",
-          "totalPasses": "278",
+          "accuratePasses": "238",
+          "totalPasses": "281",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "5",
@@ -17655,7 +17655,7 @@
           "offsides": "1",
           "wonCorners": "3",
           "saves": "1",
-          "possessionPct": "64",
+          "possessionPct": "63.7",
           "totalShots": "6",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
@@ -17691,7 +17691,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "75'",
+      "clock": "76'",
       "events": [
         {
           "min": "73'",
@@ -17701,15 +17701,15 @@
         },
         {
           "min": "71'",
-          "icon": "▶️",
-          "txt": "Atraso acabou. Eles estão prontos para continuar.",
-          "sub": "🇩🇪"
-        },
-        {
-          "min": "71'",
           "icon": "🔄",
           "txt": "Substituição, 🇪🇨. Pervis Estupiñán entra em campo com Piero Hincapié devido a uma lesão.",
           "sub": "🇪🇨"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇩🇪"
         },
         {
           "min": "71'",
