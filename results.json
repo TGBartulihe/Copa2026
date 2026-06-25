@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T21:52:12.969Z",
+  "generatedAt": "2026-06-25T21:53:13.336Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -17198,18 +17198,18 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "90'+1'",
+      "clock": "90'+2'",
       "events": [
         {
           "min": "90'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇼. Brandley Kuwas (Curaçao) Substituição aos 90'",
+          "txt": "Substituição, 🇨🇼. Brandley Kuwas substitui Jürgen Locadia.",
           "sub": "🇨🇼"
         },
         {
           "min": "90'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇼. Shurandy Sambo (Curaçao) Substituição aos 90'",
+          "txt": "Substituição, 🇨🇼. Shurandy Sambo substitui Joshua Brenet.",
           "sub": "🇨🇼"
         },
         {
@@ -17665,26 +17665,26 @@
           "yellowCards": "2",
           "redCards": "0",
           "offsides": "1",
-          "wonCorners": "3",
+          "wonCorners": "4",
           "saves": "1",
-          "possessionPct": "36.2",
-          "totalShots": "9",
-          "shotsOnTarget": "2",
-          "shotPct": "0.2",
+          "possessionPct": "36.8",
+          "totalShots": "10",
+          "shotsOnTarget": "3",
+          "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "275",
-          "totalPasses": "327",
+          "accuratePasses": "282",
+          "totalPasses": "334",
           "passPct": "0.8",
           "accurateCrosses": "3",
-          "totalCrosses": "9",
+          "totalCrosses": "12",
           "crossPct": "0.3",
           "totalLongBalls": "28",
           "accurateLongBalls": "14",
           "longballPct": "0.5",
           "blockedShots": "1",
           "effectiveTackles": "11",
-          "totalTackles": "19",
+          "totalTackles": "20",
           "tacklePct": "0.6",
           "interceptions": "14",
           "effectiveClearance": "16",
@@ -17696,15 +17696,15 @@
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "5",
-          "saves": "2",
-          "possessionPct": "63.8",
-          "totalShots": "6",
-          "shotsOnTarget": "2",
-          "shotPct": "0.3",
+          "saves": "3",
+          "possessionPct": "63.2",
+          "totalShots": "7",
+          "shotsOnTarget": "3",
+          "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "519",
-          "totalPasses": "577",
+          "accuratePasses": "521",
+          "totalPasses": "579",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "15",
@@ -17717,8 +17717,8 @@
           "totalTackles": "16",
           "tacklePct": "0.6",
           "interceptions": "12",
-          "effectiveClearance": "13",
-          "totalClearance": "13"
+          "effectiveClearance": "15",
+          "totalClearance": "15"
         }
       }
     },
@@ -17733,7 +17733,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "90'+1'",
+      "clock": "90'+2'",
       "events": [
         {
           "min": "89'",
