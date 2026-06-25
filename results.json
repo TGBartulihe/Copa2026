@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T21:07:13.165Z",
+  "generatedAt": "2026-06-25T21:08:16.576Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -17198,7 +17198,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "45'+5'",
+      "clock": "47'",
       "events": [
         {
           "min": "45'",
@@ -17637,8 +17637,20 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "46'",
+      "clock": "47'",
       "events": [
+        {
+          "min": "47'",
+          "icon": "⚽🎯",
+          "txt": "Kai Havertz (Alemanha) VAR - Pênalti concedido aos 47'",
+          "sub": "🇩🇪"
+        },
+        {
+          "min": "47'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇩🇪"
+        },
         {
           "min": "45'",
           "icon": "▶️",
@@ -18006,25 +18018,25 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "9",
+          "foulsCommitted": "10",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "38",
+          "possessionPct": "37.9",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "177",
-          "totalPasses": "207",
+          "accuratePasses": "178",
+          "totalPasses": "209",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "5",
           "crossPct": "0.0",
-          "totalLongBalls": "20",
+          "totalLongBalls": "21",
           "accurateLongBalls": "8",
           "longballPct": "0.4",
           "blockedShots": "1",
@@ -18042,14 +18054,14 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "62",
+          "possessionPct": "62.1",
           "totalShots": "7",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "296",
-          "totalPasses": "335",
+          "accuratePasses": "299",
+          "totalPasses": "339",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "7",
@@ -18062,8 +18074,8 @@
           "totalTackles": "13",
           "tacklePct": "0.6",
           "interceptions": "2",
-          "effectiveClearance": "10",
-          "totalClearance": "10"
+          "effectiveClearance": "11",
+          "totalClearance": "11"
         }
       }
     },
