@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T21:31:16.109Z",
+  "generatedAt": "2026-06-25T21:32:12.731Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -17201,16 +17201,28 @@
       "clock": "70'",
       "events": [
         {
-          "min": "68'",
-          "icon": "⏸️",
-          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
           "sub": "🇨🇮"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇼"
         },
         {
           "min": "68'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇨🇼"
+        },
+        {
+          "min": "68'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇨🇮"
         },
         {
           "min": "67'",
@@ -17679,8 +17691,26 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "70'",
+      "clock": "71'",
       "events": [
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇩🇪"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇪🇨. Pervis Estupiñán (Equador) Substituição aos 71'",
+          "sub": "🇪🇨"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇪🇨"
+        },
         {
           "min": "69'",
           "icon": "⏸️",
