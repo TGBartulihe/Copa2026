@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T21:49:13.324Z",
+  "generatedAt": "2026-06-25T21:50:11.774Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -17198,7 +17198,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "87'",
+      "clock": "88'",
       "events": [
         {
           "min": "83'",
@@ -17721,8 +17721,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "88'",
+      "clock": "89'",
       "events": [
+        {
+          "min": "89'",
+          "icon": "🟨",
+          "txt": "Gonzalo Plata (Equador) Cartão Amarelo aos 89'",
+          "sub": "🇪🇨"
+        },
         {
           "min": "85'",
           "icon": "🔄",
@@ -18198,7 +18204,7 @@
           "offsides": "1",
           "wonCorners": "3",
           "saves": "2",
-          "possessionPct": "40.9",
+          "possessionPct": "40.6",
           "totalShots": "7",
           "shotsOnTarget": "3",
           "shotPct": "0.4",
@@ -18218,28 +18224,28 @@
           "totalTackles": "22",
           "tacklePct": "0.6",
           "interceptions": "10",
-          "effectiveClearance": "16",
-          "totalClearance": "16"
+          "effectiveClearance": "18",
+          "totalClearance": "18"
         },
         "away": {
           "foulsCommitted": "9",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "0",
-          "wonCorners": "1",
+          "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "59.1",
+          "possessionPct": "59.4",
           "totalShots": "9",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "452",
-          "totalPasses": "518",
+          "accuratePasses": "456",
+          "totalPasses": "522",
           "passPct": "0.9",
           "accurateCrosses": "5",
-          "totalCrosses": "10",
-          "crossPct": "0.5",
+          "totalCrosses": "12",
+          "crossPct": "0.4",
           "totalLongBalls": "34",
           "accurateLongBalls": "15",
           "longballPct": "0.4",
