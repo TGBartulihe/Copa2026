@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T02:51:23.901Z",
+  "generatedAt": "2026-06-25T02:52:11.991Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -16141,12 +16141,6 @@
       "events": [
         {
           "min": "87'",
-          "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇲🇽"
-        },
-        {
-          "min": "87'",
           "icon": "🔄",
           "txt": "Substituição, 🇨🇿. Alexandr Sojka substitui Tomás Soucek devido a uma lesão.",
           "sub": "🇨🇿"
@@ -16156,6 +16150,12 @@
           "icon": "🔄",
           "txt": "Substituição, 🇨🇿. Tomás Chory substitui Lukás Cerv.",
           "sub": "🇨🇿"
+        },
+        {
+          "min": "86'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇲🇽"
         },
         {
           "min": "86'",
@@ -17114,28 +17114,28 @@
           "offsides": "3",
           "wonCorners": "4",
           "saves": "1",
-          "possessionPct": "31.4",
+          "possessionPct": "31.3",
           "totalShots": "13",
           "shotsOnTarget": "4",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "260",
-          "totalPasses": "312",
+          "accuratePasses": "261",
+          "totalPasses": "314",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "7",
           "crossPct": "0.1",
-          "totalLongBalls": "48",
-          "accurateLongBalls": "18",
+          "totalLongBalls": "50",
+          "accurateLongBalls": "19",
           "longballPct": "0.4",
           "blockedShots": "4",
           "effectiveTackles": "6",
           "totalTackles": "11",
           "tacklePct": "0.5",
           "interceptions": "14",
-          "effectiveClearance": "30",
-          "totalClearance": "30"
+          "effectiveClearance": "31",
+          "totalClearance": "31"
         },
         "away": {
           "foulsCommitted": "9",
@@ -17144,19 +17144,19 @@
           "offsides": "0",
           "wonCorners": "5",
           "saves": "3",
-          "possessionPct": "68.6",
+          "possessionPct": "68.7",
           "totalShots": "7",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "607",
-          "totalPasses": "672",
+          "accuratePasses": "613",
+          "totalPasses": "680",
           "passPct": "0.9",
           "accurateCrosses": "5",
           "totalCrosses": "27",
           "crossPct": "0.2",
-          "totalLongBalls": "47",
+          "totalLongBalls": "49",
           "accurateLongBalls": "29",
           "longballPct": "0.6",
           "blockedShots": "1",
