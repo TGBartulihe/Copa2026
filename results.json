@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T22:03:13.377Z",
+  "generatedAt": "2026-06-25T22:04:12.771Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -19016,6 +19016,21 @@
       "brTime": "16h",
       "venue": "SoFi Stadium",
       "iso": "2026-06-28T19:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "avos"
+    },
+    {
+      "home": "C. do Marfim 🇨🇮",
+      "away": "Group I 2nd Place",
+      "date": "30/06",
+      "brTime": "14h",
+      "venue": "AT&T Stadium",
+      "iso": "2026-06-30T17:00Z",
       "sh": null,
       "sa": null,
       "done": false,
