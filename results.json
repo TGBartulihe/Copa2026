@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T00:15:12.232Z",
+  "generatedAt": "2026-06-25T00:16:17.303Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -16877,6 +16877,36 @@
       "clock": "",
       "events": [],
       "round": "oitavas"
+    },
+    {
+      "home": "Brasil 🇧🇷",
+      "away": "Group F 2nd Place",
+      "date": "29/06",
+      "brTime": "14h",
+      "venue": "NRG Stadium",
+      "iso": "2026-06-29T17:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "avos"
+    },
+    {
+      "home": "Group F Winner",
+      "away": "Marrocos 🇲🇦",
+      "date": "29/06",
+      "brTime": "22h",
+      "venue": "Estadio BBVA",
+      "iso": "2026-06-30T01:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "avos"
     }
   ]
 }
