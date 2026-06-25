@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T01:01:20.373Z",
+  "generatedAt": "2026-06-25T01:02:14.851Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -16133,12 +16133,354 @@
       "brTime": "22h",
       "venue": "Estadio Banorte",
       "iso": "2026-06-25T01:00Z",
-      "sh": null,
-      "sa": null,
+      "sh": 0,
+      "sa": 0,
       "done": false,
-      "live": false,
-      "clock": "",
-      "events": []
+      "live": true,
+      "clock": "2'",
+      "events": [
+        {
+          "min": "",
+          "icon": "🏁",
+          "txt": "Início de jogo",
+          "sub": "🏳️"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Matej Kovár",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Robin Hranác",
+              "pos": "CD",
+              "row": 1
+            },
+            {
+              "name": "Ladislav Krejcí",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Tomás Holes",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Michal Sadílek",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Lukás Cerv",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "David Doudera",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Vladimír Coufal",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Adam Hlozek",
+              "pos": "F",
+              "row": 3
+            },
+            {
+              "name": "Denis Visinský",
+              "pos": "CF-L",
+              "row": 3
+            },
+            {
+              "name": "Pavel Sulc",
+              "pos": "CF-R",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Lukás Provod",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "David Zima",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jaroslav Zelený",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Lukás Hornícek",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Hugo Sochurek",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Tomás Chorý",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Stepán Chaloupek",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Patrik Schick",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jan Kuchta",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mojmír Chytil",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Tomás Soucek",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Vladimír Darida",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jindrich Stanek",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Alexandr Sojka",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "3-4-2-1",
+          "dotColor": "#d7141a"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Raúl Rangel",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Israel Reyes",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "César Montes",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Mateo Chávez",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Jorge Sánchez",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Edson Álvarez",
+              "pos": "CM",
+              "row": 2
+            },
+            {
+              "name": "Luis Romo",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Gilberto Mora",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Guillermo Martínez",
+              "pos": "F",
+              "row": 3
+            },
+            {
+              "name": "Julián Quiñones",
+              "pos": "LF",
+              "row": 3
+            },
+            {
+              "name": "Roberto Alvarado",
+              "pos": "RF",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Jesús Gallardo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Johan Vásquez",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Orbelín Pineda",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Érik Lira",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "César Huerta",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Raúl Jiménez",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Luis Chávez",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Armando González",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Alexis Vega",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Guillermo Ochoa",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Obed Vargas",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Brian Gutiérrez",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Álvaro Fidalgo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Santiago Gimenez",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Carlos Acevedo",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-3-3",
+          "dotColor": "#006847"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "0",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "0",
+          "saves": "0",
+          "possessionPct": "0",
+          "totalShots": "0",
+          "shotsOnTarget": "0",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "0",
+          "totalPasses": "0",
+          "passPct": "0.0",
+          "accurateCrosses": "0",
+          "totalCrosses": "0",
+          "crossPct": "0.0",
+          "totalLongBalls": "0",
+          "accurateLongBalls": "0",
+          "longballPct": "0.0",
+          "blockedShots": "0",
+          "effectiveTackles": "0",
+          "totalTackles": "0",
+          "tacklePct": "0.0",
+          "interceptions": "0",
+          "effectiveClearance": "0",
+          "totalClearance": "0"
+        },
+        "away": {
+          "foulsCommitted": "1",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "0",
+          "saves": "0",
+          "possessionPct": "100",
+          "totalShots": "0",
+          "shotsOnTarget": "0",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "10",
+          "totalPasses": "10",
+          "passPct": "1.0",
+          "accurateCrosses": "0",
+          "totalCrosses": "0",
+          "crossPct": "0.0",
+          "totalLongBalls": "2",
+          "accurateLongBalls": "2",
+          "longballPct": "1.0",
+          "blockedShots": "0",
+          "effectiveTackles": "0",
+          "totalTackles": "0",
+          "tacklePct": "0.0",
+          "interceptions": "0",
+          "effectiveClearance": "0",
+          "totalClearance": "0"
+        }
+      }
     },
     {
       "home": "África do Sul 🇿🇦",
@@ -16151,7 +16493,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "1'",
+      "clock": "2'",
       "events": [
         {
           "min": "",
