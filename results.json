@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T21:45:12.268Z",
+  "generatedAt": "2026-06-25T21:46:14.413Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -17201,9 +17201,9 @@
       "clock": "84'",
       "events": [
         {
-          "min": "84'",
+          "min": "83'",
           "icon": "🟨",
-          "txt": "Gervane Kastaneer (Curaçao) Cartão Amarelo aos 84'",
+          "txt": "Gervane Kastaneer (Curaçao) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇨🇼"
         },
         {
@@ -17717,12 +17717,24 @@
       "brTime": "17h",
       "venue": "MetLife Stadium",
       "iso": "2026-06-25T20:00Z",
-      "sh": 2,
+      "sh": 1,
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "84'",
+      "clock": "45'+4'",
       "events": [
+        {
+          "min": "85'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇪🇨. Entra Jordy Caicedo substituindo Nilson Angulo.",
+          "sub": "🇪🇨"
+        },
+        {
+          "min": "85'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇪🇨. Félix Torres entra em campo para substituir John Yeboah.",
+          "sub": "🇪🇨"
+        },
         {
           "min": "77'",
           "icon": "⚽",
@@ -18192,7 +18204,7 @@
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "298",
+          "accuratePasses": "297",
           "totalPasses": "356",
           "passPct": "0.8",
           "accurateCrosses": "3",
@@ -18223,7 +18235,7 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "421",
-          "totalPasses": "487",
+          "totalPasses": "486",
           "passPct": "0.9",
           "accurateCrosses": "4",
           "totalCrosses": "9",
