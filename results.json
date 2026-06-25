@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T20:30:11.967Z",
+  "generatedAt": "2026-06-25T20:31:19.138Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -17198,7 +17198,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "28'",
+      "clock": "29'",
       "events": [
         {
           "min": "26'",
@@ -17545,19 +17545,19 @@
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
-          "wonCorners": "0",
+          "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "25.3",
+          "possessionPct": "25.7",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "70",
-          "totalPasses": "83",
+          "accuratePasses": "73",
+          "totalPasses": "87",
           "passPct": "0.8",
           "accurateCrosses": "0",
-          "totalCrosses": "0",
+          "totalCrosses": "1",
           "crossPct": "0.0",
           "totalLongBalls": "6",
           "accurateLongBalls": "2",
@@ -17567,8 +17567,8 @@
           "totalTackles": "8",
           "tacklePct": "0.6",
           "interceptions": "3",
-          "effectiveClearance": "4",
-          "totalClearance": "4"
+          "effectiveClearance": "5",
+          "totalClearance": "5"
         },
         "away": {
           "foulsCommitted": "1",
@@ -17577,18 +17577,18 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "74.7",
+          "possessionPct": "74.3",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "225",
-          "totalPasses": "244",
+          "accuratePasses": "231",
+          "totalPasses": "252",
           "passPct": "0.9",
           "accurateCrosses": "1",
-          "totalCrosses": "1",
-          "crossPct": "1.0",
+          "totalCrosses": "2",
+          "crossPct": "0.5",
           "totalLongBalls": "11",
           "accurateLongBalls": "6",
           "longballPct": "0.5",
@@ -17613,10 +17613,16 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "30'",
+      "clock": "31'",
       "events": [
         {
-          "min": "28'",
+          "min": "30'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇩🇪"
+        },
+        {
+          "min": "30'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
           "sub": "🇪🇨"
@@ -17624,14 +17630,14 @@
         {
           "min": "27'",
           "icon": "⏸️",
-          "txt": "Atraso na partida para uma pausa para bebidas.",
-          "sub": "🇩🇪"
+          "txt": "Jogo paralisado",
+          "sub": "🇪🇨"
         },
         {
           "min": "27'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
-          "sub": "🇪🇨"
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇩🇪"
         },
         {
           "min": "9'",
