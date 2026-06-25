@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-25T01:00:15.392Z",
+  "generatedAt": "2026-06-25T01:01:20.373Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -16147,12 +16147,349 @@
       "brTime": "22h",
       "venue": "Estadio BBVA",
       "iso": "2026-06-25T01:00Z",
-      "sh": null,
-      "sa": null,
+      "sh": 0,
+      "sa": 0,
       "done": false,
-      "live": false,
-      "clock": "",
-      "events": []
+      "live": true,
+      "clock": "1'",
+      "events": [
+        {
+          "min": "",
+          "icon": "🏁",
+          "txt": "Início de jogo",
+          "sub": "🏳️"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Ronwen Williams",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Mbekezeli Mbokazi",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Ime Okon",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Aubrey Modiba",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Khuliso Mudau",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Sphephelo Sithole",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Thalente Mbatha",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Relebohile Mofokeng",
+              "pos": "AM",
+              "row": 2.5
+            },
+            {
+              "name": "Oswin Appollis",
+              "pos": "AM-L",
+              "row": 2.5
+            },
+            {
+              "name": "Thapelo Maseko",
+              "pos": "AM-R",
+              "row": 2.5
+            },
+            {
+              "name": "Evidence Makgopa",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Lyle Foster",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Olwethu Makhanya",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Khulumani Ndamane",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Bradley Cross",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ricardo Goss",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Thabang Matuludi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nkosinathi Sibisi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Samukele Kabini",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Sipho Chaine",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Tshepang Moremi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kamogelo Sebelebele",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jayden Adams",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Iqraam Rayners",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-2-3-1",
+          "dotColor": "#FFB81C"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Kim Seung-Gyu",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Kim Min-Jae",
+              "pos": "CD",
+              "row": 1
+            },
+            {
+              "name": "Lee Gi-Hyuk",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Lee Han-Beom",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Hwang In-Beom",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Paik Seung-Ho",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Lee Tae-Seok",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Seol Young-Woo",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Oh Hyeon-Gyu",
+              "pos": "F",
+              "row": 3
+            },
+            {
+              "name": "Hwang Hee-Chan",
+              "pos": "CF-L",
+              "row": 3
+            },
+            {
+              "name": "Lee Kang-In",
+              "pos": "CF-R",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Lee Dong-Gyeong",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kim Jin-Gyu",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jens Castrop",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Cho Gue-Sung",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jo Hyeon-Woo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kim Tae-Hyeon",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Song Bum-Keun",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Park Jin-Seop",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Eom Ji-Sung",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kim Moon-Hwan",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Bae Jun-Ho",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Son Heung-Min",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Cho Wi-Je",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Lee Jae-Sung",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Yang Hyun-Jun",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "3-4-2-1",
+          "dotColor": "#ce2028"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "0",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "0",
+          "saves": "0",
+          "possessionPct": "0",
+          "totalShots": "0",
+          "shotsOnTarget": "0",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "0",
+          "totalPasses": "0",
+          "passPct": "0.0",
+          "accurateCrosses": "0",
+          "totalCrosses": "0",
+          "crossPct": "0.0",
+          "totalLongBalls": "0",
+          "accurateLongBalls": "0",
+          "longballPct": "0.0",
+          "blockedShots": "0",
+          "effectiveTackles": "0",
+          "totalTackles": "0",
+          "tacklePct": "0.0",
+          "interceptions": "0",
+          "effectiveClearance": "0",
+          "totalClearance": "0"
+        },
+        "away": {
+          "foulsCommitted": "0",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "0",
+          "saves": "0",
+          "possessionPct": "0",
+          "totalShots": "0",
+          "shotsOnTarget": "0",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "0",
+          "totalPasses": "0",
+          "passPct": "0.0",
+          "accurateCrosses": "0",
+          "totalCrosses": "0",
+          "crossPct": "0.0",
+          "totalLongBalls": "0",
+          "accurateLongBalls": "0",
+          "longballPct": "0.0",
+          "blockedShots": "0",
+          "effectiveTackles": "0",
+          "totalTackles": "0",
+          "tacklePct": "0.0",
+          "interceptions": "0",
+          "effectiveClearance": "0",
+          "totalClearance": "0"
+        }
+      }
     },
     {
       "home": "Curaçao 🇨🇼",
