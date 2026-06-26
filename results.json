@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T20:39:13.307Z",
+  "generatedAt": "2026-06-26T20:40:14.026Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20491,12 +20491,18 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "75'",
+      "clock": "76'",
       "events": [
+        {
+          "min": "76'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇫🇷. Entra Ibrahima Konaté para o lugar de Dayot Upamecano.",
+          "sub": "🇫🇷"
+        },
         {
           "min": "74'",
           "icon": "🟨",
-          "txt": "Aurélien Tchouaméni (França) Cartão Amarelo aos 74'",
+          "txt": "Aurélien Tchouaméni (França) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇫🇷"
         },
         {
@@ -21029,12 +21035,18 @@
       "brTime": "16h",
       "venue": "BMO Field",
       "iso": "2026-06-26T19:00Z",
-      "sh": 3,
+      "sh": 4,
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "70'",
+      "clock": "72'",
       "events": [
+        {
+          "min": "71'",
+          "icon": "⚽",
+          "txt": "Pape Gueye (Senegal) finalização com o pé esquerdo do meio da área no Escanteio inferior esquerdo. Assistência de Iliman Ndiaye com um passe de cabeça.",
+          "sub": "🇸🇳"
+        },
         {
           "min": "70'",
           "icon": "▶️",
@@ -21527,14 +21539,14 @@
           "offsides": "1",
           "wonCorners": "9",
           "saves": "1",
-          "possessionPct": "63",
-          "totalShots": "16",
-          "shotsOnTarget": "5",
-          "shotPct": "0.3",
+          "possessionPct": "63.6",
+          "totalShots": "17",
+          "shotsOnTarget": "6",
+          "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "311",
-          "totalPasses": "362",
+          "accuratePasses": "320",
+          "totalPasses": "372",
           "passPct": "0.9",
           "accurateCrosses": "6",
           "totalCrosses": "20",
@@ -21557,7 +21569,7 @@
           "offsides": "0",
           "wonCorners": "3",
           "saves": "2",
-          "possessionPct": "37",
+          "possessionPct": "36.4",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
