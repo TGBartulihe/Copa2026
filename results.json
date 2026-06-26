@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T23:24:13.620Z",
+  "generatedAt": "2026-06-26T23:25:12.171Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20544,14 +20544,14 @@
         {
           "min": "71'",
           "icon": "▶️",
-          "txt": "Atraso acabou. Eles estão prontos para continuar.",
-          "sub": "🇫🇷"
+          "txt": "Jogo reiniciado",
+          "sub": "🇳🇴"
         },
         {
           "min": "71'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇳🇴"
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇫🇷"
         },
         {
           "min": "68'",
@@ -20597,15 +20597,15 @@
         },
         {
           "min": "56'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a uma lesão de Egil Selvik (Noruega).",
-          "sub": "🇳🇴"
-        },
-        {
-          "min": "56'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇫🇷"
+        },
+        {
+          "min": "56'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Egil Selvik (Noruega).",
+          "sub": "🇳🇴"
         },
         {
           "min": "50'",
@@ -21014,15 +21014,15 @@
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "344",
+          "accuratePasses": "343",
           "totalPasses": "421",
           "passPct": "0.8",
           "accurateCrosses": "3",
           "totalCrosses": "9",
           "crossPct": "0.3",
-          "totalLongBalls": "41",
+          "totalLongBalls": "40",
           "accurateLongBalls": "18",
-          "longballPct": "0.4",
+          "longballPct": "0.5",
           "blockedShots": "3",
           "effectiveTackles": "11",
           "totalTackles": "17",
