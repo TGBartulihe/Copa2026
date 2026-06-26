@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T03:31:25.942Z",
+  "generatedAt": "2026-06-26T03:32:12.993Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -19355,18 +19355,24 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "68'",
+      "clock": "69'",
       "events": [
         {
-          "min": "68'",
+          "min": "69'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
+          "sub": "🇦🇺"
+        },
+        {
+          "min": "68'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Omar Alderete (Paraguai).",
           "sub": "🇵🇾"
         },
         {
           "min": "67'",
           "icon": "🔄",
-          "txt": "Substituição, 🇵🇾. Álex Arce substitui Julio Enciso.",
+          "txt": "Substituição, 🇵🇾. Álex Arce entra em campo com Gabriel Ávalos.",
           "sub": "🇵🇾"
         },
         {
@@ -19725,28 +19731,28 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "3",
-          "possessionPct": "39.6",
+          "possessionPct": "39.2",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "218",
-          "totalPasses": "287",
+          "accuratePasses": "221",
+          "totalPasses": "290",
           "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "5",
           "crossPct": "0.0",
-          "totalLongBalls": "43",
-          "accurateLongBalls": "9",
+          "totalLongBalls": "44",
+          "accurateLongBalls": "10",
           "longballPct": "0.2",
           "blockedShots": "0",
           "effectiveTackles": "13",
           "totalTackles": "21",
           "tacklePct": "0.6",
           "interceptions": "5",
-          "effectiveClearance": "19",
-          "totalClearance": "19"
+          "effectiveClearance": "20",
+          "totalClearance": "20"
         },
         "away": {
           "foulsCommitted": "6",
@@ -19755,19 +19761,19 @@
           "offsides": "0",
           "wonCorners": "3",
           "saves": "1",
-          "possessionPct": "60.4",
+          "possessionPct": "60.8",
           "totalShots": "9",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "361",
-          "totalPasses": "429",
+          "accuratePasses": "373",
+          "totalPasses": "442",
           "passPct": "0.8",
           "accurateCrosses": "4",
           "totalCrosses": "13",
           "crossPct": "0.3",
-          "totalLongBalls": "40",
+          "totalLongBalls": "41",
           "accurateLongBalls": "13",
           "longballPct": "0.3",
           "blockedShots": "3",
@@ -19791,7 +19797,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "68'",
+      "clock": "69'",
       "events": [
         {
           "min": "67'",
