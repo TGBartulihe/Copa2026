@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T03:30:13.458Z",
+  "generatedAt": "2026-06-26T03:31:25.942Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -13775,7 +13775,7 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "473",
-          "totalPasses": "540",
+          "totalPasses": "541",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "12",
@@ -13788,8 +13788,8 @@
           "totalTackles": "10",
           "tacklePct": "0.6",
           "interceptions": "10",
-          "effectiveClearance": "19",
-          "totalClearance": "19"
+          "effectiveClearance": "18",
+          "totalClearance": "18"
         },
         "away": {
           "foulsCommitted": "16",
@@ -19355,8 +19355,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "66'",
+      "clock": "68'",
       "events": [
+        {
+          "min": "68'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇵🇾"
+        },
+        {
+          "min": "67'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇾. Álex Arce substitui Julio Enciso.",
+          "sub": "🇵🇾"
+        },
         {
           "min": "58'",
           "icon": "🔄",
@@ -19713,14 +19725,14 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "3",
-          "possessionPct": "38.7",
+          "possessionPct": "39.6",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "204",
-          "totalPasses": "272",
+          "accuratePasses": "218",
+          "totalPasses": "287",
           "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "5",
@@ -19729,8 +19741,8 @@
           "accurateLongBalls": "9",
           "longballPct": "0.2",
           "blockedShots": "0",
-          "effectiveTackles": "12",
-          "totalTackles": "20",
+          "effectiveTackles": "13",
+          "totalTackles": "21",
           "tacklePct": "0.6",
           "interceptions": "5",
           "effectiveClearance": "19",
@@ -19743,19 +19755,19 @@
           "offsides": "0",
           "wonCorners": "3",
           "saves": "1",
-          "possessionPct": "61.3",
+          "possessionPct": "60.4",
           "totalShots": "9",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "356",
-          "totalPasses": "423",
+          "accuratePasses": "361",
+          "totalPasses": "429",
           "passPct": "0.8",
           "accurateCrosses": "4",
           "totalCrosses": "13",
           "crossPct": "0.3",
-          "totalLongBalls": "39",
+          "totalLongBalls": "40",
           "accurateLongBalls": "13",
           "longballPct": "0.3",
           "blockedShots": "3",
@@ -19779,7 +19791,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "67'",
+      "clock": "68'",
       "events": [
         {
           "min": "67'",
@@ -19790,7 +19802,7 @@
         {
           "min": "67'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
           "sub": "🇺🇸"
         },
         {
@@ -19844,7 +19856,7 @@
         {
           "min": "31'",
           "icon": "⚽",
-          "txt": "Orkun Kökçü (Türkiye) finalização com o pé direito de muito perto no Escanteio inferior direito. Assistência de Eren Elmali.",
+          "txt": "Baris Alper Yilmaz (Türkiye) finalização com o pé direito de muito perto no Escanteio inferior direito. Assistência de Orkun Kökçü.",
           "sub": "🇹🇷"
         },
         {
@@ -20195,7 +20207,7 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "9",
+          "foulsCommitted": "10",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "2",
@@ -20237,8 +20249,8 @@
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "313",
-          "totalPasses": "367",
+          "accuratePasses": "314",
+          "totalPasses": "368",
           "passPct": "0.9",
           "accurateCrosses": "5",
           "totalCrosses": "15",
