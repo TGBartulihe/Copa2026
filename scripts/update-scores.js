@@ -1,4 +1,4 @@
-// Copa 2026 Tracker — atualização automática de resultados
+﻿// Copa 2026 Tracker — atualização automática de resultados
 // Roda via GitHub Actions a cada ~15 minutos. Autor: Thiago Bartulihe
 //
 // Busca a scoreboard da ESPN para uma janela de dias (passado + futuro próximo),
@@ -301,6 +301,34 @@ const ROUND_KEYWORDS = [
   { key: "oitavas", words: ["round of 16"] },
   { key: "avos",    words: ["round of 32"] },
 ];
+
+// Composição fixa dos grupos — confirmada, não depende de adivinhar texto
+// nenhum da ESPN. Usada como regra definitiva: duas seleções do mesmo
+// grupo NUNCA se enfrentam no mata-mata antes dos quartos de final, por
+// regra do torneio. Se baterem aqui, é garantidamente fase de grupos,
+// seja o que for que o texto ou a data da ESPN sugiram.
+const GROUP_TEAMS = {
+  A:["México 🇲🇽","África do Sul 🇿🇦","Coreia do Sul 🇰🇷","Rep. Tcheca 🇨🇿"],
+  B:["Canadá 🇨🇦","Bósnia 🇧🇦","Suíça 🇨🇭","Qatar 🇶🇦"],
+  C:["Brasil 🇧🇷","Marrocos 🇲🇦","Escócia 🏴","Haiti 🇭🇹"],
+  D:["EUA 🇺🇸","Paraguai 🇵🇾","Austrália 🇦🇺","Turquia 🇹🇷"],
+  E:["Alemanha 🇩🇪","C. do Marfim 🇨🇮","Equador 🇪🇨","Curaçao 🇨🇼"],
+  F:["Holanda 🇳🇱","Japão 🇯🇵","Suécia 🇸🇪","Tunísia 🇹🇳"],
+  G:["Bélgica 🇧🇪","Egito 🇪🇬","Irã 🇮🇷","Nova Zelândia 🇳🇿"],
+  H:["Espanha 🇪🇸","Cabo Verde 🇨🇻","Arábia Saudita 🇸🇦","Uruguai 🇺🇾"],
+  I:["França 🇫🇷","Senegal 🇸🇳","Iraque 🇮🇶","Noruega 🇳🇴"],
+  J:["Argentina 🇦🇷","Argélia 🇩🇿","Áustria 🇦🇹","Jordânia 🇯🇴"],
+  K:["Portugal 🇵🇹","RD Congo 🇨🇩","Uzbequistão 🇺🇿","Colômbia 🇨🇴"],
+  L:["Inglaterra 🏴","Croácia 🇭🇷","Gana 🇬🇭","Panamá 🇵🇦"],
+};
+function tkeySimple(s){ return (s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-zA-Z0-9]/g,"").toLowerCase(); }
+function sameGroup(home, away){
+  const h=tkeySimple(home), a=tkeySimple(away);
+  return Object.values(GROUP_TEAMS).some(teams=>{
+    const inGroup = t => teams.some(g => tkeySimple(g)===t);
+    return inGroup(h) && inGroup(a);
+  });
+}
 function roundFromText(ev){
   const txt = [
     ev.competitions?.[0]?.notes?.map(n=>n.headline).join(" ") || "",
@@ -652,7 +680,10 @@ async function main(){
       if (espnLineups) entry.lineups = espnLineups;
       if (espnStats) entry.stats = espnStats;
 
-      const round = classify(ev);
+      // Regra estrutural primeiro, sem excepção — duas seleções do mesmo
+      // grupo nunca jogam mata-mata antes dos quartos. Isto sobrepõe-se a
+      // qualquer palpite por texto ou por data.
+      const round = sameGroup(hName, aName) ? null : classify(ev);
       if (round){
         entry.round = round;
         knockout.push(entry);
