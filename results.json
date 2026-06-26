@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T03:07:12.226Z",
+  "generatedAt": "2026-06-26T03:08:13.512Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -19357,6 +19357,12 @@
       "live": true,
       "clock": "45'+6'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇾. Substituição de Maurício (Paraguai) aos 45'",
+          "sub": "🇵🇾"
+        },
         {
           "min": "45'+7'",
           "icon": "⏱️",
