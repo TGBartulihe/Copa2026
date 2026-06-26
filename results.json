@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T19:08:15.774Z",
+  "generatedAt": "2026-06-26T19:09:13.905Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20488,11 +20488,17 @@
       "venue": "Gillette Stadium",
       "iso": "2026-06-26T19:00Z",
       "sh": 0,
-      "sa": 0,
+      "sa": 1,
       "done": false,
       "live": true,
-      "clock": "6'",
+      "clock": "8'",
       "events": [
+        {
+          "min": "7'",
+          "icon": "⚽",
+          "txt": "Ousmane Dembélé (França) finalização com o pé direito do lado direito da área.",
+          "sub": "🇫🇷"
+        },
         {
           "min": "2'",
           "icon": "▶️",
@@ -20827,8 +20833,8 @@
           "longballPct": "1.0",
           "blockedShots": "0",
           "effectiveTackles": "2",
-          "totalTackles": "3",
-          "tacklePct": "0.7",
+          "totalTackles": "4",
+          "tacklePct": "0.5",
           "interceptions": "2",
           "effectiveClearance": "1",
           "totalClearance": "1"
@@ -20841,8 +20847,8 @@
           "wonCorners": "1",
           "saves": "0",
           "possessionPct": "73.3",
-          "totalShots": "3",
-          "shotsOnTarget": "3",
+          "totalShots": "4",
+          "shotsOnTarget": "4",
           "shotPct": "1.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
@@ -20882,7 +20888,7 @@
         {
           "min": "4'",
           "icon": "⚽",
-          "txt": "Habib Diarra (Senegal) remate com o pé esquerdo em frente à baliza ao ângulo superior direito. Assistência de Abdoulaye Seck após escanteio.",
+          "txt": "Habib Diarra (Senegal) remate com o pé direito em frente à baliza ao ângulo superior direito. Assistência de Abdoulaye Seck após escanteio.",
           "sub": "🇸🇳"
         },
         {
