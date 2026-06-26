@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T20:07:12.814Z",
+  "generatedAt": "2026-06-26T20:08:12.315Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20493,6 +20493,12 @@
       "live": true,
       "clock": "45'+5'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇳🇴. Morten Thorsby substitui Kristian Thorstvedt.",
+          "sub": "🇳🇴"
+        },
         {
           "min": "45'+6'",
           "icon": "⏱️",
