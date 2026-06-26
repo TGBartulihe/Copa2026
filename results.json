@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T20:49:17.570Z",
+  "generatedAt": "2026-06-26T20:50:13.505Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20491,7 +20491,7 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "84'",
+      "clock": "85'",
       "events": [
         {
           "min": "83'",
@@ -21053,6 +21053,12 @@
       "live": true,
       "clock": "82'",
       "events": [
+        {
+          "min": "81'",
+          "icon": "🟨",
+          "txt": "Pape Gueye (Senegal) Cartão Amarelo aos 81'",
+          "sub": "🇸🇳"
+        },
         {
           "min": "81'",
           "icon": "🔄",
