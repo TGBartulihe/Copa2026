@@ -1,0 +1,64 @@
+name: Auditoria - Jogos de Grupo Misturados no Knockout
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Verificar se há jogos do mesmo grupo classificados como mata-mata
+        run: |
+          node -e "
+          const fs = require('fs');
+          // Mesma composição de grupos usada no index.html
+          const AT = {
+            A:['México 🇲🇽','África do Sul 🇿🇦','Coreia do Sul 🇰🇷','Rep. Tcheca 🇨🇿'],
+            B:['Canadá 🇨🇦','Bósnia 🇧🇦','Suíça 🇨🇭','Qatar 🇶🇦'],
+            C:['Brasil 🇧🇷','Marrocos 🇲🇦','Escócia 🏴','Haiti 🇭🇹'],
+            D:['EUA 🇺🇸','Paraguai 🇵🇾','Austrália 🇦🇺','Turquia 🇹🇷'],
+            E:['Alemanha 🇩🇪','C. do Marfim 🇨🇮','Equador 🇪🇨','Curaçao 🇨🇼'],
+            F:['Holanda 🇳🇱','Japão 🇯🇵','Suécia 🇸🇪','Tunísia 🇹🇳'],
+            G:['Bélgica 🇧🇪','Egito 🇪🇬','Irã 🇮🇷','Nova Zelândia 🇳🇿'],
+            H:['Espanha 🇪🇸','Cabo Verde 🇨🇻','Arábia Saudita 🇸🇦','Uruguai 🇺🇾'],
+            I:['França 🇫🇷','Senegal 🇸🇳','Iraque 🇮🇶','Noruega 🇳🇴'],
+            J:['Argentina 🇦🇷','Argélia 🇩🇿','Áustria 🇦🇹','Jordânia 🇯🇴'],
+            K:['Portugal 🇵🇹','RD Congo 🇨🇩','Uzbequistão 🇺🇿','Colômbia 🇨🇴'],
+            L:['Inglaterra 🏴','Croácia 🇭🇷','Gana 🇬🇭','Panamá 🇵🇦'],
+          };
+          function tkey(s){ return (s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-zA-Z0-9]/g,'').toLowerCase(); }
+          function groupOf(name){
+            const k=tkey(name);
+            for(const [g,teams] of Object.entries(AT)){
+              if(teams.some(t=>tkey(t)===k)) return g;
+            }
+            return null;
+          }
+
+          const existing = JSON.parse(fs.readFileSync('results.json', 'utf8'));
+          const knockout = existing.knockout || [];
+          console.log('Total de jogos no knockout:', knockout.length);
+          console.log('');
+
+          const contaminated = [];
+          knockout.forEach(k => {
+            const gHome = groupOf(k.home), gAway = groupOf(k.away);
+            if(gHome && gAway && gHome === gAway){
+              contaminated.push({...k, detectedGroup: gHome});
+              console.log('CONTAMINADO (mesmo grupo ' + gHome + '): ' + k.home + ' x ' + k.away + ' (round atual: ' + k.round + ', done: ' + k.done + ')');
+            }
+          });
+
+          console.log('');
+          console.log('Total contaminado: ' + contaminated.length + ' de ' + knockout.length);
+          fs.writeFileSync('contaminated-found.json', JSON.stringify(contaminated, null, 2));
+          "
+
+      - name: Guardar resultado como artefacto
+        uses: actions/upload-artifact@v4
+        with:
+          name: contaminated-found
+          path: contaminated-found.json
