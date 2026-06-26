@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T20:27:15.276Z",
+  "generatedAt": "2026-06-26T20:28:14.192Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20491,7 +20491,7 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "63'",
+      "clock": "64'",
       "events": [
         {
           "min": "58'",
@@ -20985,12 +20985,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "59'",
+      "clock": "60'",
       "events": [
         {
           "min": "59'",
           "icon": "⚽",
-          "txt": "Pape Gueye (Senegal) finalização com o pé esquerdo de fora da área.",
+          "txt": "Pape Gueye (Senegal) finalização com o pé esquerdo de fora da área ao ângulo superior esquerdo. Assistência de Ismaila Sarr.",
           "sub": "🇸🇳"
         },
         {
@@ -21449,7 +21449,7 @@
           "offsides": "1",
           "wonCorners": "6",
           "saves": "1",
-          "possessionPct": "62.5",
+          "possessionPct": "62.3",
           "totalShots": "15",
           "shotsOnTarget": "5",
           "shotPct": "0.3",
@@ -21479,19 +21479,19 @@
           "offsides": "0",
           "wonCorners": "3",
           "saves": "2",
-          "possessionPct": "37.5",
+          "possessionPct": "37.7",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "142",
-          "totalPasses": "192",
+          "totalPasses": "193",
           "passPct": "0.7",
           "accurateCrosses": "0",
           "totalCrosses": "4",
           "crossPct": "0.0",
-          "totalLongBalls": "44",
+          "totalLongBalls": "45",
           "accurateLongBalls": "12",
           "longballPct": "0.3",
           "blockedShots": "4",
