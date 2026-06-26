@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T04:09:12.219Z",
+  "generatedAt": "2026-06-26T04:10:11.884Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20083,15 +20083,15 @@
         },
         {
           "min": "19'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a uma lesão de Salih Özcan (Türkiye).",
-          "sub": "🇹🇷"
-        },
-        {
-          "min": "19'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇺🇸"
+        },
+        {
+          "min": "19'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Salih Özcan (Türkiye).",
+          "sub": "🇹🇷"
         },
         {
           "min": "19'",
