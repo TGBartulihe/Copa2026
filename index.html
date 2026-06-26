@@ -658,15 +658,20 @@ const MM_STRUCTURE={
     {id:15,t1:"1º J",t2:"2º H",date:"03/07",brTime:"19h",venue:"Miami"},
     {id:16,t1:"1º K",t2:"3º D/E/I/J/L",date:"03/07",brTime:"22h30",venue:"Kansas City"},
   ],
+  // Oitavas — mapeamento oficial FIFA (fifa.com/.../knockout-stage-match-schedule-bracket):
+  // M89=V(M74)+V(M77) → meus ids 4+6 | M90=V(M73)+V(M75) → 3+2
+  // M91=V(M76)+V(M78) → 1+5 | M92=V(M79)+V(M80) → 7+8
+  // M93=V(M83)+V(M84) → 12+11 | M94=V(M81)+V(M82) → 10+9
+  // M95=V(M86)+V(M88) → 15+14 | M96=V(M85)+V(M87) → 13+16
   oitavas:[
-    {id:17,t1:"V1",t2:"V2",date:"03/07",brTime:"16h",venue:"A definir"},
-    {id:18,t1:"V3",t2:"V4",date:"03/07",brTime:"20h",venue:"A definir"},
-    {id:19,t1:"V5",t2:"V6",date:"04/07",brTime:"16h",venue:"A definir"},
-    {id:20,t1:"V7",t2:"V8",date:"04/07",brTime:"20h",venue:"A definir"},
-    {id:21,t1:"V9",t2:"V10",date:"05/07",brTime:"16h",venue:"A definir"},
-    {id:22,t1:"V11",t2:"V12",date:"05/07",brTime:"20h",venue:"A definir"},
-    {id:23,t1:"V13",t2:"V14",date:"06/07",brTime:"16h",venue:"A definir"},
-    {id:24,t1:"V15",t2:"V16",date:"06/07",brTime:"20h",venue:"A definir"},
+    {id:17,t1:"V4",t2:"V6",date:"03/07",brTime:"16h",venue:"Filadélfia"},
+    {id:18,t1:"V3",t2:"V2",date:"03/07",brTime:"20h",venue:"Houston"},
+    {id:19,t1:"V1",t2:"V5",date:"04/07",brTime:"16h",venue:"Nova Jersey"},
+    {id:20,t1:"V7",t2:"V8",date:"04/07",brTime:"20h",venue:"Cidade do México"},
+    {id:21,t1:"V12",t2:"V11",date:"05/07",brTime:"16h",venue:"Dallas"},
+    {id:22,t1:"V10",t2:"V9",date:"05/07",brTime:"20h",venue:"Seattle"},
+    {id:23,t1:"V15",t2:"V14",date:"06/07",brTime:"16h",venue:"Atlanta"},
+    {id:24,t1:"V13",t2:"V16",date:"06/07",brTime:"20h",venue:"Vancouver"},
   ],
   quartas:[
     {id:25,t1:"V17",t2:"V18",date:"09/07",brTime:"16h",venue:"A definir"},
@@ -1121,13 +1126,27 @@ function setResultMode(m){RESULT_MODE=m;render();}
 function toggleResultFav(){RESULT_FAV_ONLY=!RESULT_FAV_ONLY;render();}
 
 function bResult(){
-  let done=RES.filter(r=>r.done);
-  if(RESULT_FAV_ONLY) done=done.filter(r=>isFav(r.home)||isFav(r.away));
-
   let h=filterBar([
     {label:"🏟 Por Grupo",active:RESULT_MODE==="grupo",onclick:"setResultMode('grupo')"},
     {label:"📅 Por Dia",active:RESULT_MODE==="dia",onclick:"setResultMode('dia')"},
+    {label:"🏆 Mata-Mata",active:RESULT_MODE==="matamata",onclick:"setResultMode('matamata')"},
   ],RESULT_FAV_ONLY,"toggleResultFav()");
+
+  if(RESULT_MODE==="matamata"){
+    let koDone=(KO_MATCHES||[]).filter(k=>k.done).sort((a,b)=>new Date(b.iso||0)-new Date(a.iso||0));
+    if(RESULT_FAV_ONLY) koDone=koDone.filter(k=>isFav(k.home)||isFav(k.away));
+    h+=lbl(`${koDone.length} JOGO${koDone.length!==1?"S":""} DE MATA-MATA ENCERRADO${koDone.length!==1?"S":""}${RESULT_FAV_ONLY?" · SÓ FAVORITOS":""}`);
+    if(!koDone.length) return h+`<div class="no-g">Nenhum resultado do mata-mata ainda.</div>`;
+    koDone.forEach(k=>{
+      const d=k.iso?new Date(k.iso):null;
+      const meta=d?`${String(d.getDate()).padStart(2,"0")}/${String(d.getMonth()+1).padStart(2,"0")} · ${k.venue||""}`:(k.round||"");
+      h+=bracketBox(k.home,k.away,k.sh,k.sa,"done",meta,isFav(k.home),isFav(k.away));
+    });
+    return h;
+  }
+
+  let done=RES.filter(r=>r.done);
+  if(RESULT_FAV_ONLY) done=done.filter(r=>isFav(r.home)||isFav(r.away));
 
   h+=lbl(`${done.length} JOGO${done.length!==1?"S":""} ENCERRADO${done.length!==1?"S":""}${RESULT_FAV_ONLY?" · SÓ FAVORITOS":""}`);
 
@@ -1151,18 +1170,6 @@ function bResult(){
     sorted.forEach(r=>{
       if(r.date!==lastDate){lastDate=r.date;h+=lbl(r.date,!first);first=false;}
       h+=card(r);
-    });
-  }
-
-  // Mata-mata já encerrado — mesma lógica do Próximos, secção separada
-  // por ter estrutura diferente (round, não g)
-  const koDone=(KO_MATCHES||[]).filter(k=>k.done).sort((a,b)=>new Date(b.iso||0)-new Date(a.iso||0));
-  if(koDone.length){
-    h+=`<div class="glbl" style="color:#f0c040;margin-top:14px">▸ MATA-MATA</div>`;
-    koDone.forEach(k=>{
-      const d=k.iso?new Date(k.iso):null;
-      const meta=d?`${String(d.getDate()).padStart(2,"0")}/${String(d.getMonth()+1).padStart(2,"0")} · ${k.venue||""}`:(k.round||"");
-      h+=bracketBox(k.home,k.away,k.sh,k.sa,"done",meta,isFav(k.home),isFav(k.away));
     });
   }
   return h;
@@ -1510,6 +1517,41 @@ function bracketBox(homeLabel,awayLabel,sh,sa,status,meta,favHome,favAway){
 }
 function connector(text){ return `<div class="bconnector"><span>${text||"VENCEDOR AVANÇA"}</span></div>`; }
 
+// Resolve uma referência "VN" (Vencedor do confronto N) para o nome real da
+// equipa, se esse confronto já tiver um resultado real confirmado pela ESPN.
+// Funciona para qualquer fase — avos (via buildSimR32) ou fases seguintes
+// (recursivamente, através do próprio KO_MATCHES de cada ronda).
+function resolveVSlot(label, avosComputed){
+  const m=(label||"").match(/^V(\d+)$/);
+  if(!m) return null;
+  const id=parseInt(m[1]);
+  // Encontra a que fase/jogo este id pertence, e os seus dois lados (que
+  // podem ser "1º X", "3º X/Y/Z", ou outro "VN" de uma fase anterior)
+  let slotDef=null, slotRound=null;
+  for(const r of ["avos","oitavas","quartas","semis","final"]){
+    const found=MM_STRUCTURE[r].find(s=>s.id===id);
+    if(found){ slotDef=found; slotRound=r; break; }
+  }
+  if(!slotDef) return null;
+
+  let home,away;
+  if(slotRound==="avos"){
+    const slot=avosComputed[id-1];
+    if(!slot) return null;
+    home=slot.home; away=slot.away;
+  } else {
+    home=resolveVSlot(slotDef.t1,avosComputed)||slotDef.t1;
+    away=resolveVSlot(slotDef.t2,avosComputed)||slotDef.t2;
+    if(home.startsWith("V")||away.startsWith("V")) return null; // ainda não resolvido
+  }
+
+  const real=(KO_MATCHES||[]).find(k=>k.round===slotRound&&
+    ((tkey(k.home)===tkey(home)&&tkey(k.away)===tkey(away))||
+     (tkey(k.home)===tkey(away)&&tkey(k.away)===tkey(home))));
+  if(real&&real.done) return real.sh>real.sa?real.home:real.away;
+  return null; // confronto ainda não decidido
+}
+
 function bOficial(){
   const groupStageDone=RES.filter(r=>r.done).length>=72;
   let h=groupStageProgress();
@@ -1569,12 +1611,18 @@ function bOficial(){
           h+=`<div class="bremain">+ ${remaining} confronto${remaining>1?"s":""} ainda a definir nesta fase</div>`;
         }
       } else {
-        // Ainda sem jogos reais nesta fase — mostra estrutura estática como referência
+        // Ainda sem jogos reais nesta fase — tenta resolver os "VN" a partir
+        // dos resultados reais já confirmados; só usa estrutura genérica
+        // ("Vencedor confronto N") para o que ainda não foi decidido
+        const avosComputed=buildSimR32();
         MM_STRUCTURE[key].forEach((m,i)=>{
           const {time,date}=localTime(m.brTime,m.date);
-          const isTBD=m.t1.startsWith("V")||/^[123]º/.test(m.t1);
+          const r1=resolveVSlot(m.t1,avosComputed), r2=resolveVSlot(m.t2,avosComputed);
+          const home=r1||(m.t1.match(/^V(\d+)$/)?`Vencedor Confronto ${m.t1.slice(1)}`:m.t1);
+          const away=r2||(m.t2.match(/^V(\d+)$/)?`Vencedor Confronto ${m.t2.slice(1)}`:m.t2);
+          const isTBD=!r1||!r2;
           const meta=isTBD?`${label.split(" — ")[0]} · a definir`:`⏰ ${date} · ${time}${m.venue?" · "+m.venue:""}`;
-          h+=bracketBox(m.t1,m.t2,null,null,"scheduled",meta,false,false);
+          h+=bracketBox(home,away,null,null,"scheduled",meta,r1?isFav(r1):false,r2?isFav(r2):false);
           if(i%2===1 && i<MM_STRUCTURE[key].length-1) h+=connector();
         });
       }
@@ -1606,13 +1654,27 @@ function toggleProxFav(){PROX_FAV_ONLY=!PROX_FAV_ONLY;render();}
 
 function bProx(){
   const today=todayStr(), tom=tomorrowStr();
-  let all=RES.filter(r=>!r.done&&!r.live);
-  if(PROX_FAV_ONLY) all=all.filter(r=>isFav(r.home)||isFav(r.away));
 
   let h=filterBar([
     {label:"📅 Por Dia",active:PROX_MODE==="dia",onclick:"setProxMode('dia')"},
     {label:"🏟 Por Grupo",active:PROX_MODE==="grupo",onclick:"setProxMode('grupo')"},
+    {label:"🏆 Mata-Mata",active:PROX_MODE==="matamata",onclick:"setProxMode('matamata')"},
   ],PROX_FAV_ONLY,"toggleProxFav()");
+
+  if(PROX_MODE==="matamata"){
+    let koUpcoming=(KO_MATCHES||[]).filter(k=>!k.done).sort((a,b)=>new Date(a.iso||0)-new Date(b.iso||0));
+    if(PROX_FAV_ONLY) koUpcoming=koUpcoming.filter(k=>isFav(k.home)||isFav(k.away));
+    if(!koUpcoming.length) return h+`<div class="no-g">Nenhum jogo de mata-mata agendado ainda.</div>`;
+    koUpcoming.forEach(k=>{
+      const d=k.iso?new Date(k.iso):null;
+      const meta=d?`⏰ ${String(d.getDate()).padStart(2,"0")}/${String(d.getMonth()+1).padStart(2,"0")} · ${k.venue||""}`:(k.round||"");
+      h+=bracketBox(k.home,k.away,k.sh,k.sa,k.live?"live":"scheduled",meta,isFav(k.home),isFav(k.away));
+    });
+    return h;
+  }
+
+  let all=RES.filter(r=>!r.done&&!r.live);
+  if(PROX_FAV_ONLY) all=all.filter(r=>isFav(r.home)||isFav(r.away));
 
   const pending=all.filter(r=>r.pending);
   const upcoming=all.filter(r=>!r.pending).sort((a,b)=>dateSortKey(a.date)-dateSortKey(b.date));
@@ -1650,19 +1712,6 @@ function bProx(){
         first=false;
       }
       h+=uc(r);
-    });
-  }
-
-  // Mata-mata já agendado/definido — separado dos jogos de grupo porque
-  // usa outra estrutura (round, não g), mas o utilizador precisa de ver
-  // isto aqui também, não só na tab Mata-Mata
-  const koUpcoming=(KO_MATCHES||[]).filter(k=>!k.done).sort((a,b)=>new Date(a.iso||0)-new Date(b.iso||0));
-  if(koUpcoming.length){
-    h+=`<div class="glbl" style="color:#f0c040;margin-top:14px">▸ MATA-MATA</div>`;
-    koUpcoming.forEach(k=>{
-      const d=k.iso?new Date(k.iso):null;
-      const meta=d?`⏰ ${String(d.getDate()).padStart(2,"0")}/${String(d.getMonth()+1).padStart(2,"0")} · ${k.venue||""}`:(k.round||"");
-      h+=bracketBox(k.home,k.away,k.sh,k.sa,k.live?"live":"tbd",meta,isFav(k.home),isFav(k.away));
     });
   }
   return h;
