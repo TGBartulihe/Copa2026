@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T03:20:11.089Z",
+  "generatedAt": "2026-06-26T03:21:16.951Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -19355,8 +19355,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "57'",
+      "clock": "58'",
       "events": [
+        {
+          "min": "58'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇦🇺. Ajdin Hrustic substitui Cristian Volpato.",
+          "sub": "🇦🇺"
+        },
         {
           "min": "46'",
           "icon": "🟨",
@@ -19775,6 +19781,12 @@
       "live": true,
       "clock": "58'",
       "events": [
+        {
+          "min": "58'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇺🇸. Substituição de Christian Pulisic (Estados Unidos) aos 58'",
+          "sub": "🇺🇸"
+        },
         {
           "min": "49'",
           "icon": "⚽",
