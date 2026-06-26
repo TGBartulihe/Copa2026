@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T03:39:14.730Z",
+  "generatedAt": "2026-06-26T03:40:16.115Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -19355,8 +19355,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "76'",
+      "clock": "77'",
       "events": [
+        {
+          "min": "77'",
+          "icon": "🟨",
+          "txt": "Diego Gómez (Paraguai) Cartão Amarelo aos 77'",
+          "sub": "🇵🇾"
+        },
         {
           "min": "71'",
           "icon": "▶️",
@@ -19737,34 +19743,34 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "6",
+          "foulsCommitted": "7",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "1",
           "saves": "3",
-          "possessionPct": "40.3",
+          "possessionPct": "41.4",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "236",
-          "totalPasses": "307",
+          "accuratePasses": "250",
+          "totalPasses": "324",
           "passPct": "0.8",
           "accurateCrosses": "0",
-          "totalCrosses": "5",
+          "totalCrosses": "7",
           "crossPct": "0.0",
-          "totalLongBalls": "45",
+          "totalLongBalls": "46",
           "accurateLongBalls": "11",
           "longballPct": "0.2",
           "blockedShots": "0",
-          "effectiveTackles": "13",
-          "totalTackles": "21",
+          "effectiveTackles": "14",
+          "totalTackles": "22",
           "tacklePct": "0.6",
           "interceptions": "6",
-          "effectiveClearance": "22",
-          "totalClearance": "22"
+          "effectiveClearance": "23",
+          "totalClearance": "23"
         },
         "away": {
           "foulsCommitted": "6",
@@ -19773,28 +19779,28 @@
           "offsides": "0",
           "wonCorners": "3",
           "saves": "1",
-          "possessionPct": "59.7",
+          "possessionPct": "59",
           "totalShots": "9",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "375",
-          "totalPasses": "447",
+          "accuratePasses": "383",
+          "totalPasses": "460",
           "passPct": "0.8",
           "accurateCrosses": "4",
           "totalCrosses": "13",
           "crossPct": "0.3",
-          "totalLongBalls": "42",
-          "accurateLongBalls": "13",
+          "totalLongBalls": "44",
+          "accurateLongBalls": "14",
           "longballPct": "0.3",
           "blockedShots": "3",
           "effectiveTackles": "11",
           "totalTackles": "18",
           "tacklePct": "0.6",
-          "interceptions": "5",
-          "effectiveClearance": "8",
-          "totalClearance": "8"
+          "interceptions": "6",
+          "effectiveClearance": "9",
+          "totalClearance": "9"
         }
       }
     },
@@ -19809,8 +19815,26 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "76'",
+      "clock": "77'",
       "events": [
+        {
+          "min": "77'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇺🇸. Substituição de Alex Freeman (Estados Unidos) aos 77'",
+          "sub": "🇺🇸"
+        },
+        {
+          "min": "77'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇺🇸. Alejandro Zendejas (Estados Unidos) Substituição aos 77'",
+          "sub": "🇺🇸"
+        },
+        {
+          "min": "76'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇺🇸. Sergiño Dest (Estados Unidos) Substituição aos 76'",
+          "sub": "🇺🇸"
+        },
         {
           "min": "70'",
           "icon": "▶️",
