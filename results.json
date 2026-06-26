@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T00:04:11.137Z",
+  "generatedAt": "2026-06-26T00:05:12.127Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -18722,8 +18722,14 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "45'+3'",
+      "clock": "46'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "▶️",
+          "txt": "Começo do segundo tempo Tunísia 0, Holanda 2.",
+          "sub": "🏳️"
+        },
         {
           "min": "45'+4'",
           "icon": "⏱️",
@@ -19049,7 +19055,7 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "30.1",
+          "possessionPct": "30",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
@@ -19079,14 +19085,14 @@
           "offsides": "0",
           "wonCorners": "3",
           "saves": "1",
-          "possessionPct": "69.9",
+          "possessionPct": "70",
           "totalShots": "12",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "306",
-          "totalPasses": "332",
+          "accuratePasses": "308",
+          "totalPasses": "334",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "13",
@@ -19095,9 +19101,9 @@
           "accurateLongBalls": "6",
           "longballPct": "0.7",
           "blockedShots": "4",
-          "effectiveTackles": "2",
-          "totalTackles": "4",
-          "tacklePct": "0.5",
+          "effectiveTackles": "3",
+          "totalTackles": "5",
+          "tacklePct": "0.6",
           "interceptions": "2",
           "effectiveClearance": "4",
           "totalClearance": "4"
