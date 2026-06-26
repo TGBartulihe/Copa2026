@@ -1,0 +1,36 @@
+name: Verificar Texto Real da ESPN para Jogos de Grupo
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ver o texto exato que a ESPN usa para um jogo de grupo da 3ª rodada
+        run: |
+          node -e "
+          async function main(){
+            // Cabo Verde x Arábia Saudita, 27/06 — um dos contaminados
+            const res = await fetch('https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=20260627');
+            const data = await res.json();
+            const ev = (data.events||[]).find(e => {
+              const names = (e.competitions?.[0]?.competitors||[]).map(c=>c.team?.displayName).join(' ');
+              return names.includes('Cape Verde') || names.includes('Saudi');
+            });
+            if(!ev){ console.log('Jogo não encontrado nesta data.'); return; }
+            console.log('=== ev.season ===');
+            console.log(JSON.stringify(ev.season, null, 2));
+            console.log('=== ev.competitions[0].type ===');
+            console.log(JSON.stringify(ev.competitions?.[0]?.type, null, 2));
+            console.log('=== ev.competitions[0].notes ===');
+            console.log(JSON.stringify(ev.competitions?.[0]?.notes, null, 2));
+            console.log('=== TEXTO COMBINADO QUE O classify() VÊ ===');
+            const txt = [
+              ev.competitions?.[0]?.notes?.map(n=>n.headline).join(' ') || '',
+              ev.season?.slug || '', ev.competitions?.[0]?.type?.text || '',
+            ].join(' ').toLowerCase();
+            console.log(JSON.stringify(txt));
+          }
+          main().catch(e=>{console.error(e);process.exit(1);});
+          "
