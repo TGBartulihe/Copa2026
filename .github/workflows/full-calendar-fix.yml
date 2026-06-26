@@ -1,0 +1,125 @@
+name: Resolver Calendário Inteiro - Grupos
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Reconciliar TODO o calendário de grupos com a ESPN
+        run: |
+          node -e "
+          const fs = require('fs');
+          const ESPN_MAP = {
+            'Mexico':'México 🇲🇽','South Africa':'África do Sul 🇿🇦',
+            'South Korea':'Coreia do Sul 🇰🇷','Czech Republic':'Rep. Tcheca 🇨🇿','Czechia':'Rep. Tcheca 🇨🇿',
+            'Canada':'Canadá 🇨🇦','Bosnia and Herzegovina':'Bósnia 🇧🇦','Bosnia':'Bósnia 🇧🇦','Bosnia-Herzegovina':'Bósnia 🇧🇦',
+            'Qatar':'Qatar 🇶🇦','Switzerland':'Suíça 🇨🇭',
+            'Brazil':'Brasil 🇧🇷','Morocco':'Marrocos 🇲🇦','Scotland':'Escócia 🏴󠁧󠁢󠁳󠁣󠁴󠁿','Haiti':'Haiti 🇭🇹',
+            'United States':'EUA 🇺🇸','USA':'EUA 🇺🇸','Paraguay':'Paraguai 🇵🇾',
+            'Australia':'Austrália 🇦🇺','Türkiye':'Turquia 🇹🇷','Turkey':'Turquia 🇹🇷',
+            'Germany':'Alemanha 🇩🇪','Curacao':'Curaçao 🇨🇼','Curaçao':'Curaçao 🇨🇼',
+            'Ivory Coast':'C. do Marfim 🇨🇮',\"Côte d'Ivoire\":'C. do Marfim 🇨🇮',\"Cote d'Ivoire\":'C. do Marfim 🇨🇮',
+            'Ecuador':'Equador 🇪🇨','Netherlands':'Holanda 🇳🇱','Japan':'Japão 🇯🇵',
+            'Sweden':'Suécia 🇸🇪','Tunisia':'Tunísia 🇹🇳',
+            'Belgium':'Bélgica 🇧🇪','Egypt':'Egito 🇪🇬','Iran':'Irã 🇮🇷','New Zealand':'Nova Zelândia 🇳🇿',
+            'Spain':'Espanha 🇪🇸','Cape Verde':'Cabo Verde 🇨🇻','Saudi Arabia':'Arábia Saudita 🇸🇦','Uruguay':'Uruguai 🇺🇾',
+            'France':'França 🇫🇷','Senegal':'Senegal 🇸🇳','Iraq':'Iraque 🇮🇶','Norway':'Noruega 🇳🇴',
+            'Argentina':'Argentina 🇦🇷','Algeria':'Argélia 🇩🇿','Austria':'Áustria 🇦🇹','Jordan':'Jordânia 🇯🇴',
+            'Portugal':'Portugal 🇵🇹','DR Congo':'RD Congo 🇨🇩','Congo DR':'RD Congo 🇨🇩','DRC':'RD Congo 🇨🇩','Democratic Republic of the Congo':'RD Congo 🇨🇩','Congo':'RD Congo 🇨🇩','Uzbekistan':'Uzbequistão 🇺🇿','Colombia':'Colômbia 🇨🇴',
+            'England':'Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿','Croatia':'Croácia 🇭🇷','Ghana':'Gana 🇬🇭','Panama':'Panamá 🇵🇦',
+          };
+          function mapTeam(n){ return ESPN_MAP[n] || n; }
+          function tkey(s){ return (s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-zA-Z0-9]/g,'').toLowerCase(); }
+          function toBR(isoDate){
+            const d = new Date(isoDate);
+            const br = new Date(d.getTime() - 3*3600*1000);
+            const p = n => String(n).padStart(2,'0');
+            return { date: p(br.getUTCDate())+'/'+p(br.getUTCMonth()+1), brTime: p(br.getUTCHours())+'h' };
+          }
+
+          async function fetchDay(dateStr){
+            try{
+              const res = await fetch('https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=' + dateStr);
+              const data = await res.json();
+              return data.events || [];
+            }catch(e){ return []; }
+          }
+
+          async function main(){
+            const existing = JSON.parse(fs.readFileSync('results.json', 'utf8'));
+            const byKey = {};
+            existing.matches.forEach(m => { byKey[tkey(m.home)+'|'+tkey(m.away)] = m; });
+
+            // Cobre a fase de grupos inteira, do início até bem depois de
+            // hoje (pega também jogos futuros agendados, não só terminados)
+            const start = new Date('2026-06-11T00:00:00Z');
+            const end = new Date('2026-06-30T00:00:00Z');
+            let added = 0, updated = 0;
+
+            for (let d = new Date(start); d <= end; d.setUTCDate(d.getUTCDate()+1)){
+              const dateStr = d.getUTCFullYear() + String(d.getUTCMonth()+1).padStart(2,'0') + String(d.getUTCDate()).padStart(2,'0');
+              const events = await fetchDay(dateStr);
+
+              events.forEach(ev => {
+                const comp = ev.competitions?.[0];
+                const homeC = comp?.competitors?.find(c=>c.homeAway==='home');
+                const awayC = comp?.competitors?.find(c=>c.homeAway==='away');
+                if(!homeC || !awayC) return;
+
+                const home = mapTeam(homeC.team?.displayName);
+                const away = mapTeam(awayC.team?.displayName);
+                const key = tkey(home)+'|'+tkey(away);
+                const { date, brTime } = toBR(ev.date);
+                const statusType = comp?.status?.type;
+                const done = statusType?.completed === true;
+                const live = statusType?.state === 'in';
+
+                const fresh = {
+                  home, away, date, brTime,
+                  venue: comp?.venue?.fullName || '',
+                  iso: ev.date,
+                  sh: done||live ? parseInt(homeC.score) : null,
+                  sa: done||live ? parseInt(awayC.score) : null,
+                  done, live, clock: '', events: []
+                };
+
+                if(!byKey[key]){
+                  byKey[key] = fresh;
+                  added++;
+                  console.log('ADICIONADO: ' + date + ' ' + brTime + ' — ' + home + ' x ' + away + (done?' ('+fresh.sh+'-'+fresh.sa+')':' (agendado)'));
+                } else {
+                  const old = byKey[key];
+                  // Só atualiza se o estado real (terminado/agendado) mudou,
+                  // preservando o que já lá estava de resto (escalação, etc)
+                  if(old.done !== done || old.sh !== fresh.sh || old.sa !== fresh.sa){
+                    Object.assign(old, { date, brTime, venue: fresh.venue, sh: fresh.sh, sa: fresh.sa, done, live });
+                    updated++;
+                    console.log('ATUALIZADO: ' + date + ' — ' + home + ' x ' + away + ' (estava errado)');
+                  }
+                }
+              });
+            }
+
+            existing.matches = Object.values(byKey);
+            fs.writeFileSync('results.json', JSON.stringify(existing, null, 2));
+            console.log('');
+            console.log('Adicionados: ' + added + ' | Atualizados: ' + updated + ' | Total geral: ' + existing.matches.length);
+          }
+          main().catch(e=>{console.error(e);process.exit(1);});
+          "
+
+      - name: Commit
+        run: |
+          git config user.name "actions-user"
+          git config user.email "actions@github.com"
+          git add results.json
+          git commit -m "Reconcilia calendário inteiro de grupos com a ESPN" || echo "Nada para comitar"
+          git push
