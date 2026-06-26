@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T03:40:16.115Z",
+  "generatedAt": "2026-06-26T03:41:15.796Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -19355,7 +19355,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "77'",
+      "clock": "78'",
       "events": [
         {
           "min": "77'",
@@ -19743,13 +19743,13 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "7",
+          "foulsCommitted": "8",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "1",
           "saves": "3",
-          "possessionPct": "41.4",
+          "possessionPct": "41",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
@@ -19769,8 +19769,8 @@
           "totalTackles": "22",
           "tacklePct": "0.6",
           "interceptions": "6",
-          "effectiveClearance": "23",
-          "totalClearance": "23"
+          "effectiveClearance": "24",
+          "totalClearance": "24"
         },
         "away": {
           "foulsCommitted": "6",
@@ -19815,24 +19815,24 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "77'",
+      "clock": "78'",
       "events": [
         {
           "min": "77'",
           "icon": "🔄",
-          "txt": "Substituição, 🇺🇸. Substituição de Alex Freeman (Estados Unidos) aos 77'",
+          "txt": "Substituição, 🇺🇸. Alex Freeman substitui Joe Scally.",
           "sub": "🇺🇸"
         },
         {
           "min": "77'",
           "icon": "🔄",
-          "txt": "Substituição, 🇺🇸. Alejandro Zendejas (Estados Unidos) Substituição aos 77'",
+          "txt": "Substituição, 🇺🇸. Álex Zendejas entra em campo Brenden Aaronson.",
           "sub": "🇺🇸"
         },
         {
           "min": "76'",
           "icon": "🔄",
-          "txt": "Substituição, 🇺🇸. Sergiño Dest (Estados Unidos) Substituição aos 76'",
+          "txt": "Substituição, 🇺🇸. Sergiño Dest entra em campo e entra Giovanni Reyna.",
           "sub": "🇺🇸"
         },
         {
@@ -19872,7 +19872,7 @@
           "sub": "🇹🇷"
         },
         {
-          "min": "65'",
+          "min": "64'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇺🇸"
@@ -20267,7 +20267,7 @@
           "offsides": "2",
           "wonCorners": "2",
           "saves": "5",
-          "possessionPct": "41.8",
+          "possessionPct": "41.7",
           "totalShots": "6",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
@@ -20297,14 +20297,14 @@
           "offsides": "4",
           "wonCorners": "9",
           "saves": "0",
-          "possessionPct": "58.2",
-          "totalShots": "15",
+          "possessionPct": "58.3",
+          "totalShots": "16",
           "shotsOnTarget": "7",
-          "shotPct": "0.5",
+          "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "338",
-          "totalPasses": "401",
+          "accuratePasses": "340",
+          "totalPasses": "402",
           "passPct": "0.8",
           "accurateCrosses": "5",
           "totalCrosses": "16",
