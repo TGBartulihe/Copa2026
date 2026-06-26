@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T00:36:18.975Z",
+  "generatedAt": "2026-06-26T00:37:14.061Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -18294,24 +18294,24 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "75'",
+      "clock": "76'",
       "events": [
         {
           "min": "75'",
           "icon": "🔄",
-          "txt": "Substituição, 🇯🇵. Substituição de Tsuyoshi Watanabe (Japão) aos 75'",
+          "txt": "Substituição, 🇯🇵. Tsuyoshi Watanabe substitui Ayumu Seko.",
           "sub": "🇯🇵"
         },
         {
           "min": "75'",
           "icon": "🔄",
-          "txt": "Substituição, 🇯🇵. Yuto Nagatomo (Japão) Substituição aos 75'",
+          "txt": "Substituição, 🇯🇵. Yuto Nagatomo substitui Keito Nakamura.",
           "sub": "🇯🇵"
         },
         {
           "min": "75'",
           "icon": "🔄",
-          "txt": "Substituição, 🇸🇪. Ken Sema (Suécia) Substituição aos 75'",
+          "txt": "Substituição, 🇸🇪. Ken Sema substitui Elliot Stroud.",
           "sub": "🇸🇪"
         },
         {
@@ -18800,8 +18800,14 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "76'",
+      "clock": "78'",
       "events": [
+        {
+          "min": "77'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇳🇱. Entra Memphis Depay para o lugar de Brian Brobbey.",
+          "sub": "🇳🇱"
+        },
         {
           "min": "75'",
           "icon": "🔄",
@@ -19211,9 +19217,9 @@
           "offsides": "1",
           "wonCorners": "3",
           "saves": "3",
-          "possessionPct": "29.2",
-          "totalShots": "6",
-          "shotsOnTarget": "3",
+          "possessionPct": "29.3",
+          "totalShots": "8",
+          "shotsOnTarget": "4",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
@@ -19221,14 +19227,14 @@
           "totalPasses": "219",
           "passPct": "0.8",
           "accurateCrosses": "4",
-          "totalCrosses": "9",
+          "totalCrosses": "10",
           "crossPct": "0.4",
           "totalLongBalls": "40",
           "accurateLongBalls": "18",
           "longballPct": "0.5",
           "blockedShots": "0",
-          "effectiveTackles": "10",
-          "totalTackles": "16",
+          "effectiveTackles": "9",
+          "totalTackles": "15",
           "tacklePct": "0.6",
           "interceptions": "6",
           "effectiveClearance": "29",
@@ -19240,8 +19246,8 @@
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "5",
-          "saves": "2",
-          "possessionPct": "70.8",
+          "saves": "3",
+          "possessionPct": "70.7",
           "totalShots": "18",
           "shotsOnTarget": "6",
           "shotPct": "0.3",
@@ -19261,8 +19267,8 @@
           "totalTackles": "7",
           "tacklePct": "0.6",
           "interceptions": "6",
-          "effectiveClearance": "6",
-          "totalClearance": "6"
+          "effectiveClearance": "7",
+          "totalClearance": "7"
         }
       }
     },
