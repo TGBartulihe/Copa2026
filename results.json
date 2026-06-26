@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T20:14:15.051Z",
+  "generatedAt": "2026-06-26T20:15:14.990Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20491,8 +20491,14 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "50'",
+      "clock": "51'",
       "events": [
+        {
+          "min": "50'",
+          "icon": "⚽🎯",
+          "txt": "Pênalti salvo. Jørgen Strand Larsen (Noruega) finalização com o pé direito defendido.",
+          "sub": "🇳🇴"
+        },
         {
           "min": "45'",
           "icon": "▶️",
@@ -20889,11 +20895,11 @@
           "wonCorners": "1",
           "saves": "5",
           "possessionPct": "39.9",
-          "totalShots": "4",
-          "shotsOnTarget": "2",
-          "shotPct": "0.5",
+          "totalShots": "5",
+          "shotsOnTarget": "3",
+          "shotPct": "0.6",
           "penaltyKickGoals": "0",
-          "penaltyKickShots": "0",
+          "penaltyKickShots": "1",
           "accuratePasses": "158",
           "totalPasses": "205",
           "passPct": "0.8",
@@ -20955,7 +20961,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "46'",
+      "clock": "47'",
       "events": [
         {
           "min": "45'",
@@ -21371,14 +21377,14 @@
           "offsides": "1",
           "wonCorners": "6",
           "saves": "0",
-          "possessionPct": "58.5",
-          "totalShots": "10",
+          "possessionPct": "59.9",
+          "totalShots": "11",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "179",
-          "totalPasses": "218",
+          "accuratePasses": "193",
+          "totalPasses": "232",
           "passPct": "0.8",
           "accurateCrosses": "4",
           "totalCrosses": "8",
@@ -21401,7 +21407,7 @@
           "offsides": "0",
           "wonCorners": "3",
           "saves": "1",
-          "possessionPct": "41.5",
+          "possessionPct": "40.1",
           "totalShots": "4",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
@@ -21417,9 +21423,9 @@
           "accurateLongBalls": "11",
           "longballPct": "0.3",
           "blockedShots": "4",
-          "effectiveTackles": "5",
-          "totalTackles": "8",
-          "tacklePct": "0.6",
+          "effectiveTackles": "6",
+          "totalTackles": "9",
+          "tacklePct": "0.7",
           "interceptions": "2",
           "effectiveClearance": "13",
           "totalClearance": "13"
