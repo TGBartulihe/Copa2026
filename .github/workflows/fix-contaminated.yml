@@ -1,0 +1,85 @@
+name: Mover Jogos Contaminados de Volta para os Grupos
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Mover do knockout para matches, com o grupo certo
+        run: |
+          node -e "
+          const fs = require('fs');
+          const AT = {
+            A:['México 🇲🇽','África do Sul 🇿🇦','Coreia do Sul 🇰🇷','Rep. Tcheca 🇨🇿'],
+            B:['Canadá 🇨🇦','Bósnia 🇧🇦','Suíça 🇨🇭','Qatar 🇶🇦'],
+            C:['Brasil 🇧🇷','Marrocos 🇲🇦','Escócia 🏴','Haiti 🇭🇹'],
+            D:['EUA 🇺🇸','Paraguai 🇵🇾','Austrália 🇦🇺','Turquia 🇹🇷'],
+            E:['Alemanha 🇩🇪','C. do Marfim 🇨🇮','Equador 🇪🇨','Curaçao 🇨🇼'],
+            F:['Holanda 🇳🇱','Japão 🇯🇵','Suécia 🇸🇪','Tunísia 🇹🇳'],
+            G:['Bélgica 🇧🇪','Egito 🇪🇬','Irã 🇮🇷','Nova Zelândia 🇳🇿'],
+            H:['Espanha 🇪🇸','Cabo Verde 🇨🇻','Arábia Saudita 🇸🇦','Uruguai 🇺🇾'],
+            I:['França 🇫🇷','Senegal 🇸🇳','Iraque 🇮🇶','Noruega 🇳🇴'],
+            J:['Argentina 🇦🇷','Argélia 🇩🇿','Áustria 🇦🇹','Jordânia 🇯🇴'],
+            K:['Portugal 🇵🇹','RD Congo 🇨🇩','Uzbequistão 🇺🇿','Colômbia 🇨🇴'],
+            L:['Inglaterra 🏴','Croácia 🇭🇷','Gana 🇬🇭','Panamá 🇵🇦'],
+          };
+          function tkey(s){ return (s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-zA-Z0-9]/g,'').toLowerCase(); }
+          function groupOf(name){
+            const k=tkey(name);
+            for(const [g,teams] of Object.entries(AT)){
+              if(teams.some(t=>tkey(t)===k)) return g;
+            }
+            return null;
+          }
+
+          const existing = JSON.parse(fs.readFileSync('results.json', 'utf8'));
+          const knockout = existing.knockout || [];
+          const matchesByKey = {};
+          (existing.matches||[]).forEach(m => { matchesByKey[tkey(m.home)+'|'+tkey(m.away)] = m; });
+
+          const cleanKnockout = [];
+          let moved = 0;
+          knockout.forEach(k => {
+            const gHome = groupOf(k.home), gAway = groupOf(k.away);
+            if(gHome && gAway && gHome === gAway){
+              // É jogo de grupo contaminado — move para matches, com o grupo certo
+              const key = tkey(k.home)+'|'+tkey(k.away);
+              if(!matchesByKey[key]){
+                matchesByKey[key] = {
+                  g: gHome, home: k.home, away: k.away,
+                  date: k.date || '', brTime: k.brTime || '',
+                  venue: k.venue || '', iso: k.iso || '',
+                  sh: k.sh, sa: k.sa, done: k.done, live: k.live,
+                  clock: k.clock || '', events: k.events || []
+                };
+                moved++;
+                console.log('Movido para o Grupo ' + gHome + ': ' + k.home + ' x ' + k.away);
+              }
+            } else {
+              cleanKnockout.push(k); // fica no knockout, está correto
+            }
+          });
+
+          existing.matches = Object.values(matchesByKey);
+          existing.knockout = cleanKnockout;
+          fs.writeFileSync('results.json', JSON.stringify(existing, null, 2));
+          console.log('');
+          console.log('Movidos: ' + moved + ' | Knockout antes: ' + knockout.length + ' | Knockout depois: ' + cleanKnockout.length);
+          console.log('Total de jogos de grupo agora: ' + existing.matches.length);
+          "
+
+      - name: Commit
+        run: |
+          git config user.name "actions-user"
+          git config user.email "actions@github.com"
+          git add results.json
+          git commit -m "Move jogos de grupo contaminados de volta dos avos para os grupos" || echo "Nada para comitar"
+          git push
