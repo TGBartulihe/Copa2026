@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T19:04:14.177Z",
+  "generatedAt": "2026-06-26T19:05:13.775Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20491,7 +20491,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "2'",
+      "clock": "3'",
       "events": [
         {
           "min": "2'",
@@ -20502,7 +20502,7 @@
         {
           "min": "2'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇫🇷"
         },
         {
@@ -20514,7 +20514,7 @@
         {
           "min": "2'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Partida atrasada (França).",
           "sub": "🇫🇷"
         },
         {
@@ -20877,7 +20877,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "2'",
+      "clock": "3'",
       "events": [
         {
           "min": "",
@@ -21028,12 +21028,12 @@
               "row": 0
             },
             {
-              "name": "Rebin Sulaka",
+              "name": "Akam Hashim",
               "pos": "CD-L",
               "row": 1
             },
             {
-              "name": "Akam Hashim",
+              "name": "Rebin Sulaka",
               "pos": "CD-R",
               "row": 1
             },
@@ -21049,28 +21049,28 @@
             },
             {
               "name": "Amir Al-Ammari",
-              "pos": "DM",
-              "row": 2
-            },
-            {
-              "name": "Zidane Iqbal",
-              "pos": "CM-L",
-              "row": 2
-            },
-            {
-              "name": "Ibrahim Bayesh",
-              "pos": "CM-R",
-              "row": 2
-            },
-            {
-              "name": "Ahmed Qasim",
               "pos": "LM",
               "row": 2
             },
             {
-              "name": "Ali Jasim",
+              "name": "Zidane Iqbal",
               "pos": "RM",
               "row": 2
+            },
+            {
+              "name": "Ali Jasim",
+              "pos": "AM",
+              "row": 2.5
+            },
+            {
+              "name": "Ibrahim Bayesh",
+              "pos": "AM-L",
+              "row": 2.5
+            },
+            {
+              "name": "Ahmed Qasim",
+              "pos": "AM-R",
+              "row": 2.5
             },
             {
               "name": "Ali Al-Hamadi",
@@ -21155,7 +21155,7 @@
               "row": 3
             }
           ],
-          "formation": "4-1-4-1",
+          "formation": "4-2-3-1",
           "dotColor": "#0A4D2E"
         }
       },
@@ -21165,28 +21165,28 @@
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
-          "wonCorners": "0",
+          "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "0",
+          "possessionPct": "34.8",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "0",
-          "totalPasses": "0",
-          "passPct": "0.0",
+          "accuratePasses": "6",
+          "totalPasses": "7",
+          "passPct": "0.9",
           "accurateCrosses": "0",
-          "totalCrosses": "0",
+          "totalCrosses": "1",
           "crossPct": "0.0",
-          "totalLongBalls": "0",
-          "accurateLongBalls": "0",
-          "longballPct": "0.0",
+          "totalLongBalls": "1",
+          "accurateLongBalls": "1",
+          "longballPct": "1.0",
           "blockedShots": "0",
           "effectiveTackles": "0",
           "totalTackles": "0",
           "tacklePct": "0.0",
-          "interceptions": "0",
+          "interceptions": "1",
           "effectiveClearance": "0",
           "totalClearance": "0"
         },
@@ -21197,28 +21197,28 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "0",
+          "possessionPct": "65.2",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "0",
-          "totalPasses": "0",
-          "passPct": "0.0",
+          "accuratePasses": "11",
+          "totalPasses": "15",
+          "passPct": "0.7",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
-          "totalLongBalls": "0",
-          "accurateLongBalls": "0",
-          "longballPct": "0.0",
+          "totalLongBalls": "4",
+          "accurateLongBalls": "2",
+          "longballPct": "0.5",
           "blockedShots": "0",
           "effectiveTackles": "0",
           "totalTackles": "0",
           "tacklePct": "0.0",
           "interceptions": "0",
-          "effectiveClearance": "0",
-          "totalClearance": "0"
+          "effectiveClearance": "1",
+          "totalClearance": "1"
         }
       }
     },
