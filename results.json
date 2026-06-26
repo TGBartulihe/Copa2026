@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T03:54:13.473Z",
+  "generatedAt": "2026-06-26T03:55:14.052Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -19355,8 +19355,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "90'+1'",
+      "clock": "90'+2'",
       "events": [
+        {
+          "min": "90'+2'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇾. Júnior Alonso entra no lugar de Matías Galarza.",
+          "sub": "🇵🇾"
+        },
+        {
+          "min": "90'+2'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇾. Damián Bobadilla entra em campo e entra Diego Gómez.",
+          "sub": "🇵🇾"
+        },
         {
           "min": "84'",
           "icon": "🔄",
@@ -19791,21 +19803,21 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "4",
-          "possessionPct": "42.8",
+          "possessionPct": "43.3",
           "totalShots": "6",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "306",
-          "totalPasses": "395",
+          "accuratePasses": "312",
+          "totalPasses": "404",
           "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "7",
           "crossPct": "0.0",
-          "totalLongBalls": "53",
-          "accurateLongBalls": "13",
-          "longballPct": "0.2",
+          "totalLongBalls": "54",
+          "accurateLongBalls": "14",
+          "longballPct": "0.3",
           "blockedShots": "1",
           "effectiveTackles": "16",
           "totalTackles": "24",
@@ -19821,26 +19833,26 @@
           "offsides": "0",
           "wonCorners": "3",
           "saves": "1",
-          "possessionPct": "57.2",
+          "possessionPct": "56.7",
           "totalShots": "11",
           "shotsOnTarget": "4",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "433",
-          "totalPasses": "521",
+          "totalPasses": "523",
           "passPct": "0.8",
           "accurateCrosses": "4",
           "totalCrosses": "13",
           "crossPct": "0.3",
-          "totalLongBalls": "51",
+          "totalLongBalls": "52",
           "accurateLongBalls": "16",
           "longballPct": "0.3",
           "blockedShots": "3",
           "effectiveTackles": "12",
           "totalTackles": "19",
           "tacklePct": "0.6",
-          "interceptions": "6",
+          "interceptions": "7",
           "effectiveClearance": "10",
           "totalClearance": "10"
         }
@@ -19857,8 +19869,32 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "90'+1'",
+      "clock": "90'+2'",
       "events": [
+        {
+          "min": "90'+2'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇹🇷"
+        },
+        {
+          "min": "90'+2'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇺🇸"
+        },
+        {
+          "min": "90'+2'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇹🇷. Substituição de Irfan Can Kahveci (Türkiye) aos 90'+2'",
+          "sub": "🇹🇷"
+        },
+        {
+          "min": "90'+2'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇹🇷. Mert Müldür (Türkiye) Substituição aos 90'+2'",
+          "sub": "🇹🇷"
+        },
         {
           "min": "90'",
           "icon": "⏸️",
