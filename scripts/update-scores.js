@@ -306,6 +306,11 @@ function roundFromText(ev){
     ev.competitions?.[0]?.notes?.map(n=>n.headline).join(" ") || "",
     ev.season?.slug || "", ev.competitions?.[0]?.type?.text || "",
   ].join(" ").toLowerCase();
+  // Sinal explícito de fase de grupos — tem de vir ANTES do palpite por
+  // data, porque a 3ª rodada de grupos e os avos podem cair na mesma
+  // janela de datas (UTC vs horário de Brasília), e sem isto o palpite
+  // por data classifica jogos de grupo como mata-mata por engano.
+  if (txt.includes("group stage")) return "grupos";
   for (const r of ROUND_KEYWORDS) if (r.words.some(w => txt.includes(w))) return r.key;
   return null;
 }
@@ -320,7 +325,11 @@ function roundFromDate(isoDate){
   if (w("2026-07-17T00:00:00Z","2026-07-19T23:59:59Z")) return "final";
   return null; // dentro da janela = fase de grupos
 }
-function classify(ev){ return roundFromText(ev) || roundFromDate(ev.date); }
+function classify(ev){
+  const fromText = roundFromText(ev);
+  if (fromText === "grupos") return null; // confirmado pela ESPN — nunca cai no palpite por data
+  return fromText || roundFromDate(ev.date);
+}
 
 // ── NOTIFICAÇÕES PUSH — avisa sobre jogos das seleções favoritas ────────────
 // Funciona mesmo com a app fechada no telemóvel, via Web Push padrão.
