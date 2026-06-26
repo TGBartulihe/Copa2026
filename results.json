@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T03:09:14.846Z",
+  "generatedAt": "2026-06-26T03:10:11.925Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -19355,8 +19355,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "46'",
+      "clock": "47'",
       "events": [
+        {
+          "min": "46'",
+          "icon": "🟨",
+          "txt": "Jackson Irvine (Austrália) recebe cartão amarelo por uma entrada perigosa.",
+          "sub": "🇦🇺"
+        },
         {
           "min": "45'",
           "icon": "▶️",
@@ -19701,19 +19707,19 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "3",
-          "possessionPct": "37.3",
+          "possessionPct": "37.4",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "139",
-          "totalPasses": "187",
+          "accuratePasses": "141",
+          "totalPasses": "192",
           "passPct": "0.7",
           "accurateCrosses": "0",
           "totalCrosses": "1",
           "crossPct": "0.0",
-          "totalLongBalls": "31",
+          "totalLongBalls": "33",
           "accurateLongBalls": "7",
           "longballPct": "0.2",
           "blockedShots": "0",
@@ -19725,20 +19731,20 @@
           "totalClearance": "17"
         },
         "away": {
-          "foulsCommitted": "4",
-          "yellowCards": "0",
+          "foulsCommitted": "5",
+          "yellowCards": "1",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "3",
           "saves": "0",
-          "possessionPct": "62.7",
+          "possessionPct": "62.6",
           "totalShots": "6",
           "shotsOnTarget": "3",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "258",
-          "totalPasses": "305",
+          "accuratePasses": "264",
+          "totalPasses": "312",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "10",
@@ -19767,7 +19773,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "46'",
+      "clock": "47'",
       "events": [
         {
           "min": "45'",
