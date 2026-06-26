@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T20:52:14.551Z",
+  "generatedAt": "2026-06-26T20:53:14.287Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20491,12 +20491,12 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "87'",
+      "clock": "88'",
       "events": [
         {
           "min": "87'",
           "icon": "🔄",
-          "txt": "Substituição, 🇫🇷. Jean-Philippe Mateta (França) Substituição aos 87'",
+          "txt": "Substituição, 🇫🇷. Entra Jean-Philippe Mateta para o lugar de Kylian Mbappé.",
           "sub": "🇫🇷"
         },
         {
@@ -20993,11 +20993,11 @@
           "foulsCommitted": "8",
           "yellowCards": "1",
           "redCards": "0",
-          "offsides": "0",
+          "offsides": "1",
           "wonCorners": "4",
           "saves": "5",
-          "possessionPct": "45.1",
-          "totalShots": "9",
+          "possessionPct": "44.8",
+          "totalShots": "10",
           "shotsOnTarget": "4",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
@@ -21026,19 +21026,19 @@
           "offsides": "2",
           "wonCorners": "5",
           "saves": "3",
-          "possessionPct": "54.9",
+          "possessionPct": "55.2",
           "totalShots": "16",
           "shotsOnTarget": "8",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "415",
-          "totalPasses": "485",
+          "accuratePasses": "420",
+          "totalPasses": "491",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "8",
           "crossPct": "0.3",
-          "totalLongBalls": "46",
+          "totalLongBalls": "47",
           "accurateLongBalls": "25",
           "longballPct": "0.5",
           "blockedShots": "3",
@@ -21046,8 +21046,8 @@
           "totalTackles": "17",
           "tacklePct": "0.7",
           "interceptions": "6",
-          "effectiveClearance": "17",
-          "totalClearance": "17"
+          "effectiveClearance": "18",
+          "totalClearance": "18"
         }
       }
     },
