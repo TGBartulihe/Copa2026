@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T00:48:15.338Z",
+  "generatedAt": "2026-06-26T00:49:13.772Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -18294,8 +18294,26 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "87'",
+      "clock": "88'",
       "events": [
+        {
+          "min": "88'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇸🇪"
+        },
+        {
+          "min": "88'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇪. Substituição de Benjamin Nygren (Suécia) aos 88'",
+          "sub": "🇸🇪"
+        },
+        {
+          "min": "87'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇪. Carl Starfelt entra em campo com Victor Lindelöf devido a uma lesão.",
+          "sub": "🇸🇪"
+        },
         {
           "min": "87'",
           "icon": "▶️",
@@ -18830,7 +18848,7 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "88'",
+      "clock": "89'",
       "events": [
         {
           "min": "84'",
