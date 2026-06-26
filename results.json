@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T10:07:14.616Z",
+  "generatedAt": "2026-06-26T10:09:13.256Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -17188,6 +17188,7 @@
       }
     },
     {
+      "espnId": "760473",
       "home": "Curaçao 🇨🇼",
       "away": "C. do Marfim 🇨🇮",
       "date": "25/06",
@@ -17729,6 +17730,7 @@
       }
     },
     {
+      "espnId": "760468",
       "home": "Equador 🇪🇨",
       "away": "Alemanha 🇩🇪",
       "date": "25/06",
@@ -18284,6 +18286,7 @@
       }
     },
     {
+      "espnId": "760471",
       "home": "Japão 🇯🇵",
       "away": "Suécia 🇸🇪",
       "date": "25/06",
@@ -18844,6 +18847,7 @@
       }
     },
     {
+      "espnId": "760472",
       "home": "Tunísia 🇹🇳",
       "away": "Holanda 🇳🇱",
       "date": "25/06",
@@ -19345,6 +19349,7 @@
       }
     },
     {
+      "espnId": "760469",
       "home": "Paraguai 🇵🇾",
       "away": "Austrália 🇦🇺",
       "date": "25/06",
@@ -19865,6 +19870,7 @@
       }
     },
     {
+      "espnId": "760470",
       "home": "Turquia 🇹🇷",
       "away": "EUA 🇺🇸",
       "date": "25/06",
@@ -20455,6 +20461,7 @@
       }
     },
     {
+      "espnId": "760475",
       "home": "Noruega 🇳🇴",
       "away": "França 🇫🇷",
       "date": "26/06",
@@ -20469,6 +20476,7 @@
       "events": []
     },
     {
+      "espnId": "760474",
       "home": "Senegal 🇸🇳",
       "away": "Iraque 🇮🇶",
       "date": "26/06",
@@ -20819,6 +20827,7 @@
       "events": []
     },
     {
+      "espnId": "760478",
       "home": "Cabo Verde 🇨🇻",
       "away": "Arábia Saudita 🇸🇦",
       "date": "26/06",
@@ -20833,6 +20842,7 @@
       "events": []
     },
     {
+      "espnId": "760479",
       "home": "Uruguai 🇺🇾",
       "away": "Espanha 🇪🇸",
       "date": "26/06",
@@ -20847,6 +20857,7 @@
       "events": []
     },
     {
+      "espnId": "760476",
       "home": "Egito 🇪🇬",
       "away": "Irã 🇮🇷",
       "date": "27/06",
@@ -20861,6 +20872,7 @@
       "events": []
     },
     {
+      "espnId": "760477",
       "home": "Nova Zelândia 🇳🇿",
       "away": "Bélgica 🇧🇪",
       "date": "27/06",
@@ -20875,6 +20887,7 @@
       "events": []
     },
     {
+      "espnId": "760480",
       "home": "Croácia 🇭🇷",
       "away": "Gana 🇬🇭",
       "date": "27/06",
@@ -20889,6 +20902,7 @@
       "events": []
     },
     {
+      "espnId": "760485",
       "home": "Panamá 🇵🇦",
       "away": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "date": "27/06",
@@ -20903,6 +20917,7 @@
       "events": []
     },
     {
+      "espnId": "760481",
       "home": "Colômbia 🇨🇴",
       "away": "Portugal 🇵🇹",
       "date": "27/06",
@@ -20917,6 +20932,7 @@
       "events": []
     },
     {
+      "espnId": "760482",
       "home": "RD Congo 🇨🇩",
       "away": "Uzbequistão 🇺🇿",
       "date": "27/06",
@@ -20931,6 +20947,7 @@
       "events": []
     },
     {
+      "espnId": "760484",
       "home": "Argélia 🇩🇿",
       "away": "Áustria 🇦🇹",
       "date": "27/06",
@@ -20945,6 +20962,7 @@
       "events": []
     },
     {
+      "espnId": "760483",
       "home": "Jordânia 🇯🇴",
       "away": "Argentina 🇦🇷",
       "date": "27/06",
