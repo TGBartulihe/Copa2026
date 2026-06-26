@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T03:55:14.052Z",
+  "generatedAt": "2026-06-26T03:56:14.169Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -19355,7 +19355,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "90'+2'",
+      "clock": "90'+3'",
       "events": [
         {
           "min": "90'+2'",
@@ -19390,19 +19390,13 @@
         {
           "min": "84'",
           "icon": "▶️",
-          "txt": "Atraso acabou. Eles estão prontos para continuar.",
-          "sub": "🇵🇾"
-        },
-        {
-          "min": "84'",
-          "icon": "▶️",
           "txt": "Jogo reiniciado",
           "sub": "🇦🇺"
         },
         {
-          "min": "83'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a uma lesão de Orlando Gill (Paraguai).",
+          "min": "84'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇵🇾"
         },
         {
@@ -19410,6 +19404,12 @@
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇦🇺"
+        },
+        {
+          "min": "83'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Orlando Gill (Paraguai).",
+          "sub": "🇵🇾"
         },
         {
           "min": "77'",
@@ -19430,16 +19430,16 @@
           "sub": "🇦🇺"
         },
         {
-          "min": "69'",
-          "icon": "⏸️",
-          "txt": "Atraso na partida para uma pausa para bebidas.",
-          "sub": "🇦🇺"
-        },
-        {
           "min": "68'",
           "icon": "🩹",
           "txt": "Partida atrasada devido a uma lesão de Omar Alderete (Paraguai).",
           "sub": "🇵🇾"
+        },
+        {
+          "min": "68'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇦🇺"
         },
         {
           "min": "67'",
@@ -19803,19 +19803,19 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "4",
-          "possessionPct": "43.3",
-          "totalShots": "6",
-          "shotsOnTarget": "1",
-          "shotPct": "0.2",
+          "possessionPct": "43.4",
+          "totalShots": "7",
+          "shotsOnTarget": "2",
+          "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "312",
-          "totalPasses": "404",
+          "accuratePasses": "316",
+          "totalPasses": "409",
           "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "7",
           "crossPct": "0.0",
-          "totalLongBalls": "54",
+          "totalLongBalls": "55",
           "accurateLongBalls": "14",
           "longballPct": "0.3",
           "blockedShots": "1",
@@ -19832,20 +19832,20 @@
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "3",
-          "saves": "1",
-          "possessionPct": "56.7",
+          "saves": "2",
+          "possessionPct": "56.6",
           "totalShots": "11",
           "shotsOnTarget": "4",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "433",
-          "totalPasses": "523",
+          "accuratePasses": "435",
+          "totalPasses": "527",
           "passPct": "0.8",
           "accurateCrosses": "4",
           "totalCrosses": "13",
           "crossPct": "0.3",
-          "totalLongBalls": "52",
+          "totalLongBalls": "54",
           "accurateLongBalls": "16",
           "longballPct": "0.3",
           "blockedShots": "3",
@@ -19869,7 +19869,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "90'+2'",
+      "clock": "90'+3'",
       "events": [
         {
           "min": "90'+2'",
@@ -19880,19 +19880,19 @@
         {
           "min": "90'+2'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇺🇸"
         },
         {
           "min": "90'+2'",
           "icon": "🔄",
-          "txt": "Substituição, 🇹🇷. Substituição de Irfan Can Kahveci (Türkiye) aos 90'+2'",
+          "txt": "Substituição, 🇹🇷. Entra Irfan Can Kahveci substituindo Baris Alper Yilmaz.",
           "sub": "🇹🇷"
         },
         {
           "min": "90'+2'",
           "icon": "🔄",
-          "txt": "Substituição, 🇹🇷. Mert Müldür (Türkiye) Substituição aos 90'+2'",
+          "txt": "Substituição, 🇹🇷. Mert Müldür substitui Oguz Aydin.",
           "sub": "🇹🇷"
         },
         {
@@ -20381,7 +20381,7 @@
           "offsides": "2",
           "wonCorners": "2",
           "saves": "5",
-          "possessionPct": "46.1",
+          "possessionPct": "45.9",
           "totalShots": "7",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
@@ -20397,8 +20397,8 @@
           "accurateLongBalls": "20",
           "longballPct": "0.3",
           "blockedShots": "2",
-          "effectiveTackles": "19",
-          "totalTackles": "29",
+          "effectiveTackles": "20",
+          "totalTackles": "30",
           "tacklePct": "0.7",
           "interceptions": "7",
           "effectiveClearance": "23",
@@ -20411,14 +20411,14 @@
           "offsides": "5",
           "wonCorners": "9",
           "saves": "1",
-          "possessionPct": "53.9",
+          "possessionPct": "54.1",
           "totalShots": "16",
           "shotsOnTarget": "7",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "379",
-          "totalPasses": "449",
+          "accuratePasses": "383",
+          "totalPasses": "453",
           "passPct": "0.8",
           "accurateCrosses": "5",
           "totalCrosses": "18",
