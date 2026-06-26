@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T20:08:12.315Z",
+  "generatedAt": "2026-06-26T20:09:12.534Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20496,6 +20496,12 @@
         {
           "min": "45'",
           "icon": "🔄",
+          "txt": "Substituição, 🇳🇴. Substituição de Marcus Holmgren Pedersen (Noruega) aos 45'",
+          "sub": "🇳🇴"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
           "txt": "Substituição, 🇳🇴. Morten Thorsby substitui Kristian Thorstvedt.",
           "sub": "🇳🇴"
         },
@@ -20882,7 +20888,7 @@
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "133",
+          "accuratePasses": "134",
           "totalPasses": "177",
           "passPct": "0.8",
           "accurateCrosses": "2",
@@ -20912,11 +20918,11 @@
           "shotPct": "0.6",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "271",
-          "totalPasses": "305",
+          "accuratePasses": "270",
+          "totalPasses": "306",
           "passPct": "0.9",
           "accurateCrosses": "2",
-          "totalCrosses": "7",
+          "totalCrosses": "6",
           "crossPct": "0.3",
           "totalLongBalls": "27",
           "accurateLongBalls": "18",
