@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T00:13:15.560Z",
+  "generatedAt": "2026-06-26T00:14:13.348Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -18294,7 +18294,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "52'",
+      "clock": "53'",
       "events": [
         {
           "min": "45'",
@@ -18662,14 +18662,14 @@
           "offsides": "2",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "56.9",
+          "possessionPct": "57.1",
           "totalShots": "5",
           "shotsOnTarget": "2",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "260",
-          "totalPasses": "299",
+          "accuratePasses": "265",
+          "totalPasses": "304",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "9",
@@ -18692,14 +18692,14 @@
           "offsides": "1",
           "wonCorners": "5",
           "saves": "2",
-          "possessionPct": "43.1",
+          "possessionPct": "42.9",
           "totalShots": "3",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "164",
-          "totalPasses": "218",
+          "accuratePasses": "165",
+          "totalPasses": "220",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "8",
@@ -18711,7 +18711,7 @@
           "effectiveTackles": "2",
           "totalTackles": "4",
           "tacklePct": "0.5",
-          "interceptions": "4",
+          "interceptions": "5",
           "effectiveClearance": "10",
           "totalClearance": "10"
         }
@@ -18724,12 +18724,18 @@
       "brTime": "20h",
       "venue": "GEHA Field at Arrowhead Stadium",
       "iso": "2026-06-25T23:00Z",
-      "sh": 0,
+      "sh": 1,
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "53'",
+      "clock": "54'",
       "events": [
+        {
+          "min": "54'",
+          "icon": "⚽",
+          "txt": "Gol de Hazem Mastouri (Tunísia) - Cabeçada aos 54'",
+          "sub": "🇹🇳"
+        },
         {
           "min": "45'",
           "icon": "▶️",
