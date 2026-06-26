@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T00:28:14.134Z",
+  "generatedAt": "2026-06-26T00:29:12.262Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -18294,12 +18294,24 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "67'",
+      "clock": "68'",
       "events": [
+        {
+          "min": "68'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇸🇪"
+        },
+        {
+          "min": "68'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇯🇵"
+        },
         {
           "min": "67'",
           "icon": "🔄",
-          "txt": "Substituição, 🇯🇵. Junya Ito (Japão) Substituição aos 67'",
+          "txt": "Substituição, 🇯🇵. Junya Ito substitui Ritsu Doan.",
           "sub": "🇯🇵"
         },
         {
@@ -18680,7 +18692,7 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "14",
+          "foulsCommitted": "15",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "3",
@@ -18693,12 +18705,12 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "294",
-          "totalPasses": "340",
+          "totalPasses": "342",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "10",
           "crossPct": "0.3",
-          "totalLongBalls": "40",
+          "totalLongBalls": "41",
           "accurateLongBalls": "17",
           "longballPct": "0.4",
           "blockedShots": "2",
@@ -18713,7 +18725,7 @@
           "foulsCommitted": "8",
           "yellowCards": "1",
           "redCards": "0",
-          "offsides": "1",
+          "offsides": "2",
           "wonCorners": "6",
           "saves": "2",
           "possessionPct": "46.9",
@@ -18722,13 +18734,13 @@
           "shotPct": "0.6",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "231",
-          "totalPasses": "293",
+          "accuratePasses": "232",
+          "totalPasses": "295",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "10",
           "crossPct": "0.1",
-          "totalLongBalls": "39",
+          "totalLongBalls": "40",
           "accurateLongBalls": "15",
           "longballPct": "0.4",
           "blockedShots": "1",
@@ -18736,8 +18748,8 @@
           "totalTackles": "4",
           "tacklePct": "0.5",
           "interceptions": "5",
-          "effectiveClearance": "13",
-          "totalClearance": "13"
+          "effectiveClearance": "14",
+          "totalClearance": "14"
         }
       }
     },
