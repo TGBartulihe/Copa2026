@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T02:35:12.499Z",
+  "generatedAt": "2026-06-26T02:36:11.902Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -19355,7 +19355,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "34'",
+      "clock": "35'",
       "events": [
         {
           "min": "30'",
@@ -19677,7 +19677,7 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "3",
+          "foulsCommitted": "4",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
@@ -19689,22 +19689,22 @@
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "85",
-          "totalPasses": "113",
-          "passPct": "0.8",
+          "accuratePasses": "86",
+          "totalPasses": "118",
+          "passPct": "0.7",
           "accurateCrosses": "0",
           "totalCrosses": "1",
           "crossPct": "0.0",
-          "totalLongBalls": "18",
+          "totalLongBalls": "20",
           "accurateLongBalls": "4",
           "longballPct": "0.2",
           "blockedShots": "0",
           "effectiveTackles": "8",
-          "totalTackles": "12",
-          "tacklePct": "0.7",
-          "interceptions": "1",
-          "effectiveClearance": "13",
-          "totalClearance": "13"
+          "totalTackles": "13",
+          "tacklePct": "0.6",
+          "interceptions": "2",
+          "effectiveClearance": "14",
+          "totalClearance": "14"
         },
         "away": {
           "foulsCommitted": "3",
@@ -19719,8 +19719,8 @@
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "144",
-          "totalPasses": "173",
+          "accuratePasses": "150",
+          "totalPasses": "181",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "6",
@@ -19749,7 +19749,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "34'",
+      "clock": "35'",
       "events": [
         {
           "min": "31'",
