@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T01:15:12.465Z",
+  "generatedAt": "2026-06-26T01:16:17.727Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20101,6 +20101,21 @@
       "clock": "",
       "events": [],
       "round": "avos"
+    },
+    {
+      "home": "EUA 🇺🇸",
+      "away": "Bósnia 🇧🇦",
+      "date": "01/07",
+      "brTime": "21h",
+      "venue": "Levi's Stadium",
+      "iso": "2026-07-02T00:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "oitavas"
     }
   ]
 }
