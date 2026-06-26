@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T19:26:13.522Z",
+  "generatedAt": "2026-06-26T19:27:11.585Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20491,19 +20491,25 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "24'",
+      "clock": "25'",
       "events": [
         {
-          "min": "24'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
-          "sub": "🇫🇷"
+          "min": "25'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇳🇴"
         },
         {
           "min": "24'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇳🇴"
+        },
+        {
+          "min": "24'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇫🇷"
         },
         {
           "min": "21'",
@@ -20846,7 +20852,7 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "5",
-          "possessionPct": "30.3",
+          "possessionPct": "30.4",
           "totalShots": "4",
           "shotsOnTarget": "2",
           "shotPct": "0.5",
@@ -20876,14 +20882,14 @@
           "offsides": "1",
           "wonCorners": "3",
           "saves": "1",
-          "possessionPct": "69.7",
+          "possessionPct": "69.6",
           "totalShots": "11",
           "shotsOnTarget": "7",
           "shotPct": "0.6",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "141",
-          "totalPasses": "159",
+          "accuratePasses": "140",
+          "totalPasses": "158",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "5",
@@ -20913,12 +20919,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "24'",
+      "clock": "25'",
       "events": [
         {
           "min": "23'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
           "sub": "🇮🇶"
         },
         {
