@@ -636,25 +636,27 @@ function mergeResultsJSON(json){
 }
 
 // ── MATA-MATA BRACKET ─────────────────────────────────────────────────────────
-// Estrutura oficial FIFA 2026 — 32 equipas, pré-definida
+// Estrutura real e oficial da FIFA para os avos (Round of 32) — confirmada via
+// Sky Sports (26/06/2026), tabela completa dos 16 confrontos. Horários
+// convertidos de UK (BST, UTC+1) para Brasília (UTC-3) — diferença de 4h.
 const MM_STRUCTURE={
   avos:[
-    {id:1, t1:"1º A",t2:"3º C/D/E",date:"27/06",brTime:"13h",venue:"Kansas City"},
-    {id:2, t1:"1º B",t2:"3º A/C/D",date:"27/06",brTime:"16h",venue:"Dallas"},
-    {id:3, t1:"1º C",t2:"3º A/B/F",date:"27/06",brTime:"19h",venue:"Los Angeles"},
-    {id:4, t1:"1º D",t2:"3º B/E/F",date:"27/06",brTime:"22h",venue:"Toronto"},
-    {id:5, t1:"1º E",t2:"3º A/B/C",date:"28/06",brTime:"13h",venue:"Boston"},
-    {id:6, t1:"1º F",t2:"3º D/E/F",date:"28/06",brTime:"16h",venue:"Filadélfia"},
-    {id:7, t1:"1º G",t2:"2º H",date:"28/06",brTime:"19h",venue:"Houston"},
-    {id:8, t1:"1º H",t2:"2º G",date:"28/06",brTime:"22h",venue:"Seattle"},
-    {id:9, t1:"1º I",t2:"3º G/H/I",date:"29/06",brTime:"13h",venue:"Miami"},
-    {id:10,t1:"1º J",t2:"3º J/K/L",date:"29/06",brTime:"16h",venue:"Vancouver"},
-    {id:11,t1:"1º K",t2:"2º L",date:"29/06",brTime:"19h",venue:"Nova York"},
-    {id:12,t1:"1º L",t2:"2º K",date:"29/06",brTime:"22h",venue:"Atlanta"},
-    {id:13,t1:"2º A",t2:"2º B",date:"30/06",brTime:"13h",venue:"Cidade do México"},
-    {id:14,t1:"2º C",t2:"2º D",date:"30/06",brTime:"16h",venue:"Guadalajara"},
-    {id:15,t1:"2º E",t2:"2º F",date:"30/06",brTime:"19h",venue:"Los Angeles"},
-    {id:16,t1:"2º I",t2:"2º J",date:"30/06",brTime:"22h",venue:"Dallas"},
+    {id:1, t1:"1º C",t2:"2º F",date:"29/06",brTime:"14h",venue:"Houston"},
+    {id:2, t1:"1º F",t2:"2º C",date:"29/06",brTime:"22h",venue:"Guadalupe (Zapopan), México"},
+    {id:3, t1:"2º A",t2:"2º B",date:"28/06",brTime:"16h",venue:"Los Angeles"},
+    {id:4, t1:"1º E",t2:"3º A/B/C/D/F",date:"29/06",brTime:"17h30",venue:"Foxborough"},
+    {id:5, t1:"2º E",t2:"2º I",date:"30/06",brTime:"14h",venue:"Arlington"},
+    {id:6, t1:"1º I",t2:"3º C/D/F/G/H",date:"30/06",brTime:"18h",venue:"Nova Jersey"},
+    {id:7, t1:"1º A",t2:"3º C/E/F/H/I",date:"30/06",brTime:"22h",venue:"Cidade do México"},
+    {id:8, t1:"1º L",t2:"3º E/H/I/J/K",date:"01/07",brTime:"13h",venue:"Atlanta"},
+    {id:9, t1:"1º G",t2:"3º A/E/H/I/J",date:"01/07",brTime:"17h",venue:"Seattle"},
+    {id:10,t1:"1º D",t2:"3º B/E/F/I/J",date:"01/07",brTime:"21h",venue:"Santa Clara"},
+    {id:11,t1:"1º H",t2:"2º J",date:"02/07",brTime:"16h",venue:"Los Angeles"},
+    {id:12,t1:"2º K",t2:"2º L",date:"02/07",brTime:"20h",venue:"Toronto"},
+    {id:13,t1:"1º B",t2:"3º E/F/G/I/J",date:"03/07",brTime:"00h",venue:"Vancouver"},
+    {id:14,t1:"2º D",t2:"2º G",date:"03/07",brTime:"15h",venue:"Arlington"},
+    {id:15,t1:"1º J",t2:"2º H",date:"03/07",brTime:"19h",venue:"Miami"},
+    {id:16,t1:"1º K",t2:"3º D/E/I/J/L",date:"03/07",brTime:"22h30",venue:"Kansas City"},
   ],
   oitavas:[
     {id:17,t1:"V1",t2:"V2",date:"03/07",brTime:"16h",venue:"A definir"},
