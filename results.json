@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T03:27:13.775Z",
+  "generatedAt": "2026-06-26T03:28:11.438Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -19779,12 +19779,24 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "64'",
+      "clock": "65'",
       "events": [
         {
-          "min": "64'",
+          "min": "65'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇹🇷"
+        },
+        {
+          "min": "65'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
+          "sub": "🇺🇸"
+        },
+        {
+          "min": "64'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Ugurcan Çakir (Türkiye).",
           "sub": "🇹🇷"
         },
         {
@@ -20170,8 +20182,8 @@
           "redCards": "0",
           "offsides": "2",
           "wonCorners": "2",
-          "saves": "4",
-          "possessionPct": "41.1",
+          "saves": "5",
+          "possessionPct": "41",
           "totalShots": "4",
           "shotsOnTarget": "2",
           "shotPct": "0.5",
@@ -20201,14 +20213,14 @@
           "offsides": "4",
           "wonCorners": "8",
           "saves": "0",
-          "possessionPct": "58.9",
-          "totalShots": "11",
-          "shotsOnTarget": "6",
+          "possessionPct": "59",
+          "totalShots": "13",
+          "shotsOnTarget": "7",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "310",
-          "totalPasses": "363",
+          "accuratePasses": "311",
+          "totalPasses": "364",
           "passPct": "0.9",
           "accurateCrosses": "4",
           "totalCrosses": "14",
