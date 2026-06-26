@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T00:57:14.291Z",
+  "generatedAt": "2026-06-26T00:58:15.087Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -18294,7 +18294,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "90'+6'",
+      "clock": "90'+7'",
       "events": [
         {
           "min": "88'",
@@ -18311,14 +18311,14 @@
         {
           "min": "87'",
           "icon": "▶️",
-          "txt": "Atraso acabou. Eles estão prontos para continuar.",
-          "sub": "🇸🇪"
+          "txt": "Jogo reiniciado",
+          "sub": "🇯🇵"
         },
         {
           "min": "87'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇯🇵"
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇸🇪"
         },
         {
           "min": "86'",
@@ -18782,15 +18782,15 @@
           "offsides": "3",
           "wonCorners": "2",
           "saves": "4",
-          "possessionPct": "50.7",
+          "possessionPct": "52.1",
           "totalShots": "8",
           "shotsOnTarget": "3",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "353",
-          "totalPasses": "417",
-          "passPct": "0.8",
+          "accuratePasses": "376",
+          "totalPasses": "441",
+          "passPct": "0.9",
           "accurateCrosses": "4",
           "totalCrosses": "12",
           "crossPct": "0.3",
@@ -18812,7 +18812,7 @@
           "offsides": "2",
           "wonCorners": "8",
           "saves": "2",
-          "possessionPct": "49.3",
+          "possessionPct": "47.9",
           "totalShots": "10",
           "shotsOnTarget": "5",
           "shotPct": "0.5",
@@ -18832,8 +18832,8 @@
           "totalTackles": "6",
           "tacklePct": "0.5",
           "interceptions": "5",
-          "effectiveClearance": "18",
-          "totalClearance": "18"
+          "effectiveClearance": "19",
+          "totalClearance": "19"
         }
       }
     },
