@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T20:25:14.046Z",
+  "generatedAt": "2026-06-26T20:26:17.145Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20491,7 +20491,7 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "61'",
+      "clock": "62'",
       "events": [
         {
           "min": "58'",
@@ -20985,12 +20985,36 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "57'",
+      "clock": "58'",
       "events": [
+        {
+          "min": "58'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇮🇶. Substituição de Ali Yousif (Iraque) aos 58'",
+          "sub": "🇮🇶"
+        },
+        {
+          "min": "58'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇮🇶. Substituição de Ahmed Maknazi (Iraque) aos 58'",
+          "sub": "🇮🇶"
+        },
         {
           "min": "57'",
           "icon": "🔄",
-          "txt": "Substituição, 🇸🇳. Iliman Ndiaye (Senegal) Substituição aos 57'",
+          "txt": "Substituição, 🇸🇳. Pape Gueye substitui Habib Diarra.",
+          "sub": "🇸🇳"
+        },
+        {
+          "min": "57'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇳. Entra Nicolas Jackson substituindo Lamine Camara.",
+          "sub": "🇸🇳"
+        },
+        {
+          "min": "57'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇳. Entra Iliman Ndiaye para o lugar de Ibrahim Mbaye.",
           "sub": "🇸🇳"
         },
         {
