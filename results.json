@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T20:35:11.935Z",
+  "generatedAt": "2026-06-26T20:36:13.058Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20491,18 +20491,24 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "71'",
+      "clock": "72'",
       "events": [
         {
           "min": "71'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇫🇷"
         },
         {
           "min": "71'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
+          "sub": "🇳🇴"
+        },
+        {
+          "min": "68'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
           "sub": "🇳🇴"
         },
         {
@@ -20510,12 +20516,6 @@
           "icon": "⏸️",
           "txt": "Atraso na partida para uma pausa para bebidas.",
           "sub": "🇫🇷"
-        },
-        {
-          "min": "68'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
-          "sub": "🇳🇴"
         },
         {
           "min": "66'",
@@ -21027,8 +21027,26 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "67'",
+      "clock": "68'",
       "events": [
+        {
+          "min": "67'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇮🇶"
+        },
+        {
+          "min": "67'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇸🇳"
+        },
+        {
+          "min": "67'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇮🇶. Substituição de Kevin Yakob (Iraque) aos 67'",
+          "sub": "🇮🇶"
+        },
         {
           "min": "59'",
           "icon": "⚽",
@@ -21485,7 +21503,7 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "7",
+          "foulsCommitted": "8",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "1",
