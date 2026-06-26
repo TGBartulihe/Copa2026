@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T22:31:12.256Z",
+  "generatedAt": "2026-06-26T22:32:12.504Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -21206,7 +21206,7 @@
         {
           "min": "56'",
           "icon": "⚽",
-          "txt": "Ismaïla Sarr (Senegal) remate com o pé direito em frente à baliza acertando no centro da baliza. Assistência de Lamine Câmara.",
+          "txt": "Ismaïla Sarr (Senegal) remate com o pé direito em frente à baliza ao ângulo superior esquerdo. Assistência de Lamine Câmara.",
           "sub": "🇸🇳"
         },
         {
@@ -21659,14 +21659,14 @@
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "184",
+          "accuratePasses": "183",
           "totalPasses": "265",
           "passPct": "0.7",
           "accurateCrosses": "0",
           "totalCrosses": "6",
           "crossPct": "0.0",
           "totalLongBalls": "68",
-          "accurateLongBalls": "14",
+          "accurateLongBalls": "13",
           "longballPct": "0.2",
           "blockedShots": "4",
           "effectiveTackles": "13",
