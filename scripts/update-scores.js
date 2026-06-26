@@ -668,6 +668,7 @@ async function main(){
       }
 
       const entry = {
+        espnId: ev.id, // identificador fixo da ESPN — não muda mesmo quando o nome da equipa muda (placeholder → resolvido)
         home: hName, away: aName,
         date, brTime, venue, iso: ev.date,
         sh: (state === "in" || state === "post") ? sh : null,
@@ -707,7 +708,13 @@ async function main(){
 
     let mergedKnockout = existing.knockout || [];
     knockout.forEach(k => {
-      const idx = mergedKnockout.findIndex(e => e.round === k.round && e.home === k.home && e.away === k.away);
+      // Prioriza o id fixo da ESPN — o nome das equipas pode mudar entre
+      // execuções (placeholder "2º Grupo A" -> "África do Sul" resolvido),
+      // e comparar só por nome cria uma entrada duplicada a cada mudança
+      const idx = mergedKnockout.findIndex(e =>
+        (k.espnId && e.espnId === k.espnId) ||
+        (!e.espnId && e.round === k.round && e.home === k.home && e.away === k.away)
+      );
       if (idx >= 0) mergedKnockout[idx] = k; else mergedKnockout.push(k);
     });
 
@@ -727,7 +734,13 @@ async function main(){
 
     let mergedKnockout = existing.knockout || [];
     knockout.forEach(k => {
-      const idx = mergedKnockout.findIndex(e => e.round === k.round && e.home === k.home && e.away === k.away);
+      // Prioriza o id fixo da ESPN — o nome das equipas pode mudar entre
+      // execuções (placeholder "2º Grupo A" -> "África do Sul" resolvido),
+      // e comparar só por nome cria uma entrada duplicada a cada mudança
+      const idx = mergedKnockout.findIndex(e =>
+        (k.espnId && e.espnId === k.espnId) ||
+        (!e.espnId && e.round === k.round && e.home === k.home && e.away === k.away)
+      );
       if (idx >= 0) mergedKnockout[idx] = k; else mergedKnockout.push(k);
     });
 

@@ -1,0 +1,63 @@
+name: Remover Duplicados do Mata-Mata
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  dedupe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Agrupar por fase+data+estádio, manter só a versão mais resolvida
+        run: |
+          node -e "
+          const fs = require('fs');
+          const existing = JSON.parse(fs.readFileSync('results.json', 'utf8'));
+          const knockout = existing.knockout || [];
+
+          const hasFlag = n => /\p{Regional_Indicator}{2}/u.test(n||'');
+          function resolvedScore(k){
+            // Quanto mais nomes reais (com bandeira), mais resolvido —
+            // prioriza isso; em empate, prioriza o que já tem placar
+            let score = (hasFlag(k.home)?1:0) + (hasFlag(k.away)?1:0);
+            if(k.done) score += 10;
+            if(k.live) score += 5;
+            return score;
+          }
+
+          const groups = {};
+          knockout.forEach(k => {
+            const key = (k.round||'')+'|'+(k.date||'')+'|'+(k.venue||'');
+            if(!groups[key]) groups[key] = [];
+            groups[key].push(k);
+          });
+
+          const clean = [];
+          let removedTotal = 0;
+          Object.entries(groups).forEach(([key, list]) => {
+            if(list.length === 1){ clean.push(list[0]); return; }
+            list.sort((a,b) => resolvedScore(b) - resolvedScore(a));
+            const best = list[0];
+            clean.push(best);
+            removedTotal += list.length - 1;
+            console.log('Grupo \"' + key + '\": ' + list.length + ' versões -> mantida: ' + best.home + ' x ' + best.away);
+          });
+
+          existing.knockout = clean;
+          fs.writeFileSync('results.json', JSON.stringify(existing, null, 2));
+          console.log('');
+          console.log('Total antes: ' + knockout.length + ' | Total depois: ' + clean.length + ' | Removidos: ' + removedTotal);
+          "
+
+      - name: Commit
+        run: |
+          git config user.name "actions-user"
+          git config user.email "actions@github.com"
+          git add results.json
+          git commit -m "Remove confrontos de mata-mata duplicados (mesma vaga, nomes diferentes)" || echo "Nada para comitar"
+          git push
