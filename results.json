@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T00:17:12.389Z",
+  "generatedAt": "2026-06-26T00:18:11.716Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -18294,12 +18294,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "56'",
+      "clock": "57'",
       "events": [
         {
           "min": "56'",
           "icon": "⚽",
-          "txt": "Daizen Maeda (Japão) finalização com o pé direito no coração da área.",
+          "txt": "Daizen Maeda (Japão) finalização com o pé direito do meio da área no Escanteio inferior esquerdo. Assistência de Ritsu Doan com um passe em profundidade.",
           "sub": "🇯🇵"
         },
         {
@@ -18734,7 +18734,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "57'",
+      "clock": "58'",
       "events": [
         {
           "min": "54'",
@@ -19073,7 +19073,7 @@
           "offsides": "1",
           "wonCorners": "2",
           "saves": "2",
-          "possessionPct": "28.7",
+          "possessionPct": "27.5",
           "totalShots": "5",
           "shotsOnTarget": "2",
           "shotPct": "0.4",
@@ -19093,8 +19093,8 @@
           "totalTackles": "10",
           "tacklePct": "0.6",
           "interceptions": "4",
-          "effectiveClearance": "21",
-          "totalClearance": "21"
+          "effectiveClearance": "22",
+          "totalClearance": "22"
         },
         "away": {
           "foulsCommitted": "6",
@@ -19103,20 +19103,20 @@
           "offsides": "1",
           "wonCorners": "4",
           "saves": "1",
-          "possessionPct": "71.3",
+          "possessionPct": "72.5",
           "totalShots": "13",
           "shotsOnTarget": "3",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "390",
-          "totalPasses": "423",
+          "accuratePasses": "415",
+          "totalPasses": "448",
           "passPct": "0.9",
           "accurateCrosses": "3",
-          "totalCrosses": "16",
+          "totalCrosses": "17",
           "crossPct": "0.2",
-          "totalLongBalls": "12",
-          "accurateLongBalls": "7",
+          "totalLongBalls": "13",
+          "accurateLongBalls": "8",
           "longballPct": "0.6",
           "blockedShots": "5",
           "effectiveTackles": "3",
