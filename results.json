@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T00:26:13.407Z",
+  "generatedAt": "2026-06-26T00:27:14.963Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -18294,7 +18294,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "65'",
+      "clock": "66'",
       "events": [
         {
           "min": "62'",
@@ -18740,8 +18740,26 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "67'",
+      "clock": "68'",
       "events": [
+        {
+          "min": "68'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇹🇳. Mortadha Ben Ouanes (Tunísia) Substituição aos 68'",
+          "sub": "🇹🇳"
+        },
+        {
+          "min": "68'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇹🇳. Entra Elias Achouri para o lugar de Anis Ben Slimane.",
+          "sub": "🇹🇳"
+        },
+        {
+          "min": "67'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇹🇳. Hadj Mahmoud substitui Rani Khedira.",
+          "sub": "🇹🇳"
+        },
         {
           "min": "62'",
           "icon": "⚽",
@@ -19101,7 +19119,7 @@
           "accurateLongBalls": "18",
           "longballPct": "0.5",
           "blockedShots": "0",
-          "effectiveTackles": "9",
+          "effectiveTackles": "8",
           "totalTackles": "14",
           "tacklePct": "0.6",
           "interceptions": "5",
