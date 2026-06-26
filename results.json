@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T03:11:15.402Z",
+  "generatedAt": "2026-06-26T03:12:14.424Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -19355,7 +19355,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "48'",
+      "clock": "49'",
       "events": [
         {
           "min": "46'",
@@ -19708,7 +19708,7 @@
           "wonCorners": "0",
           "saves": "3",
           "possessionPct": "37.9",
-          "totalShots": "1",
+          "totalShots": "2",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
@@ -19757,8 +19757,8 @@
           "totalTackles": "15",
           "tacklePct": "0.7",
           "interceptions": "4",
-          "effectiveClearance": "4",
-          "totalClearance": "4"
+          "effectiveClearance": "5",
+          "totalClearance": "5"
         }
       }
     },
@@ -19770,11 +19770,17 @@
       "venue": "SoFi Stadium",
       "iso": "2026-06-26T02:00Z",
       "sh": 2,
-      "sa": 1,
+      "sa": 2,
       "done": false,
       "live": true,
-      "clock": "48'",
+      "clock": "49'",
       "events": [
+        {
+          "min": "49'",
+          "icon": "⚽",
+          "txt": "Sebastian Berhalter (EUA) finalização com o pé direito de fora da área.",
+          "sub": "🇺🇸"
+        },
         {
           "min": "45'",
           "icon": "▶️",
