@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T02:46:19.990Z",
+  "generatedAt": "2026-06-26T02:47:11.550Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -19355,7 +19355,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "45'+1'",
+      "clock": "45'+2'",
       "events": [
         {
           "min": "30'",
@@ -19682,20 +19682,20 @@
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "0",
-          "saves": "2",
-          "possessionPct": "41.6",
+          "saves": "3",
+          "possessionPct": "38.9",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "130",
-          "totalPasses": "169",
+          "accuratePasses": "132",
+          "totalPasses": "173",
           "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "1",
           "crossPct": "0.0",
-          "totalLongBalls": "26",
+          "totalLongBalls": "28",
           "accurateLongBalls": "6",
           "longballPct": "0.2",
           "blockedShots": "0",
@@ -19713,14 +19713,14 @@
           "offsides": "0",
           "wonCorners": "3",
           "saves": "0",
-          "possessionPct": "58.4",
+          "possessionPct": "61.1",
           "totalShots": "4",
           "shotsOnTarget": "2",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "189",
-          "totalPasses": "232",
+          "accuratePasses": "222",
+          "totalPasses": "266",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "6",
@@ -19733,8 +19733,8 @@
           "totalTackles": "14",
           "tacklePct": "0.6",
           "interceptions": "3",
-          "effectiveClearance": "2",
-          "totalClearance": "2"
+          "effectiveClearance": "3",
+          "totalClearance": "3"
         }
       }
     },
@@ -19749,7 +19749,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "45'",
+      "clock": "45'+1'",
       "events": [
         {
           "min": "31'",
