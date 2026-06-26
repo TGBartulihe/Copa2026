@@ -488,28 +488,46 @@ async function checkAndNotify(allMatches, doFull){
     // 1) Avisos de jogo perto de começar — agora que o robô corre a cada
     // minuto, conseguimos dois avisos com precisão real (10 e 5 min antes),
     // em vez da janela larga única de antes.
+    // Janelas alargadas (em vez de uma faixa estreita) — se uma execução
+    // atrasar por qualquer motivo (fila de execuções sobrepostas, falha de
+    // rede pontual), continua a apanhar a notificação na próxima vez que
+    // correr, em vez de perder a janela e nunca mais avisar.
     if (!m.done && !m.live && m.iso){
       const minsUntil = (new Date(m.iso).getTime() - now) / 60000;
 
-      if (!entry.notified10 && minsUntil > 7 && minsUntil <= 10){
+      if (!entry.notified10 && minsUntil > 0 && minsUntil <= 10){
         const dead = await sendPushToSubs(targetSubs, {
           title: "🍿 Prepara a pipoca!",
-          body: `${m.home} x ${m.away} começa em 10 minutos`,
+          body: `${m.home} x ${m.away} começa em ${Math.round(minsUntil)} minutos`,
           tag: matchKey + "-10min",
         });
         dead.forEach(e => deadEndpointsAll.add(e));
         entry.notified10 = true; sentAny = true;
       }
 
-      if (!entry.notified5 && minsUntil > 2 && minsUntil <= 5){
+      if (!entry.notified5 && minsUntil > 0 && minsUntil <= 5){
         const dead = await sendPushToSubs(targetSubs, {
           title: "⏰ Já vai começar!",
-          body: `${m.home} x ${m.away} começa em 5 minutos`,
+          body: `${m.home} x ${m.away} começa em ${Math.round(minsUntil)} minutos`,
           tag: matchKey + "-5min",
         });
         dead.forEach(e => deadEndpointsAll.add(e));
         entry.notified5 = true; sentAny = true;
       }
+    }
+
+    // Rede de segurança — se mesmo assim o jogo passou a "ao vivo" sem
+    // nenhuma das duas notificações ter disparado (atraso grande demais,
+    // passou a janela toda de uma vez), avisa que já começou, em vez de
+    // ficar caladinho até ao primeiro gol
+    if (m.live && !entry.notified10 && !entry.notified5 && !entry.notifiedStarted){
+      const dead = await sendPushToSubs(targetSubs, {
+        title: "⚽ Já começou!",
+        body: `${m.home} x ${m.away} já está em andamento`,
+        tag: matchKey + "-started",
+      });
+      dead.forEach(e => deadEndpointsAll.add(e));
+      entry.notified10 = true; entry.notified5 = true; entry.notifiedStarted = true; sentAny = true;
     }
 
     // 2) Gols novos do jogo ao vivo
