@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T04:02:13.204Z",
+  "generatedAt": "2026-06-26T04:03:14.457Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -19873,14 +19873,20 @@
       "iso": "2026-06-26T02:00Z",
       "sh": 3,
       "sa": 2,
-      "done": false,
-      "live": true,
-      "clock": "90'+9'",
+      "done": true,
+      "live": false,
+      "clock": "",
       "events": [
+        {
+          "min": "90'+9'",
+          "icon": "•",
+          "txt": "Fim do segundo tempo, Turkiye 3, EUA 2.",
+          "sub": "🏳️"
+        },
         {
           "min": "90'+8'",
           "icon": "⚽",
-          "txt": "Kaan Ayhan (Türkiye) finalização com o pé direito de muito perto.",
+          "txt": "Kaan Ayhan (Türkiye) remate com o pé direito em frente à baliza ao centro da baliza.",
           "sub": "🇹🇷"
         },
         {
@@ -20394,9 +20400,9 @@
           "wonCorners": "2",
           "saves": "5",
           "possessionPct": "47.4",
-          "totalShots": "7",
-          "shotsOnTarget": "2",
-          "shotPct": "0.3",
+          "totalShots": "9",
+          "shotsOnTarget": "4",
+          "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "333",
