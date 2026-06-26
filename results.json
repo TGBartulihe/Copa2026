@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T00:30:11.208Z",
+  "generatedAt": "2026-06-26T00:31:19.778Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -18294,7 +18294,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "69'",
+      "clock": "70'",
       "events": [
         {
           "min": "68'",
@@ -18764,12 +18764,36 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "70'",
+      "clock": "71'",
       "events": [
         {
-          "min": "69'",
-          "icon": "⏸️",
-          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇳🇱"
+        },
+        {
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇹🇳"
+        },
+        {
+          "min": "72'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇳🇱. Substituição de Crysencio Summerville (Holanda) aos 72'",
+          "sub": "🇳🇱"
+        },
+        {
+          "min": "72'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇳🇱. Substituição de Justin Kluivert (Holanda) aos 72'",
+          "sub": "🇳🇱"
+        },
+        {
+          "min": "72'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇳🇱. Substituição de Teun Koopmeiners (Holanda) aos 72'",
           "sub": "🇳🇱"
         },
         {
@@ -18777,6 +18801,12 @@
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇹🇳"
+        },
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇳🇱"
         },
         {
           "min": "68'",
