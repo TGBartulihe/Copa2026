@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T19:18:13.921Z",
+  "generatedAt": "2026-06-26T19:19:13.027Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20491,7 +20491,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "16'",
+      "clock": "17'",
       "events": [
         {
           "min": "10'",
@@ -20821,7 +20821,7 @@
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "0",
-          "saves": "4",
+          "saves": "5",
           "possessionPct": "32.4",
           "totalShots": "2",
           "shotsOnTarget": "1",
@@ -20829,12 +20829,12 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "36",
-          "totalPasses": "52",
+          "totalPasses": "53",
           "passPct": "0.7",
           "accurateCrosses": "1",
           "totalCrosses": "2",
           "crossPct": "0.5",
-          "totalLongBalls": "7",
+          "totalLongBalls": "8",
           "accurateLongBalls": "3",
           "longballPct": "0.4",
           "blockedShots": "0",
@@ -20853,27 +20853,27 @@
           "wonCorners": "1",
           "saves": "1",
           "possessionPct": "67.6",
-          "totalShots": "6",
-          "shotsOnTarget": "5",
-          "shotPct": "0.8",
+          "totalShots": "7",
+          "shotsOnTarget": "6",
+          "shotPct": "0.9",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "99",
-          "totalPasses": "113",
+          "accuratePasses": "101",
+          "totalPasses": "115",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "2",
           "crossPct": "0.5",
-          "totalLongBalls": "11",
-          "accurateLongBalls": "9",
+          "totalLongBalls": "12",
+          "accurateLongBalls": "10",
           "longballPct": "0.8",
           "blockedShots": "1",
           "effectiveTackles": "1",
           "totalTackles": "2",
           "tacklePct": "0.5",
           "interceptions": "0",
-          "effectiveClearance": "3",
-          "totalClearance": "3"
+          "effectiveClearance": "4",
+          "totalClearance": "4"
         }
       }
     },
@@ -20889,8 +20889,26 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "15'",
+      "clock": "17'",
       "events": [
+        {
+          "min": "17'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇸🇳"
+        },
+        {
+          "min": "16'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇮🇶"
+        },
+        {
+          "min": "16'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇮🇶. Entra Munaf Younus substituindo Ahmed Qasem.",
+          "sub": "🇮🇶"
+        },
         {
           "min": "15'",
           "icon": "⏸️",
@@ -20924,7 +20942,7 @@
         {
           "min": "4'",
           "icon": "⚽",
-          "txt": "Habib Diarra (Senegal) remate com o pé direito em frente à baliza ao ângulo superior direito. Assistência de Abdoulaye Seck após escanteio.",
+          "txt": "Habib Diarra (Senegal) remate com o pé esquerdo em frente à baliza ao ângulo superior direito. Assistência de Abdoulaye Seck após escanteio.",
           "sub": "🇸🇳"
         },
         {
