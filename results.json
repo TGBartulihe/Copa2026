@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T19:33:14.080Z",
+  "generatedAt": "2026-06-26T19:34:13.717Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20488,10 +20488,10 @@
       "venue": "Gillette Stadium",
       "iso": "2026-06-26T19:00Z",
       "sh": 1,
-      "sa": 2,
+      "sa": 3,
       "done": false,
       "live": true,
-      "clock": "31'",
+      "clock": "33'",
       "events": [
         {
           "min": "27'",
@@ -20888,14 +20888,14 @@
           "offsides": "1",
           "wonCorners": "3",
           "saves": "1",
-          "possessionPct": "64.8",
-          "totalShots": "11",
-          "shotsOnTarget": "7",
-          "shotPct": "0.6",
+          "possessionPct": "66.6",
+          "totalShots": "12",
+          "shotsOnTarget": "8",
+          "shotPct": "0.7",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "159",
-          "totalPasses": "182",
+          "accuratePasses": "174",
+          "totalPasses": "197",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "5",
@@ -20925,7 +20925,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "31'",
+      "clock": "32'",
       "events": [
         {
           "min": "26'",
