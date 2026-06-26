@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T00:47:13.540Z",
+  "generatedAt": "2026-06-26T00:48:15.338Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -18294,19 +18294,25 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "86'",
+      "clock": "87'",
       "events": [
         {
-          "min": "86'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
-          "sub": "🇸🇪"
+          "min": "87'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇯🇵"
         },
         {
           "min": "86'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇯🇵"
+        },
+        {
+          "min": "86'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Victor Lindelöf (Suécia).",
+          "sub": "🇸🇪"
         },
         {
           "min": "85'",
@@ -18824,7 +18830,7 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "87'",
+      "clock": "88'",
       "events": [
         {
           "min": "84'",
