@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T02:19:16.320Z",
+  "generatedAt": "2026-06-26T02:20:12.875Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -19355,7 +19355,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "19'",
+      "clock": "20'",
       "events": [
         {
           "min": "",
@@ -19701,12 +19701,24 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "19'",
+      "clock": "20'",
       "events": [
         {
+          "min": "20'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇺🇸"
+        },
+        {
+          "min": "20'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇹🇷"
+        },
+        {
           "min": "19'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Salih Özcan (Türkiye).",
           "sub": "🇹🇷"
         },
         {
@@ -19718,7 +19730,7 @@
         {
           "min": "19'",
           "icon": "🟨",
-          "txt": "Sebastian Berhalter (Estados Unidos) Cartão Amarelo aos 19'",
+          "txt": "Sebastian Berhalter (EUA) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇺🇸"
         },
         {
@@ -19764,38 +19776,38 @@
               "row": 1
             },
             {
-              "name": "Eren Elmali",
-              "pos": "LB",
-              "row": 1
-            },
-            {
-              "name": "Oguz Aydin",
-              "pos": "RB",
-              "row": 1
-            },
-            {
-              "name": "Salih Özcan",
+              "name": "Orkun Kökçü",
               "pos": "CM-L",
               "row": 2
             },
             {
-              "name": "Orkun Kökçü",
+              "name": "Arda Güler",
               "pos": "CM-R",
               "row": 2
             },
             {
-              "name": "Kenan Yildiz",
+              "name": "Eren Elmali",
               "pos": "LM",
               "row": 2
             },
             {
-              "name": "Arda Güler",
+              "name": "Oguz Aydin",
               "pos": "RM",
               "row": 2
             },
             {
               "name": "Baris Alper Yilmaz",
               "pos": "F",
+              "row": 3
+            },
+            {
+              "name": "Kenan Yildiz",
+              "pos": "CF-L",
+              "row": 3
+            },
+            {
+              "name": "Salih Özcan",
+              "pos": "CF-R",
               "row": 3
             }
           ],
@@ -19876,7 +19888,7 @@
               "row": 3
             }
           ],
-          "formation": "5-4-1",
+          "formation": "3-4-2-1",
           "dotColor": "#ef3340"
         },
         "away": {
@@ -20045,8 +20057,8 @@
           "totalClearance": "5"
         },
         "away": {
-          "foulsCommitted": "3",
-          "yellowCards": "0",
+          "foulsCommitted": "4",
+          "yellowCards": "1",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "2",
