@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T20:46:16.711Z",
+  "generatedAt": "2026-06-26T20:47:13.598Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20491,8 +20491,14 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "81'",
+      "clock": "82'",
       "events": [
+        {
+          "min": "83'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇳🇴. Substituição de Jens Petter Hauge (Noruega) aos 83'",
+          "sub": "🇳🇴"
+        },
         {
           "min": "76'",
           "icon": "🔄",
@@ -21039,7 +21045,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "78'",
+      "clock": "80'",
       "events": [
         {
           "min": "75'",
@@ -21054,7 +21060,7 @@
           "sub": "🇸🇳"
         },
         {
-          "min": "70'",
+          "min": "69'",
           "icon": "▶️",
           "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇸🇳"
@@ -21543,19 +21549,19 @@
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "1",
-          "wonCorners": "9",
+          "wonCorners": "10",
           "saves": "1",
-          "possessionPct": "65.3",
+          "possessionPct": "65.4",
           "totalShots": "20",
           "shotsOnTarget": "6",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "375",
-          "totalPasses": "433",
+          "accuratePasses": "376",
+          "totalPasses": "434",
           "passPct": "0.9",
           "accurateCrosses": "6",
-          "totalCrosses": "20",
+          "totalCrosses": "21",
           "crossPct": "0.3",
           "totalLongBalls": "31",
           "accurateLongBalls": "16",
@@ -21575,7 +21581,7 @@
           "offsides": "0",
           "wonCorners": "3",
           "saves": "2",
-          "possessionPct": "34.7",
+          "possessionPct": "34.6",
           "totalShots": "6",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
