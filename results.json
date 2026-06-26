@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T19:03:16.334Z",
+  "generatedAt": "2026-06-26T19:04:14.177Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20491,8 +20491,32 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "1'",
+      "clock": "2'",
       "events": [
+        {
+          "min": "2'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇳🇴"
+        },
+        {
+          "min": "2'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇫🇷"
+        },
+        {
+          "min": "2'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇳🇴"
+        },
+        {
+          "min": "2'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇫🇷"
+        },
         {
           "min": "",
           "icon": "🏁",
@@ -20530,6 +20554,11 @@
             },
             {
               "name": "Patrick Berg",
+              "pos": "CM",
+              "row": 2
+            },
+            {
+              "name": "Thelo Aasgaard",
               "pos": "LM",
               "row": 2
             },
@@ -20539,23 +20568,18 @@
               "row": 2
             },
             {
-              "name": "Thelo Aasgaard",
-              "pos": "AM",
-              "row": 2.5
+              "name": "Jørgen Strand Larsen",
+              "pos": "F",
+              "row": 3
             },
             {
               "name": "Andreas Schjelderup",
-              "pos": "AM-L",
-              "row": 2.5
+              "pos": "LF",
+              "row": 3
             },
             {
               "name": "Oscar Bobb",
-              "pos": "AM-R",
-              "row": 2.5
-            },
-            {
-              "name": "Jørgen Strand Larsen",
-              "pos": "F",
+              "pos": "RF",
               "row": 3
             }
           ],
@@ -20636,7 +20660,7 @@
               "row": 3
             }
           ],
-          "formation": "4-2-3-1",
+          "formation": "4-3-3",
           "dotColor": "#C8102E"
         },
         "away": {
@@ -20785,26 +20809,26 @@
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "0",
-          "saves": "0",
-          "possessionPct": "0",
+          "saves": "1",
+          "possessionPct": "25",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "0",
-          "totalPasses": "0",
-          "passPct": "0.0",
+          "accuratePasses": "2",
+          "totalPasses": "6",
+          "passPct": "0.3",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
-          "totalLongBalls": "0",
-          "accurateLongBalls": "0",
-          "longballPct": "0.0",
+          "totalLongBalls": "1",
+          "accurateLongBalls": "1",
+          "longballPct": "1.0",
           "blockedShots": "0",
-          "effectiveTackles": "0",
-          "totalTackles": "0",
-          "tacklePct": "0.0",
+          "effectiveTackles": "1",
+          "totalTackles": "1",
+          "tacklePct": "1.0",
           "interceptions": "0",
           "effectiveClearance": "0",
           "totalClearance": "0"
@@ -20816,21 +20840,21 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "0",
-          "totalShots": "0",
-          "shotsOnTarget": "0",
-          "shotPct": "0.0",
+          "possessionPct": "75",
+          "totalShots": "1",
+          "shotsOnTarget": "1",
+          "shotPct": "1.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "0",
-          "totalPasses": "0",
-          "passPct": "0.0",
+          "accuratePasses": "17",
+          "totalPasses": "18",
+          "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
-          "totalLongBalls": "0",
-          "accurateLongBalls": "0",
-          "longballPct": "0.0",
+          "totalLongBalls": "2",
+          "accurateLongBalls": "1",
+          "longballPct": "0.5",
           "blockedShots": "0",
           "effectiveTackles": "0",
           "totalTackles": "0",
@@ -20853,7 +20877,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "1'",
+      "clock": "2'",
       "events": [
         {
           "min": "",
