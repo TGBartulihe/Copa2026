@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T02:02:12.360Z",
+  "generatedAt": "2026-06-26T02:03:13.664Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -19355,7 +19355,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "2'",
+      "clock": "3'",
       "events": [
         {
           "min": "",
@@ -19698,10 +19698,10 @@
       "venue": "SoFi Stadium",
       "iso": "2026-06-26T02:00Z",
       "sh": 0,
-      "sa": 0,
+      "sa": 1,
       "done": false,
       "live": true,
-      "clock": "2'",
+      "clock": "3'",
       "events": [
         {
           "min": "",
@@ -19719,12 +19719,17 @@
               "row": 0
             },
             {
+              "name": "Ozan Kabak",
+              "pos": "CD",
+              "row": 1
+            },
+            {
               "name": "Abdülkerim Bardakçi",
               "pos": "CD-L",
               "row": 1
             },
             {
-              "name": "Ozan Kabak",
+              "name": "Zeki Çelik",
               "pos": "CD-R",
               "row": 1
             },
@@ -19734,34 +19739,29 @@
               "row": 1
             },
             {
-              "name": "Zeki Çelik",
+              "name": "Oguz Aydin",
               "pos": "RB",
               "row": 1
             },
             {
+              "name": "Salih Özcan",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
               "name": "Orkun Kökçü",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Kenan Yildiz",
               "pos": "LM",
               "row": 2
             },
             {
-              "name": "Salih Özcan",
+              "name": "Arda Güler",
               "pos": "RM",
               "row": 2
-            },
-            {
-              "name": "Arda Güler",
-              "pos": "AM",
-              "row": 2.5
-            },
-            {
-              "name": "Kenan Yildiz",
-              "pos": "AM-L",
-              "row": 2.5
-            },
-            {
-              "name": "Oguz Aydin",
-              "pos": "AM-R",
-              "row": 2.5
             },
             {
               "name": "Baris Alper Yilmaz",
@@ -19857,17 +19857,17 @@
               "row": 0
             },
             {
-              "name": "Miles Robinson",
+              "name": "Mark McKenzie",
               "pos": "CD-L",
               "row": 1
             },
             {
-              "name": "Auston Trusty",
+              "name": "Miles Robinson",
               "pos": "CD-R",
               "row": 1
             },
             {
-              "name": "Mark McKenzie",
+              "name": "Auston Trusty",
               "pos": "LB",
               "row": 1
             },
@@ -19877,17 +19877,17 @@
               "row": 1
             },
             {
-              "name": "Weston McKennie",
+              "name": "Sebastian Berhalter",
               "pos": "CM",
               "row": 2
             },
             {
-              "name": "Sebastian Berhalter",
+              "name": "Giovanni Reyna",
               "pos": "LM",
               "row": 2
             },
             {
-              "name": "Timothy Weah",
+              "name": "Weston McKennie",
               "pos": "RM",
               "row": 2
             },
@@ -19897,12 +19897,12 @@
               "row": 3
             },
             {
-              "name": "Brenden Aaronson",
+              "name": "Timothy Weah",
               "pos": "LF",
               "row": 3
             },
             {
-              "name": "Giovanni Reyna",
+              "name": "Brenden Aaronson",
               "pos": "RF",
               "row": 3
             }
