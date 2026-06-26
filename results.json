@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T20:55:10.910Z",
+  "generatedAt": "2026-06-26T20:56:11.921Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20491,7 +20491,7 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "90'+1'",
+      "clock": "90'+2'",
       "events": [
         {
           "min": "87'",
@@ -20990,7 +20990,7 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "8",
+          "foulsCommitted": "9",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "1",
@@ -21002,8 +21002,8 @@
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "328",
-          "totalPasses": "398",
+          "accuratePasses": "334",
+          "totalPasses": "405",
           "passPct": "0.8",
           "accurateCrosses": "3",
           "totalCrosses": "9",
@@ -21032,8 +21032,8 @@
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "452",
-          "totalPasses": "527",
+          "accuratePasses": "462",
+          "totalPasses": "537",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "8",
@@ -21063,8 +21063,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "87'",
+      "clock": "88'",
       "events": [
+        {
+          "min": "87'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇸🇳"
+        },
+        {
+          "min": "87'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇸🇳"
+        },
         {
           "min": "82'",
           "icon": "⚽",
@@ -21585,7 +21597,7 @@
           "yellowCards": "2",
           "redCards": "0",
           "offsides": "1",
-          "wonCorners": "12",
+          "wonCorners": "13",
           "saves": "1",
           "possessionPct": "68.1",
           "totalShots": "24",
@@ -21594,12 +21606,12 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "456",
-          "totalPasses": "520",
+          "totalPasses": "521",
           "passPct": "0.9",
           "accurateCrosses": "6",
           "totalCrosses": "23",
           "crossPct": "0.3",
-          "totalLongBalls": "34",
+          "totalLongBalls": "35",
           "accurateLongBalls": "18",
           "longballPct": "0.5",
           "blockedShots": "4",
