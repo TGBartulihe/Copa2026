@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T19:46:13.393Z",
+  "generatedAt": "2026-06-26T19:47:11.338Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20491,7 +20491,7 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "45'",
+      "clock": "45'+1'",
       "events": [
         {
           "min": "32'",
@@ -20870,19 +20870,19 @@
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "121",
-          "totalPasses": "156",
+          "accuratePasses": "124",
+          "totalPasses": "161",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "4",
           "crossPct": "0.5",
-          "totalLongBalls": "19",
-          "accurateLongBalls": "7",
+          "totalLongBalls": "20",
+          "accurateLongBalls": "8",
           "longballPct": "0.4",
           "blockedShots": "1",
-          "effectiveTackles": "6",
-          "totalTackles": "11",
-          "tacklePct": "0.5",
+          "effectiveTackles": "7",
+          "totalTackles": "12",
+          "tacklePct": "0.6",
           "interceptions": "7",
           "effectiveClearance": "8",
           "totalClearance": "8"
@@ -20900,8 +20900,8 @@
           "shotPct": "0.6",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "218",
-          "totalPasses": "246",
+          "accuratePasses": "227",
+          "totalPasses": "255",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "6",
@@ -20931,8 +20931,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "44'",
+      "clock": "45'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇸🇳"
+        },
+        {
+          "min": "45'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇮🇶"
+        },
         {
           "min": "44'",
           "icon": "⏸️",
@@ -20941,8 +20953,8 @@
         },
         {
           "min": "43'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Ahmed Basil (Iraque).",
           "sub": "🇮🇶"
         },
         {
