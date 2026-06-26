@@ -1,0 +1,71 @@
+name: Auditoria Completa - Jogos Perdidos em Qualquer Data
+
+on:
+  workflow_dispatch: {}
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Comparar todas as datas do torneio com o results.json
+        run: |
+          node -e "
+          const fs = require('fs');
+
+          async function fetchDay(dateStr){
+            try{
+              const url = 'https://site.api.espn.com/apis/site/v2/sports/soccer/fifa.world/scoreboard?dates=' + dateStr;
+              const res = await fetch(url);
+              const data = await res.json();
+              return data.events || [];
+            }catch(e){ return []; }
+          }
+
+          async function main(){
+            const existing = JSON.parse(fs.readFileSync('results.json', 'utf8'));
+            const existingKeys = new Set();
+            existing.matches.forEach(m => {
+              existingKeys.add(m.home + '|' + m.away);
+              existingKeys.add(m.away + '|' + m.home);
+            });
+
+            // Do início do torneio (11/06) até hoje
+            const start = new Date('2026-06-11T00:00:00Z');
+            const today = new Date();
+            let missingCount = 0;
+
+            for (let d = new Date(start); d <= today; d.setUTCDate(d.getUTCDate()+1)){
+              const dateStr = d.getUTCFullYear() + String(d.getUTCMonth()+1).padStart(2,'0') + String(d.getUTCDate()).padStart(2,'0');
+              const events = await fetchDay(dateStr);
+              const finished = events.filter(ev => ev.competitions?.[0]?.status?.type?.completed === true);
+              if(!finished.length) continue;
+
+              finished.forEach(ev => {
+                const comp = ev.competitions[0];
+                const homeC = comp.competitors?.find(c=>c.homeAway==='home');
+                const awayC = comp.competitors?.find(c=>c.homeAway==='away');
+                if(!homeC || !awayC) return;
+                const homeName = homeC.team?.displayName;
+                const awayName = awayC.team?.displayName;
+                // Verifica por nome em inglês cru — pode não bater com o
+                // nosso dicionário, mas o objetivo aqui é só CONTAR quantos
+                // jogos terminados existem na ESPN para esta data
+                const foundByRawName = existing.matches.some(m =>
+                  (m.home?.includes(homeName?.split(' ').pop()) || m.away?.includes(homeName?.split(' ').pop())) &&
+                  m.date === (String(d.getUTCDate()).padStart(2,'0')+'/'+String(d.getUTCMonth()+1).padStart(2,'0'))
+                );
+                if(!foundByRawName){
+                  missingCount++;
+                  console.log('FALTANDO? ' + dateStr + ': ' + homeName + ' ' + homeC.score + ' x ' + awayC.score + ' ' + awayName);
+                }
+              });
+            }
+            console.log('');
+            console.log('Total de jogos suspeitos de estarem em falta: ' + missingCount);
+            console.log('Total de jogos já no results.json: ' + existing.matches.length);
+          }
+          main().catch(e=>{console.error(e);process.exit(1);});
+          "
