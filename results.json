@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T03:47:13.453Z",
+  "generatedAt": "2026-06-26T03:48:18.367Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -19355,18 +19355,30 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "84'",
+      "clock": "85'",
       "events": [
         {
           "min": "84'",
           "icon": "🔄",
-          "txt": "Substituição, 🇵🇾. José Canale (Paraguai) Substituição aos 84'",
+          "txt": "Substituição, 🇦🇺. Substituição de Tete Yengi (Austrália) aos 84'",
+          "sub": "🇦🇺"
+        },
+        {
+          "min": "84'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇦🇺. Substituição de Paul Okon-Engstler (Austrália) aos 84'",
+          "sub": "🇦🇺"
+        },
+        {
+          "min": "84'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇾. José Canale entra no lugar de Omar Alderete devido a uma lesão.",
           "sub": "🇵🇾"
         },
         {
           "min": "84'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇵🇾"
         },
         {
@@ -19377,8 +19389,8 @@
         },
         {
           "min": "83'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a lesão de Gustavo Gómez (Paraguai).",
           "sub": "🇵🇾"
         },
         {
@@ -19845,18 +19857,18 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "84'",
+      "clock": "85'",
       "events": [
         {
           "min": "84'",
           "icon": "🔄",
-          "txt": "Substituição, 🇹🇷. Substituição de Can Uzun (Türkiye) aos 84'",
+          "txt": "Substituição, 🇹🇷. Entra Can Uzun para o lugar de Kenan Yildiz.",
           "sub": "🇹🇷"
         },
         {
           "min": "84'",
           "icon": "🔄",
-          "txt": "Substituição, 🇹🇷. Çaglar Söyüncü (Türkiye) Substituição aos 84'",
+          "txt": "Substituição, 🇹🇷. Entra Çaglar Söyüncü para o lugar de Zeki Çelik.",
           "sub": "🇹🇷"
         },
         {
