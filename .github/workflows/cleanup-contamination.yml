@@ -1,0 +1,51 @@
+name: Limpar Contaminação de Mata-Mata nos Jogos de Grupo
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Remover entradas de mata-mata que foram misturadas por engano
+        run: |
+          node -e "
+          const fs = require('fs');
+          const existing = JSON.parse(fs.readFileSync('results.json', 'utf8'));
+
+          // A fase de grupos termina em 27/06. Qualquer 'jogo de grupo' a
+          // partir de 28/06, ou com nome de placeholder em inglês (sinal
+          // claro de ser vaga de mata-mata ainda a decidir), foi misturado
+          // por engano no script anterior — remove.
+          const isPlaceholder = name => /Winner|2nd Place|Third Place|Group [A-L]/i.test(name||'');
+          const before = existing.matches.length;
+
+          existing.matches = existing.matches.filter(m => {
+            const dateNum = parseInt((m.date||'00/00').split('/').reverse().join(''));
+            const isLateDate = dateNum >= 628; // 28/06 em diante (DDMM)
+            const isPH = isPlaceholder(m.home) || isPlaceholder(m.away);
+            if(isLateDate || isPH){
+              console.log('REMOVIDO (não é fase de grupos): ' + m.date + ' — ' + m.home + ' x ' + m.away);
+              return false;
+            }
+            return true;
+          });
+
+          fs.writeFileSync('results.json', JSON.stringify(existing, null, 2));
+          console.log('');
+          console.log('Antes: ' + before + ' | Depois: ' + existing.matches.length + ' | Removidos: ' + (before - existing.matches.length));
+          "
+
+      - name: Commit
+        run: |
+          git config user.name "actions-user"
+          git config user.email "actions@github.com"
+          git add results.json
+          git commit -m "Remove jogos de mata-mata misturados por engano na fase de grupos" || echo "Nada para comitar"
+          git push
