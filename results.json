@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T00:32:10.785Z",
+  "generatedAt": "2026-06-26T00:33:12.016Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -18294,7 +18294,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "71'",
+      "clock": "72'",
       "events": [
         {
           "min": "71'",
@@ -18305,7 +18305,7 @@
         {
           "min": "71'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇯🇵"
         },
         {
@@ -18710,20 +18710,20 @@
           "offsides": "3",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "53.1",
+          "possessionPct": "53.6",
           "totalShots": "7",
           "shotsOnTarget": "3",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "294",
-          "totalPasses": "342",
+          "accuratePasses": "300",
+          "totalPasses": "350",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "10",
           "crossPct": "0.3",
-          "totalLongBalls": "41",
-          "accurateLongBalls": "17",
+          "totalLongBalls": "43",
+          "accurateLongBalls": "18",
           "longballPct": "0.4",
           "blockedShots": "2",
           "effectiveTackles": "6",
@@ -18734,20 +18734,20 @@
           "totalClearance": "23"
         },
         "away": {
-          "foulsCommitted": "8",
+          "foulsCommitted": "9",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "2",
           "wonCorners": "6",
           "saves": "2",
-          "possessionPct": "46.9",
+          "possessionPct": "46.4",
           "totalShots": "5",
           "shotsOnTarget": "3",
           "shotPct": "0.6",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "232",
-          "totalPasses": "295",
+          "totalPasses": "296",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "10",
@@ -18760,8 +18760,8 @@
           "totalTackles": "4",
           "tacklePct": "0.5",
           "interceptions": "5",
-          "effectiveClearance": "14",
-          "totalClearance": "14"
+          "effectiveClearance": "16",
+          "totalClearance": "16"
         }
       }
     },
@@ -18776,14 +18776,8 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "72'",
+      "clock": "73'",
       "events": [
-        {
-          "min": "72'",
-          "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇳🇱"
-        },
         {
           "min": "72'",
           "icon": "▶️",
@@ -18792,20 +18786,26 @@
         },
         {
           "min": "72'",
-          "icon": "🔄",
-          "txt": "Substituição, 🇳🇱. Substituição de Crysencio Summerville (Holanda) aos 72'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇳🇱"
         },
         {
           "min": "72'",
           "icon": "🔄",
-          "txt": "Substituição, 🇳🇱. Substituição de Justin Kluivert (Holanda) aos 72'",
+          "txt": "Substituição, 🇳🇱. Entra Crysencio Summerville substituindo Donyell Malen.",
           "sub": "🇳🇱"
         },
         {
           "min": "72'",
           "icon": "🔄",
-          "txt": "Substituição, 🇳🇱. Substituição de Teun Koopmeiners (Holanda) aos 72'",
+          "txt": "Substituição, 🇳🇱. Entra Justin Kluivert para o lugar de Tijjani Reijnders.",
+          "sub": "🇳🇱"
+        },
+        {
+          "min": "72'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇳🇱. Entra Teun Koopmeiners substituindo Frenkie de Jong.",
           "sub": "🇳🇱"
         },
         {
@@ -19181,7 +19181,7 @@
           "offsides": "1",
           "wonCorners": "2",
           "saves": "3",
-          "possessionPct": "27.4",
+          "possessionPct": "26.9",
           "totalShots": "6",
           "shotsOnTarget": "3",
           "shotPct": "0.5",
@@ -19211,25 +19211,25 @@
           "offsides": "1",
           "wonCorners": "5",
           "saves": "2",
-          "possessionPct": "72.6",
+          "possessionPct": "73.1",
           "totalShots": "18",
           "shotsOnTarget": "6",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "468",
-          "totalPasses": "506",
+          "accuratePasses": "481",
+          "totalPasses": "519",
           "passPct": "0.9",
-          "accurateCrosses": "5",
+          "accurateCrosses": "4",
           "totalCrosses": "21",
           "crossPct": "0.2",
           "totalLongBalls": "14",
           "accurateLongBalls": "9",
           "longballPct": "0.6",
           "blockedShots": "5",
-          "effectiveTackles": "3",
+          "effectiveTackles": "4",
           "totalTackles": "7",
-          "tacklePct": "0.4",
+          "tacklePct": "0.6",
           "interceptions": "6",
           "effectiveClearance": "6",
           "totalClearance": "6"
