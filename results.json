@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T19:50:11.824Z",
+  "generatedAt": "2026-06-26T19:51:15.133Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20491,7 +20491,7 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "45'+3'",
+      "clock": "45'+4'",
       "events": [
         {
           "min": "32'",
@@ -20864,14 +20864,14 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "5",
-          "possessionPct": "38.9",
+          "possessionPct": "38.2",
           "totalShots": "4",
           "shotsOnTarget": "2",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "129",
-          "totalPasses": "168",
+          "accuratePasses": "131",
+          "totalPasses": "172",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "4",
@@ -20883,7 +20883,7 @@
           "effectiveTackles": "7",
           "totalTackles": "12",
           "tacklePct": "0.6",
-          "interceptions": "7",
+          "interceptions": "9",
           "effectiveClearance": "8",
           "totalClearance": "8"
         },
@@ -20894,17 +20894,17 @@
           "offsides": "1",
           "wonCorners": "3",
           "saves": "1",
-          "possessionPct": "61.1",
+          "possessionPct": "61.8",
           "totalShots": "14",
           "shotsOnTarget": "8",
           "shotPct": "0.6",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "239",
-          "totalPasses": "268",
+          "accuratePasses": "250",
+          "totalPasses": "281",
           "passPct": "0.9",
           "accurateCrosses": "2",
-          "totalCrosses": "6",
+          "totalCrosses": "7",
           "crossPct": "0.3",
           "totalLongBalls": "24",
           "accurateLongBalls": "18",
@@ -20931,7 +20931,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "45'+3'",
+      "clock": "45'+4'",
       "events": [
         {
           "min": "45'",
