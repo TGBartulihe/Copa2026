@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T03:46:11.902Z",
+  "generatedAt": "2026-06-26T03:47:13.453Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -19355,8 +19355,32 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "83'",
+      "clock": "84'",
       "events": [
+        {
+          "min": "84'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇾. José Canale (Paraguai) Substituição aos 84'",
+          "sub": "🇵🇾"
+        },
+        {
+          "min": "84'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇵🇾"
+        },
+        {
+          "min": "84'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇦🇺"
+        },
+        {
+          "min": "83'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇵🇾"
+        },
         {
           "min": "83'",
           "icon": "⏸️",
@@ -19821,8 +19845,20 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "83'",
+      "clock": "84'",
       "events": [
+        {
+          "min": "84'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇹🇷. Substituição de Can Uzun (Türkiye) aos 84'",
+          "sub": "🇹🇷"
+        },
+        {
+          "min": "84'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇹🇷. Çaglar Söyüncü (Türkiye) Substituição aos 84'",
+          "sub": "🇹🇷"
+        },
         {
           "min": "77'",
           "icon": "🔄",
@@ -20267,50 +20303,50 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "11",
+          "foulsCommitted": "12",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "2",
           "wonCorners": "2",
           "saves": "5",
-          "possessionPct": "45.4",
-          "totalShots": "7",
+          "possessionPct": "46.1",
+          "totalShots": "8",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "271",
-          "totalPasses": "356",
+          "accuratePasses": "286",
+          "totalPasses": "372",
           "passPct": "0.8",
           "accurateCrosses": "0",
-          "totalCrosses": "6",
+          "totalCrosses": "8",
           "crossPct": "0.0",
           "totalLongBalls": "57",
           "accurateLongBalls": "20",
           "longballPct": "0.4",
-          "blockedShots": "2",
-          "effectiveTackles": "18",
-          "totalTackles": "27",
+          "blockedShots": "3",
+          "effectiveTackles": "19",
+          "totalTackles": "28",
           "tacklePct": "0.7",
           "interceptions": "6",
           "effectiveClearance": "20",
           "totalClearance": "20"
         },
         "away": {
-          "foulsCommitted": "11",
+          "foulsCommitted": "12",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "4",
           "wonCorners": "9",
           "saves": "1",
-          "possessionPct": "54.6",
+          "possessionPct": "53.9",
           "totalShots": "16",
           "shotsOnTarget": "7",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "351",
-          "totalPasses": "416",
+          "accuratePasses": "358",
+          "totalPasses": "424",
           "passPct": "0.8",
           "accurateCrosses": "5",
           "totalCrosses": "16",
@@ -20319,12 +20355,12 @@
           "accurateLongBalls": "16",
           "longballPct": "0.4",
           "blockedShots": "3",
-          "effectiveTackles": "7",
-          "totalTackles": "12",
+          "effectiveTackles": "8",
+          "totalTackles": "13",
           "tacklePct": "0.6",
           "interceptions": "10",
-          "effectiveClearance": "19",
-          "totalClearance": "19"
+          "effectiveClearance": "21",
+          "totalClearance": "21"
         }
       }
     },
