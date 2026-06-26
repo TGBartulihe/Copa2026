@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T19:12:11.941Z",
+  "generatedAt": "2026-06-26T19:13:15.675Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20491,7 +20491,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "10'",
+      "clock": "11'",
       "events": [
         {
           "min": "10'",
@@ -20891,6 +20891,12 @@
       "live": true,
       "clock": "10'",
       "events": [
+        {
+          "min": "10'",
+          "icon": "🟨",
+          "txt": "Rebin Sulaka (Iraque) Cartão Amarelo aos 10'",
+          "sub": "🇮🇶"
+        },
         {
           "min": "4'",
           "icon": "⚽",
