@@ -188,6 +188,7 @@ td.pos{color:#4ade80;font-weight:bold}td.neg{color:#f87171;font-weight:bold}td.z
 .bbox.bbox-live{border-color:#3dbb3d}
 .bbox.bbox-done{border-color:#1a3320}
 .bbox.bbox-tbd{opacity:.55}
+.bbox.bbox-scheduled{opacity:1}
 .bbox-head{padding:4px 10px;font-size:8px;letter-spacing:1.5px;color:#557;background:#162515;border-bottom:1px solid #0e140e;display:flex;justify-content:space-between}
 .bbox-head.head-live{color:#ff5544}
 .bbox-head.head-done{color:#3dbb3d}
@@ -1150,6 +1151,18 @@ function bResult(){
       h+=card(r);
     });
   }
+
+  // Mata-mata já encerrado — mesma lógica do Próximos, secção separada
+  // por ter estrutura diferente (round, não g)
+  const koDone=(KO_MATCHES||[]).filter(k=>k.done).sort((a,b)=>new Date(b.iso||0)-new Date(a.iso||0));
+  if(koDone.length){
+    h+=`<div class="glbl" style="color:#f0c040;margin-top:14px">▸ MATA-MATA</div>`;
+    koDone.forEach(k=>{
+      const d=k.iso?new Date(k.iso):null;
+      const meta=d?`${String(d.getDate()).padStart(2,"0")}/${String(d.getMonth()+1).padStart(2,"0")} · ${k.venue||""}`:(k.round||"");
+      h+=bracketBox(k.home,k.away,k.sh,k.sa,"done",meta,isFav(k.home),isFav(k.away));
+    });
+  }
   return h;
 }
 
@@ -1468,10 +1481,17 @@ function bracketBox(homeLabel,awayLabel,sh,sa,status,meta,favHome,favAway){
   awayLabel=translateBracketPlaceholder(awayLabel);
   const isDone=status==="done", isLive=status==="live";
   const wh=isDone&&sh>sa, wa=isDone&&sa>sh;
+  // Esmaece só quando as PRÓPRIAS equipas ainda não estão definidas — uma
+  // seleção real tem sempre bandeira; um placeholder ("Vencedor Grupo H")
+  // nunca tem. Um jogo agendado com as duas equipas já confirmadas NÃO
+  // deve ficar esmaecido só por ainda não ter sido jogado.
+  const hasFlag=n=>/\p{Regional_Indicator}{2}/u.test(n||"");
+  const teamsResolved=hasFlag(homeLabel)&&hasFlag(awayLabel);
   const scoreCls=isLive?"live":!isDone?"tbd":"";
   const scoreTxt=isDone?`${sh}–${sa}`:isLive?`${sh??0}–${sa??0}`:"vs";
   const headCls=isLive?"head-live":isDone?"head-done":"";
-  return `<div class="bbox ${isLive?"bbox-live":isDone?"bbox-done":"bbox-tbd"}">
+  const boxCls=isLive?"bbox-live":isDone?"bbox-done":teamsResolved?"bbox-scheduled":"bbox-tbd";
+  return `<div class="bbox ${boxCls}">
     ${meta?`<div class="bbox-head ${headCls}"><span>${meta}</span></div>`:""}
     <div class="bbox-body">
       <div class="bbox-team ${isDone?(wh?"winner":"loser"):""}">
@@ -1628,6 +1648,19 @@ function bProx(){
         first=false;
       }
       h+=uc(r);
+    });
+  }
+
+  // Mata-mata já agendado/definido — separado dos jogos de grupo porque
+  // usa outra estrutura (round, não g), mas o utilizador precisa de ver
+  // isto aqui também, não só na tab Mata-Mata
+  const koUpcoming=(KO_MATCHES||[]).filter(k=>!k.done).sort((a,b)=>new Date(a.iso||0)-new Date(b.iso||0));
+  if(koUpcoming.length){
+    h+=`<div class="glbl" style="color:#f0c040;margin-top:14px">▸ MATA-MATA</div>`;
+    koUpcoming.forEach(k=>{
+      const d=k.iso?new Date(k.iso):null;
+      const meta=d?`⏰ ${String(d.getDate()).padStart(2,"0")}/${String(d.getMonth()+1).padStart(2,"0")} · ${k.venue||""}`:(k.round||"");
+      h+=bracketBox(k.home,k.away,k.sh,k.sa,k.live?"live":"tbd",meta,isFav(k.home),isFav(k.away));
     });
   }
   return h;
