@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T01:00:11.341Z",
+  "generatedAt": "2026-06-26T01:01:16.665Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -18479,14 +18479,14 @@
         {
           "min": "27'",
           "icon": "▶️",
-          "txt": "Atraso acabou. Eles estão prontos para continuar.",
-          "sub": "🇯🇵"
+          "txt": "Jogo reiniciado",
+          "sub": "🇸🇪"
         },
         {
           "min": "27'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇸🇪"
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇯🇵"
         },
         {
           "min": "24'",
@@ -18824,7 +18824,7 @@
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "313",
+          "accuratePasses": "312",
           "totalPasses": "395",
           "passPct": "0.8",
           "accurateCrosses": "3",
@@ -20064,6 +20064,36 @@
       "brTime": "14h",
       "venue": "AT&T Stadium",
       "iso": "2026-06-30T17:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "avos"
+    },
+    {
+      "home": "Brasil 🇧🇷",
+      "away": "Japão 🇯🇵",
+      "date": "29/06",
+      "brTime": "14h",
+      "venue": "NRG Stadium",
+      "iso": "2026-06-29T17:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "avos"
+    },
+    {
+      "home": "Holanda 🇳🇱",
+      "away": "Marrocos 🇲🇦",
+      "date": "29/06",
+      "brTime": "22h",
+      "venue": "Estadio BBVA",
+      "iso": "2026-06-30T01:00Z",
       "sh": null,
       "sa": null,
       "done": false,
