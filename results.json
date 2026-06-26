@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T10:10:13.006Z",
+  "generatedAt": "2026-06-26T10:11:18.410Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -6586,6 +6586,7 @@
       }
     },
     {
+      "espnId": "760449",
       "home": "Tunísia 🇹🇳",
       "away": "Japão 🇯🇵",
       "date": "21/06",
@@ -7111,6 +7112,7 @@
       }
     },
     {
+      "espnId": "760453",
       "home": "Espanha 🇪🇸",
       "away": "Arábia Saudita 🇸🇦",
       "date": "21/06",
@@ -7694,6 +7696,7 @@
       }
     },
     {
+      "espnId": "760451",
       "home": "Bélgica 🇧🇪",
       "away": "Irã 🇮🇷",
       "date": "21/06",
@@ -8249,6 +8252,7 @@
       }
     },
     {
+      "espnId": "760450",
       "home": "Uruguai 🇺🇾",
       "away": "Cabo Verde 🇨🇻",
       "date": "21/06",
@@ -8846,6 +8850,7 @@
       }
     },
     {
+      "espnId": "760452",
       "home": "Nova Zelândia 🇳🇿",
       "away": "Egito 🇪🇬",
       "date": "21/06",
@@ -9465,6 +9470,7 @@
       }
     },
     {
+      "espnId": "760456",
       "home": "Argentina 🇦🇷",
       "away": "Áustria 🇦🇹",
       "date": "22/06",
@@ -10102,6 +10108,7 @@
       }
     },
     {
+      "espnId": "760457",
       "home": "França 🇫🇷",
       "away": "Iraque 🇮🇶",
       "date": "22/06",
@@ -10607,6 +10614,7 @@
       }
     },
     {
+      "espnId": "760454",
       "home": "Noruega 🇳🇴",
       "away": "Senegal 🇸🇳",
       "date": "22/06",
@@ -11172,6 +11180,7 @@
       }
     },
     {
+      "espnId": "760455",
       "home": "Jordânia 🇯🇴",
       "away": "Argélia 🇩🇿",
       "date": "23/06",
@@ -11684,6 +11693,7 @@
       }
     },
     {
+      "espnId": "760461",
       "home": "Portugal 🇵🇹",
       "away": "Uzbequistão 🇺🇿",
       "date": "23/06",
@@ -12249,6 +12259,7 @@
       }
     },
     {
+      "espnId": "760458",
       "home": "Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿",
       "away": "Gana 🇬🇭",
       "date": "23/06",
@@ -12790,6 +12801,7 @@
       }
     },
     {
+      "espnId": "760460",
       "home": "Panamá 🇵🇦",
       "away": "Croácia 🇭🇷",
       "date": "23/06",
@@ -13289,6 +13301,7 @@
       }
     },
     {
+      "espnId": "760459",
       "home": "Colômbia 🇨🇴",
       "away": "RD Congo 🇨🇩",
       "date": "23/06",
@@ -13824,6 +13837,7 @@
       }
     },
     {
+      "espnId": "760462",
       "home": "Bósnia 🇧🇦",
       "away": "Qatar 🇶🇦",
       "date": "24/06",
@@ -14440,6 +14454,7 @@
       }
     },
     {
+      "espnId": "760463",
       "home": "Suíça 🇨🇭",
       "away": "Canadá 🇨🇦",
       "date": "24/06",
@@ -14948,6 +14963,7 @@
       }
     },
     {
+      "espnId": "760464",
       "home": "Marrocos 🇲🇦",
       "away": "Haiti 🇭🇹",
       "date": "24/06",
@@ -15573,6 +15589,7 @@
       }
     },
     {
+      "espnId": "760465",
       "home": "Escócia 🏴󠁧󠁢󠁳󠁣󠁴󠁿",
       "away": "Brasil 🇧🇷",
       "date": "24/06",
@@ -16127,6 +16144,7 @@
       }
     },
     {
+      "espnId": "760467",
       "home": "Rep. Tcheca 🇨🇿",
       "away": "México 🇲🇽",
       "date": "24/06",
@@ -16705,6 +16723,7 @@
       }
     },
     {
+      "espnId": "760466",
       "home": "África do Sul 🇿🇦",
       "away": "Coreia do Sul 🇰🇷",
       "date": "24/06",
@@ -20979,6 +20998,7 @@
   ],
   "knockout": [
     {
+      "espnId": "760486",
       "home": "África do Sul 🇿🇦",
       "away": "Canadá 🇨🇦",
       "date": "28/06",
@@ -20994,6 +21014,7 @@
       "round": "avos"
     },
     {
+      "espnId": "760487",
       "home": "Brasil 🇧🇷",
       "away": "Japão 🇯🇵",
       "date": "29/06",
@@ -21009,6 +21030,7 @@
       "round": "avos"
     },
     {
+      "espnId": "760489",
       "home": "Alemanha 🇩🇪",
       "away": "Third Place Group A/B/C/D/F",
       "date": "29/06",
@@ -21024,6 +21046,7 @@
       "round": "avos"
     },
     {
+      "espnId": "760488",
       "home": "Holanda 🇳🇱",
       "away": "Marrocos 🇲🇦",
       "date": "29/06",
@@ -21039,6 +21062,7 @@
       "round": "avos"
     },
     {
+      "espnId": "760490",
       "home": "C. do Marfim 🇨🇮",
       "away": "Group I 2nd Place",
       "date": "30/06",
@@ -21054,6 +21078,7 @@
       "round": "avos"
     },
     {
+      "espnId": "760492",
       "home": "Group I Winner",
       "away": "Third Place Group C/D/F/G/H",
       "date": "30/06",
@@ -21069,6 +21094,7 @@
       "round": "avos"
     },
     {
+      "espnId": "760491",
       "home": "México 🇲🇽",
       "away": "Third Place Group C/E/F/H/I",
       "date": "30/06",
@@ -21084,6 +21110,7 @@
       "round": "avos"
     },
     {
+      "espnId": "760495",
       "home": "Group L Winner",
       "away": "Third Place Group E/H/I/J/K",
       "date": "01/07",
@@ -21099,6 +21126,7 @@
       "round": "avos"
     },
     {
+      "espnId": "760493",
       "home": "Group G Winner",
       "away": "Third Place Group A/E/H/I/J",
       "date": "01/07",
@@ -21114,6 +21142,7 @@
       "round": "avos"
     },
     {
+      "espnId": "760494",
       "home": "EUA 🇺🇸",
       "away": "Bósnia 🇧🇦",
       "date": "01/07",
@@ -21129,6 +21158,7 @@
       "round": "oitavas"
     },
     {
+      "espnId": "760497",
       "home": "Group H Winner",
       "away": "Group J 2nd Place",
       "date": "02/07",
@@ -21144,6 +21174,7 @@
       "round": "oitavas"
     },
     {
+      "espnId": "760496",
       "home": "Group K 2nd Place",
       "away": "Group L 2nd Place",
       "date": "02/07",
@@ -21159,6 +21190,7 @@
       "round": "oitavas"
     },
     {
+      "espnId": "760498",
       "home": "Suíça 🇨🇭",
       "away": "Third Place Group E/F/G/I/J",
       "date": "03/07",
@@ -21174,6 +21206,7 @@
       "round": "oitavas"
     },
     {
+      "espnId": "760499",
       "home": "Austrália 🇦🇺",
       "away": "Group G 2nd Place",
       "date": "03/07",
@@ -21189,6 +21222,7 @@
       "round": "oitavas"
     },
     {
+      "espnId": "760500",
       "home": "Argentina 🇦🇷",
       "away": "Group H 2nd Place",
       "date": "03/07",
@@ -21204,6 +21238,7 @@
       "round": "oitavas"
     },
     {
+      "espnId": "760501",
       "home": "Group K Winner",
       "away": "Third Place Group D/E/I/J/L",
       "date": "03/07",
@@ -21219,6 +21254,7 @@
       "round": "oitavas"
     },
     {
+      "espnId": "760502",
       "home": "Round of 32 1 Winner",
       "away": "Round of 32 3 Winner",
       "date": "04/07",
@@ -21234,6 +21270,7 @@
       "round": "oitavas"
     },
     {
+      "espnId": "760503",
       "home": "Round of 32 2 Winner",
       "away": "Round of 32 5 Winner",
       "date": "04/07",
@@ -21249,6 +21286,7 @@
       "round": "oitavas"
     },
     {
+      "espnId": "760504",
       "home": "Round of 32 4 Winner",
       "away": "Round of 32 6 Winner",
       "date": "05/07",
@@ -21264,6 +21302,7 @@
       "round": "oitavas"
     },
     {
+      "espnId": "760505",
       "home": "Round of 32 7 Winner",
       "away": "Round of 32 8 Winner",
       "date": "05/07",
@@ -21279,6 +21318,7 @@
       "round": "oitavas"
     },
     {
+      "espnId": "760506",
       "home": "Round of 32 11 Winner",
       "away": "Round of 32 12 Winner",
       "date": "06/07",
@@ -21294,6 +21334,7 @@
       "round": "oitavas"
     },
     {
+      "espnId": "760507",
       "home": "Round of 32 9 Winner",
       "away": "Round of 32 10 Winner",
       "date": "06/07",
@@ -21309,6 +21350,7 @@
       "round": "oitavas"
     },
     {
+      "espnId": "760509",
       "home": "Round of 32 14 Winner",
       "away": "Round of 32 16 Winner",
       "date": "07/07",
@@ -21324,6 +21366,7 @@
       "round": "oitavas"
     },
     {
+      "espnId": "760508",
       "home": "Round of 32 13 Winner",
       "away": "Round of 32 15 Winner",
       "date": "07/07",
