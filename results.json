@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T19:02:12.918Z",
+  "generatedAt": "2026-06-26T19:03:16.334Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20487,12 +20487,359 @@
       "brTime": "16h",
       "venue": "Gillette Stadium",
       "iso": "2026-06-26T19:00Z",
-      "sh": null,
-      "sa": null,
+      "sh": 0,
+      "sa": 0,
       "done": false,
-      "live": false,
-      "clock": "",
-      "events": []
+      "live": true,
+      "clock": "1'",
+      "events": [
+        {
+          "min": "",
+          "icon": "🏁",
+          "txt": "Início de jogo",
+          "sub": "🏳️"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Egil Selvik",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Leo Østigard",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Henrik Falchener",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Fredrik André Bjørkan",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Fredrik Aursnes",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Patrick Berg",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Kristian Thorstvedt",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Thelo Aasgaard",
+              "pos": "AM",
+              "row": 2.5
+            },
+            {
+              "name": "Andreas Schjelderup",
+              "pos": "AM-L",
+              "row": 2.5
+            },
+            {
+              "name": "Oscar Bobb",
+              "pos": "AM-R",
+              "row": 2.5
+            },
+            {
+              "name": "Jørgen Strand Larsen",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Alexander Sørloth",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Sondre Langas",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "David Møller Wolfe",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kristoffer Ajer",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Torbjørn Heggem",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Martin Ødegaard",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Sander Tangvik",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Sander Berge",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Julian Ryerson",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Marcus Holmgren Pedersen",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Erling Haaland",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jens Petter Hauge",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Antonio Nusa",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Morten Thorsby",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ørjan Nyland",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-2-3-1",
+          "dotColor": "#C8102E"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Mike Maignan",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Maxence Lacroix",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Dayot Upamecano",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Theo Hernández",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Jules Koundé",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Manu Koné",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Aurélien Tchouaméni",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Michael Olise",
+              "pos": "AM",
+              "row": 2.5
+            },
+            {
+              "name": "Désiré Doué",
+              "pos": "AM-L",
+              "row": 2.5
+            },
+            {
+              "name": "Ousmane Dembélé",
+              "pos": "AM-R",
+              "row": 2.5
+            },
+            {
+              "name": "Kylian Mbappé",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Brice Samba",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Bradley Barcola",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Lucas Digne",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Malo Gusto",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "William Saliba",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Lucas Hernández",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Marcus Thuram",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Maghnes Akliouche",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jean-Philippe Mateta",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Rayan Cherki",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "N'Golo Kanté",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ibrahima Konaté",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Warren Zaïre-Emery",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Robin Risser",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Adrien Rabiot",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-2-3-1",
+          "dotColor": "#000080"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "0",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "0",
+          "saves": "0",
+          "possessionPct": "0",
+          "totalShots": "0",
+          "shotsOnTarget": "0",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "0",
+          "totalPasses": "0",
+          "passPct": "0.0",
+          "accurateCrosses": "0",
+          "totalCrosses": "0",
+          "crossPct": "0.0",
+          "totalLongBalls": "0",
+          "accurateLongBalls": "0",
+          "longballPct": "0.0",
+          "blockedShots": "0",
+          "effectiveTackles": "0",
+          "totalTackles": "0",
+          "tacklePct": "0.0",
+          "interceptions": "0",
+          "effectiveClearance": "0",
+          "totalClearance": "0"
+        },
+        "away": {
+          "foulsCommitted": "0",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "0",
+          "saves": "0",
+          "possessionPct": "0",
+          "totalShots": "0",
+          "shotsOnTarget": "0",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "0",
+          "totalPasses": "0",
+          "passPct": "0.0",
+          "accurateCrosses": "0",
+          "totalCrosses": "0",
+          "crossPct": "0.0",
+          "totalLongBalls": "0",
+          "accurateLongBalls": "0",
+          "longballPct": "0.0",
+          "blockedShots": "0",
+          "effectiveTackles": "0",
+          "totalTackles": "0",
+          "tacklePct": "0.0",
+          "interceptions": "0",
+          "effectiveClearance": "0",
+          "totalClearance": "0"
+        }
+      }
     },
     {
       "espnId": "760474",
@@ -20502,12 +20849,354 @@
       "brTime": "16h",
       "venue": "BMO Field",
       "iso": "2026-06-26T19:00Z",
-      "sh": null,
-      "sa": null,
+      "sh": 0,
+      "sa": 0,
       "done": false,
-      "live": false,
-      "clock": "",
-      "events": []
+      "live": true,
+      "clock": "1'",
+      "events": [
+        {
+          "min": "",
+          "icon": "🏁",
+          "txt": "Início de jogo",
+          "sub": "🏳️"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Mory Diaw",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Moussa Niakhaté",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Abdoulaye Seck",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Ismail Jakobs",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Krépin Diatta",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Habib Diarra",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Idrissa Gueye",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Lamine Camara",
+              "pos": "AM",
+              "row": 2.5
+            },
+            {
+              "name": "Sadio Mané",
+              "pos": "AM-L",
+              "row": 2.5
+            },
+            {
+              "name": "Ibrahim Mbaye",
+              "pos": "AM-R",
+              "row": 2.5
+            },
+            {
+              "name": "Ismaïla Sarr",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Bamba Dieng",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nicolas Jackson",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Bara Sapoko Ndiaye",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Assane Diao",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kalidou Koulibaly",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Pape Gueye",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Yehvann Diouf",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "El Hadji Malick Diouf",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Pape Matar Sarr",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Iliman Ndiaye",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Cherif Ndiaye",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Pathé Ciss",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mamadou Sarr",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Antoine Mendy",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-2-3-1",
+          "dotColor": "#006436"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Ahmed Basil",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Rebin Sulaka",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Akam Hashim",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Merchas Doski",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Frans Putros",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Amir Al-Ammari",
+              "pos": "DM",
+              "row": 2
+            },
+            {
+              "name": "Zidane Iqbal",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Ibrahim Bayesh",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Ahmed Qasim",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Ali Jasim",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Ali Al-Hamadi",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Aimar Sher",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Fahad Talib",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Zaid Ismael",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kevin Yakob",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mohanad Ali",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Aymen Hussein",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mustafa Saadoon",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Youssef Amyn",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jalal Hassan",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Zaid Tahseen",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Munaf Younus",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Hussein Ali",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ahmed Maknazi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Marko Farji",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ali Yousif",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-1-4-1",
+          "dotColor": "#0A4D2E"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "0",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "0",
+          "saves": "0",
+          "possessionPct": "0",
+          "totalShots": "0",
+          "shotsOnTarget": "0",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "0",
+          "totalPasses": "0",
+          "passPct": "0.0",
+          "accurateCrosses": "0",
+          "totalCrosses": "0",
+          "crossPct": "0.0",
+          "totalLongBalls": "0",
+          "accurateLongBalls": "0",
+          "longballPct": "0.0",
+          "blockedShots": "0",
+          "effectiveTackles": "0",
+          "totalTackles": "0",
+          "tacklePct": "0.0",
+          "interceptions": "0",
+          "effectiveClearance": "0",
+          "totalClearance": "0"
+        },
+        "away": {
+          "foulsCommitted": "0",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "0",
+          "saves": "0",
+          "possessionPct": "0",
+          "totalShots": "0",
+          "shotsOnTarget": "0",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "0",
+          "totalPasses": "0",
+          "passPct": "0.0",
+          "accurateCrosses": "0",
+          "totalCrosses": "0",
+          "crossPct": "0.0",
+          "totalLongBalls": "0",
+          "accurateLongBalls": "0",
+          "longballPct": "0.0",
+          "blockedShots": "0",
+          "effectiveTackles": "0",
+          "totalTackles": "0",
+          "tacklePct": "0.0",
+          "interceptions": "0",
+          "effectiveClearance": "0",
+          "totalClearance": "0"
+        }
+      }
     },
     {
       "home": "Áustria 🇦🇹",
