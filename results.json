@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T19:09:13.905Z",
+  "generatedAt": "2026-06-26T19:10:12.957Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20491,12 +20491,12 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "8'",
+      "clock": "9'",
       "events": [
         {
           "min": "7'",
           "icon": "⚽",
-          "txt": "Ousmane Dembélé (França) finalização com o pé direito do lado direito da área.",
+          "txt": "Ousmane Dembélé (França) finalização com o pé direito do lado direito da área no Escanteio inferior esquerdo. Assistência de Kylian Mbappé.",
           "sub": "🇫🇷"
         },
         {
@@ -20810,27 +20810,27 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "1",
+          "foulsCommitted": "2",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "0",
           "saves": "3",
-          "possessionPct": "26.7",
+          "possessionPct": "28.6",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "11",
-          "totalPasses": "19",
+          "accuratePasses": "12",
+          "totalPasses": "21",
           "passPct": "0.6",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
-          "totalLongBalls": "2",
+          "totalLongBalls": "3",
           "accurateLongBalls": "2",
-          "longballPct": "1.0",
+          "longballPct": "0.7",
           "blockedShots": "0",
           "effectiveTackles": "2",
           "totalTackles": "4",
@@ -20846,7 +20846,7 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "73.3",
+          "possessionPct": "71.4",
           "totalShots": "4",
           "shotsOnTarget": "4",
           "shotPct": "1.0",
@@ -20863,7 +20863,7 @@
           "longballPct": "0.9",
           "blockedShots": "0",
           "effectiveTackles": "0",
-          "totalTackles": "2",
+          "totalTackles": "1",
           "tacklePct": "0.0",
           "interceptions": "0",
           "effectiveClearance": "0",
@@ -20883,7 +20883,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "6'",
+      "clock": "8'",
       "events": [
         {
           "min": "4'",
@@ -20927,33 +20927,33 @@
               "row": 1
             },
             {
-              "name": "Habib Diarra",
-              "pos": "LM",
-              "row": 2
-            },
-            {
               "name": "Idrissa Gueye",
-              "pos": "RM",
+              "pos": "CM",
               "row": 2
             },
             {
               "name": "Lamine Camara",
-              "pos": "AM",
-              "row": 2.5
+              "pos": "LM",
+              "row": 2
             },
             {
-              "name": "Sadio Mané",
-              "pos": "AM-L",
-              "row": 2.5
-            },
-            {
-              "name": "Ibrahim Mbaye",
-              "pos": "AM-R",
-              "row": 2.5
+              "name": "Habib Diarra",
+              "pos": "RM",
+              "row": 2
             },
             {
               "name": "Ismaïla Sarr",
               "pos": "F",
+              "row": 3
+            },
+            {
+              "name": "Sadio Mané",
+              "pos": "LF",
+              "row": 3
+            },
+            {
+              "name": "Ibrahim Mbaye",
+              "pos": "RF",
               "row": 3
             }
           ],
@@ -21029,7 +21029,7 @@
               "row": 3
             }
           ],
-          "formation": "4-2-3-1",
+          "formation": "4-3-3",
           "dotColor": "#006436"
         },
         "away": {
@@ -21179,15 +21179,15 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "0",
-          "possessionPct": "26.3",
+          "possessionPct": "30.2",
           "totalShots": "3",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "6",
-          "totalPasses": "7",
-          "passPct": "0.9",
+          "accuratePasses": "10",
+          "totalPasses": "13",
+          "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "3",
           "crossPct": "0.7",
@@ -21195,42 +21195,42 @@
           "accurateLongBalls": "1",
           "longballPct": "1.0",
           "blockedShots": "1",
-          "effectiveTackles": "0",
-          "totalTackles": "0",
-          "tacklePct": "0.0",
+          "effectiveTackles": "1",
+          "totalTackles": "1",
+          "tacklePct": "1.0",
           "interceptions": "1",
-          "effectiveClearance": "0",
-          "totalClearance": "0"
+          "effectiveClearance": "1",
+          "totalClearance": "1"
         },
         "away": {
-          "foulsCommitted": "0",
+          "foulsCommitted": "1",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "73.7",
+          "possessionPct": "69.8",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "24",
-          "totalPasses": "28",
-          "passPct": "0.9",
+          "accuratePasses": "31",
+          "totalPasses": "37",
+          "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
-          "totalLongBalls": "4",
-          "accurateLongBalls": "2",
-          "longballPct": "0.5",
+          "totalLongBalls": "5",
+          "accurateLongBalls": "3",
+          "longballPct": "0.6",
           "blockedShots": "0",
           "effectiveTackles": "0",
           "totalTackles": "0",
           "tacklePct": "0.0",
           "interceptions": "0",
-          "effectiveClearance": "1",
-          "totalClearance": "1"
+          "effectiveClearance": "2",
+          "totalClearance": "2"
         }
       }
     },
