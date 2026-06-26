@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T19:21:14.334Z",
+  "generatedAt": "2026-06-26T19:22:13.204Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20488,11 +20488,17 @@
       "venue": "Gillette Stadium",
       "iso": "2026-06-26T19:00Z",
       "sh": 0,
-      "sa": 1,
+      "sa": 2,
       "done": false,
       "live": true,
-      "clock": "19'",
+      "clock": "21'",
       "events": [
+        {
+          "min": "20'",
+          "icon": "⚽",
+          "txt": "Ousmane Dembélé (França) finalização com o pé esquerdo de fora da área após um contra-ataque.",
+          "sub": "🇫🇷"
+        },
         {
           "min": "10'",
           "icon": "🟨",
@@ -20822,14 +20828,14 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "5",
-          "possessionPct": "30.5",
+          "possessionPct": "31",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "42",
-          "totalPasses": "60",
+          "accuratePasses": "44",
+          "totalPasses": "63",
           "passPct": "0.7",
           "accurateCrosses": "1",
           "totalCrosses": "2",
@@ -20852,14 +20858,14 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "69.5",
-          "totalShots": "7",
-          "shotsOnTarget": "6",
+          "possessionPct": "69",
+          "totalShots": "8",
+          "shotsOnTarget": "7",
           "shotPct": "0.9",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "125",
-          "totalPasses": "141",
+          "accuratePasses": "128",
+          "totalPasses": "144",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "3",
@@ -20868,9 +20874,9 @@
           "accurateLongBalls": "11",
           "longballPct": "0.8",
           "blockedShots": "1",
-          "effectiveTackles": "1",
-          "totalTackles": "2",
-          "tacklePct": "0.5",
+          "effectiveTackles": "2",
+          "totalTackles": "3",
+          "tacklePct": "0.7",
           "interceptions": "0",
           "effectiveClearance": "4",
           "totalClearance": "4"
@@ -20889,12 +20895,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "19'",
+      "clock": "20'",
       "events": [
         {
           "min": "18'",
           "icon": "🟨",
-          "txt": "Abdoulaye Seck (Senegal) Cartão Amarelo aos 18'",
+          "txt": "Abdoulaye Seck (Senegal) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇸🇳"
         },
         {
