@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-26T03:53:12.963Z",
+  "generatedAt": "2026-06-26T03:54:13.473Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -19355,7 +19355,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "90'",
+      "clock": "90'+1'",
       "events": [
         {
           "min": "84'",
@@ -19857,7 +19857,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "89'",
+      "clock": "90'+1'",
       "events": [
         {
           "min": "90'",
@@ -19867,8 +19867,8 @@
         },
         {
           "min": "90'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a lesão de Auston Trusty (EUA).",
           "sub": "🇺🇸"
         },
         {
