@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T04:11:12.376Z",
+  "generatedAt": "2026-06-27T04:12:14.443Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -23190,7 +23190,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "47'",
+      "clock": "48'",
       "events": [
         {
           "min": "45'",
@@ -23668,7 +23668,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "48'",
+      "clock": "49'",
       "events": [
         {
           "min": "46'",
@@ -24049,19 +24049,19 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "3",
-          "possessionPct": "39.2",
+          "possessionPct": "40",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "173",
-          "totalPasses": "207",
+          "accuratePasses": "182",
+          "totalPasses": "217",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "9",
           "crossPct": "0.1",
-          "totalLongBalls": "21",
+          "totalLongBalls": "22",
           "accurateLongBalls": "11",
           "longballPct": "0.5",
           "blockedShots": "0",
@@ -24079,14 +24079,14 @@
           "offsides": "1",
           "wonCorners": "4",
           "saves": "0",
-          "possessionPct": "60.8",
+          "possessionPct": "60",
           "totalShots": "17",
           "shotsOnTarget": "4",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "287",
-          "totalPasses": "324",
+          "accuratePasses": "290",
+          "totalPasses": "327",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "11",
@@ -24099,8 +24099,8 @@
           "totalTackles": "6",
           "tacklePct": "0.7",
           "interceptions": "6",
-          "effectiveClearance": "9",
-          "totalClearance": "9"
+          "effectiveClearance": "11",
+          "totalClearance": "11"
         }
       }
     },
