@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T21:32:38.662Z",
+  "generatedAt": "2026-06-27T21:33:14.877Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -24358,12 +24358,18 @@
       "brTime": "18h",
       "venue": "Lincoln Financial Field",
       "iso": "2026-06-27T21:00Z",
-      "sh": 0,
+      "sh": 1,
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "31'",
+      "clock": "32'",
       "events": [
+        {
+          "min": "31'",
+          "icon": "⚽",
+          "txt": "Petar Sucic (Croácia) Gol aos 31'",
+          "sub": "🇭🇷"
+        },
         {
           "min": "29'",
           "icon": "▶️",
