@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T22:30:12.652Z",
+  "generatedAt": "2026-06-27T22:31:16.926Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -24362,8 +24362,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "68'",
+      "clock": "69'",
       "events": [
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇬🇭"
+        },
         {
           "min": "69'",
           "icon": "⏸️",
@@ -24373,7 +24379,7 @@
         {
           "min": "68'",
           "icon": "🟨",
-          "txt": "Ivan Perisic (Croácia) Cartão Amarelo aos 68'",
+          "txt": "Ivan Perisic (Croácia) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇭🇷"
         },
         {
@@ -24796,19 +24802,49 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "71'",
+      "clock": "72'",
       "events": [
         {
-          "min": "69'",
-          "icon": "⏸️",
-          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
           "sub": "🏳️"
+        },
+        {
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇵🇦"
+        },
+        {
+          "min": "72'",
+          "icon": "🔄",
+          "txt": "Substituição, 🏳️. Entra Eberechi Eze substituindo Jude Bellingham.",
+          "sub": "🏳️"
+        },
+        {
+          "min": "72'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇦. Azarías Londoño substitui José Luis Rodríguez.",
+          "sub": "🇵🇦"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇦. Ismael Díaz substitui Yoel Bárcenas.",
+          "sub": "🇵🇦"
         },
         {
           "min": "69'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇵🇦"
+        },
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🏳️"
         },
         {
           "min": "67'",
@@ -24879,14 +24915,14 @@
         {
           "min": "54'",
           "icon": "🩹",
-          "txt": "Partida atrasada devido a uma lesão de Jarell Quansah (Inglaterra).",
-          "sub": "🏳️"
+          "txt": "Partida atrasada devido a lesão de José Luis Rodríguez (Panamá).",
+          "sub": "🇵🇦"
         },
         {
           "min": "54'",
           "icon": "🩹",
-          "txt": "Partida atrasada devido a lesão de José Luis Rodríguez (Panamá).",
-          "sub": "🇵🇦"
+          "txt": "Partida atrasada devido a uma lesão de Jarell Quansah (Inglaterra).",
+          "sub": "🏳️"
         },
         {
           "min": "53'",
