@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T01:21:15.151Z",
+  "generatedAt": "2026-06-27T01:22:13.543Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -22026,7 +22026,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "57'",
+      "clock": "58'",
       "events": [
         {
           "min": "45'",
@@ -22498,12 +22498,12 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "56'",
+      "clock": "57'",
       "events": [
         {
           "min": "57'",
           "icon": "🔄",
-          "txt": "Substituição, 🇺🇾. Federico Viñas (Uruguai) Substituição aos 57'",
+          "txt": "Substituição, 🇺🇾. Entra Federico Viñas substituindo Federico Valverde.",
           "sub": "🇺🇾"
         },
         {
@@ -22913,21 +22913,21 @@
           "offsides": "3",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "29.2",
+          "possessionPct": "29",
           "totalShots": "3",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "130",
-          "totalPasses": "171",
+          "accuratePasses": "128",
+          "totalPasses": "170",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "8",
           "crossPct": "0.0",
-          "totalLongBalls": "22",
+          "totalLongBalls": "23",
           "accurateLongBalls": "8",
-          "longballPct": "0.4",
+          "longballPct": "0.3",
           "blockedShots": "1",
           "effectiveTackles": "12",
           "totalTackles": "19",
@@ -22943,7 +22943,7 @@
           "offsides": "1",
           "wonCorners": "5",
           "saves": "1",
-          "possessionPct": "70.8",
+          "possessionPct": "71",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
