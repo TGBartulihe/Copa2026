@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T00:12:12.910Z",
+  "generatedAt": "2026-06-27T00:13:14.440Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -22026,7 +22026,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "10'",
+      "clock": "11'",
       "events": [
         {
           "min": "9'",
@@ -22323,26 +22323,26 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "54.5",
+          "possessionPct": "55.2",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "45",
-          "totalPasses": "53",
+          "accuratePasses": "53",
+          "totalPasses": "63",
           "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
-          "totalLongBalls": "9",
-          "accurateLongBalls": "3",
-          "longballPct": "0.3",
+          "totalLongBalls": "11",
+          "accurateLongBalls": "5",
+          "longballPct": "0.5",
           "blockedShots": "0",
-          "effectiveTackles": "1",
-          "totalTackles": "1",
+          "effectiveTackles": "2",
+          "totalTackles": "2",
           "tacklePct": "1.0",
-          "interceptions": "1",
+          "interceptions": "2",
           "effectiveClearance": "1",
           "totalClearance": "1"
         },
@@ -22353,14 +22353,14 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "45.5",
+          "possessionPct": "44.8",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "36",
-          "totalPasses": "45",
+          "accuratePasses": "41",
+          "totalPasses": "52",
           "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "0",
@@ -22370,11 +22370,11 @@
           "longballPct": "0.4",
           "blockedShots": "0",
           "effectiveTackles": "1",
-          "totalTackles": "3",
+          "totalTackles": "4",
           "tacklePct": "0.3",
           "interceptions": "0",
-          "effectiveClearance": "1",
-          "totalClearance": "1"
+          "effectiveClearance": "4",
+          "totalClearance": "4"
         }
       }
     },
@@ -22390,7 +22390,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "10'",
+      "clock": "12'",
       "events": [
         {
           "min": "",
@@ -22567,32 +22567,32 @@
             },
             {
               "name": "Rodri",
-              "pos": "CM",
-              "row": 2
-            },
-            {
-              "name": "Pedri ",
               "pos": "LM",
               "row": 2
             },
             {
-              "name": "Mikel Merino",
+              "name": "Pedri ",
               "pos": "RM",
               "row": 2
             },
             {
-              "name": "Mikel Oyarzabal",
-              "pos": "F",
-              "row": 3
+              "name": "Mikel Merino",
+              "pos": "AM",
+              "row": 2.5
             },
             {
               "name": "Álex Baena",
-              "pos": "LF",
-              "row": 3
+              "pos": "AM-L",
+              "row": 2.5
             },
             {
               "name": "Lamine Yamal",
-              "pos": "RF",
+              "pos": "AM-R",
+              "row": 2.5
+            },
+            {
+              "name": "Mikel Oyarzabal",
+              "pos": "F",
               "row": 3
             }
           ],
@@ -22673,7 +22673,7 @@
               "row": 3
             }
           ],
-          "formation": "4-3-3",
+          "formation": "4-2-3-1",
           "dotColor": "#c60b1e"
         }
       },
@@ -22685,21 +22685,21 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "22.4",
+          "possessionPct": "21.9",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "10",
-          "totalPasses": "18",
+          "accuratePasses": "13",
+          "totalPasses": "22",
           "passPct": "0.6",
           "accurateCrosses": "0",
           "totalCrosses": "1",
           "crossPct": "0.0",
-          "totalLongBalls": "4",
+          "totalLongBalls": "5",
           "accurateLongBalls": "2",
-          "longballPct": "0.5",
+          "longballPct": "0.4",
           "blockedShots": "0",
           "effectiveTackles": "1",
           "totalTackles": "3",
@@ -22712,24 +22712,24 @@
           "foulsCommitted": "2",
           "yellowCards": "0",
           "redCards": "0",
-          "offsides": "0",
+          "offsides": "1",
           "wonCorners": "3",
           "saves": "0",
-          "possessionPct": "77.6",
+          "possessionPct": "78.1",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "55",
-          "totalPasses": "61",
+          "accuratePasses": "70",
+          "totalPasses": "77",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "3",
           "crossPct": "0.0",
-          "totalLongBalls": "6",
+          "totalLongBalls": "7",
           "accurateLongBalls": "4",
-          "longballPct": "0.7",
+          "longballPct": "0.6",
           "blockedShots": "0",
           "effectiveTackles": "1",
           "totalTackles": "1",
