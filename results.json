@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T00:31:21.170Z",
+  "generatedAt": "2026-06-27T00:32:10.926Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -20597,15 +20597,15 @@
         },
         {
           "min": "56'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a uma lesão de Egil Selvik (Noruega).",
-          "sub": "🇳🇴"
-        },
-        {
-          "min": "56'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇫🇷"
+        },
+        {
+          "min": "56'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Egil Selvik (Noruega).",
+          "sub": "🇳🇴"
         },
         {
           "min": "50'",
@@ -22026,8 +22026,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "29'",
+      "clock": "30'",
       "events": [
+        {
+          "min": "30'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "30'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇨🇻"
+        },
         {
           "min": "27'",
           "icon": "▶️",
@@ -22371,20 +22383,20 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "51.2",
+          "possessionPct": "52.9",
           "totalShots": "1",
           "shotsOnTarget": "1",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "101",
-          "totalPasses": "121",
+          "accuratePasses": "108",
+          "totalPasses": "131",
           "passPct": "0.8",
           "accurateCrosses": "0",
-          "totalCrosses": "2",
+          "totalCrosses": "3",
           "crossPct": "0.0",
-          "totalLongBalls": "17",
-          "accurateLongBalls": "8",
+          "totalLongBalls": "19",
+          "accurateLongBalls": "10",
           "longballPct": "0.5",
           "blockedShots": "0",
           "effectiveTackles": "4",
@@ -22401,19 +22413,19 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "48.8",
+          "possessionPct": "47.1",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "95",
-          "totalPasses": "116",
+          "totalPasses": "118",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "3",
           "crossPct": "0.3",
-          "totalLongBalls": "12",
+          "totalLongBalls": "14",
           "accurateLongBalls": "5",
           "longballPct": "0.4",
           "blockedShots": "1",
@@ -22438,7 +22450,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "30'",
+      "clock": "31'",
       "events": [
         {
           "min": "26'",
