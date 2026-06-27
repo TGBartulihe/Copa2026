@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T04:40:15.480Z",
+  "generatedAt": "2026-06-27T04:41:16.061Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -23190,8 +23190,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "75'",
+      "clock": "77'",
       "events": [
+        {
+          "min": "76'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇪🇬. Substituição de Hamza Abdelkarim (Egito) aos 76'",
+          "sub": "🇪🇬"
+        },
         {
           "min": "71'",
           "icon": "▶️",
@@ -23661,16 +23667,16 @@
           "offsides": "0",
           "wonCorners": "8",
           "saves": "2",
-          "possessionPct": "64.2",
+          "possessionPct": "64.4",
           "totalShots": "14",
           "shotsOnTarget": "3",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "422",
-          "totalPasses": "480",
+          "accuratePasses": "430",
+          "totalPasses": "488",
           "passPct": "0.9",
-          "accurateCrosses": "3",
+          "accurateCrosses": "4",
           "totalCrosses": "12",
           "crossPct": "0.3",
           "totalLongBalls": "30",
@@ -23681,8 +23687,8 @@
           "totalTackles": "15",
           "tacklePct": "0.6",
           "interceptions": "5",
-          "effectiveClearance": "35",
-          "totalClearance": "35"
+          "effectiveClearance": "37",
+          "totalClearance": "37"
         },
         "away": {
           "foulsCommitted": "13",
@@ -23691,20 +23697,20 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "35.8",
+          "possessionPct": "35.6",
           "totalShots": "8",
           "shotsOnTarget": "3",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "197",
-          "totalPasses": "267",
+          "accuratePasses": "198",
+          "totalPasses": "269",
           "passPct": "0.7",
           "accurateCrosses": "1",
           "totalCrosses": "5",
           "crossPct": "0.0",
-          "totalLongBalls": "55",
-          "accurateLongBalls": "25",
+          "totalLongBalls": "56",
+          "accurateLongBalls": "26",
           "longballPct": "0.5",
           "blockedShots": "0",
           "effectiveTackles": "13",
@@ -23728,7 +23734,7 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "77'",
+      "clock": "78'",
       "events": [
         {
           "min": "72'",
