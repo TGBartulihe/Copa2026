@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T22:04:15.812Z",
+  "generatedAt": "2026-06-27T22:05:12.110Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -24760,8 +24760,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "45'+3'",
+      "clock": "46'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "▶️",
+          "txt": "Início do segundo tempo Panamá 0, Inglaterra 0.",
+          "sub": "🏳️"
+        },
         {
           "min": "45'",
           "icon": "🔄",
@@ -25086,7 +25092,7 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "27.9",
+          "possessionPct": "27.8",
           "totalShots": "3",
           "shotsOnTarget": "2",
           "shotPct": "0.7",
@@ -25116,14 +25122,14 @@
           "offsides": "3",
           "wonCorners": "5",
           "saves": "2",
-          "possessionPct": "72.1",
+          "possessionPct": "72.2",
           "totalShots": "9",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "288",
-          "totalPasses": "321",
+          "accuratePasses": "289",
+          "totalPasses": "322",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "14",
