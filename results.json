@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T03:11:16.309Z",
+  "generatedAt": "2026-06-27T03:12:16.122Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -23190,12 +23190,24 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "10'",
+      "clock": "11'",
       "events": [
+        {
+          "min": "11'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇮🇷"
+        },
+        {
+          "min": "11'",
+          "icon": "⚽🎯",
+          "txt": "Mehdi Taremi (Irã) pênalti - defendido aos 11'",
+          "sub": "🇮🇷"
+        },
         {
           "min": "5'",
           "icon": "⚽",
-          "txt": "Mahmoud Saber (Egito) finalização com o pé esquerdo do lado esquerdo da área no Escanteio inferior esquerdo.",
+          "txt": "Mahmoud Saber (Egito) finalização com o pé esquerdo do lado esquerdo da área no Escanteio inferior esquerdo. Assistência de Trézéguet.",
           "sub": "🇪🇬"
         },
         {
@@ -23497,9 +23509,9 @@
           "accurateLongBalls": "1",
           "longballPct": "0.5",
           "blockedShots": "1",
-          "effectiveTackles": "3",
+          "effectiveTackles": "2",
           "totalTackles": "5",
-          "tacklePct": "0.6",
+          "tacklePct": "0.4",
           "interceptions": "0",
           "effectiveClearance": "2",
           "totalClearance": "2"
@@ -23548,7 +23560,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "10'",
+      "clock": "11'",
       "events": [
         {
           "min": "",
