@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T22:32:11.709Z",
+  "generatedAt": "2026-06-27T22:33:17.124Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -24362,8 +24362,32 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "70'",
+      "clock": "72'",
       "events": [
+        {
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇬🇭"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇬🇭. Ernest Nuamah (Gana) Substituição aos 71'",
+          "sub": "🇬🇭"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇬🇭. Brandon Thomas-Asante entra em campo e entra Jordan Ayew.",
+          "sub": "🇬🇭"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇭🇷"
+        },
         {
           "min": "69'",
           "icon": "⏸️",
@@ -24373,7 +24397,7 @@
         {
           "min": "69'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
           "sub": "🇭🇷"
         },
         {
@@ -24802,14 +24826,8 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "73'",
+      "clock": "74'",
       "events": [
-        {
-          "min": "72'",
-          "icon": "▶️",
-          "txt": "Atraso acabou. Eles estão prontos para continuar.",
-          "sub": "🏳️"
-        },
         {
           "min": "72'",
           "icon": "▶️",
@@ -24818,15 +24836,21 @@
         },
         {
           "min": "72'",
-          "icon": "🔄",
-          "txt": "Substituição, 🏳️. Entra Eberechi Eze substituindo Jude Bellingham.",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🏳️"
         },
         {
-          "min": "72'",
+          "min": "71'",
           "icon": "🔄",
           "txt": "Substituição, 🇵🇦. Azarías Londoño substitui José Luis Rodríguez.",
           "sub": "🇵🇦"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substituição, 🏳️. Entra Eberechi Eze substituindo Jude Bellingham.",
+          "sub": "🏳️"
         },
         {
           "min": "71'",
