@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T04:09:16.171Z",
+  "generatedAt": "2026-06-27T04:10:16.517Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -23190,18 +23190,24 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "45'+6'",
+      "clock": "46'",
       "events": [
         {
           "min": "45'",
+          "icon": "▶️",
+          "txt": "Começo do segundo tempo Egypt 1, IR Iran 1.",
+          "sub": "🏳️"
+        },
+        {
+          "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, 🇪🇬. Substituição de Omar Marmoush (Egito) aos 45'",
+          "txt": "Substituição, 🇪🇬. Omar Marmoush substitui Emam Ashour.",
           "sub": "🇪🇬"
         },
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, 🇪🇬. Substituição de Marawan Attia (Egito) aos 45'",
+          "txt": "Substituição, 🇪🇬. Entra Marwan Attia para o lugar de Mahmoud Saber.",
           "sub": "🇪🇬"
         },
         {
@@ -23662,7 +23668,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "46'",
+      "clock": "47'",
       "events": [
         {
           "min": "46'",
@@ -24037,20 +24043,20 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "4",
-          "yellowCards": "0",
+          "foulsCommitted": "5",
+          "yellowCards": "1",
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "1",
           "saves": "3",
-          "possessionPct": "38.9",
+          "possessionPct": "38.7",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "170",
-          "totalPasses": "201",
+          "accuratePasses": "171",
+          "totalPasses": "203",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "9",
@@ -24073,19 +24079,19 @@
           "offsides": "1",
           "wonCorners": "4",
           "saves": "0",
-          "possessionPct": "61.1",
-          "totalShots": "16",
+          "possessionPct": "61.3",
+          "totalShots": "17",
           "shotsOnTarget": "4",
-          "shotPct": "0.3",
+          "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "283",
-          "totalPasses": "319",
+          "accuratePasses": "287",
+          "totalPasses": "324",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "11",
           "crossPct": "0.3",
-          "totalLongBalls": "24",
+          "totalLongBalls": "25",
           "accurateLongBalls": "17",
           "longballPct": "0.7",
           "blockedShots": "6",
