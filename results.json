@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T01:37:13.809Z",
+  "generatedAt": "2026-06-27T01:38:11.464Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -22026,12 +22026,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "73'",
+      "clock": "74'",
       "events": [
         {
           "min": "72'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇨🇻"
         },
         {
@@ -22061,7 +22061,7 @@
         {
           "min": "69'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
           "sub": "🇨🇻"
         },
         {
@@ -22497,7 +22497,7 @@
           "offsides": "0",
           "wonCorners": "3",
           "saves": "2",
-          "possessionPct": "54.4",
+          "possessionPct": "54.3",
           "totalShots": "8",
           "shotsOnTarget": "1",
           "shotPct": "0.1",
@@ -22517,8 +22517,8 @@
           "totalTackles": "13",
           "tacklePct": "0.7",
           "interceptions": "10",
-          "effectiveClearance": "15",
-          "totalClearance": "15"
+          "effectiveClearance": "18",
+          "totalClearance": "18"
         },
         "away": {
           "foulsCommitted": "12",
@@ -22527,7 +22527,7 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "45.6",
+          "possessionPct": "45.7",
           "totalShots": "5",
           "shotsOnTarget": "2",
           "shotPct": "0.4",
@@ -22537,8 +22537,8 @@
           "totalPasses": "321",
           "passPct": "0.8",
           "accurateCrosses": "2",
-          "totalCrosses": "5",
-          "crossPct": "0.4",
+          "totalCrosses": "6",
+          "crossPct": "0.3",
           "totalLongBalls": "40",
           "accurateLongBalls": "15",
           "longballPct": "0.4",
@@ -22564,7 +22564,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "72'",
+      "clock": "73'",
       "events": [
         {
           "min": "70'",
