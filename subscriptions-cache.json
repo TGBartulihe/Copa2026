@@ -2,6 +2,23 @@
   "subs": [
     {
       "favoriteTeams": [
+        "CRO",
+        "BRA",
+        "POR"
+      ],
+      "subscription": {
+        "endpoint": "https://fcm.googleapis.com/fcm/send/e1sousdx3r8:APA91bEIK76FJskbEMqDgSACcMjbOhHH1U4j0p4yj-trZpdO4TEwWT4SgJuAcjmf3XGTyumlE23ZWOAhojsUZ6o1wmx1mdCTQojz4ABPJ4yRp0O2XT97m5Pm7DUKiNGDU_esboESB7O2",
+        "expirationTime": null,
+        "keys": {
+          "p256dh": "BJvDTBERq25B9nQz0bicq8nQGViBcf9zMve3FJ66G2YAjfjuHkAeTzSDAITEOB3_80-1zNh7nNOyYD8UvKEg77k",
+          "auth": "Z3mQ4Kjy6byfW8eDMUFUuA"
+        }
+      },
+      "createdAt": "2026-06-27T16:07:15.075Z",
+      "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
+    },
+    {
+      "favoriteTeams": [
         "BRA",
         "CRO",
         "COL"
@@ -56,5 +73,5 @@
       "userAgent": "Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Mobile Safari/537.36"
     }
   ],
-  "fetchedAt": "2026-06-27T15:54:16.846Z"
+  "fetchedAt": "2026-06-27T16:09:16.601Z"
 }
