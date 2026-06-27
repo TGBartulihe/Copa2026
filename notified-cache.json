@@ -119,11 +119,13 @@
   },
   "Croácia 🇭🇷|Gana 🇬🇭|27/06": {
     "goals": [],
-    "notified10": true
+    "notified10": true,
+    "notified5": true
   },
   "Panamá 🇵🇦|Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿|27/06": {
     "goals": [],
-    "notified10": true
+    "notified10": true,
+    "notified5": true
   },
   "Colômbia 🇨🇴|Portugal 🇵🇹|27/06": {
     "goals": []
