@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T23:58:15.656Z",
+  "generatedAt": "2026-06-27T23:59:11.698Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -25495,8 +25495,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "27'",
+      "clock": "28'",
       "events": [
+        {
+          "min": "28'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇵🇹"
+        },
+        {
+          "min": "27'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇴"
+        },
         {
           "min": "24'",
           "icon": "⏸️",
@@ -25819,7 +25831,7 @@
           "longballPct": "0.5",
           "blockedShots": "2",
           "effectiveTackles": "1",
-          "totalTackles": "4",
+          "totalTackles": "3",
           "tacklePct": "0.0",
           "interceptions": "1",
           "effectiveClearance": "4",
@@ -25849,8 +25861,8 @@
           "longballPct": "0.8",
           "blockedShots": "0",
           "effectiveTackles": "2",
-          "totalTackles": "4",
-          "tacklePct": "0.5",
+          "totalTackles": "1",
+          "tacklePct": "0.0",
           "interceptions": "2",
           "effectiveClearance": "8",
           "totalClearance": "8"
@@ -25869,10 +25881,10 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "27'",
+      "clock": "28'",
       "events": [
         {
-          "min": "26'",
+          "min": "25'",
           "icon": "▶️",
           "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇨🇩"
@@ -26212,14 +26224,14 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "53.9",
+          "possessionPct": "54.6",
           "totalShots": "1",
           "shotsOnTarget": "1",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "79",
-          "totalPasses": "102",
+          "accuratePasses": "83",
+          "totalPasses": "106",
           "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "1",
@@ -26232,8 +26244,8 @@
           "totalTackles": "5",
           "tacklePct": "0.6",
           "interceptions": "0",
-          "effectiveClearance": "6",
-          "totalClearance": "6"
+          "effectiveClearance": "7",
+          "totalClearance": "7"
         },
         "away": {
           "foulsCommitted": "3",
@@ -26242,7 +26254,7 @@
           "offsides": "1",
           "wonCorners": "2",
           "saves": "0",
-          "possessionPct": "46.1",
+          "possessionPct": "45.4",
           "totalShots": "1",
           "shotsOnTarget": "1",
           "shotPct": "1.0",
@@ -26251,9 +26263,9 @@
           "accuratePasses": "64",
           "totalPasses": "83",
           "passPct": "0.8",
-          "accurateCrosses": "0",
-          "totalCrosses": "3",
-          "crossPct": "0.0",
+          "accurateCrosses": "1",
+          "totalCrosses": "4",
+          "crossPct": "0.3",
           "totalLongBalls": "18",
           "accurateLongBalls": "8",
           "longballPct": "0.4",
@@ -26262,8 +26274,8 @@
           "totalTackles": "6",
           "tacklePct": "1.0",
           "interceptions": "3",
-          "effectiveClearance": "11",
-          "totalClearance": "11"
+          "effectiveClearance": "13",
+          "totalClearance": "13"
         }
       }
     },
