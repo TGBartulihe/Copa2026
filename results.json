@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T04:30:12.760Z",
+  "generatedAt": "2026-06-27T04:31:19.510Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -23190,8 +23190,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "65'",
+      "clock": "66'",
       "events": [
+        {
+          "min": "67'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇮🇷. Shahriyar Moghanloo substituiu Saman Ghoddos.",
+          "sub": "🇮🇷"
+        },
         {
           "min": "57'",
           "icon": "🔄",
@@ -23631,17 +23637,17 @@
           "offsides": "0",
           "wonCorners": "7",
           "saves": "2",
-          "possessionPct": "63.2",
+          "possessionPct": "63.6",
           "totalShots": "12",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "372",
-          "totalPasses": "423",
+          "accuratePasses": "379",
+          "totalPasses": "430",
           "passPct": "0.9",
           "accurateCrosses": "3",
-          "totalCrosses": "10",
+          "totalCrosses": "11",
           "crossPct": "0.3",
           "totalLongBalls": "29",
           "accurateLongBalls": "14",
@@ -23661,7 +23667,7 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "36.8",
+          "possessionPct": "36.4",
           "totalShots": "8",
           "shotsOnTarget": "3",
           "shotPct": "0.4",
@@ -23681,8 +23687,8 @@
           "totalTackles": "17",
           "tacklePct": "0.7",
           "interceptions": "4",
-          "effectiveClearance": "20",
-          "totalClearance": "20"
+          "effectiveClearance": "21",
+          "totalClearance": "21"
         }
       }
     },
@@ -23698,8 +23704,20 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "68'",
+      "clock": "69'",
       "events": [
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇧🇪"
+        },
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇳🇿"
+        },
         {
           "min": "66'",
           "icon": "⚽",
@@ -24115,14 +24133,14 @@
           "offsides": "1",
           "wonCorners": "3",
           "saves": "4",
-          "possessionPct": "41.8",
+          "possessionPct": "41.9",
           "totalShots": "3",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "237",
-          "totalPasses": "288",
+          "accuratePasses": "238",
+          "totalPasses": "289",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "13",
@@ -24145,7 +24163,7 @@
           "offsides": "1",
           "wonCorners": "7",
           "saves": "1",
-          "possessionPct": "58.2",
+          "possessionPct": "58.1",
           "totalShots": "26",
           "shotsOnTarget": "7",
           "shotPct": "0.3",
@@ -24154,9 +24172,9 @@
           "accuratePasses": "355",
           "totalPasses": "406",
           "passPct": "0.9",
-          "accurateCrosses": "4",
+          "accurateCrosses": "5",
           "totalCrosses": "14",
-          "crossPct": "0.3",
+          "crossPct": "0.4",
           "totalLongBalls": "37",
           "accurateLongBalls": "25",
           "longballPct": "0.7",
