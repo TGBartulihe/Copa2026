@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T23:32:12.094Z",
+  "generatedAt": "2026-06-27T23:33:15.826Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -25495,7 +25495,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "1'",
+      "clock": "2'",
       "events": [
         {
           "min": "",
@@ -25791,20 +25791,20 @@
           "wonCorners": "0",
           "saves": "0",
           "possessionPct": "100",
-          "totalShots": "0",
+          "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "1",
-          "totalPasses": "1",
+          "accuratePasses": "13",
+          "totalPasses": "13",
           "passPct": "1.0",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
-          "totalLongBalls": "0",
-          "accurateLongBalls": "0",
-          "longballPct": "0.0",
+          "totalLongBalls": "1",
+          "accurateLongBalls": "1",
+          "longballPct": "1.0",
           "blockedShots": "0",
           "effectiveTackles": "0",
           "totalTackles": "0",
@@ -25814,7 +25814,7 @@
           "totalClearance": "0"
         },
         "away": {
-          "foulsCommitted": "0",
+          "foulsCommitted": "1",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
@@ -25915,12 +25915,12 @@
               "row": 2
             },
             {
-              "name": "Cédric Bakambu",
+              "name": "Yoane Wissa",
               "pos": "CF-L",
               "row": 3
             },
             {
-              "name": "Yoane Wissa",
+              "name": "Cédric Bakambu",
               "pos": "CF-R",
               "row": 3
             }
