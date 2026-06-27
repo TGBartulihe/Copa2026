@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T01:08:11.274Z",
+  "generatedAt": "2026-06-27T01:09:12.484Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -22028,6 +22028,12 @@
       "live": true,
       "clock": "45'+6'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇦. Entra Musab Al Juwayr para o lugar de Abdullah Al Khaibari.",
+          "sub": "🇸🇦"
+        },
         {
           "min": "45'+7'",
           "icon": "⏱️",
