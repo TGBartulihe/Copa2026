@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T22:05:12.110Z",
+  "generatedAt": "2026-06-27T22:06:20.612Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -24365,6 +24365,18 @@
       "clock": "45'+4'",
       "events": [
         {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇬🇭. Substituição de Fatawu Issahaku (Gana) aos 45'",
+          "sub": "🇬🇭"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇬🇭. Entra Kojo Peprah Oppong para o lugar de Jonas Adjetey.",
+          "sub": "🇬🇭"
+        },
+        {
           "min": "45'+4'",
           "icon": "⏱️",
           "txt": "Fim do primeiro tempo, Croácia 1, Gana 0.",
@@ -24446,7 +24458,7 @@
               "row": 2
             },
             {
-              "name": "Nikola Vlasic",
+              "name": "Petar Sucic",
               "pos": "AM",
               "row": 2.5
             },
@@ -24456,7 +24468,7 @@
               "row": 2.5
             },
             {
-              "name": "Petar Sucic",
+              "name": "Nikola Vlasic",
               "pos": "AM-R",
               "row": 2.5
             },
@@ -24693,14 +24705,14 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "53.7",
+          "possessionPct": "53.6",
           "totalShots": "5",
           "shotsOnTarget": "2",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "288",
-          "totalPasses": "307",
+          "accuratePasses": "287",
+          "totalPasses": "306",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "8",
@@ -24713,8 +24725,8 @@
           "totalTackles": "7",
           "tacklePct": "0.6",
           "interceptions": "1",
-          "effectiveClearance": "5",
-          "totalClearance": "5"
+          "effectiveClearance": "6",
+          "totalClearance": "6"
         },
         "away": {
           "foulsCommitted": "7",
@@ -24723,7 +24735,7 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "46.3",
+          "possessionPct": "46.4",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
@@ -24760,7 +24772,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "46'",
+      "clock": "47'",
       "events": [
         {
           "min": "45'",
@@ -25086,25 +25098,25 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "10",
+          "foulsCommitted": "11",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "27.8",
+          "possessionPct": "27.3",
           "totalShots": "3",
           "shotsOnTarget": "2",
           "shotPct": "0.7",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "85",
-          "totalPasses": "120",
+          "accuratePasses": "86",
+          "totalPasses": "122",
           "passPct": "0.7",
           "accurateCrosses": "0",
           "totalCrosses": "3",
           "crossPct": "0.0",
-          "totalLongBalls": "28",
+          "totalLongBalls": "29",
           "accurateLongBalls": "12",
           "longballPct": "0.4",
           "blockedShots": "0",
@@ -25112,8 +25124,8 @@
           "totalTackles": "7",
           "tacklePct": "0.6",
           "interceptions": "2",
-          "effectiveClearance": "25",
-          "totalClearance": "25"
+          "effectiveClearance": "26",
+          "totalClearance": "26"
         },
         "away": {
           "foulsCommitted": "3",
@@ -25122,24 +25134,24 @@
           "offsides": "3",
           "wonCorners": "5",
           "saves": "2",
-          "possessionPct": "72.2",
+          "possessionPct": "72.7",
           "totalShots": "9",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "289",
-          "totalPasses": "322",
+          "accuratePasses": "300",
+          "totalPasses": "336",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "14",
           "crossPct": "0.0",
-          "totalLongBalls": "19",
+          "totalLongBalls": "20",
           "accurateLongBalls": "12",
           "longballPct": "0.6",
           "blockedShots": "1",
-          "effectiveTackles": "9",
-          "totalTackles": "10",
+          "effectiveTackles": "10",
+          "totalTackles": "11",
           "tacklePct": "0.9",
           "interceptions": "4",
           "effectiveClearance": "9",
