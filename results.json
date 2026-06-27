@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T00:34:13.881Z",
+  "generatedAt": "2026-06-27T00:35:13.813Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -22026,12 +22026,24 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "32'",
+      "clock": "33'",
       "events": [
         {
-          "min": "30'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "min": "33'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇦. Substituição Ali Lajami, entra em campo Hassan Al Tambakti uma lesão.",
+          "sub": "🇸🇦"
+        },
+        {
+          "min": "33'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇻"
+        },
+        {
+          "min": "33'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇸🇦"
         },
         {
@@ -22039,6 +22051,12 @@
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇨🇻"
+        },
+        {
+          "min": "30'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Hassan Al Tambakti (Arábia Saudita).",
+          "sub": "🇸🇦"
         },
         {
           "min": "27'",
@@ -22450,7 +22468,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "33'",
+      "clock": "34'",
       "events": [
         {
           "min": "26'",
@@ -22769,28 +22787,28 @@
           "offsides": "1",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "26.6",
-          "totalShots": "0",
+          "possessionPct": "27.5",
+          "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "56",
-          "totalPasses": "82",
+          "accuratePasses": "57",
+          "totalPasses": "85",
           "passPct": "0.7",
           "accurateCrosses": "0",
-          "totalCrosses": "3",
+          "totalCrosses": "4",
           "crossPct": "0.0",
           "totalLongBalls": "12",
           "accurateLongBalls": "2",
           "longballPct": "0.2",
-          "blockedShots": "0",
+          "blockedShots": "1",
           "effectiveTackles": "10",
           "totalTackles": "13",
           "tacklePct": "0.8",
           "interceptions": "4",
-          "effectiveClearance": "8",
-          "totalClearance": "8"
+          "effectiveClearance": "9",
+          "totalClearance": "9"
         },
         "away": {
           "foulsCommitted": "4",
@@ -22799,28 +22817,28 @@
           "offsides": "1",
           "wonCorners": "5",
           "saves": "0",
-          "possessionPct": "73.4",
+          "possessionPct": "72.5",
           "totalShots": "2",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "199",
-          "totalPasses": "223",
+          "totalPasses": "224",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "8",
           "crossPct": "0.3",
-          "totalLongBalls": "9",
+          "totalLongBalls": "10",
           "accurateLongBalls": "5",
-          "longballPct": "0.6",
+          "longballPct": "0.5",
           "blockedShots": "1",
           "effectiveTackles": "3",
           "totalTackles": "5",
           "tacklePct": "0.6",
           "interceptions": "4",
-          "effectiveClearance": "5",
-          "totalClearance": "5"
+          "effectiveClearance": "6",
+          "totalClearance": "6"
         }
       }
     },
