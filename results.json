@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T01:52:12.404Z",
+  "generatedAt": "2026-06-27T01:53:14.794Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -22026,7 +22026,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "88'",
+      "clock": "89'",
       "events": [
         {
           "min": "88'",
@@ -22515,7 +22515,7 @@
           "offsides": "1",
           "wonCorners": "4",
           "saves": "2",
-          "possessionPct": "52.6",
+          "possessionPct": "51.8",
           "totalShots": "16",
           "shotsOnTarget": "2",
           "shotPct": "0.1",
@@ -22545,24 +22545,24 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "2",
-          "possessionPct": "47.4",
+          "possessionPct": "47.8",
           "totalShots": "6",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "306",
-          "totalPasses": "385",
+          "accuratePasses": "317",
+          "totalPasses": "398",
           "passPct": "0.8",
           "accurateCrosses": "2",
-          "totalCrosses": "9",
+          "totalCrosses": "10",
           "crossPct": "0.2",
           "totalLongBalls": "51",
           "accurateLongBalls": "22",
           "longballPct": "0.4",
           "blockedShots": "3",
-          "effectiveTackles": "13",
-          "totalTackles": "26",
+          "effectiveTackles": "14",
+          "totalTackles": "27",
           "tacklePct": "0.5",
           "interceptions": "10",
           "effectiveClearance": "23",
@@ -22582,8 +22582,20 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "87'",
+      "clock": "88'",
       "events": [
+        {
+          "min": "88'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇪🇸"
+        },
+        {
+          "min": "88'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇺🇾"
+        },
         {
           "min": "87'",
           "icon": "⏸️",
