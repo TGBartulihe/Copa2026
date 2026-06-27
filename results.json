@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T22:50:12.666Z",
+  "generatedAt": "2026-06-27T22:51:18.058Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -24362,7 +24362,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "89'",
+      "clock": "90'",
       "events": [
         {
           "min": "88'",
@@ -24373,19 +24373,19 @@
         {
           "min": "88'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇬🇭"
         },
         {
           "min": "88'",
           "icon": "🔄",
-          "txt": "Substituição, 🇭🇷. Josko Gvardiol (Croácia) Substituição aos 88'",
+          "txt": "Substituição, 🇭🇷. Entra Marco Pasalic para o lugar de Martin Baturina.",
           "sub": "🇭🇷"
         },
         {
           "min": "88'",
           "icon": "🔄",
-          "txt": "Substituição, 🇭🇷. Entra Marco Pasalic para o lugar de Martin Baturina.",
+          "txt": "Substituição, 🇭🇷. Entra Josko Gvardiol substituindo Nikola Vlasic.",
           "sub": "🇭🇷"
         },
         {
@@ -24828,17 +24828,17 @@
           "foulsCommitted": "8",
           "yellowCards": "1",
           "redCards": "0",
-          "offsides": "0",
+          "offsides": "1",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "53.7",
+          "possessionPct": "53.4",
           "totalShots": "7",
           "shotsOnTarget": "4",
           "shotPct": "0.6",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "444",
-          "totalPasses": "483",
+          "accuratePasses": "449",
+          "totalPasses": "488",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "12",
@@ -24861,14 +24861,14 @@
           "offsides": "1",
           "wonCorners": "2",
           "saves": "2",
-          "possessionPct": "46.3",
+          "possessionPct": "46.6",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "373",
-          "totalPasses": "413",
+          "accuratePasses": "379",
+          "totalPasses": "420",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "12",
@@ -24898,7 +24898,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "90'+1'",
+      "clock": "90'+2'",
       "events": [
         {
           "min": "88'",
