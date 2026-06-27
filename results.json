@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T22:06:20.612Z",
+  "generatedAt": "2026-06-27T22:07:15.725Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -24362,12 +24362,18 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "45'+4'",
+      "clock": "46'",
       "events": [
         {
           "min": "45'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🏳️"
+        },
+        {
+          "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, 🇬🇭. Substituição de Fatawu Issahaku (Gana) aos 45'",
+          "txt": "Substituição, 🇬🇭. Abdul Fatawu substitui Elisha Owusu.",
           "sub": "🇬🇭"
         },
         {
@@ -24772,7 +24778,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "47'",
+      "clock": "48'",
       "events": [
         {
           "min": "45'",
@@ -25104,7 +25110,7 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "27.3",
+          "possessionPct": "26.8",
           "totalShots": "3",
           "shotsOnTarget": "2",
           "shotPct": "0.7",
@@ -25134,14 +25140,14 @@
           "offsides": "3",
           "wonCorners": "5",
           "saves": "2",
-          "possessionPct": "72.7",
+          "possessionPct": "73.2",
           "totalShots": "9",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "300",
-          "totalPasses": "336",
+          "accuratePasses": "309",
+          "totalPasses": "346",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "14",
