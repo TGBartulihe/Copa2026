@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T23:41:13.753Z",
+  "generatedAt": "2026-06-27T23:42:14.381Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -25495,7 +25495,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "10'",
+      "clock": "11'",
       "events": [
         {
           "min": "",
@@ -25854,11 +25854,17 @@
       "venue": "Mercedes-Benz Stadium",
       "iso": "2026-06-27T23:30Z",
       "sh": 0,
-      "sa": 0,
+      "sa": 1,
       "done": false,
       "live": true,
-      "clock": "9'",
+      "clock": "11'",
       "events": [
+        {
+          "min": "10'",
+          "icon": "⚽",
+          "txt": "Eldor Shomurodov (Uzbequistão) finalização com o pé esquerdo do lado esquerdo da área.",
+          "sub": "🇺🇿"
+        },
         {
           "min": "",
           "icon": "🏁",
