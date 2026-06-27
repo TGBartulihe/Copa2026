@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T04:56:13.658Z",
+  "generatedAt": "2026-06-27T04:57:12.943Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -23190,12 +23190,18 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "90'+1'",
+      "clock": "90'+2'",
       "events": [
+        {
+          "min": "90'+2'",
+          "icon": "🟨",
+          "txt": "Mohanad Lashin (Egito) Cartão Amarelo aos 90'+2'",
+          "sub": "🇪🇬"
+        },
         {
           "min": "90'+1'",
           "icon": "🔄",
-          "txt": "Substituição, 🇮🇷. Substituição por Alireza Jahanbakhsh (Irã) aos 90'+1'",
+          "txt": "Substituição, 🇮🇷. Entra Alireza Jahanbakhsh substituindo Mohammad Mohebbi.",
           "sub": "🇮🇷"
         },
         {
@@ -23770,7 +23776,7 @@
       "sa": 4,
       "done": false,
       "live": true,
-      "clock": "90'+3'",
+      "clock": "90'+5'",
       "events": [
         {
           "min": "86'",
@@ -24253,20 +24259,20 @@
           "offsides": "1",
           "wonCorners": "5",
           "saves": "5",
-          "possessionPct": "44.7",
+          "possessionPct": "45.2",
           "totalShots": "6",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "352",
-          "totalPasses": "417",
+          "accuratePasses": "362",
+          "totalPasses": "427",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "17",
           "crossPct": "0.1",
-          "totalLongBalls": "37",
-          "accurateLongBalls": "15",
+          "totalLongBalls": "38",
+          "accurateLongBalls": "16",
           "longballPct": "0.4",
           "blockedShots": "1",
           "effectiveTackles": "6",
@@ -24283,7 +24289,7 @@
           "offsides": "1",
           "wonCorners": "8",
           "saves": "1",
-          "possessionPct": "55.3",
+          "possessionPct": "54.8",
           "totalShots": "34",
           "shotsOnTarget": "9",
           "shotPct": "0.3",
