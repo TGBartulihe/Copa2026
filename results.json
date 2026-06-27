@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T03:29:14.143Z",
+  "generatedAt": "2026-06-27T03:30:16.027Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -23190,7 +23190,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "28'",
+      "clock": "29'",
       "events": [
         {
           "min": "26'",
@@ -23614,8 +23614,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "28'",
+      "clock": "29'",
       "events": [
+        {
+          "min": "28'",
+          "icon": "⚽",
+          "txt": "Leandro Trossard (Bélgica) finalização com o pé direito de muito perto após escanteio.",
+          "sub": "🇧🇪"
+        },
         {
           "min": "26'",
           "icon": "▶️",
@@ -23953,13 +23959,13 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "1",
+          "foulsCommitted": "2",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "0",
           "saves": "2",
-          "possessionPct": "26",
+          "possessionPct": "25.3",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
@@ -23979,27 +23985,27 @@
           "totalTackles": "5",
           "tacklePct": "0.8",
           "interceptions": "3",
-          "effectiveClearance": "18",
-          "totalClearance": "18"
+          "effectiveClearance": "19",
+          "totalClearance": "19"
         },
         "away": {
           "foulsCommitted": "0",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
-          "wonCorners": "2",
+          "wonCorners": "3",
           "saves": "0",
-          "possessionPct": "74",
-          "totalShots": "7",
-          "shotsOnTarget": "2",
-          "shotPct": "0.3",
+          "possessionPct": "74.7",
+          "totalShots": "8",
+          "shotsOnTarget": "3",
+          "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "139",
-          "totalPasses": "157",
+          "accuratePasses": "143",
+          "totalPasses": "162",
           "passPct": "0.9",
           "accurateCrosses": "1",
-          "totalCrosses": "8",
+          "totalCrosses": "9",
           "crossPct": "0.1",
           "totalLongBalls": "13",
           "accurateLongBalls": "11",
