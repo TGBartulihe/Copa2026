@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T01:24:14.617Z",
+  "generatedAt": "2026-06-27T01:25:12.613Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -22026,8 +22026,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "60'",
+      "clock": "61'",
       "events": [
+        {
+          "min": "61'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇻. Hélio Varela (Cabo Verde) Substituição aos 61'",
+          "sub": "🇨🇻"
+        },
+        {
+          "min": "61'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇻. Substituição de Nuno da Costa (Cabo Verde) aos 61'",
+          "sub": "🇨🇻"
+        },
         {
           "min": "45'",
           "icon": "▶️",
@@ -22431,19 +22443,19 @@
           "offsides": "0",
           "wonCorners": "3",
           "saves": "1",
-          "possessionPct": "52.9",
+          "possessionPct": "53.9",
           "totalShots": "8",
           "shotsOnTarget": "1",
           "shotPct": "0.1",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "250",
-          "totalPasses": "296",
+          "accuratePasses": "270",
+          "totalPasses": "320",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "13",
           "crossPct": "0.1",
-          "totalLongBalls": "36",
+          "totalLongBalls": "37",
           "accurateLongBalls": "18",
           "longballPct": "0.5",
           "blockedShots": "2",
@@ -22461,26 +22473,26 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "47.1",
+          "possessionPct": "46.1",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "217",
-          "totalPasses": "272",
+          "accuratePasses": "223",
+          "totalPasses": "282",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "5",
           "crossPct": "0.4",
-          "totalLongBalls": "32",
+          "totalLongBalls": "34",
           "accurateLongBalls": "13",
           "longballPct": "0.4",
           "blockedShots": "2",
           "effectiveTackles": "11",
           "totalTackles": "23",
           "tacklePct": "0.5",
-          "interceptions": "7",
+          "interceptions": "9",
           "effectiveClearance": "18",
           "totalClearance": "18"
         }
@@ -22498,8 +22510,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "59'",
+      "clock": "60'",
       "events": [
+        {
+          "min": "60'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇪🇸. Dani Olmo (Espanha) Substituição aos 60'",
+          "sub": "🇪🇸"
+        },
         {
           "min": "60'",
           "icon": "🔄",
