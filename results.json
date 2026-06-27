@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T04:46:17.107Z",
+  "generatedAt": "2026-06-27T04:47:12.511Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -23190,19 +23190,31 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "82'",
+      "clock": "83'",
       "events": [
         {
           "min": "82'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
           "sub": "🇮🇷"
+        },
+        {
+          "min": "82'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇪🇬"
         },
         {
           "min": "82'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇪🇬"
+        },
+        {
+          "min": "82'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇮🇷"
         },
         {
           "min": "79'",
@@ -23685,14 +23697,14 @@
           "offsides": "0",
           "wonCorners": "8",
           "saves": "2",
-          "possessionPct": "64.3",
+          "possessionPct": "64.4",
           "totalShots": "14",
           "shotsOnTarget": "3",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "462",
-          "totalPasses": "522",
+          "accuratePasses": "463",
+          "totalPasses": "523",
           "passPct": "0.9",
           "accurateCrosses": "4",
           "totalCrosses": "14",
@@ -23705,8 +23717,8 @@
           "totalTackles": "15",
           "tacklePct": "0.6",
           "interceptions": "6",
-          "effectiveClearance": "38",
-          "totalClearance": "38"
+          "effectiveClearance": "37",
+          "totalClearance": "37"
         },
         "away": {
           "foulsCommitted": "14",
@@ -23715,7 +23727,7 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "35.7",
+          "possessionPct": "35.6",
           "totalShots": "9",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
@@ -23748,12 +23760,18 @@
       "brTime": "00h",
       "venue": "BC Place",
       "iso": "2026-06-27T03:00Z",
-      "sh": 0,
+      "sh": 1,
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "84'",
+      "clock": "85'",
       "events": [
+        {
+          "min": "84'",
+          "icon": "⚽",
+          "txt": "Elijah Just (Nova Zelândia) finalização com o pé esquerdo do meio da área.",
+          "sub": "🇳🇿"
+        },
         {
           "min": "79'",
           "icon": "🔄",
@@ -24209,21 +24227,21 @@
           "yellowCards": "2",
           "redCards": "0",
           "offsides": "1",
-          "wonCorners": "4",
+          "wonCorners": "5",
           "saves": "4",
-          "possessionPct": "42.6",
-          "totalShots": "5",
-          "shotsOnTarget": "1",
-          "shotPct": "0.2",
+          "possessionPct": "43.5",
+          "totalShots": "6",
+          "shotsOnTarget": "2",
+          "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "291",
-          "totalPasses": "350",
+          "accuratePasses": "303",
+          "totalPasses": "363",
           "passPct": "0.8",
           "accurateCrosses": "2",
-          "totalCrosses": "15",
+          "totalCrosses": "17",
           "crossPct": "0.1",
-          "totalLongBalls": "34",
+          "totalLongBalls": "35",
           "accurateLongBalls": "14",
           "longballPct": "0.4",
           "blockedShots": "1",
@@ -24241,19 +24259,19 @@
           "offsides": "1",
           "wonCorners": "7",
           "saves": "1",
-          "possessionPct": "57.4",
+          "possessionPct": "56.5",
           "totalShots": "30",
           "shotsOnTarget": "7",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "420",
-          "totalPasses": "478",
+          "accuratePasses": "422",
+          "totalPasses": "481",
           "passPct": "0.9",
           "accurateCrosses": "5",
           "totalCrosses": "14",
           "crossPct": "0.4",
-          "totalLongBalls": "40",
+          "totalLongBalls": "41",
           "accurateLongBalls": "27",
           "longballPct": "0.7",
           "blockedShots": "12",
@@ -24261,8 +24279,8 @@
           "totalTackles": "11",
           "tacklePct": "0.7",
           "interceptions": "9",
-          "effectiveClearance": "22",
-          "totalClearance": "22"
+          "effectiveClearance": "24",
+          "totalClearance": "24"
         }
       }
     },
