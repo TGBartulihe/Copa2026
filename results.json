@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T01:36:14.829Z",
+  "generatedAt": "2026-06-27T01:37:13.809Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -22026,7 +22026,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "72'",
+      "clock": "73'",
       "events": [
         {
           "min": "72'",
@@ -22037,13 +22037,13 @@
         {
           "min": "72'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇸🇦"
         },
         {
           "min": "71'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇻. Garry Rodrigues (Cabo Verde) Substituição aos 71'",
+          "txt": "Substituição, 🇨🇻. Garry Rodrigues entra em campo e entra Ryan Mendes.",
           "sub": "🇨🇻"
         },
         {
@@ -22491,21 +22491,21 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "8",
+          "foulsCommitted": "9",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "3",
           "saves": "2",
-          "possessionPct": "54.6",
+          "possessionPct": "54.4",
           "totalShots": "8",
           "shotsOnTarget": "1",
           "shotPct": "0.1",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "314",
-          "totalPasses": "369",
-          "passPct": "0.9",
+          "totalPasses": "370",
+          "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "15",
           "crossPct": "0.1",
@@ -22527,19 +22527,19 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "45.4",
+          "possessionPct": "45.6",
           "totalShots": "5",
           "shotsOnTarget": "2",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "251",
-          "totalPasses": "317",
+          "accuratePasses": "254",
+          "totalPasses": "321",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "5",
           "crossPct": "0.4",
-          "totalLongBalls": "39",
+          "totalLongBalls": "40",
           "accurateLongBalls": "15",
           "longballPct": "0.4",
           "blockedShots": "2",
@@ -22564,7 +22564,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "71'",
+      "clock": "72'",
       "events": [
         {
           "min": "70'",
