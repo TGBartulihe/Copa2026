@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T22:48:13.311Z",
+  "generatedAt": "2026-06-27T22:49:17.048Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -24362,8 +24362,20 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "86'",
+      "clock": "87'",
       "events": [
+        {
+          "min": "88'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇭🇷. Josko Gvardiol (Croácia) Substituição aos 88'",
+          "sub": "🇭🇷"
+        },
+        {
+          "min": "88'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇭🇷. Substituição de Marco Pasalic (Croácia) aos 88'",
+          "sub": "🇭🇷"
+        },
         {
           "min": "87'",
           "icon": "⏸️",
@@ -24874,7 +24886,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "88'",
+      "clock": "90'",
       "events": [
         {
           "min": "88'",
@@ -25386,22 +25398,22 @@
           "offsides": "2",
           "wonCorners": "2",
           "saves": "3",
-          "possessionPct": "32.7",
-          "totalShots": "10",
+          "possessionPct": "33",
+          "totalShots": "11",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "185",
-          "totalPasses": "246",
+          "accuratePasses": "188",
+          "totalPasses": "250",
           "passPct": "0.8",
           "accurateCrosses": "3",
-          "totalCrosses": "8",
-          "crossPct": "0.4",
-          "totalLongBalls": "52",
+          "totalCrosses": "9",
+          "crossPct": "0.3",
+          "totalLongBalls": "53",
           "accurateLongBalls": "24",
           "longballPct": "0.5",
-          "blockedShots": "2",
+          "blockedShots": "3",
           "effectiveTackles": "10",
           "totalTackles": "15",
           "tacklePct": "0.7",
@@ -25410,20 +25422,20 @@
           "totalClearance": "32"
         },
         "away": {
-          "foulsCommitted": "10",
+          "foulsCommitted": "11",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "4",
           "wonCorners": "6",
           "saves": "2",
-          "possessionPct": "67.3",
+          "possessionPct": "67",
           "totalShots": "15",
           "shotsOnTarget": "5",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "461",
-          "totalPasses": "518",
+          "totalPasses": "519",
           "passPct": "0.9",
           "accurateCrosses": "4",
           "totalCrosses": "23",
