@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T22:03:12.486Z",
+  "generatedAt": "2026-06-27T22:04:15.812Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -24762,6 +24762,12 @@
       "live": true,
       "clock": "45'+3'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇦. José Fajardo substitui Tomás Rodríguez.",
+          "sub": "🇵🇦"
+        },
         {
           "min": "45'+4'",
           "icon": "⏱️",
