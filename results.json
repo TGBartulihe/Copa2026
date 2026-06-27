@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T22:29:11.575Z",
+  "generatedAt": "2026-06-27T22:30:12.652Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -24362,8 +24362,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "67'",
+      "clock": "68'",
       "events": [
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇭🇷"
+        },
         {
           "min": "68'",
           "icon": "🟨",
@@ -24718,7 +24724,7 @@
       "stats": {
         "home": {
           "foulsCommitted": "5",
-          "yellowCards": "0",
+          "yellowCards": "1",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "0",
@@ -24790,7 +24796,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "70'",
+      "clock": "71'",
       "events": [
         {
           "min": "69'",
