@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T22:49:17.048Z",
+  "generatedAt": "2026-06-27T22:50:12.666Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -24362,8 +24362,20 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "87'",
+      "clock": "89'",
       "events": [
+        {
+          "min": "88'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇭🇷"
+        },
+        {
+          "min": "88'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇬🇭"
+        },
         {
           "min": "88'",
           "icon": "🔄",
@@ -24373,13 +24385,13 @@
         {
           "min": "88'",
           "icon": "🔄",
-          "txt": "Substituição, 🇭🇷. Substituição de Marco Pasalic (Croácia) aos 88'",
+          "txt": "Substituição, 🇭🇷. Entra Marco Pasalic para o lugar de Martin Baturina.",
           "sub": "🇭🇷"
         },
         {
           "min": "87'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Antoine Semenyo (Gana).",
           "sub": "🇬🇭"
         },
         {
@@ -24886,7 +24898,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "90'",
+      "clock": "90'+1'",
       "events": [
         {
           "min": "88'",
@@ -25398,15 +25410,15 @@
           "offsides": "2",
           "wonCorners": "2",
           "saves": "3",
-          "possessionPct": "33",
-          "totalShots": "11",
+          "possessionPct": "32.8",
+          "totalShots": "12",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "188",
-          "totalPasses": "250",
-          "passPct": "0.8",
+          "accuratePasses": "190",
+          "totalPasses": "254",
+          "passPct": "0.7",
           "accurateCrosses": "3",
           "totalCrosses": "9",
           "crossPct": "0.3",
@@ -25418,8 +25430,8 @@
           "totalTackles": "15",
           "tacklePct": "0.7",
           "interceptions": "5",
-          "effectiveClearance": "32",
-          "totalClearance": "32"
+          "effectiveClearance": "33",
+          "totalClearance": "33"
         },
         "away": {
           "foulsCommitted": "11",
@@ -25428,28 +25440,28 @@
           "offsides": "4",
           "wonCorners": "6",
           "saves": "2",
-          "possessionPct": "67",
-          "totalShots": "15",
-          "shotsOnTarget": "5",
-          "shotPct": "0.3",
+          "possessionPct": "67.2",
+          "totalShots": "16",
+          "shotsOnTarget": "6",
+          "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "461",
-          "totalPasses": "519",
+          "accuratePasses": "472",
+          "totalPasses": "534",
           "passPct": "0.9",
           "accurateCrosses": "4",
           "totalCrosses": "23",
           "crossPct": "0.2",
-          "totalLongBalls": "31",
+          "totalLongBalls": "32",
           "accurateLongBalls": "18",
           "longballPct": "0.6",
           "blockedShots": "2",
-          "effectiveTackles": "15",
-          "totalTackles": "16",
+          "effectiveTackles": "17",
+          "totalTackles": "18",
           "tacklePct": "0.9",
           "interceptions": "5",
-          "effectiveClearance": "18",
-          "totalClearance": "18"
+          "effectiveClearance": "19",
+          "totalClearance": "19"
         }
       }
     },
