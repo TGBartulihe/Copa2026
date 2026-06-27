@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T04:47:12.511Z",
+  "generatedAt": "2026-06-27T04:48:14.397Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -23190,7 +23190,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "83'",
+      "clock": "84'",
       "events": [
         {
           "min": "82'",
@@ -23697,20 +23697,20 @@
           "offsides": "0",
           "wonCorners": "8",
           "saves": "2",
-          "possessionPct": "64.4",
-          "totalShots": "14",
+          "possessionPct": "64.2",
+          "totalShots": "15",
           "shotsOnTarget": "3",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "463",
-          "totalPasses": "523",
+          "accuratePasses": "474",
+          "totalPasses": "536",
           "passPct": "0.9",
           "accurateCrosses": "4",
-          "totalCrosses": "14",
+          "totalCrosses": "15",
           "crossPct": "0.3",
-          "totalLongBalls": "33",
-          "accurateLongBalls": "16",
+          "totalLongBalls": "36",
+          "accurateLongBalls": "18",
           "longballPct": "0.5",
           "blockedShots": "6",
           "effectiveTackles": "9",
@@ -23727,14 +23727,14 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "35.6",
+          "possessionPct": "35.8",
           "totalShots": "9",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "214",
-          "totalPasses": "289",
+          "accuratePasses": "221",
+          "totalPasses": "299",
           "passPct": "0.7",
           "accurateCrosses": "1",
           "totalCrosses": "6",
@@ -23747,8 +23747,8 @@
           "totalTackles": "22",
           "tacklePct": "0.7",
           "interceptions": "7",
-          "effectiveClearance": "31",
-          "totalClearance": "31"
+          "effectiveClearance": "32",
+          "totalClearance": "32"
         }
       }
     },
@@ -23764,12 +23764,24 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "85'",
+      "clock": "86'",
       "events": [
+        {
+          "min": "85'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇧🇪. Substituição de Nicolas Raskin (Bélgica) aos 85'",
+          "sub": "🇧🇪"
+        },
+        {
+          "min": "85'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇧🇪. Romelu Lukaku (Bélgica) Substituição aos 85'",
+          "sub": "🇧🇪"
+        },
         {
           "min": "84'",
           "icon": "⚽",
-          "txt": "Elijah Just (Nova Zelândia) finalização com o pé esquerdo do meio da área.",
+          "txt": "Elijah Just (Nova Zelândia) finalização com o pé esquerdo do meio da área acertando no centro do gol após escanteio.",
           "sub": "🇳🇿"
         },
         {
