@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T00:54:12.703Z",
+  "generatedAt": "2026-06-27T00:55:11.123Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -22489,6 +22489,12 @@
       "clock": "45'+8'",
       "events": [
         {
+          "min": "45'+9'",
+          "icon": "⏱️",
+          "txt": "Intervalo",
+          "sub": "🏳️"
+        },
+        {
           "min": "45'",
           "icon": "🔄",
           "txt": "Substituição, 🇺🇾. Nicolás de la Cruz entra em campo com Manuel Ugarte devido a uma lesão.",
@@ -22865,18 +22871,18 @@
           "offsides": "2",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "26.4",
+          "possessionPct": "26.9",
           "totalShots": "3",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "88",
-          "totalPasses": "125",
+          "accuratePasses": "91",
+          "totalPasses": "128",
           "passPct": "0.7",
-          "accurateCrosses": "0",
-          "totalCrosses": "6",
-          "crossPct": "0.0",
+          "accurateCrosses": "1",
+          "totalCrosses": "7",
+          "crossPct": "0.1",
           "totalLongBalls": "16",
           "accurateLongBalls": "4",
           "longballPct": "0.3",
@@ -22884,7 +22890,7 @@
           "effectiveTackles": "11",
           "totalTackles": "18",
           "tacklePct": "0.6",
-          "interceptions": "6",
+          "interceptions": "7",
           "effectiveClearance": "9",
           "totalClearance": "9"
         },
@@ -22894,15 +22900,15 @@
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "5",
-          "saves": "0",
-          "possessionPct": "73.6",
+          "saves": "1",
+          "possessionPct": "73.1",
           "totalShots": "3",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "312",
-          "totalPasses": "350",
+          "accuratePasses": "313",
+          "totalPasses": "352",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "10",
@@ -22914,9 +22920,9 @@
           "effectiveTackles": "5",
           "totalTackles": "10",
           "tacklePct": "0.5",
-          "interceptions": "6",
-          "effectiveClearance": "10",
-          "totalClearance": "10"
+          "interceptions": "7",
+          "effectiveClearance": "11",
+          "totalClearance": "11"
         }
       }
     },
