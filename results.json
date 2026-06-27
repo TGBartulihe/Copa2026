@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T03:12:16.122Z",
+  "generatedAt": "2026-06-27T03:13:17.442Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -23190,8 +23190,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "11'",
+      "clock": "12'",
       "events": [
+        {
+          "min": "11'",
+          "icon": "⏸️",
+          "txt": "Partida atrasada (Egito).",
+          "sub": "🇪🇬"
+        },
         {
           "min": "11'",
           "icon": "⏸️",
@@ -23201,7 +23207,7 @@
         {
           "min": "11'",
           "icon": "⚽🎯",
-          "txt": "Mehdi Taremi (Irã) pênalti - defendido aos 11'",
+          "txt": "Pênalti salvo. Mehdi Taremi (IR Irã) finalização com o pé direito defendido no Escanteio inferior direito por Mostafa Shobeir (Egito).",
           "sub": "🇮🇷"
         },
         {
@@ -23560,7 +23566,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "11'",
+      "clock": "12'",
       "events": [
         {
           "min": "",
@@ -23845,15 +23851,15 @@
           "offsides": "1",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "14.4",
+          "possessionPct": "13.5",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "8",
-          "totalPasses": "15",
-          "passPct": "0.5",
+          "accuratePasses": "9",
+          "totalPasses": "16",
+          "passPct": "0.6",
           "accurateCrosses": "0",
           "totalCrosses": "1",
           "crossPct": "0.0",
@@ -23865,8 +23871,8 @@
           "totalTackles": "3",
           "tacklePct": "1.0",
           "interceptions": "2",
-          "effectiveClearance": "8",
-          "totalClearance": "8"
+          "effectiveClearance": "10",
+          "totalClearance": "10"
         },
         "away": {
           "foulsCommitted": "0",
@@ -23875,25 +23881,25 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "85.6",
+          "possessionPct": "86.5",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "81",
-          "totalPasses": "93",
+          "accuratePasses": "91",
+          "totalPasses": "105",
           "passPct": "0.9",
           "accurateCrosses": "1",
-          "totalCrosses": "2",
-          "crossPct": "0.0",
+          "totalCrosses": "4",
+          "crossPct": "0.3",
           "totalLongBalls": "7",
           "accurateLongBalls": "6",
           "longballPct": "0.9",
           "blockedShots": "0",
-          "effectiveTackles": "0",
-          "totalTackles": "0",
-          "tacklePct": "0.0",
+          "effectiveTackles": "1",
+          "totalTackles": "1",
+          "tacklePct": "1.0",
           "interceptions": "1",
           "effectiveClearance": "0",
           "totalClearance": "0"
