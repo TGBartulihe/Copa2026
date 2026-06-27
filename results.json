@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T23:56:13.737Z",
+  "generatedAt": "2026-06-27T23:57:14.635Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -25495,19 +25495,19 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "25'",
+      "clock": "26'",
       "events": [
-        {
-          "min": "24'",
-          "icon": "⏸️",
-          "txt": "Atraso na partida para uma pausa para bebidas.",
-          "sub": "🇵🇹"
-        },
         {
           "min": "24'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇨🇴"
+        },
+        {
+          "min": "24'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇵🇹"
         },
         {
           "min": "",
@@ -25804,8 +25804,8 @@
           "saves": "1",
           "possessionPct": "43.3",
           "totalShots": "7",
-          "shotsOnTarget": "2",
-          "shotPct": "0.3",
+          "shotsOnTarget": "1",
+          "shotPct": "0.1",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "95",
@@ -25852,8 +25852,8 @@
           "totalTackles": "4",
           "tacklePct": "0.5",
           "interceptions": "2",
-          "effectiveClearance": "7",
-          "totalClearance": "7"
+          "effectiveClearance": "8",
+          "totalClearance": "8"
         }
       }
     },
@@ -25869,8 +25869,20 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "25'",
+      "clock": "26'",
       "events": [
+        {
+          "min": "26'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇩"
+        },
+        {
+          "min": "25'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇺🇿"
+        },
         {
           "min": "23'",
           "icon": "⏸️",
