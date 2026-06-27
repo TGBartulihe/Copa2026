@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T03:49:11.322Z",
+  "generatedAt": "2026-06-27T03:50:15.582Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -23190,7 +23190,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "45'+3'",
+      "clock": "45'+4'",
       "events": [
         {
           "min": "43'",
@@ -23638,7 +23638,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "45'+3'",
+      "clock": "45'+4'",
       "events": [
         {
           "min": "28'",
@@ -23989,7 +23989,7 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "3",
-          "possessionPct": "39.2",
+          "possessionPct": "37.9",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
@@ -24009,32 +24009,32 @@
           "totalTackles": "7",
           "tacklePct": "0.7",
           "interceptions": "5",
-          "effectiveClearance": "24",
-          "totalClearance": "24"
+          "effectiveClearance": "28",
+          "totalClearance": "28"
         },
         "away": {
           "foulsCommitted": "1",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
-          "wonCorners": "3",
+          "wonCorners": "4",
           "saves": "0",
-          "possessionPct": "60.8",
-          "totalShots": "13",
+          "possessionPct": "62.1",
+          "totalShots": "16",
           "shotsOnTarget": "4",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "251",
-          "totalPasses": "284",
+          "accuratePasses": "265",
+          "totalPasses": "299",
           "passPct": "0.9",
-          "accurateCrosses": "1",
-          "totalCrosses": "9",
-          "crossPct": "0.1",
-          "totalLongBalls": "21",
+          "accurateCrosses": "3",
+          "totalCrosses": "11",
+          "crossPct": "0.3",
+          "totalLongBalls": "22",
           "accurateLongBalls": "15",
           "longballPct": "0.7",
-          "blockedShots": "5",
+          "blockedShots": "6",
           "effectiveTackles": "4",
           "totalTackles": "5",
           "tacklePct": "0.8",
