@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T22:27:13.473Z",
+  "generatedAt": "2026-06-27T22:28:13.516Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -24362,8 +24362,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "65'",
+      "clock": "67'",
       "events": [
+        {
+          "min": "66'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇭🇷. Entra Igor Matanovic para o lugar de Ante Budimir.",
+          "sub": "🇭🇷"
+        },
         {
           "min": "45'",
           "icon": "▶️",
@@ -24711,7 +24717,7 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "53.2",
+          "possessionPct": "53",
           "totalShots": "5",
           "shotsOnTarget": "2",
           "shotPct": "0.4",
@@ -24731,30 +24737,30 @@
           "totalTackles": "9",
           "tacklePct": "0.6",
           "interceptions": "2",
-          "effectiveClearance": "13",
-          "totalClearance": "13"
+          "effectiveClearance": "15",
+          "totalClearance": "15"
         },
         "away": {
           "foulsCommitted": "9",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "1",
-          "wonCorners": "1",
+          "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "46.8",
+          "possessionPct": "47",
           "totalShots": "3",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "342",
-          "totalPasses": "376",
+          "accuratePasses": "343",
+          "totalPasses": "377",
           "passPct": "0.9",
           "accurateCrosses": "2",
-          "totalCrosses": "9",
+          "totalCrosses": "11",
           "crossPct": "0.2",
-          "totalLongBalls": "30",
-          "accurateLongBalls": "15",
+          "totalLongBalls": "31",
+          "accurateLongBalls": "16",
           "longballPct": "0.5",
           "blockedShots": "1",
           "effectiveTackles": "6",
@@ -24778,12 +24784,24 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "68'",
+      "clock": "69'",
       "events": [
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🏳️"
+        },
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇵🇦"
+        },
         {
           "min": "67'",
           "icon": "⚽",
-          "txt": "Harry Kane (Inglaterra) de cabeça do meio da área.",
+          "txt": "Harry Kane (Inglaterra) de cabeça no coração da área ao ângulo superior esquerdo. Assistência de Jude Bellingham com um cruzamento.",
           "sub": "🏳️"
         },
         {
@@ -24817,7 +24835,7 @@
           "sub": "🏳️"
         },
         {
-          "min": "61'",
+          "min": "60'",
           "icon": "🩹",
           "txt": "Partida atrasada devido a uma lesão de Jarell Quansah (Inglaterra).",
           "sub": "🏳️"
@@ -24847,7 +24865,7 @@
           "sub": "🏳️"
         },
         {
-          "min": "55'",
+          "min": "54'",
           "icon": "🩹",
           "txt": "Partida atrasada devido a uma lesão de Jarell Quansah (Inglaterra).",
           "sub": "🏳️"
