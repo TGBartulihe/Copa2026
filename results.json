@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T05:15:10.565Z",
+  "generatedAt": "2026-06-27T05:16:16.489Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -17271,14 +17271,14 @@
         {
           "min": "71'",
           "icon": "▶️",
-          "txt": "Atraso acabou. Eles estão prontos para continuar.",
-          "sub": "🇨🇮"
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇼"
         },
         {
           "min": "71'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇨🇼"
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇨🇮"
         },
         {
           "min": "68'",
@@ -24572,7 +24572,7 @@
     },
     {
       "espnId": "760493",
-      "home": "Group G Winner",
+      "home": "Bélgica 🇧🇪",
       "away": "Third Place Group A/E/H/I/J",
       "date": "01/07",
       "brTime": "17h",
@@ -24653,7 +24653,7 @@
     {
       "espnId": "760499",
       "home": "Austrália 🇦🇺",
-      "away": "Group G 2nd Place",
+      "away": "Egito 🇪🇬",
       "date": "03/07",
       "brTime": "15h",
       "venue": "AT&T Stadium",
