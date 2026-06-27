@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T05:57:11.666Z",
+  "generatedAt": "2026-06-27T05:58:14.986Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -23303,19 +23303,13 @@
         {
           "min": "56'",
           "icon": "▶️",
-          "txt": "Atraso acabou. Eles estão prontos para continuar.",
-          "sub": "🇪🇬"
-        },
-        {
-          "min": "56'",
-          "icon": "▶️",
           "txt": "Jogo reiniciado",
           "sub": "🇮🇷"
         },
         {
-          "min": "55'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a uma lesão de Mostafa Zico (Egito).",
+          "min": "56'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇪🇬"
         },
         {
@@ -23323,6 +23317,12 @@
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇮🇷"
+        },
+        {
+          "min": "55'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Mostafa Zico (Egito).",
+          "sub": "🇪🇬"
         },
         {
           "min": "45'",
@@ -23753,8 +23753,8 @@
           "totalTackles": "17",
           "tacklePct": "0.6",
           "interceptions": "7",
-          "effectiveClearance": "40",
-          "totalClearance": "40"
+          "effectiveClearance": "39",
+          "totalClearance": "39"
         },
         "away": {
           "foulsCommitted": "16",
