@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T22:40:39.690Z",
+  "generatedAt": "2026-06-27T22:41:15.772Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -24389,12 +24389,6 @@
           "sub": "🇬🇭"
         },
         {
-          "min": "72'",
-          "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇬🇭"
-        },
-        {
           "min": "71'",
           "icon": "🔄",
           "txt": "Substituição, 🇬🇭. Ernest Nuamah substitui Kamaldeen Sulemana.",
@@ -24404,6 +24398,12 @@
           "min": "71'",
           "icon": "🔄",
           "txt": "Substituição, 🇬🇭. Brandon Thomas-Asante entra em campo e entra Jordan Ayew.",
+          "sub": "🇬🇭"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
           "sub": "🇬🇭"
         },
         {
@@ -24783,19 +24783,19 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "52.8",
+          "possessionPct": "52.9",
           "totalShots": "5",
           "shotsOnTarget": "2",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "415",
-          "totalPasses": "450",
+          "accuratePasses": "416",
+          "totalPasses": "452",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "10",
           "crossPct": "0.2",
-          "totalLongBalls": "25",
+          "totalLongBalls": "26",
           "accurateLongBalls": "10",
           "longballPct": "0.4",
           "blockedShots": "1",
@@ -24813,14 +24813,14 @@
           "offsides": "1",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "47.2",
+          "possessionPct": "47.1",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "359",
-          "totalPasses": "396",
+          "totalPasses": "397",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "12",
@@ -24850,7 +24850,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "81'",
+      "clock": "82'",
       "events": [
         {
           "min": "72'",
