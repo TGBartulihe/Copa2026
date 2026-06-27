@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T05:00:12.725Z",
+  "generatedAt": "2026-06-27T05:01:17.332Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -23187,7 +23187,7 @@
       "venue": "Lumen Field",
       "iso": "2026-06-27T03:00Z",
       "sh": 1,
-      "sa": 2,
+      "sa": 1,
       "done": false,
       "live": true,
       "clock": "90'+6'",
@@ -23758,9 +23758,9 @@
           "wonCorners": "1",
           "saves": "2",
           "possessionPct": "37.7",
-          "totalShots": "11",
-          "shotsOnTarget": "5",
-          "shotPct": "0.5",
+          "totalShots": "10",
+          "shotsOnTarget": "4",
+          "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
           "accuratePasses": "268",
@@ -23805,7 +23805,7 @@
         {
           "min": "90'+4'",
           "icon": "⚽",
-          "txt": "Alexis Saelemaekers (Bélgica) remate com o pé direito no coração da área junto à base do poste esquerdo. Assistência de Romelu Lukaku.",
+          "txt": "Alexis Saelemaekers (Bélgica) remate com o pé direito no coração da área junto à base do poste esquerdo. Assistência de Romelu Lukaku após um contra-ataque.",
           "sub": "🇧🇪"
         },
         {
@@ -24301,8 +24301,8 @@
           "accurateCrosses": "2",
           "totalCrosses": "17",
           "crossPct": "0.1",
-          "totalLongBalls": "39",
-          "accurateLongBalls": "17",
+          "totalLongBalls": "38",
+          "accurateLongBalls": "16",
           "longballPct": "0.4",
           "blockedShots": "1",
           "effectiveTackles": "6",
