@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T22:15:15.285Z",
+  "generatedAt": "2026-06-27T22:16:14.798Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -24362,7 +24362,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "54'",
+      "clock": "55'",
       "events": [
         {
           "min": "45'",
@@ -24778,7 +24778,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "56'",
+      "clock": "57'",
       "events": [
         {
           "min": "55'",
@@ -24789,20 +24789,20 @@
         {
           "min": "55'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🏳️"
         },
         {
           "min": "55'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Jarell Quansah (Inglaterra).",
+          "sub": "🏳️"
+        },
+        {
+          "min": "54'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a lesão de José Luis Rodríguez (Panamá).",
           "sub": "🇵🇦"
-        },
-        {
-          "min": "55'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
-          "sub": "🏳️"
         },
         {
           "min": "53'",
@@ -25164,28 +25164,28 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "28.1",
-          "totalShots": "3",
+          "possessionPct": "28.6",
+          "totalShots": "4",
           "shotsOnTarget": "2",
-          "shotPct": "0.7",
+          "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "101",
-          "totalPasses": "143",
+          "accuratePasses": "105",
+          "totalPasses": "148",
           "passPct": "0.7",
           "accurateCrosses": "0",
           "totalCrosses": "3",
           "crossPct": "0.0",
-          "totalLongBalls": "34",
-          "accurateLongBalls": "15",
+          "totalLongBalls": "36",
+          "accurateLongBalls": "16",
           "longballPct": "0.4",
           "blockedShots": "0",
-          "effectiveTackles": "6",
-          "totalTackles": "10",
+          "effectiveTackles": "7",
+          "totalTackles": "11",
           "tacklePct": "0.6",
-          "interceptions": "3",
-          "effectiveClearance": "29",
-          "totalClearance": "29"
+          "interceptions": "4",
+          "effectiveClearance": "28",
+          "totalClearance": "28"
         },
         "away": {
           "foulsCommitted": "4",
@@ -25194,14 +25194,14 @@
           "offsides": "3",
           "wonCorners": "5",
           "saves": "2",
-          "possessionPct": "71.9",
-          "totalShots": "9",
+          "possessionPct": "71.4",
+          "totalShots": "10",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "337",
-          "totalPasses": "378",
+          "accuratePasses": "339",
+          "totalPasses": "381",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "15",
@@ -25210,8 +25210,8 @@
           "accurateLongBalls": "12",
           "longballPct": "0.6",
           "blockedShots": "1",
-          "effectiveTackles": "11",
-          "totalTackles": "12",
+          "effectiveTackles": "12",
+          "totalTackles": "13",
           "tacklePct": "0.9",
           "interceptions": "4",
           "effectiveClearance": "12",
