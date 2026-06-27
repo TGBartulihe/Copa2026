@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T04:33:15.050Z",
+  "generatedAt": "2026-06-27T04:34:13.617Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -23190,7 +23190,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "68'",
+      "clock": "69'",
       "events": [
         {
           "min": "69'",
@@ -23201,7 +23201,7 @@
         {
           "min": "69'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
           "sub": "🇪🇬"
         },
         {
@@ -23716,12 +23716,30 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "71'",
+      "clock": "72'",
       "events": [
         {
-          "min": "69'",
-          "icon": "⏸️",
-          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "min": "72'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇧🇪. Amadou Onana (Bélgica) Substituição aos 72'",
+          "sub": "🇧🇪"
+        },
+        {
+          "min": "72'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇧🇪. Alexis Saelemaekers (Bélgica) Substituição aos 72'",
+          "sub": "🇧🇪"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇳🇿"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇧🇪"
         },
         {
@@ -23729,6 +23747,12 @@
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇳🇿"
+        },
+        {
+          "min": "69'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇧🇪"
         },
         {
           "min": "66'",
@@ -24151,7 +24175,7 @@
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "245",
+          "accuratePasses": "246",
           "totalPasses": "296",
           "passPct": "0.8",
           "accurateCrosses": "1",
