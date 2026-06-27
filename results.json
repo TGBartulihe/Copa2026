@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T01:23:13.990Z",
+  "generatedAt": "2026-06-27T01:24:14.617Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -22026,7 +22026,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "59'",
+      "clock": "60'",
       "events": [
         {
           "min": "45'",
@@ -22501,9 +22501,15 @@
       "clock": "59'",
       "events": [
         {
+          "min": "60'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇪🇸. Fabián Ruiz (Espanha) Substituição aos 60'",
+          "sub": "🇪🇸"
+        },
+        {
           "min": "58'",
           "icon": "🟨",
-          "txt": "Guillermo Varela (Uruguai) Cartão Amarelo aos 58'",
+          "txt": "Guillermo Varela (Uruguai) recebe cartão amarelo.",
           "sub": "🇺🇾"
         },
         {
@@ -22913,13 +22919,13 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "5",
-          "yellowCards": "1",
+          "foulsCommitted": "6",
+          "yellowCards": "2",
           "redCards": "0",
           "offsides": "3",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "28.8",
+          "possessionPct": "28.2",
           "totalShots": "3",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
@@ -22939,8 +22945,8 @@
           "totalTackles": "19",
           "tacklePct": "0.6",
           "interceptions": "10",
-          "effectiveClearance": "10",
-          "totalClearance": "10"
+          "effectiveClearance": "11",
+          "totalClearance": "11"
         },
         "away": {
           "foulsCommitted": "10",
@@ -22949,24 +22955,24 @@
           "offsides": "1",
           "wonCorners": "6",
           "saves": "1",
-          "possessionPct": "71.2",
+          "possessionPct": "71.8",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "382",
-          "totalPasses": "428",
+          "accuratePasses": "394",
+          "totalPasses": "440",
           "passPct": "0.9",
           "accurateCrosses": "3",
-          "totalCrosses": "11",
+          "totalCrosses": "12",
           "crossPct": "0.3",
-          "totalLongBalls": "21",
+          "totalLongBalls": "22",
           "accurateLongBalls": "9",
           "longballPct": "0.4",
           "blockedShots": "1",
-          "effectiveTackles": "6",
-          "totalTackles": "12",
+          "effectiveTackles": "7",
+          "totalTackles": "13",
           "tacklePct": "0.5",
           "interceptions": "7",
           "effectiveClearance": "14",
