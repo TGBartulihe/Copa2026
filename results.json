@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T03:15:12.689Z",
+  "generatedAt": "2026-06-27T03:16:19.949Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -23190,12 +23190,12 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "14'",
+      "clock": "15'",
       "events": [
         {
           "min": "14'",
           "icon": "⚽",
-          "txt": "Ramin Rezaeian (IR Irã) finalização com o pé direito do lado direito da pequena área.",
+          "txt": "Ramin Rezaeian (IR Irã) finalização com o pé direito do lado direito da pequena área no Escanteio inferior direito.",
           "sub": "🇮🇷"
         },
         {
@@ -23548,8 +23548,8 @@
           "wonCorners": "0",
           "saves": "0",
           "possessionPct": "48.1",
-          "totalShots": "1",
-          "shotsOnTarget": "1",
+          "totalShots": "3",
+          "shotsOnTarget": "3",
           "shotPct": "1.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
@@ -23584,7 +23584,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "14'",
+      "clock": "15'",
       "events": [
         {
           "min": "14'",
@@ -23595,7 +23595,7 @@
         {
           "min": "13'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇧🇪"
         },
         {
@@ -23606,8 +23606,8 @@
         },
         {
           "min": "13'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Brandon Mechele (Bélgica).",
           "sub": "🇧🇪"
         },
         {
@@ -23892,29 +23892,29 @@
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "0",
-          "saves": "0",
-          "possessionPct": "12.6",
+          "saves": "1",
+          "possessionPct": "20.5",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "9",
-          "totalPasses": "16",
-          "passPct": "0.6",
+          "accuratePasses": "23",
+          "totalPasses": "31",
+          "passPct": "0.7",
           "accurateCrosses": "0",
           "totalCrosses": "1",
           "crossPct": "0.0",
-          "totalLongBalls": "4",
+          "totalLongBalls": "5",
           "accurateLongBalls": "1",
-          "longballPct": "0.3",
+          "longballPct": "0.2",
           "blockedShots": "0",
           "effectiveTackles": "3",
           "totalTackles": "4",
           "tacklePct": "0.8",
           "interceptions": "2",
-          "effectiveClearance": "15",
-          "totalClearance": "15"
+          "effectiveClearance": "14",
+          "totalClearance": "14"
         },
         "away": {
           "foulsCommitted": "0",
@@ -23923,14 +23923,14 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "87.4",
-          "totalShots": "4",
-          "shotsOnTarget": "1",
-          "shotPct": "0.3",
+          "possessionPct": "79.5",
+          "totalShots": "5",
+          "shotsOnTarget": "2",
+          "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "97",
-          "totalPasses": "111",
+          "accuratePasses": "103",
+          "totalPasses": "117",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "7",
@@ -23943,8 +23943,8 @@
           "totalTackles": "1",
           "tacklePct": "1.0",
           "interceptions": "1",
-          "effectiveClearance": "0",
-          "totalClearance": "0"
+          "effectiveClearance": "1",
+          "totalClearance": "1"
         }
       }
     },
