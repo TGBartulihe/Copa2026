@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T01:34:10.911Z",
+  "generatedAt": "2026-06-27T01:35:11.662Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -22026,12 +22026,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "70'",
+      "clock": "71'",
       "events": [
         {
           "min": "69'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
           "sub": "🇸🇦"
         },
         {
@@ -22509,8 +22509,8 @@
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "248",
-          "totalPasses": "313",
+          "accuratePasses": "249",
+          "totalPasses": "314",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "5",
@@ -22540,12 +22540,24 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "70'",
+      "clock": "71'",
       "events": [
+        {
+          "min": "70'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇺🇾. Brian Rodríguez entra no lugar de Juan Manuel Sanabria.",
+          "sub": "🇺🇾"
+        },
         {
           "min": "70'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
+          "sub": "🇺🇾"
+        },
+        {
+          "min": "70'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇪🇸"
         },
         {
