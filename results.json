@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T22:47:15.947Z",
+  "generatedAt": "2026-06-27T22:48:13.311Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -24362,8 +24362,20 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "85'",
+      "clock": "86'",
       "events": [
+        {
+          "min": "87'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇬🇭"
+        },
+        {
+          "min": "87'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇭🇷"
+        },
         {
           "min": "85'",
           "icon": "🔄",
@@ -24795,24 +24807,24 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "53.1",
+          "possessionPct": "53.7",
           "totalShots": "7",
           "shotsOnTarget": "4",
           "shotPct": "0.6",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "433",
-          "totalPasses": "472",
+          "accuratePasses": "444",
+          "totalPasses": "483",
           "passPct": "0.9",
           "accurateCrosses": "3",
-          "totalCrosses": "11",
+          "totalCrosses": "12",
           "crossPct": "0.3",
           "totalLongBalls": "31",
           "accurateLongBalls": "13",
           "longballPct": "0.4",
           "blockedShots": "1",
-          "effectiveTackles": "6",
-          "totalTackles": "10",
+          "effectiveTackles": "7",
+          "totalTackles": "11",
           "tacklePct": "0.6",
           "interceptions": "2",
           "effectiveClearance": "16",
@@ -24825,14 +24837,14 @@
           "offsides": "1",
           "wonCorners": "2",
           "saves": "2",
-          "possessionPct": "46.9",
+          "possessionPct": "46.3",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "372",
-          "totalPasses": "412",
+          "accuratePasses": "373",
+          "totalPasses": "413",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "12",
@@ -24845,8 +24857,8 @@
           "totalTackles": "10",
           "tacklePct": "0.6",
           "interceptions": "10",
-          "effectiveClearance": "7",
-          "totalClearance": "7"
+          "effectiveClearance": "8",
+          "totalClearance": "8"
         }
       }
     },
@@ -24862,12 +24874,12 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "87'",
+      "clock": "88'",
       "events": [
         {
           "min": "88'",
           "icon": "🔄",
-          "txt": "Substituição, 🇵🇦. Éric Davis (Panamá) Substituição aos 88'",
+          "txt": "Substituição, 🇵🇦. Éric Davis substitui Jorge Gutiérrez.",
           "sub": "🇵🇦"
         },
         {
