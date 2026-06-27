@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T04:34:13.617Z",
+  "generatedAt": "2026-06-27T04:35:14.767Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -23190,7 +23190,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "69'",
+      "clock": "70'",
       "events": [
         {
           "min": "69'",
@@ -23650,9 +23650,9 @@
           "wonCorners": "8",
           "saves": "2",
           "possessionPct": "64.8",
-          "totalShots": "12",
+          "totalShots": "13",
           "shotsOnTarget": "3",
-          "shotPct": "0.3",
+          "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "404",
@@ -23664,7 +23664,7 @@
           "totalLongBalls": "29",
           "accurateLongBalls": "14",
           "longballPct": "0.5",
-          "blockedShots": "5",
+          "blockedShots": "6",
           "effectiveTackles": "9",
           "totalTackles": "15",
           "tacklePct": "0.6",
@@ -23695,9 +23695,9 @@
           "accurateLongBalls": "23",
           "longballPct": "0.4",
           "blockedShots": "0",
-          "effectiveTackles": "12",
+          "effectiveTackles": "13",
           "totalTackles": "19",
-          "tacklePct": "0.6",
+          "tacklePct": "0.7",
           "interceptions": "5",
           "effectiveClearance": "23",
           "totalClearance": "23"
@@ -23716,18 +23716,18 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "72'",
+      "clock": "73'",
       "events": [
         {
           "min": "72'",
           "icon": "🔄",
-          "txt": "Substituição, 🇧🇪. Amadou Onana (Bélgica) Substituição aos 72'",
+          "txt": "Substituição, 🇧🇪. Entra Amadou Onana substituindo Kevin De Bruyne.",
           "sub": "🇧🇪"
         },
         {
           "min": "72'",
           "icon": "🔄",
-          "txt": "Substituição, 🇧🇪. Alexis Saelemaekers (Bélgica) Substituição aos 72'",
+          "txt": "Substituição, 🇧🇪. Entra Alexis Saelemaekers para o lugar de Leandro Trossard.",
           "sub": "🇧🇪"
         },
         {
@@ -24163,13 +24163,13 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "7",
+          "foulsCommitted": "8",
           "yellowCards": "2",
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "3",
           "saves": "4",
-          "possessionPct": "42.1",
+          "possessionPct": "41.8",
           "totalShots": "3",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
@@ -24199,14 +24199,14 @@
           "offsides": "1",
           "wonCorners": "7",
           "saves": "1",
-          "possessionPct": "57.9",
+          "possessionPct": "58.2",
           "totalShots": "26",
           "shotsOnTarget": "7",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "360",
-          "totalPasses": "411",
+          "accuratePasses": "366",
+          "totalPasses": "417",
           "passPct": "0.9",
           "accurateCrosses": "5",
           "totalCrosses": "14",
