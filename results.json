@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T03:28:12.957Z",
+  "generatedAt": "2026-06-27T03:29:14.143Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -23190,7 +23190,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "27'",
+      "clock": "28'",
       "events": [
         {
           "min": "26'",
@@ -23611,10 +23611,10 @@
       "venue": "BC Place",
       "iso": "2026-06-27T03:00Z",
       "sh": 0,
-      "sa": 0,
+      "sa": 1,
       "done": false,
       "live": true,
-      "clock": "27'",
+      "clock": "28'",
       "events": [
         {
           "min": "26'",
@@ -23959,7 +23959,7 @@
           "offsides": "1",
           "wonCorners": "0",
           "saves": "2",
-          "possessionPct": "26.4",
+          "possessionPct": "26",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
@@ -23989,14 +23989,14 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "0",
-          "possessionPct": "73.6",
+          "possessionPct": "74",
           "totalShots": "7",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "136",
-          "totalPasses": "154",
+          "accuratePasses": "139",
+          "totalPasses": "157",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "8",
