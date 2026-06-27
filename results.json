@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T04:27:15.106Z",
+  "generatedAt": "2026-06-27T04:28:13.597Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -23190,7 +23190,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "62'",
+      "clock": "63'",
       "events": [
         {
           "min": "57'",
@@ -23703,13 +23703,13 @@
         {
           "min": "64'",
           "icon": "🔄",
-          "txt": "Substituição, 🇳🇿. Substituição de Callum McCowatt (Nova Zelândia) aos 64'",
+          "txt": "Substituição, 🇳🇿. Callum McCowatt substitui Joe Bell.",
           "sub": "🇳🇿"
         },
         {
           "min": "64'",
           "icon": "🔄",
-          "txt": "Substituição, 🇳🇿. Substituição de Michael Boxall (Nova Zelândia) aos 64'",
+          "txt": "Substituição, 🇳🇿. Michael Boxall substitui Tim Payne.",
           "sub": "🇳🇿"
         },
         {
@@ -24116,10 +24116,10 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "228",
-          "totalPasses": "277",
+          "totalPasses": "278",
           "passPct": "0.8",
           "accurateCrosses": "1",
-          "totalCrosses": "12",
+          "totalCrosses": "13",
           "crossPct": "0.1",
           "totalLongBalls": "27",
           "accurateLongBalls": "11",
@@ -24140,13 +24140,13 @@
           "wonCorners": "7",
           "saves": "1",
           "possessionPct": "58.6",
-          "totalShots": "23",
+          "totalShots": "24",
           "shotsOnTarget": "6",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "345",
-          "totalPasses": "396",
+          "accuratePasses": "348",
+          "totalPasses": "399",
           "passPct": "0.9",
           "accurateCrosses": "4",
           "totalCrosses": "14",
@@ -24159,8 +24159,8 @@
           "totalTackles": "6",
           "tacklePct": "0.7",
           "interceptions": "7",
-          "effectiveClearance": "19",
-          "totalClearance": "19"
+          "effectiveClearance": "21",
+          "totalClearance": "21"
         }
       }
     },
