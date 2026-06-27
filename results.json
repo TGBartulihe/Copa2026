@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T23:47:11.416Z",
+  "generatedAt": "2026-06-27T23:48:13.910Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -25495,7 +25495,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "16'",
+      "clock": "17'",
       "events": [
         {
           "min": "",
@@ -25857,7 +25857,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "15'",
+      "clock": "16'",
       "events": [
         {
           "min": "10'",
@@ -26034,12 +26034,12 @@
               "row": 1
             },
             {
-              "name": "Otabek Shukurov",
+              "name": "Akmal Mozgovoy",
               "pos": "CM-L",
               "row": 2
             },
             {
-              "name": "Akmal Mozgovoy",
+              "name": "Otabek Shukurov",
               "pos": "CM-R",
               "row": 2
             },
@@ -26158,14 +26158,14 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "47.2",
+          "possessionPct": "51.6",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "52",
-          "totalPasses": "67",
+          "accuratePasses": "63",
+          "totalPasses": "80",
           "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "1",
@@ -26188,7 +26188,7 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "52.8",
+          "possessionPct": "48.4",
           "totalShots": "1",
           "shotsOnTarget": "1",
           "shotPct": "1.0",
@@ -26207,9 +26207,9 @@
           "effectiveTackles": "5",
           "totalTackles": "5",
           "tacklePct": "1.0",
-          "interceptions": "4",
-          "effectiveClearance": "4",
-          "totalClearance": "4"
+          "interceptions": "3",
+          "effectiveClearance": "6",
+          "totalClearance": "6"
         }
       }
     },
