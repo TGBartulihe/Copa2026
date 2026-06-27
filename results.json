@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T03:04:16.499Z",
+  "generatedAt": "2026-06-27T03:05:12.236Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -23190,7 +23190,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "3'",
+      "clock": "4'",
       "events": [
         {
           "min": "",
@@ -23361,28 +23361,28 @@
               "row": 1
             },
             {
-              "name": "Mohammad Ghorbani",
-              "pos": "CM",
-              "row": 2
-            },
-            {
-              "name": "Saeid Ezatolahi",
+              "name": "Mehdi Taremi",
               "pos": "CM-L",
               "row": 2
             },
             {
-              "name": "Saman Ghoddos",
+              "name": "Mohammad Ghorbani",
               "pos": "CM-R",
               "row": 2
             },
             {
-              "name": "Mohammad Mohebbi",
-              "pos": "CF-L",
-              "row": 3
+              "name": "Saeid Ezatolahi",
+              "pos": "LM",
+              "row": 2
             },
             {
-              "name": "Mehdi Taremi",
-              "pos": "CF-R",
+              "name": "Saman Ghoddos",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Mohammad Mohebbi",
+              "pos": "F",
               "row": 3
             }
           ],
@@ -23463,7 +23463,7 @@
               "row": 3
             }
           ],
-          "formation": "5-3-2",
+          "formation": "5-4-1",
           "dotColor": "#da0000"
         }
       },
@@ -23475,15 +23475,15 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "25",
+          "possessionPct": "64.6",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "3",
-          "totalPasses": "4",
-          "passPct": "0.8",
+          "accuratePasses": "28",
+          "totalPasses": "31",
+          "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
@@ -23505,25 +23505,25 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "75",
+          "possessionPct": "35.4",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "11",
-          "totalPasses": "12",
-          "passPct": "0.9",
+          "accuratePasses": "13",
+          "totalPasses": "17",
+          "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
-          "totalLongBalls": "2",
+          "totalLongBalls": "5",
           "accurateLongBalls": "1",
-          "longballPct": "0.5",
+          "longballPct": "0.2",
           "blockedShots": "0",
-          "effectiveTackles": "2",
+          "effectiveTackles": "3",
           "totalTackles": "3",
-          "tacklePct": "0.7",
+          "tacklePct": "1.0",
           "interceptions": "0",
           "effectiveClearance": "0",
           "totalClearance": "0"
@@ -23542,7 +23542,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "3'",
+      "clock": "4'",
       "events": [
         {
           "min": "",
