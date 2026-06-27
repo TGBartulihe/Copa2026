@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T21:03:14.062Z",
+  "generatedAt": "2026-06-27T21:04:11.293Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -24362,7 +24362,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "1'",
+      "clock": "3'",
       "events": [
         {
           "min": "",
@@ -24410,7 +24410,7 @@
               "row": 2
             },
             {
-              "name": "Petar Sucic",
+              "name": "Nikola Vlasic",
               "pos": "AM",
               "row": 2.5
             },
@@ -24420,7 +24420,7 @@
               "row": 2.5
             },
             {
-              "name": "Nikola Vlasic",
+              "name": "Petar Sucic",
               "pos": "AM-R",
               "row": 2.5
             },
@@ -24663,13 +24663,13 @@
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "6",
-          "totalPasses": "6",
+          "accuratePasses": "26",
+          "totalPasses": "27",
           "passPct": "1.0",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
-          "totalLongBalls": "0",
+          "totalLongBalls": "1",
           "accurateLongBalls": "0",
           "longballPct": "0.0",
           "blockedShots": "0",
@@ -24724,7 +24724,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "2'",
+      "clock": "3'",
       "events": [
         {
           "min": "",
