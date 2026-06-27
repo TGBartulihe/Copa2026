@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T04:48:14.397Z",
+  "generatedAt": "2026-06-27T04:49:15.298Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -23190,7 +23190,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "84'",
+      "clock": "85'",
       "events": [
         {
           "min": "82'",
@@ -23201,13 +23201,7 @@
         {
           "min": "82'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇪🇬"
-        },
-        {
-          "min": "82'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇪🇬"
         },
         {
@@ -23215,6 +23209,12 @@
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇮🇷"
+        },
+        {
+          "min": "82'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Ahmed Fatouh (Egito).",
+          "sub": "🇪🇬"
         },
         {
           "min": "79'",
@@ -23761,21 +23761,27 @@
       "venue": "BC Place",
       "iso": "2026-06-27T03:00Z",
       "sh": 1,
-      "sa": 3,
+      "sa": 4,
       "done": false,
       "live": true,
-      "clock": "86'",
+      "clock": "87'",
       "events": [
         {
-          "min": "85'",
-          "icon": "🔄",
-          "txt": "Substituição, 🇧🇪. Substituição de Nicolas Raskin (Bélgica) aos 85'",
+          "min": "86'",
+          "icon": "⚽",
+          "txt": "Romelu Lukaku (Bélgica) de cabeça de muito perto para o centro do gol. Assistência de Nicolás Raskin com um cruzamento.",
           "sub": "🇧🇪"
         },
         {
           "min": "85'",
           "icon": "🔄",
-          "txt": "Substituição, 🇧🇪. Romelu Lukaku (Bélgica) Substituição aos 85'",
+          "txt": "Substituição, 🇧🇪. Entra Nicolas Raskin para o lugar de Youri Tielemans.",
+          "sub": "🇧🇪"
+        },
+        {
+          "min": "85'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇧🇪. Romelu Lukaku entra em campo e entra Charles De Ketelaere.",
           "sub": "🇧🇪"
         },
         {
@@ -24241,14 +24247,14 @@
           "offsides": "1",
           "wonCorners": "5",
           "saves": "4",
-          "possessionPct": "43.5",
+          "possessionPct": "43.1",
           "totalShots": "6",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "303",
-          "totalPasses": "363",
+          "accuratePasses": "304",
+          "totalPasses": "366",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "17",
@@ -24271,20 +24277,20 @@
           "offsides": "1",
           "wonCorners": "7",
           "saves": "1",
-          "possessionPct": "56.5",
-          "totalShots": "30",
-          "shotsOnTarget": "7",
-          "shotPct": "0.2",
+          "possessionPct": "56.9",
+          "totalShots": "31",
+          "shotsOnTarget": "8",
+          "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "422",
-          "totalPasses": "481",
+          "accuratePasses": "433",
+          "totalPasses": "492",
           "passPct": "0.9",
-          "accurateCrosses": "5",
-          "totalCrosses": "14",
+          "accurateCrosses": "6",
+          "totalCrosses": "15",
           "crossPct": "0.4",
-          "totalLongBalls": "41",
-          "accurateLongBalls": "27",
+          "totalLongBalls": "43",
+          "accurateLongBalls": "29",
           "longballPct": "0.7",
           "blockedShots": "12",
           "effectiveTackles": "8",
