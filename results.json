@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T04:07:13.133Z",
+  "generatedAt": "2026-06-27T04:08:14.638Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -23193,6 +23193,12 @@
       "clock": "45'+6'",
       "events": [
         {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇮🇷. Entra Saleh Hardani para o lugar de Hossein Kanani.",
+          "sub": "🇮🇷"
+        },
+        {
           "min": "45'+6'",
           "icon": "⏱️",
           "txt": "Fim do primeiro tempo, Egypt 1, IR Iran 1.",
@@ -23646,6 +23652,24 @@
       "live": true,
       "clock": "45'+6'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🏳️"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇳🇿. Entra Jesse Randall para o lugar de Sarpreet Singh.",
+          "sub": "🇳🇿"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇳🇿. Ben Old substitui Ryan Thomas.",
+          "sub": "🇳🇿"
+        },
         {
           "min": "45'+7'",
           "icon": "⏱️",
