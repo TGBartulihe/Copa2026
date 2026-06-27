@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-27T00:00:14.179Z",
+  "generatedAt": "2026-06-27T00:01:21.491Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -22549,6 +22549,22 @@
       "clock": "",
       "events": [],
       "round": "oitavas"
+    },
+    {
+      "espnId": "760510",
+      "home": "Round of 16 1 Winner",
+      "away": "Round of 16 2 Winner",
+      "date": "09/07",
+      "brTime": "17h",
+      "venue": "Gillette Stadium",
+      "iso": "2026-07-09T20:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "final"
     }
   ]
 }
