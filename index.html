@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="pt-BR">
 <head>
 <meta charset="UTF-8"/>
@@ -1072,15 +1072,41 @@ function bHoje(){
   const tDone=real.filter(r=>r.date===today&&r.done);
   const tNext=real.filter(r=>r.date===today&&!r.done&&!r.live);
   const yestGames=real.filter(r=>r.date===yest&&r.done);
+
+  // Mata-mata também conta como "hoje"/"ontem" — sem isto, um confronto
+  // agendado para hoje (ex: avos) não aparecia em lado nenhum desta tab,
+  // mesmo já aparecendo certo em Próximos/Mata-Mata
+  const ko=KO_MATCHES||[];
+  const koLive=ko.filter(k=>k.live);
+  const koTDone=ko.filter(k=>k.date===today&&k.done);
+  const koTNext=ko.filter(k=>k.date===today&&!k.done&&!k.live);
+  const koYest=ko.filter(k=>k.date===yest&&k.done);
+
   let h="";
-  if(live.length){h+=lbl("🔴 AO VIVO AGORA");live.forEach(r=>{h+=card(r,true);});}
-  if(tDone.length){h+=lbl(`✅ HOJE ENCERRADOS — ${today}`,true);tDone.forEach(r=>{h+=card(r);});}
-  if(tNext.length){h+=lbl(`⏰ MAIS TARDE HOJE — ${today}`,true);tNext.forEach(r=>{h+=card(r,false,true);});}
-  if(!live.length&&!tDone.length&&!tNext.length){
+  if(live.length||koLive.length){
+    h+=lbl("🔴 AO VIVO AGORA");
+    live.forEach(r=>{h+=card(r,true);});
+    koLive.forEach(k=>{h+=bracketBox(k.home,k.away,k.sh,k.sa,"live",`🔴 AO VIVO · ${k.clock||""}'`,isFav(k.home),isFav(k.away));});
+  }
+  if(tDone.length||koTDone.length){
+    h+=lbl(`✅ HOJE ENCERRADOS — ${today}`,true);
+    tDone.forEach(r=>{h+=card(r);});
+    koTDone.forEach(k=>{h+=bracketBox(k.home,k.away,k.sh,k.sa,"done",`✅ ${k.round||""}`,isFav(k.home),isFav(k.away));});
+  }
+  if(tNext.length||koTNext.length){
+    h+=lbl(`⏰ MAIS TARDE HOJE — ${today}`,true);
+    tNext.forEach(r=>{h+=card(r,false,true);});
+    koTNext.forEach(k=>{h+=bracketBox(k.home,k.away,k.sh,k.sa,"scheduled",`⏰ ${k.brTime||""} · ${k.venue||""}`,isFav(k.home),isFav(k.away));});
+  }
+  if(!live.length&&!tDone.length&&!tNext.length&&!koLive.length&&!koTDone.length&&!koTNext.length){
     h+=`<div style="background:#1d2e1f;border:1px solid #111;border-radius:7px;padding:16px;text-align:center;color:#677a67;font-size:12px;margin-bottom:12px">
       Sem jogos hoje (${today})<br><span style="font-size:10px;margin-top:4px;display:block">Ver aba 📅 Próximos para os próximos jogos</span></div>`;
   }
-  if(yestGames.length){h+=lbl(`📋 ONTEM — ${yest}`,true);yestGames.forEach(r=>{h+=card(r);});}
+  if(yestGames.length||koYest.length){
+    h+=lbl(`📋 ONTEM — ${yest}`,true);
+    yestGames.forEach(r=>{h+=card(r);});
+    koYest.forEach(k=>{h+=bracketBox(k.home,k.away,k.sh,k.sa,"done",`✅ ${k.round||""}`,isFav(k.home),isFav(k.away));});
+  }
   return h;
 }
 
@@ -1494,7 +1520,7 @@ function bracketBox(homeLabel,awayLabel,sh,sa,status,meta,favHome,favAway){
   // seleção real tem sempre bandeira; um placeholder ("Vencedor Grupo H")
   // nunca tem. Um jogo agendado com as duas equipas já confirmadas NÃO
   // deve ficar esmaecido só por ainda não ter sido jogado.
-  const hasFlag=n=>/\p{Regional_Indicator}{2}/u.test(n||"");
+  const hasFlag=n=>/\p{Regional_Indicator}{2}/u.test(n||"")||/\u{1F3F4}/u.test(n||"");
   const teamsResolved=hasFlag(homeLabel)&&hasFlag(awayLabel);
   const scoreCls=isLive?"live":!isDone?"tbd":"";
   const scoreTxt=isDone?`${sh}–${sa}`:isLive?`${sh??0}–${sa??0}`:"vs";
@@ -1679,7 +1705,13 @@ function bProx(){
   const pending=all.filter(r=>r.pending);
   const upcoming=all.filter(r=>!r.pending).sort((a,b)=>dateSortKey(a.date)-dateSortKey(b.date));
 
-  if(!upcoming.length && !pending.length){
+  // Mata-mata também conta como "próximo jogo" no modo Por Dia — sem isto,
+  // esta vista ficava vazia assim que a fase de grupos terminasse, mesmo
+  // havendo confrontos por vir (só visíveis manualmente no filtro Mata-Mata)
+  let koUp=(KO_MATCHES||[]).filter(k=>!k.done);
+  if(PROX_FAV_ONLY) koUp=koUp.filter(k=>isFav(k.home)||isFav(k.away));
+
+  if(!upcoming.length && !pending.length && !koUp.length){
     return h+`<div class="no-g">${PROX_FAV_ONLY?"Nenhum jogo futuro das tuas seleções favoritas cadastrado ainda.":"Sem jogos futuros cadastrados ainda."}<br><span style="font-size:10px;color:#5a6a58">O robô adiciona automaticamente conforme a ESPN confirma novos jogos — tenta o Refresh.</span></div>`;
   }
 
@@ -1701,8 +1733,13 @@ function bProx(){
       uncat.forEach(r=>{h+=uc(r);});
     }
   } else {
+    const combined=[
+      ...upcoming.map(r=>({...r,_ko:false})),
+      ...koUp.map(k=>({...k,_ko:true})),
+    ].sort((a,b)=>dateSortKey(a.date)-dateSortKey(b.date));
+
     let lastDate=null, first=true;
-    upcoming.forEach(r=>{
+    combined.forEach(r=>{
       if(r.date!==lastDate){
         lastDate=r.date;
         let label=r.date||"DATA A CONFIRMAR";
@@ -1711,7 +1748,11 @@ function bProx(){
         h+=lbl(label,!first||pending.length>0);
         first=false;
       }
-      h+=uc(r);
+      if(r._ko){
+        h+=bracketBox(r.home,r.away,r.sh,r.sa,r.live?"live":"scheduled",`⏰ ${r.brTime||""} · ${r.venue||""}`,isFav(r.home),isFav(r.away));
+      } else {
+        h+=uc(r);
+      }
     });
   }
   return h;
@@ -1743,7 +1784,10 @@ function ft(r){if(!r.brTime)return{time:"",date:r.date||""};return localTime(r.b
 
 // ── MINUTO A MINUTO — tab própria, jogos ao vivo em formato espaçoso ────────
 function bMinuto(){
-  const live=RES.filter(r=>r.live);
+  // Mata-mata também conta como "ao vivo" — o robô já guarda eventos,
+  // escalação e estatísticas da mesma forma para confrontos do KO_MATCHES,
+  // por isso entram aqui igual aos jogos de grupo, sem precisar de outra lógica
+  const live=[...RES.filter(r=>r.live), ...(KO_MATCHES||[]).filter(k=>k.live)];
   if(!live.length){
     return `<div class="no-g">📻 Nenhum jogo ao vivo neste momento.<br>
       <span style="font-size:10px;color:#5e7a5c">Quando houver jogo a decorrer, os eventos minuto a minuto aparecem aqui automaticamente — gols, cartões e substituições.</span>
