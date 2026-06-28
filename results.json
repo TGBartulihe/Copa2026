@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T03:06:14.161Z",
+  "generatedAt": "2026-06-28T03:07:14.259Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26630,6 +26630,24 @@
       "clock": "45'+4'",
       "events": [
         {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇦🇹. Substituição de Paul Wanner (Áustria) aos 45'",
+          "sub": "🇦🇹"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇦🇹. Florian Grillitsch (Áustria) Substituição aos 45'",
+          "sub": "🇦🇹"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇦🇹. Michael Gregoritsch substitui Marko Arnautovic.",
+          "sub": "🇦🇹"
+        },
+        {
           "min": "45'+5'",
           "icon": "⏱️",
           "txt": "Intervalo",
@@ -27013,14 +27031,14 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "57.1",
+          "possessionPct": "57.4",
           "totalShots": "7",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "262",
-          "totalPasses": "291",
+          "accuratePasses": "265",
+          "totalPasses": "294",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "4",
@@ -27043,7 +27061,7 @@
           "offsides": "3",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "42.9",
+          "possessionPct": "42.6",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
@@ -27082,6 +27100,18 @@
       "live": true,
       "clock": "45'+6'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇯🇴. Substituição de Mousa Al-Tamari (Jordânia) aos 45'",
+          "sub": "🇯🇴"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇯🇴. Entra Mahmoud Al Mardi para o lugar de Odeh Fakhoury.",
+          "sub": "🇯🇴"
+        },
         {
           "min": "45'+6'",
           "icon": "⏱️",
@@ -27465,8 +27495,8 @@
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "120",
-          "totalPasses": "150",
+          "accuratePasses": "119",
+          "totalPasses": "151",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "4",
@@ -27496,12 +27526,12 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
           "accuratePasses": "351",
-          "totalPasses": "387",
+          "totalPasses": "389",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "2",
           "crossPct": "1.0",
-          "totalLongBalls": "9",
+          "totalLongBalls": "10",
           "accurateLongBalls": "4",
           "longballPct": "0.4",
           "blockedShots": "0",
