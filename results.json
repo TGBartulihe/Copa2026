@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T21:00:06.382Z",
+  "generatedAt": "2026-06-28T21:01:05.401Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -27875,14 +27875,14 @@
         {
           "min": "60'",
           "icon": "⏸️",
-          "txt": "Partida atrasada (África do Sul).",
-          "sub": "🇿🇦"
+          "txt": "Jogo paralisado",
+          "sub": "🇨🇦"
         },
         {
           "min": "60'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
-          "sub": "🇨🇦"
+          "txt": "Partida atrasada (África do Sul).",
+          "sub": "🇿🇦"
         },
         {
           "min": "59'",
@@ -27971,14 +27971,14 @@
         {
           "min": "23'",
           "icon": "⏸️",
-          "txt": "Atraso na partida para uma pausa para bebidas.",
-          "sub": "🇿🇦"
+          "txt": "Jogo paralisado",
+          "sub": "🇨🇦"
         },
         {
           "min": "23'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
-          "sub": "🇨🇦"
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇿🇦"
         },
         {
           "min": "15'",
@@ -28281,18 +28281,18 @@
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "467",
+          "accuratePasses": "466",
           "totalPasses": "550",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "8",
           "crossPct": "0.3",
           "totalLongBalls": "70",
-          "accurateLongBalls": "32",
-          "longballPct": "0.5",
+          "accurateLongBalls": "31",
+          "longballPct": "0.4",
           "blockedShots": "1",
-          "effectiveTackles": "13",
-          "totalTackles": "22",
+          "effectiveTackles": "14",
+          "totalTackles": "23",
           "tacklePct": "0.6",
           "interceptions": "16",
           "effectiveClearance": "34",
