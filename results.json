@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T20:33:06.629Z",
+  "generatedAt": "2026-06-28T20:34:04.959Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -27786,7 +27786,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "73'",
+      "clock": "74'",
       "events": [
         {
           "min": "70'",
@@ -28245,19 +28245,19 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "4",
-          "possessionPct": "59.6",
+          "possessionPct": "59.9",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "338",
-          "totalPasses": "399",
+          "accuratePasses": "341",
+          "totalPasses": "406",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "3",
           "crossPct": "0.3",
-          "totalLongBalls": "57",
+          "totalLongBalls": "58",
           "accurateLongBalls": "28",
           "longballPct": "0.5",
           "blockedShots": "1",
@@ -28275,14 +28275,14 @@
           "offsides": "0",
           "wonCorners": "4",
           "saves": "1",
-          "possessionPct": "40.4",
+          "possessionPct": "40.1",
           "totalShots": "9",
           "shotsOnTarget": "5",
           "shotPct": "0.6",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "198",
-          "totalPasses": "258",
+          "accuratePasses": "200",
+          "totalPasses": "260",
           "passPct": "0.8",
           "accurateCrosses": "5",
           "totalCrosses": "9",
@@ -28292,11 +28292,11 @@
           "longballPct": "0.6",
           "blockedShots": "0",
           "effectiveTackles": "10",
-          "totalTackles": "14",
+          "totalTackles": "15",
           "tacklePct": "0.7",
           "interceptions": "7",
-          "effectiveClearance": "3",
-          "totalClearance": "3"
+          "effectiveClearance": "4",
+          "totalClearance": "4"
         }
       },
       "round": "avos"
