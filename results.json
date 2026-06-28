@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T03:43:11.992Z",
+  "generatedAt": "2026-06-28T03:44:13.109Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26627,7 +26627,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "80'",
+      "clock": "81'",
       "events": [
         {
           "min": "71'",
@@ -27164,8 +27164,14 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "80'",
+      "clock": "81'",
       "events": [
+        {
+          "min": "82'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇦🇷. José Manuel López (Argentina) Substituição aos 82'",
+          "sub": "🇦🇷"
+        },
         {
           "min": "80'",
           "icon": "⚽",
@@ -27633,7 +27639,7 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "27",
+          "possessionPct": "26.8",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
@@ -27652,7 +27658,7 @@
           "effectiveTackles": "7",
           "totalTackles": "14",
           "tacklePct": "0.5",
-          "interceptions": "15",
+          "interceptions": "16",
           "effectiveClearance": "11",
           "totalClearance": "11"
         },
@@ -27663,20 +27669,20 @@
           "offsides": "3",
           "wonCorners": "3",
           "saves": "0",
-          "possessionPct": "73",
-          "totalShots": "9",
+          "possessionPct": "73.2",
+          "totalShots": "10",
           "shotsOnTarget": "4",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "646",
-          "totalPasses": "704",
+          "accuratePasses": "655",
+          "totalPasses": "714",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "2",
           "crossPct": "1.0",
-          "totalLongBalls": "19",
-          "accurateLongBalls": "9",
+          "totalLongBalls": "20",
+          "accurateLongBalls": "10",
           "longballPct": "0.5",
           "blockedShots": "0",
           "effectiveTackles": "2",
