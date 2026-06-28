@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T02:05:15.875Z",
+  "generatedAt": "2026-06-28T02:06:16.242Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26627,7 +26627,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "4'",
+      "clock": "5'",
       "events": [
         {
           "min": "1'",
@@ -27008,7 +27008,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "4'",
+      "clock": "5'",
       "events": [
         {
           "min": "",
@@ -27179,17 +27179,17 @@
               "row": 1
             },
             {
-              "name": "Giuliano Simeone",
+              "name": "Exequiel Palacios",
               "pos": "RB",
               "row": 1
             },
             {
-              "name": "Exequiel Palacios",
+              "name": "Leandro Paredes",
               "pos": "CM-L",
               "row": 2
             },
             {
-              "name": "Leandro Paredes",
+              "name": "Nico Paz",
               "pos": "CM-R",
               "row": 2
             },
@@ -27199,7 +27199,7 @@
               "row": 2
             },
             {
-              "name": "Nico Paz",
+              "name": "Giuliano Simeone",
               "pos": "RM",
               "row": 2
             },
