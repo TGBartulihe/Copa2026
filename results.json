@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T20:51:05.551Z",
+  "generatedAt": "2026-06-28T20:52:07.944Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -27783,11 +27783,17 @@
       "venue": "SoFi Stadium",
       "iso": "2026-06-28T19:00Z",
       "sh": 0,
-      "sa": 0,
+      "sa": 1,
       "done": false,
       "live": true,
       "clock": "90'+1'",
       "events": [
+        {
+          "min": "90'+2'",
+          "icon": "⚽",
+          "txt": "Stephen Eustáquio (Canadá) Gol aos 90'+2'",
+          "sub": "🇨🇦"
+        },
         {
           "min": "86'",
           "icon": "🔄",
