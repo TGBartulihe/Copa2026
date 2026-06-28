@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T02:09:14.546Z",
+  "generatedAt": "2026-06-28T02:10:12.329Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26627,7 +26627,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "8'",
+      "clock": "9'",
       "events": [
         {
           "min": "1'",
@@ -26832,7 +26832,7 @@
               "row": 2
             },
             {
-              "name": "Konrad Laimer",
+              "name": "Romano Schmid",
               "pos": "AM",
               "row": 2.5
             },
@@ -26842,7 +26842,7 @@
               "row": 2.5
             },
             {
-              "name": "Romano Schmid",
+              "name": "Konrad Laimer",
               "pos": "AM-R",
               "row": 2.5
             },
@@ -26941,14 +26941,14 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "60",
+          "possessionPct": "61.5",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "44",
-          "totalPasses": "51",
+          "accuratePasses": "49",
+          "totalPasses": "56",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "0",
@@ -26961,8 +26961,8 @@
           "totalTackles": "1",
           "tacklePct": "0.0",
           "interceptions": "1",
-          "effectiveClearance": "1",
-          "totalClearance": "1"
+          "effectiveClearance": "2",
+          "totalClearance": "2"
         },
         "away": {
           "foulsCommitted": "1",
@@ -26971,14 +26971,14 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "40",
-          "totalShots": "0",
+          "possessionPct": "38.5",
+          "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "25",
-          "totalPasses": "34",
+          "totalPasses": "35",
           "passPct": "0.7",
           "accurateCrosses": "0",
           "totalCrosses": "0",
@@ -27008,7 +27008,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "8'",
+      "clock": "9'",
       "events": [
         {
           "min": "",
