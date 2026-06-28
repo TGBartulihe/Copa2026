@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T00:15:10.864Z",
+  "generatedAt": "2026-06-28T00:16:14.593Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -25495,7 +25495,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "44'",
+      "clock": "45'",
       "events": [
         {
           "min": "31'",
@@ -25893,12 +25893,12 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "44'",
+      "clock": "45'",
       "events": [
         {
           "min": "43'",
           "icon": "🟨",
-          "txt": "Abdukodir Khusanov (Uzbequistão) Cartão Amarelo aos 43'",
+          "txt": "Abdukodir Khusanov (Uzbequistão) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇺🇿"
         },
         {
@@ -26266,14 +26266,14 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "59.1",
-          "totalShots": "2",
+          "possessionPct": "59.2",
+          "totalShots": "3",
           "shotsOnTarget": "1",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "161",
-          "totalPasses": "193",
+          "accuratePasses": "162",
+          "totalPasses": "195",
           "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "5",
@@ -26281,7 +26281,7 @@
           "totalLongBalls": "20",
           "accurateLongBalls": "10",
           "longballPct": "0.5",
-          "blockedShots": "0",
+          "blockedShots": "1",
           "effectiveTackles": "5",
           "totalTackles": "8",
           "tacklePct": "0.6",
@@ -26291,24 +26291,24 @@
         },
         "away": {
           "foulsCommitted": "8",
-          "yellowCards": "0",
+          "yellowCards": "1",
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "3",
           "saves": "0",
-          "possessionPct": "40.9",
+          "possessionPct": "40.8",
           "totalShots": "1",
           "shotsOnTarget": "1",
           "shotPct": "1.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "96",
-          "totalPasses": "125",
+          "totalPasses": "126",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "10",
           "crossPct": "0.2",
-          "totalLongBalls": "24",
+          "totalLongBalls": "25",
           "accurateLongBalls": "10",
           "longballPct": "0.4",
           "blockedShots": "0",
@@ -26316,8 +26316,8 @@
           "totalTackles": "14",
           "tacklePct": "0.7",
           "interceptions": "5",
-          "effectiveClearance": "16",
-          "totalClearance": "16"
+          "effectiveClearance": "17",
+          "totalClearance": "17"
         }
       }
     },
