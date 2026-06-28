@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T01:25:11.860Z",
+  "generatedAt": "2026-06-28T01:26:13.669Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -25495,7 +25495,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "90'+3'",
+      "clock": "90'+4'",
       "events": [
         {
           "min": "90'+3'",
@@ -25952,7 +25952,7 @@
           "offsides": "3",
           "wonCorners": "5",
           "saves": "2",
-          "possessionPct": "54.8",
+          "possessionPct": "54.3",
           "totalShots": "23",
           "shotsOnTarget": "6",
           "shotPct": "0.3",
@@ -25972,8 +25972,8 @@
           "totalTackles": "13",
           "tacklePct": "0.5",
           "interceptions": "5",
-          "effectiveClearance": "16",
-          "totalClearance": "16"
+          "effectiveClearance": "17",
+          "totalClearance": "17"
         },
         "away": {
           "foulsCommitted": "6",
@@ -25982,19 +25982,19 @@
           "offsides": "2",
           "wonCorners": "2",
           "saves": "6",
-          "possessionPct": "45.2",
-          "totalShots": "12",
+          "possessionPct": "45.7",
+          "totalShots": "13",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "394",
-          "totalPasses": "431",
+          "accuratePasses": "400",
+          "totalPasses": "439",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "14",
           "crossPct": "0.1",
-          "totalLongBalls": "29",
+          "totalLongBalls": "30",
           "accurateLongBalls": "20",
           "longballPct": "0.7",
           "blockedShots": "4",
@@ -26019,12 +26019,12 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "90'+1'",
+      "clock": "90'+2'",
       "events": [
         {
           "min": "90'+1'",
           "icon": "⚽",
-          "txt": "Yoane Wissa (RD Congo) finalização com o pé direito de fora da área.",
+          "txt": "Yoane Wissa (RD Congo) finalização com o pé direito de fora da área no Escanteio inferior direito. Assistência de Meschack Elia.",
           "sub": "🇨🇩"
         },
         {
@@ -26549,9 +26549,9 @@
           "wonCorners": "2",
           "saves": "1",
           "possessionPct": "59.2",
-          "totalShots": "16",
+          "totalShots": "17",
           "shotsOnTarget": "4",
-          "shotPct": "0.3",
+          "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
           "accuratePasses": "382",
