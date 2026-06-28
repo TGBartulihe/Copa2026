@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T03:51:20.174Z",
+  "generatedAt": "2026-06-28T03:52:13.555Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26627,7 +26627,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "89'",
+      "clock": "90'",
       "events": [
         {
           "min": "71'",
@@ -27166,6 +27166,12 @@
       "live": true,
       "clock": "89'",
       "events": [
+        {
+          "min": "90'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇯🇴. Mohammed Abu Zraiq (Jordânia) Substituição aos 90'",
+          "sub": "🇯🇴"
+        },
         {
           "min": "89'",
           "icon": "⏸️",
