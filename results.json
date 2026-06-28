@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T01:17:14.459Z",
+  "generatedAt": "2026-06-28T01:18:16.227Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -25495,7 +25495,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "85'",
+      "clock": "86'",
       "events": [
         {
           "min": "76'",
@@ -26001,12 +26001,12 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "83'",
+      "clock": "84'",
       "events": [
         {
           "min": "83'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇩. Substituição de Joris Kayembe (RD Congo) aos 83'",
+          "txt": "Substituição, 🇨🇩. Entra Joris Kayembe substituindo Arthur Masuaku.",
           "sub": "🇨🇩"
         },
         {
@@ -26018,7 +26018,7 @@
         {
           "min": "82'",
           "icon": "🔄",
-          "txt": "Substituição, 🇺🇿. Substituição de Jamshid Iskanderov (Uzbequistão) aos 82'",
+          "txt": "Substituição, 🇺🇿. Entra Jamshid Iskanderov substituindo Akmal Mozgovoy.",
           "sub": "🇺🇿"
         },
         {
@@ -26530,22 +26530,22 @@
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "352",
-          "totalPasses": "428",
+          "accuratePasses": "362",
+          "totalPasses": "439",
           "passPct": "0.8",
           "accurateCrosses": "4",
           "totalCrosses": "20",
           "crossPct": "0.2",
-          "totalLongBalls": "51",
-          "accurateLongBalls": "25",
+          "totalLongBalls": "52",
+          "accurateLongBalls": "26",
           "longballPct": "0.5",
           "blockedShots": "2",
           "effectiveTackles": "11",
-          "totalTackles": "15",
+          "totalTackles": "16",
           "tacklePct": "0.7",
-          "interceptions": "1",
-          "effectiveClearance": "18",
-          "totalClearance": "18"
+          "interceptions": "2",
+          "effectiveClearance": "19",
+          "totalClearance": "19"
         },
         "away": {
           "foulsCommitted": "14",
@@ -26560,8 +26560,8 @@
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "188",
-          "totalPasses": "252",
+          "accuratePasses": "194",
+          "totalPasses": "259",
           "passPct": "0.7",
           "accurateCrosses": "2",
           "totalCrosses": "12",
@@ -26570,10 +26570,10 @@
           "accurateLongBalls": "19",
           "longballPct": "0.4",
           "blockedShots": "0",
-          "effectiveTackles": "14",
-          "totalTackles": "24",
+          "effectiveTackles": "15",
+          "totalTackles": "25",
           "tacklePct": "0.6",
-          "interceptions": "11",
+          "interceptions": "12",
           "effectiveClearance": "38",
           "totalClearance": "38"
         }
