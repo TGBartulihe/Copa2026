@@ -1,0 +1,54 @@
+name: Corrigir os 7 Avos Classificados Como Oitavas
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Mudar round de oitavas para avos nos 7 confrontos confirmados
+        run: |
+          node -e "
+          const fs = require('fs');
+          const existing = JSON.parse(fs.readFileSync('results.json', 'utf8'));
+          function tkey(s){ return (s||'').normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[^a-zA-Z0-9]/g,'').toLowerCase(); }
+
+          // Os 7 confirmados como avos reais, mas guardados como oitavas
+          const realAvos = [
+            ['EUA','Bósnia'], ['Espanha','Áustria'], ['Portugal','Croácia'],
+            ['Suíça','Argélia'], ['Austrália','Egito'], ['Argentina','Cabo Verde'],
+            ['Colômbia','Gana'],
+          ].map(([h,a]) => [tkey(h), tkey(a)]);
+
+          let fixed = 0;
+          (existing.knockout||[]).forEach(k => {
+            const hk = tkey(k.home), ak = tkey(k.away);
+            const isMatch = realAvos.some(([h,a]) =>
+              (hk.includes(h)||h.includes(hk)) && (ak.includes(a)||a.includes(ak))
+            );
+            if(isMatch && k.round !== 'avos'){
+              console.log('Corrigido: ' + k.home + ' x ' + k.away + ' (' + k.round + ' -> avos)');
+              k.round = 'avos';
+              fixed++;
+            }
+          });
+
+          fs.writeFileSync('results.json', JSON.stringify(existing, null, 2));
+          console.log('');
+          console.log('Total corrigido: ' + fixed);
+          "
+
+      - name: Commit
+        run: |
+          git config user.name "actions-user"
+          git config user.email "actions@github.com"
+          git add results.json
+          git commit -m "Corrige 7 confrontos de avos que estavam classificados como oitavas" || echo "Nada para comitar"
+          git push
