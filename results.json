@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T00:36:17.030Z",
+  "generatedAt": "2026-06-28T00:37:14.375Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -25497,6 +25497,18 @@
       "live": true,
       "clock": "45'+3'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇹. Substituição de João Neves (Portugal) aos 45'",
+          "sub": "🇵🇹"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇹. Entra Diogo Dalot para o lugar de João Cancelo.",
+          "sub": "🇵🇹"
+        },
         {
           "min": "45'+4'",
           "icon": "⏱️",
