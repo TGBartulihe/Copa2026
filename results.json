@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T03:44:13.109Z",
+  "generatedAt": "2026-06-28T03:45:15.761Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26627,7 +26627,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "81'",
+      "clock": "82'",
       "events": [
         {
           "min": "71'",
@@ -27164,12 +27164,12 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "81'",
+      "clock": "82'",
       "events": [
         {
           "min": "82'",
           "icon": "🔄",
-          "txt": "Substituição, 🇦🇷. José Manuel López (Argentina) Substituição aos 82'",
+          "txt": "Substituição, 🇦🇷. José Manuel López substitui Julián Alvarez.",
           "sub": "🇦🇷"
         },
         {
@@ -27639,19 +27639,19 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "26.8",
+          "possessionPct": "27",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "204",
-          "totalPasses": "254",
+          "accuratePasses": "209",
+          "totalPasses": "260",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "6",
           "crossPct": "0.3",
-          "totalLongBalls": "34",
+          "totalLongBalls": "35",
           "accurateLongBalls": "15",
           "longballPct": "0.4",
           "blockedShots": "2",
@@ -27669,14 +27669,14 @@
           "offsides": "3",
           "wonCorners": "3",
           "saves": "0",
-          "possessionPct": "73.2",
+          "possessionPct": "73",
           "totalShots": "10",
           "shotsOnTarget": "4",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "655",
-          "totalPasses": "714",
+          "accuratePasses": "663",
+          "totalPasses": "722",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "2",
