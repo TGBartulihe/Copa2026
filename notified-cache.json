@@ -140,7 +140,8 @@
   "Colômbia 🇨🇴|Portugal 🇵🇹|27/06": {
     "goals": [],
     "notified10": true,
-    "notified5": true
+    "notified5": true,
+    "finalNotified": true
   },
   "Jordânia 🇯🇴|Argentina 🇦🇷|27/06": {
     "goals": []
