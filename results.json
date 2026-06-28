@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T02:49:11.904Z",
+  "generatedAt": "2026-06-28T02:50:15.076Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26627,7 +26627,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "45'+3'",
+      "clock": "45'+4'",
       "events": [
         {
           "min": "45'",
@@ -27007,28 +27007,28 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "55.6",
+          "possessionPct": "55.3",
           "totalShots": "7",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "238",
-          "totalPasses": "267",
+          "accuratePasses": "240",
+          "totalPasses": "269",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "4",
           "crossPct": "0.0",
-          "totalLongBalls": "18",
-          "accurateLongBalls": "10",
+          "totalLongBalls": "19",
+          "accurateLongBalls": "11",
           "longballPct": "0.6",
           "blockedShots": "1",
           "effectiveTackles": "4",
           "totalTackles": "9",
           "tacklePct": "0.4",
           "interceptions": "2",
-          "effectiveClearance": "15",
-          "totalClearance": "15"
+          "effectiveClearance": "16",
+          "totalClearance": "16"
         },
         "away": {
           "foulsCommitted": "4",
@@ -27037,14 +27037,14 @@
           "offsides": "3",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "44.4",
+          "possessionPct": "44.7",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "176",
-          "totalPasses": "210",
+          "accuratePasses": "180",
+          "totalPasses": "214",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "8",
@@ -27074,7 +27074,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "45'+4'",
+      "clock": "45'+5'",
       "events": [
         {
           "min": "31'",
