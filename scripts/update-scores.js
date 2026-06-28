@@ -346,10 +346,13 @@ function roundFromText(ev){
 function roundFromDate(isoDate){
   const d = new Date(isoDate).getTime();
   const w = (a,b) => d >= new Date(a).getTime() && d <= new Date(b).getTime();
-  if (w("2026-06-27T00:00:00Z","2026-07-01T23:59:59Z")) return "avos";
-  if (w("2026-07-02T00:00:00Z","2026-07-07T23:59:59Z")) return "oitavas";
-  if (w("2026-07-08T00:00:00Z","2026-07-13T23:59:59Z")) return "quartas";
-  if (w("2026-07-13T00:00:01Z","2026-07-16T23:59:59Z")) return "semis";
+  // Janela alargada com margem de segurança — confirmado com dados reais
+  // que os avos vão até 04/07 (UTC), não 01/07 como estava antes. Isso
+  // fazia 7 dos 16 confrontos reais caírem por engano em "oitavas".
+  if (w("2026-06-27T00:00:00Z","2026-07-04T23:59:59Z")) return "avos";
+  if (w("2026-07-05T00:00:00Z","2026-07-09T23:59:59Z")) return "oitavas";
+  if (w("2026-07-10T00:00:00Z","2026-07-14T23:59:59Z")) return "quartas";
+  if (w("2026-07-15T00:00:00Z","2026-07-16T23:59:59Z")) return "semis";
   if (w("2026-07-17T00:00:00Z","2026-07-19T23:59:59Z")) return "final";
   return null; // dentro da janela = fase de grupos
 }
