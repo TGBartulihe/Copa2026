@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T20:30:07.305Z",
+  "generatedAt": "2026-06-28T20:31:09.296Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -27786,8 +27786,32 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "69'",
+      "clock": "71'",
       "events": [
+        {
+          "min": "70'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇦. Substituição de Jacob Shaffelburg (Canadá) aos 70'",
+          "sub": "🇨🇦"
+        },
+        {
+          "min": "70'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇿🇦"
+        },
+        {
+          "min": "70'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇦. Promise David (Canadá) Substituição aos 70'",
+          "sub": "🇨🇦"
+        },
+        {
+          "min": "70'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇦"
+        },
         {
           "min": "67'",
           "icon": "⏸️",
