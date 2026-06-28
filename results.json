@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T20:36:05.903Z",
+  "generatedAt": "2026-06-28T20:37:05.770Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -27786,12 +27786,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "75'",
+      "clock": "76'",
       "events": [
         {
           "min": "75'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇦. Alphonso Davies (Canadá) Substituição aos 75'",
+          "txt": "Substituição, 🇨🇦. Entra Alphonso Davies para o lugar de Tajon Buchanan.",
           "sub": "🇨🇦"
         },
         {
@@ -28245,21 +28245,21 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "7",
+          "foulsCommitted": "8",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "1",
           "saves": "4",
-          "possessionPct": "61.2",
+          "possessionPct": "60.6",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "364",
-          "totalPasses": "428",
-          "passPct": "0.9",
+          "accuratePasses": "366",
+          "totalPasses": "431",
+          "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "4",
           "crossPct": "0.5",
@@ -28281,14 +28281,14 @@
           "offsides": "0",
           "wonCorners": "4",
           "saves": "1",
-          "possessionPct": "38.8",
-          "totalShots": "9",
+          "possessionPct": "39.4",
+          "totalShots": "10",
           "shotsOnTarget": "5",
-          "shotPct": "0.6",
+          "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "200",
-          "totalPasses": "260",
+          "accuratePasses": "208",
+          "totalPasses": "269",
           "passPct": "0.8",
           "accurateCrosses": "5",
           "totalCrosses": "9",
@@ -28297,10 +28297,10 @@
           "accurateLongBalls": "11",
           "longballPct": "0.6",
           "blockedShots": "0",
-          "effectiveTackles": "10",
-          "totalTackles": "14",
+          "effectiveTackles": "11",
+          "totalTackles": "16",
           "tacklePct": "0.7",
-          "interceptions": "7",
+          "interceptions": "8",
           "effectiveClearance": "4",
           "totalClearance": "4"
         }
