@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T00:38:11.724Z",
+  "generatedAt": "2026-06-28T00:39:11.468Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -25495,12 +25495,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "46'",
+      "clock": "47'",
       "events": [
         {
           "min": "45'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Início do segundo tempo Colômbia 0, Portugal 0.",
           "sub": "🏳️"
         },
         {
@@ -25850,7 +25850,7 @@
           "offsides": "2",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "54.8",
+          "possessionPct": "53.4",
           "totalShots": "12",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
@@ -25880,14 +25880,14 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "3",
-          "possessionPct": "45.2",
+          "possessionPct": "46.6",
           "totalShots": "9",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "192",
-          "totalPasses": "209",
+          "accuratePasses": "205",
+          "totalPasses": "222",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "9",
