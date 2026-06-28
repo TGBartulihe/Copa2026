@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T20:58:09.045Z",
+  "generatedAt": "2026-06-28T20:59:08.472Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28281,9 +28281,9 @@
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "468",
+          "accuratePasses": "467",
           "totalPasses": "550",
-          "passPct": "0.9",
+          "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "8",
           "crossPct": "0.3",
@@ -28573,7 +28573,7 @@
     },
     {
       "espnId": "760502",
-      "home": "Round of 32 1 Winner",
+      "home": "Canadá 🇨🇦",
       "away": "Round of 32 3 Winner",
       "date": "04/07",
       "brTime": "14h",
