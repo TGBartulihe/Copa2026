@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T03:32:14.282Z",
+  "generatedAt": "2026-06-28T03:33:14.020Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26627,8 +26627,20 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "70'",
+      "clock": "71'",
       "events": [
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇩🇿"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇦🇹"
+        },
         {
           "min": "68'",
           "icon": "⏸️",
@@ -27134,8 +27146,26 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "69'",
+      "clock": "71'",
       "events": [
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇦🇷. Substituição de Valentín Barco (Argentina) aos 71'",
+          "sub": "🇦🇷"
+        },
+        {
+          "min": "70'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇯🇴"
+        },
+        {
+          "min": "70'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇦🇷"
+        },
         {
           "min": "68'",
           "icon": "⏸️",
