@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T02:36:15.366Z",
+  "generatedAt": "2026-06-28T02:37:14.042Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26632,7 +26632,7 @@
         {
           "min": "28'",
           "icon": "⚽",
-          "txt": "Marko Arnautovic (Áustria) finalização com o pé direito de muito perto no Escanteio inferior direito. Assistência de David Alaba com um passe em profundidade.",
+          "txt": "Marko Arnautovic (Áustria) finalização com o pé direito do meio da área no Escanteio inferior direito. Assistência de David Alaba com um passe em profundidade.",
           "sub": "🇦🇹"
         },
         {
@@ -27001,14 +27001,14 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "54.3",
-          "totalShots": "2",
+          "possessionPct": "55.9",
+          "totalShots": "3",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "169",
-          "totalPasses": "192",
+          "accuratePasses": "185",
+          "totalPasses": "209",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "1",
@@ -27031,15 +27031,15 @@
           "offsides": "2",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "45.7",
+          "possessionPct": "44.1",
           "totalShots": "3",
           "shotsOnTarget": "2",
           "shotPct": "0.7",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "136",
-          "totalPasses": "160",
-          "passPct": "0.9",
+          "accuratePasses": "138",
+          "totalPasses": "163",
+          "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "4",
           "crossPct": "0.0",
@@ -27068,7 +27068,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "35'",
+      "clock": "36'",
       "events": [
         {
           "min": "31'",
