@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T02:31:16.968Z",
+  "generatedAt": "2026-06-28T02:32:16.029Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26627,7 +26627,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "31'",
+      "clock": "32'",
       "events": [
         {
           "min": "28'",
@@ -27001,20 +27001,20 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "52.3",
+          "possessionPct": "54.3",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "137",
-          "totalPasses": "157",
+          "accuratePasses": "149",
+          "totalPasses": "170",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "1",
           "crossPct": "0.0",
-          "totalLongBalls": "11",
-          "accurateLongBalls": "6",
+          "totalLongBalls": "13",
+          "accurateLongBalls": "7",
           "longballPct": "0.5",
           "blockedShots": "0",
           "effectiveTackles": "1",
@@ -27031,7 +27031,7 @@
           "offsides": "2",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "47.7",
+          "possessionPct": "45.7",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
@@ -27051,8 +27051,8 @@
           "totalTackles": "3",
           "tacklePct": "0.7",
           "interceptions": "9",
-          "effectiveClearance": "1",
-          "totalClearance": "1"
+          "effectiveClearance": "2",
+          "totalClearance": "2"
         }
       }
     },
@@ -27068,8 +27068,14 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "30'",
+      "clock": "31'",
       "events": [
+        {
+          "min": "31'",
+          "icon": "🟥",
+          "txt": "Gol! Jordan 0, Argentina 2. Lautaro Martínez (Argentina) converte o pênalti com um finalização com o pé direito.",
+          "sub": "🇦🇷"
+        },
         {
           "min": "30'",
           "icon": "▶️",
@@ -27429,7 +27435,7 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "1",
+          "foulsCommitted": "2",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "0",
@@ -27463,14 +27469,14 @@
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "1",
-          "wonCorners": "3",
+          "wonCorners": "2",
           "saves": "0",
           "possessionPct": "80.7",
           "totalShots": "4",
           "shotsOnTarget": "2",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
-          "penaltyKickShots": "0",
+          "penaltyKickShots": "1",
           "accuratePasses": "226",
           "totalPasses": "244",
           "passPct": "0.9",
