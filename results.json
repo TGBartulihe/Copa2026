@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T02:16:12.946Z",
+  "generatedAt": "2026-06-28T02:17:11.748Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26627,7 +26627,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "15'",
+      "clock": "16'",
       "events": [
         {
           "min": "12'",
@@ -26638,7 +26638,7 @@
         {
           "min": "12'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇩🇿"
         },
         {
@@ -26720,32 +26720,32 @@
             },
             {
               "name": "Nabil Bentaleb",
-              "pos": "CM",
-              "row": 2
-            },
-            {
-              "name": "Ibrahim Maza",
               "pos": "LM",
               "row": 2
             },
             {
-              "name": "Houssem Aouar",
+              "name": "Farès Chaïbi",
               "pos": "RM",
               "row": 2
             },
             {
-              "name": "Amine Gouiri",
-              "pos": "F",
-              "row": 3
+              "name": "Ibrahim Maza",
+              "pos": "AM",
+              "row": 2.5
             },
             {
-              "name": "Farès Chaïbi",
-              "pos": "LF",
-              "row": 3
+              "name": "Houssem Aouar",
+              "pos": "AM-L",
+              "row": 2.5
             },
             {
               "name": "Riyad Mahrez",
-              "pos": "RF",
+              "pos": "AM-R",
+              "row": 2.5
+            },
+            {
+              "name": "Amine Gouiri",
+              "pos": "F",
               "row": 3
             }
           ],
@@ -26821,7 +26821,7 @@
               "row": 3
             }
           ],
-          "formation": "4-3-3",
+          "formation": "4-2-3-1",
           "dotColor": "#4F9A44"
         },
         "away": {
@@ -26971,28 +26971,28 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "56.6",
+          "possessionPct": "60.2",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "58",
-          "totalPasses": "69",
-          "passPct": "0.8",
+          "accuratePasses": "86",
+          "totalPasses": "99",
+          "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
-          "totalLongBalls": "7",
-          "accurateLongBalls": "3",
-          "longballPct": "0.4",
+          "totalLongBalls": "10",
+          "accurateLongBalls": "6",
+          "longballPct": "0.6",
           "blockedShots": "0",
           "effectiveTackles": "2",
           "totalTackles": "3",
           "tacklePct": "0.7",
           "interceptions": "1",
-          "effectiveClearance": "5",
-          "totalClearance": "5"
+          "effectiveClearance": "7",
+          "totalClearance": "7"
         },
         "away": {
           "foulsCommitted": "2",
@@ -27001,19 +27001,19 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "43.4",
+          "possessionPct": "39.8",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "39",
-          "totalPasses": "52",
+          "accuratePasses": "49",
+          "totalPasses": "64",
           "passPct": "0.8",
           "accurateCrosses": "0",
-          "totalCrosses": "1",
+          "totalCrosses": "2",
           "crossPct": "0.0",
-          "totalLongBalls": "8",
+          "totalLongBalls": "9",
           "accurateLongBalls": "1",
           "longballPct": "0.1",
           "blockedShots": "0",
@@ -27021,8 +27021,8 @@
           "totalTackles": "3",
           "tacklePct": "0.7",
           "interceptions": "7",
-          "effectiveClearance": "0",
-          "totalClearance": "0"
+          "effectiveClearance": "1",
+          "totalClearance": "1"
         }
       }
     },
@@ -27038,7 +27038,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "15'",
+      "clock": "16'",
       "events": [
         {
           "min": "",
