@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T03:18:12.696Z",
+  "generatedAt": "2026-06-28T03:19:13.941Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26627,12 +26627,12 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "56'",
+      "clock": "57'",
       "events": [
         {
           "min": "55'",
           "icon": "⚽",
-          "txt": "Marcel Sabitzer (Áustria) finalização com o pé direito de fora da área.",
+          "txt": "Marcel Sabitzer (Áustria) finalização com o pé direito de fora da área no ângulo superior direito. Assistência de Konrad Laimer.",
           "sub": "🇦🇹"
         },
         {
@@ -27110,7 +27110,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "56'",
+      "clock": "57'",
       "events": [
         {
           "min": "55'",
@@ -27513,7 +27513,7 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "30.7",
+          "possessionPct": "30.5",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
@@ -27543,14 +27543,14 @@
           "offsides": "3",
           "wonCorners": "2",
           "saves": "0",
-          "possessionPct": "69.3",
+          "possessionPct": "69.5",
           "totalShots": "6",
           "shotsOnTarget": "3",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "414",
-          "totalPasses": "461",
+          "accuratePasses": "419",
+          "totalPasses": "466",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "2",
