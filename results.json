@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T02:46:15.408Z",
+  "generatedAt": "2026-06-28T02:47:11.170Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26627,12 +26627,12 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "45'",
+      "clock": "45'+1'",
       "events": [
         {
           "min": "45'",
           "icon": "⚽",
-          "txt": "Rafik Belghali (Argélia) Gol aos 45'",
+          "txt": "Rafik Belghali (Argélia) finalização com o pé esquerdo do meio da área ao ângulo superior direito.",
           "sub": "🇩🇿"
         },
         {
@@ -27008,19 +27008,19 @@
           "wonCorners": "0",
           "saves": "1",
           "possessionPct": "57.4",
-          "totalShots": "6",
-          "shotsOnTarget": "1",
-          "shotPct": "0.2",
+          "totalShots": "7",
+          "shotsOnTarget": "2",
+          "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "238",
+          "accuratePasses": "237",
           "totalPasses": "266",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "4",
           "crossPct": "0.0",
           "totalLongBalls": "18",
-          "accurateLongBalls": "11",
+          "accurateLongBalls": "10",
           "longballPct": "0.6",
           "blockedShots": "1",
           "effectiveTackles": "4",
@@ -27074,7 +27074,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "45'",
+      "clock": "45'+2'",
       "events": [
         {
           "min": "31'",
