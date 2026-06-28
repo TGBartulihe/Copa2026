@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T01:12:12.197Z",
+  "generatedAt": "2026-06-28T01:13:12.145Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -25495,7 +25495,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "80'",
+      "clock": "81'",
       "events": [
         {
           "min": "76'",
@@ -26001,12 +26001,12 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "78'",
+      "clock": "79'",
       "events": [
         {
           "min": "78'",
           "icon": "⚽",
-          "txt": "Fiston Mayele (Congo RD) finalização com o pé direito de muito perto depois de um contra-ataque.",
+          "txt": "Fiston Mayele (Congo RD) remate com o pé direito em frente à baliza ao ângulo superior esquerdo depois de um contra-ataque.",
           "sub": "🇨🇩"
         },
         {
@@ -26507,7 +26507,7 @@
           "wonCorners": "2",
           "saves": "1",
           "possessionPct": "64.9",
-          "totalShots": "13",
+          "totalShots": "14",
           "shotsOnTarget": "3",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
@@ -26521,7 +26521,7 @@
           "totalLongBalls": "48",
           "accurateLongBalls": "25",
           "longballPct": "0.5",
-          "blockedShots": "1",
+          "blockedShots": "2",
           "effectiveTackles": "11",
           "totalTackles": "15",
           "tacklePct": "0.7",
