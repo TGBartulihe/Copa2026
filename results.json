@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T19:24:08.616Z",
+  "generatedAt": "2026-06-28T19:25:07.611Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -27786,12 +27786,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "24'",
+      "clock": "25'",
       "events": [
         {
           "min": "23'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
           "sub": "🇿🇦"
         },
         {
@@ -28119,7 +28119,7 @@
           "totalClearance": "9"
         },
         "away": {
-          "foulsCommitted": "3",
+          "foulsCommitted": "4",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
@@ -28142,8 +28142,8 @@
           "longballPct": "0.6",
           "blockedShots": "0",
           "effectiveTackles": "2",
-          "totalTackles": "4",
-          "tacklePct": "0.5",
+          "totalTackles": "3",
+          "tacklePct": "0.7",
           "interceptions": "3",
           "effectiveClearance": "2",
           "totalClearance": "2"
