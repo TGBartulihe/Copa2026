@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T01:01:18.687Z",
+  "generatedAt": "2026-06-28T01:02:11.899Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -25495,7 +25495,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "69'",
+      "clock": "70'",
       "events": [
         {
           "min": "68'",
@@ -25961,12 +25961,18 @@
       "brTime": "20h",
       "venue": "Mercedes-Benz Stadium",
       "iso": "2026-06-27T23:30Z",
-      "sh": 0,
+      "sh": 1,
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "67'",
+      "clock": "69'",
       "events": [
+        {
+          "min": "68'",
+          "icon": "🟥",
+          "txt": "Gol! Congo RD 1, Uzbekistan 1. Yoane Wissa (Congo RD) converte o pênalti com um finalização com o pé direito.",
+          "sub": "🇨🇩"
+        },
         {
           "min": "62'",
           "icon": "🟨",
