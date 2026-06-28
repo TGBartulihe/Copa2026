@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T03:42:15.417Z",
+  "generatedAt": "2026-06-28T03:43:11.992Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26627,7 +26627,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "79'",
+      "clock": "80'",
       "events": [
         {
           "min": "71'",
@@ -27169,7 +27169,7 @@
         {
           "min": "80'",
           "icon": "⚽",
-          "txt": "Lionel Messi (Argentina) Gol de falta com finalização com o pé esquerdo.",
+          "txt": "Lionel Messi (Argentina) Gol de falta com um finalização com o pé esquerdo acertando no centro do gol.",
           "sub": "🇦🇷"
         },
         {
@@ -27633,14 +27633,14 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "26.6",
+          "possessionPct": "27",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "199",
-          "totalPasses": "248",
+          "accuratePasses": "204",
+          "totalPasses": "254",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "6",
@@ -27663,14 +27663,14 @@
           "offsides": "3",
           "wonCorners": "3",
           "saves": "0",
-          "possessionPct": "73.4",
+          "possessionPct": "73",
           "totalShots": "9",
           "shotsOnTarget": "4",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "645",
-          "totalPasses": "703",
+          "accuratePasses": "646",
+          "totalPasses": "704",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "2",
