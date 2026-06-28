@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T03:33:14.020Z",
+  "generatedAt": "2026-06-28T03:34:18.332Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26627,12 +26627,30 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "71'",
+      "clock": "72'",
       "events": [
         {
           "min": "71'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇩🇿. Samir Chergui (Argélia) Substituição aos 71'",
+          "sub": "🇩🇿"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇩🇿. Substituição de Zineddine Belaïd (Argélia) aos 71'",
+          "sub": "🇩🇿"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇩🇿. Rayan Aït-Nouri entra em campo com Jaouen Hadjam.",
+          "sub": "🇩🇿"
+        },
+        {
+          "min": "71'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇩🇿"
         },
         {
@@ -27146,12 +27164,12 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "71'",
+      "clock": "72'",
       "events": [
         {
           "min": "71'",
           "icon": "🔄",
-          "txt": "Substituição, 🇦🇷. Substituição de Valentín Barco (Argentina) aos 71'",
+          "txt": "Substituição, 🇦🇷. Valentín Barco entra em campo com Giuliano Simeone.",
           "sub": "🇦🇷"
         },
         {
@@ -27603,19 +27621,19 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "27.1",
+          "possessionPct": "26.8",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "172",
-          "totalPasses": "218",
+          "totalPasses": "219",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "5",
           "crossPct": "0.4",
-          "totalLongBalls": "30",
+          "totalLongBalls": "31",
           "accurateLongBalls": "13",
           "longballPct": "0.4",
           "blockedShots": "2",
@@ -27633,14 +27651,14 @@
           "offsides": "3",
           "wonCorners": "3",
           "saves": "0",
-          "possessionPct": "72.9",
+          "possessionPct": "73.2",
           "totalShots": "8",
           "shotsOnTarget": "3",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "548",
-          "totalPasses": "602",
+          "accuratePasses": "560",
+          "totalPasses": "614",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "2",
