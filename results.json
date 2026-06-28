@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T01:37:12.925Z",
+  "generatedAt": "2026-06-28T01:38:11.386Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26149,15 +26149,15 @@
         },
         {
           "min": "54'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a uma lesão de Akmal Mozgovoy (Uzbequistão).",
-          "sub": "🇺🇿"
-        },
-        {
-          "min": "54'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇨🇩"
+        },
+        {
+          "min": "54'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Akmal Mozgovoy (Uzbequistão).",
+          "sub": "🇺🇿"
         },
         {
           "min": "51'",
