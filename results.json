@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T03:55:14.531Z",
+  "generatedAt": "2026-06-28T03:56:17.198Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26623,12 +26623,18 @@
       "brTime": "23h",
       "venue": "GEHA Field at Arrowhead Stadium",
       "iso": "2026-06-28T02:00Z",
-      "sh": 2,
+      "sh": 3,
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "90'+3'",
+      "clock": "90'+4'",
       "events": [
+        {
+          "min": "90'+3'",
+          "icon": "⚽",
+          "txt": "Riyad Mahrez (Argélia) remate com o pé direito no coração da área.",
+          "sub": "🇩🇿"
+        },
         {
           "min": "71'",
           "icon": "🔄",
@@ -27097,20 +27103,20 @@
           "offsides": "1",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "60.1",
-          "totalShots": "11",
-          "shotsOnTarget": "4",
+          "possessionPct": "65.5",
+          "totalShots": "12",
+          "shotsOnTarget": "5",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "551",
-          "totalPasses": "596",
+          "accuratePasses": "705",
+          "totalPasses": "751",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "5",
           "crossPct": "0.0",
-          "totalLongBalls": "38",
-          "accurateLongBalls": "22",
+          "totalLongBalls": "41",
+          "accurateLongBalls": "25",
           "longballPct": "0.6",
           "blockedShots": "2",
           "effectiveTackles": "6",
@@ -27127,7 +27133,7 @@
           "offsides": "3",
           "wonCorners": "3",
           "saves": "2",
-          "possessionPct": "39.9",
+          "possessionPct": "34.5",
           "totalShots": "8",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
@@ -27147,8 +27153,8 @@
           "totalTackles": "10",
           "tacklePct": "0.4",
           "interceptions": "10",
-          "effectiveClearance": "18",
-          "totalClearance": "18"
+          "effectiveClearance": "19",
+          "totalClearance": "19"
         }
       }
     },
@@ -27164,7 +27170,7 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "90'+3'",
+      "clock": "90'+4'",
       "events": [
         {
           "min": "90'+1'",
@@ -27669,23 +27675,23 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "11",
+          "foulsCommitted": "12",
           "yellowCards": "2",
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "26.6",
+          "possessionPct": "26.8",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "221",
-          "totalPasses": "277",
+          "accuratePasses": "226",
+          "totalPasses": "282",
           "passPct": "0.8",
           "accurateCrosses": "2",
-          "totalCrosses": "6",
+          "totalCrosses": "7",
           "crossPct": "0.3",
           "totalLongBalls": "37",
           "accurateLongBalls": "15",
@@ -27705,14 +27711,14 @@
           "offsides": "3",
           "wonCorners": "6",
           "saves": "0",
-          "possessionPct": "73.4",
+          "possessionPct": "73.2",
           "totalShots": "12",
           "shotsOnTarget": "4",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "718",
-          "totalPasses": "780",
+          "accuratePasses": "724",
+          "totalPasses": "787",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "5",
@@ -27722,11 +27728,11 @@
           "longballPct": "0.6",
           "blockedShots": "1",
           "effectiveTackles": "4",
-          "totalTackles": "10",
+          "totalTackles": "11",
           "tacklePct": "0.4",
           "interceptions": "12",
-          "effectiveClearance": "10",
-          "totalClearance": "10"
+          "effectiveClearance": "11",
+          "totalClearance": "11"
         }
       }
     }
