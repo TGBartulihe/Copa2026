@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T03:07:14.259Z",
+  "generatedAt": "2026-06-28T03:08:18.380Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26631,14 +26631,20 @@
       "events": [
         {
           "min": "45'",
+          "icon": "▶️",
+          "txt": "Início do segundo tempo Argélia 1, Áustria 1.",
+          "sub": "🏳️"
+        },
+        {
+          "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, 🇦🇹. Substituição de Paul Wanner (Áustria) aos 45'",
+          "txt": "Substituição, 🇦🇹. Paul Wanner substitui Romano Schmid.",
           "sub": "🇦🇹"
         },
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, 🇦🇹. Florian Grillitsch (Áustria) Substituição aos 45'",
+          "txt": "Substituição, 🇦🇹. Entra Florian Grillitsch para o lugar de Xaver Schlager.",
           "sub": "🇦🇹"
         },
         {
@@ -27037,8 +27043,8 @@
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "265",
-          "totalPasses": "294",
+          "accuratePasses": "267",
+          "totalPasses": "296",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "4",
@@ -27067,20 +27073,20 @@
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "181",
-          "totalPasses": "215",
+          "accuratePasses": "182",
+          "totalPasses": "216",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "8",
           "crossPct": "0.1",
-          "totalLongBalls": "15",
-          "accurateLongBalls": "4",
+          "totalLongBalls": "16",
+          "accurateLongBalls": "5",
           "longballPct": "0.3",
           "blockedShots": "1",
           "effectiveTackles": "3",
           "totalTackles": "5",
           "tacklePct": "0.6",
-          "interceptions": "9",
+          "interceptions": "8",
           "effectiveClearance": "10",
           "totalClearance": "10"
         }
@@ -27098,12 +27104,18 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "45'+6'",
+      "clock": "46'",
       "events": [
         {
           "min": "45'",
+          "icon": "▶️",
+          "txt": "Início do segundo tempo Jordânia 0, Argentina 2.",
+          "sub": "🏳️"
+        },
+        {
+          "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, 🇯🇴. Substituição de Mousa Al-Tamari (Jordânia) aos 45'",
+          "txt": "Substituição, 🇯🇴. Entra Mousa Al Tamari substituindo Ali Azaizeh.",
           "sub": "🇯🇴"
         },
         {
@@ -27525,8 +27537,8 @@
           "shotPct": "0.6",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "351",
-          "totalPasses": "389",
+          "accuratePasses": "352",
+          "totalPasses": "390",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "2",
