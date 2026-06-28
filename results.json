@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T03:59:12.995Z",
+  "generatedAt": "2026-06-28T04:00:12.370Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26625,14 +26625,20 @@
       "iso": "2026-06-28T02:00Z",
       "sh": 3,
       "sa": 3,
-      "done": false,
-      "live": true,
-      "clock": "90'+7'",
+      "done": true,
+      "live": false,
+      "clock": "",
       "events": [
+        {
+          "min": "90'+7'",
+          "icon": "•",
+          "txt": "jogador",
+          "sub": "🏳️"
+        },
         {
           "min": "90'+6'",
           "icon": "⚽",
-          "txt": "Sasa Kalajdzic (Áustria) de cabeça no meio da área.",
+          "txt": "Sasa Kalajdzic (Áustria) de cabeça no coração da área ao lado inferior direito da baliza. Assistência de Michael Gregoritsch com um passe de cabeça.",
           "sub": "🇦🇹"
         },
         {
@@ -27127,8 +27133,8 @@
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "705",
-          "totalPasses": "754",
+          "accuratePasses": "706",
+          "totalPasses": "755",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "5",
@@ -27157,8 +27163,8 @@
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "345",
-          "totalPasses": "396",
+          "accuratePasses": "346",
+          "totalPasses": "397",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "13",
