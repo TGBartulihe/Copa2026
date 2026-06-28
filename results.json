@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T01:20:15.668Z",
+  "generatedAt": "2026-06-28T01:21:17.187Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -25495,7 +25495,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "88'",
+      "clock": "89'",
       "events": [
         {
           "min": "87'",
@@ -25946,20 +25946,20 @@
           "offsides": "2",
           "wonCorners": "4",
           "saves": "2",
-          "possessionPct": "55.4",
-          "totalShots": "21",
+          "possessionPct": "55.3",
+          "totalShots": "22",
           "shotsOnTarget": "6",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "460",
-          "totalPasses": "515",
+          "accuratePasses": "464",
+          "totalPasses": "520",
           "passPct": "0.9",
           "accurateCrosses": "2",
-          "totalCrosses": "7",
+          "totalCrosses": "8",
           "crossPct": "0.3",
-          "totalLongBalls": "40",
-          "accurateLongBalls": "21",
+          "totalLongBalls": "41",
+          "accurateLongBalls": "22",
           "longballPct": "0.5",
           "blockedShots": "6",
           "effectiveTackles": "7",
@@ -25976,14 +25976,14 @@
           "offsides": "2",
           "wonCorners": "2",
           "saves": "6",
-          "possessionPct": "44.6",
+          "possessionPct": "44.7",
           "totalShots": "12",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "369",
-          "totalPasses": "403",
+          "accuratePasses": "375",
+          "totalPasses": "409",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "14",
@@ -25996,8 +25996,8 @@
           "totalTackles": "8",
           "tacklePct": "0.5",
           "interceptions": "11",
-          "effectiveClearance": "19",
-          "totalClearance": "19"
+          "effectiveClearance": "21",
+          "totalClearance": "21"
         }
       }
     },
@@ -26013,7 +26013,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "86'",
+      "clock": "87'",
       "events": [
         {
           "min": "83'",
