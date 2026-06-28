@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T01:02:11.899Z",
+  "generatedAt": "2026-06-28T01:03:17.010Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -25495,8 +25495,32 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "70'",
+      "clock": "71'",
       "events": [
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇴"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇵🇹"
+        },
+        {
+          "min": "70'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇹. Samú Costa (Portugal) Substituição aos 70'",
+          "sub": "🇵🇹"
+        },
+        {
+          "min": "70'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇹. Substituição de Rafael Leão (Portugal) aos 70'",
+          "sub": "🇵🇹"
+        },
         {
           "min": "68'",
           "icon": "⏸️",
@@ -25512,14 +25536,14 @@
         {
           "min": "67'",
           "icon": "▶️",
-          "txt": "Atraso acabou. Eles estão prontos para continuar.",
-          "sub": "🇵🇹"
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇴"
         },
         {
           "min": "67'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇨🇴"
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇵🇹"
         },
         {
           "min": "67'",
@@ -25965,12 +25989,12 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "69'",
+      "clock": "70'",
       "events": [
         {
           "min": "68'",
           "icon": "🟥",
-          "txt": "Gol! Congo RD 1, Uzbekistan 1. Yoane Wissa (Congo RD) converte o pênalti com um finalização com o pé direito.",
+          "txt": "Gol! Congo RD 1, Uzbekistan 1. Yoane Wissa (Congo RD) converte o pênalti com um finalização com o pé direito no Escanteio inferior direito.",
           "sub": "🇨🇩"
         },
         {
@@ -26417,11 +26441,11 @@
           "wonCorners": "1",
           "saves": "1",
           "possessionPct": "64.5",
-          "totalShots": "10",
-          "shotsOnTarget": "1",
-          "shotPct": "0.1",
+          "totalShots": "11",
+          "shotsOnTarget": "2",
+          "shotPct": "0.2",
           "penaltyKickGoals": "0",
-          "penaltyKickShots": "0",
+          "penaltyKickShots": "1",
           "accuratePasses": "317",
           "totalPasses": "381",
           "passPct": "0.8",
