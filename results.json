@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T00:53:12.173Z",
+  "generatedAt": "2026-06-28T00:54:16.310Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -25495,18 +25495,18 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "61'",
+      "clock": "62'",
       "events": [
         {
           "min": "60'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇴. Luis Suárez (Colômbia) Substituição aos 60'",
+          "txt": "Substituição, 🇨🇴. Luis Suárez substitui Jhon Córdoba.",
           "sub": "🇨🇴"
         },
         {
           "min": "60'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇴. Richard Ríos (Colômbia) Substituição aos 60'",
+          "txt": "Substituição, 🇨🇴. Richard Rios entra no lugar de Jefferson Lerma.",
           "sub": "🇨🇴"
         },
         {
@@ -25862,19 +25862,19 @@
           "offsides": "2",
           "wonCorners": "1",
           "saves": "2",
-          "possessionPct": "53.8",
+          "possessionPct": "54.4",
           "totalShots": "14",
           "shotsOnTarget": "5",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "341",
-          "totalPasses": "382",
+          "accuratePasses": "351",
+          "totalPasses": "394",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "3",
           "crossPct": "0.0",
-          "totalLongBalls": "33",
+          "totalLongBalls": "35",
           "accurateLongBalls": "17",
           "longballPct": "0.5",
           "blockedShots": "4",
@@ -25892,14 +25892,14 @@
           "offsides": "2",
           "wonCorners": "1",
           "saves": "5",
-          "possessionPct": "46.2",
+          "possessionPct": "45.6",
           "totalShots": "11",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "299",
-          "totalPasses": "319",
+          "accuratePasses": "300",
+          "totalPasses": "320",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "10",
@@ -25912,8 +25912,8 @@
           "totalTackles": "5",
           "tacklePct": "0.4",
           "interceptions": "9",
-          "effectiveClearance": "12",
-          "totalClearance": "12"
+          "effectiveClearance": "13",
+          "totalClearance": "13"
         }
       }
     },
@@ -25929,18 +25929,18 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "59'",
+      "clock": "60'",
       "events": [
         {
           "min": "59'",
           "icon": "🔄",
-          "txt": "Substituição, 🇺🇿. Azizjon Ganiev (Uzbequistão) Substituição aos 59'",
+          "txt": "Substituição, 🇺🇿. Entra Aziz G'aniev substituindo Dostonbek Khamdamov.",
           "sub": "🇺🇿"
         },
         {
           "min": "59'",
           "icon": "🔄",
-          "txt": "Substituição, 🇺🇿. Odiljon Xamrobekov (Uzbequistão) Substituição aos 59'",
+          "txt": "Substituição, 🇺🇿. Odiljon Khamrobekov substitui Otabek Shukurov.",
           "sub": "🇺🇿"
         },
         {
