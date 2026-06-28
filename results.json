@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T03:22:14.736Z",
+  "generatedAt": "2026-06-28T03:23:17.384Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26627,8 +26627,14 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "60'",
+      "clock": "61'",
       "events": [
+        {
+          "min": "60'",
+          "icon": "⚽",
+          "txt": "Riyad Mahrez (Argélia) finalização com o pé esquerdo do meio da área no Escanteio inferior direito. Assistência de Houssem Aouar.",
+          "sub": "🇩🇿"
+        },
         {
           "min": "55'",
           "icon": "⚽",
@@ -27044,13 +27050,13 @@
           "wonCorners": "0",
           "saves": "1",
           "possessionPct": "61.2",
-          "totalShots": "10",
-          "shotsOnTarget": "3",
-          "shotPct": "0.3",
+          "totalShots": "11",
+          "shotsOnTarget": "4",
+          "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "398",
-          "totalPasses": "437",
+          "accuratePasses": "399",
+          "totalPasses": "438",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "5",
@@ -27110,8 +27116,20 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "60'",
+      "clock": "61'",
       "events": [
+        {
+          "min": "61'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇦🇷. Substituição de Alexis Mac Allister (Argentina) aos 61'",
+          "sub": "🇦🇷"
+        },
+        {
+          "min": "60'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇦🇷. Substituição de Lionel Messi (Argentina) aos 60'",
+          "sub": "🇦🇷"
+        },
         {
           "min": "60'",
           "icon": "🔄",
@@ -27555,8 +27573,8 @@
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "468",
-          "totalPasses": "516",
+          "accuratePasses": "469",
+          "totalPasses": "517",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "2",
