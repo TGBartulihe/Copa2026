@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T20:05:08.571Z",
+  "generatedAt": "2026-06-28T20:06:07.340Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -27786,8 +27786,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "45'+3'",
+      "clock": "46'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "▶️",
+          "txt": "Início do segundo tempo África do Sul 0, Canadá 0.",
+          "sub": "🏳️"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇿🇦. Entra Thalente Mbatha substituindo Relebohile Mofokeng.",
+          "sub": "🇿🇦"
+        },
         {
           "min": "45'+4'",
           "icon": "⏱️",
