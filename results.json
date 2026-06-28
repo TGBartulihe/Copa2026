@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T01:06:18.992Z",
+  "generatedAt": "2026-06-28T01:07:15.589Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -25495,7 +25495,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "74'",
+      "clock": "75'",
       "events": [
         {
           "min": "71'",
@@ -25920,16 +25920,16 @@
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "2",
-          "wonCorners": "3",
+          "wonCorners": "4",
           "saves": "2",
-          "possessionPct": "56.7",
-          "totalShots": "19",
+          "possessionPct": "56.8",
+          "totalShots": "21",
           "shotsOnTarget": "6",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "409",
-          "totalPasses": "456",
+          "accuratePasses": "414",
+          "totalPasses": "463",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "6",
@@ -25937,7 +25937,7 @@
           "totalLongBalls": "36",
           "accurateLongBalls": "18",
           "longballPct": "0.5",
-          "blockedShots": "5",
+          "blockedShots": "7",
           "effectiveTackles": "5",
           "totalTackles": "11",
           "tacklePct": "0.5",
@@ -25952,14 +25952,14 @@
           "offsides": "2",
           "wonCorners": "1",
           "saves": "6",
-          "possessionPct": "43.3",
+          "possessionPct": "43.2",
           "totalShots": "11",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "313",
-          "totalPasses": "339",
+          "accuratePasses": "316",
+          "totalPasses": "343",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "11",
@@ -25972,8 +25972,8 @@
           "totalTackles": "7",
           "tacklePct": "0.4",
           "interceptions": "9",
-          "effectiveClearance": "14",
-          "totalClearance": "14"
+          "effectiveClearance": "18",
+          "totalClearance": "18"
         }
       }
     },
@@ -25994,25 +25994,25 @@
         {
           "min": "73'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇩. Substituição de Meschack Elia (RD Congo) aos 73'",
+          "txt": "Substituição, 🇺🇿. Entra Oston Urunov substituindo Abbosbek Fayzullaev.",
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "73'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇩. Entra Meschack Elia para o lugar de Nathanaël Mbuku.",
           "sub": "🇨🇩"
         },
         {
           "min": "73'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇩. Ngal'ayel Mukau (RD Congo) Substituição aos 73'",
+          "txt": "Substituição, 🇨🇩. Ngal'ayel Mukau entra em campo e entra Samuel Moutoussamy.",
           "sub": "🇨🇩"
         },
         {
           "min": "72'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇩. Substituição de Théo Bongonda (RD Congo) aos 72'",
-          "sub": "🇨🇩"
-        },
-        {
-          "min": "72'",
-          "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Substituição, 🇨🇩. Entra Théo Bongonda substituindo Brian Cipenga.",
           "sub": "🇨🇩"
         },
         {
@@ -26020,6 +26020,12 @@
           "icon": "▶️",
           "txt": "Jogo reiniciado",
           "sub": "🇺🇿"
+        },
+        {
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇨🇩"
         },
         {
           "min": "70'",
