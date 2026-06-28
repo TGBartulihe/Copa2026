@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T20:31:09.296Z",
+  "generatedAt": "2026-06-28T20:32:09.526Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -27786,24 +27786,18 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "71'",
+      "clock": "72'",
       "events": [
         {
           "min": "70'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇦. Substituição de Jacob Shaffelburg (Canadá) aos 70'",
+          "txt": "Substituição, 🇨🇦. Jacob Shaffelburg substitui Liam Millar.",
           "sub": "🇨🇦"
-        },
-        {
-          "min": "70'",
-          "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇿🇦"
         },
         {
           "min": "70'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇦. Promise David (Canadá) Substituição aos 70'",
+          "txt": "Substituição, 🇨🇦. Promessa David substitui Tani Oluwaseyi.",
           "sub": "🇨🇦"
         },
         {
@@ -27811,6 +27805,12 @@
           "icon": "▶️",
           "txt": "Jogo reiniciado",
           "sub": "🇨🇦"
+        },
+        {
+          "min": "70'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇿🇦"
         },
         {
           "min": "67'",
@@ -28245,15 +28245,15 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "4",
-          "possessionPct": "59.2",
+          "possessionPct": "59.1",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "328",
-          "totalPasses": "387",
-          "passPct": "0.8",
+          "totalPasses": "386",
+          "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "3",
           "crossPct": "0.3",
@@ -28265,8 +28265,8 @@
           "totalTackles": "16",
           "tacklePct": "0.6",
           "interceptions": "12",
-          "effectiveClearance": "23",
-          "totalClearance": "23"
+          "effectiveClearance": "24",
+          "totalClearance": "24"
         },
         "away": {
           "foulsCommitted": "11",
@@ -28275,7 +28275,7 @@
           "offsides": "0",
           "wonCorners": "4",
           "saves": "1",
-          "possessionPct": "40.8",
+          "possessionPct": "40.9",
           "totalShots": "9",
           "shotsOnTarget": "5",
           "shotPct": "0.6",
