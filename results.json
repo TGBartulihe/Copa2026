@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T03:52:13.555Z",
+  "generatedAt": "2026-06-28T03:53:13.795Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26627,7 +26627,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "90'",
+      "clock": "90'+1'",
       "events": [
         {
           "min": "71'",
@@ -27164,12 +27164,30 @@
       "sa": 3,
       "done": false,
       "live": true,
-      "clock": "89'",
+      "clock": "90'+1'",
       "events": [
+        {
+          "min": "90'+1'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇯🇴"
+        },
+        {
+          "min": "90'+1'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇦🇷"
+        },
         {
           "min": "90'",
           "icon": "🔄",
-          "txt": "Substituição, 🇯🇴. Mohammed Abu Zraiq (Jordânia) Substituição aos 90'",
+          "txt": "Substituição, 🇯🇴. Substituição de Saleem Obaid (Jordânia) aos 90'",
+          "sub": "🇯🇴"
+        },
+        {
+          "min": "90'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇯🇴. Entra Mohammad Abu Zraiq substituindo Ali Olwan.",
           "sub": "🇯🇴"
         },
         {
@@ -27657,7 +27675,7 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "26.1",
+          "possessionPct": "26",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
@@ -27687,18 +27705,18 @@
           "offsides": "3",
           "wonCorners": "6",
           "saves": "0",
-          "possessionPct": "73.9",
-          "totalShots": "11",
+          "possessionPct": "74",
+          "totalShots": "12",
           "shotsOnTarget": "4",
-          "shotPct": "0.4",
+          "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
           "accuratePasses": "711",
           "totalPasses": "772",
           "passPct": "0.9",
-          "accurateCrosses": "2",
-          "totalCrosses": "4",
-          "crossPct": "0.5",
+          "accurateCrosses": "3",
+          "totalCrosses": "5",
+          "crossPct": "0.6",
           "totalLongBalls": "24",
           "accurateLongBalls": "14",
           "longballPct": "0.6",
