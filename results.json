@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T03:26:18.366Z",
+  "generatedAt": "2026-06-28T03:27:16.483Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26627,7 +26627,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "64'",
+      "clock": "65'",
       "events": [
         {
           "min": "62'",
@@ -27055,19 +27055,19 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "59.7",
+          "possessionPct": "59.3",
           "totalShots": "11",
           "shotsOnTarget": "4",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "407",
-          "totalPasses": "447",
+          "accuratePasses": "408",
+          "totalPasses": "451",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "5",
           "crossPct": "0.0",
-          "totalLongBalls": "27",
+          "totalLongBalls": "29",
           "accurateLongBalls": "14",
           "longballPct": "0.5",
           "blockedShots": "2",
@@ -27085,17 +27085,17 @@
           "offsides": "3",
           "wonCorners": "2",
           "saves": "2",
-          "possessionPct": "40.3",
+          "possessionPct": "40.7",
           "totalShots": "6",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "255",
-          "totalPasses": "297",
+          "accuratePasses": "260",
+          "totalPasses": "303",
           "passPct": "0.9",
           "accurateCrosses": "1",
-          "totalCrosses": "10",
+          "totalCrosses": "11",
           "crossPct": "0.1",
           "totalLongBalls": "23",
           "accurateLongBalls": "8",
@@ -27105,8 +27105,8 @@
           "totalTackles": "7",
           "tacklePct": "0.4",
           "interceptions": "10",
-          "effectiveClearance": "14",
-          "totalClearance": "14"
+          "effectiveClearance": "15",
+          "totalClearance": "15"
         }
       }
     },
@@ -27127,7 +27127,7 @@
         {
           "min": "64'",
           "icon": "🟨",
-          "txt": "Yazan Al-Arab (Jordânia) Cartão Amarelo aos 64'",
+          "txt": "Yazan Al Arab (Jordânia) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇯🇴"
         },
         {
