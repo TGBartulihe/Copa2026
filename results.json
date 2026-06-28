@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T00:02:12.949Z",
+  "generatedAt": "2026-06-28T00:03:15.434Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -25495,19 +25495,31 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "31'",
+      "clock": "32'",
       "events": [
         {
-          "min": "27'",
+          "min": "31'",
           "icon": "▶️",
-          "txt": "Atraso acabou. Eles estão prontos para continuar.",
-          "sub": "🇵🇹"
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇴"
+        },
+        {
+          "min": "31'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇨🇴"
         },
         {
           "min": "27'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
           "sub": "🇨🇴"
+        },
+        {
+          "min": "27'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇵🇹"
         },
         {
           "min": "24'",
@@ -25812,9 +25824,9 @@
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "2",
-          "wonCorners": "2",
+          "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "50",
+          "possessionPct": "49.3",
           "totalShots": "7",
           "shotsOnTarget": "1",
           "shotPct": "0.1",
@@ -25841,17 +25853,17 @@
           "foulsCommitted": "1",
           "yellowCards": "0",
           "redCards": "0",
-          "offsides": "0",
+          "offsides": "1",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "50",
+          "possessionPct": "50.7",
           "totalShots": "3",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "139",
-          "totalPasses": "147",
+          "accuratePasses": "143",
+          "totalPasses": "151",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "4",
@@ -25881,7 +25893,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "31'",
+      "clock": "32'",
       "events": [
         {
           "min": "25'",
@@ -26224,14 +26236,14 @@
           "offsides": "1",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "57.2",
+          "possessionPct": "58.5",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "111",
-          "totalPasses": "136",
+          "accuratePasses": "121",
+          "totalPasses": "148",
           "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "3",
@@ -26240,9 +26252,9 @@
           "accurateLongBalls": "5",
           "longballPct": "0.4",
           "blockedShots": "0",
-          "effectiveTackles": "3",
-          "totalTackles": "5",
-          "tacklePct": "0.6",
+          "effectiveTackles": "4",
+          "totalTackles": "6",
+          "tacklePct": "0.7",
           "interceptions": "0",
           "effectiveClearance": "9",
           "totalClearance": "9"
@@ -26254,14 +26266,14 @@
           "offsides": "1",
           "wonCorners": "2",
           "saves": "0",
-          "possessionPct": "42.8",
+          "possessionPct": "41.5",
           "totalShots": "1",
           "shotsOnTarget": "1",
           "shotPct": "1.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "74",
-          "totalPasses": "96",
+          "accuratePasses": "76",
+          "totalPasses": "99",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "6",
@@ -26273,7 +26285,7 @@
           "effectiveTackles": "8",
           "totalTackles": "10",
           "tacklePct": "0.8",
-          "interceptions": "4",
+          "interceptions": "5",
           "effectiveClearance": "14",
           "totalClearance": "14"
         }
