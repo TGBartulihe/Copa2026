@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T02:30:15.306Z",
+  "generatedAt": "2026-06-28T02:31:16.968Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26627,7 +26627,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "30'",
+      "clock": "31'",
       "events": [
         {
           "min": "28'",
@@ -27001,14 +27001,14 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "51.7",
+          "possessionPct": "52.3",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "133",
-          "totalPasses": "152",
+          "accuratePasses": "137",
+          "totalPasses": "157",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "1",
@@ -27028,17 +27028,17 @@
           "foulsCommitted": "2",
           "yellowCards": "1",
           "redCards": "0",
-          "offsides": "1",
+          "offsides": "2",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "48.3",
+          "possessionPct": "47.7",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "121",
-          "totalPasses": "141",
+          "accuratePasses": "122",
+          "totalPasses": "142",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "3",
@@ -27065,15 +27065,21 @@
       "venue": "AT&T Stadium",
       "iso": "2026-06-28T02:00Z",
       "sh": 0,
-      "sa": 1,
+      "sa": 2,
       "done": false,
       "live": true,
-      "clock": "29'",
+      "clock": "30'",
       "events": [
         {
-          "min": "29'",
-          "icon": "⚽🎯",
-          "txt": "Verificação do VAR: Pênalti argentino.",
+          "min": "30'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇯🇴"
+        },
+        {
+          "min": "30'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
           "sub": "🇦🇷"
         },
         {
