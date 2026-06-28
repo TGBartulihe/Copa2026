@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T20:47:07.665Z",
+  "generatedAt": "2026-06-28T20:48:06.607Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -27786,18 +27786,18 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "87'",
+      "clock": "88'",
       "events": [
         {
           "min": "86'",
           "icon": "🔄",
-          "txt": "Substituição, 🇿🇦. Substituição de Tshepang Moremi (África do Sul) aos 86'",
+          "txt": "Substituição, 🇿🇦. Entra Tshepang Moremi substituindo Thapelo Maseko.",
           "sub": "🇿🇦"
         },
         {
           "min": "86'",
           "icon": "🔄",
-          "txt": "Substituição, 🇿🇦. Substituição de Iqraam Rayners (África do Sul) aos 86'",
+          "txt": "Substituição, 🇿🇦. Iqraam Rayners substitui Evidence Makgopa.",
           "sub": "🇿🇦"
         },
         {
@@ -28263,18 +28263,18 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "5",
-          "possessionPct": "57.2",
+          "possessionPct": "57.5",
           "totalShots": "6",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "410",
-          "totalPasses": "482",
-          "passPct": "0.9",
+          "accuratePasses": "412",
+          "totalPasses": "486",
+          "passPct": "0.8",
           "accurateCrosses": "2",
-          "totalCrosses": "4",
-          "crossPct": "0.5",
+          "totalCrosses": "5",
+          "crossPct": "0.4",
           "totalLongBalls": "64",
           "accurateLongBalls": "30",
           "longballPct": "0.5",
@@ -28287,13 +28287,13 @@
           "totalClearance": "32"
         },
         "away": {
-          "foulsCommitted": "14",
+          "foulsCommitted": "15",
           "yellowCards": "2",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "4",
           "saves": "1",
-          "possessionPct": "42.8",
+          "possessionPct": "42.5",
           "totalShots": "11",
           "shotsOnTarget": "6",
           "shotPct": "0.5",
