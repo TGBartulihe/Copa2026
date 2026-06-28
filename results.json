@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T20:19:06.890Z",
+  "generatedAt": "2026-06-28T20:20:05.270Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -27786,7 +27786,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "58'",
+      "clock": "59'",
       "events": [
         {
           "min": "59'",
@@ -27801,16 +27801,16 @@
           "sub": "🇨🇦"
         },
         {
-          "min": "59'",
+          "min": "58'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇿🇦"
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇨🇦"
         },
         {
           "min": "58'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
-          "sub": "🇨🇦"
+          "sub": "🇿🇦"
         },
         {
           "min": "57'",
@@ -27820,8 +27820,8 @@
         },
         {
           "min": "57'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a lesão de Stephen Eustaquio (Canadá).",
           "sub": "🇨🇦"
         },
         {
