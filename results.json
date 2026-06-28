@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T02:29:13.160Z",
+  "generatedAt": "2026-06-28T02:30:15.306Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26627,21 +26627,27 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "29'",
+      "clock": "30'",
       "events": [
+        {
+          "min": "28'",
+          "icon": "⚽",
+          "txt": "Marko Arnautovic (Áustria) finalização com o pé direito de muito perto no Escanteio inferior direito. Assistência de David Alaba com um passe em profundidade.",
+          "sub": "🇦🇹"
+        },
         {
           "min": "26'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
+          "sub": "🇦🇹"
+        },
+        {
+          "min": "26'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇩🇿"
         },
         {
-          "min": "26'",
-          "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇦🇹"
-        },
-        {
           "min": "23'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
@@ -26650,7 +26656,7 @@
         {
           "min": "23'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
           "sub": "🇩🇿"
         },
         {
@@ -26995,17 +27001,17 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "53.2",
+          "possessionPct": "51.7",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "128",
-          "totalPasses": "147",
+          "accuratePasses": "133",
+          "totalPasses": "152",
           "passPct": "0.9",
           "accurateCrosses": "0",
-          "totalCrosses": "0",
+          "totalCrosses": "1",
           "crossPct": "0.0",
           "totalLongBalls": "11",
           "accurateLongBalls": "6",
@@ -27025,20 +27031,20 @@
           "offsides": "1",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "46.8",
-          "totalShots": "1",
-          "shotsOnTarget": "0",
-          "shotPct": "0.0",
+          "possessionPct": "48.3",
+          "totalShots": "2",
+          "shotsOnTarget": "1",
+          "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "108",
-          "totalPasses": "127",
+          "accuratePasses": "121",
+          "totalPasses": "141",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "3",
           "crossPct": "0.0",
-          "totalLongBalls": "12",
-          "accurateLongBalls": "2",
+          "totalLongBalls": "13",
+          "accurateLongBalls": "3",
           "longballPct": "0.2",
           "blockedShots": "0",
           "effectiveTackles": "2",
@@ -27062,12 +27068,12 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "28'",
+      "clock": "29'",
       "events": [
         {
           "min": "29'",
           "icon": "⚽🎯",
-          "txt": "Marcos Senesi (Argentina) VAR - Pênalti não marcado aos 29'",
+          "txt": "Verificação do VAR: Pênalti argentino.",
           "sub": "🇦🇷"
         },
         {
@@ -27079,7 +27085,7 @@
         {
           "min": "29'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇦🇷"
         },
         {
@@ -27090,8 +27096,8 @@
         },
         {
           "min": "28'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a lesão de Marcos Senesi (Argentina).",
           "sub": "🇦🇷"
         },
         {
@@ -27443,8 +27449,8 @@
           "totalTackles": "4",
           "tacklePct": "0.5",
           "interceptions": "4",
-          "effectiveClearance": "4",
-          "totalClearance": "4"
+          "effectiveClearance": "3",
+          "totalClearance": "3"
         },
         "away": {
           "foulsCommitted": "1",
@@ -27454,16 +27460,16 @@
           "wonCorners": "3",
           "saves": "0",
           "possessionPct": "80.7",
-          "totalShots": "3",
-          "shotsOnTarget": "1",
-          "shotPct": "0.3",
+          "totalShots": "4",
+          "shotsOnTarget": "2",
+          "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "225",
-          "totalPasses": "243",
+          "accuratePasses": "226",
+          "totalPasses": "244",
           "passPct": "0.9",
-          "accurateCrosses": "3",
-          "totalCrosses": "3",
+          "accurateCrosses": "2",
+          "totalCrosses": "2",
           "crossPct": "1.0",
           "totalLongBalls": "7",
           "accurateLongBalls": "2",
