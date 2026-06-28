@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T01:51:16.469Z",
+  "generatedAt": "2026-06-28T01:52:13.561Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -24969,14 +24969,14 @@
         {
           "min": "71'",
           "icon": "🔄",
-          "txt": "Substituição, 🏳️. Entra Eberechi Eze substituindo Jude Bellingham.",
-          "sub": "🏳️"
+          "txt": "Substituição, 🇵🇦. Ismael Díaz substitui Yoel Bárcenas.",
+          "sub": "🇵🇦"
         },
         {
           "min": "71'",
           "icon": "🔄",
-          "txt": "Substituição, 🇵🇦. Ismael Díaz substitui Yoel Bárcenas.",
-          "sub": "🇵🇦"
+          "txt": "Substituição, 🏳️. Entra Eberechi Eze substituindo Jude Bellingham.",
+          "sub": "🏳️"
         },
         {
           "min": "69'",
@@ -25028,21 +25028,21 @@
         },
         {
           "min": "60'",
+          "icon": "🟨",
+          "txt": "Jarell Quansah (Inglaterra) recebe cartão amarelo por uma entrada perigosa.",
+          "sub": "🏳️"
+        },
+        {
+          "min": "59'",
           "icon": "🩹",
           "txt": "Partida atrasada devido a uma lesão de Jarell Quansah (Inglaterra).",
           "sub": "🏳️"
         },
         {
-          "min": "60'",
+          "min": "59'",
           "icon": "🩹",
           "txt": "Partida atrasada devido a lesão de José Luis Rodríguez (Panamá).",
           "sub": "🇵🇦"
-        },
-        {
-          "min": "60'",
-          "icon": "🟨",
-          "txt": "Jarell Quansah (Inglaterra) recebe cartão amarelo por uma entrada perigosa.",
-          "sub": "🏳️"
         },
         {
           "min": "55'",
@@ -25428,28 +25428,28 @@
           "offsides": "4",
           "wonCorners": "3",
           "saves": "4",
-          "possessionPct": "32.8",
+          "possessionPct": "32.9",
           "totalShots": "13",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "201",
-          "totalPasses": "267",
+          "accuratePasses": "202",
+          "totalPasses": "268",
           "passPct": "0.8",
           "accurateCrosses": "3",
           "totalCrosses": "9",
           "crossPct": "0.3",
           "totalLongBalls": "54",
-          "accurateLongBalls": "24",
-          "longballPct": "0.4",
+          "accurateLongBalls": "25",
+          "longballPct": "0.5",
           "blockedShots": "3",
           "effectiveTackles": "11",
           "totalTackles": "16",
           "tacklePct": "0.7",
           "interceptions": "6",
-          "effectiveClearance": "36",
-          "totalClearance": "36"
+          "effectiveClearance": "34",
+          "totalClearance": "34"
         },
         "away": {
           "foulsCommitted": "13",
@@ -25458,14 +25458,14 @@
           "offsides": "4",
           "wonCorners": "7",
           "saves": "2",
-          "possessionPct": "67.2",
+          "possessionPct": "67.1",
           "totalShots": "17",
           "shotsOnTarget": "6",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "492",
-          "totalPasses": "557",
+          "accuratePasses": "490",
+          "totalPasses": "558",
           "passPct": "0.9",
           "accurateCrosses": "4",
           "totalCrosses": "25",
@@ -25478,8 +25478,8 @@
           "totalTackles": "18",
           "tacklePct": "0.9",
           "interceptions": "5",
-          "effectiveClearance": "21",
-          "totalClearance": "21"
+          "effectiveClearance": "20",
+          "totalClearance": "20"
         }
       }
     },
