@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T03:57:16.357Z",
+  "generatedAt": "2026-06-28T03:58:14.398Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26627,18 +26627,18 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "90'+5'",
+      "clock": "90'+6'",
       "events": [
         {
           "min": "90'+5'",
           "icon": "🔄",
-          "txt": "Substituição, 🇦🇹. Sasa Kalajdzic (Áustria) Substituição aos 90'+5'",
+          "txt": "Substituição, 🇦🇹. Entra Sasa Kalajdzic substituindo Phillipp Mwene.",
           "sub": "🇦🇹"
         },
         {
           "min": "90'+4'",
           "icon": "🔄",
-          "txt": "Substituição, 🇩🇿. Farès Ghedjemis (Argélia) Substituição aos 90'+4'",
+          "txt": "Substituição, 🇩🇿. Entra Farès Ghedjemis substituindo Houssem Aouar.",
           "sub": "🇩🇿"
         },
         {
@@ -27180,14 +27180,20 @@
       "iso": "2026-06-28T02:00Z",
       "sh": 1,
       "sa": 3,
-      "done": false,
-      "live": true,
-      "clock": "90'+5'",
+      "done": true,
+      "live": false,
+      "clock": "",
       "events": [
+        {
+          "min": "90'+6'",
+          "icon": "•",
+          "txt": "jogador",
+          "sub": "🏳️"
+        },
         {
           "min": "90'+4'",
           "icon": "🟨",
-          "txt": "Mohammed Abu Zraiq (Jordânia) Cartão Amarelo aos 90'+4'",
+          "txt": "Mohammad Abu Zraiq (Jordânia) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇯🇴"
         },
         {
@@ -27694,19 +27700,19 @@
       "stats": {
         "home": {
           "foulsCommitted": "13",
-          "yellowCards": "2",
+          "yellowCards": "3",
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "27",
+          "possessionPct": "26.7",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "228",
-          "totalPasses": "284",
+          "totalPasses": "285",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "7",
@@ -27718,7 +27724,7 @@
           "effectiveTackles": "8",
           "totalTackles": "16",
           "tacklePct": "0.5",
-          "interceptions": "18",
+          "interceptions": "19",
           "effectiveClearance": "13",
           "totalClearance": "13"
         },
@@ -27729,14 +27735,14 @@
           "offsides": "3",
           "wonCorners": "6",
           "saves": "0",
-          "possessionPct": "73",
+          "possessionPct": "73.3",
           "totalShots": "12",
           "shotsOnTarget": "4",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
-          "accuratePasses": "724",
-          "totalPasses": "787",
+          "accuratePasses": "735",
+          "totalPasses": "799",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "5",
@@ -27745,9 +27751,9 @@
           "accurateLongBalls": "15",
           "longballPct": "0.6",
           "blockedShots": "1",
-          "effectiveTackles": "4",
-          "totalTackles": "13",
-          "tacklePct": "0.3",
+          "effectiveTackles": "5",
+          "totalTackles": "14",
+          "tacklePct": "0.4",
           "interceptions": "12",
           "effectiveClearance": "11",
           "totalClearance": "11"
