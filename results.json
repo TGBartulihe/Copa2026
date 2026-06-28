@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T03:23:17.384Z",
+  "generatedAt": "2026-06-28T03:24:13.386Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26627,8 +26627,14 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "61'",
+      "clock": "62'",
       "events": [
+        {
+          "min": "62'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇦🇹. Kevin Danso (Áustria) Substituição aos 62'",
+          "sub": "🇦🇹"
+        },
         {
           "min": "60'",
           "icon": "⚽",
@@ -27049,7 +27055,7 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "61.2",
+          "possessionPct": "60.5",
           "totalShots": "11",
           "shotsOnTarget": "4",
           "shotPct": "0.4",
@@ -27079,15 +27085,15 @@
           "offsides": "3",
           "wonCorners": "2",
           "saves": "2",
-          "possessionPct": "38.8",
+          "possessionPct": "39.5",
           "totalShots": "6",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "231",
-          "totalPasses": "273",
-          "passPct": "0.8",
+          "accuratePasses": "240",
+          "totalPasses": "282",
+          "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "9",
           "crossPct": "0.1",
@@ -27116,24 +27122,24 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "61'",
+      "clock": "62'",
       "events": [
         {
           "min": "61'",
           "icon": "🔄",
-          "txt": "Substituição, 🇦🇷. Substituição de Alexis Mac Allister (Argentina) aos 61'",
+          "txt": "Substituição, 🇦🇷. Alexis Mac Allister substitui Nico Paz.",
           "sub": "🇦🇷"
         },
         {
           "min": "60'",
           "icon": "🔄",
-          "txt": "Substituição, 🇦🇷. Substituição de Lionel Messi (Argentina) aos 60'",
+          "txt": "Substituição, 🇦🇷. Lionel Messi entra no lugar de Lautaro Martínez.",
           "sub": "🇦🇷"
         },
         {
           "min": "60'",
           "icon": "🔄",
-          "txt": "Substituição, 🇦🇷. Thiago Almada (Argentina) Substituição aos 60'",
+          "txt": "Substituição, 🇦🇷. Entra Thiago Almada para o lugar de Giovani Lo Celso.",
           "sub": "🇦🇷"
         },
         {
@@ -27537,14 +27543,14 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "28.8",
+          "possessionPct": "29",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "164",
-          "totalPasses": "204",
+          "accuratePasses": "166",
+          "totalPasses": "206",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "5",
@@ -27567,7 +27573,7 @@
           "offsides": "3",
           "wonCorners": "2",
           "saves": "0",
-          "possessionPct": "71.2",
+          "possessionPct": "71",
           "totalShots": "7",
           "shotsOnTarget": "3",
           "shotPct": "0.4",
