@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T01:05:15.216Z",
+  "generatedAt": "2026-06-28T01:06:18.992Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -25495,7 +25495,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "73'",
+      "clock": "74'",
       "events": [
         {
           "min": "71'",
@@ -25922,18 +25922,18 @@
           "offsides": "2",
           "wonCorners": "3",
           "saves": "2",
-          "possessionPct": "55.1",
+          "possessionPct": "56.7",
           "totalShots": "19",
           "shotsOnTarget": "6",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "383",
-          "totalPasses": "428",
+          "accuratePasses": "409",
+          "totalPasses": "456",
           "passPct": "0.9",
-          "accurateCrosses": "1",
-          "totalCrosses": "5",
-          "crossPct": "0.2",
+          "accurateCrosses": "2",
+          "totalCrosses": "6",
+          "crossPct": "0.3",
           "totalLongBalls": "36",
           "accurateLongBalls": "18",
           "longballPct": "0.5",
@@ -25952,14 +25952,14 @@
           "offsides": "2",
           "wonCorners": "1",
           "saves": "6",
-          "possessionPct": "44.9",
+          "possessionPct": "43.3",
           "totalShots": "11",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "312",
-          "totalPasses": "338",
+          "accuratePasses": "313",
+          "totalPasses": "339",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "11",
@@ -25989,8 +25989,38 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "71'",
+      "clock": "73'",
       "events": [
+        {
+          "min": "73'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇩. Substituição de Meschack Elia (RD Congo) aos 73'",
+          "sub": "🇨🇩"
+        },
+        {
+          "min": "73'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇩. Ngal'ayel Mukau (RD Congo) Substituição aos 73'",
+          "sub": "🇨🇩"
+        },
+        {
+          "min": "72'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇩. Substituição de Théo Bongonda (RD Congo) aos 72'",
+          "sub": "🇨🇩"
+        },
+        {
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇩"
+        },
+        {
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇺🇿"
+        },
         {
           "min": "70'",
           "icon": "⏸️",
@@ -26000,7 +26030,7 @@
         {
           "min": "70'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
           "sub": "🇨🇩"
         },
         {
@@ -26328,12 +26358,12 @@
               "row": 1
             },
             {
-              "name": "Akmal Mozgovoy",
+              "name": "Otabek Shukurov",
               "pos": "CM-L",
               "row": 2
             },
             {
-              "name": "Otabek Shukurov",
+              "name": "Akmal Mozgovoy",
               "pos": "CM-R",
               "row": 2
             },
