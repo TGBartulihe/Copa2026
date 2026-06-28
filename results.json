@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T03:30:12.596Z",
+  "generatedAt": "2026-06-28T03:31:18.582Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -26633,13 +26633,13 @@
           "min": "68'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
-          "sub": "🇩🇿"
+          "sub": "🇦🇹"
         },
         {
           "min": "68'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
-          "sub": "🇦🇹"
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇩🇿"
         },
         {
           "min": "62'",
@@ -26650,7 +26650,7 @@
         {
           "min": "60'",
           "icon": "⚽",
-          "txt": "Riyad Mahrez (Argélia) finalização com o pé esquerdo do meio da área no Escanteio inferior direito. Assistência de Houssem Aouar.",
+          "txt": "Riyad Mahrez (Argélia) remate com o pé esquerdo no coração da área ao ângulo superior direito. Assistência de Houssem Aouar.",
           "sub": "🇩🇿"
         },
         {
@@ -27134,7 +27134,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "67'",
+      "clock": "68'",
       "events": [
         {
           "min": "68'",
@@ -27573,19 +27573,19 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "27",
+          "possessionPct": "27.1",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "172",
-          "totalPasses": "217",
+          "totalPasses": "218",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "5",
           "crossPct": "0.4",
-          "totalLongBalls": "29",
+          "totalLongBalls": "30",
           "accurateLongBalls": "13",
           "longballPct": "0.4",
           "blockedShots": "2",
@@ -27603,7 +27603,7 @@
           "offsides": "3",
           "wonCorners": "3",
           "saves": "0",
-          "possessionPct": "73",
+          "possessionPct": "72.9",
           "totalShots": "8",
           "shotsOnTarget": "3",
           "shotPct": "0.4",
@@ -27623,8 +27623,8 @@
           "totalTackles": "8",
           "tacklePct": "0.3",
           "interceptions": "9",
-          "effectiveClearance": "6",
-          "totalClearance": "6"
+          "effectiveClearance": "7",
+          "totalClearance": "7"
         }
       }
     }
