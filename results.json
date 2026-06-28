@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T20:14:05.925Z",
+  "generatedAt": "2026-06-28T20:15:07.927Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -27786,8 +27786,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "54'",
+      "clock": "55'",
       "events": [
+        {
+          "min": "54'",
+          "icon": "🟨",
+          "txt": "Nathan Saliba (Canadá) Cartão Amarelo aos 54'",
+          "sub": "🇨🇦"
+        },
         {
           "min": "45'",
           "icon": "▶️",
@@ -28143,13 +28149,13 @@
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "252",
-          "totalPasses": "303",
+          "accuratePasses": "259",
+          "totalPasses": "312",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "2",
           "crossPct": "0.5",
-          "totalLongBalls": "46",
+          "totalLongBalls": "47",
           "accurateLongBalls": "23",
           "longballPct": "0.5",
           "blockedShots": "1",
@@ -28161,7 +28167,7 @@
           "totalClearance": "17"
         },
         "away": {
-          "foulsCommitted": "8",
+          "foulsCommitted": "9",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
@@ -28173,13 +28179,13 @@
           "shotPct": "0.6",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "168",
-          "totalPasses": "218",
+          "accuratePasses": "173",
+          "totalPasses": "225",
           "passPct": "0.8",
           "accurateCrosses": "4",
           "totalCrosses": "7",
           "crossPct": "0.6",
-          "totalLongBalls": "16",
+          "totalLongBalls": "17",
           "accurateLongBalls": "10",
           "longballPct": "0.6",
           "blockedShots": "0",
