@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T01:34:11.169Z",
+  "generatedAt": "2026-06-28T01:35:12.180Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -24402,15 +24402,15 @@
         },
         {
           "min": "87'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a uma lesão de Antoine Semenyo (Gana).",
-          "sub": "🇬🇭"
-        },
-        {
-          "min": "87'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇭🇷"
+        },
+        {
+          "min": "87'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Antoine Semenyo (Gana).",
+          "sub": "🇬🇭"
         },
         {
           "min": "85'",
