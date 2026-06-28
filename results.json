@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T20:18:05.007Z",
+  "generatedAt": "2026-06-28T20:19:06.890Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -27788,6 +27788,30 @@
       "live": true,
       "clock": "58'",
       "events": [
+        {
+          "min": "59'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇦. Luc de Fougerolles (Canadá) Substituição aos 59'",
+          "sub": "🇨🇦"
+        },
+        {
+          "min": "59'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇦. Niko Sigur (Canadá) Substituição aos 59'",
+          "sub": "🇨🇦"
+        },
+        {
+          "min": "59'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇿🇦"
+        },
+        {
+          "min": "58'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇦"
+        },
         {
           "min": "57'",
           "icon": "⏸️",
