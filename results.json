@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T02:51:19.656Z",
+  "generatedAt": "2026-06-28T02:52:12.054Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -27083,6 +27083,12 @@
       "clock": "45'+6'",
       "events": [
         {
+          "min": "45'+6'",
+          "icon": "⏱️",
+          "txt": "Fim do primeiro tempo, Jordânia 0, Argentina 2.",
+          "sub": "🏳️"
+        },
+        {
           "min": "31'",
           "icon": "🟥",
           "txt": "Gol! Jordan 0, Argentina 2. Lautaro Martínez (Argentina) converte o pênalti com um finalização com o pé direito no Escanteio inferior esquerdo.",
@@ -27450,23 +27456,23 @@
           "foulsCommitted": "5",
           "yellowCards": "1",
           "redCards": "0",
-          "offsides": "0",
+          "offsides": "1",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "28.3",
+          "possessionPct": "28.4",
           "totalShots": "3",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "117",
-          "totalPasses": "149",
+          "accuratePasses": "118",
+          "totalPasses": "150",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "4",
           "crossPct": "0.3",
-          "totalLongBalls": "18",
-          "accurateLongBalls": "7",
+          "totalLongBalls": "19",
+          "accurateLongBalls": "8",
           "longballPct": "0.4",
           "blockedShots": "2",
           "effectiveTackles": "6",
@@ -27483,7 +27489,7 @@
           "offsides": "2",
           "wonCorners": "2",
           "saves": "0",
-          "possessionPct": "71.7",
+          "possessionPct": "71.6",
           "totalShots": "5",
           "shotsOnTarget": "3",
           "shotPct": "0.6",
