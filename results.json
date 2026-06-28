@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T00:52:12.506Z",
+  "generatedAt": "2026-06-28T00:53:12.173Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -25495,7 +25495,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "60'",
+      "clock": "61'",
       "events": [
         {
           "min": "60'",
@@ -25929,8 +25929,20 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "58'",
+      "clock": "59'",
       "events": [
+        {
+          "min": "59'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇺🇿. Azizjon Ganiev (Uzbequistão) Substituição aos 59'",
+          "sub": "🇺🇿"
+        },
+        {
+          "min": "59'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇺🇿. Odiljon Xamrobekov (Uzbequistão) Substituição aos 59'",
+          "sub": "🇺🇿"
+        },
         {
           "min": "55'",
           "icon": "▶️",
@@ -26356,14 +26368,14 @@
           "offsides": "3",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "65.7",
+          "possessionPct": "65.6",
           "totalShots": "9",
           "shotsOnTarget": "1",
           "shotPct": "0.1",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "282",
-          "totalPasses": "336",
+          "accuratePasses": "285",
+          "totalPasses": "340",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "16",
@@ -26385,27 +26397,27 @@
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "3",
-          "saves": "0",
-          "possessionPct": "34.3",
+          "saves": "1",
+          "possessionPct": "34.4",
           "totalShots": "3",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "126",
-          "totalPasses": "172",
+          "accuratePasses": "128",
+          "totalPasses": "175",
           "passPct": "0.7",
           "accurateCrosses": "2",
           "totalCrosses": "10",
           "crossPct": "0.2",
-          "totalLongBalls": "42",
+          "totalLongBalls": "43",
           "accurateLongBalls": "15",
-          "longballPct": "0.4",
+          "longballPct": "0.3",
           "blockedShots": "0",
           "effectiveTackles": "11",
-          "totalTackles": "16",
-          "tacklePct": "0.7",
-          "interceptions": "7",
+          "totalTackles": "17",
+          "tacklePct": "0.6",
+          "interceptions": "8",
           "effectiveClearance": "31",
           "totalClearance": "31"
         }
