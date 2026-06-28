@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-28T20:28:05.916Z",
+  "generatedAt": "2026-06-28T20:29:10.654Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -27786,7 +27786,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "67'",
+      "clock": "68'",
       "events": [
         {
           "min": "67'",
@@ -27797,13 +27797,13 @@
         {
           "min": "67'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
           "sub": "🇿🇦"
         },
         {
           "min": "67'",
           "icon": "🟨",
-          "txt": "Niko Sigur (Canadá) Cartão Amarelo aos 67'",
+          "txt": "Niko Sigur (Canadá) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇨🇦"
         },
         {
@@ -28246,7 +28246,7 @@
         },
         "away": {
           "foulsCommitted": "11",
-          "yellowCards": "1",
+          "yellowCards": "2",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "4",
