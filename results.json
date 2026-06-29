@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T21:07:08.541Z",
+  "generatedAt": "2026-06-29T21:08:09.827Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28893,7 +28893,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "37'",
+      "clock": "38'",
       "events": [
         {
           "min": "26'",
@@ -29244,20 +29244,20 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "7",
+          "foulsCommitted": "8",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "82.7",
+          "possessionPct": "82.5",
           "totalShots": "3",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "249",
-          "totalPasses": "273",
+          "accuratePasses": "254",
+          "totalPasses": "280",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "8",
@@ -29266,8 +29266,8 @@
           "accurateLongBalls": "8",
           "longballPct": "0.7",
           "blockedShots": "1",
-          "effectiveTackles": "2",
-          "totalTackles": "2",
+          "effectiveTackles": "3",
+          "totalTackles": "3",
           "tacklePct": "1.0",
           "interceptions": "1",
           "effectiveClearance": "4",
@@ -29280,14 +29280,14 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "17.3",
+          "possessionPct": "17.5",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "32",
-          "totalPasses": "57",
+          "accuratePasses": "34",
+          "totalPasses": "59",
           "passPct": "0.6",
           "accurateCrosses": "1",
           "totalCrosses": "1",
@@ -29299,7 +29299,7 @@
           "effectiveTackles": "5",
           "totalTackles": "8",
           "tacklePct": "0.6",
-          "interceptions": "5",
+          "interceptions": "6",
           "effectiveClearance": "10",
           "totalClearance": "10"
         }
