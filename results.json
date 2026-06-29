@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T21:13:08.192Z",
+  "generatedAt": "2026-06-29T21:14:06.375Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28893,12 +28893,12 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "42'",
+      "clock": "43'",
       "events": [
         {
           "min": "42'",
           "icon": "⚽",
-          "txt": "Julio Enciso (Paraguai) de cabeça do meio da área após escanteio.",
+          "txt": "Julio Enciso (Paraguai) de cabeça do meio da área no Escanteio inferior esquerdo. Assistência de Matías Galarza com um cruzamento após escanteio.",
           "sub": "🇵🇾"
         },
         {
@@ -29256,14 +29256,14 @@
           "offsides": "1",
           "wonCorners": "3",
           "saves": "1",
-          "possessionPct": "78.4",
+          "possessionPct": "78.5",
           "totalShots": "3",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "265",
-          "totalPasses": "294",
+          "accuratePasses": "267",
+          "totalPasses": "296",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "9",
@@ -29286,7 +29286,7 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "0",
-          "possessionPct": "21.6",
+          "possessionPct": "21.5",
           "totalShots": "3",
           "shotsOnTarget": "2",
           "shotPct": "0.7",
