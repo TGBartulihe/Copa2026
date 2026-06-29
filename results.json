@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T21:57:05.656Z",
+  "generatedAt": "2026-06-29T21:58:05.091Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28893,8 +28893,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "64'",
+      "clock": "65'",
       "events": [
+        {
+          "min": "65'",
+          "icon": "🟨",
+          "txt": "Andrés Cubas (Paraguai) Cartão Amarelo aos 65'",
+          "sub": "🇵🇾"
+        },
         {
           "min": "63'",
           "icon": "🔄",
@@ -29322,20 +29328,20 @@
           "offsides": "3",
           "wonCorners": "6",
           "saves": "3",
-          "possessionPct": "77.5",
+          "possessionPct": "77.7",
           "totalShots": "8",
           "shotsOnTarget": "1",
           "shotPct": "0.1",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "414",
-          "totalPasses": "465",
+          "accuratePasses": "420",
+          "totalPasses": "471",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "23",
           "crossPct": "0.1",
-          "totalLongBalls": "22",
-          "accurateLongBalls": "13",
+          "totalLongBalls": "23",
+          "accurateLongBalls": "14",
           "longballPct": "0.6",
           "blockedShots": "3",
           "effectiveTackles": "4",
@@ -29352,7 +29358,7 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "22.5",
+          "possessionPct": "22.3",
           "totalShots": "5",
           "shotsOnTarget": "4",
           "shotPct": "0.8",
