@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T22:02:08.006Z",
+  "generatedAt": "2026-06-29T22:03:08.444Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28893,8 +28893,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "68'",
+      "clock": "69'",
       "events": [
+        {
+          "min": "70'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇩🇪"
+        },
         {
           "min": "65'",
           "icon": "🟨",
@@ -29322,13 +29328,13 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "11",
+          "foulsCommitted": "12",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "3",
           "wonCorners": "8",
           "saves": "3",
-          "possessionPct": "77.8",
+          "possessionPct": "77.1",
           "totalShots": "9",
           "shotsOnTarget": "1",
           "shotPct": "0.1",
@@ -29356,21 +29362,21 @@
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "0",
-          "wonCorners": "2",
+          "wonCorners": "3",
           "saves": "1",
-          "possessionPct": "22.2",
+          "possessionPct": "22.9",
           "totalShots": "5",
           "shotsOnTarget": "4",
           "shotPct": "0.8",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "80",
-          "totalPasses": "136",
+          "accuratePasses": "82",
+          "totalPasses": "139",
           "passPct": "0.6",
-          "accurateCrosses": "4",
-          "totalCrosses": "8",
+          "accurateCrosses": "5",
+          "totalCrosses": "11",
           "crossPct": "0.5",
-          "totalLongBalls": "43",
+          "totalLongBalls": "44",
           "accurateLongBalls": "11",
           "longballPct": "0.3",
           "blockedShots": "1",
