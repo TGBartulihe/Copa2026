@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T18:05:06.605Z",
+  "generatedAt": "2026-06-29T18:06:08.580Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28345,6 +28345,12 @@
       "live": true,
       "clock": "45'+4'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇧🇷. Substituição de Endrick (Brasil) aos 45'",
+          "sub": "🇧🇷"
+        },
         {
           "min": "45'+5'",
           "icon": "⏱️",
