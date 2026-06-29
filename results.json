@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T22:58:03.981Z",
+  "generatedAt": "2026-06-29T22:59:04.855Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28893,7 +28893,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "107'",
+      "clock": "108'",
       "events": [
         {
           "min": "106'",
@@ -28927,15 +28927,15 @@
         },
         {
           "min": "105'+5'",
-          "icon": "⏸️",
-          "txt": "Partida atrasada (Alemanha).",
-          "sub": "🇩🇪"
-        },
-        {
-          "min": "105'+5'",
           "icon": "🩹",
           "txt": "Partida atrasada devido a uma lesão de Orlando Gill (Paraguai).",
           "sub": "🇵🇾"
+        },
+        {
+          "min": "105'+5'",
+          "icon": "⏸️",
+          "txt": "Partida atrasada (Alemanha).",
+          "sub": "🇩🇪"
         },
         {
           "min": "105'",
@@ -29448,14 +29448,14 @@
           "offsides": "4",
           "wonCorners": "13",
           "saves": "2",
-          "possessionPct": "77.4",
+          "possessionPct": "76.8",
           "totalShots": "18",
           "shotsOnTarget": "4",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "684",
-          "totalPasses": "760",
+          "totalPasses": "761",
           "passPct": "0.9",
           "accurateCrosses": "9",
           "totalCrosses": "52",
@@ -29468,30 +29468,30 @@
           "totalTackles": "11",
           "tacklePct": "0.6",
           "interceptions": "4",
-          "effectiveClearance": "13",
-          "totalClearance": "13"
+          "effectiveClearance": "18",
+          "totalClearance": "18"
         },
         "away": {
           "foulsCommitted": "9",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "1",
-          "wonCorners": "5",
+          "wonCorners": "6",
           "saves": "4",
-          "possessionPct": "22.6",
+          "possessionPct": "23.2",
           "totalShots": "7",
           "shotsOnTarget": "3",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "132",
-          "totalPasses": "220",
+          "accuratePasses": "136",
+          "totalPasses": "225",
           "passPct": "0.6",
-          "accurateCrosses": "6",
-          "totalCrosses": "16",
+          "accurateCrosses": "7",
+          "totalCrosses": "19",
           "crossPct": "0.4",
-          "totalLongBalls": "68",
-          "accurateLongBalls": "15",
+          "totalLongBalls": "69",
+          "accurateLongBalls": "16",
           "longballPct": "0.2",
           "blockedShots": "2",
           "effectiveTackles": "16",
