@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T18:09:08.313Z",
+  "generatedAt": "2026-06-29T18:10:07.525Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28343,8 +28343,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "47'",
+      "clock": "48'",
       "events": [
+        {
+          "min": "48'",
+          "icon": "🟨",
+          "txt": "Danilo (Brasil) Cartão Amarelo aos 48'",
+          "sub": "🇧🇷"
+        },
         {
           "min": "45'",
           "icon": "▶️",
@@ -28699,19 +28705,19 @@
           "offsides": "1",
           "wonCorners": "2",
           "saves": "0",
-          "possessionPct": "67.4",
+          "possessionPct": "66.9",
           "totalShots": "8",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "336",
-          "totalPasses": "363",
+          "accuratePasses": "337",
+          "totalPasses": "366",
           "passPct": "0.9",
           "accurateCrosses": "2",
-          "totalCrosses": "12",
+          "totalCrosses": "13",
           "crossPct": "0.2",
-          "totalLongBalls": "24",
+          "totalLongBalls": "25",
           "accurateLongBalls": "12",
           "longballPct": "0.5",
           "blockedShots": "4",
@@ -28719,8 +28725,8 @@
           "totalTackles": "8",
           "tacklePct": "0.5",
           "interceptions": "5",
-          "effectiveClearance": "6",
-          "totalClearance": "6"
+          "effectiveClearance": "7",
+          "totalClearance": "7"
         },
         "away": {
           "foulsCommitted": "6",
@@ -28729,19 +28735,19 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "2",
-          "possessionPct": "32.6",
+          "possessionPct": "33.1",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "145",
-          "totalPasses": "171",
+          "accuratePasses": "146",
+          "totalPasses": "176",
           "passPct": "0.8",
-          "accurateCrosses": "1",
-          "totalCrosses": "7",
-          "crossPct": "0.1",
-          "totalLongBalls": "24",
+          "accurateCrosses": "2",
+          "totalCrosses": "8",
+          "crossPct": "0.3",
+          "totalLongBalls": "25",
           "accurateLongBalls": "12",
           "longballPct": "0.5",
           "blockedShots": "2",
@@ -28749,8 +28755,8 @@
           "totalTackles": "5",
           "tacklePct": "0.4",
           "interceptions": "2",
-          "effectiveClearance": "15",
-          "totalClearance": "15"
+          "effectiveClearance": "16",
+          "totalClearance": "16"
         }
       },
       "round": "avos"
