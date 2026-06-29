@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T21:35:04.607Z",
+  "generatedAt": "2026-06-29T21:36:07.362Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28895,6 +28895,12 @@
       "live": true,
       "clock": "45'+5'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇩🇪. Entra León Goretzka para o lugar de Félix Nmecha.",
+          "sub": "🇩🇪"
+        },
         {
           "min": "45'+6'",
           "icon": "⏱️",
