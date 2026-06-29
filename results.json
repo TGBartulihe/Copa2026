@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T21:20:05.777Z",
+  "generatedAt": "2026-06-29T21:21:06.420Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28896,6 +28896,12 @@
       "clock": "45'+5'",
       "events": [
         {
+          "min": "45'+6'",
+          "icon": "⏱️",
+          "txt": "Intervalo",
+          "sub": "🏳️"
+        },
+        {
           "min": "42'",
           "icon": "⚽",
           "txt": "Julio Enciso (Paraguai) de cabeça do meio da área no Escanteio inferior esquerdo. Assistência de Matías Galarza com um cruzamento após escanteio.",
@@ -29256,17 +29262,17 @@
           "offsides": "2",
           "wonCorners": "6",
           "saves": "1",
-          "possessionPct": "78.7",
+          "possessionPct": "78.8",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "303",
-          "totalPasses": "337",
+          "accuratePasses": "308",
+          "totalPasses": "342",
           "passPct": "0.9",
-          "accurateCrosses": "2",
-          "totalCrosses": "16",
+          "accurateCrosses": "1",
+          "totalCrosses": "18",
           "crossPct": "0.1",
           "totalLongBalls": "15",
           "accurateLongBalls": "10",
@@ -29276,8 +29282,8 @@
           "totalTackles": "4",
           "tacklePct": "0.8",
           "interceptions": "1",
-          "effectiveClearance": "7",
-          "totalClearance": "7"
+          "effectiveClearance": "8",
+          "totalClearance": "8"
         },
         "away": {
           "foulsCommitted": "2",
@@ -29286,19 +29292,19 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "21.3",
+          "possessionPct": "21.2",
           "totalShots": "3",
           "shotsOnTarget": "2",
           "shotPct": "0.7",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "54",
-          "totalPasses": "91",
+          "totalPasses": "92",
           "passPct": "0.6",
           "accurateCrosses": "2",
           "totalCrosses": "4",
           "crossPct": "0.5",
-          "totalLongBalls": "28",
+          "totalLongBalls": "29",
           "accurateLongBalls": "8",
           "longballPct": "0.3",
           "blockedShots": "1",
@@ -29306,8 +29312,8 @@
           "totalTackles": "11",
           "tacklePct": "0.6",
           "interceptions": "8",
-          "effectiveClearance": "20",
-          "totalClearance": "20"
+          "effectiveClearance": "21",
+          "totalClearance": "21"
         }
       },
       "round": "avos"
