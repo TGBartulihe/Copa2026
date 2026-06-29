@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T18:06:08.580Z",
+  "generatedAt": "2026-06-29T18:07:09.875Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28348,11 +28348,11 @@
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, 🇧🇷. Substituição de Endrick (Brasil) aos 45'",
+          "txt": "Substituição, 🇧🇷. Entra Endrick substituindo Lucas Paquetá.",
           "sub": "🇧🇷"
         },
         {
-          "min": "45'+5'",
+          "min": "45'+4'",
           "icon": "⏱️",
           "txt": "Fim do primeiro tempo, Brasil 0, Japão 1.",
           "sub": "🏳️"
@@ -28709,9 +28709,9 @@
           "accurateLongBalls": "12",
           "longballPct": "0.5",
           "blockedShots": "4",
-          "effectiveTackles": "4",
+          "effectiveTackles": "3",
           "totalTackles": "7",
-          "tacklePct": "0.6",
+          "tacklePct": "0.4",
           "interceptions": "5",
           "effectiveClearance": "5",
           "totalClearance": "5"
@@ -28743,8 +28743,8 @@
           "totalTackles": "5",
           "tacklePct": "0.4",
           "interceptions": "2",
-          "effectiveClearance": "14",
-          "totalClearance": "14"
+          "effectiveClearance": "15",
+          "totalClearance": "15"
         }
       },
       "round": "avos"
