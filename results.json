@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T22:53:05.456Z",
+  "generatedAt": "2026-06-29T22:54:05.092Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28897,8 +28897,32 @@
       "events": [
         {
           "min": "105'+5'",
+          "icon": "⏱️",
+          "txt": "Intervalo",
+          "sub": "🏳️"
+        },
+        {
+          "min": "105'+5'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇩🇪"
+        },
+        {
+          "min": "105'+5'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇵🇾"
+        },
+        {
+          "min": "105'+5'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
+          "sub": "🇵🇾"
+        },
+        {
+          "min": "105'+5'",
+          "icon": "⏸️",
+          "txt": "Partida atrasada (Alemanha).",
           "sub": "🇩🇪"
         },
         {
@@ -29412,20 +29436,20 @@
           "offsides": "4",
           "wonCorners": "13",
           "saves": "2",
-          "possessionPct": "77.4",
-          "totalShots": "17",
-          "shotsOnTarget": "3",
+          "possessionPct": "77.6",
+          "totalShots": "18",
+          "shotsOnTarget": "4",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "673",
-          "totalPasses": "748",
+          "accuratePasses": "678",
+          "totalPasses": "753",
           "passPct": "0.9",
-          "accurateCrosses": "8",
-          "totalCrosses": "50",
+          "accurateCrosses": "9",
+          "totalCrosses": "52",
           "crossPct": "0.2",
-          "totalLongBalls": "35",
-          "accurateLongBalls": "23",
+          "totalLongBalls": "36",
+          "accurateLongBalls": "24",
           "longballPct": "0.7",
           "blockedShots": "8",
           "effectiveTackles": "7",
@@ -29441,8 +29465,8 @@
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "5",
-          "saves": "3",
-          "possessionPct": "22.6",
+          "saves": "4",
+          "possessionPct": "22.4",
           "totalShots": "7",
           "shotsOnTarget": "3",
           "shotPct": "0.4",
@@ -29462,8 +29486,8 @@
           "totalTackles": "26",
           "tacklePct": "0.6",
           "interceptions": "13",
-          "effectiveClearance": "51",
-          "totalClearance": "51"
+          "effectiveClearance": "52",
+          "totalClearance": "52"
         }
       },
       "round": "avos"
