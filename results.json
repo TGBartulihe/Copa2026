@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T18:27:04.701Z",
+  "generatedAt": "2026-06-29T18:28:06.709Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28343,8 +28343,26 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "65'",
+      "clock": "66'",
       "events": [
+        {
+          "min": "66'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇯🇵. Yukinari Sugawara substitui Ritsu Doan.",
+          "sub": "🇯🇵"
+        },
+        {
+          "min": "66'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇯🇵. Entra Junnosuke Suzuki substituindo Keito Nakamura.",
+          "sub": "🇯🇵"
+        },
+        {
+          "min": "66'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇧🇷. Entra Gabriel Martinelli para o lugar de Matheus Cunha.",
+          "sub": "🇧🇷"
+        },
         {
           "min": "56'",
           "icon": "⚽",
@@ -28710,15 +28728,15 @@
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "2",
-          "saves": "0",
-          "possessionPct": "64.9",
+          "saves": "1",
+          "possessionPct": "65.7",
           "totalShots": "14",
           "shotsOnTarget": "6",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "420",
-          "totalPasses": "459",
+          "accuratePasses": "435",
+          "totalPasses": "475",
           "passPct": "0.9",
           "accurateCrosses": "6",
           "totalCrosses": "23",
@@ -28741,7 +28759,7 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "4",
-          "possessionPct": "35.1",
+          "possessionPct": "34.3",
           "totalShots": "5",
           "shotsOnTarget": "2",
           "shotPct": "0.4",
