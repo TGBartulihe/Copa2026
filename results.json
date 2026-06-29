@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T18:19:06.926Z",
+  "generatedAt": "2026-06-29T18:20:06.991Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28343,25 +28343,13 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "57'",
+      "clock": "58'",
       "events": [
         {
           "min": "56'",
           "icon": "⚽",
           "txt": "Casemiro (Brasil) de cabeça do lado direito da pequena área acertando no centro do gol. Assistência de Gabriel Magalhães com um cruzamento.",
           "sub": "🇧🇷"
-        },
-        {
-          "min": "55'",
-          "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇯🇵"
-        },
-        {
-          "min": "54'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
-          "sub": "🇯🇵"
         },
         {
           "min": "48'",
@@ -28723,24 +28711,24 @@
           "offsides": "1",
           "wonCorners": "2",
           "saves": "0",
-          "possessionPct": "66.2",
-          "totalShots": "12",
+          "possessionPct": "65.8",
+          "totalShots": "13",
           "shotsOnTarget": "5",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "388",
-          "totalPasses": "420",
+          "accuratePasses": "390",
+          "totalPasses": "424",
           "passPct": "0.9",
           "accurateCrosses": "6",
           "totalCrosses": "22",
           "crossPct": "0.3",
-          "totalLongBalls": "29",
-          "accurateLongBalls": "16",
+          "totalLongBalls": "30",
+          "accurateLongBalls": "17",
           "longballPct": "0.6",
           "blockedShots": "4",
-          "effectiveTackles": "5",
-          "totalTackles": "9",
+          "effectiveTackles": "6",
+          "totalTackles": "10",
           "tacklePct": "0.6",
           "interceptions": "6",
           "effectiveClearance": "9",
@@ -28753,19 +28741,19 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "3",
-          "possessionPct": "33.8",
+          "possessionPct": "34.2",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "181",
-          "totalPasses": "213",
-          "passPct": "0.9",
+          "accuratePasses": "185",
+          "totalPasses": "219",
+          "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "8",
           "crossPct": "0.3",
-          "totalLongBalls": "28",
+          "totalLongBalls": "29",
           "accurateLongBalls": "15",
           "longballPct": "0.5",
           "blockedShots": "2",
@@ -28773,8 +28761,8 @@
           "totalTackles": "6",
           "tacklePct": "0.3",
           "interceptions": "3",
-          "effectiveClearance": "25",
-          "totalClearance": "25"
+          "effectiveClearance": "26",
+          "totalClearance": "26"
         }
       },
       "round": "avos"
