@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T22:55:06.587Z",
+  "generatedAt": "2026-06-29T22:56:04.376Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28910,13 +28910,7 @@
         {
           "min": "105'+5'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇵🇾"
-        },
-        {
-          "min": "105'+5'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇵🇾"
         },
         {
@@ -28924,6 +28918,12 @@
           "icon": "⏸️",
           "txt": "Partida atrasada (Alemanha).",
           "sub": "🇩🇪"
+        },
+        {
+          "min": "105'+5'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Orlando Gill (Paraguai).",
+          "sub": "🇵🇾"
         },
         {
           "min": "105'",
@@ -29475,7 +29475,7 @@
           "accuratePasses": "130",
           "totalPasses": "215",
           "passPct": "0.6",
-          "accurateCrosses": "7",
+          "accurateCrosses": "6",
           "totalCrosses": "16",
           "crossPct": "0.4",
           "totalLongBalls": "66",
