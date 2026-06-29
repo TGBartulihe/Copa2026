@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T20:33:07.764Z",
+  "generatedAt": "2026-06-29T20:34:05.953Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28893,8 +28893,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "2'",
+      "clock": "4'",
       "events": [
+        {
+          "min": "4'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇩🇪"
+        },
+        {
+          "min": "4'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇵🇾"
+        },
         {
           "min": "",
           "icon": "🏁",
@@ -28911,12 +28923,12 @@
               "row": 0
             },
             {
-              "name": "Jonathan Tah",
+              "name": "Antonio Rüdiger",
               "pos": "CD-L",
               "row": 1
             },
             {
-              "name": "Antonio Rüdiger",
+              "name": "Jonathan Tah",
               "pos": "CD-R",
               "row": 1
             },
@@ -29172,20 +29184,20 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "0",
+          "foulsCommitted": "1",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "73.7",
-          "totalShots": "0",
+          "possessionPct": "78.9",
+          "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "13",
-          "totalPasses": "14",
+          "accuratePasses": "14",
+          "totalPasses": "15",
           "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "0",
@@ -29193,7 +29205,7 @@
           "totalLongBalls": "0",
           "accurateLongBalls": "0",
           "longballPct": "0.0",
-          "blockedShots": "0",
+          "blockedShots": "1",
           "effectiveTackles": "0",
           "totalTackles": "0",
           "tacklePct": "0.0",
@@ -29208,15 +29220,15 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "26.3",
+          "possessionPct": "21.1",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "2",
-          "totalPasses": "4",
-          "passPct": "0.5",
+          "totalPasses": "3",
+          "passPct": "0.7",
           "accurateCrosses": "1",
           "totalCrosses": "1",
           "crossPct": "1.0",
@@ -29228,8 +29240,8 @@
           "totalTackles": "0",
           "tacklePct": "0.0",
           "interceptions": "1",
-          "effectiveClearance": "0",
-          "totalClearance": "0"
+          "effectiveClearance": "1",
+          "totalClearance": "1"
         }
       },
       "round": "avos"
