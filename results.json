@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T18:18:08.781Z",
+  "generatedAt": "2026-06-29T18:19:06.926Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28343,12 +28343,12 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "56'",
+      "clock": "57'",
       "events": [
         {
           "min": "56'",
           "icon": "⚽",
-          "txt": "Casemiro (Brasil) de cabeça do lado direito da pequena área.",
+          "txt": "Casemiro (Brasil) de cabeça do lado direito da pequena área acertando no centro do gol. Assistência de Gabriel Magalhães com um cruzamento.",
           "sub": "🇧🇷"
         },
         {
@@ -28760,11 +28760,11 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "181",
-          "totalPasses": "212",
+          "totalPasses": "213",
           "passPct": "0.9",
           "accurateCrosses": "2",
-          "totalCrosses": "9",
-          "crossPct": "0.2",
+          "totalCrosses": "8",
+          "crossPct": "0.3",
           "totalLongBalls": "28",
           "accurateLongBalls": "15",
           "longballPct": "0.5",
@@ -28773,8 +28773,8 @@
           "totalTackles": "6",
           "tacklePct": "0.3",
           "interceptions": "3",
-          "effectiveClearance": "24",
-          "totalClearance": "24"
+          "effectiveClearance": "25",
+          "totalClearance": "25"
         }
       },
       "round": "avos"
