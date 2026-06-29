@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T17:46:05.786Z",
+  "generatedAt": "2026-06-29T17:47:05.641Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28343,12 +28343,12 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "45'+1'",
+      "clock": "45'+2'",
       "events": [
         {
           "min": "45'",
           "icon": "🟨",
-          "txt": "Daichi Kamada (Japão) Cartão Amarelo aos 45'",
+          "txt": "Daichi Kamada (Japão) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇯🇵"
         },
         {
@@ -28681,14 +28681,14 @@
           "offsides": "1",
           "wonCorners": "2",
           "saves": "0",
-          "possessionPct": "68.4",
-          "totalShots": "7",
+          "possessionPct": "68.8",
+          "totalShots": "8",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "306",
-          "totalPasses": "328",
+          "accuratePasses": "312",
+          "totalPasses": "334",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "11",
@@ -28705,14 +28705,14 @@
           "totalClearance": "5"
         },
         "away": {
-          "foulsCommitted": "5",
-          "yellowCards": "1",
+          "foulsCommitted": "6",
+          "yellowCards": "2",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "2",
           "saves": "2",
-          "possessionPct": "31.6",
-          "totalShots": "3",
+          "possessionPct": "31.2",
+          "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
@@ -28726,7 +28726,7 @@
           "totalLongBalls": "20",
           "accurateLongBalls": "10",
           "longballPct": "0.5",
-          "blockedShots": "1",
+          "blockedShots": "2",
           "effectiveTackles": "2",
           "totalTackles": "5",
           "tacklePct": "0.4",
