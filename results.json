@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T00:13:07.169Z",
+  "generatedAt": "2026-06-29T00:14:05.948Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28723,6 +28723,38 @@
       "brTime": "16h",
       "venue": "SoFi Stadium",
       "iso": "2026-07-10T19:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "final"
+    },
+    {
+      "espnId": "760512",
+      "home": "Round of 16 3 Winner",
+      "away": "Round of 16 4 Winner",
+      "date": "11/07",
+      "brTime": "18h",
+      "venue": "Hard Rock Stadium",
+      "iso": "2026-07-11T21:00Z",
+      "sh": null,
+      "sa": null,
+      "done": false,
+      "live": false,
+      "clock": "",
+      "events": [],
+      "round": "final"
+    },
+    {
+      "espnId": "760513",
+      "home": "Round of 16 7 Winner",
+      "away": "Round of 16 8 Winner",
+      "date": "11/07",
+      "brTime": "22h",
+      "venue": "GEHA Field at Arrowhead Stadium",
+      "iso": "2026-07-12T01:00Z",
       "sh": null,
       "sa": null,
       "done": false,
