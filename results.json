@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T17:04:05.388Z",
+  "generatedAt": "2026-06-29T17:05:06.562Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28343,7 +28343,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "4'",
+      "clock": "5'",
       "events": [
         {
           "min": "",
@@ -28650,7 +28650,7 @@
           "longballPct": "0.3",
           "blockedShots": "1",
           "effectiveTackles": "0",
-          "totalTackles": "0",
+          "totalTackles": "1",
           "tacklePct": "0.0",
           "interceptions": "0",
           "effectiveClearance": "0",
