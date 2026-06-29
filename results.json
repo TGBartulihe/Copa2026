@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T23:07:06.292Z",
+  "generatedAt": "2026-06-29T23:08:04.954Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28893,19 +28893,37 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "116'",
+      "clock": "118'",
       "events": [
         {
-          "min": "116'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "min": "117'",
+          "icon": "🟨",
+          "txt": "Matías Galarza (Paraguai) recebe cartão amarelo por uma entrada perigosa.",
+          "sub": "🇵🇾"
+        },
+        {
+          "min": "117'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
           "sub": "🇩🇪"
+        },
+        {
+          "min": "117'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇵🇾"
         },
         {
           "min": "116'",
           "icon": "🩹",
           "txt": "Partida atrasada devido a lesão de Matías Galarza (Paraguai).",
           "sub": "🇵🇾"
+        },
+        {
+          "min": "116'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇩🇪"
         },
         {
           "min": "115'",
