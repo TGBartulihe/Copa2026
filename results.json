@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T21:58:05.091Z",
+  "generatedAt": "2026-06-29T21:59:07.821Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28898,7 +28898,7 @@
         {
           "min": "65'",
           "icon": "🟨",
-          "txt": "Andrés Cubas (Paraguai) Cartão Amarelo aos 65'",
+          "txt": "Andrés Cubas (Paraguai) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇵🇾"
         },
         {
@@ -29334,14 +29334,14 @@
           "shotPct": "0.1",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "420",
-          "totalPasses": "471",
+          "accuratePasses": "430",
+          "totalPasses": "482",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "23",
           "crossPct": "0.1",
-          "totalLongBalls": "23",
-          "accurateLongBalls": "14",
+          "totalLongBalls": "24",
+          "accurateLongBalls": "15",
           "longballPct": "0.6",
           "blockedShots": "3",
           "effectiveTackles": "4",
@@ -29352,8 +29352,8 @@
           "totalClearance": "10"
         },
         "away": {
-          "foulsCommitted": "3",
-          "yellowCards": "0",
+          "foulsCommitted": "4",
+          "yellowCards": "1",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "2",
@@ -29364,13 +29364,13 @@
           "shotPct": "0.8",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "79",
-          "totalPasses": "133",
+          "accuratePasses": "80",
+          "totalPasses": "136",
           "passPct": "0.6",
           "accurateCrosses": "4",
           "totalCrosses": "8",
           "crossPct": "0.5",
-          "totalLongBalls": "42",
+          "totalLongBalls": "43",
           "accurateLongBalls": "11",
           "longballPct": "0.3",
           "blockedShots": "1",
