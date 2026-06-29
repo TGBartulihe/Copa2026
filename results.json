@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T22:56:04.376Z",
+  "generatedAt": "2026-06-29T22:57:09.959Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28893,8 +28893,20 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "105'+5'",
+      "clock": "106'",
       "events": [
+        {
+          "min": "106'",
+          "icon": "🟨",
+          "txt": "Kai Havertz (Alemanha) recebe cartão amarelo por uma entrada perigosa.",
+          "sub": "🇩🇪"
+        },
+        {
+          "min": "105'",
+          "icon": "▶️",
+          "txt": "Início do prolongamento do segundo tempo Alemanha 1, Paraguai 1.",
+          "sub": "🏳️"
+        },
         {
           "min": "105'+5'",
           "icon": "⏱️",
@@ -29442,8 +29454,8 @@
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "678",
-          "totalPasses": "753",
+          "accuratePasses": "679",
+          "totalPasses": "754",
           "passPct": "0.9",
           "accurateCrosses": "9",
           "totalCrosses": "52",
