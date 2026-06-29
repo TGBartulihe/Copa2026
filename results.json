@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T18:59:09.842Z",
+  "generatedAt": "2026-06-29T19:00:07.703Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28343,12 +28343,18 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "90'+7'",
+      "clock": "90'+8'",
       "events": [
+        {
+          "min": "90'+8'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇧🇷. Danilo Santos entra em campo e entra Bruno Guimarães.",
+          "sub": "🇧🇷"
+        },
         {
           "min": "90'+7'",
           "icon": "🔄",
-          "txt": "Substituição, 🇯🇵. Substituição de Koki Ogawa (Japão) aos 90'+7'",
+          "txt": "Substituição, 🇯🇵. Koki Ogawa substitui Daizen Maeda.",
           "sub": "🇯🇵"
         },
         {
@@ -28859,9 +28865,9 @@
           "accurateLongBalls": "23",
           "longballPct": "0.6",
           "blockedShots": "2",
-          "effectiveTackles": "5",
-          "totalTackles": "11",
-          "tacklePct": "0.5",
+          "effectiveTackles": "4",
+          "totalTackles": "10",
+          "tacklePct": "0.4",
           "interceptions": "3",
           "effectiveClearance": "44",
           "totalClearance": "44"
