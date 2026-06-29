@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T18:54:08.181Z",
+  "generatedAt": "2026-06-29T18:55:07.481Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28343,8 +28343,26 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "90'+2'",
+      "clock": "90'+3'",
       "events": [
+        {
+          "min": "90'+3'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇯🇵"
+        },
+        {
+          "min": "90'+3'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇧🇷. Fabinho substitui Casemiro devido a lesão.",
+          "sub": "🇧🇷"
+        },
+        {
+          "min": "90'+3'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇧🇷"
+        },
         {
           "min": "90'+1'",
           "icon": "⏸️",
@@ -28353,8 +28371,8 @@
         },
         {
           "min": "90'+1'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a lesão de Casemiro (Brasil).",
           "sub": "🇧🇷"
         },
         {
