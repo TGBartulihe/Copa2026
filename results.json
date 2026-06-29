@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T21:49:06.253Z",
+  "generatedAt": "2026-06-29T21:50:05.457Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28896,6 +28896,18 @@
       "clock": "56'",
       "events": [
         {
+          "min": "56'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇵🇾"
+        },
+        {
+          "min": "56'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇩🇪"
+        },
+        {
           "min": "55'",
           "icon": "🔄",
           "txt": "Substituição, 🇵🇾. Gustavo Caballero entra em campo com Gabriel Ávalos.",
@@ -29286,14 +29298,14 @@
           "offsides": "3",
           "wonCorners": "6",
           "saves": "2",
-          "possessionPct": "77.5",
+          "possessionPct": "77.6",
           "totalShots": "6",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "375",
-          "totalPasses": "421",
+          "accuratePasses": "377",
+          "totalPasses": "423",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "22",
@@ -29316,7 +29328,7 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "22.5",
+          "possessionPct": "22.4",
           "totalShots": "4",
           "shotsOnTarget": "3",
           "shotPct": "0.8",
