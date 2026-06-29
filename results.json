@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T23:00:04.767Z",
+  "generatedAt": "2026-06-29T23:01:09.845Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28893,8 +28893,20 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "109'",
+      "clock": "110'",
       "events": [
+        {
+          "min": "110'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇩🇪. Entra Nadiem Amiri para o lugar de Florian Wirtz.",
+          "sub": "🇩🇪"
+        },
+        {
+          "min": "110'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇩🇪. Entra Malick Thiaw para o lugar de Antonio Rüdiger.",
+          "sub": "🇩🇪"
+        },
         {
           "min": "106'",
           "icon": "🟨",
@@ -29457,8 +29469,8 @@
           "accuratePasses": "689",
           "totalPasses": "766",
           "passPct": "0.9",
-          "accurateCrosses": "9",
-          "totalCrosses": "52",
+          "accurateCrosses": "10",
+          "totalCrosses": "53",
           "crossPct": "0.2",
           "totalLongBalls": "38",
           "accurateLongBalls": "25",
@@ -29468,8 +29480,8 @@
           "totalTackles": "11",
           "tacklePct": "0.6",
           "interceptions": "4",
-          "effectiveClearance": "21",
-          "totalClearance": "21"
+          "effectiveClearance": "22",
+          "totalClearance": "22"
         },
         "away": {
           "foulsCommitted": "9",
