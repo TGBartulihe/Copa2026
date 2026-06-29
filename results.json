@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T18:39:06.986Z",
+  "generatedAt": "2026-06-29T18:40:10.866Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28343,8 +28343,20 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "76'",
+      "clock": "78'",
       "events": [
+        {
+          "min": "78'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇯🇵. Substituição de Ao Tanaka (Japão) aos 78'",
+          "sub": "🇯🇵"
+        },
+        {
+          "min": "78'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇯🇵. Shuto Machino (Japão) Substituição aos 78'",
+          "sub": "🇯🇵"
+        },
         {
           "min": "71'",
           "icon": "▶️",
@@ -28753,18 +28765,18 @@
           "offsides": "1",
           "wonCorners": "3",
           "saves": "1",
-          "possessionPct": "68.2",
-          "totalShots": "15",
+          "possessionPct": "69.2",
+          "totalShots": "16",
           "shotsOnTarget": "6",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "504",
-          "totalPasses": "547",
+          "accuratePasses": "533",
+          "totalPasses": "577",
           "passPct": "0.9",
           "accurateCrosses": "7",
-          "totalCrosses": "28",
-          "crossPct": "0.3",
+          "totalCrosses": "30",
+          "crossPct": "0.2",
           "totalLongBalls": "37",
           "accurateLongBalls": "19",
           "longballPct": "0.5",
@@ -28783,14 +28795,14 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "4",
-          "possessionPct": "31.8",
+          "possessionPct": "30.8",
           "totalShots": "5",
           "shotsOnTarget": "2",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "219",
-          "totalPasses": "256",
+          "totalPasses": "257",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "8",
@@ -28803,8 +28815,8 @@
           "totalTackles": "6",
           "tacklePct": "0.3",
           "interceptions": "3",
-          "effectiveClearance": "33",
-          "totalClearance": "33"
+          "effectiveClearance": "35",
+          "totalClearance": "35"
         }
       },
       "round": "avos"
