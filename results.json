@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T23:12:04.351Z",
+  "generatedAt": "2026-06-29T23:13:08.921Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28893,8 +28893,20 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "120'+1'",
+      "clock": "120'+2'",
       "events": [
+        {
+          "min": "120'+3'",
+          "icon": "•",
+          "txt": "jogador",
+          "sub": "🏳️"
+        },
+        {
+          "min": "120'+2'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇾. Substituição de Fabián Balbuena (Paraguai) aos 120'+2'",
+          "sub": "🇵🇾"
+        },
         {
           "min": "117'",
           "icon": "🟨",
