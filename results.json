@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T21:56:06.039Z",
+  "generatedAt": "2026-06-29T21:57:05.656Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28893,8 +28893,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "62'",
+      "clock": "64'",
       "events": [
+        {
+          "min": "63'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇩🇪. Entra Jamal Musiala para o lugar de Deniz Undav.",
+          "sub": "🇩🇪"
+        },
         {
           "min": "57'",
           "icon": "🔄",
@@ -29316,14 +29322,14 @@
           "offsides": "3",
           "wonCorners": "6",
           "saves": "3",
-          "possessionPct": "77.6",
+          "possessionPct": "77.5",
           "totalShots": "8",
           "shotsOnTarget": "1",
           "shotPct": "0.1",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "411",
-          "totalPasses": "462",
+          "accuratePasses": "414",
+          "totalPasses": "465",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "23",
@@ -29336,8 +29342,8 @@
           "totalTackles": "6",
           "tacklePct": "0.7",
           "interceptions": "2",
-          "effectiveClearance": "9",
-          "totalClearance": "9"
+          "effectiveClearance": "10",
+          "totalClearance": "10"
         },
         "away": {
           "foulsCommitted": "3",
@@ -29346,19 +29352,19 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "22.4",
+          "possessionPct": "22.5",
           "totalShots": "5",
           "shotsOnTarget": "4",
           "shotPct": "0.8",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "79",
-          "totalPasses": "132",
+          "totalPasses": "133",
           "passPct": "0.6",
-          "accurateCrosses": "3",
-          "totalCrosses": "7",
-          "crossPct": "0.4",
-          "totalLongBalls": "41",
+          "accurateCrosses": "4",
+          "totalCrosses": "8",
+          "crossPct": "0.5",
+          "totalLongBalls": "42",
           "accurateLongBalls": "11",
           "longballPct": "0.3",
           "blockedShots": "1",
