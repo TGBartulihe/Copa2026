@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T22:48:05.601Z",
+  "generatedAt": "2026-06-29T22:49:05.170Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28893,24 +28893,18 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "104'",
+      "clock": "105'",
       "events": [
         {
-          "min": "104'",
-          "icon": "⚽",
-          "txt": "Verificação do VAR: Gol da Alemanha (Jonathan Tah).",
+          "min": "105'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
           "sub": "🇩🇪"
         },
         {
           "min": "104'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
-          "sub": "🇩🇪"
-        },
-        {
-          "min": "102'",
-          "icon": "⚽",
-          "txt": "Jonathan Tah (Alemanha) de cabeça do lado esquerdo da pequena área acertando no centro do gol. Assistência de Nathaniel Brown com um cruzamento após escanteio.",
           "sub": "🇩🇪"
         },
         {
@@ -29413,8 +29407,8 @@
           "wonCorners": "13",
           "saves": "2",
           "possessionPct": "77.5",
-          "totalShots": "18",
-          "shotsOnTarget": "4",
+          "totalShots": "17",
+          "shotsOnTarget": "3",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
