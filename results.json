@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T18:58:06.623Z",
+  "generatedAt": "2026-06-29T18:59:09.842Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28339,16 +28339,28 @@
       "brTime": "14h",
       "venue": "NRG Stadium",
       "iso": "2026-06-29T17:00Z",
-      "sh": 1,
+      "sh": 2,
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "90'+6'",
+      "clock": "90'+7'",
       "events": [
+        {
+          "min": "90'+7'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇯🇵. Substituição de Koki Ogawa (Japão) aos 90'+7'",
+          "sub": "🇯🇵"
+        },
         {
           "min": "90'+5'",
           "icon": "⚽",
-          "txt": "Gabriel Martinelli (Brasil) Gol aos 90'+5'",
+          "txt": "Gabriel Martinelli (Brasil) finalização com o pé direito do meio da área no Escanteio inferior direito. Assistência de Bruno Guimarães.",
+          "sub": "🇧🇷"
+        },
+        {
+          "min": "90'+3'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇧🇷. Fabinho substitui Casemiro devido a lesão.",
           "sub": "🇧🇷"
         },
         {
@@ -28356,12 +28368,6 @@
           "icon": "▶️",
           "txt": "Jogo reiniciado",
           "sub": "🇯🇵"
-        },
-        {
-          "min": "90'+3'",
-          "icon": "🔄",
-          "txt": "Substituição, 🇧🇷. Fabinho substitui Casemiro devido a lesão.",
-          "sub": "🇧🇷"
         },
         {
           "min": "90'+3'",
@@ -28807,14 +28813,14 @@
           "offsides": "1",
           "wonCorners": "6",
           "saves": "1",
-          "possessionPct": "68.8",
-          "totalShots": "18",
-          "shotsOnTarget": "6",
-          "shotPct": "0.3",
+          "possessionPct": "69.1",
+          "totalShots": "19",
+          "shotsOnTarget": "7",
+          "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "614",
-          "totalPasses": "666",
+          "accuratePasses": "624",
+          "totalPasses": "676",
           "passPct": "0.9",
           "accurateCrosses": "9",
           "totalCrosses": "40",
@@ -28823,8 +28829,8 @@
           "accurateLongBalls": "20",
           "longballPct": "0.5",
           "blockedShots": "6",
-          "effectiveTackles": "8",
-          "totalTackles": "12",
+          "effectiveTackles": "9",
+          "totalTackles": "13",
           "tacklePct": "0.7",
           "interceptions": "9",
           "effectiveClearance": "14",
@@ -28837,7 +28843,7 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "4",
-          "possessionPct": "31.2",
+          "possessionPct": "30.9",
           "totalShots": "5",
           "shotsOnTarget": "2",
           "shotPct": "0.4",
@@ -28853,9 +28859,9 @@
           "accurateLongBalls": "23",
           "longballPct": "0.6",
           "blockedShots": "2",
-          "effectiveTackles": "4",
-          "totalTackles": "10",
-          "tacklePct": "0.4",
+          "effectiveTackles": "5",
+          "totalTackles": "11",
+          "tacklePct": "0.5",
           "interceptions": "3",
           "effectiveClearance": "44",
           "totalClearance": "44"
