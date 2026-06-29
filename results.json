@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T20:34:05.953Z",
+  "generatedAt": "2026-06-29T20:35:05.793Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28893,8 +28893,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "4'",
+      "clock": "5'",
       "events": [
+        {
+          "min": "5'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇵🇾"
+        },
         {
           "min": "4'",
           "icon": "⏸️",
@@ -28903,8 +28909,8 @@
         },
         {
           "min": "4'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a lesão de Gustavo Gómez (Paraguai).",
           "sub": "🇵🇾"
         },
         {
