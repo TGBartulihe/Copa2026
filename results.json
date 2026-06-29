@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T23:06:05.123Z",
+  "generatedAt": "2026-06-29T23:07:06.292Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28896,9 +28896,21 @@
       "clock": "116'",
       "events": [
         {
+          "min": "116'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇩🇪"
+        },
+        {
+          "min": "116'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a lesão de Matías Galarza (Paraguai).",
+          "sub": "🇵🇾"
+        },
+        {
           "min": "115'",
           "icon": "🟨",
-          "txt": "Jamal Musiala (Alemanha) Cartão Amarelo aos 115'",
+          "txt": "Jamal Musiala (Alemanha) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇩🇪"
         },
         {
@@ -29461,7 +29473,7 @@
       "stats": {
         "home": {
           "foulsCommitted": "18",
-          "yellowCards": "1",
+          "yellowCards": "2",
           "redCards": "0",
           "offsides": "4",
           "wonCorners": "15",
