@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T20:39:04.992Z",
+  "generatedAt": "2026-06-29T20:40:07.501Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28893,7 +28893,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "9'",
+      "clock": "10'",
       "events": [
         {
           "min": "5'",
@@ -29057,7 +29057,7 @@
               "row": 3
             }
           ],
-          "formation": "4-2-3-1",
+          "formation": "4-4-2",
           "dotColor": "#00CED1"
         },
         "away": {
@@ -29196,34 +29196,34 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "1",
+          "foulsCommitted": "2",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "80",
+          "possessionPct": "77.5",
           "totalShots": "2",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "34",
-          "totalPasses": "38",
+          "accuratePasses": "52",
+          "totalPasses": "59",
           "passPct": "0.9",
           "accurateCrosses": "1",
-          "totalCrosses": "2",
-          "crossPct": "0.5",
-          "totalLongBalls": "2",
-          "accurateLongBalls": "2",
-          "longballPct": "1.0",
+          "totalCrosses": "3",
+          "crossPct": "0.3",
+          "totalLongBalls": "4",
+          "accurateLongBalls": "3",
+          "longballPct": "0.8",
           "blockedShots": "1",
           "effectiveTackles": "1",
           "totalTackles": "1",
           "tacklePct": "1.0",
           "interceptions": "0",
-          "effectiveClearance": "1",
-          "totalClearance": "1"
+          "effectiveClearance": "2",
+          "totalClearance": "2"
         },
         "away": {
           "foulsCommitted": "0",
@@ -29232,21 +29232,21 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "20",
+          "possessionPct": "22.5",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "6",
-          "totalPasses": "9",
-          "passPct": "0.7",
+          "accuratePasses": "10",
+          "totalPasses": "16",
+          "passPct": "0.6",
           "accurateCrosses": "1",
           "totalCrosses": "1",
           "crossPct": "1.0",
-          "totalLongBalls": "2",
+          "totalLongBalls": "4",
           "accurateLongBalls": "1",
-          "longballPct": "0.5",
+          "longballPct": "0.3",
           "blockedShots": "1",
           "effectiveTackles": "0",
           "totalTackles": "0",
