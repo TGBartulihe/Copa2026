@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T22:12:06.675Z",
+  "generatedAt": "2026-06-29T22:13:06.217Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28893,8 +28893,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "78'",
+      "clock": "80'",
       "events": [
+        {
+          "min": "79'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇩🇪. Waldemar Anton entra em campo e entra Aleksandar Pavlovic.",
+          "sub": "🇩🇪"
+        },
         {
           "min": "73'",
           "icon": "▶️",
