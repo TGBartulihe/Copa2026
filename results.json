@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T20:31:07.789Z",
+  "generatedAt": "2026-06-29T20:32:05.015Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28889,12 +28889,349 @@
       "brTime": "17h",
       "venue": "Gillette Stadium",
       "iso": "2026-06-29T20:30Z",
-      "sh": null,
-      "sa": null,
+      "sh": 0,
+      "sa": 0,
       "done": false,
-      "live": false,
-      "clock": "",
-      "events": [],
+      "live": true,
+      "clock": "1'",
+      "events": [
+        {
+          "min": "",
+          "icon": "🏁",
+          "txt": "Início de jogo",
+          "sub": "🏳️"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Manuel Neuer",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Jonathan Tah",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Antonio Rüdiger",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Nathaniel Brown",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Joshua Kimmich",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Aleksandar Pavlovic",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Felix Nmecha",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Deniz Undav",
+              "pos": "AM",
+              "row": 2.5
+            },
+            {
+              "name": "Florian Wirtz",
+              "pos": "AM-L",
+              "row": 2.5
+            },
+            {
+              "name": "Leroy Sané",
+              "pos": "AM-R",
+              "row": 2.5
+            },
+            {
+              "name": "Kai Havertz",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "David Raum",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jamie Leweling",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Waldemar Anton",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nadiem Amiri",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Alexander Nübel",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Angelo Stiller",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jamal Musiala",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Malick Thiaw",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nick Woltemade",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Pascal Gross",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Assan Ouédraogo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Maximilian Beier",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Oliver Baumann",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Leon Goretzka",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-2-3-1",
+          "dotColor": "#00CED1"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Orlando Gil",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "José Canale",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Gustavo Gómez",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Júnior Alonso",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Juan Jose Cáceres",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Andrés Cubas",
+              "pos": "DM",
+              "row": 2
+            },
+            {
+              "name": "Matías Galarza",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Damián Bobadilla",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Julio Enciso",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Miguel Almirón",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Gabriel Ávalos",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Gatito Fernández",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Alex Arce",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ramón Sosa",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Gastón Olveira",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Antonio Sanabria",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Alexandro Maidana",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Isidro Pitta",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Gustavo Velázquez",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Omar Alderete",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Braian Ojeda",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Fabián Balbuena",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Alejandro Romero Gamarra",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Gustavo Caballero",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Maurício",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-1-4-1",
+          "dotColor": "#ea2300"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "0",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "0",
+          "saves": "1",
+          "possessionPct": "0",
+          "totalShots": "0",
+          "shotsOnTarget": "0",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "0",
+          "totalPasses": "0",
+          "passPct": "0.0",
+          "accurateCrosses": "0",
+          "totalCrosses": "0",
+          "crossPct": "0.0",
+          "totalLongBalls": "0",
+          "accurateLongBalls": "0",
+          "longballPct": "0.0",
+          "blockedShots": "0",
+          "effectiveTackles": "0",
+          "totalTackles": "0",
+          "tacklePct": "0.0",
+          "interceptions": "0",
+          "effectiveClearance": "1",
+          "totalClearance": "1"
+        },
+        "away": {
+          "foulsCommitted": "0",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "1",
+          "saves": "0",
+          "possessionPct": "100",
+          "totalShots": "1",
+          "shotsOnTarget": "0",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "2",
+          "totalPasses": "3",
+          "passPct": "0.7",
+          "accurateCrosses": "1",
+          "totalCrosses": "1",
+          "crossPct": "1.0",
+          "totalLongBalls": "1",
+          "accurateLongBalls": "0",
+          "longballPct": "0.0",
+          "blockedShots": "1",
+          "effectiveTackles": "0",
+          "totalTackles": "0",
+          "tacklePct": "0.0",
+          "interceptions": "0",
+          "effectiveClearance": "0",
+          "totalClearance": "0"
+        }
+      },
       "round": "avos"
     },
     {
