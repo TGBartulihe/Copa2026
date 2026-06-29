@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T20:44:04.688Z",
+  "generatedAt": "2026-06-29T20:45:06.627Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28893,7 +28893,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "13'",
+      "clock": "15'",
       "events": [
         {
           "min": "14'",
@@ -28904,13 +28904,13 @@
         {
           "min": "14'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇵🇾"
         },
         {
           "min": "13'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Juan José Cáceres (Paraguai).",
           "sub": "🇵🇾"
         },
         {
@@ -29113,11 +29113,6 @@
             },
             {
               "name": "Andrés Cubas",
-              "pos": "DM",
-              "row": 2
-            },
-            {
-              "name": "Matías Galarza",
               "pos": "CM-L",
               "row": 2
             },
@@ -29127,7 +29122,7 @@
               "row": 2
             },
             {
-              "name": "Julio Enciso",
+              "name": "Matías Galarza",
               "pos": "LM",
               "row": 2
             },
@@ -29137,8 +29132,13 @@
               "row": 2
             },
             {
+              "name": "Julio Enciso",
+              "pos": "CF-L",
+              "row": 3
+            },
+            {
               "name": "Gabriel Ávalos",
-              "pos": "F",
+              "pos": "CF-R",
               "row": 3
             }
           ],
@@ -29214,7 +29214,7 @@
               "row": 3
             }
           ],
-          "formation": "4-1-4-1",
+          "formation": "4-4-2",
           "dotColor": "#ea2300"
         }
       },
@@ -29224,19 +29224,19 @@
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
-          "wonCorners": "1",
+          "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "76.9",
+          "possessionPct": "79",
           "totalShots": "2",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "68",
-          "totalPasses": "79",
+          "accuratePasses": "78",
+          "totalPasses": "89",
           "passPct": "0.9",
           "accurateCrosses": "1",
-          "totalCrosses": "3",
+          "totalCrosses": "4",
           "crossPct": "0.3",
           "totalLongBalls": "5",
           "accurateLongBalls": "3",
@@ -29256,7 +29256,7 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "23.1",
+          "possessionPct": "21",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
@@ -29274,10 +29274,10 @@
           "blockedShots": "1",
           "effectiveTackles": "1",
           "totalTackles": "1",
-          "tacklePct": "1.0",
+          "tacklePct": "0.0",
           "interceptions": "2",
-          "effectiveClearance": "5",
-          "totalClearance": "5"
+          "effectiveClearance": "6",
+          "totalClearance": "6"
         }
       },
       "round": "avos"
