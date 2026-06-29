@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T22:42:07.098Z",
+  "generatedAt": "2026-06-29T22:43:07.278Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28893,8 +28893,20 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "99'",
+      "clock": "100'",
       "events": [
+        {
+          "min": "99'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇾. Entra Antonio Sanabria substituindo Damián Bobadilla.",
+          "sub": "🇵🇾"
+        },
+        {
+          "min": "99'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇵🇾. Braian Ojeda entra em campo para substituir Juan José Cáceres.",
+          "sub": "🇵🇾"
+        },
         {
           "min": "90'",
           "icon": "•",
@@ -29380,10 +29392,10 @@
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "4",
-          "wonCorners": "11",
+          "wonCorners": "12",
           "saves": "2",
           "possessionPct": "77.3",
-          "totalShots": "16",
+          "totalShots": "17",
           "shotsOnTarget": "3",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
@@ -29391,13 +29403,13 @@
           "accuratePasses": "645",
           "totalPasses": "716",
           "passPct": "0.9",
-          "accurateCrosses": "8",
+          "accurateCrosses": "7",
           "totalCrosses": "46",
           "crossPct": "0.2",
           "totalLongBalls": "31",
           "accurateLongBalls": "21",
           "longballPct": "0.7",
-          "blockedShots": "8",
+          "blockedShots": "9",
           "effectiveTackles": "6",
           "totalTackles": "10",
           "tacklePct": "0.6",
@@ -29432,8 +29444,8 @@
           "totalTackles": "24",
           "tacklePct": "0.7",
           "interceptions": "12",
-          "effectiveClearance": "48",
-          "totalClearance": "48"
+          "effectiveClearance": "49",
+          "totalClearance": "49"
         }
       },
       "round": "avos"
