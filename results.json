@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T22:47:07.250Z",
+  "generatedAt": "2026-06-29T22:48:05.601Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28895,6 +28895,18 @@
       "live": true,
       "clock": "104'",
       "events": [
+        {
+          "min": "104'",
+          "icon": "⚽",
+          "txt": "Verificação do VAR: Gol da Alemanha (Jonathan Tah).",
+          "sub": "🇩🇪"
+        },
+        {
+          "min": "104'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇩🇪"
+        },
         {
           "min": "102'",
           "icon": "⚽",
