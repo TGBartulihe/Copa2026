@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T17:01:05.257Z",
+  "generatedAt": "2026-06-29T17:02:08.347Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28339,12 +28339,354 @@
       "brTime": "14h",
       "venue": "NRG Stadium",
       "iso": "2026-06-29T17:00Z",
-      "sh": null,
-      "sa": null,
+      "sh": 0,
+      "sa": 0,
       "done": false,
-      "live": false,
-      "clock": "",
-      "events": [],
+      "live": true,
+      "clock": "2'",
+      "events": [
+        {
+          "min": "",
+          "icon": "🏁",
+          "txt": "Início de jogo",
+          "sub": "🏳️"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Alisson Becker",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Gabriel Magalhães",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Marquinhos",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Douglas Santos",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Danilo",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Casemiro",
+              "pos": "CM",
+              "row": 2
+            },
+            {
+              "name": "Lucas Paquetá",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Bruno Guimarães",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Matheus Cunha",
+              "pos": "F",
+              "row": 3
+            },
+            {
+              "name": "Vinícius Júnior",
+              "pos": "LF",
+              "row": 3
+            },
+            {
+              "name": "Rayan",
+              "pos": "RF",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Neymar",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Gabriel Martinelli",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Léo Pereira",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Igor Thiago",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Danilo Santos",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Éderson",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Fabinho",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Endrick",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Roger Ibañez",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Bremer",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Luiz Henrique",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Alex Sandro",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ederson",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Weverton",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-3-3",
+          "dotColor": "#193375"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Zion Suzuki",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Shogo Taniguchi",
+              "pos": "CD",
+              "row": 1
+            },
+            {
+              "name": "Hiroki Ito",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Takehiro Tomiyasu",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Daichi Kamada",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Kaishu Sano",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Keito Nakamura",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Ritsu Doan",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Ayase Ueda",
+              "pos": "F",
+              "row": 3
+            },
+            {
+              "name": "Daizen Maeda",
+              "pos": "CF-L",
+              "row": 3
+            },
+            {
+              "name": "Junya Ito",
+              "pos": "CF-R",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Keisuke Osako",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kou Itakura",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Koki Ogawa",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Yuto Nagatomo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Yuito Suzuki",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Tsuyoshi Watanabe",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Kento Shiogai",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Tomoki Hayakawa",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Shuto Machino",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ayumu Seko",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Yukinari Sugawara",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Junnosuke Suzuki",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Keisuke Goto",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Takefusa Kubo",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ao Tanaka",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "3-4-2-1",
+          "dotColor": "#000555"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "0",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "0",
+          "saves": "0",
+          "possessionPct": "87.5",
+          "totalShots": "0",
+          "shotsOnTarget": "0",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "12",
+          "totalPasses": "14",
+          "passPct": "0.9",
+          "accurateCrosses": "0",
+          "totalCrosses": "0",
+          "crossPct": "0.0",
+          "totalLongBalls": "2",
+          "accurateLongBalls": "0",
+          "longballPct": "0.0",
+          "blockedShots": "0",
+          "effectiveTackles": "0",
+          "totalTackles": "0",
+          "tacklePct": "0.0",
+          "interceptions": "0",
+          "effectiveClearance": "0",
+          "totalClearance": "0"
+        },
+        "away": {
+          "foulsCommitted": "1",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "0",
+          "saves": "0",
+          "possessionPct": "12.5",
+          "totalShots": "0",
+          "shotsOnTarget": "0",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "0",
+          "totalPasses": "2",
+          "passPct": "0.0",
+          "accurateCrosses": "0",
+          "totalCrosses": "0",
+          "crossPct": "0.0",
+          "totalLongBalls": "1",
+          "accurateLongBalls": "0",
+          "longballPct": "0.0",
+          "blockedShots": "0",
+          "effectiveTackles": "1",
+          "totalTackles": "1",
+          "tacklePct": "1.0",
+          "interceptions": "0",
+          "effectiveClearance": "0",
+          "totalClearance": "0"
+        }
+      },
       "round": "avos"
     },
     {
