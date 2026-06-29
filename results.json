@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-29T22:49:05.170Z",
+  "generatedAt": "2026-06-29T22:50:07.247Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28889,11 +28889,11 @@
       "brTime": "17h",
       "venue": "Gillette Stadium",
       "iso": "2026-06-29T20:30Z",
-      "sh": 2,
+      "sh": 1,
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "105'",
+      "clock": "105'+2'",
       "events": [
         {
           "min": "105'",
