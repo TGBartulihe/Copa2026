@@ -656,6 +656,12 @@ async function main(){
       const aName = mapTeam(a.team?.displayName || "");
       const state = ev.status?.type?.state; // "pre" | "in" | "post"
       const sh = parseInt(h.score) || 0, sa = parseInt(a.score) || 0;
+      // Pênaltis — a ESPN guarda isto separado do placar normal. Sem isto,
+      // um empate decidido nos pênaltis (ex: Alemanha 1-1 Holanda, 4-3 nos
+      // pênaltis) aparecia só como "1-1", sem mostrar quem avançou de verdade.
+      const shPK = parseInt(h.shootoutScore);
+      const saPK = parseInt(a.shootoutScore);
+      const hadShootout = !isNaN(shPK) && !isNaN(saPK) && (shPK > 0 || saPK > 0);
       const clock = ev.status?.displayClock || "";
       const venue = comp?.venue?.fullName || comp?.venue?.address?.city || "";
       const { date, brTime } = toBR(ev.date);
@@ -683,6 +689,10 @@ async function main(){
       };
       if (espnLineups) entry.lineups = espnLineups;
       if (espnStats) entry.stats = espnStats;
+      if (hadShootout){
+        entry.shPK = shPK;
+        entry.saPK = saPK;
+      }
 
       // Regra estrutural primeiro, sem excepção — duas seleções do mesmo
       // grupo nunca jogam mata-mata antes dos quartos. Isto sobrepõe-se a
