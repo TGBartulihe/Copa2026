@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T02:43:05.066Z",
+  "generatedAt": "2026-06-30T02:44:05.687Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -29588,8 +29588,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "81'",
+      "clock": "82'",
       "events": [
+        {
+          "min": "82'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇳🇱"
+        },
+        {
+          "min": "81'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇲🇦"
+        },
         {
           "min": "80'",
           "icon": "⏸️",
@@ -30021,14 +30033,14 @@
           "offsides": "3",
           "wonCorners": "4",
           "saves": "4",
-          "possessionPct": "36.1",
+          "possessionPct": "36",
           "totalShots": "6",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "233",
-          "totalPasses": "280",
+          "accuratePasses": "235",
+          "totalPasses": "285",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "7",
@@ -30051,14 +30063,14 @@
           "offsides": "0",
           "wonCorners": "7",
           "saves": "1",
-          "possessionPct": "63.9",
+          "possessionPct": "64",
           "totalShots": "9",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "449",
-          "totalPasses": "496",
+          "accuratePasses": "457",
+          "totalPasses": "506",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "13",
@@ -30067,9 +30079,9 @@
           "accurateLongBalls": "12",
           "longballPct": "0.4",
           "blockedShots": "2",
-          "effectiveTackles": "8",
+          "effectiveTackles": "9",
           "totalTackles": "13",
-          "tacklePct": "0.6",
+          "tacklePct": "0.7",
           "interceptions": "9",
           "effectiveClearance": "16",
           "totalClearance": "16"
