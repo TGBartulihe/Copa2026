@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T18:20:34.038Z",
+  "generatedAt": "2026-06-30T18:21:36.716Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30213,18 +30213,18 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "61'",
+      "clock": "62'",
       "events": [
         {
           "min": "60'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇮. Elye Wahi (Costa do Marfim) Substituição aos 60'",
+          "txt": "Substituição, 🇨🇮. Entra Elye Wahi para o lugar de Ange-Yoan Bonny.",
           "sub": "🇨🇮"
         },
         {
           "min": "60'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇮. Substituição de Amad Diallo (Costa do Marfim) aos 60'",
+          "txt": "Substituição, 🇨🇮. Amad Diallo substitui Christ Inao Oulaï.",
           "sub": "🇨🇮"
         },
         {
@@ -30568,14 +30568,14 @@
           "offsides": "1",
           "wonCorners": "11",
           "saves": "1",
-          "possessionPct": "48.4",
+          "possessionPct": "48.1",
           "totalShots": "9",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "230",
-          "totalPasses": "271",
+          "totalPasses": "272",
           "passPct": "0.8",
           "accurateCrosses": "6",
           "totalCrosses": "23",
@@ -30588,29 +30588,29 @@
           "totalTackles": "17",
           "tacklePct": "0.8",
           "interceptions": "3",
-          "effectiveClearance": "2",
-          "totalClearance": "2"
+          "effectiveClearance": "3",
+          "totalClearance": "3"
         },
         "away": {
-          "foulsCommitted": "5",
+          "foulsCommitted": "6",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "2",
           "saves": "3",
-          "possessionPct": "51.6",
+          "possessionPct": "51.9",
           "totalShots": "6",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "265",
-          "totalPasses": "308",
+          "accuratePasses": "267",
+          "totalPasses": "312",
           "passPct": "0.9",
           "accurateCrosses": "4",
           "totalCrosses": "6",
           "crossPct": "0.7",
-          "totalLongBalls": "25",
+          "totalLongBalls": "26",
           "accurateLongBalls": "13",
           "longballPct": "0.5",
           "blockedShots": "3",
