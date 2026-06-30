@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T21:03:32.853Z",
+  "generatedAt": "2026-06-30T21:04:33.528Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -31028,15 +31028,15 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "40.9",
+          "possessionPct": "59.4",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "9",
-          "totalPasses": "9",
-          "passPct": "1.0",
+          "accuratePasses": "17",
+          "totalPasses": "18",
+          "passPct": "0.9",
           "accurateCrosses": "0",
           "totalCrosses": "0",
           "crossPct": "0.0",
@@ -31052,13 +31052,13 @@
           "totalClearance": "3"
         },
         "away": {
-          "foulsCommitted": "1",
+          "foulsCommitted": "3",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "59.1",
+          "possessionPct": "40.6",
           "totalShots": "1",
           "shotsOnTarget": "1",
           "shotPct": "1.0",
