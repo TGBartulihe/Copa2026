@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T03:19:07.167Z",
+  "generatedAt": "2026-06-30T03:20:10.571Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -29591,6 +29591,12 @@
       "clock": "105'",
       "events": [
         {
+          "min": "105'+1'",
+          "icon": "⏱️",
+          "txt": "Fim do prolongamento do primeiro tempo, Holanda 1, Marrocos 1.",
+          "sub": "🏳️"
+        },
+        {
           "min": "90'",
           "icon": "•",
           "txt": "Início do prolongamento do primeiro tempo Holanda 1, Marrocos 1.",
@@ -30082,12 +30088,12 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "272",
-          "totalPasses": "343",
+          "totalPasses": "344",
           "passPct": "0.8",
           "accurateCrosses": "3",
           "totalCrosses": "10",
           "crossPct": "0.3",
-          "totalLongBalls": "40",
+          "totalLongBalls": "41",
           "accurateLongBalls": "12",
           "longballPct": "0.3",
           "blockedShots": "3",
@@ -30099,7 +30105,7 @@
           "totalClearance": "16"
         },
         "away": {
-          "foulsCommitted": "12",
+          "foulsCommitted": "13",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "0",
@@ -30125,8 +30131,8 @@
           "totalTackles": "17",
           "tacklePct": "0.7",
           "interceptions": "10",
-          "effectiveClearance": "29",
-          "totalClearance": "29"
+          "effectiveClearance": "31",
+          "totalClearance": "31"
         }
       },
       "round": "avos"
