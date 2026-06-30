@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T17:46:35.858Z",
+  "generatedAt": "2026-06-30T17:47:37.055Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30213,12 +30213,12 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "45'+1'",
+      "clock": "45'+2'",
       "events": [
         {
           "min": "45'+1'",
           "icon": "🟨",
-          "txt": "Antonio Nusa (Noruega) Cartão Amarelo aos 45'+1'",
+          "txt": "Antonio Nusa (Noruega) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇳🇴"
         },
         {
@@ -30544,44 +30544,44 @@
           "offsides": "0",
           "wonCorners": "9",
           "saves": "1",
-          "possessionPct": "44.4",
+          "possessionPct": "44.7",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "149",
-          "totalPasses": "179",
+          "accuratePasses": "151",
+          "totalPasses": "181",
           "passPct": "0.8",
           "accurateCrosses": "4",
-          "totalCrosses": "14",
+          "totalCrosses": "15",
           "crossPct": "0.3",
           "totalLongBalls": "17",
           "accurateLongBalls": "5",
           "longballPct": "0.3",
           "blockedShots": "0",
-          "effectiveTackles": "9",
-          "totalTackles": "12",
+          "effectiveTackles": "10",
+          "totalTackles": "13",
           "tacklePct": "0.8",
           "interceptions": "3",
           "effectiveClearance": "2",
           "totalClearance": "2"
         },
         "away": {
-          "foulsCommitted": "3",
-          "yellowCards": "0",
+          "foulsCommitted": "4",
+          "yellowCards": "1",
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "55.6",
+          "possessionPct": "55.3",
           "totalShots": "6",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "208",
-          "totalPasses": "236",
+          "totalPasses": "237",
           "passPct": "0.9",
           "accurateCrosses": "4",
           "totalCrosses": "5",
@@ -30594,8 +30594,8 @@
           "totalTackles": "11",
           "tacklePct": "0.5",
           "interceptions": "2",
-          "effectiveClearance": "14",
-          "totalClearance": "14"
+          "effectiveClearance": "15",
+          "totalClearance": "15"
         }
       },
       "round": "avos"
