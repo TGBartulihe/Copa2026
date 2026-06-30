@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T21:25:33.069Z",
+  "generatedAt": "2026-06-30T21:26:35.394Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30738,8 +30738,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "25'",
+      "clock": "26'",
       "events": [
+        {
+          "min": "26'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇫🇷"
+        },
+        {
+          "min": "26'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇸🇪"
+        },
         {
           "min": "23'",
           "icon": "⏸️",
