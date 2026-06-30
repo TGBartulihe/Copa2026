@@ -202,6 +202,7 @@ td.pos{color:#4ade80;font-weight:bold}td.neg{color:#f87171;font-weight:bold}td.z
 .tcode{background:#0a120a;color:#b8860b;font-size:9px;font-weight:bold;letter-spacing:1px;padding:2px 5px;border-radius:4px;flex-shrink:0}
 .bbox-mid{display:flex;align-items:center;padding:0 8px;flex-shrink:0;background:#0a120a;border-radius:6px;margin:8px 4px}
 .bbox-score{font-size:16px;font-weight:bold;color:#f0c040;letter-spacing:1px;min-width:42px;text-align:center}
+.bbox-pk{font-size:9px;color:#9aa89a;text-align:center;margin-top:1px}
 .bbox-score.live{color:#ff6644}
 .bbox-score.tbd{color:#5e7a5c;font-size:11px;letter-spacing:0}
 .bconnector{display:flex;justify-content:center;position:relative;height:16px;margin:-2px 0 4px}
@@ -1086,17 +1087,17 @@ function bHoje(){
   if(live.length||koLive.length){
     h+=lbl("🔴 AO VIVO AGORA");
     live.forEach(r=>{h+=card(r,true);});
-    koLive.forEach(k=>{h+=bracketBox(k.home,k.away,k.sh,k.sa,"live",`🔴 AO VIVO · ${k.clock||""}'`,isFav(k.home),isFav(k.away));});
+    koLive.forEach(k=>{h+=bracketBox(k.home,k.away,k.sh,k.sa,"live",`🔴 AO VIVO · ${k.clock||""}'`,isFav(k.home),isFav(k.away),k.shPK,k.saPK);});
   }
   if(tDone.length||koTDone.length){
     h+=lbl(`✅ HOJE ENCERRADOS — ${today}`,true);
     tDone.forEach(r=>{h+=card(r);});
-    koTDone.forEach(k=>{h+=bracketBox(k.home,k.away,k.sh,k.sa,"done",`✅ ${k.round||""}`,isFav(k.home),isFav(k.away));});
+    koTDone.forEach(k=>{h+=bracketBox(k.home,k.away,k.sh,k.sa,"done",`✅ ${k.round||""}`,isFav(k.home),isFav(k.away),k.shPK,k.saPK);});
   }
   if(tNext.length||koTNext.length){
     h+=lbl(`⏰ MAIS TARDE HOJE — ${today}`,true);
     tNext.forEach(r=>{h+=card(r,false,true);});
-    koTNext.forEach(k=>{h+=bracketBox(k.home,k.away,k.sh,k.sa,"scheduled",`⏰ ${k.brTime||""} · ${k.venue||""}`,isFav(k.home),isFav(k.away));});
+    koTNext.forEach(k=>{h+=bracketBox(k.home,k.away,k.sh,k.sa,"scheduled",`⏰ ${k.brTime||""} · ${k.venue||""}`,isFav(k.home),isFav(k.away),k.shPK,k.saPK);});
   }
   if(!live.length&&!tDone.length&&!tNext.length&&!koLive.length&&!koTDone.length&&!koTNext.length){
     h+=`<div style="background:#1d2e1f;border:1px solid #111;border-radius:7px;padding:16px;text-align:center;color:#677a67;font-size:12px;margin-bottom:12px">
@@ -1105,7 +1106,7 @@ function bHoje(){
   if(yestGames.length||koYest.length){
     h+=lbl(`📋 ONTEM — ${yest}`,true);
     yestGames.forEach(r=>{h+=card(r);});
-    koYest.forEach(k=>{h+=bracketBox(k.home,k.away,k.sh,k.sa,"done",`✅ ${k.round||""}`,isFav(k.home),isFav(k.away));});
+    koYest.forEach(k=>{h+=bracketBox(k.home,k.away,k.sh,k.sa,"done",`✅ ${k.round||""}`,isFav(k.home),isFav(k.away),k.shPK,k.saPK);});
   }
   return h;
 }
@@ -1166,7 +1167,7 @@ function bResult(){
     koDone.forEach(k=>{
       const d=k.iso?new Date(k.iso):null;
       const meta=d?`${String(d.getDate()).padStart(2,"0")}/${String(d.getMonth()+1).padStart(2,"0")} · ${k.venue||""}`:(k.round||"");
-      h+=bracketBox(k.home,k.away,k.sh,k.sa,"done",meta,isFav(k.home),isFav(k.away));
+      h+=bracketBox(k.home,k.away,k.sh,k.sa,"done",meta,isFav(k.home),isFav(k.away),k.shPK,k.saPK);
     });
     return h;
   }
@@ -1293,6 +1294,27 @@ loadSimPicks();
 
 // Resolve os 32 nomes dos avos usando a projeção atual (líderes, vices,
 // melhor terceiro disponível entre os grupos elegíveis de cada vaga)
+// Reordena uma lista de vencedores (na ordem sequencial 0..n-1 de uma fase)
+// segundo o cruzamento REAL definido pela fase seguinte em MM_STRUCTURE —
+// sem isto, agrupar de 2 em 2 pela ordem de índice junta pares que não se
+// enfrentam de verdade (ex: id4 cruza com id6, não com id1).
+function reorderByBracket(roundKey, items){
+  const rounds=["avos","oitavas","quartas","semis","final"];
+  const ri=rounds.indexOf(roundKey);
+  const nextKey=rounds[ri+1];
+  if(!nextKey || !MM_STRUCTURE[nextKey]) return items;
+  const baseId=MM_STRUCTURE[roundKey][0].id;
+  const order=[];
+  MM_STRUCTURE[nextKey].forEach(m=>{
+    [m.t1,m.t2].forEach(t=>{
+      const mm=(t||"").match(/^V(\d+)$/);
+      if(mm) order.push(parseInt(mm[1])-baseId);
+    });
+  });
+  if(order.length!==items.length) return items; // segurança — não bate, mantém original
+  return order.map(idx=>items[idx]);
+}
+
 function buildSimR32(){
   const thirdByGroup={};
   "ABCDEFGHIJKL".split("").forEach(g=>{ thirdByGroup[g]=calcS(g)[2]; });
@@ -1396,9 +1418,10 @@ function validateSimPicks(){
       }
       winners.push(SIM_PICKS[mk]||null);
     });
+    const ordered=reorderByBracket(key,winners);
     const next=[];
-    for(let i=0;i<winners.length;i+=2){
-      next.push({home:winners[i]||"⏳ A definir",away:winners[i+1]||"⏳ A definir"});
+    for(let i=0;i<ordered.length;i+=2){
+      next.push({home:ordered[i]||"⏳ A definir",away:ordered[i+1]||"⏳ A definir"});
     }
     current=next;
   });
@@ -1440,9 +1463,10 @@ function bSimulacao(){
 
     if(ri<rounds.length-1){
       h+=`<div class="bfunnel"><div class="bfunnel-tri"></div><div class="bfunnel-label">${count} → ${rounds[ri+1].count}</div></div>`;
+      const ordered=reorderByBracket(key,winners);
       const next=[];
-      for(let i=0;i<winners.length;i+=2){
-        next.push({home:winners[i]||"⏳ A definir",away:winners[i+1]||"⏳ A definir"});
+      for(let i=0;i<ordered.length;i+=2){
+        next.push({home:ordered[i]||"⏳ A definir",away:ordered[i+1]||"⏳ A definir"});
       }
       current=next;
     } else {
@@ -1511,11 +1535,15 @@ function translateBracketPlaceholder(name){
   return name;
 }
 
-function bracketBox(homeLabel,awayLabel,sh,sa,status,meta,favHome,favAway){
+function bracketBox(homeLabel,awayLabel,sh,sa,status,meta,favHome,favAway,shPK,saPK){
   homeLabel=translateBracketPlaceholder(homeLabel);
   awayLabel=translateBracketPlaceholder(awayLabel);
   const isDone=status==="done", isLive=status==="live";
-  const wh=isDone&&sh>sa, wa=isDone&&sa>sh;
+  const hadPK=shPK!=null&&saPK!=null;
+  // Empate no tempo normal + pênaltis decididos = o vencedor real é quem
+  // ganhou nos pênaltis, não um empate. Sem isto, "Alemanha 1-1 Holanda"
+  // aparecia sem vencedor nenhum, mesmo a Alemanha tendo avançado 4-3.
+  const wh=isDone&&(hadPK?shPK>saPK:sh>sa), wa=isDone&&(hadPK?saPK>shPK:sa>sh);
   // Esmaece só quando as PRÓPRIAS equipas ainda não estão definidas — uma
   // seleção real tem sempre bandeira; um placeholder ("Vencedor Grupo H")
   // nunca tem. Um jogo agendado com as duas equipas já confirmadas NÃO
@@ -1524,6 +1552,7 @@ function bracketBox(homeLabel,awayLabel,sh,sa,status,meta,favHome,favAway){
   const teamsResolved=hasFlag(homeLabel)&&hasFlag(awayLabel);
   const scoreCls=isLive?"live":!isDone?"tbd":"";
   const scoreTxt=isDone?`${sh}–${sa}`:isLive?`${sh??0}–${sa??0}`:"vs";
+  const pkTxt=hadPK?`<div class="bbox-pk">pên. ${shPK}–${saPK}</div>`:"";
   const headCls=isLive?"head-live":isDone?"head-done":"";
   const boxCls=isLive?"bbox-live":isDone?"bbox-done":teamsResolved?"bbox-scheduled":"bbox-tbd";
   return `<div class="bbox ${boxCls}">
@@ -1533,7 +1562,7 @@ function bracketBox(homeLabel,awayLabel,sh,sa,status,meta,favHome,favAway){
         <span class="nm">${homeLabel}${favHome?" ⭐":""}</span>
         ${wh?'<span class="bbox-check">✔</span>':""}
       </div>
-      <div class="bbox-mid"><div class="bbox-score ${scoreCls}">${scoreTxt}</div></div>
+      <div class="bbox-mid"><div class="bbox-score ${scoreCls}">${scoreTxt}</div>${pkTxt}</div>
       <div class="bbox-team bbox-right ${isDone?(wa?"winner":"loser"):""}">
         ${wa?'<span class="bbox-check">✔</span>':""}
         <span class="nm">${awayLabel}${favAway?" ⭐":""}</span>
@@ -1609,7 +1638,7 @@ function bOficial(){
         if(liveMatch&&(liveMatch.done||liveMatch.live)){
           const status=liveMatch.done?"done":"live";
           const meta=liveMatch.done?`✅ ENCERRADO · ${date}`:`🔴 AO VIVO · ${liveMatch.clock||""}'`;
-          h+=bracketBox(liveMatch.home,liveMatch.away,liveMatch.sh,liveMatch.sa,status,meta,favH,favA);
+          h+=bracketBox(liveMatch.home,liveMatch.away,liveMatch.sh,liveMatch.sa,status,meta,favH,favA,liveMatch.shPK,liveMatch.saPK);
         } else {
           const meta=`🔄 ${date} · ${time}${m.venue?" · "+m.venue:""} · classificação atual`;
           h+=bracketBox(slot.home,slot.away,null,null,"scheduled",meta,favH,favA);
@@ -1621,16 +1650,43 @@ function bOficial(){
         .sort((a,b)=>new Date(a.iso||0)-new Date(b.iso||0));
 
       if(real.length){
+        let orderedReal=real;
+        if(key==="avos"){
+          // Reordena pelo cruzamento real das oitavas (qual vencedor joga
+          // com qual) em vez de só pela ordem cronológica — sem isto, o
+          // agrupamento visual "VENCEDOR AVANÇA" juntava pares errados
+          const avosComputed=buildSimR32();
+          function findId(m){
+            for(let idx=0;idx<avosComputed.length;idx++){
+              const slot=avosComputed[idx];
+              if((tkey(slot.home)===tkey(m.home)&&tkey(slot.away)===tkey(m.away))||
+                 (tkey(slot.home)===tkey(m.away)&&tkey(slot.away)===tkey(m.home))) return idx+1;
+            }
+            return null;
+          }
+          const byId={};
+          real.forEach(m=>{ const id=findId(m); if(id) byId[id]=m; });
+          const pairOrder=[];
+          MM_STRUCTURE.oitavas.forEach(o=>{
+            [o.t1,o.t2].forEach(t=>{
+              const mm=t.match(/^V(\d+)$/);
+              if(mm) pairOrder.push(parseInt(mm[1]));
+            });
+          });
+          orderedReal=pairOrder.map(id=>byId[id]).filter(Boolean);
+          real.forEach(m=>{ if(!orderedReal.includes(m)) orderedReal.push(m); }); // segurança
+        }
+
         // Jogos reais já confirmados pela ESPN — mostra com nomes e placares de verdade
-        real.forEach((m,i)=>{
+        orderedReal.forEach((m,i)=>{
           const {time,date}=m.brTime?localTime(m.brTime,m.date):{time:"",date:m.date||""};
           const favH=isFav(m.home), favA=isFav(m.away);
           let status, meta;
           if(m.done){ status="done"; meta=`✅ ENCERRADO · ${date}`; }
           else if(m.live){ status="live"; meta=`🔴 AO VIVO · ${m.clock||""}'`; }
           else { status="scheduled"; meta=`⏰ ${date} · ${time}${m.venue?" · "+m.venue:""}`; }
-          h+=bracketBox(m.home,m.away,m.sh,m.sa,status,meta,favH,favA);
-          if(i%2===1 && i<real.length-1) h+=connector();
+          h+=bracketBox(m.home,m.away,m.sh,m.sa,status,meta,favH,favA,m.shPK,m.saPK);
+          if(i%2===1 && i<orderedReal.length-1) h+=connector();
         });
         const remaining=Math.max(0,expected-real.length);
         if(remaining>0){
@@ -1694,7 +1750,7 @@ function bProx(){
     koUpcoming.forEach(k=>{
       const d=k.iso?new Date(k.iso):null;
       const meta=d?`⏰ ${String(d.getDate()).padStart(2,"0")}/${String(d.getMonth()+1).padStart(2,"0")} · ${k.venue||""}`:(k.round||"");
-      h+=bracketBox(k.home,k.away,k.sh,k.sa,k.live?"live":"scheduled",meta,isFav(k.home),isFav(k.away));
+      h+=bracketBox(k.home,k.away,k.sh,k.sa,k.live?"live":"scheduled",meta,isFav(k.home),isFav(k.away),k.shPK,k.saPK);
     });
     return h;
   }
