@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T02:32:05.596Z",
+  "generatedAt": "2026-06-30T02:33:09.030Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -29588,12 +29588,18 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "70'",
+      "clock": "71'",
       "events": [
         {
-          "min": "67'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇲🇦"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇳🇱. Entra Teun Koopmeiners substituindo Nathan Aké.",
           "sub": "🇳🇱"
         },
         {
@@ -29601,6 +29607,12 @@
           "icon": "⏸️",
           "txt": "Atraso na partida para uma pausa para bebidas.",
           "sub": "🇲🇦"
+        },
+        {
+          "min": "67'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇳🇱"
         },
         {
           "min": "47'",
