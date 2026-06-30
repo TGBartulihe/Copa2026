@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T03:04:07.109Z",
+  "generatedAt": "2026-06-30T03:05:11.124Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -29588,8 +29588,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "90'+7'",
+      "clock": "91'",
       "events": [
+        {
+          "min": "90'",
+          "icon": "•",
+          "txt": "Início do prolongamento do primeiro tempo Holanda 1, Marrocos 1.",
+          "sub": "🏳️"
+        },
         {
           "min": "90'+7'",
           "icon": "•",
