@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T02:40:06.191Z",
+  "generatedAt": "2026-06-30T02:41:05.175Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -29588,8 +29588,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "78'",
+      "clock": "79'",
       "events": [
+        {
+          "min": "79'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇲🇦. Gessime Yassine (Marrocos) Substituição aos 79'",
+          "sub": "🇲🇦"
+        },
         {
           "min": "75'",
           "icon": "🔄",
