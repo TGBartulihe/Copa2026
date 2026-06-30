@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T02:41:05.175Z",
+  "generatedAt": "2026-06-30T02:42:07.088Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -29588,12 +29588,30 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "79'",
+      "clock": "80'",
       "events": [
+        {
+          "min": "80'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇲🇦"
+        },
+        {
+          "min": "80'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇳🇱"
+        },
         {
           "min": "79'",
           "icon": "🔄",
-          "txt": "Substituição, 🇲🇦. Gessime Yassine (Marrocos) Substituição aos 79'",
+          "txt": "Substituição, 🇲🇦. Samir El Mourabet (Marrocos) Substituição aos 79'",
+          "sub": "🇲🇦"
+        },
+        {
+          "min": "79'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇲🇦. Entra Gessime Yassine substituindo Brahim Díaz.",
           "sub": "🇲🇦"
         },
         {
@@ -30010,7 +30028,7 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "233",
-          "totalPasses": "278",
+          "totalPasses": "280",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "7",
@@ -30039,12 +30057,12 @@
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "447",
-          "totalPasses": "494",
+          "accuratePasses": "449",
+          "totalPasses": "496",
           "passPct": "0.9",
           "accurateCrosses": "3",
-          "totalCrosses": "12",
-          "crossPct": "0.3",
+          "totalCrosses": "13",
+          "crossPct": "0.2",
           "totalLongBalls": "28",
           "accurateLongBalls": "12",
           "longballPct": "0.4",
