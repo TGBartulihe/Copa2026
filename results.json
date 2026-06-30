@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T22:40:32.550Z",
+  "generatedAt": "2026-06-30T22:41:34.897Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30741,6 +30741,18 @@
       "clock": "82'",
       "events": [
         {
+          "min": "82'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇪. Substituição de Benjamin Nygren (Suécia) aos 82'",
+          "sub": "🇸🇪"
+        },
+        {
+          "min": "82'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇪. Mattias Svanberg (Suécia) Substituição aos 82'",
+          "sub": "🇸🇪"
+        },
+        {
           "min": "78'",
           "icon": "🔄",
           "txt": "Substituição, 🇫🇷. Théo Hernández entra em campo com Lucas Digne.",
@@ -31134,16 +31146,16 @@
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "2",
-          "wonCorners": "8",
+          "wonCorners": "9",
           "saves": "1",
-          "possessionPct": "64.4",
+          "possessionPct": "64.1",
           "totalShots": "23",
           "shotsOnTarget": "11",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "433",
-          "totalPasses": "493",
+          "accuratePasses": "439",
+          "totalPasses": "500",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "14",
@@ -31156,8 +31168,8 @@
           "totalTackles": "8",
           "tacklePct": "0.6",
           "interceptions": "5",
-          "effectiveClearance": "16",
-          "totalClearance": "16"
+          "effectiveClearance": "17",
+          "totalClearance": "17"
         },
         "away": {
           "foulsCommitted": "10",
@@ -31165,20 +31177,20 @@
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "1",
-          "saves": "7",
-          "possessionPct": "35.6",
+          "saves": "8",
+          "possessionPct": "35.9",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "208",
-          "totalPasses": "270",
+          "accuratePasses": "214",
+          "totalPasses": "278",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "8",
           "crossPct": "0.3",
-          "totalLongBalls": "42",
+          "totalLongBalls": "43",
           "accurateLongBalls": "11",
           "longballPct": "0.3",
           "blockedShots": "0",
