@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T18:58:34.456Z",
+  "generatedAt": "2026-06-30T18:59:35.815Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30211,14 +30211,14 @@
       "iso": "2026-06-30T17:00Z",
       "sh": 1,
       "sa": 2,
-      "done": false,
-      "live": true,
-      "clock": "90'+8'",
+      "done": true,
+      "live": false,
+      "clock": "",
       "events": [
         {
           "min": "90'+8'",
           "icon": "•",
-          "txt": "jogador",
+          "txt": "Fim do segundo tempo, Côte d'Ivoire 1, Noruega 2.",
           "sub": "🏳️"
         },
         {
@@ -30265,15 +30265,15 @@
         },
         {
           "min": "81'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a uma lesão de Amad Diallo (Costa do Marfim).",
-          "sub": "🇨🇮"
-        },
-        {
-          "min": "81'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇳🇴"
+        },
+        {
+          "min": "81'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Amad Diallo (Costa do Marfim).",
+          "sub": "🇨🇮"
         },
         {
           "min": "74'",
