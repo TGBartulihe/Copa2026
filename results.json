@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T03:44:04.677Z",
+  "generatedAt": "2026-06-30T03:45:04.475Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -29591,6 +29591,12 @@
       "clock": "120'+2'",
       "events": [
         {
+          "min": "120'",
+          "icon": "•",
+          "txt": "jogador",
+          "sub": "🏳️"
+        },
+        {
           "min": "120'+2'",
           "icon": "•",
           "txt": "Fim do prolongamento do segundo tempo, Holanda 1, Marrocos 1.",
@@ -30129,14 +30135,14 @@
           "offsides": "3",
           "wonCorners": "5",
           "saves": "5",
-          "possessionPct": "29.9",
+          "possessionPct": "30",
           "totalShots": "6",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "293",
-          "totalPasses": "372",
+          "totalPasses": "373",
           "passPct": "0.8",
           "accurateCrosses": "3",
           "totalCrosses": "10",
@@ -30145,9 +30151,9 @@
           "accurateLongBalls": "16",
           "longballPct": "0.3",
           "blockedShots": "3",
-          "effectiveTackles": "8",
+          "effectiveTackles": "9",
           "totalTackles": "18",
-          "tacklePct": "0.4",
+          "tacklePct": "0.5",
           "interceptions": "11",
           "effectiveClearance": "21",
           "totalClearance": "21"
@@ -30159,13 +30165,13 @@
           "offsides": "0",
           "wonCorners": "8",
           "saves": "1",
-          "possessionPct": "70.1",
+          "possessionPct": "70",
           "totalShots": "11",
           "shotsOnTarget": "5",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "799",
+          "accuratePasses": "800",
           "totalPasses": "878",
           "passPct": "0.9",
           "accurateCrosses": "4",
