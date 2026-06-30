@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T01:00:04.506Z",
+  "generatedAt": "2026-06-30T01:01:06.979Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -29584,12 +29584,359 @@
       "brTime": "22h",
       "venue": "Estadio BBVA",
       "iso": "2026-06-30T01:00Z",
-      "sh": null,
-      "sa": null,
+      "sh": 0,
+      "sa": 0,
       "done": false,
-      "live": false,
-      "clock": "",
-      "events": [],
+      "live": true,
+      "clock": "1'",
+      "events": [
+        {
+          "min": "",
+          "icon": "🏁",
+          "txt": "Início de jogo",
+          "sub": "🏳️"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Bart Verbruggen",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Virgil van Dijk",
+              "pos": "CD",
+              "row": 1
+            },
+            {
+              "name": "Nathan Aké",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Jan Paul van Hecke",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Frenkie de Jong",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Ryan Gravenberch",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Micky van de Ven",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Denzel Dumfries",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Brian Brobbey",
+              "pos": "F",
+              "row": 3
+            },
+            {
+              "name": "Cody Gakpo",
+              "pos": "CF-L",
+              "row": 3
+            },
+            {
+              "name": "Crysencio Summerville",
+              "pos": "CF-R",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Marten de Roon",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jorrel Hato",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mats Wieffer",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Donyell Malen",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Memphis Depay",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Justin Kluivert",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mark Flekken",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Wout Weghorst",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Guus Til",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Quinten Timber",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Lutsharel Geertruida",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Noa Lang",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Robin Roefs",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Tijjani Reijnders",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Teun Koopmeiners",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "3-4-2-1",
+          "dotColor": "#fb5d00"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Yassine Bounou",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Chadi Riad",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Issa Diop",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Noussair Mazraoui",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Achraf Hakimi",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Ayyoub Bouaddi",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Neil El Aynaoui",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Azzedine Ounahi",
+              "pos": "AM",
+              "row": 2.5
+            },
+            {
+              "name": "Bilal El Khannouss",
+              "pos": "AM-L",
+              "row": 2.5
+            },
+            {
+              "name": "Brahim Díaz",
+              "pos": "AM-R",
+              "row": 2.5
+            },
+            {
+              "name": "Ismael Saibari",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Anass Salah-Eddine",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Amine Sbaï",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ahmed Reda Tagnaouti",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ayoube Amaimouni",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Samir El Mourabet",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Sofyan Amrabat",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Gessime Yassine",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Munir El Kajoui",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Youssef Belammari",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Chemsdine Talbi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Zakaria El Ouahdi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Soufiane Rahimi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ayoub El Kaabi",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Marwane Saadane",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Redouane Halhal",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-2-3-1",
+          "dotColor": "#df2027"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "0",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "0",
+          "saves": "0",
+          "possessionPct": "0",
+          "totalShots": "0",
+          "shotsOnTarget": "0",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "0",
+          "totalPasses": "0",
+          "passPct": "0.0",
+          "accurateCrosses": "0",
+          "totalCrosses": "0",
+          "crossPct": "0.0",
+          "totalLongBalls": "0",
+          "accurateLongBalls": "0",
+          "longballPct": "0.0",
+          "blockedShots": "0",
+          "effectiveTackles": "0",
+          "totalTackles": "0",
+          "tacklePct": "0.0",
+          "interceptions": "0",
+          "effectiveClearance": "0",
+          "totalClearance": "0"
+        },
+        "away": {
+          "foulsCommitted": "0",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "0",
+          "saves": "0",
+          "possessionPct": "0",
+          "totalShots": "0",
+          "shotsOnTarget": "0",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "0",
+          "totalPasses": "0",
+          "passPct": "0.0",
+          "accurateCrosses": "0",
+          "totalCrosses": "0",
+          "crossPct": "0.0",
+          "totalLongBalls": "0",
+          "accurateLongBalls": "0",
+          "longballPct": "0.0",
+          "blockedShots": "0",
+          "effectiveTackles": "0",
+          "totalTackles": "0",
+          "tacklePct": "0.0",
+          "interceptions": "0",
+          "effectiveClearance": "0",
+          "totalClearance": "0"
+        }
+      },
       "round": "avos"
     },
     {
