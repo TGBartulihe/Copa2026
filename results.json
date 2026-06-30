@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T18:52:33.562Z",
+  "generatedAt": "2026-06-30T18:53:32.711Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30213,8 +30213,20 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "90'+2'",
+      "clock": "90'+3'",
       "events": [
+        {
+          "min": "90'+3'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇮. Substituição por Bazoumana Touré (Costa do Marfim) aos 90'+3'",
+          "sub": "🇨🇮"
+        },
+        {
+          "min": "90'+3'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇮. Substituição de Evann Guessand (Costa do Marfim) aos 90'+3'",
+          "sub": "🇨🇮"
+        },
         {
           "min": "87'",
           "icon": "🔄",
@@ -30646,7 +30658,7 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "5",
+          "foulsCommitted": "6",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "2",
