@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T18:30:33.189Z",
+  "generatedAt": "2026-06-30T18:31:35.208Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30213,8 +30213,32 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "70'",
+      "clock": "72'",
       "events": [
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇳🇴"
+        },
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇨🇮"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇳🇴. Substituição de Oscar Bobb (Noruega) aos 71'",
+          "sub": "🇳🇴"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇳🇴. Andreas Schjelderup (Noruega) Substituição aos 71'",
+          "sub": "🇳🇴"
+        },
         {
           "min": "68'",
           "icon": "⏸️",
