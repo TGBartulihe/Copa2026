@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T22:34:34.194Z",
+  "generatedAt": "2026-06-30T22:35:32.673Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30740,6 +30740,18 @@
       "live": true,
       "clock": "76'",
       "events": [
+        {
+          "min": "75'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇫🇷. Désiré Doué (França) Substituição aos 75'",
+          "sub": "🇫🇷"
+        },
+        {
+          "min": "75'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇫🇷. Substituição de Malo Gusto (França) aos 75'",
+          "sub": "🇫🇷"
+        },
         {
           "min": "74'",
           "icon": "⚽",
