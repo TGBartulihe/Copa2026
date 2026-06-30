@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T21:26:35.394Z",
+  "generatedAt": "2026-06-30T21:27:31.776Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30738,19 +30738,19 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "26'",
+      "clock": "27'",
       "events": [
         {
           "min": "26'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
-          "sub": "🇫🇷"
+          "sub": "🇸🇪"
         },
         {
           "min": "26'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇸🇪"
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇫🇷"
         },
         {
           "min": "23'",
@@ -30761,7 +30761,7 @@
         {
           "min": "23'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
           "sub": "🇫🇷"
         },
         {
@@ -31052,14 +31052,14 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "65.4",
+          "possessionPct": "66",
           "totalShots": "3",
           "shotsOnTarget": "2",
           "shotPct": "0.7",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "132",
-          "totalPasses": "147",
+          "accuratePasses": "136",
+          "totalPasses": "153",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "3",
@@ -31082,14 +31082,14 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "2",
-          "possessionPct": "34.6",
+          "possessionPct": "34",
           "totalShots": "1",
           "shotsOnTarget": "1",
           "shotPct": "1.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "55",
-          "totalPasses": "76",
+          "totalPasses": "77",
           "passPct": "0.7",
           "accurateCrosses": "1",
           "totalCrosses": "3",
