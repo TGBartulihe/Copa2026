@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T17:45:35.780Z",
+  "generatedAt": "2026-06-30T17:46:35.858Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30213,8 +30213,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "45'",
+      "clock": "45'+1'",
       "events": [
+        {
+          "min": "45'+1'",
+          "icon": "🟨",
+          "txt": "Antonio Nusa (Noruega) Cartão Amarelo aos 45'+1'",
+          "sub": "🇳🇴"
+        },
         {
           "min": "39'",
           "icon": "⚽",
@@ -30536,16 +30542,16 @@
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
-          "wonCorners": "8",
+          "wonCorners": "9",
           "saves": "1",
-          "possessionPct": "44",
+          "possessionPct": "44.4",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "147",
-          "totalPasses": "176",
+          "accuratePasses": "149",
+          "totalPasses": "179",
           "passPct": "0.8",
           "accurateCrosses": "4",
           "totalCrosses": "14",
@@ -30568,7 +30574,7 @@
           "offsides": "1",
           "wonCorners": "2",
           "saves": "1",
-          "possessionPct": "56",
+          "possessionPct": "55.6",
           "totalShots": "6",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
