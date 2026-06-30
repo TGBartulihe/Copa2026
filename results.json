@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T17:40:35.117Z",
+  "generatedAt": "2026-06-30T17:41:35.763Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30213,8 +30213,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "40'",
+      "clock": "41'",
       "events": [
+        {
+          "min": "39'",
+          "icon": "⚽",
+          "txt": "Antonio Nusa (Noruega) finalização com o pé direito do lado esquerdo da área ao ângulo superior direito. Assistência de Martin Ødegaard.",
+          "sub": "🇳🇴"
+        },
         {
           "min": "27'",
           "icon": "▶️",
@@ -30579,7 +30585,7 @@
           "longballPct": "0.6",
           "blockedShots": "2",
           "effectiveTackles": "4",
-          "totalTackles": "11",
+          "totalTackles": "10",
           "tacklePct": "0.4",
           "interceptions": "2",
           "effectiveClearance": "12",
