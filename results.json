@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T02:37:07.556Z",
+  "generatedAt": "2026-06-30T02:38:08.027Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -29588,8 +29588,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "75'",
+      "clock": "76'",
       "events": [
+        {
+          "min": "76'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇲🇦. Substituição de Anass Salah-Eddine (Marrocos) aos 76'",
+          "sub": "🇲🇦"
+        },
         {
           "min": "72'",
           "icon": "⚽",
@@ -29991,7 +29997,7 @@
           "offsides": "3",
           "wonCorners": "4",
           "saves": "4",
-          "possessionPct": "38",
+          "possessionPct": "37.1",
           "totalShots": "6",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
@@ -30021,20 +30027,20 @@
           "offsides": "0",
           "wonCorners": "6",
           "saves": "1",
-          "possessionPct": "62",
+          "possessionPct": "62.9",
           "totalShots": "8",
           "shotsOnTarget": "3",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "406",
-          "totalPasses": "449",
+          "accuratePasses": "425",
+          "totalPasses": "468",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "11",
           "crossPct": "0.2",
-          "totalLongBalls": "26",
-          "accurateLongBalls": "10",
+          "totalLongBalls": "27",
+          "accurateLongBalls": "11",
           "longballPct": "0.4",
           "blockedShots": "1",
           "effectiveTackles": "7",
