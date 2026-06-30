@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T18:46:33.440Z",
+  "generatedAt": "2026-06-30T18:47:36.355Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30210,15 +30210,21 @@
       "venue": "AT&T Stadium",
       "iso": "2026-06-30T17:00Z",
       "sh": 1,
-      "sa": 1,
+      "sa": 2,
       "done": false,
       "live": true,
-      "clock": "86'",
+      "clock": "87'",
       "events": [
+        {
+          "min": "87'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇮. Substituição de Oumar Diakité (Costa do Marfim) aos 87'",
+          "sub": "🇨🇮"
+        },
         {
           "min": "86'",
           "icon": "⚽",
-          "txt": "Erling Haaland (Noruega) finalização com o pé esquerdo do meio da área.",
+          "txt": "Erling Haaland (Noruega) remate com o pé esquerdo no coração da área ao centro da baliza. Assistência de Patrick Berg.",
           "sub": "🇳🇴"
         },
         {
@@ -30241,15 +30247,15 @@
         },
         {
           "min": "81'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
-          "sub": "🇳🇴"
-        },
-        {
-          "min": "81'",
           "icon": "🩹",
           "txt": "Partida atrasada devido a uma lesão de Amad Diallo (Costa do Marfim).",
           "sub": "🇨🇮"
+        },
+        {
+          "min": "81'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇳🇴"
         },
         {
           "min": "74'",
@@ -30688,8 +30694,8 @@
           "accurateCrosses": "5",
           "totalCrosses": "10",
           "crossPct": "0.5",
-          "totalLongBalls": "30",
-          "accurateLongBalls": "15",
+          "totalLongBalls": "31",
+          "accurateLongBalls": "16",
           "longballPct": "0.5",
           "blockedShots": "3",
           "effectiveTackles": "10",
