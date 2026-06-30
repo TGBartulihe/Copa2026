@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T18:45:34.131Z",
+  "generatedAt": "2026-06-30T18:46:33.440Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30213,8 +30213,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "85'",
+      "clock": "86'",
       "events": [
+        {
+          "min": "86'",
+          "icon": "⚽",
+          "txt": "Erling Haaland (Noruega) finalização com o pé esquerdo do meio da área.",
+          "sub": "🇳🇴"
+        },
         {
           "min": "83'",
           "icon": "🔄",
@@ -30234,7 +30240,7 @@
           "sub": "🇨🇮"
         },
         {
-          "min": "82'",
+          "min": "81'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇳🇴"
@@ -30640,7 +30646,7 @@
           "offsides": "2",
           "wonCorners": "12",
           "saves": "1",
-          "possessionPct": "48",
+          "possessionPct": "46.5",
           "totalShots": "12",
           "shotsOnTarget": "4",
           "shotPct": "0.3",
@@ -30660,8 +30666,8 @@
           "totalTackles": "20",
           "tacklePct": "0.8",
           "interceptions": "4",
-          "effectiveClearance": "9",
-          "totalClearance": "9"
+          "effectiveClearance": "10",
+          "totalClearance": "10"
         },
         "away": {
           "foulsCommitted": "6",
@@ -30670,14 +30676,14 @@
           "offsides": "2",
           "wonCorners": "3",
           "saves": "3",
-          "possessionPct": "52",
-          "totalShots": "7",
-          "shotsOnTarget": "3",
-          "shotPct": "0.4",
+          "possessionPct": "53.5",
+          "totalShots": "8",
+          "shotsOnTarget": "4",
+          "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "357",
-          "totalPasses": "411",
+          "accuratePasses": "381",
+          "totalPasses": "437",
           "passPct": "0.9",
           "accurateCrosses": "5",
           "totalCrosses": "10",
