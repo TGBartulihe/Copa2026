@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T18:19:32.324Z",
+  "generatedAt": "2026-06-30T18:20:34.038Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30213,8 +30213,20 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "59'",
+      "clock": "61'",
       "events": [
+        {
+          "min": "60'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇮. Elye Wahi (Costa do Marfim) Substituição aos 60'",
+          "sub": "🇨🇮"
+        },
+        {
+          "min": "60'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇮. Substituição de Amad Diallo (Costa do Marfim) aos 60'",
+          "sub": "🇨🇮"
+        },
         {
           "min": "45'",
           "icon": "▶️",
@@ -30554,19 +30566,19 @@
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "1",
-          "wonCorners": "10",
+          "wonCorners": "11",
           "saves": "1",
-          "possessionPct": "47.7",
-          "totalShots": "8",
+          "possessionPct": "48.4",
+          "totalShots": "9",
           "shotsOnTarget": "3",
-          "shotPct": "0.4",
+          "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "223",
-          "totalPasses": "264",
+          "accuratePasses": "230",
+          "totalPasses": "271",
           "passPct": "0.8",
           "accurateCrosses": "6",
-          "totalCrosses": "22",
+          "totalCrosses": "23",
           "crossPct": "0.3",
           "totalLongBalls": "26",
           "accurateLongBalls": "12",
@@ -30586,7 +30598,7 @@
           "offsides": "1",
           "wonCorners": "2",
           "saves": "3",
-          "possessionPct": "52.3",
+          "possessionPct": "51.6",
           "totalShots": "6",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
