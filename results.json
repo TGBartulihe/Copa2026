@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T22:24:35.468Z",
+  "generatedAt": "2026-06-30T22:25:34.222Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30738,8 +30738,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "66'",
+      "clock": "67'",
       "events": [
+        {
+          "min": "66'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇪. Entra Besfort Zeneli substituindo Lucas Bergvall.",
+          "sub": "🇸🇪"
+        },
+        {
+          "min": "66'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇪. Entra Taha Ali substituindo Elliot Stroud.",
+          "sub": "🇸🇪"
+        },
         {
           "min": "53'",
           "icon": "⚽",
