@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T02:42:07.088Z",
+  "generatedAt": "2026-06-30T02:43:05.066Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -29588,7 +29588,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "80'",
+      "clock": "81'",
       "events": [
         {
           "min": "80'",
@@ -29598,14 +29598,14 @@
         },
         {
           "min": "80'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Ryan Gravenberch (Holanda).",
           "sub": "🇳🇱"
         },
         {
           "min": "79'",
           "icon": "🔄",
-          "txt": "Substituição, 🇲🇦. Samir El Mourabet (Marrocos) Substituição aos 79'",
+          "txt": "Substituição, 🇲🇦. Entra Samir El Mourabet substituindo Ayyoub Bouaddi.",
           "sub": "🇲🇦"
         },
         {
