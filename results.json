@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T22:35:32.673Z",
+  "generatedAt": "2026-06-30T22:36:32.447Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30738,18 +30738,18 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "76'",
+      "clock": "77'",
       "events": [
         {
           "min": "75'",
           "icon": "🔄",
-          "txt": "Substituição, 🇫🇷. Désiré Doué (França) Substituição aos 75'",
+          "txt": "Substituição, 🇫🇷. Désiré Doué substitui Ousmane Dembélé.",
           "sub": "🇫🇷"
         },
         {
           "min": "75'",
           "icon": "🔄",
-          "txt": "Substituição, 🇫🇷. Substituição de Malo Gusto (França) aos 75'",
+          "txt": "Substituição, 🇫🇷. Malo Gusto substitui Jules Koundé.",
           "sub": "🇫🇷"
         },
         {
@@ -31130,7 +31130,7 @@
           "offsides": "2",
           "wonCorners": "8",
           "saves": "1",
-          "possessionPct": "63.6",
+          "possessionPct": "62.5",
           "totalShots": "22",
           "shotsOnTarget": "11",
           "shotPct": "0.5",
@@ -31160,14 +31160,14 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "8",
-          "possessionPct": "36.4",
+          "possessionPct": "37.5",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "190",
-          "totalPasses": "250",
+          "accuratePasses": "203",
+          "totalPasses": "263",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "8",
