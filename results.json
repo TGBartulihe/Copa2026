@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T18:49:34.015Z",
+  "generatedAt": "2026-06-30T18:50:33.430Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30213,7 +30213,7 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "89'",
+      "clock": "90'",
       "events": [
         {
           "min": "87'",
@@ -30652,15 +30652,15 @@
           "offsides": "2",
           "wonCorners": "12",
           "saves": "1",
-          "possessionPct": "46",
+          "possessionPct": "45.9",
           "totalShots": "12",
           "shotsOnTarget": "4",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "313",
-          "totalPasses": "369",
-          "passPct": "0.8",
+          "accuratePasses": "318",
+          "totalPasses": "374",
+          "passPct": "0.9",
           "accurateCrosses": "6",
           "totalCrosses": "24",
           "crossPct": "0.3",
@@ -30682,14 +30682,14 @@
           "offsides": "2",
           "wonCorners": "3",
           "saves": "3",
-          "possessionPct": "54",
-          "totalShots": "8",
+          "possessionPct": "54.1",
+          "totalShots": "9",
           "shotsOnTarget": "4",
-          "shotPct": "0.5",
+          "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "395",
-          "totalPasses": "451",
+          "accuratePasses": "402",
+          "totalPasses": "458",
           "passPct": "0.9",
           "accurateCrosses": "5",
           "totalCrosses": "10",
@@ -30702,8 +30702,8 @@
           "totalTackles": "18",
           "tacklePct": "0.6",
           "interceptions": "5",
-          "effectiveClearance": "29",
-          "totalClearance": "29"
+          "effectiveClearance": "30",
+          "totalClearance": "30"
         }
       },
       "round": "avos"
