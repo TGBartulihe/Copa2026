@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T03:54:04.826Z",
+  "generatedAt": "2026-06-30T03:55:04.648Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -29586,9 +29586,9 @@
       "iso": "2026-06-30T01:00Z",
       "sh": 1,
       "sa": 1,
-      "done": false,
-      "live": true,
-      "clock": "120'",
+      "done": true,
+      "live": false,
+      "clock": "",
       "events": [
         {
           "min": "120'",
