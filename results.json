@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T08:56:07.902Z",
+  "generatedAt": "2026-06-30T08:57:05.794Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -29574,6 +29574,8 @@
           "totalClearance": "55"
         }
       },
+      "shPK": 3,
+      "saPK": 4,
       "round": "avos"
     },
     {
@@ -30195,6 +30197,8 @@
           "totalClearance": "34"
         }
       },
+      "shPK": 2,
+      "saPK": 3,
       "round": "avos"
     },
     {
