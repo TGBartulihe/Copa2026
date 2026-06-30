@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T18:43:32.421Z",
+  "generatedAt": "2026-06-30T18:44:33.752Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30213,7 +30213,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "83'",
+      "clock": "84'",
       "events": [
         {
           "min": "83'",
@@ -30240,7 +30240,7 @@
           "sub": "🇳🇴"
         },
         {
-          "min": "82'",
+          "min": "81'",
           "icon": "🩹",
           "txt": "Partida atrasada devido a uma lesão de Amad Diallo (Costa do Marfim).",
           "sub": "🇨🇮"
@@ -30634,7 +30634,7 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "3",
+          "foulsCommitted": "4",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "2",
@@ -30646,14 +30646,14 @@
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "302",
-          "totalPasses": "357",
+          "accuratePasses": "309",
+          "totalPasses": "364",
           "passPct": "0.8",
           "accurateCrosses": "6",
           "totalCrosses": "24",
           "crossPct": "0.3",
-          "totalLongBalls": "33",
-          "accurateLongBalls": "14",
+          "totalLongBalls": "34",
+          "accurateLongBalls": "15",
           "longballPct": "0.4",
           "blockedShots": "1",
           "effectiveTackles": "15",
@@ -30676,8 +30676,8 @@
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "349",
-          "totalPasses": "403",
+          "accuratePasses": "357",
+          "totalPasses": "411",
           "passPct": "0.9",
           "accurateCrosses": "5",
           "totalCrosses": "10",
@@ -30687,7 +30687,7 @@
           "longballPct": "0.5",
           "blockedShots": "3",
           "effectiveTackles": "10",
-          "totalTackles": "17",
+          "totalTackles": "18",
           "tacklePct": "0.6",
           "interceptions": "5",
           "effectiveClearance": "29",
