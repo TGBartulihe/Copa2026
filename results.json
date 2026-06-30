@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T01:38:06.621Z",
+  "generatedAt": "2026-06-30T01:39:05.351Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -29588,7 +29588,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "37'",
+      "clock": "38'",
       "events": [
         {
           "min": "38'",
@@ -29598,8 +29598,8 @@
         },
         {
           "min": "38'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a lesão de Jan Paul van Hecke (Holanda).",
           "sub": "🇳🇱"
         },
         {
