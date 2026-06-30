@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T18:23:35.636Z",
+  "generatedAt": "2026-06-30T18:24:32.753Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30213,7 +30213,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "63'",
+      "clock": "64'",
       "events": [
         {
           "min": "60'",
@@ -30566,19 +30566,19 @@
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "1",
-          "wonCorners": "11",
+          "wonCorners": "12",
           "saves": "1",
-          "possessionPct": "48.9",
+          "possessionPct": "49.2",
           "totalShots": "9",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "246",
-          "totalPasses": "291",
+          "accuratePasses": "247",
+          "totalPasses": "294",
           "passPct": "0.8",
           "accurateCrosses": "6",
-          "totalCrosses": "23",
+          "totalCrosses": "24",
           "crossPct": "0.3",
           "totalLongBalls": "28",
           "accurateLongBalls": "13",
@@ -30588,8 +30588,8 @@
           "totalTackles": "17",
           "tacklePct": "0.8",
           "interceptions": "4",
-          "effectiveClearance": "3",
-          "totalClearance": "3"
+          "effectiveClearance": "5",
+          "totalClearance": "5"
         },
         "away": {
           "foulsCommitted": "6",
@@ -30598,7 +30598,7 @@
           "offsides": "1",
           "wonCorners": "2",
           "saves": "3",
-          "possessionPct": "51.1",
+          "possessionPct": "50.8",
           "totalShots": "6",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
@@ -30618,8 +30618,8 @@
           "totalTackles": "16",
           "tacklePct": "0.6",
           "interceptions": "4",
-          "effectiveClearance": "25",
-          "totalClearance": "25"
+          "effectiveClearance": "28",
+          "totalClearance": "28"
         }
       },
       "round": "avos"
