@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T21:06:32.939Z",
+  "generatedAt": "2026-06-30T21:07:35.967Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30738,7 +30738,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "6'",
+      "clock": "7'",
       "events": [
         {
           "min": "",
@@ -30895,17 +30895,22 @@
             },
             {
               "name": "Victor Lindelöf",
-              "pos": "CD",
-              "row": 1
-            },
-            {
-              "name": "Gabriel Gudmundsson",
               "pos": "CD-L",
               "row": 1
             },
             {
               "name": "Gustaf Lagerbielke",
               "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Gabriel Gudmundsson",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Daniel Svensson",
+              "pos": "RB",
               "row": 1
             },
             {
@@ -30924,14 +30929,9 @@
               "row": 2
             },
             {
-              "name": "Daniel Svensson",
+              "name": "Anthony Elanga",
               "pos": "RM",
               "row": 2
-            },
-            {
-              "name": "Viktor Gyökeres",
-              "pos": "F",
-              "row": 3
             },
             {
               "name": "Alexander Isak",
@@ -30939,7 +30939,7 @@
               "row": 3
             },
             {
-              "name": "Anthony Elanga",
+              "name": "Viktor Gyökeres",
               "pos": "CF-R",
               "row": 3
             }
@@ -31016,7 +31016,7 @@
               "row": 3
             }
           ],
-          "formation": "3-4-2-1",
+          "formation": "4-4-2",
           "dotColor": "#fecb00"
         }
       },
