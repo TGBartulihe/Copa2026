@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T21:33:36.201Z",
+  "generatedAt": "2026-06-30T21:34:34.616Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30738,7 +30738,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "33'",
+      "clock": "34'",
       "events": [
         {
           "min": "26'",
@@ -31058,8 +31058,8 @@
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "189",
-          "totalPasses": "207",
+          "accuratePasses": "192",
+          "totalPasses": "211",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "9",
@@ -31072,8 +31072,8 @@
           "totalTackles": "1",
           "tacklePct": "1.0",
           "interceptions": "1",
-          "effectiveClearance": "7",
-          "totalClearance": "7"
+          "effectiveClearance": "8",
+          "totalClearance": "8"
         },
         "away": {
           "foulsCommitted": "5",
@@ -31084,17 +31084,17 @@
           "saves": "3",
           "possessionPct": "27.5",
           "totalShots": "2",
-          "shotsOnTarget": "2",
-          "shotPct": "1.0",
+          "shotsOnTarget": "1",
+          "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "56",
-          "totalPasses": "79",
+          "totalPasses": "81",
           "passPct": "0.7",
           "accurateCrosses": "1",
           "totalCrosses": "3",
           "crossPct": "0.3",
-          "totalLongBalls": "19",
+          "totalLongBalls": "20",
           "accurateLongBalls": "5",
           "longballPct": "0.3",
           "blockedShots": "0",
@@ -31102,8 +31102,8 @@
           "totalTackles": "5",
           "tacklePct": "0.8",
           "interceptions": "0",
-          "effectiveClearance": "11",
-          "totalClearance": "11"
+          "effectiveClearance": "12",
+          "totalClearance": "12"
         }
       },
       "round": "avos"
