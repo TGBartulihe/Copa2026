@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T18:42:34.182Z",
+  "generatedAt": "2026-06-30T18:43:32.421Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30213,9 +30213,15 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "82'",
+      "clock": "83'",
       "events": [
         {
+          "min": "83'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇳🇴. Entra Fredrik Aursnes substituindo Marcus Pedersen.",
+          "sub": "🇳🇴"
+        },
+        {
           "min": "82'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
@@ -30224,13 +30230,7 @@
         {
           "min": "82'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇨🇮"
-        },
-        {
-          "min": "82'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇨🇮"
         },
         {
@@ -30238,6 +30238,12 @@
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇳🇴"
+        },
+        {
+          "min": "82'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Amad Diallo (Costa do Marfim).",
+          "sub": "🇨🇮"
         },
         {
           "min": "74'",
@@ -30641,7 +30647,7 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "302",
-          "totalPasses": "356",
+          "totalPasses": "357",
           "passPct": "0.8",
           "accurateCrosses": "6",
           "totalCrosses": "24",
@@ -30671,7 +30677,7 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "349",
-          "totalPasses": "402",
+          "totalPasses": "403",
           "passPct": "0.9",
           "accurateCrosses": "5",
           "totalCrosses": "10",
