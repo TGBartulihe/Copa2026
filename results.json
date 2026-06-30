@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T18:33:33.151Z",
+  "generatedAt": "2026-06-30T18:34:37.209Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30209,12 +30209,18 @@
       "brTime": "14h",
       "venue": "AT&T Stadium",
       "iso": "2026-06-30T17:00Z",
-      "sh": 0,
+      "sh": 1,
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "74'",
+      "clock": "75'",
       "events": [
+        {
+          "min": "74'",
+          "icon": "⚽",
+          "txt": "Gol de Amad Diallo (Costa do Marfim) aos 74'",
+          "sub": "🇨🇮"
+        },
         {
           "min": "71'",
           "icon": "▶️",
@@ -30604,7 +30610,7 @@
           "offsides": "1",
           "wonCorners": "12",
           "saves": "1",
-          "possessionPct": "50.6",
+          "possessionPct": "50.4",
           "totalShots": "11",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
@@ -30634,15 +30640,15 @@
           "offsides": "2",
           "wonCorners": "3",
           "saves": "3",
-          "possessionPct": "49.4",
+          "possessionPct": "49.6",
           "totalShots": "7",
           "shotsOnTarget": "3",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "287",
-          "totalPasses": "338",
-          "passPct": "0.8",
+          "accuratePasses": "289",
+          "totalPasses": "340",
+          "passPct": "0.9",
           "accurateCrosses": "5",
           "totalCrosses": "7",
           "crossPct": "0.7",
