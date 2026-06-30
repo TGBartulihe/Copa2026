@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T02:33:09.030Z",
+  "generatedAt": "2026-06-30T02:34:08.121Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -29588,8 +29588,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "71'",
+      "clock": "72'",
       "events": [
+        {
+          "min": "71'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇳🇱"
+        },
+        {
+          "min": "71'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇳🇱. Substituição de Wout Weghorst (Holanda) aos 71'",
+          "sub": "🇳🇱"
+        },
         {
           "min": "71'",
           "icon": "▶️",
