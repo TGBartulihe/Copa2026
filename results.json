@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T02:52:07.885Z",
+  "generatedAt": "2026-06-30T02:53:05.871Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -29585,11 +29585,17 @@
       "venue": "Estadio BBVA",
       "iso": "2026-06-30T01:00Z",
       "sh": 1,
-      "sa": 0,
+      "sa": 1,
       "done": false,
       "live": true,
-      "clock": "90'",
+      "clock": "90'+1'",
       "events": [
+        {
+          "min": "90'+1'",
+          "icon": "⚽",
+          "txt": "Gol de Issa Diop (Marrocos) - Cabeçada aos 90'+1'",
+          "sub": "🇲🇦"
+        },
         {
           "min": "87'",
           "icon": "🔄",
@@ -30057,7 +30063,7 @@
           "offsides": "3",
           "wonCorners": "5",
           "saves": "4",
-          "possessionPct": "35",
+          "possessionPct": "34.7",
           "totalShots": "6",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
@@ -30087,14 +30093,14 @@
           "offsides": "0",
           "wonCorners": "7",
           "saves": "1",
-          "possessionPct": "65",
+          "possessionPct": "65.3",
           "totalShots": "9",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "506",
-          "totalPasses": "561",
+          "accuratePasses": "513",
+          "totalPasses": "569",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "13",
