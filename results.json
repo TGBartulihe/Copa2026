@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T02:59:05.515Z",
+  "generatedAt": "2026-06-30T03:00:06.147Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -29588,8 +29588,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "90'+6'",
+      "clock": "90'+7'",
       "events": [
+        {
+          "min": "90'+7'",
+          "icon": "•",
+          "txt": "Fim do segundo tempo, Holanda 1, Marrocos 1.",
+          "sub": "🏳️"
+        },
         {
           "min": "90'+1'",
           "icon": "⚽",
