@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T21:45:34.077Z",
+  "generatedAt": "2026-06-30T21:46:32.922Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30738,8 +30738,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "45'",
+      "clock": "45'+1'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "⚽",
+          "txt": "Kylian Mbappé (França) remate com o pé direito no coração da área ao ângulo superior direito. Assistência de Ousmane Dembélé após escanteio.",
+          "sub": "🇫🇷"
+        },
         {
           "min": "26'",
           "icon": "▶️",
@@ -31050,16 +31056,16 @@
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "1",
-          "wonCorners": "5",
+          "wonCorners": "6",
           "saves": "1",
-          "possessionPct": "73.8",
-          "totalShots": "13",
-          "shotsOnTarget": "4",
-          "shotPct": "0.3",
+          "possessionPct": "74.5",
+          "totalShots": "15",
+          "shotsOnTarget": "6",
+          "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "235",
-          "totalPasses": "266",
+          "accuratePasses": "248",
+          "totalPasses": "279",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "11",
@@ -31081,15 +31087,15 @@
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "0",
-          "saves": "4",
-          "possessionPct": "26.2",
+          "saves": "5",
+          "possessionPct": "25.5",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "59",
-          "totalPasses": "94",
+          "accuratePasses": "60",
+          "totalPasses": "95",
           "passPct": "0.6",
           "accurateCrosses": "1",
           "totalCrosses": "5",
@@ -31099,11 +31105,11 @@
           "longballPct": "0.2",
           "blockedShots": "0",
           "effectiveTackles": "5",
-          "totalTackles": "9",
+          "totalTackles": "8",
           "tacklePct": "0.6",
           "interceptions": "5",
-          "effectiveClearance": "18",
-          "totalClearance": "18"
+          "effectiveClearance": "17",
+          "totalClearance": "17"
         }
       },
       "round": "avos"
