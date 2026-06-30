@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T02:11:05.880Z",
+  "generatedAt": "2026-06-30T02:12:06.007Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -28939,15 +28939,15 @@
         },
         {
           "min": "116'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a lesão de Matías Galarza (Paraguai).",
-          "sub": "🇵🇾"
-        },
-        {
-          "min": "116'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇩🇪"
+        },
+        {
+          "min": "116'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a lesão de Matías Galarza (Paraguai).",
+          "sub": "🇵🇾"
         },
         {
           "min": "115'",
@@ -28999,15 +28999,15 @@
         },
         {
           "min": "105'+5'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a uma lesão de Orlando Gill (Paraguai).",
-          "sub": "🇵🇾"
-        },
-        {
-          "min": "105'+5'",
           "icon": "⏸️",
           "txt": "Partida atrasada (Alemanha).",
           "sub": "🇩🇪"
+        },
+        {
+          "min": "105'+5'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Orlando Gill (Paraguai).",
+          "sub": "🇵🇾"
         },
         {
           "min": "105'",
@@ -29203,15 +29203,15 @@
         },
         {
           "min": "13'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a uma lesão de Juan José Cáceres (Paraguai).",
-          "sub": "🇵🇾"
-        },
-        {
-          "min": "13'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇩🇪"
+        },
+        {
+          "min": "13'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Juan José Cáceres (Paraguai).",
+          "sub": "🇵🇾"
         },
         {
           "min": "5'",
@@ -29588,7 +29588,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "48'",
+      "clock": "49'",
       "events": [
         {
           "min": "47'",
