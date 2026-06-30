@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T19:00:32.097Z",
+  "generatedAt": "2026-06-30T19:01:34.787Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30716,12 +30716,12 @@
           "accurateLongBalls": "18",
           "longballPct": "0.5",
           "blockedShots": "3",
-          "effectiveTackles": "10",
+          "effectiveTackles": "11",
           "totalTackles": "19",
-          "tacklePct": "0.5",
+          "tacklePct": "0.6",
           "interceptions": "6",
-          "effectiveClearance": "38",
-          "totalClearance": "38"
+          "effectiveClearance": "37",
+          "totalClearance": "37"
         }
       },
       "round": "avos"
