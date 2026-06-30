@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T03:35:10.225Z",
+  "generatedAt": "2026-06-30T03:36:04.435Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -29588,7 +29588,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "118'",
+      "clock": "119'",
       "events": [
         {
           "min": "116'",
@@ -29599,13 +29599,7 @@
         {
           "min": "116'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇳🇱"
-        },
-        {
-          "min": "116'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇳🇱"
         },
         {
@@ -29613,6 +29607,12 @@
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇲🇦"
+        },
+        {
+          "min": "116'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Crysencio Summerville (Holanda).",
+          "sub": "🇳🇱"
         },
         {
           "min": "113'",
@@ -30123,7 +30123,7 @@
           "offsides": "3",
           "wonCorners": "5",
           "saves": "5",
-          "possessionPct": "29.5",
+          "possessionPct": "29.3",
           "totalShots": "6",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
@@ -30143,8 +30143,8 @@
           "totalTackles": "18",
           "tacklePct": "0.4",
           "interceptions": "10",
-          "effectiveClearance": "20",
-          "totalClearance": "20"
+          "effectiveClearance": "21",
+          "totalClearance": "21"
         },
         "away": {
           "foulsCommitted": "15",
@@ -30153,19 +30153,19 @@
           "offsides": "0",
           "wonCorners": "8",
           "saves": "1",
-          "possessionPct": "70.5",
+          "possessionPct": "70.7",
           "totalShots": "11",
           "shotsOnTarget": "5",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "772",
-          "totalPasses": "846",
+          "accuratePasses": "780",
+          "totalPasses": "856",
           "passPct": "0.9",
           "accurateCrosses": "4",
           "totalCrosses": "18",
           "crossPct": "0.2",
-          "totalLongBalls": "45",
+          "totalLongBalls": "46",
           "accurateLongBalls": "19",
           "longballPct": "0.4",
           "blockedShots": "2",
