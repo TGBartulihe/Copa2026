@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T03:30:09.122Z",
+  "generatedAt": "2026-06-30T03:31:05.463Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -29588,8 +29588,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "113'",
+      "clock": "114'",
       "events": [
+        {
+          "min": "113'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇳🇱. Justin Kluivert substitui Cody Gakpo.",
+          "sub": "🇳🇱"
+        },
         {
           "min": "110'",
           "icon": "🔄",
