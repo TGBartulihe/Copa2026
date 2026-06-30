@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T22:33:35.836Z",
+  "generatedAt": "2026-06-30T22:34:34.194Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30738,12 +30738,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "75'",
+      "clock": "76'",
       "events": [
         {
           "min": "74'",
           "icon": "⚽",
-          "txt": "Kylian Mbappé (França) finalização com o pé direito do lado esquerdo da área.",
+          "txt": "Kylian Mbappé (França) finalização com o pé direito do lado esquerdo da área no Escanteio inferior direito. Assistência de Michael Olise com um passe em profundidade.",
           "sub": "🇫🇷"
         },
         {
@@ -31118,7 +31118,7 @@
           "offsides": "2",
           "wonCorners": "8",
           "saves": "1",
-          "possessionPct": "63.7",
+          "possessionPct": "63.6",
           "totalShots": "22",
           "shotsOnTarget": "11",
           "shotPct": "0.5",
@@ -31134,9 +31134,9 @@
           "accurateLongBalls": "15",
           "longballPct": "0.5",
           "blockedShots": "3",
-          "effectiveTackles": "6",
-          "totalTackles": "9",
-          "tacklePct": "0.7",
+          "effectiveTackles": "5",
+          "totalTackles": "8",
+          "tacklePct": "0.6",
           "interceptions": "3",
           "effectiveClearance": "16",
           "totalClearance": "16"
@@ -31148,14 +31148,14 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "8",
-          "possessionPct": "36.3",
+          "possessionPct": "36.4",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "190",
-          "totalPasses": "249",
+          "totalPasses": "250",
           "passPct": "0.8",
           "accurateCrosses": "2",
           "totalCrosses": "8",
