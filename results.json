@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T18:53:32.711Z",
+  "generatedAt": "2026-06-30T18:54:37.889Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30213,18 +30213,18 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "90'+3'",
+      "clock": "90'+5'",
       "events": [
         {
           "min": "90'+3'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇮. Substituição por Bazoumana Touré (Costa do Marfim) aos 90'+3'",
+          "txt": "Substituição, 🇨🇮. Entra Bazoumana Touré para o lugar de Ghislain Konan.",
           "sub": "🇨🇮"
         },
         {
           "min": "90'+3'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇮. Substituição de Evann Guessand (Costa do Marfim) aos 90'+3'",
+          "txt": "Substituição, 🇨🇮. Entra Evann Guessand substituindo Yan Diomande.",
           "sub": "🇨🇮"
         },
         {
@@ -30664,7 +30664,7 @@
           "offsides": "2",
           "wonCorners": "12",
           "saves": "1",
-          "possessionPct": "46.5",
+          "possessionPct": "46.4",
           "totalShots": "12",
           "shotsOnTarget": "4",
           "shotPct": "0.3",
@@ -30684,8 +30684,8 @@
           "totalTackles": "22",
           "tacklePct": "0.7",
           "interceptions": "4",
-          "effectiveClearance": "10",
-          "totalClearance": "10"
+          "effectiveClearance": "11",
+          "totalClearance": "11"
         },
         "away": {
           "foulsCommitted": "6",
@@ -30694,20 +30694,20 @@
           "offsides": "2",
           "wonCorners": "3",
           "saves": "3",
-          "possessionPct": "53.5",
+          "possessionPct": "53.6",
           "totalShots": "9",
           "shotsOnTarget": "4",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "411",
-          "totalPasses": "469",
+          "accuratePasses": "413",
+          "totalPasses": "471",
           "passPct": "0.9",
           "accurateCrosses": "5",
           "totalCrosses": "10",
           "crossPct": "0.5",
-          "totalLongBalls": "33",
-          "accurateLongBalls": "17",
+          "totalLongBalls": "34",
+          "accurateLongBalls": "18",
           "longballPct": "0.5",
           "blockedShots": "3",
           "effectiveTackles": "10",
