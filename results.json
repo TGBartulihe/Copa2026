@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-06-30T02:48:07.883Z",
+  "generatedAt": "2026-06-30T02:49:07.568Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -29588,8 +29588,32 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "86'",
+      "clock": "87'",
       "events": [
+        {
+          "min": "87'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇲🇦. Entra Chemsdine Talbi substituindo Bilal El Khannouss.",
+          "sub": "🇲🇦"
+        },
+        {
+          "min": "86'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇳🇱. Quinten Timber substitui Ryan Gravenberch.",
+          "sub": "🇳🇱"
+        },
+        {
+          "min": "86'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇳🇱. Jorrel Hato substitui Micky van de Ven.",
+          "sub": "🇳🇱"
+        },
+        {
+          "min": "86'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇲🇦. Entra Soufiane Rahimi para o lugar de Azzedine Ounahi.",
+          "sub": "🇲🇦"
+        },
         {
           "min": "81'",
           "icon": "▶️",
@@ -30049,8 +30073,8 @@
           "accurateLongBalls": "12",
           "longballPct": "0.4",
           "blockedShots": "3",
-          "effectiveTackles": "6",
-          "totalTackles": "10",
+          "effectiveTackles": "5",
+          "totalTackles": "9",
           "tacklePct": "0.6",
           "interceptions": "8",
           "effectiveClearance": "14",
