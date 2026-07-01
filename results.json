@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T03:20:35.509Z",
+  "generatedAt": "2026-07-01T03:21:33.999Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -31240,8 +31240,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "58'",
+      "clock": "59'",
       "events": [
+        {
+          "min": "59'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇪🇨. Kevin Rodríguez (Equador) Substituição aos 59'",
+          "sub": "🇪🇨"
+        },
+        {
+          "min": "58'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇲🇽. Brian Gutiérrez (México) Substituição aos 58'",
+          "sub": "🇲🇽"
+        },
         {
           "min": "45'",
           "icon": "▶️",
