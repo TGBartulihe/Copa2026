@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T17:49:36.539Z",
+  "generatedAt": "2026-07-01T17:50:37.551Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -31807,12 +31807,12 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "86'",
+      "clock": "87'",
       "events": [
         {
           "min": "86'",
           "icon": "⚽",
-          "txt": "Harry Kane (Inglaterra) gol aos 86'",
+          "txt": "Harry Kane (Inglaterra) finalização com o pé direito do lado direito da área ao ângulo superior direito. Assistência de Anthony Gordon.",
           "sub": "🏳️"
         },
         {
@@ -32253,9 +32253,9 @@
           "wonCorners": "5",
           "saves": "1",
           "possessionPct": "60.8",
-          "totalShots": "14",
-          "shotsOnTarget": "6",
-          "shotPct": "0.4",
+          "totalShots": "15",
+          "shotsOnTarget": "7",
+          "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "446",
@@ -32281,7 +32281,7 @@
           "redCards": "0",
           "offsides": "4",
           "wonCorners": "3",
-          "saves": "4",
+          "saves": "5",
           "possessionPct": "39.2",
           "totalShots": "6",
           "shotsOnTarget": "2",
@@ -32298,8 +32298,8 @@
           "accurateLongBalls": "14",
           "longballPct": "0.4",
           "blockedShots": "2",
-          "effectiveTackles": "6",
-          "totalTackles": "17",
+          "effectiveTackles": "7",
+          "totalTackles": "18",
           "tacklePct": "0.4",
           "interceptions": "2",
           "effectiveClearance": "36",
