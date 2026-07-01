@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T22:10:35.880Z",
+  "generatedAt": "2026-07-01T22:11:36.361Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32344,12 +32344,12 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "95'",
+      "clock": "96'",
       "events": [
         {
           "min": "96'",
           "icon": "🔄",
-          "txt": "Substituição, 🇸🇳. Bara Sapoko Ndiaye (Senegal) Substituição aos 96'",
+          "txt": "Substituição, 🇸🇳. Entra Bara Sapoko Ndiaye para o lugar de Idrissa Gueye.",
           "sub": "🇸🇳"
         },
         {
@@ -32821,7 +32821,7 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "15",
+          "foulsCommitted": "16",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "2",
@@ -32833,8 +32833,8 @@
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "472",
-          "totalPasses": "543",
+          "accuratePasses": "477",
+          "totalPasses": "549",
           "passPct": "0.9",
           "accurateCrosses": "5",
           "totalCrosses": "20",
@@ -32863,18 +32863,18 @@
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "419",
-          "totalPasses": "490",
+          "accuratePasses": "424",
+          "totalPasses": "497",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "16",
           "crossPct": "0.2",
-          "totalLongBalls": "62",
+          "totalLongBalls": "63",
           "accurateLongBalls": "25",
           "longballPct": "0.4",
           "blockedShots": "1",
           "effectiveTackles": "4",
-          "totalTackles": "10",
+          "totalTackles": "11",
           "tacklePct": "0.4",
           "interceptions": "9",
           "effectiveClearance": "28",
