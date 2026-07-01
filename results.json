@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T22:28:34.319Z",
+  "generatedAt": "2026-07-01T22:29:35.542Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32344,12 +32344,24 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "110'",
+      "clock": "111'",
       "events": [
         {
+          "min": "111'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇧🇪"
+        },
+        {
+          "min": "111'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇸🇳"
+        },
+        {
           "min": "110'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a lesão de Diego Moreira (Bélgica).",
           "sub": "🇧🇪"
         },
         {
@@ -32887,19 +32899,19 @@
           "offsides": "2",
           "wonCorners": "1",
           "saves": "3",
-          "possessionPct": "47.7",
+          "possessionPct": "47.4",
           "totalShots": "14",
           "shotsOnTarget": "4",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "495",
-          "totalPasses": "584",
+          "totalPasses": "585",
           "passPct": "0.8",
           "accurateCrosses": "3",
           "totalCrosses": "17",
           "crossPct": "0.2",
-          "totalLongBalls": "74",
+          "totalLongBalls": "75",
           "accurateLongBalls": "30",
           "longballPct": "0.4",
           "blockedShots": "1",
