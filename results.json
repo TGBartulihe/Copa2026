@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T02:29:31.649Z",
+  "generatedAt": "2026-07-01T02:30:33.859Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -31240,7 +31240,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "28'",
+      "clock": "29'",
       "events": [
         {
           "min": "28'",
@@ -31251,13 +31251,7 @@
         {
           "min": "28'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇲🇽"
-        },
-        {
-          "min": "25'",
-          "icon": "⏸️",
-          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇲🇽"
         },
         {
@@ -31265,6 +31259,12 @@
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇪🇨"
+        },
+        {
+          "min": "25'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇲🇽"
         },
         {
           "min": "22'",
@@ -31571,20 +31571,20 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "58.7",
+          "possessionPct": "59.3",
           "totalShots": "7",
           "shotsOnTarget": "1",
           "shotPct": "0.1",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "108",
-          "totalPasses": "122",
+          "accuratePasses": "111",
+          "totalPasses": "125",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "3",
           "crossPct": "0.3",
-          "totalLongBalls": "12",
-          "accurateLongBalls": "9",
+          "totalLongBalls": "13",
+          "accurateLongBalls": "10",
           "longballPct": "0.8",
           "blockedShots": "2",
           "effectiveTackles": "1",
@@ -31601,7 +31601,7 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "41.3",
+          "possessionPct": "40.7",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
