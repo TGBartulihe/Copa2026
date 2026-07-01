@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T20:41:33.253Z",
+  "generatedAt": "2026-07-01T20:42:34.546Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32344,7 +32344,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "40'",
+      "clock": "41'",
       "events": [
         {
           "min": "32'",
@@ -32683,18 +32683,18 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "2",
-          "possessionPct": "42.9",
+          "possessionPct": "46.3",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "162",
-          "totalPasses": "186",
+          "accuratePasses": "188",
+          "totalPasses": "214",
           "passPct": "0.9",
-          "accurateCrosses": "2",
-          "totalCrosses": "6",
-          "crossPct": "0.3",
+          "accurateCrosses": "1",
+          "totalCrosses": "7",
+          "crossPct": "0.1",
           "totalLongBalls": "13",
           "accurateLongBalls": "6",
           "longballPct": "0.5",
@@ -32702,7 +32702,7 @@
           "effectiveTackles": "2",
           "totalTackles": "6",
           "tacklePct": "0.3",
-          "interceptions": "1",
+          "interceptions": "2",
           "effectiveClearance": "7",
           "totalClearance": "7"
         },
@@ -32713,19 +32713,19 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "57.1",
+          "possessionPct": "53.7",
           "totalShots": "6",
           "shotsOnTarget": "3",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "220",
-          "totalPasses": "244",
+          "totalPasses": "245",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "11",
           "crossPct": "0.3",
-          "totalLongBalls": "18",
+          "totalLongBalls": "19",
           "accurateLongBalls": "9",
           "longballPct": "0.5",
           "blockedShots": "0",
@@ -32733,8 +32733,8 @@
           "totalTackles": "5",
           "tacklePct": "0.4",
           "interceptions": "2",
-          "effectiveClearance": "10",
-          "totalClearance": "10"
+          "effectiveClearance": "11",
+          "totalClearance": "11"
         }
       },
       "round": "avos"
