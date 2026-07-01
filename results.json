@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T22:29:35.542Z",
+  "generatedAt": "2026-07-01T22:30:33.865Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32344,19 +32344,19 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "111'",
+      "clock": "112'",
       "events": [
         {
           "min": "111'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
-          "sub": "🇧🇪"
+          "sub": "🇸🇳"
         },
         {
           "min": "111'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇸🇳"
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇧🇪"
         },
         {
           "min": "110'",
@@ -32869,19 +32869,19 @@
           "offsides": "2",
           "wonCorners": "4",
           "saves": "2",
-          "possessionPct": "52.3",
+          "possessionPct": "52.7",
           "totalShots": "18",
           "shotsOnTarget": "4",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "555",
-          "totalPasses": "638",
+          "accuratePasses": "566",
+          "totalPasses": "651",
           "passPct": "0.9",
           "accurateCrosses": "7",
           "totalCrosses": "24",
           "crossPct": "0.3",
-          "totalLongBalls": "42",
+          "totalLongBalls": "43",
           "accurateLongBalls": "23",
           "longballPct": "0.5",
           "blockedShots": "5",
@@ -32899,19 +32899,19 @@
           "offsides": "2",
           "wonCorners": "1",
           "saves": "3",
-          "possessionPct": "47.4",
+          "possessionPct": "47.3",
           "totalShots": "14",
           "shotsOnTarget": "4",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "495",
-          "totalPasses": "585",
+          "totalPasses": "586",
           "passPct": "0.8",
           "accurateCrosses": "3",
           "totalCrosses": "17",
           "crossPct": "0.2",
-          "totalLongBalls": "75",
+          "totalLongBalls": "76",
           "accurateLongBalls": "30",
           "longballPct": "0.4",
           "blockedShots": "1",
