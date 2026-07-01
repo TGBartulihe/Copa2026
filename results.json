@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T03:37:33.443Z",
+  "generatedAt": "2026-07-01T03:38:31.677Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -31240,8 +31240,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "75'",
+      "clock": "76'",
       "events": [
+        {
+          "min": "76'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇲🇽"
+        },
+        {
+          "min": "76'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇪🇨"
+        },
         {
           "min": "75'",
           "icon": "⏸️",
@@ -31250,8 +31262,8 @@
         },
         {
           "min": "75'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a lesão de Raúl Rangel (México).",
           "sub": "🇲🇽"
         },
         {
