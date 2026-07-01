@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T22:26:31.960Z",
+  "generatedAt": "2026-07-01T22:27:35.214Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32344,8 +32344,14 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "109'",
+      "clock": "110'",
       "events": [
+        {
+          "min": "109'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇧🇪. Amadou Onana (Bélgica) Substituição aos 109'",
+          "sub": "🇧🇪"
+        },
         {
           "min": "105'",
           "icon": "▶️",
@@ -32839,7 +32845,7 @@
           "offsides": "2",
           "wonCorners": "4",
           "saves": "2",
-          "possessionPct": "52.3",
+          "possessionPct": "52.2",
           "totalShots": "18",
           "shotsOnTarget": "4",
           "shotPct": "0.2",
@@ -32869,17 +32875,17 @@
           "offsides": "2",
           "wonCorners": "1",
           "saves": "3",
-          "possessionPct": "47.7",
-          "totalShots": "13",
+          "possessionPct": "47.8",
+          "totalShots": "14",
           "shotsOnTarget": "4",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "492",
-          "totalPasses": "580",
+          "accuratePasses": "493",
+          "totalPasses": "581",
           "passPct": "0.8",
-          "accurateCrosses": "3",
-          "totalCrosses": "17",
+          "accurateCrosses": "4",
+          "totalCrosses": "18",
           "crossPct": "0.2",
           "totalLongBalls": "73",
           "accurateLongBalls": "29",
