@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T04:01:34.952Z",
+  "generatedAt": "2026-07-01T04:02:35.412Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -31238,14 +31238,26 @@
       "iso": "2026-07-01T02:00Z",
       "sh": 2,
       "sa": 0,
-      "done": false,
-      "live": true,
-      "clock": "90'+9'",
+      "done": true,
+      "live": false,
+      "clock": "",
       "events": [
         {
           "min": "90'+9'",
+          "icon": "•",
+          "txt": "jogador",
+          "sub": "🏳️"
+        },
+        {
+          "min": "90'+9'",
           "icon": "🟨",
-          "txt": "Moisés Caicedo (Equador) Cartão Amarelo aos 90'+9'",
+          "txt": "Moisés Caicedo (Equador) recebe cartão amarelo por uma entrada perigosa.",
+          "sub": "🇪🇨"
+        },
+        {
+          "min": "90'+5'",
+          "icon": "🟥",
+          "txt": "Piero Hincapié (Equador) recebe cartão vermelho.",
           "sub": "🇪🇨"
         },
         {
@@ -31255,15 +31267,9 @@
           "sub": "🇪🇨"
         },
         {
-          "min": "90'+5'",
+          "min": "90'+4'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
-          "sub": "🇪🇨"
-        },
-        {
-          "min": "90'+5'",
-          "icon": "🟥",
-          "txt": "Piero Hincapié (Equador) recebe cartão vermelho.",
           "sub": "🇪🇨"
         },
         {
@@ -31335,7 +31341,7 @@
         {
           "min": "71'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇪🇨"
         },
         {
@@ -31353,7 +31359,7 @@
         {
           "min": "68'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
           "sub": "🇪🇨"
         },
         {
@@ -31733,49 +31739,49 @@
           "offsides": "0",
           "wonCorners": "3",
           "saves": "1",
-          "possessionPct": "43",
+          "possessionPct": "43.2",
           "totalShots": "15",
           "shotsOnTarget": "3",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "246",
-          "totalPasses": "314",
+          "accuratePasses": "249",
+          "totalPasses": "319",
           "passPct": "0.8",
           "accurateCrosses": "4",
           "totalCrosses": "7",
           "crossPct": "0.6",
-          "totalLongBalls": "57",
-          "accurateLongBalls": "27",
+          "totalLongBalls": "59",
+          "accurateLongBalls": "28",
           "longballPct": "0.5",
           "blockedShots": "3",
           "effectiveTackles": "5",
           "totalTackles": "10",
           "tacklePct": "0.5",
           "interceptions": "7",
-          "effectiveClearance": "37",
-          "totalClearance": "37"
+          "effectiveClearance": "38",
+          "totalClearance": "38"
         },
         "away": {
-          "foulsCommitted": "13",
-          "yellowCards": "2",
+          "foulsCommitted": "14",
+          "yellowCards": "3",
           "redCards": "1",
           "offsides": "1",
           "wonCorners": "8",
           "saves": "1",
-          "possessionPct": "57",
+          "possessionPct": "56.8",
           "totalShots": "7",
           "shotsOnTarget": "1",
           "shotPct": "0.1",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "339",
-          "totalPasses": "404",
+          "accuratePasses": "340",
+          "totalPasses": "407",
           "passPct": "0.8",
           "accurateCrosses": "3",
           "totalCrosses": "25",
           "crossPct": "0.1",
-          "totalLongBalls": "51",
+          "totalLongBalls": "52",
           "accurateLongBalls": "16",
           "longballPct": "0.3",
           "blockedShots": "1",
@@ -31783,8 +31789,8 @@
           "totalTackles": "11",
           "tacklePct": "0.7",
           "interceptions": "5",
-          "effectiveClearance": "22",
-          "totalClearance": "22"
+          "effectiveClearance": "21",
+          "totalClearance": "21"
         }
       },
       "round": "avos"
