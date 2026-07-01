@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T21:08:32.849Z",
+  "generatedAt": "2026-07-01T21:09:35.490Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32344,12 +32344,12 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "46'",
+      "clock": "47'",
       "events": [
         {
           "min": "45'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Início do segundo tempo Bélgica 0, Senegal 1.",
           "sub": "🏳️"
         },
         {
@@ -32701,14 +32701,14 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "2",
-          "possessionPct": "50.6",
+          "possessionPct": "50.4",
           "totalShots": "5",
           "shotsOnTarget": "2",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "236",
-          "totalPasses": "270",
+          "accuratePasses": "241",
+          "totalPasses": "275",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "10",
@@ -32721,8 +32721,8 @@
           "totalTackles": "6",
           "tacklePct": "0.3",
           "interceptions": "2",
-          "effectiveClearance": "7",
-          "totalClearance": "7"
+          "effectiveClearance": "8",
+          "totalClearance": "8"
         },
         "away": {
           "foulsCommitted": "4",
@@ -32731,20 +32731,20 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "3",
-          "possessionPct": "49.4",
-          "totalShots": "7",
+          "possessionPct": "49.6",
+          "totalShots": "8",
           "shotsOnTarget": "3",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "226",
-          "totalPasses": "259",
+          "accuratePasses": "232",
+          "totalPasses": "266",
           "passPct": "0.9",
           "accurateCrosses": "3",
-          "totalCrosses": "11",
+          "totalCrosses": "12",
           "crossPct": "0.3",
-          "totalLongBalls": "25",
-          "accurateLongBalls": "9",
+          "totalLongBalls": "26",
+          "accurateLongBalls": "10",
           "longballPct": "0.4",
           "blockedShots": "0",
           "effectiveTackles": "2",
