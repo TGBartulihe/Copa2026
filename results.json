@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T22:09:33.049Z",
+  "generatedAt": "2026-07-01T22:10:35.880Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32344,8 +32344,14 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "94'",
+      "clock": "95'",
       "events": [
+        {
+          "min": "96'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇳. Bara Sapoko Ndiaye (Senegal) Substituição aos 96'",
+          "sub": "🇸🇳"
+        },
         {
           "min": "93'",
           "icon": "🔄",
