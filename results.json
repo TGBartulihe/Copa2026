@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T22:50:31.551Z",
+  "generatedAt": "2026-07-01T22:51:35.098Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32342,14 +32342,14 @@
       "iso": "2026-07-01T20:00Z",
       "sh": 3,
       "sa": 2,
-      "done": false,
-      "live": true,
-      "clock": "120'+12'",
+      "done": true,
+      "live": false,
+      "clock": "",
       "events": [
         {
           "min": "120'+12'",
           "icon": "•",
-          "txt": "jogador",
+          "txt": "Fim do prolongamento do segundo tempo, Bélgica 3, Senegal 2.",
           "sub": "🏳️"
         },
         {
