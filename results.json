@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T03:56:35.330Z",
+  "generatedAt": "2026-07-01T03:57:33.477Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -31240,12 +31240,24 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "90'+4'",
+      "clock": "90'+5'",
       "events": [
+        {
+          "min": "90'+5'",
+          "icon": "🟥",
+          "txt": "Piero Hincapié (Equador) VAR - Atualização de cartão (vermelho) aos 90'+5'",
+          "sub": "🇪🇨"
+        },
+        {
+          "min": "90'+5'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇪🇨"
+        },
         {
           "min": "90'+3'",
           "icon": "🟨",
-          "txt": "Kendry Páez (Equador) Cartão Amarelo aos 90'+3'",
+          "txt": "Kendry Páez (Equador) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇪🇨"
         },
         {
@@ -31734,7 +31746,7 @@
         },
         "away": {
           "foulsCommitted": "12",
-          "yellowCards": "1",
+          "yellowCards": "2",
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "8",
