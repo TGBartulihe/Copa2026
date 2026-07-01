@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T20:50:36.277Z",
+  "generatedAt": "2026-07-01T20:51:32.136Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32347,6 +32347,12 @@
       "clock": "45'+5'",
       "events": [
         {
+          "min": "45'+6'",
+          "icon": "⏱️",
+          "txt": "Intervalo",
+          "sub": "🏳️"
+        },
+        {
           "min": "32'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
@@ -32707,7 +32713,7 @@
           "totalClearance": "7"
         },
         "away": {
-          "foulsCommitted": "3",
+          "foulsCommitted": "4",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "1",
