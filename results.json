@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T21:35:33.897Z",
+  "generatedAt": "2026-07-01T21:36:35.486Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32344,8 +32344,14 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "73'",
+      "clock": "74'",
       "events": [
+        {
+          "min": "73'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇳. Substituição Pape Matar Sarr (Senegal) aos 73'",
+          "sub": "🇸🇳"
+        },
         {
           "min": "73'",
           "icon": "🔄",
