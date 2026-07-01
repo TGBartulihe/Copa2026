@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T03:06:32.052Z",
+  "generatedAt": "2026-07-01T03:07:34.210Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -31242,6 +31242,18 @@
       "live": true,
       "clock": "45'+5'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇪🇨. Substituição de Yaimar Medina (Equador) aos 45'",
+          "sub": "🇪🇨"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇪🇨. Ángelo Preciado substitui Alan Franco.",
+          "sub": "🇪🇨"
+        },
         {
           "min": "45'+6'",
           "icon": "⏱️",
