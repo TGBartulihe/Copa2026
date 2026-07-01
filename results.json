@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T02:46:34.105Z",
+  "generatedAt": "2026-07-01T02:47:35.679Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -31240,8 +31240,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "45'",
+      "clock": "45'+2'",
       "events": [
+        {
+          "min": "45'+1'",
+          "icon": "🟨",
+          "txt": "Alan Franco (Equador) Cartão Amarelo aos 45'+1'",
+          "sub": "🇪🇨"
+        },
         {
           "min": "31'",
           "icon": "⚽",
@@ -31577,14 +31583,14 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "59.1",
+          "possessionPct": "57.8",
           "totalShots": "10",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "164",
-          "totalPasses": "187",
+          "accuratePasses": "165",
+          "totalPasses": "188",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "5",
@@ -31597,38 +31603,38 @@
           "totalTackles": "4",
           "tacklePct": "0.8",
           "interceptions": "1",
-          "effectiveClearance": "15",
-          "totalClearance": "15"
+          "effectiveClearance": "16",
+          "totalClearance": "16"
         },
         "away": {
-          "foulsCommitted": "4",
+          "foulsCommitted": "5",
           "yellowCards": "0",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "4",
           "saves": "0",
-          "possessionPct": "40.9",
+          "possessionPct": "42.2",
           "totalShots": "3",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "99",
-          "totalPasses": "124",
+          "accuratePasses": "106",
+          "totalPasses": "132",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "9",
           "crossPct": "0.1",
-          "totalLongBalls": "23",
-          "accurateLongBalls": "8",
-          "longballPct": "0.3",
+          "totalLongBalls": "25",
+          "accurateLongBalls": "9",
+          "longballPct": "0.4",
           "blockedShots": "0",
-          "effectiveTackles": "3",
-          "totalTackles": "5",
-          "tacklePct": "0.6",
+          "effectiveTackles": "4",
+          "totalTackles": "6",
+          "tacklePct": "0.7",
           "interceptions": "1",
-          "effectiveClearance": "10",
-          "totalClearance": "10"
+          "effectiveClearance": "11",
+          "totalClearance": "11"
         }
       },
       "round": "avos"
