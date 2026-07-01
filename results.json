@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T22:08:36.430Z",
+  "generatedAt": "2026-07-01T22:09:33.049Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32344,12 +32344,18 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "93'",
+      "clock": "94'",
       "events": [
         {
-          "min": "92'",
+          "min": "93'",
           "icon": "🔄",
-          "txt": "Substituição, 🇸🇳. Substituição de Nicolas Jackson (Senegal) aos 92'",
+          "txt": "Substituição, 🇸🇳. Entra El Hadji Malick Diouf para o lugar de Ismail Jakobs.",
+          "sub": "🇸🇳"
+        },
+        {
+          "min": "93'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇳. Entra Nicolas Jackson substituindo Sadio Mané.",
           "sub": "🇸🇳"
         },
         {
@@ -32357,12 +32363,6 @@
           "icon": "•",
           "txt": "jogador",
           "sub": "🏳️"
-        },
-        {
-          "min": "90'",
-          "icon": "🔄",
-          "txt": "Substituição, 🇸🇳. El Hadji Malick Diouf (Senegal) Substituição aos 90'",
-          "sub": "🇸🇳"
         },
         {
           "min": "90'+8'",
@@ -32827,13 +32827,13 @@
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "469",
-          "totalPasses": "539",
+          "accuratePasses": "472",
+          "totalPasses": "543",
           "passPct": "0.9",
           "accurateCrosses": "5",
           "totalCrosses": "20",
           "crossPct": "0.3",
-          "totalLongBalls": "36",
+          "totalLongBalls": "37",
           "accurateLongBalls": "19",
           "longballPct": "0.5",
           "blockedShots": "4",
@@ -32857,14 +32857,14 @@
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "418",
-          "totalPasses": "487",
+          "accuratePasses": "419",
+          "totalPasses": "490",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "16",
           "crossPct": "0.2",
-          "totalLongBalls": "59",
-          "accurateLongBalls": "24",
+          "totalLongBalls": "62",
+          "accurateLongBalls": "25",
           "longballPct": "0.4",
           "blockedShots": "1",
           "effectiveTackles": "4",
