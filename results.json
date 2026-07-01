@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T21:07:35.281Z",
+  "generatedAt": "2026-07-01T21:08:32.849Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32344,8 +32344,20 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "45'+5'",
+      "clock": "46'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🏳️"
+        },
+        {
+          "min": "45'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇧🇪. Romelu Lukaku entra em campo e entra Charles De Ketelaere.",
+          "sub": "🇧🇪"
+        },
         {
           "min": "45'+6'",
           "icon": "⏱️",
@@ -32442,12 +32454,12 @@
               "row": 1
             },
             {
-              "name": "Youri Tielemans",
+              "name": "Hans Vanaken",
               "pos": "LM",
               "row": 2
             },
             {
-              "name": "Hans Vanaken",
+              "name": "Youri Tielemans",
               "pos": "RM",
               "row": 2
             },
