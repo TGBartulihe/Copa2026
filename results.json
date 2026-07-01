@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T22:42:32.384Z",
+  "generatedAt": "2026-07-01T22:43:32.711Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32340,12 +32340,18 @@
       "brTime": "17h",
       "venue": "Lumen Field",
       "iso": "2026-07-01T20:00Z",
-      "sh": 2,
+      "sh": 3,
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "120'+5'",
+      "clock": "120'+6'",
       "events": [
+        {
+          "min": "120'+5'",
+          "icon": "🟥",
+          "txt": "Gol! Bélgica 3, Senegal 2. Youri Tielemans (Bélgica) converte o pênalti com um finalização com o pé direito.",
+          "sub": "🇧🇪"
+        },
         {
           "min": "120'+2'",
           "icon": "▶️",
@@ -32882,11 +32888,11 @@
           "wonCorners": "4",
           "saves": "3",
           "possessionPct": "53.6",
-          "totalShots": "18",
-          "shotsOnTarget": "4",
-          "shotPct": "0.2",
+          "totalShots": "19",
+          "shotsOnTarget": "5",
+          "shotPct": "0.3",
           "penaltyKickGoals": "0",
-          "penaltyKickShots": "0",
+          "penaltyKickShots": "1",
           "accuratePasses": "601",
           "totalPasses": "692",
           "passPct": "0.9",
