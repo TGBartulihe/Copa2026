@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T03:41:34.795Z",
+  "generatedAt": "2026-07-01T03:42:37.630Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -31240,18 +31240,30 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "79'",
+      "clock": "80'",
       "events": [
+        {
+          "min": "80'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇲🇽. Substituição de Israel Reyes (México) aos 80'",
+          "sub": "🇲🇽"
+        },
+        {
+          "min": "80'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇲🇽. Orbelín Pineda substitui Julián Quiñones.",
+          "sub": "🇲🇽"
+        },
         {
           "min": "79'",
           "icon": "🔄",
-          "txt": "Substituição, 🇪🇨. Kendry Páez (Equador) Substituição aos 79'",
+          "txt": "Substituição, 🇪🇨. Entra Kendry Páez para o lugar de Nilson Angulo.",
           "sub": "🇪🇨"
         },
         {
           "min": "79'",
           "icon": "🔄",
-          "txt": "Substituição, 🇪🇨. Substituição de Jordy Caicedo (Equador) aos 79'",
+          "txt": "Substituição, 🇪🇨. Entra Jordy Caicedo substituindo John Yeboah.",
           "sub": "🇪🇨"
         },
         {
