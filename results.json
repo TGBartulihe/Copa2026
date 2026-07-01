@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T02:24:31.471Z",
+  "generatedAt": "2026-07-01T02:25:32.878Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -31240,12 +31240,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "23'",
+      "clock": "24'",
       "events": [
         {
           "min": "22'",
           "icon": "⚽",
-          "txt": "Julián Quiñones (México) finalização com o pé direito do lado esquerdo da área ao ângulo superior esquerdo. Assistência de Roberto Alvarado.",
+          "txt": "Julián Quiñones (México) finalização com o pé direito do lado esquerdo da área ao ângulo superior esquerdo. Assistência de Roberto Alvarado com um passe em profundidade.",
           "sub": "🇲🇽"
         },
         {
@@ -31547,14 +31547,14 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "62.6",
+          "possessionPct": "60",
           "totalShots": "7",
           "shotsOnTarget": "1",
           "shotPct": "0.1",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "103",
-          "totalPasses": "116",
+          "totalPasses": "117",
           "passPct": "0.9",
           "accurateCrosses": "1",
           "totalCrosses": "3",
@@ -31567,8 +31567,8 @@
           "totalTackles": "1",
           "tacklePct": "1.0",
           "interceptions": "1",
-          "effectiveClearance": "7",
-          "totalClearance": "7"
+          "effectiveClearance": "10",
+          "totalClearance": "10"
         },
         "away": {
           "foulsCommitted": "2",
@@ -31577,20 +31577,20 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "37.4",
+          "possessionPct": "40",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "51",
-          "totalPasses": "69",
-          "passPct": "0.7",
+          "accuratePasses": "58",
+          "totalPasses": "77",
+          "passPct": "0.8",
           "accurateCrosses": "0",
-          "totalCrosses": "2",
+          "totalCrosses": "3",
           "crossPct": "0.0",
-          "totalLongBalls": "16",
-          "accurateLongBalls": "5",
+          "totalLongBalls": "18",
+          "accurateLongBalls": "6",
           "longballPct": "0.3",
           "blockedShots": "0",
           "effectiveTackles": "3",
