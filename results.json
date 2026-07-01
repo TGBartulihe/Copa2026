@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T16:10:34.865Z",
+  "generatedAt": "2026-07-01T16:11:33.145Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -31807,7 +31807,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "9'",
+      "clock": "10'",
       "events": [
         {
           "min": "10'",
@@ -31818,7 +31818,7 @@
         {
           "min": "10'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇨🇩"
         },
         {
@@ -31829,8 +31829,8 @@
         },
         {
           "min": "9'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Lionel Mpasi (RD Congo).",
           "sub": "🇨🇩"
         },
         {
