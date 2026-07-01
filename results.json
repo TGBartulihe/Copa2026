@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T21:29:47.861Z",
+  "generatedAt": "2026-07-01T21:30:33.360Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32344,12 +32344,12 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "67'",
+      "clock": "68'",
       "events": [
         {
           "min": "67'",
           "icon": "🟨",
-          "txt": "Lamine Camara (Senegal) Cartão Amarelo aos 67'",
+          "txt": "Lamine Camara (Senegal) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇸🇳"
         },
         {
@@ -32749,13 +32749,13 @@
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "350",
-          "totalPasses": "399",
+          "accuratePasses": "351",
+          "totalPasses": "401",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "12",
           "crossPct": "0.2",
-          "totalLongBalls": "25",
+          "totalLongBalls": "26",
           "accurateLongBalls": "13",
           "longballPct": "0.5",
           "blockedShots": "4",
@@ -32767,8 +32767,8 @@
           "totalClearance": "9"
         },
         "away": {
-          "foulsCommitted": "9",
-          "yellowCards": "0",
+          "foulsCommitted": "10",
+          "yellowCards": "1",
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "1",
@@ -32779,8 +32779,8 @@
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "295",
-          "totalPasses": "340",
+          "accuratePasses": "296",
+          "totalPasses": "341",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "14",
@@ -32792,7 +32792,7 @@
           "effectiveTackles": "2",
           "totalTackles": "6",
           "tacklePct": "0.3",
-          "interceptions": "5",
+          "interceptions": "6",
           "effectiveClearance": "18",
           "totalClearance": "18"
         }
