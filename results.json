@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T23:48:33.622Z",
+  "generatedAt": "2026-07-01T23:49:32.350Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32560,18 +32560,12 @@
           "min": "32'",
           "icon": "▶️",
           "txt": "Atraso acabou. Eles estão prontos para continuar.",
-          "sub": "🇧🇪"
+          "sub": "🇸🇳"
         },
         {
           "min": "32'",
           "icon": "▶️",
           "txt": "Atraso acabou. Eles estão prontos para continuar.",
-          "sub": "🇸🇳"
-        },
-        {
-          "min": "31'",
-          "icon": "⏸️",
-          "txt": "Partida atrasada (Bélgica).",
           "sub": "🇧🇪"
         },
         {
@@ -32581,9 +32575,9 @@
           "sub": "🇸🇳"
         },
         {
-          "min": "30'",
-          "icon": "▶️",
-          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "min": "31'",
+          "icon": "⏸️",
+          "txt": "Partida atrasada (Bélgica).",
           "sub": "🇧🇪"
         },
         {
@@ -32593,9 +32587,9 @@
           "sub": "🇸🇳"
         },
         {
-          "min": "27'",
-          "icon": "⏸️",
-          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "min": "30'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇧🇪"
         },
         {
@@ -32603,6 +32597,12 @@
           "icon": "⏸️",
           "txt": "Atraso na partida para uma pausa para bebidas.",
           "sub": "🇸🇳"
+        },
+        {
+          "min": "27'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇧🇪"
         },
         {
           "min": "25'",
