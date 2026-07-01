@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T03:35:32.354Z",
+  "generatedAt": "2026-07-01T03:36:32.961Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -31240,8 +31240,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "73'",
+      "clock": "74'",
       "events": [
+        {
+          "min": "74'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇲🇽. Substituição Santiago Gimenez (México) aos 74'",
+          "sub": "🇲🇽"
+        },
+        {
+          "min": "73'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇲🇽. Entra Obed Vargas para o lugar de Luis Romo.",
+          "sub": "🇲🇽"
+        },
         {
           "min": "71'",
           "icon": "▶️",
@@ -31643,7 +31655,7 @@
           "offsides": "0",
           "wonCorners": "3",
           "saves": "1",
-          "possessionPct": "44.6",
+          "possessionPct": "44.5",
           "totalShots": "14",
           "shotsOnTarget": "3",
           "shotPct": "0.2",
@@ -31663,27 +31675,27 @@
           "totalTackles": "7",
           "tacklePct": "0.6",
           "interceptions": "5",
-          "effectiveClearance": "23",
-          "totalClearance": "23"
+          "effectiveClearance": "25",
+          "totalClearance": "25"
         },
         "away": {
           "foulsCommitted": "7",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "1",
-          "wonCorners": "6",
+          "wonCorners": "7",
           "saves": "1",
-          "possessionPct": "55.4",
+          "possessionPct": "55.5",
           "totalShots": "3",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "274",
-          "totalPasses": "320",
+          "accuratePasses": "275",
+          "totalPasses": "321",
           "passPct": "0.9",
           "accurateCrosses": "2",
-          "totalCrosses": "15",
+          "totalCrosses": "16",
           "crossPct": "0.1",
           "totalLongBalls": "36",
           "accurateLongBalls": "13",
