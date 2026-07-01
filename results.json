@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T17:39:35.351Z",
+  "generatedAt": "2026-07-01T17:40:34.064Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -31807,18 +31807,18 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "76'",
+      "clock": "77'",
       "events": [
         {
           "min": "76'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇩. Substituição de Edo Kayembe (RD Congo) aos 76'",
+          "txt": "Substituição, 🇨🇩. Edo Kayembe entra em campo e entra em campo Ngal’ayel Mukau.",
           "sub": "🇨🇩"
         },
         {
           "min": "76'",
           "icon": "🔄",
-          "txt": "Substituição, 🇨🇩. Substituição de Théo Bongonda (RD Congo) aos 76'",
+          "txt": "Substituição, 🇨🇩. Entra Théo Bongonda substituindo Brian Cipenga.",
           "sub": "🇨🇩"
         },
         {
@@ -32252,20 +32252,20 @@
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "387",
-          "totalPasses": "424",
+          "accuratePasses": "395",
+          "totalPasses": "432",
           "passPct": "0.9",
-          "accurateCrosses": "9",
-          "totalCrosses": "38",
+          "accurateCrosses": "8",
+          "totalCrosses": "37",
           "crossPct": "0.2",
-          "totalLongBalls": "23",
-          "accurateLongBalls": "15",
+          "totalLongBalls": "24",
+          "accurateLongBalls": "16",
           "longballPct": "0.7",
           "blockedShots": "3",
           "effectiveTackles": "6",
           "totalTackles": "10",
           "tacklePct": "0.6",
-          "interceptions": "5",
+          "interceptions": "6",
           "effectiveClearance": "18",
           "totalClearance": "18"
         },
@@ -32282,13 +32282,13 @@
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "233",
-          "totalPasses": "284",
+          "accuratePasses": "236",
+          "totalPasses": "288",
           "passPct": "0.8",
           "accurateCrosses": "1",
           "totalCrosses": "9",
           "crossPct": "0.1",
-          "totalLongBalls": "32",
+          "totalLongBalls": "33",
           "accurateLongBalls": "13",
           "longballPct": "0.4",
           "blockedShots": "2",
