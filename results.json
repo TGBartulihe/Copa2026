@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T20:36:36.902Z",
+  "generatedAt": "2026-07-01T20:37:34.999Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32344,7 +32344,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "35'",
+      "clock": "36'",
       "events": [
         {
           "min": "32'",
@@ -32355,13 +32355,13 @@
         {
           "min": "32'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇸🇳"
         },
         {
           "min": "31'",
           "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "txt": "Partida atrasada (Senegal).",
           "sub": "🇸🇳"
         },
         {
@@ -32373,7 +32373,7 @@
         {
           "min": "30'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇸🇳"
         },
         {
@@ -32713,14 +32713,14 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "62.1",
-          "totalShots": "5",
-          "shotsOnTarget": "2",
-          "shotPct": "0.4",
+          "possessionPct": "59.4",
+          "totalShots": "6",
+          "shotsOnTarget": "3",
+          "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "203",
-          "totalPasses": "225",
+          "accuratePasses": "216",
+          "totalPasses": "239",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "11",
@@ -32733,8 +32733,8 @@
           "totalTackles": "4",
           "tacklePct": "0.3",
           "interceptions": "1",
-          "effectiveClearance": "8",
-          "totalClearance": "8"
+          "effectiveClearance": "9",
+          "totalClearance": "9"
         }
       },
       "round": "avos"
