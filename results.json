@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T20:27:35.132Z",
+  "generatedAt": "2026-07-01T20:28:35.663Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32347,6 +32347,18 @@
       "clock": "27'",
       "events": [
         {
+          "min": "27'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇧🇪"
+        },
+        {
+          "min": "27'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🇸🇳"
+        },
+        {
           "min": "25'",
           "icon": "⚽",
           "txt": "Habib Diarra (Senegal) remate com o pé direito em frente à baliza ao centro da baliza.",
@@ -32635,21 +32647,21 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "35.1",
+          "possessionPct": "34.8",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "95",
-          "totalPasses": "111",
+          "accuratePasses": "97",
+          "totalPasses": "114",
           "passPct": "0.9",
           "accurateCrosses": "1",
-          "totalCrosses": "3",
+          "totalCrosses": "4",
           "crossPct": "0.3",
-          "totalLongBalls": "11",
+          "totalLongBalls": "12",
           "accurateLongBalls": "5",
-          "longballPct": "0.5",
+          "longballPct": "0.4",
           "blockedShots": "0",
           "effectiveTackles": "1",
           "totalTackles": "5",
@@ -32665,19 +32677,19 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "1",
-          "possessionPct": "64.9",
+          "possessionPct": "65.2",
           "totalShots": "5",
           "shotsOnTarget": "2",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "180",
-          "totalPasses": "200",
+          "accuratePasses": "188",
+          "totalPasses": "209",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "11",
           "crossPct": "0.3",
-          "totalLongBalls": "14",
+          "totalLongBalls": "15",
           "accurateLongBalls": "7",
           "longballPct": "0.5",
           "blockedShots": "0",
@@ -32685,8 +32697,8 @@
           "totalTackles": "4",
           "tacklePct": "0.3",
           "interceptions": "1",
-          "effectiveClearance": "6",
-          "totalClearance": "6"
+          "effectiveClearance": "8",
+          "totalClearance": "8"
         }
       },
       "round": "avos"
