@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T02:47:35.679Z",
+  "generatedAt": "2026-07-01T02:48:31.088Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -31240,12 +31240,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "45'+2'",
+      "clock": "45'+3'",
       "events": [
         {
           "min": "45'+1'",
           "icon": "🟨",
-          "txt": "Alan Franco (Equador) Cartão Amarelo aos 45'+1'",
+          "txt": "Alan Franco (Equador) recebe cartão amarelo.",
           "sub": "🇪🇨"
         },
         {
