@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T16:07:38.775Z",
+  "generatedAt": "2026-07-01T16:08:37.079Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30700,14 +30700,14 @@
           "offsides": "2",
           "wonCorners": "3",
           "saves": "4",
-          "possessionPct": "52.9",
+          "possessionPct": "53",
           "totalShots": "9",
           "shotsOnTarget": "4",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "415",
-          "totalPasses": "473",
+          "totalPasses": "474",
           "passPct": "0.9",
           "accurateCrosses": "5",
           "totalCrosses": "10",
@@ -30719,7 +30719,7 @@
           "effectiveTackles": "11",
           "totalTackles": "19",
           "tacklePct": "0.6",
-          "interceptions": "6",
+          "interceptions": "5",
           "effectiveClearance": "37",
           "totalClearance": "37"
         }
@@ -31807,12 +31807,12 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "7'",
+      "clock": "8'",
       "events": [
         {
           "min": "7'",
           "icon": "⚽",
-          "txt": "Brian Cipenga (RD Congo) finalização com o pé direito do lado esquerdo da área.",
+          "txt": "Brian Cipenga (RD Congo) finalização com o pé direito do lado esquerdo da área no Escanteio inferior esquerdo. Assistência de Chancel Mbemba.",
           "sub": "🇨🇩"
         },
         {
