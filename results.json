@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T03:40:33.450Z",
+  "generatedAt": "2026-07-01T03:41:34.795Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -31240,8 +31240,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "78'",
+      "clock": "79'",
       "events": [
+        {
+          "min": "79'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇪🇨. Kendry Páez (Equador) Substituição aos 79'",
+          "sub": "🇪🇨"
+        },
+        {
+          "min": "79'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇪🇨. Substituição de Jordy Caicedo (Equador) aos 79'",
+          "sub": "🇪🇨"
+        },
         {
           "min": "76'",
           "icon": "▶️",
@@ -31679,20 +31691,20 @@
           "offsides": "0",
           "wonCorners": "3",
           "saves": "1",
-          "possessionPct": "44.5",
+          "possessionPct": "45.7",
           "totalShots": "14",
           "shotsOnTarget": "3",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "220",
-          "totalPasses": "268",
+          "accuratePasses": "231",
+          "totalPasses": "282",
           "passPct": "0.8",
           "accurateCrosses": "4",
           "totalCrosses": "7",
           "crossPct": "0.6",
-          "totalLongBalls": "40",
-          "accurateLongBalls": "24",
+          "totalLongBalls": "43",
+          "accurateLongBalls": "25",
           "longballPct": "0.6",
           "blockedShots": "3",
           "effectiveTackles": "4",
@@ -31703,13 +31715,13 @@
           "totalClearance": "26"
         },
         "away": {
-          "foulsCommitted": "8",
+          "foulsCommitted": "9",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "1",
           "wonCorners": "7",
           "saves": "1",
-          "possessionPct": "55.5",
+          "possessionPct": "54.3",
           "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
