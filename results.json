@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T22:22:34.727Z",
+  "generatedAt": "2026-07-01T22:23:34.479Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32347,6 +32347,12 @@
       "clock": "105'",
       "events": [
         {
+          "min": "105'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🏳️"
+        },
+        {
           "min": "105'+1'",
           "icon": "⏱️",
           "txt": "Fim do prolongamento do primeiro tempo, Bélgica 2, Senegal 2.",
@@ -32834,13 +32840,13 @@
           "wonCorners": "4",
           "saves": "2",
           "possessionPct": "53.3",
-          "totalShots": "18",
+          "totalShots": "17",
           "shotsOnTarget": "4",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "543",
-          "totalPasses": "624",
+          "accuratePasses": "544",
+          "totalPasses": "626",
           "passPct": "0.9",
           "accurateCrosses": "6",
           "totalCrosses": "23",
@@ -32870,7 +32876,7 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "464",
-          "totalPasses": "548",
+          "totalPasses": "549",
           "passPct": "0.8",
           "accurateCrosses": "3",
           "totalCrosses": "16",
@@ -32879,9 +32885,9 @@
           "accurateLongBalls": "27",
           "longballPct": "0.4",
           "blockedShots": "1",
-          "effectiveTackles": "5",
-          "totalTackles": "13",
-          "tacklePct": "0.4",
+          "effectiveTackles": "4",
+          "totalTackles": "12",
+          "tacklePct": "0.3",
           "interceptions": "10",
           "effectiveClearance": "30",
           "totalClearance": "30"
