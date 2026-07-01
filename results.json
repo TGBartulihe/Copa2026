@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T03:36:32.961Z",
+  "generatedAt": "2026-07-01T03:37:33.443Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -31240,12 +31240,24 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "74'",
+      "clock": "75'",
       "events": [
+        {
+          "min": "75'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇪🇨"
+        },
+        {
+          "min": "75'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇲🇽"
+        },
         {
           "min": "74'",
           "icon": "🔄",
-          "txt": "Substituição, 🇲🇽. Substituição Santiago Gimenez (México) aos 74'",
+          "txt": "Substituição, 🇲🇽. Santiago Giménez substitui Raúl Jiménez.",
           "sub": "🇲🇽"
         },
         {
@@ -31661,22 +31673,22 @@
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "216",
-          "totalPasses": "261",
+          "accuratePasses": "218",
+          "totalPasses": "265",
           "passPct": "0.8",
           "accurateCrosses": "4",
           "totalCrosses": "7",
           "crossPct": "0.6",
-          "totalLongBalls": "38",
-          "accurateLongBalls": "22",
+          "totalLongBalls": "39",
+          "accurateLongBalls": "23",
           "longballPct": "0.6",
           "blockedShots": "3",
           "effectiveTackles": "4",
           "totalTackles": "7",
           "tacklePct": "0.6",
           "interceptions": "5",
-          "effectiveClearance": "25",
-          "totalClearance": "25"
+          "effectiveClearance": "26",
+          "totalClearance": "26"
         },
         "away": {
           "foulsCommitted": "7",
@@ -31686,19 +31698,19 @@
           "wonCorners": "7",
           "saves": "1",
           "possessionPct": "55.5",
-          "totalShots": "3",
+          "totalShots": "4",
           "shotsOnTarget": "1",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "275",
-          "totalPasses": "321",
+          "accuratePasses": "279",
+          "totalPasses": "326",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "16",
           "crossPct": "0.1",
-          "totalLongBalls": "36",
-          "accurateLongBalls": "13",
+          "totalLongBalls": "38",
+          "accurateLongBalls": "14",
           "longballPct": "0.4",
           "blockedShots": "0",
           "effectiveTackles": "4",
