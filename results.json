@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T03:07:34.210Z",
+  "generatedAt": "2026-07-01T03:08:33.448Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -31240,18 +31240,24 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "45'+5'",
+      "clock": "46'",
       "events": [
         {
           "min": "45'",
+          "icon": "▶️",
+          "txt": "Começo do segundo tempo México 2, Equador 0.",
+          "sub": "🏳️"
+        },
+        {
+          "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, 🇪🇨. Substituição de Yaimar Medina (Equador) aos 45'",
+          "txt": "Substituição, 🇪🇨. Entra Yaimar Medina para o lugar de Alan Franco.",
           "sub": "🇪🇨"
         },
         {
           "min": "45'",
           "icon": "🔄",
-          "txt": "Substituição, 🇪🇨. Ángelo Preciado substitui Alan Franco.",
+          "txt": "Substituição, 🇪🇨. Ángelo Preciado substitui Joel Ordóñez.",
           "sub": "🇪🇨"
         },
         {
