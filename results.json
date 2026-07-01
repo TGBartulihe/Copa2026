@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T21:34:31.908Z",
+  "generatedAt": "2026-07-01T21:35:33.897Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32344,8 +32344,26 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "72'",
+      "clock": "73'",
       "events": [
+        {
+          "min": "73'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇸🇳. Ibrahim Mbaye (Senegal) Substituição aos 73'",
+          "sub": "🇸🇳"
+        },
+        {
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇸🇳"
+        },
+        {
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇧🇪"
+        },
         {
           "min": "70'",
           "icon": "⏸️",
@@ -32355,7 +32373,7 @@
         {
           "min": "70'",
           "icon": "⏸️",
-          "txt": "Partida atrasada (Bélgica).",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
           "sub": "🇧🇪"
         },
         {
