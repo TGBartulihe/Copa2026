@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T20:37:34.999Z",
+  "generatedAt": "2026-07-01T20:38:32.959Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32344,7 +32344,7 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "36'",
+      "clock": "37'",
       "events": [
         {
           "min": "32'",
@@ -32361,19 +32361,13 @@
         {
           "min": "31'",
           "icon": "⏸️",
-          "txt": "Partida atrasada (Senegal).",
-          "sub": "🇸🇳"
-        },
-        {
-          "min": "31'",
-          "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇧🇪"
         },
         {
-          "min": "30'",
-          "icon": "▶️",
-          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "min": "31'",
+          "icon": "⏸️",
+          "txt": "Partida atrasada (Senegal).",
           "sub": "🇸🇳"
         },
         {
@@ -32381,6 +32375,12 @@
           "icon": "▶️",
           "txt": "Jogo reiniciado",
           "sub": "🇧🇪"
+        },
+        {
+          "min": "30'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇸🇳"
         },
         {
           "min": "27'",
@@ -32683,21 +32683,21 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "1",
-          "possessionPct": "37.9",
+          "possessionPct": "40.6",
           "totalShots": "2",
           "shotsOnTarget": "1",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "123",
-          "totalPasses": "141",
+          "accuratePasses": "146",
+          "totalPasses": "167",
           "passPct": "0.9",
           "accurateCrosses": "1",
-          "totalCrosses": "4",
-          "crossPct": "0.3",
-          "totalLongBalls": "12",
-          "accurateLongBalls": "5",
-          "longballPct": "0.4",
+          "totalCrosses": "5",
+          "crossPct": "0.2",
+          "totalLongBalls": "13",
+          "accurateLongBalls": "6",
+          "longballPct": "0.5",
           "blockedShots": "0",
           "effectiveTackles": "1",
           "totalTackles": "5",
