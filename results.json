@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T21:40:31.953Z",
+  "generatedAt": "2026-07-01T21:41:33.309Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32344,8 +32344,14 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "78'",
+      "clock": "79'",
       "events": [
+        {
+          "min": "78'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇧🇪. Entra Thomas Meunier para o lugar de Maxim De Cuyper.",
+          "sub": "🇧🇪"
+        },
         {
           "min": "73'",
           "icon": "🔄",
@@ -32779,18 +32785,18 @@
           "offsides": "1",
           "wonCorners": "3",
           "saves": "2",
-          "possessionPct": "54.7",
-          "totalShots": "10",
+          "possessionPct": "55.1",
+          "totalShots": "11",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "403",
-          "totalPasses": "455",
+          "accuratePasses": "408",
+          "totalPasses": "462",
           "passPct": "0.9",
-          "accurateCrosses": "2",
-          "totalCrosses": "15",
-          "crossPct": "0.1",
+          "accurateCrosses": "3",
+          "totalCrosses": "16",
+          "crossPct": "0.2",
           "totalLongBalls": "28",
           "accurateLongBalls": "15",
           "longballPct": "0.5",
@@ -32809,7 +32815,7 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "3",
-          "possessionPct": "45.3",
+          "possessionPct": "44.9",
           "totalShots": "11",
           "shotsOnTarget": "4",
           "shotPct": "0.4",
@@ -32829,8 +32835,8 @@
           "totalTackles": "8",
           "tacklePct": "0.4",
           "interceptions": "6",
-          "effectiveClearance": "19",
-          "totalClearance": "19"
+          "effectiveClearance": "21",
+          "totalClearance": "21"
         }
       },
       "round": "avos"
