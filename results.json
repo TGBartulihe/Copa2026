@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T21:25:33.070Z",
+  "generatedAt": "2026-07-01T21:26:33.695Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32344,12 +32344,18 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "63'",
+      "clock": "64'",
       "events": [
+        {
+          "min": "64'",
+          "icon": "🟨",
+          "txt": "Brandon Mechele (Bélgica) Cartão Amarelo aos 64'",
+          "sub": "🇧🇪"
+        },
         {
           "min": "63'",
           "icon": "🔄",
-          "txt": "Substituição, 🇧🇪. Diego Moreira (Bélgica) Substituição aos 63'",
+          "txt": "Substituição, 🇧🇪. Entra Diego Moreira para o lugar de Hans Vanaken.",
           "sub": "🇧🇪"
         },
         {
