@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T18:00:32.597Z",
+  "generatedAt": "2026-07-01T18:01:33.862Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -31805,10 +31805,16 @@
       "iso": "2026-07-01T16:00Z",
       "sh": 2,
       "sa": 1,
-      "done": false,
-      "live": true,
-      "clock": "90'+7'",
+      "done": true,
+      "live": false,
+      "clock": "",
       "events": [
+        {
+          "min": "90'+7'",
+          "icon": "•",
+          "txt": "Fim do segundo tempo, Inglaterra 2, Congo RD 1.",
+          "sub": "🏳️"
+        },
         {
           "min": "90'+1'",
           "icon": "🔄",
@@ -32270,19 +32276,19 @@
           "offsides": "0",
           "wonCorners": "5",
           "saves": "1",
-          "possessionPct": "59.6",
+          "possessionPct": "59.7",
           "totalShots": "16",
           "shotsOnTarget": "7",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "468",
-          "totalPasses": "516",
+          "totalPasses": "517",
           "passPct": "0.9",
           "accurateCrosses": "9",
           "totalCrosses": "43",
           "crossPct": "0.2",
-          "totalLongBalls": "31",
+          "totalLongBalls": "32",
           "accurateLongBalls": "18",
           "longballPct": "0.6",
           "blockedShots": "3",
@@ -32300,7 +32306,7 @@
           "offsides": "4",
           "wonCorners": "3",
           "saves": "5",
-          "possessionPct": "40.4",
+          "possessionPct": "40.3",
           "totalShots": "7",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
