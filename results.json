@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T17:52:32.804Z",
+  "generatedAt": "2026-07-01T17:53:35.881Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -31807,8 +31807,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "89'",
+      "clock": "90'",
       "events": [
+        {
+          "min": "89'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇨🇩. Substituição de Fiston Mayele (RD Congo) aos 89'",
+          "sub": "🇨🇩"
+        },
         {
           "min": "89'",
           "icon": "🔄",
