@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T22:38:33.490Z",
+  "generatedAt": "2026-07-01T22:39:31.780Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32344,12 +32344,12 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "120'",
+      "clock": "120'+2'",
       "events": [
         {
-          "min": "120'",
-          "icon": "⚽🎯",
-          "txt": "Youri Tielemans (Bélgica) VAR - Pênalti não marcado aos 120'",
+          "min": "120'+2'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
           "sub": "🇧🇪"
         },
         {
