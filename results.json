@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T03:57:33.477Z",
+  "generatedAt": "2026-07-01T03:58:34.855Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -31240,18 +31240,24 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "90'+5'",
+      "clock": "90'+6'",
       "events": [
         {
           "min": "90'+5'",
-          "icon": "🟥",
-          "txt": "Piero Hincapié (Equador) VAR - Atualização de cartão (vermelho) aos 90'+5'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
           "sub": "🇪🇨"
         },
         {
           "min": "90'+5'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
+          "sub": "🇪🇨"
+        },
+        {
+          "min": "90'+5'",
+          "icon": "🟥",
+          "txt": "Piero Hincapié (Equador) recebe cartão vermelho.",
           "sub": "🇪🇨"
         },
         {
