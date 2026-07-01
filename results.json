@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T22:51:35.098Z",
+  "generatedAt": "2026-07-01T22:52:39.603Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32384,15 +32384,15 @@
         },
         {
           "min": "110'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a lesão de Diego Moreira (Bélgica).",
-          "sub": "🇧🇪"
-        },
-        {
-          "min": "110'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇸🇳"
+        },
+        {
+          "min": "110'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a lesão de Diego Moreira (Bélgica).",
+          "sub": "🇧🇪"
         },
         {
           "min": "109'",
