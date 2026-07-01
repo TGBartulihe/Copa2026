@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T02:31:31.956Z",
+  "generatedAt": "2026-07-01T02:32:32.852Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -31236,12 +31236,18 @@
       "brTime": "23h",
       "venue": "Estadio Banorte",
       "iso": "2026-07-01T02:00Z",
-      "sh": 1,
+      "sh": 2,
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "31'",
+      "clock": "32'",
       "events": [
+        {
+          "min": "31'",
+          "icon": "⚽",
+          "txt": "Raúl Jiménez (México) finalização com o pé direito do meio da área.",
+          "sub": "🇲🇽"
+        },
         {
           "min": "28'",
           "icon": "▶️",
@@ -31571,17 +31577,17 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "59.5",
-          "totalShots": "7",
-          "shotsOnTarget": "1",
-          "shotPct": "0.1",
+          "possessionPct": "63",
+          "totalShots": "8",
+          "shotsOnTarget": "2",
+          "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "114",
-          "totalPasses": "129",
+          "accuratePasses": "133",
+          "totalPasses": "149",
           "passPct": "0.9",
           "accurateCrosses": "1",
-          "totalCrosses": "3",
+          "totalCrosses": "4",
           "crossPct": "0.3",
           "totalLongBalls": "13",
           "accurateLongBalls": "10",
@@ -31601,7 +31607,7 @@
           "offsides": "0",
           "wonCorners": "0",
           "saves": "0",
-          "possessionPct": "40.5",
+          "possessionPct": "37",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
@@ -31617,12 +31623,12 @@
           "accurateLongBalls": "6",
           "longballPct": "0.3",
           "blockedShots": "0",
-          "effectiveTackles": "4",
-          "totalTackles": "6",
-          "tacklePct": "0.7",
+          "effectiveTackles": "3",
+          "totalTackles": "5",
+          "tacklePct": "0.6",
           "interceptions": "1",
-          "effectiveClearance": "6",
-          "totalClearance": "6"
+          "effectiveClearance": "8",
+          "totalClearance": "8"
         }
       },
       "round": "avos"
