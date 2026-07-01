@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T21:26:33.695Z",
+  "generatedAt": "2026-07-01T21:27:35.153Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32344,12 +32344,12 @@
       "sa": 2,
       "done": false,
       "live": true,
-      "clock": "64'",
+      "clock": "65'",
       "events": [
         {
           "min": "64'",
           "icon": "🟨",
-          "txt": "Brandon Mechele (Bélgica) Cartão Amarelo aos 64'",
+          "txt": "Brandon Mechele (Bélgica) recebe cartão amarelo por uma entrada perigosa.",
           "sub": "🇧🇪"
         },
         {
@@ -32725,20 +32725,20 @@
       },
       "stats": {
         "home": {
-          "foulsCommitted": "9",
-          "yellowCards": "0",
+          "foulsCommitted": "10",
+          "yellowCards": "1",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "3",
           "saves": "2",
-          "possessionPct": "52.7",
+          "possessionPct": "53",
           "totalShots": "9",
           "shotsOnTarget": "2",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "333",
-          "totalPasses": "379",
+          "accuratePasses": "338",
+          "totalPasses": "385",
           "passPct": "0.9",
           "accurateCrosses": "2",
           "totalCrosses": "12",
@@ -32761,14 +32761,14 @@
           "offsides": "1",
           "wonCorners": "1",
           "saves": "3",
-          "possessionPct": "47.3",
+          "possessionPct": "47",
           "totalShots": "11",
           "shotsOnTarget": "4",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "291",
-          "totalPasses": "334",
+          "accuratePasses": "292",
+          "totalPasses": "335",
           "passPct": "0.9",
           "accurateCrosses": "3",
           "totalCrosses": "14",
@@ -32777,10 +32777,10 @@
           "accurateLongBalls": "15",
           "longballPct": "0.5",
           "blockedShots": "1",
-          "effectiveTackles": "3",
+          "effectiveTackles": "2",
           "totalTackles": "6",
-          "tacklePct": "0.5",
-          "interceptions": "3",
+          "tacklePct": "0.3",
+          "interceptions": "4",
           "effectiveClearance": "18",
           "totalClearance": "18"
         }
