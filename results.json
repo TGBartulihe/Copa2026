@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T17:33:34.345Z",
+  "generatedAt": "2026-07-01T17:34:36.852Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -31811,8 +31811,8 @@
       "events": [
         {
           "min": "70'",
-          "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "icon": "🔄",
+          "txt": "Substituição, 🏳️. Entra Eberechi Eze substituindo Djed Spence.",
           "sub": "🏳️"
         },
         {
@@ -31822,9 +31822,9 @@
           "sub": "🇨🇩"
         },
         {
-          "min": "68'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "min": "70'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🏳️"
         },
         {
@@ -31832,6 +31832,12 @@
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇨🇩"
+        },
+        {
+          "min": "68'",
+          "icon": "⏸️",
+          "txt": "Atraso na partida para uma pausa para bebidas.",
+          "sub": "🏳️"
         },
         {
           "min": "64'",
