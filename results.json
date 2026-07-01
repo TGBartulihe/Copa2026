@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-01T16:19:35.084Z",
+  "generatedAt": "2026-07-01T16:20:34.063Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -30670,7 +30670,7 @@
           "offsides": "2",
           "wonCorners": "14",
           "saves": "1",
-          "possessionPct": "47.1",
+          "possessionPct": "47",
           "totalShots": "14",
           "shotsOnTarget": "5",
           "shotPct": "0.4",
@@ -30700,14 +30700,14 @@
           "offsides": "2",
           "wonCorners": "3",
           "saves": "4",
-          "possessionPct": "52.9",
+          "possessionPct": "53",
           "totalShots": "9",
           "shotsOnTarget": "4",
           "shotPct": "0.4",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "415",
-          "totalPasses": "473",
+          "totalPasses": "474",
           "passPct": "0.9",
           "accurateCrosses": "5",
           "totalCrosses": "10",
@@ -30719,7 +30719,7 @@
           "effectiveTackles": "11",
           "totalTackles": "19",
           "tacklePct": "0.6",
-          "interceptions": "6",
+          "interceptions": "5",
           "effectiveClearance": "37",
           "totalClearance": "37"
         }
@@ -31807,8 +31807,14 @@
       "sa": 1,
       "done": false,
       "live": true,
-      "clock": "18'",
+      "clock": "20'",
       "events": [
+        {
+          "min": "19'",
+          "icon": "🟨",
+          "txt": "Jude Bellingham (Inglaterra) Cartão Amarelo aos 19'",
+          "sub": "🏳️"
+        },
         {
           "min": "10'",
           "icon": "▶️",
