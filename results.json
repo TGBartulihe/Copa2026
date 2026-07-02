@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T00:38:32.131Z",
+  "generatedAt": "2026-07-02T00:39:31.924Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32961,7 +32961,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "38'",
+      "clock": "39'",
       "events": [
         {
           "min": "26'",
@@ -33324,12 +33324,12 @@
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "168",
-          "totalPasses": "189",
+          "accuratePasses": "189",
+          "totalPasses": "213",
           "passPct": "0.9",
-          "accurateCrosses": "0",
-          "totalCrosses": "7",
-          "crossPct": "0.0",
+          "accurateCrosses": "1",
+          "totalCrosses": "10",
+          "crossPct": "0.1",
           "totalLongBalls": "13",
           "accurateLongBalls": "7",
           "longballPct": "0.5",
@@ -33337,7 +33337,7 @@
           "effectiveTackles": "3",
           "totalTackles": "5",
           "tacklePct": "0.6",
-          "interceptions": "2",
+          "interceptions": "3",
           "effectiveClearance": "9",
           "totalClearance": "9"
         },
@@ -33354,13 +33354,13 @@
           "shotPct": "1.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "54",
-          "totalPasses": "88",
+          "accuratePasses": "63",
+          "totalPasses": "101",
           "passPct": "0.6",
           "accurateCrosses": "0",
           "totalCrosses": "2",
           "crossPct": "0.0",
-          "totalLongBalls": "23",
+          "totalLongBalls": "25",
           "accurateLongBalls": "5",
           "longballPct": "0.2",
           "blockedShots": "0",
@@ -33368,8 +33368,8 @@
           "totalTackles": "5",
           "tacklePct": "0.6",
           "interceptions": "4",
-          "effectiveClearance": "7",
-          "totalClearance": "7"
+          "effectiveClearance": "8",
+          "totalClearance": "8"
         }
       },
       "round": "avos"
