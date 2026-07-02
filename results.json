@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T01:52:31.144Z",
+  "generatedAt": "2026-07-02T01:53:34.245Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32961,8 +32961,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "86'",
+      "clock": "87'",
       "events": [
+        {
+          "min": "87'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇧🇦"
+        },
+        {
+          "min": "87'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a lesão de Matt Freese (EUA).",
+          "sub": "🇺🇸"
+        },
         {
           "min": "82'",
           "icon": "⚽",
@@ -33492,14 +33504,14 @@
           "offsides": "2",
           "wonCorners": "4",
           "saves": "3",
-          "possessionPct": "50.7",
+          "possessionPct": "50.2",
           "totalShots": "7",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "311",
-          "totalPasses": "369",
+          "accuratePasses": "312",
+          "totalPasses": "370",
           "passPct": "0.8",
           "accurateCrosses": "3",
           "totalCrosses": "14",
@@ -33512,8 +33524,8 @@
           "totalTackles": "10",
           "tacklePct": "0.7",
           "interceptions": "9",
-          "effectiveClearance": "16",
-          "totalClearance": "16"
+          "effectiveClearance": "17",
+          "totalClearance": "17"
         },
         "away": {
           "foulsCommitted": "10",
@@ -33522,17 +33534,17 @@
           "offsides": "0",
           "wonCorners": "3",
           "saves": "0",
-          "possessionPct": "49.3",
+          "possessionPct": "49.8",
           "totalShots": "6",
           "shotsOnTarget": "3",
           "shotPct": "0.5",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "297",
-          "totalPasses": "369",
+          "accuratePasses": "303",
+          "totalPasses": "375",
           "passPct": "0.8",
           "accurateCrosses": "0",
-          "totalCrosses": "6",
+          "totalCrosses": "8",
           "crossPct": "0.0",
           "totalLongBalls": "46",
           "accurateLongBalls": "11",
