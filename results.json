@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T01:28:33.545Z",
+  "generatedAt": "2026-07-02T01:29:34.320Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32961,8 +32961,32 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "62'",
+      "clock": "63'",
       "events": [
+        {
+          "min": "63'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇧🇦"
+        },
+        {
+          "min": "63'",
+          "icon": "🟥",
+          "txt": "Folarin Balogun (Estados Unidos) VAR - Atualização do cartão (vermelho) aos 63'",
+          "sub": "🇺🇸"
+        },
+        {
+          "min": "63'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇺🇸"
+        },
+        {
+          "min": "63'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇺🇸"
+        },
         {
           "min": "61'",
           "icon": "⏸️",
@@ -33420,7 +33444,7 @@
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "287",
+          "accuratePasses": "286",
           "totalPasses": "336",
           "passPct": "0.9",
           "accurateCrosses": "3",
