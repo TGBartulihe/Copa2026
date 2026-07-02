@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T01:47:36.831Z",
+  "generatedAt": "2026-07-02T01:48:32.031Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32957,12 +32957,18 @@
       "brTime": "21h",
       "venue": "Levi's Stadium",
       "iso": "2026-07-02T00:00Z",
-      "sh": 1,
+      "sh": 2,
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "81'",
+      "clock": "82'",
       "events": [
+        {
+          "min": "82'",
+          "icon": "⚽",
+          "txt": "Malik Tillman (EUA) Gol de falta com um finalização com o pé direito.",
+          "sub": "🇺🇸"
+        },
         {
           "min": "80'",
           "icon": "🟨",
