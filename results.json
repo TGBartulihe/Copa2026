@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T00:06:36.303Z",
+  "generatedAt": "2026-07-02T00:07:33.503Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32961,31 +32961,31 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "6'",
+      "clock": "7'",
       "events": [
         {
           "min": "6'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
-          "sub": "🇧🇦"
+          "sub": "🇺🇸"
         },
         {
           "min": "6'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇺🇸"
-        },
-        {
-          "min": "6'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
-          "sub": "🇺🇸"
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇧🇦"
         },
         {
           "min": "6'",
           "icon": "🩹",
           "txt": "Partida atrasada devido a uma lesão de Armin Gigovic (Bósnia e Herzegovina).",
           "sub": "🇧🇦"
+        },
+        {
+          "min": "6'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇺🇸"
         },
         {
           "min": "",
@@ -33146,7 +33146,22 @@
               "row": 1
             },
             {
+              "name": "Sead Kolasinac",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Amar Dedic",
+              "pos": "RB",
+              "row": 1
+            },
+            {
               "name": "Ivan Sunjic",
+              "pos": "CM",
+              "row": 2
+            },
+            {
+              "name": "Kerim Alajbegovic",
               "pos": "CM-L",
               "row": 2
             },
@@ -33154,21 +33169,6 @@
               "name": "Armin Gigovic",
               "pos": "CM-R",
               "row": 2
-            },
-            {
-              "name": "Sead Kolasinac",
-              "pos": "LM",
-              "row": 2
-            },
-            {
-              "name": "Amar Dedic",
-              "pos": "RM",
-              "row": 2
-            },
-            {
-              "name": "Kerim Alajbegovic",
-              "pos": "AM",
-              "row": 2.5
             },
             {
               "name": "Ermedin Demirovic",
@@ -33258,7 +33258,7 @@
               "row": 3
             }
           ],
-          "formation": "3-4-1-2",
+          "formation": "5-3-2",
           "dotColor": "#112855"
         }
       },
@@ -33270,21 +33270,21 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "0",
-          "possessionPct": "80.8",
+          "possessionPct": "83.1",
           "totalShots": "1",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "38",
-          "totalPasses": "41",
-          "passPct": "0.9",
+          "accuratePasses": "44",
+          "totalPasses": "46",
+          "passPct": "1.0",
           "accurateCrosses": "0",
-          "totalCrosses": "1",
+          "totalCrosses": "3",
           "crossPct": "0.0",
-          "totalLongBalls": "1",
-          "accurateLongBalls": "0",
-          "longballPct": "0.0",
+          "totalLongBalls": "2",
+          "accurateLongBalls": "1",
+          "longballPct": "0.5",
           "blockedShots": "1",
           "effectiveTackles": "0",
           "totalTackles": "0",
@@ -33300,7 +33300,7 @@
           "offsides": "0",
           "wonCorners": "1",
           "saves": "0",
-          "possessionPct": "19.2",
+          "possessionPct": "16.9",
           "totalShots": "0",
           "shotsOnTarget": "0",
           "shotPct": "0.0",
@@ -33320,8 +33320,8 @@
           "totalTackles": "1",
           "tacklePct": "1.0",
           "interceptions": "0",
-          "effectiveClearance": "2",
-          "totalClearance": "2"
+          "effectiveClearance": "3",
+          "totalClearance": "3"
         }
       },
       "round": "avos"
