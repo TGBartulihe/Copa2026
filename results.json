@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T00:00:33.808Z",
+  "generatedAt": "2026-07-02T00:01:35.029Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32957,12 +32957,349 @@
       "brTime": "21h",
       "venue": "Levi's Stadium",
       "iso": "2026-07-02T00:00Z",
-      "sh": null,
-      "sa": null,
+      "sh": 0,
+      "sa": 0,
       "done": false,
-      "live": false,
-      "clock": "",
-      "events": [],
+      "live": true,
+      "clock": "1'",
+      "events": [
+        {
+          "min": "",
+          "icon": "🏁",
+          "txt": "Início de jogo",
+          "sub": "🏳️"
+        }
+      ],
+      "lineups": {
+        "home": {
+          "starters": [
+            {
+              "name": "Matt Freese",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Tim Ream",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Chris Richards",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Antonee Robinson",
+              "pos": "LB",
+              "row": 1
+            },
+            {
+              "name": "Alex Freeman",
+              "pos": "RB",
+              "row": 1
+            },
+            {
+              "name": "Tyler Adams",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Malik Tillman",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Weston McKennie",
+              "pos": "AM",
+              "row": 2.5
+            },
+            {
+              "name": "Christian Pulisic",
+              "pos": "AM-L",
+              "row": 2.5
+            },
+            {
+              "name": "Sergiño Dest",
+              "pos": "AM-R",
+              "row": 2.5
+            },
+            {
+              "name": "Folarin Balogun",
+              "pos": "F",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Giovanni Reyna",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Chris Brady",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Brenden Aaronson",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Auston Trusty",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Max Arfsten",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Joe Scally",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Haji Wright",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Sebastian Berhalter",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Alejandro Zendejas",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Miles Robinson",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Matt Turner",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Timothy Weah",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ricardo Pepi",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "4-2-3-1",
+          "dotColor": "#d42339"
+        },
+        "away": {
+          "starters": [
+            {
+              "name": "Nikola Vasilj",
+              "pos": "G",
+              "row": 0
+            },
+            {
+              "name": "Stjepan Radeljic",
+              "pos": "CD",
+              "row": 1
+            },
+            {
+              "name": "Tarik Muharemovic",
+              "pos": "CD-L",
+              "row": 1
+            },
+            {
+              "name": "Nikola Katic",
+              "pos": "CD-R",
+              "row": 1
+            },
+            {
+              "name": "Ivan Sunjic",
+              "pos": "CM-L",
+              "row": 2
+            },
+            {
+              "name": "Armin Gigovic",
+              "pos": "CM-R",
+              "row": 2
+            },
+            {
+              "name": "Sead Kolasinac",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Amar Dedic",
+              "pos": "RM",
+              "row": 2
+            },
+            {
+              "name": "Kerim Alajbegovic",
+              "pos": "AM",
+              "row": 2.5
+            },
+            {
+              "name": "Ermedin Demirovic",
+              "pos": "CF-L",
+              "row": 3
+            },
+            {
+              "name": "Edin Dzeko",
+              "pos": "CF-R",
+              "row": 3
+            }
+          ],
+          "subs": [
+            {
+              "name": "Haris Tabakovic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Esmir Bajraktarevic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Samed Bazdar",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Benjamin Tahirovic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Dzenis Burnic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Arjan Malic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Jovo Lukic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Dennis Hadzikadunic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Amir Hadziahmetovic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Mladen Jurkas",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Amar Memic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Martin Zlomislic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ermin Mahmic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Ivan Basic",
+              "pos": "SUB",
+              "row": 3
+            },
+            {
+              "name": "Nihad Mujakic",
+              "pos": "SUB",
+              "row": 3
+            }
+          ],
+          "formation": "3-4-1-2",
+          "dotColor": "#112855"
+        }
+      },
+      "stats": {
+        "home": {
+          "foulsCommitted": "0",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "0",
+          "saves": "0",
+          "possessionPct": "0",
+          "totalShots": "0",
+          "shotsOnTarget": "0",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "0",
+          "totalPasses": "0",
+          "passPct": "0.0",
+          "accurateCrosses": "0",
+          "totalCrosses": "0",
+          "crossPct": "0.0",
+          "totalLongBalls": "0",
+          "accurateLongBalls": "0",
+          "longballPct": "0.0",
+          "blockedShots": "0",
+          "effectiveTackles": "0",
+          "totalTackles": "0",
+          "tacklePct": "0.0",
+          "interceptions": "0",
+          "effectiveClearance": "0",
+          "totalClearance": "0"
+        },
+        "away": {
+          "foulsCommitted": "0",
+          "yellowCards": "0",
+          "redCards": "0",
+          "offsides": "0",
+          "wonCorners": "0",
+          "saves": "0",
+          "possessionPct": "100",
+          "totalShots": "0",
+          "shotsOnTarget": "0",
+          "shotPct": "0.0",
+          "penaltyKickGoals": "0",
+          "penaltyKickShots": "0",
+          "accuratePasses": "1",
+          "totalPasses": "1",
+          "passPct": "1.0",
+          "accurateCrosses": "0",
+          "totalCrosses": "0",
+          "crossPct": "0.0",
+          "totalLongBalls": "0",
+          "accurateLongBalls": "0",
+          "longballPct": "0.0",
+          "blockedShots": "0",
+          "effectiveTackles": "0",
+          "totalTackles": "0",
+          "tacklePct": "0.0",
+          "interceptions": "0",
+          "effectiveClearance": "0",
+          "totalClearance": "0"
+        }
+      },
       "round": "avos"
     },
     {
