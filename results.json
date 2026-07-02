@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T00:23:34.493Z",
+  "generatedAt": "2026-07-02T00:24:33.462Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32961,7 +32961,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "23'",
+      "clock": "24'",
       "events": [
         {
           "min": "23'",
@@ -33054,32 +33054,32 @@
             },
             {
               "name": "Malik Tillman",
-              "pos": "LM",
+              "pos": "CM",
               "row": 2
             },
             {
               "name": "Tyler Adams",
+              "pos": "LM",
+              "row": 2
+            },
+            {
+              "name": "Sergiño Dest",
               "pos": "RM",
               "row": 2
             },
             {
-              "name": "Weston McKennie",
-              "pos": "AM",
-              "row": 2.5
+              "name": "Folarin Balogun",
+              "pos": "F",
+              "row": 3
             },
             {
               "name": "Christian Pulisic",
-              "pos": "AM-L",
-              "row": 2.5
+              "pos": "LF",
+              "row": 3
             },
             {
-              "name": "Sergiño Dest",
-              "pos": "AM-R",
-              "row": 2.5
-            },
-            {
-              "name": "Folarin Balogun",
-              "pos": "F",
+              "name": "Weston McKennie",
+              "pos": "RF",
               "row": 3
             }
           ],
@@ -33150,7 +33150,7 @@
               "row": 3
             }
           ],
-          "formation": "4-2-3-1",
+          "formation": "4-3-3",
           "dotColor": "#d42339"
         },
         "away": {
