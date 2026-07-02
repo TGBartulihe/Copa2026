@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T00:14:33.741Z",
+  "generatedAt": "2026-07-02T00:15:33.939Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32961,7 +32961,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "14'",
+      "clock": "15'",
       "events": [
         {
           "min": "6'",
@@ -33023,12 +33023,12 @@
               "row": 1
             },
             {
-              "name": "Tyler Adams",
+              "name": "Malik Tillman",
               "pos": "LM",
               "row": 2
             },
             {
-              "name": "Malik Tillman",
+              "name": "Tyler Adams",
               "pos": "RM",
               "row": 2
             },
@@ -33276,7 +33276,7 @@
           "shotPct": "0.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "93",
+          "accuratePasses": "92",
           "totalPasses": "100",
           "passPct": "0.9",
           "accurateCrosses": "0",
