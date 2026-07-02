@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T02:06:32.597Z",
+  "generatedAt": "2026-07-02T02:07:34.578Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32959,10 +32959,16 @@
       "iso": "2026-07-02T00:00Z",
       "sh": 2,
       "sa": 0,
-      "done": false,
-      "live": true,
-      "clock": "90'+10'",
+      "done": true,
+      "live": false,
+      "clock": "",
       "events": [
+        {
+          "min": "90'+10'",
+          "icon": "•",
+          "txt": "Fim do segundo tempo, EUA 2, Bósnia e Herzegovina 0.",
+          "sub": "🏳️"
+        },
         {
           "min": "90'+5'",
           "icon": "🔄",
@@ -33067,15 +33073,15 @@
         },
         {
           "min": "63'",
-          "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇧🇦"
-        },
-        {
-          "min": "63'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇺🇸"
+        },
+        {
+          "min": "63'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇧🇦"
         },
         {
           "min": "63'",
@@ -33531,23 +33537,23 @@
           "foulsCommitted": "7",
           "yellowCards": "0",
           "redCards": "1",
-          "offsides": "2",
+          "offsides": "3",
           "wonCorners": "4",
           "saves": "3",
-          "possessionPct": "48.5",
+          "possessionPct": "48.4",
           "totalShots": "8",
           "shotsOnTarget": "2",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "347",
+          "accuratePasses": "346",
           "totalPasses": "415",
           "passPct": "0.8",
           "accurateCrosses": "3",
           "totalCrosses": "14",
           "crossPct": "0.2",
           "totalLongBalls": "46",
-          "accurateLongBalls": "19",
+          "accurateLongBalls": "18",
           "longballPct": "0.4",
           "blockedShots": "2",
           "effectiveTackles": "8",
@@ -33558,25 +33564,25 @@
           "totalClearance": "27"
         },
         "away": {
-          "foulsCommitted": "12",
+          "foulsCommitted": "13",
           "yellowCards": "1",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "3",
           "saves": "0",
-          "possessionPct": "51.5",
+          "possessionPct": "51.6",
           "totalShots": "10",
           "shotsOnTarget": "3",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "363",
-          "totalPasses": "444",
+          "accuratePasses": "364",
+          "totalPasses": "446",
           "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "13",
           "crossPct": "0.0",
-          "totalLongBalls": "50",
+          "totalLongBalls": "51",
           "accurateLongBalls": "12",
           "longballPct": "0.2",
           "blockedShots": "3",
