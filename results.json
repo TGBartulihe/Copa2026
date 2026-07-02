@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T00:44:34.161Z",
+  "generatedAt": "2026-07-02T00:45:33.364Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32957,12 +32957,18 @@
       "brTime": "21h",
       "venue": "Levi's Stadium",
       "iso": "2026-07-02T00:00Z",
-      "sh": 0,
+      "sh": 1,
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "44'",
+      "clock": "45'+1'",
       "events": [
+        {
+          "min": "45'",
+          "icon": "⚽",
+          "txt": "Folarin Balogun (Estados Unidos) Gol aos 45'",
+          "sub": "🇺🇸"
+        },
         {
           "min": "26'",
           "icon": "▶️",
