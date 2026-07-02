@@ -611,6 +611,8 @@ function mergeResultsJSON(json){
       if(m.events&&m.events.length) existing.events=m.events;
       if(m.lineups) existing.lineups = reversed ? {home:m.lineups.away, away:m.lineups.home} : m.lineups;
       if(m.stats) existing.stats = reversed ? {home:m.stats.away, away:m.stats.home} : m.stats;
+      if(m.shPK!=null) existing.shPK = reversed ? m.saPK : m.shPK;
+      if(m.saPK!=null) existing.saPK = reversed ? m.shPK : m.saPK;
       if(!existing.note && keepNote) existing.note=keepNote;
       updated++;
     } else {
@@ -618,7 +620,7 @@ function mergeResultsJSON(json){
       RES.push({
         g:g, home:m.home, away:m.away, date:m.date, brTime:m.brTime, venue:m.venue,
         sh:m.sh, sa:m.sa, done:m.done, live:m.live, clock:m.clock||"", events:m.events||[],
-        lineups:m.lineups||undefined, stats:m.stats||undefined
+        lineups:m.lineups||undefined, stats:m.stats||undefined, shPK:m.shPK, saPK:m.saPK
       });
       updated++;
     }
@@ -1132,11 +1134,40 @@ function bFavs(){
     <div class="tgridlbl">ADICIONAR / REMOVER</div>
     <div class="tgrid">${tbtns}</div></div>`;
   h+=buildPushSection();
-  if(favLive.length){h+=lbl("🔴 AO VIVO");favLive.forEach(r=>{h+=card(r,true);});}
-  const favNext=favGames.filter(r=>!r.done&&!r.live);
-  if(favNext.length){h+=lbl("📅 PRÓXIMOS",true);favNext.forEach(r=>{h+=uc(r,true);});}
-  const favDone=favGames.filter(r=>r.done);
-  if(favDone.length){h+=lbl("✅ RESULTADOS",true);favDone.forEach(r=>{h+=card(r);});}
+  // Mata-Mata com favoritos — jogos de grupo e mata-mata separados mas
+  // ambos visíveis em Favoritos, para não perder nenhum jogo das seleções
+  const koFav=(KO_MATCHES||[]).filter(k=>isFav(k.home)||isFav(k.away));
+  const koFavLive=koFav.filter(k=>k.live);
+  const koFavNext=koFav.filter(k=>!k.done&&!k.live);
+  const koFavDone=koFav.filter(k=>k.done);
+
+  const allLive=[...favLive,...koFavLive];
+  if(allLive.length){
+    h+=lbl("🔴 AO VIVO");
+    favLive.forEach(r=>{h+=card(r,true);});
+    koFavLive.forEach(k=>{
+      const meta=`🔴 AO VIVO · ${k.clock||""}' · ${k.round||""}`;
+      h+=bracketBox(k.home,k.away,k.sh,k.sa,"live",meta,true,true,k.shPK,k.saPK);
+    });
+  }
+  const allNext=[...favGames.filter(r=>!r.done&&!r.live),...koFavNext];
+  if(allNext.length){
+    h+=lbl("📅 PRÓXIMOS",true);
+    favGames.filter(r=>!r.done&&!r.live).forEach(r=>{h+=uc(r,true);});
+    koFavNext.forEach(k=>{
+      const meta=`⏰ ${k.date||""} · ${k.brTime||""} · ${k.venue||""}`;
+      h+=bracketBox(k.home,k.away,null,null,"scheduled",meta,true,true);
+    });
+  }
+  const allDone=[...favGames.filter(r=>r.done),...koFavDone];
+  if(allDone.length){
+    h+=lbl("✅ RESULTADOS",true);
+    favGames.filter(r=>r.done).forEach(r=>{h+=card(r);});
+    koFavDone.forEach(k=>{
+      const meta=`✅ ${k.date||""} · ${k.venue||""}`;
+      h+=bracketBox(k.home,k.away,k.sh,k.sa,"done",meta,true,true,k.shPK,k.saPK);
+    });
+  }
   return h;
 }
 
