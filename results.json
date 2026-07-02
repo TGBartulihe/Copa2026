@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T01:18:32.259Z",
+  "generatedAt": "2026-07-02T01:19:33.998Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32961,24 +32961,24 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "52'",
+      "clock": "53'",
       "events": [
         {
           "min": "51'",
           "icon": "🔄",
-          "txt": "Substituição, 🇧🇦. Ermin Mahmic (Bósnia-Herzegovina) Substituição aos 51'",
+          "txt": "Substituição, 🇧🇦. Ermin Mahmic entra em campo Edin Dzeko devido a uma lesão.",
           "sub": "🇧🇦"
         },
         {
           "min": "51'",
           "icon": "🔄",
-          "txt": "Substituição, 🇧🇦. Substituição de Benjamin Tahirovic (Bósnia-Herzegovina) aos 51'",
+          "txt": "Substituição, 🇧🇦. Entra Benjamin Tahirovic substituindo Ivan Sunjic.",
           "sub": "🇧🇦"
         },
         {
           "min": "51'",
           "icon": "🔄",
-          "txt": "Substituição, 🇧🇦. Esmir Bajraktarevic (Bósnia-Herzegovina) Substituição aos 51'",
+          "txt": "Substituição, 🇧🇦. Entra Esmir Bajraktarevic substituindo Armin Gigovic.",
           "sub": "🇧🇦"
         },
         {
@@ -33402,7 +33402,7 @@
           "offsides": "1",
           "wonCorners": "4",
           "saves": "1",
-          "possessionPct": "62",
+          "possessionPct": "61.9",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
@@ -33432,14 +33432,14 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "0",
-          "possessionPct": "38",
+          "possessionPct": "38.1",
           "totalShots": "1",
           "shotsOnTarget": "1",
           "shotPct": "1.0",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "131",
-          "totalPasses": "183",
+          "accuratePasses": "132",
+          "totalPasses": "184",
           "passPct": "0.7",
           "accurateCrosses": "0",
           "totalCrosses": "2",
