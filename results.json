@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T00:47:32.461Z",
+  "generatedAt": "2026-07-02T00:48:32.558Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32961,12 +32961,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "45'+2'",
+      "clock": "45'+3'",
       "events": [
         {
           "min": "45'+2'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a lesão de Tyler Adams (EUA).",
           "sub": "🇺🇸"
         },
         {
