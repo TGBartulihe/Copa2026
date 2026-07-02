@@ -132,7 +132,15 @@ async function fetchScoreboard(ds){
 const TRANSLATE_CACHE_FILE = "translate-cache.json";
 let translateCache = {};
 function loadTranslateCache(){ translateCache = loadJSON(TRANSLATE_CACHE_FILE, {}); }
-function saveTranslateCache(){ saveJSON(TRANSLATE_CACHE_FILE, translateCache); }
+function saveTranslateCache(){
+  // Impede crescimento ilimitado — mantém só as 2000 entradas mais recentes
+  const keys = Object.keys(translateCache);
+  if (keys.length > 2000){
+    const toDelete = keys.slice(0, keys.length - 2000);
+    toDelete.forEach(k => delete translateCache[k]);
+  }
+  saveJSON(TRANSLATE_CACHE_FILE, translateCache);
+}
 
 // A resposta vem como array aninhado: [[["traduzido","original",...], ...], ...]
 // Pode vir em vários segmentos se o texto for longo — junta todos.
@@ -298,7 +306,7 @@ const ROUND_KEYWORDS = [
   { key: "final",   words: ["final", "3rd place", "third place"] },
   { key: "semis",   words: ["semifinal", "semi-final"] },
   { key: "quartas", words: ["quarterfinal", "quarter-final"] },
-  { key: "oitavas", words: ["round of 16"] },
+  { key: "oitavas", words: ["round of 16", "round of sixteen"] },
   { key: "avos",    words: ["round of 32"] },
 ];
 
@@ -307,10 +315,12 @@ const ROUND_KEYWORDS = [
 // grupo NUNCA se enfrentam no mata-mata antes dos quartos de final, por
 // regra do torneio. Se baterem aqui, é garantidamente fase de grupos,
 // seja o que for que o texto ou a data da ESPN sugiram.
+// GROUP_TEAMS — nomes exactamente iguais ao AT do cliente para evitar
+// qualquer divergência de normalização entre as duas bases de código
 const GROUP_TEAMS = {
-  A:["México 🇲🇽","África do Sul 🇿🇦","Coreia do Sul 🇰🇷","Rep. Tcheca 🇨🇿"],
-  B:["Canadá 🇨🇦","Bósnia 🇧🇦","Suíça 🇨🇭","Qatar 🇶🇦"],
-  C:["Brasil 🇧🇷","Marrocos 🇲🇦","Escócia 🏴","Haiti 🇭🇹"],
+  A:["México 🇲🇽","Coreia do Sul 🇰🇷","Rep. Tcheca 🇨🇿","África do Sul 🇿🇦"],
+  B:["Canadá 🇨🇦","Bósnia 🇧🇦","Qatar 🇶🇦","Suíça 🇨🇭"],
+  C:["Brasil 🇧🇷","Marrocos 🇲🇦","Escócia 🏴󠁧󠁢󠁳󠁣󠁴󠁿","Haiti 🇭🇹"],
   D:["EUA 🇺🇸","Paraguai 🇵🇾","Austrália 🇦🇺","Turquia 🇹🇷"],
   E:["Alemanha 🇩🇪","C. do Marfim 🇨🇮","Equador 🇪🇨","Curaçao 🇨🇼"],
   F:["Holanda 🇳🇱","Japão 🇯🇵","Suécia 🇸🇪","Tunísia 🇹🇳"],
@@ -319,7 +329,7 @@ const GROUP_TEAMS = {
   I:["França 🇫🇷","Senegal 🇸🇳","Iraque 🇮🇶","Noruega 🇳🇴"],
   J:["Argentina 🇦🇷","Argélia 🇩🇿","Áustria 🇦🇹","Jordânia 🇯🇴"],
   K:["Portugal 🇵🇹","RD Congo 🇨🇩","Uzbequistão 🇺🇿","Colômbia 🇨🇴"],
-  L:["Inglaterra 🏴","Croácia 🇭🇷","Gana 🇬🇭","Panamá 🇵🇦"],
+  L:["Inglaterra 🏴󠁧󠁢󠁥󠁮󠁧󠁿","Croácia 🇭🇷","Gana 🇬🇭","Panamá 🇵🇦"],
 };
 function tkeySimple(s){ return (s||"").normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-zA-Z0-9]/g,"").toLowerCase(); }
 function sameGroup(home, away){
@@ -349,11 +359,14 @@ function roundFromDate(isoDate){
   // Janela alargada com margem de segurança — confirmado com dados reais
   // que os avos vão até 04/07 (UTC), não 01/07 como estava antes. Isso
   // fazia 7 dos 16 confrontos reais caírem por engano em "oitavas".
-  if (w("2026-06-27T00:00:00Z","2026-07-04T23:59:59Z")) return "avos";
-  if (w("2026-07-05T00:00:00Z","2026-07-09T23:59:59Z")) return "oitavas";
+  // Datas ajustadas para UTC real confirmado — os avos terminam antes de 03/07
+  // e as oitavas começam em 03/07 (hora de Brasília). sameGroup() é a 1ª
+  // linha de defesa; este palpite por data é só rede de segurança.
+  if (w("2026-06-27T00:00:00Z","2026-07-03T05:59:59Z")) return "avos";
+  if (w("2026-07-03T06:00:00Z","2026-07-09T23:59:59Z")) return "oitavas";
   if (w("2026-07-10T00:00:00Z","2026-07-14T23:59:59Z")) return "quartas";
   if (w("2026-07-15T00:00:00Z","2026-07-16T23:59:59Z")) return "semis";
-  if (w("2026-07-17T00:00:00Z","2026-07-19T23:59:59Z")) return "final";
+  if (w("2026-07-17T00:00:00Z","2026-07-20T23:59:59Z")) return "final";
   return null; // dentro da janela = fase de grupos
 }
 function classify(ev){
@@ -431,10 +444,10 @@ async function sendPushToSubs(subs, payload){
       await webpush.sendNotification(target, body);
       console.log(`📨 Notificação enviada: ${payload.title}`);
     }catch(e){
-      // 404/410 = subscrição morta (utilizador desinstalou)
-      if (e.statusCode === 404 || e.statusCode === 410){
+      // 404/410 = subscrição morta (utilizador desinstalou a app ou revogou)
+      if (e.statusCode === 404 || e.statusCode === 410 || (e.body && e.body.includes("expired"))){
         if (target.endpoint) deadEndpoints.push(target.endpoint);
-        console.log("Subscrição expirada, marcada para remoção.");
+        console.log("Subscrição expirada, marcada para remoção do KV.");
       } else {
         console.warn("Falha a enviar push:", e.message);
       }
@@ -598,11 +611,29 @@ async function checkAndNotify(allMatches, doFull){
     }
   }
 
+  // Remove entradas com mais de 3 dias — sem isto o notified-cache cresce
+  // durante todo o torneio sem nunca limpar jogos já muito antigos
+  const cutoff3d = Date.now() - 3 * 24 * 3600 * 1000;
+  Object.keys(cache).forEach(k => {
+    const ts = cache[k]?._savedAt;
+    if (ts && new Date(ts).getTime() < cutoff3d) delete cache[k];
+  });
   saveJSON(NOTIFIED_CACHE_FILE, cache);
-  if (deadEndpointsAll.size){
-    console.log(`${deadEndpointsAll.size} subscrição(ões) expirada(s) detectada(s) — limpeza no Cloudflare KV fica para uma próxima melhoria.`);
+  if (deadEndpointsAll.size && CLOUDFLARE_API_URL && CLOUDFLARE_ADMIN_TOKEN){
+    console.log(`🗑 ${deadEndpointsAll.size} subscrição(ões) expirada(s) — a remover do Cloudflare KV...`);
+    const crypto = require("crypto");
+    for (const ep of deadEndpointsAll){
+      const hash = "sub:" + crypto.createHash("sha256").update(ep).digest("hex");
+      try {
+        await fetch(`${CLOUDFLARE_API_URL}/subscription-delete`, {
+          method: "POST",
+          headers: { "Content-Type": "application/json", "X-Admin-Token": CLOUDFLARE_ADMIN_TOKEN },
+          body: JSON.stringify({ key: hash })
+        });
+        console.log("Subscrição morta removida:", hash.slice(0,12)+"...");
+      } catch(e) { console.warn("Falha ao remover subscrição do KV:", e.message); }
+    }
   }
-  // Cloudflare KV é a fonte principal de subscriptions. Não sobrescrevemos subscriptions.json aqui.
   if (sentAny) console.log("✅ Ciclo de notificações concluído.");
 }
 
