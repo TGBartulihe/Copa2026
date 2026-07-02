@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T01:30:31.373Z",
+  "generatedAt": "2026-07-02T01:31:34.835Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32970,6 +32970,12 @@
           "sub": "🇺🇸"
         },
         {
+          "min": "64'",
+          "icon": "🟥",
+          "txt": "Folarin Balogun (EUA) recebe cartão vermelho.",
+          "sub": "🇺🇸"
+        },
+        {
           "min": "63'",
           "icon": "▶️",
           "txt": "Jogo reiniciado",
@@ -32984,19 +32990,19 @@
         {
           "min": "63'",
           "icon": "▶️",
-          "txt": "Jogo reiniciado",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
           "sub": "🇺🇸"
         },
         {
           "min": "61'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a lesão de Folarin Balogun (EUA).",
           "sub": "🇺🇸"
         },
         {
           "min": "61'",
-          "icon": "⏸️",
-          "txt": "Jogo paralisado",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Tarik Muharemovic (Bósnia e Herzegovina).",
           "sub": "🇧🇦"
         },
         {
