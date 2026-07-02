@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T01:53:34.245Z",
+  "generatedAt": "2026-07-02T01:54:36.772Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32961,8 +32961,32 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "87'",
+      "clock": "88'",
       "events": [
+        {
+          "min": "88'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇺🇸. Substituição de Ricardo Pepi (Estados Unidos) aos 88'",
+          "sub": "🇺🇸"
+        },
+        {
+          "min": "87'",
+          "icon": "🔄",
+          "txt": "Substituição, 🇺🇸. Substitui Sergiño Dest por Sebastian Berhalter.",
+          "sub": "🇺🇸"
+        },
+        {
+          "min": "87'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇧🇦"
+        },
+        {
+          "min": "87'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇺🇸"
+        },
         {
           "min": "87'",
           "icon": "⏸️",
