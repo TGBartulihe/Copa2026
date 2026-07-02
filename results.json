@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T01:48:32.031Z",
+  "generatedAt": "2026-07-02T01:49:34.769Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32961,12 +32961,12 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "82'",
+      "clock": "83'",
       "events": [
         {
           "min": "82'",
           "icon": "⚽",
-          "txt": "Malik Tillman (EUA) Gol de falta com um finalização com o pé direito.",
+          "txt": "Malik Tillman (EUA) Gol de falta com um finalização com o pé direito ao ângulo superior esquerdo.",
           "sub": "🇺🇸"
         },
         {
@@ -33493,9 +33493,9 @@
           "wonCorners": "4",
           "saves": "3",
           "possessionPct": "52.1",
-          "totalShots": "6",
-          "shotsOnTarget": "1",
-          "shotPct": "0.2",
+          "totalShots": "7",
+          "shotsOnTarget": "2",
+          "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "307",
