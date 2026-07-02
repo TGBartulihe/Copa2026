@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T01:37:33.927Z",
+  "generatedAt": "2026-07-02T01:38:34.196Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32961,8 +32961,20 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "71'",
+      "clock": "72'",
       "events": [
+        {
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
+          "sub": "🇧🇦"
+        },
+        {
+          "min": "72'",
+          "icon": "▶️",
+          "txt": "Atraso acabou. Eles estão prontos para continuar.",
+          "sub": "🇺🇸"
+        },
         {
           "min": "69'",
           "icon": "⏸️",
@@ -33502,8 +33514,8 @@
           "accurateLongBalls": "8",
           "longballPct": "0.2",
           "blockedShots": "0",
-          "effectiveTackles": "10",
-          "totalTackles": "13",
+          "effectiveTackles": "11",
+          "totalTackles": "14",
           "tacklePct": "0.8",
           "interceptions": "6",
           "effectiveClearance": "21",
