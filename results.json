@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T00:24:33.462Z",
+  "generatedAt": "2026-07-02T00:25:31.633Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32961,7 +32961,7 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "24'",
+      "clock": "25'",
       "events": [
         {
           "min": "23'",
@@ -33053,17 +33053,17 @@
               "row": 1
             },
             {
-              "name": "Malik Tillman",
+              "name": "Tyler Adams",
               "pos": "CM",
               "row": 2
             },
             {
-              "name": "Tyler Adams",
+              "name": "Malik Tillman",
               "pos": "LM",
               "row": 2
             },
             {
-              "name": "Sergiño Dest",
+              "name": "Weston McKennie",
               "pos": "RM",
               "row": 2
             },
@@ -33078,7 +33078,7 @@
               "row": 3
             },
             {
-              "name": "Weston McKennie",
+              "name": "Sergiño Dest",
               "pos": "RF",
               "row": 3
             }
