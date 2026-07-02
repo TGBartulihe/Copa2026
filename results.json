@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T01:46:33.675Z",
+  "generatedAt": "2026-07-02T01:47:36.831Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32961,8 +32961,14 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "80'",
+      "clock": "81'",
       "events": [
+        {
+          "min": "80'",
+          "icon": "🟨",
+          "txt": "Stjepan Radeljic (Bósnia e Herzegovina) recebe cartão amarelo por uma entrada perigosa.",
+          "sub": "🇧🇦"
+        },
         {
           "min": "75'",
           "icon": "🔄",
@@ -33486,8 +33492,8 @@
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "306",
-          "totalPasses": "361",
+          "accuratePasses": "307",
+          "totalPasses": "362",
           "passPct": "0.8",
           "accurateCrosses": "3",
           "totalCrosses": "14",
@@ -33504,8 +33510,8 @@
           "totalClearance": "16"
         },
         "away": {
-          "foulsCommitted": "9",
-          "yellowCards": "0",
+          "foulsCommitted": "10",
+          "yellowCards": "1",
           "redCards": "0",
           "offsides": "0",
           "wonCorners": "3",
@@ -33517,7 +33523,7 @@
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
           "accuratePasses": "274",
-          "totalPasses": "341",
+          "totalPasses": "342",
           "passPct": "0.8",
           "accurateCrosses": "0",
           "totalCrosses": "5",
@@ -33530,8 +33536,8 @@
           "totalTackles": "15",
           "tacklePct": "0.8",
           "interceptions": "6",
-          "effectiveClearance": "22",
-          "totalClearance": "22"
+          "effectiveClearance": "24",
+          "totalClearance": "24"
         }
       },
       "round": "avos"
