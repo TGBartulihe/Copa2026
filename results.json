@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T00:18:06.278Z",
+  "generatedAt": "2026-07-02T00:18:32.384Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32963,6 +32963,18 @@
       "live": true,
       "clock": "18'",
       "events": [
+        {
+          "min": "18'",
+          "icon": "⏸️",
+          "txt": "Jogo paralisado",
+          "sub": "🇺🇸"
+        },
+        {
+          "min": "18'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Nikola Vasilj (Bósnia e Herzegovina).",
+          "sub": "🇧🇦"
+        },
         {
           "min": "6'",
           "icon": "▶️",
