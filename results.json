@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T01:32:31.557Z",
+  "generatedAt": "2026-07-02T01:33:31.766Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32961,18 +32961,18 @@
       "sa": 0,
       "done": false,
       "live": true,
-      "clock": "66'",
+      "clock": "67'",
       "events": [
-        {
-          "min": "64'",
-          "icon": "▶️",
-          "txt": "Jogo reiniciado",
-          "sub": "🇺🇸"
-        },
         {
           "min": "64'",
           "icon": "🟥",
           "txt": "Folarin Balogun (EUA) recebe cartão vermelho.",
+          "sub": "🇺🇸"
+        },
+        {
+          "min": "64'",
+          "icon": "▶️",
+          "txt": "Jogo reiniciado",
           "sub": "🇺🇸"
         },
         {
@@ -33443,20 +33443,20 @@
           "redCards": "1",
           "offsides": "1",
           "wonCorners": "4",
-          "saves": "1",
-          "possessionPct": "57.4",
+          "saves": "2",
+          "possessionPct": "56",
           "totalShots": "5",
           "shotsOnTarget": "1",
           "shotPct": "0.2",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "286",
-          "totalPasses": "336",
-          "passPct": "0.9",
+          "accuratePasses": "287",
+          "totalPasses": "338",
+          "passPct": "0.8",
           "accurateCrosses": "3",
           "totalCrosses": "14",
           "crossPct": "0.2",
-          "totalLongBalls": "30",
+          "totalLongBalls": "31",
           "accurateLongBalls": "13",
           "longballPct": "0.4",
           "blockedShots": "1",
@@ -33464,8 +33464,8 @@
           "totalTackles": "8",
           "tacklePct": "0.6",
           "interceptions": "7",
-          "effectiveClearance": "12",
-          "totalClearance": "12"
+          "effectiveClearance": "13",
+          "totalClearance": "13"
         },
         "away": {
           "foulsCommitted": "7",
@@ -33474,17 +33474,17 @@
           "offsides": "0",
           "wonCorners": "2",
           "saves": "0",
-          "possessionPct": "42.6",
-          "totalShots": "2",
-          "shotsOnTarget": "1",
-          "shotPct": "0.5",
+          "possessionPct": "44",
+          "totalShots": "3",
+          "shotsOnTarget": "2",
+          "shotPct": "0.7",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "196",
-          "totalPasses": "257",
+          "accuratePasses": "210",
+          "totalPasses": "272",
           "passPct": "0.8",
           "accurateCrosses": "0",
-          "totalCrosses": "3",
+          "totalCrosses": "4",
           "crossPct": "0.0",
           "totalLongBalls": "42",
           "accurateLongBalls": "8",
