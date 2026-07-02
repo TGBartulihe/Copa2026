@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T02:08:31.744Z",
+  "generatedAt": "2026-07-02T02:09:33.598Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -32419,13 +32419,13 @@
           "sub": "🇸🇳"
         },
         {
-          "min": "93'",
+          "min": "94'",
           "icon": "🔄",
           "txt": "Substituição, 🇸🇳. Entra El Hadji Malick Diouf para o lugar de Ismail Jakobs.",
           "sub": "🇸🇳"
         },
         {
-          "min": "93'",
+          "min": "94'",
           "icon": "🔄",
           "txt": "Substituição, 🇸🇳. Entra Nicolas Jackson substituindo Sadio Mané.",
           "sub": "🇸🇳"
@@ -32560,13 +32560,13 @@
           "min": "32'",
           "icon": "▶️",
           "txt": "Atraso acabou. Eles estão prontos para continuar.",
-          "sub": "🇸🇳"
+          "sub": "🇧🇪"
         },
         {
           "min": "32'",
           "icon": "▶️",
           "txt": "Atraso acabou. Eles estão prontos para continuar.",
-          "sub": "🇧🇪"
+          "sub": "🇸🇳"
         },
         {
           "min": "31'",
@@ -32596,16 +32596,16 @@
           "min": "27'",
           "icon": "⏸️",
           "txt": "Atraso na partida para uma pausa para bebidas.",
-          "sub": "🇸🇳"
+          "sub": "🇧🇪"
         },
         {
           "min": "27'",
           "icon": "⏸️",
           "txt": "Atraso na partida para uma pausa para bebidas.",
-          "sub": "🇧🇪"
+          "sub": "🇸🇳"
         },
         {
-          "min": "25'",
+          "min": "24'",
           "icon": "⚽",
           "txt": "Habib Diarra (Senegal) remate com o pé direito em frente à baliza ao centro da baliza.",
           "sub": "🇸🇳"
@@ -32893,14 +32893,14 @@
           "offsides": "2",
           "wonCorners": "4",
           "saves": "3",
-          "possessionPct": "52.2",
+          "possessionPct": "52.3",
           "totalShots": "19",
           "shotsOnTarget": "5",
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "1",
           "accuratePasses": "602",
-          "totalPasses": "699",
+          "totalPasses": "701",
           "passPct": "0.9",
           "accurateCrosses": "7",
           "totalCrosses": "26",
@@ -32909,9 +32909,9 @@
           "accurateLongBalls": "25",
           "longballPct": "0.5",
           "blockedShots": "5",
-          "effectiveTackles": "4",
+          "effectiveTackles": "5",
           "totalTackles": "12",
-          "tacklePct": "0.3",
+          "tacklePct": "0.4",
           "interceptions": "8",
           "effectiveClearance": "28",
           "totalClearance": "28"
@@ -32923,7 +32923,7 @@
           "offsides": "2",
           "wonCorners": "2",
           "saves": "3",
-          "possessionPct": "47.8",
+          "possessionPct": "47.7",
           "totalShots": "19",
           "shotsOnTarget": "5",
           "shotPct": "0.3",
@@ -32935,8 +32935,8 @@
           "accurateCrosses": "5",
           "totalCrosses": "22",
           "crossPct": "0.2",
-          "totalLongBalls": "83",
-          "accurateLongBalls": "33",
+          "totalLongBalls": "84",
+          "accurateLongBalls": "34",
           "longballPct": "0.4",
           "blockedShots": "3",
           "effectiveTackles": "4",
