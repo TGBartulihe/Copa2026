@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-02T02:51:31.938Z",
+  "generatedAt": "2026-07-02T02:52:31.894Z",
   "matches": [
     {
       "home": "Rep. Tcheca 🇨🇿",
@@ -33247,15 +33247,15 @@
         },
         {
           "min": "6'",
-          "icon": "🩹",
-          "txt": "Partida atrasada devido a uma lesão de Armin Gigovic (Bósnia e Herzegovina).",
-          "sub": "🇧🇦"
-        },
-        {
-          "min": "6'",
           "icon": "⏸️",
           "txt": "Jogo paralisado",
           "sub": "🇺🇸"
+        },
+        {
+          "min": "6'",
+          "icon": "🩹",
+          "txt": "Partida atrasada devido a uma lesão de Armin Gigovic (Bósnia e Herzegovina).",
+          "sub": "🇧🇦"
         },
         {
           "min": "",
@@ -33546,20 +33546,20 @@
           "shotPct": "0.3",
           "penaltyKickGoals": "0",
           "penaltyKickShots": "0",
-          "accuratePasses": "346",
+          "accuratePasses": "348",
           "totalPasses": "415",
           "passPct": "0.8",
           "accurateCrosses": "3",
           "totalCrosses": "14",
           "crossPct": "0.2",
-          "totalLongBalls": "46",
-          "accurateLongBalls": "18",
+          "totalLongBalls": "44",
+          "accurateLongBalls": "17",
           "longballPct": "0.4",
           "blockedShots": "2",
           "effectiveTackles": "8",
           "totalTackles": "12",
           "tacklePct": "0.7",
-          "interceptions": "9",
+          "interceptions": "8",
           "effectiveClearance": "27",
           "totalClearance": "27"
         },
@@ -33586,8 +33586,8 @@
           "accurateLongBalls": "12",
           "longballPct": "0.2",
           "blockedShots": "3",
-          "effectiveTackles": "13",
-          "totalTackles": "16",
+          "effectiveTackles": "12",
+          "totalTackles": "15",
           "tacklePct": "0.8",
           "interceptions": "8",
           "effectiveClearance": "28",
